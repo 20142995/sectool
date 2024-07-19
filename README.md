@@ -96,13 +96,13 @@
 #### Cast加解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线Cast加密解密、Cast在线加密解密、Cast encryption and decryption--查错网](http://tool.chacuo.net/cryptcast) 
 #### CryptoJS AES加解密
-- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [AES加解密工具,AES加密解密在线工具-在线工具箱](http://www.66zan.cn/aesencrypt/) 
+- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [www.66zan.cn](http://www.66zan.cn/aesencrypt/) 
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线AES加密 | AES解密 - 在线工具](https://www.sojson.com/encrypt_aes.html) 
 #### CryptoJS DES加解密
-- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [在线DES加密,DES解密工具-在线工具箱](http://www.66zan.cn/desencrypt/) 
+- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [www.66zan.cn](http://www.66zan.cn/desencrypt/) 
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线DES加密 | DES解密- 在线工具](https://www.sojson.com/encrypt_des.html) 
 #### CryptoJS RC4加解密
-- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [在线RC4加密,RC4解密工具-在线工具箱](http://www.66zan.cn/rc4encrypt/) 
+- <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [www.66zan.cn](http://www.66zan.cn/rc4encrypt/) 
 - <img src="https://favicon.qqsuu.cn/www.sojson.com" alt="" style="height: 20px;"> [在线RC4加密 | RC4解密- 在线工具](https://www.sojson.com/encrypt_rc4.html) 
 #### CryptoJS Rabbit加解密
 - <img src="https://favicon.qqsuu.cn/www.66zan.cn" alt="" style="height: 20px;"> [在线Rabbit加密,Rabbit解密工具-在线工具箱](http://www.66zan.cn/rabbitencrypt/) 
@@ -715,8 +715,8 @@
 ##### 在线辅助
 ###### DNSLOG平台
 - <img src="https://favicon.qqsuu.cn/ceye.io" alt="" style="height: 20px;"> [CEYE - Monitor service for security testing](http://ceye.io) 
-- <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [Server Error (500)](http://dnslog.pw/) 
-- <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [Server Error (500)](http://dnslog.pw/login) 
+- <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [登录 - DNSlog System](http://dnslog.pw/) 
+- <img src="https://favicon.qqsuu.cn/dnslog.pw" alt="" style="height: 20px;"> [登录 - DNSlog System](http://dnslog.pw/login) 
 - <img src="https://favicon.qqsuu.cn/eyes.sh" alt="" style="height: 20px;"> [登录](http://eyes.sh) 
 - <img src="https://favicon.qqsuu.cn/www.dnslog.cn" alt="" style="height: 20px;"> [DNSLog Platform](http://www.dnslog.cn) 
 - <img src="https://favicon.qqsuu.cn/app.interactsh.com" alt="" style="height: 20px;"> [Interactsh | Web Client](https://app.interactsh.com/#/) 
@@ -867,9 +867,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JNDI-Injection-Exploit v1.0](https://github.com/welk1n/JNDI-Injection-Exploit) JNDI注入测试工具（A tool which generates JNDI links can start ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DNSLog](https://github.com/BugScanTeam/DNSLog) DNSLog 是一款监控 DNS 解析记录和 HTTP 访问记录的工具。
 ##### 漏洞文库
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) 基于 docsify 快速部署 Awesome-POC 中的漏洞文档
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) 📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wiki](https://github.com/wy876/wiki) 漏洞文库 wiki.wy876.cn
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) 基于 docsify 快速部署 Awesome-POC 中的漏洞文档
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Awesome-POC](https://github.com/Threekiii/Awesome-POC) 一个漏洞POC知识库 目前数量 1000+
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FrameVul](https://github.com/Awrrays/FrameVul) POC集合，框架nday漏洞利用
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [my-re0-k8s-security](https://github.com/neargle/my-re0-k8s-security) :atom: [WIP] 整理过去的分享，从零开始的Kubernetes攻防 🧐
@@ -1183,7 +1183,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.51.206.11属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [52.234.40.19属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1361,8 +1361,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Web-SurvivalScan](https://github.com/AabyssZG/Web-SurvivalScan) 对Web渗透项目资产进行快速存活验证
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [waybackurls v0.1.0](https://github.com/tomnomnom/waybackurls) Fetch all the URLs that the Wayback Machine knows about for a do...
 #### 自动化信息收集
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rengine](https://github.com/yogeshojha/rengine) reNgine is an automated reconnaissance framework for web applications with ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nemo_go](https://github.com/hanc00l/nemo_go) Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rengine](https://github.com/yogeshojha/rengine) reNgine is an automated reconnaissance framework for web applications with ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ShuiZe_0x727 v1.0](https://github.com/0x727/ShuiZe_0x727) 信息收集自动化工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [linbing v3.0](https://github.com/taomujian/linbing) 本系统是对Web中间件和Web框架进行自动化渗透的一个系统,根据扫描选项去自动化收集资产,然后进行POC扫描,POC扫描时会根据指纹选择PO...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ARL](https://github.com/Aabyss-Team/ARL) ARL官方仓库备份项目：ARL(Asset Reconnaissance Lighthouse)资产侦察灯塔系统旨在快速侦察与目标关联的互联网资产，构建基础资...
@@ -1497,7 +1497,7 @@
 #### 后渗透框架
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [metasploit-framework](https://github.com/rapid7/metasploit-framework) Metasploit Framework
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CobaltStrike_Cat_4.5](https://github.com/TryGOTry/CobaltStrike_Cat_4.5) 猫猫Cs:基于Cobalt Strike[4.5]二开 (原dogcs二开移植)
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Villain](https://github.com/t3l3machus/Villain) Villain is a C2 framework that can handle multiple TCP socket & HoaxShell-b...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Villain](https://github.com/t3l3machus/Villain) Villain is a high level stage 0/1 C2 framework that can handle multiple TCP...
 #### 域渗透工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BloodHound v4.3.1](https://github.com/BloodHoundAD/BloodHound) Six Degrees of Domain Admin
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ShuiYing_0x727 V1.0](https://github.com/0x727/ShuiYing_0x727) 检测域环境内，域机器的本地管理组成员是否存在弱口令和通用口令，对域用户的权限分配以及域内委派查询
@@ -2446,13 +2446,13 @@
 - <img src="https://favicon.qqsuu.cn/bsrc.baidu.com" alt="" style="height: 20px;"> [百度安全应急响应中心](https://bsrc.baidu.com/views/main/index.html#home) 
 - <img src="https://favicon.qqsuu.cn/bugbounty.huawei.com" alt="" style="height: 20px;"> [华为安全奖励计划](https://bugbounty.huawei.com/#/home) 
 - <img src="https://favicon.qqsuu.cn/dida.butian.net" alt="" style="height: 20px;"> [补天 - 企业和白帽子共赢的漏洞响应平台，帮助企业建立SRC](https://dida.butian.net/) 
-- <img src="https://favicon.qqsuu.cn/dxysrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 丁香园安全应急响应中心（DXYSRC）](https://dxysrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/dxysrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台](https://dxysrc.vulbox.com/) 
 - <img src="https://favicon.qqsuu.cn/fsrc.fuiou.com" alt="" style="height: 20px;"> [404 Not Found](https://fsrc.fuiou.com/home/index.html) 
 - <img src="https://favicon.qqsuu.cn/isrc.pingan.com" alt="" style="height: 20px;"> [平安安全应急响应中心](https://isrc.pingan.com/homePage/index) 
 - <img src="https://favicon.qqsuu.cn/keep.huoxian.cn" alt="" style="height: 20px;"> [火线](https://keep.huoxian.cn/) 
-- <img src="https://favicon.qqsuu.cn/kysrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 金山云安全应急响应中心（KYSRC）](https://kysrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/kysrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台](https://kysrc.vulbox.com/) 
 - <img src="https://favicon.qqsuu.cn/llsrc.huolala.cn" alt="" style="height: 20px;"> [货拉拉安全应急响应中心](https://llsrc.huolala.cn/#/home) 
-- <img src="https://favicon.qqsuu.cn/lsrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 联想集团安全应急响应中心](https://lsrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/lsrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台](https://lsrc.vulbox.com/) 
 - <img src="https://favicon.qqsuu.cn/lxsrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 乐信集团安全应急响应中心](https://lxsrc.vulbox.com/) 
 - <img src="https://favicon.qqsuu.cn/megvii.huoxian.cn" alt="" style="height: 20px;"> [火线](https://megvii.huoxian.cn/) 
 - <img src="https://favicon.qqsuu.cn/niosrc.bugbank.cn" alt="" style="height: 20px;"> [安全应急响应中心](https://niosrc.bugbank.cn/) 
@@ -2541,7 +2541,7 @@
 - <img src="https://favicon.qqsuu.cn/src.zhaopin.com" alt="" style="height: 20px;"> [首页 | 智联招聘安全应急响应中心](https://src.zhaopin.com/) 
 - <img src="https://favicon.qqsuu.cn/src.zhipin.com" alt="" style="height: 20px;"> [BOSS直聘安全应急响应中心](https://src.zhipin.com/) 
 - <img src="https://favicon.qqsuu.cn/tdsrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 同盾安全应急响应中心](https://tdsrc.vulbox.com/) 
-- <img src="https://favicon.qqsuu.cn/weaversrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 泛微安全应急响应中心（WEAVERSRC）](https://weaversrc.vulbox.com/) 
+- <img src="https://favicon.qqsuu.cn/weaversrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 - 企业SRC，快速为企业建立SRC漏洞响应平台](https://weaversrc.vulbox.com/) 
 - <img src="https://favicon.qqsuu.cn/www.hikvision.com" alt="" style="height: 20px;"> [安全应急响应中心 - 服务支持 - 海康威视 Hikvision](https://www.hikvision.com/cn/support/CybersecurityCenter/) 
 - <img src="https://favicon.qqsuu.cn/www.niwodai.com" alt="" style="height: 20px;"> [首页](https://www.niwodai.com/sec/index.do) 
 - <img src="https://favicon.qqsuu.cn/www.seebug.org" alt="" style="height: 20px;"> [知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！](https://www.seebug.org/) 
