@@ -965,8 +965,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2024-01-03 22:18:35",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_message": "Fixes #5732",
-        "commit_date": "2024-06-17 17:03:39",
+        "commit_message": "Dummy update",
+        "commit_date": "2024-07-18 12:46:21",
         "release_date": "2024-01-03 22:20:06",
         "release_message": "Stable version 1.8 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.7...1.8))"
     },
@@ -18781,8 +18781,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_message": "R3CTF challs",
-        "commit_date": "2024-06-10 01:09:13"
+        "commit_message": "ImaginaryCTF challs",
+        "commit_date": "2024-07-19 21:42:50"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -24225,11 +24225,11 @@
         "release_message": "🎉🎉🎉"
     },
     "https://github.com/jeremylong/DependencyCheck": {
-        "created_at": "2024-05-15 09:29:26",
+        "created_at": "2024-07-16 10:39:46",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "build(deps): bump org.apache.maven.plugins:maven-javadoc-plugin from 3.6.3 to 3.7.0 (#6724)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-06-14 10:32:39",
-        "release_date": "2024-05-15 10:00:16",
+        "commit_message": "docs: remove old recommendation (#6860)",
+        "commit_date": "2024-07-19 11:54:34",
+        "release_date": "2024-07-16 11:14:16",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
     "https://github.com/mrknow001/API-Explorer": {
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.47.58属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.235.135.243属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 404,
-        "description": "Not Found"
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27135,7 +27135,7 @@
     },
     "https://hunter.io/": {
         "status_code": 200,
-        "description": "Find email addresses and send cold emails • Hunter"
+        "description": "Trouver des emails en quelques secondes • Hunter (Email Hunter)"
     },
     "https://www.wenshushu.cn/": {
         "status_code": 200,
@@ -27468,7 +27468,7 @@
         "commit_date": "2020-05-27 08:36:02"
     },
     "https://github.com/efchatz/pandora": {
-        "created_at": "2023-11-03 18:01:31",
+        "created_at": "2024-06-12 16:15:35",
         "description": "A red team tool that assists into extracting/dumping master credentials and/or entries from different password managers.",
         "commit_message": "Update README.md",
         "commit_date": "2024-06-12 16:15:35",
