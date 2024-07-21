@@ -16488,8 +16488,8 @@
     "https://github.com/snoopysecurity/awesome-burp-extensions": {
         "created_at": "2018-11-11 16:07:54",
         "description": "A curated list of amazingly awesome Burp Extensions",
-        "commit_date": "2023-12-14 16:06:58",
-        "commit_message": "Merge pull request #15 from soffensive/patch-1\n\nUpdate README.md",
+        "commit_date": "2024-07-16 22:49:59",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.107.210属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.102.210.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
