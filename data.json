@@ -228,8 +228,8 @@
     "https://github.com/gh0stkey/HaE": {
         "created_at": "2024-06-19 14:20:46",
         "description": "HaE - Highlighter and Extractor, Empower ethical hacker for efficient operations.",
-        "commit_date": "2024-06-19 14:20:46",
-        "commit_message": "Version: 3.2.2 Update",
+        "commit_date": "2024-07-18 16:24:04",
+        "commit_message": "Update README.md",
         "release_tag": "2.4.6",
         "release_date": "2024-06-19 14:32:06",
         "release_message": "## 更新内容\r\n\r\n1. 修复Databoard长时间查询界面错乱问题；\r\n2. 修复Databoard在Windows下复制截断问题；\r\n3. 修复Databoard查询数据数量随机问题；\r\n4. 优化Databoard清空数据逻辑；\r\n5. 优化HTTP消息处理逻辑。\r\n\r\n## 致谢信息\r\n\r\n1. 感谢1wtbb及时反馈问题并协助测试。"
@@ -23292,12 +23292,12 @@
         "release_message": "Bug fixes (#40/#41)\r\nUpdated nvidia docker config/images and flask-login"
     },
     "https://github.com/sulab999/AppMessenger": {
-        "created_at": "2024-05-24 03:17:02",
+        "created_at": "2024-06-14 07:26:32",
         "description": "一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、鸿蒙)辅助分析工具",
         "commit_message": "Update version",
-        "commit_date": "2024-06-14 07:26:32",
-        "release_date": "2024-06-14 07:25:42",
-        "release_message": "1、优化hap包解析"
+        "commit_date": "2024-07-04 06:57:41",
+        "release_date": "2024-07-04 06:56:45",
+        "release_message": "1、优化某加固反编译对抗\r\n2、新增几条加固特征"
     },
     "https://github.com/pandasec888/taowu-cobalt_strike": {
         "created_at": "2020-07-05 10:13:00",
@@ -26098,7 +26098,7 @@
         "description": "Open Source Cloud Native Application Protection Platform (CNAPP)",
         "commit_message": "Update docs",
         "commit_date": "2024-06-17 19:03:02",
-        "release_date": "2024-07-11 00:14:39",
+        "release_date": "2024-07-21 00:15:19",
         "release_message": ""
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
@@ -26252,8 +26252,8 @@
     "https://github.com/X1r0z/JNDIMap": {
         "created_at": "2023-11-06 12:42:03",
         "description": "JNDI 注入利用工具, 支持 RMI 和 LDAP 协议, 包含多种高版本 JDK 绕过方式 | A JNDI injection exploit tool that supports RMI and LDAP protocols, including a variety of methods to bypass higher-version JDK",
-        "commit_message": "feat: H2 JDBC 支持反弹 Shell\n\n1. H2 JDBC 的 Java 和 JavaScript 路由支持反弹 Shell\n2. 修改部分 Controller 的包名",
-        "commit_date": "2024-05-26 14:10:26"
+        "commit_message": "fix: ScriptEngine 利用方式兼容高版本 JDK\n\n在 ScriptEngine JavaScript payload 内使用 sun.misc.Unsafe.defineAnonymousClass 以兼容高版本 JDK, Fixed #4",
+        "commit_date": "2024-07-19 10:20:09"
     },
     "https://github.com/dzonerzy/goWAPT": {
         "created_at": "2017-12-05 19:32:43",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.87.243.40属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.236.120.25属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27972,12 +27972,12 @@
         "release_message": ""
     },
     "https://github.com/xnl-h4ck3r/GAP-Burp-Extension": {
-        "created_at": "2024-05-26 23:27:39",
+        "created_at": "2024-07-14 20:37:39",
         "description": "Burp Extension to find potential endpoints, parameters, and generate a custom target wordlist",
-        "commit_message": "v5.3 - see CHANGELOG.md",
-        "commit_date": "2024-05-26 23:27:39",
-        "release_date": "2024-05-26 23:30:41",
-        "release_message": "  - Changed\r\n\r\n    - Change `REGEX_JSNESTED` (used by the `Javascript variables and constants` option) to also get params from nested objects that start with `JSON.stringify(`."
+        "commit_message": "v5.4 - see CHANGELOG.md",
+        "commit_date": "2024-07-14 21:39:17",
+        "release_date": "2024-07-14 20:39:32",
+        "release_message": "- v5.4\r\n\r\n  - Changed\r\n\r\n    - BUG FIX: Change the `self.REGEX_LINKS` regex to also look for `.` within file names. If a file name is found that has a required extension, e.g. `.js` then the file name itself can also have a `.` in it, e.g. `chunk.1337.js`. Previously the regex would not have picked these up in certain situations.\r\n"
     },
     "https://github.com/nodauf/GoMapEnum": {
         "created_at": "2022-02-16 14:08:36",
@@ -28524,12 +28524,12 @@
         "commit_date": "2019-11-09 16:53:39"
     },
     "https://github.com/KOHGYLW/kiftd": {
-        "created_at": "2024-06-18 23:54:51",
+        "created_at": "2024-07-20 02:56:33",
         "description": "sky driver & cloud driver open source server application : kiftd . welcome to the home page: https://kohgylw.github.io/ to quick start——kiftd是一款专门面向个人、团队和小型组织的私有网盘系统。轻量、开源、完善。无论是在家庭、学校还是在办公室，您都能立刻开始使用它！了解更多请访问官方网站：",
-        "commit_message": "update to v1.2.0-release",
-        "commit_date": "2024-06-18 23:54:51",
-        "release_date": "2024-06-19 08:42:06",
-        "release_message": "### 新版本v1.2.0\r\n_本次更新增加了一些用户期待的新功能，并对已知的问题进行了修复，进一步增强kiftd的使用体验。推荐所有用户升级。_\r\n+ 文件体积的单位现在精确到Byte了。\r\n+ 新增了文件夹体积的统计功能，统计结果会显示在文件夹的“详细信息...”窗口中。\r\n+ 在账户配置中新增了“超级权限”设置，具备该权限的账户将无视权限和分组设定，可执行一切操作并可访问任何文件夹（包括“仅创建者”文件夹）。\r\n+ 新增了扩展存储区的移出功能，方便您在删除某个扩展存储区前，将其中的全部数据移出至本地文件夹内留档。\r\n+ 进一步完善了移动权限的安全性：当仅有移动“m”权限时，用户可执行“复制”操作；若同时具备删除“d”权限，才可以进行“剪切”操作。这一设计是为了避免使用者先将某个文件从一个原本不具备删除权限的文件夹内移动到一个具备删除权限的文件夹内再将其删除。\r\n+ 新增了导入账户设置项：在账户配置文件中，可通过“import.account=?”设置项为“文件”功能中的导入操作设定“创建者”。\r\n+ 进一步优化了图形界面下的“文件”功能：现在可以通过点击表头对文件列表进行排序了。\r\n+ 进一步优化了图形界面下的“文件”功能：现在双击文件列表中的文件可以快速预览它了。\r\n+ 进一步优化了命令模式下的“文件”功能：现在可以通过“ls -l”显示所有项目的详细信息了。\r\n+ 修复了某些情况下使用“文件”功能进行导入文件时可能出现“卡死”的问题。\r\n+ 其他一些细节优化。"
+        "commit_message": "update to v1.2.2-release",
+        "commit_date": "2024-07-20 02:56:33",
+        "release_date": "2024-07-20 03:10:08",
+        "release_message": "### 常规更新v1.2.2\r\n_本次更新为维护性的更新，修复一些已经发现的问题并优化使用体验，推荐所有用户升级。_\r\n+ 修复了“剪切-粘贴”功能中存在的一个漏洞。"
     },
     "https://github.com/0xrawsec/whids": {
         "created_at": "2021-02-25 22:07:36",
