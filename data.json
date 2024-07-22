@@ -1985,8 +1985,8 @@
         "release_message": "FindUrlAndRequest菜单功能更新\r\n新增2个菜单：CopyJsOfThisSite、ChangeToUploadRequest\r\n代码优化，修复多个bug\r\n将SQLMap和Nmap等执行命令的功能合并为 “run cmd”功能，支持添加自定义命令\r\nChineseTab重写，支持语法高亮和自动换行，方便阅读\r\n支持配置项搜索和多选操作"
     },
     "https://github.com/Giotino/stegsolve": {
-        "created_at": "2018-12-10 21:40:04",
-        "description": "",
+        "created_at": "2018-12-10 21:48:21",
+        "description": null,
         "commit_date": "2019-10-22 09:10:38",
         "commit_message": "Fixed Extract Data layout",
         "release_tag": "v1.4",
@@ -3049,7 +3049,7 @@
         "release_message": "### Bug Fixes\r\n\r\n* fix the error that the maximum length of http rule response body is 191 when using mysql ([bf8a43f](https://github.com/Li4n0/revsuit/commit/bf8a43fa875327c3191499a214c420bfa78334d0))\r\n"
     },
     "https://github.com/c0ny1/captcha-killer": {
-        "created_at": "2019-10-11 02:57:34",
+        "created_at": "2020-05-26 15:37:05",
         "description": "burp验证码识别接口调用插件",
         "commit_date": "2020-09-28 06:38:53",
         "commit_message": "添加文章《capatch-killer+机器学习识别验证码》文章地址",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.171.78.146属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.76.232属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
