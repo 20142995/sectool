@@ -1880,8 +1880,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2024-06-03 13:16:33",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "update docs",
-        "commit_date": "2024-07-13 15:35:28",
+        "commit_message": "Translated using Weblate (Portuguese) (#604)\n\nCurrently translated at 29.3% (132 of 450 strings)\r\n\r\nTranslation: Umi-OCR/UI\r\nTranslate-URL: https://hosted.weblate.org/projects/umi-ocr/ui/pt/",
+        "commit_date": "2024-07-21 17:45:43",
         "release_date": "2024-06-03 13:46:15",
         "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.2?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.2 主要更新\r\n\r\n- 新增：批量任务（图片、文档）支持 **暂停任务** 。只要不退出软件，在待机/休眠后可以恢复任务。\r\n- 新增：文档任务支持保存为 **单层纯文本PDF** 。\r\n- 新增：HTTP OCR接口 允许设置 **忽略区域** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#1-%E5%9B%BE%E7%89%87ocrbase64-%E8%AF%86%E5%88%AB%E6%8E%A5%E5%8F%A3)\r\n- 新增：HTTP 二维码接口 允许设置 **图像预处理** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#/api/qrcode)\r\n- 新增：命令行`--screenshot`允许 **指定屏幕范围** ，自动进行截图。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md#ocr%E6%8C%87%E4%BB%A4)\r\n- 修复：文档内容提取和写入时的坐标旋转、比例适配问题。\r\n- 修复：截图预览 & 记录面板中，跨区块复制文本时，尾块的复制字数不正确。\r\n- 修复：文档识别 整页强制OCR 模式下，无法进行任务。（2024.6.5紧急修复）\r\n- 优化：批量文档标签页，拖入大量文件、提交大批任务时的性能和流畅度。\r\n- 优化：文档任务保存的文件名规则。\r\n- UI：优化一些布局，调整一些文本，美化一些视觉效果。\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n#### Linux 用户：可尝试使用 [最新测试版本](https://github.com/hiroi-sora/Umi-OCR/releases)\r\n\r\n---\r\n\r\n新开通了赞助方式 [爱发电](https://afdian.net/a/hiroi-sora) ，有意愿的用户可以支持一下~\r\n\r\nUmi-OCR 保证始终 **开源** 和 **完全免费** 。所有需要付费/注册/关注才能下载的渠道均 **不是** 我们发布的渠道，请注意辨别。\r\n\r\n---\r\n\r\n### 配置文件迁移\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\n### 下载说明\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.2.7z.exe** （128.5MB）\r\nSHA256: `6dce23ea7f95a2ffb9415f8f5bb588df75ddf90abdcbbb972cc38fe2dbbfc70d`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.2.7z.exe** （97.1MB）\r\nSHA256: `879484ca912814702c30ba4dc0d9a5afff1ba0457c2fca2825ef7ea7adcde7b4`\r\n\r\n## 更多插件\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/)"
     },
@@ -2195,7 +2195,7 @@
         "created_at": "2024-01-31 00:46:17",
         "description": "一个漏洞POC知识库 目前数量 1000+",
         "commit_message": "update",
-        "commit_date": "2024-07-04 08:46:29",
+        "commit_date": "2024-07-18 02:44:11",
         "release_date": "2024-03-27 14:28:44",
         "release_message": "2023.04.01 重构目录，合并 [Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce) 与本仓库。此为合并前 release。"
     },
@@ -3427,12 +3427,12 @@
         "release_message": ""
     },
     "https://github.com/yogeshojha/rengine": {
-        "created_at": "2024-06-22 09:49:42",
+        "created_at": "2024-07-20 08:04:54",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_message": "Merge pull request #1308 from yogeshojha/1176-bug-error-creating-eyewitness-screenshots-with-a-non-standard-url\n\nAdded validators to validate URL fixes #1176",
-        "commit_date": "2024-07-14 11:22:59",
-        "release_date": "2024-06-22 09:50:52",
-        "release_message": "reNgine 2.1.0 :rocket: \r\n\r\n## What's Changed\r\n* ARM support\r\n* Add LLM Toolkit by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1259\r\n* use django-env by @fopina in https://github.com/yogeshojha/rengine/pull/1230\r\n* Add Lark to notifications. by @iuime in https://github.com/yogeshojha/rengine/pull/1137\r\n* Added restart: always to redis container by @null-ref-0000 in https://github.com/yogeshojha/rengine/pull/1275\r\n* Dockerfile cleanup: reduce image size 3x by @sa7mon in https://github.com/yogeshojha/rengine/pull/1212\r\n* Support for ARM-based platforms and remove obsolete composer version by @metehan-arslan in https://github.com/yogeshojha/rengine/pull/1242\r\n* Fix importing CIDR blocks by @pbehnke in https://github.com/yogeshojha/rengine/pull/1205\r\n* Added SAN extension to the generated certs by @michschl in https://github.com/yogeshojha/rengine/pull/1282\r\n* Release/2.1.0 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1147\r\n* Dockerfile Build Multiple Platforms by @vncloudsco in https://github.com/yogeshojha/rengine/pull/1210\r\n\r\n## New Contributors\r\n* @fopina made their first contribution in https://github.com/yogeshojha/rengine/pull/1230\r\n* @iuime made their first contribution in https://github.com/yogeshojha/rengine/pull/1137\r\n* @null-ref-0000 made their first contribution in https://github.com/yogeshojha/rengine/pull/1275\r\n* @sa7mon made their first contribution in https://github.com/yogeshojha/rengine/pull/1212\r\n* @metehan-arslan made their first contribution in https://github.com/yogeshojha/rengine/pull/1242\r\n* @pbehnke made their first contribution in https://github.com/yogeshojha/rengine/pull/1205\r\n* @michschl made their first contribution in https://github.com/yogeshojha/rengine/pull/1282\r\n* @vncloudsco made their first contribution in https://github.com/yogeshojha/rengine/pull/1210\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.0.6...v2.1.0"
+        "commit_message": "release 2.1.1",
+        "commit_date": "2024-07-20 08:04:54",
+        "release_date": "2024-07-20 08:11:16",
+        "release_message": "## What's Changed\r\n* fix xss on page title fix #1185 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1296\r\n* fix context key error #1263 #1209 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1294\r\n* fix xss on vulnerability description payloads #1262 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1298\r\n* (bug) fix screenshot csv parser #1299 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1300\r\n* (Security) Fixes #1202 bug risk of leaking the scan result files by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1301\r\n* Fix #1291 Refactor Makefiles for windows/linux to accomodate both v1 and v2 of docker compose by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1302\r\n* Fix custom_header to accept multiple headers using custom_headers by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1303\r\n* Handle hash in url, added navigation for Tabs, Fixes #1155 bug href link with html id does not link to the expected url by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1306\r\n* Optimize uninstall scripts to perform operations only related to reNgine Fixes # 1187 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1307\r\n* Added validators to validate URL fixes #1176 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1308\r\n* Fix LLM/langchain issue for fetching vulnerability report using local LLM model Fixed #1292  local model dont use fetch gpt vulnerability details by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1311\r\n* Fixes for Clocked and Periodic Scans Fix #1287 Fixes #1015 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1313\r\n* Fix Not able to add todo from All Subdomains Section Fixes #1310 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1314\r\n* Fix #1315 Fix for todo URLs not compatible with slugs by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1316\r\n* Fixes #1122 But in port service lookup that caused multiple entries of Port with same port number but different service name/description by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1317\r\n* Update contribution guidelines reference by @emmanuel-ferdman in https://github.com/yogeshojha/rengine/pull/1286\r\n\r\n## New Contributors\r\n* @emmanuel-ferdman made their first contribution in https://github.com/yogeshojha/rengine/pull/1286\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.1.0...v2.1.1"
     },
     "https://github.com/rootclay/WMIHACKER": {
         "created_at": "2020-07-02 06:57:25",
@@ -5180,8 +5180,8 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2024-01-02 10:43:14",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_message": "Prettified Code!",
-        "commit_date": "2024-07-08 07:35:53",
+        "commit_message": "upgrade fastjson2 to 2.0.52 #2498",
+        "commit_date": "2024-07-21 13:32:26",
         "release_date": "2024-01-02 14:06:57",
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/50?closed=1\r\n\r\n* arthas-spring-boot-starter support spring boot3. #2524\r\n* upgrade spring-boot 2 to 2.7.15, spring boot 3 to 3.1.7\r\n* upgrade bytekit to 0.0.9 (#2775)\r\n* fix not use arthasHome when constructing ArthasAgent(#2544)\r\n* fix AnsiLog static init may error. #2740\r\n* sysenv/sysprop command sorted by key #2619 (#2652)\r\n* upgrade bytebuddy to 1.14.11\r\n* UserStat support agentId (#2501)"
     },
@@ -6412,8 +6412,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_message": "yakit: Update to version 1.3.4-sp2",
-        "commit_date": "2024-07-01 16:32:12"
+        "commit_message": "afrog: Update to version 3.0.9",
+        "commit_date": "2024-07-21 16:32:31"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-08 05:50:33",
@@ -6496,12 +6496,12 @@
         "release_message": "# 更新日志\r\n\r\n- 优化了脚本流程，减少了部分代码\r\n- 增加了校验模块，根据PNG文件头校验是否为PNG图片\r\n- 新增宽高判断，对于宽高正常的PNG图片，做出提示\r\n- 无需再改后缀名，直接导出PNG后缀的文件"
     },
     "https://github.com/ImageMagick/ImageMagick": {
-        "created_at": "2024-06-23 15:34:28",
+        "created_at": "2024-07-14 12:33:07",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "Changes due to upgrade of libheif.",
-        "commit_date": "2024-07-11 19:19:15",
-        "release_date": "2024-06-23 20:47:31",
-        "release_message": "## What's Changed\n* Bump azure/trusted-signing-action from 0.3.18 to 0.3.19 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7348\n* Fix a typo in `convert` deprecation warning by @CvX in https://github.com/ImageMagick/ImageMagick/pull/7383\n* Bump azure/trusted-signing-action from 0.3.19 to 0.3.20 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7388\n* Updated FontConfig query to include font index, fixing (#7374) by @michaelgroves in https://github.com/ImageMagick/ImageMagick/pull/7409\n\n## New Contributors\n* @CvX made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7383\n* @michaelgroves made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7409\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-33...7.1.1-34"
+        "commit_message": "default to channels other than 1 & 4",
+        "commit_date": "2024-07-22 00:26:53",
+        "release_date": "2024-07-14 19:21:11",
+        "release_message": "**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-34...7.1.1-35"
     },
     "https://github.com/Ch1ngg/JWTPyCrack": {
         "created_at": "2019-09-05 07:55:21",
@@ -12882,8 +12882,8 @@
     "https://github.com/rapid7/metasploit-framework": {
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
-        "commit_message": "Bump version of framework to 6.4.17",
-        "commit_date": "2024-07-04 08:37:24"
+        "commit_message": "automatic module_metadata_base.json update",
+        "commit_date": "2024-07-19 17:55:31"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -22362,12 +22362,12 @@
         "release_message": ""
     },
     "https://github.com/xaoyaoo/PyWxDump": {
-        "created_at": "2024-07-18 15:04:07",
+        "created_at": "2024-07-21 01:13:44",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_message": "UPDATE CHANGELOG.md",
-        "commit_date": "2024-07-18 15:05:06",
-        "release_date": "2024-07-18 15:10:04",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.0.40\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
+        "commit_message": "Update version_list.json (#110)\n\nAdd 3.9.11.23\n\nSigned-off-by: chengnb <41337381+chengnb@users.noreply.github.com>",
+        "commit_date": "2024-07-21 18:30:26",
+        "release_date": "2024-07-21 01:17:33",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.0.41\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-11-15 03:33:53",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.131.102属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.37属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27259,7 +27259,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
+        "description": "用户认证 - 云短信 - 短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -28097,7 +28097,7 @@
         "created_at": "2024-04-25 09:47:00",
         "description": "绕过瑞数waf的动态验证机制，实现请求包重放，理论支持不同网站环境使用，如网页、小程序、APP等。",
         "commit_message": "update",
-        "commit_date": "2024-06-26 03:41:44",
+        "commit_date": "2024-06-30 03:38:56",
         "release_date": "2024-04-25 09:48:48",
         "release_message": "v2.1，此处不为最新版本，下载最新版本请直接git下载"
     },
@@ -28666,8 +28666,8 @@
     "https://github.com/DVKunion/SeaMoon": {
         "created_at": "2024-07-01 06:33:14",
         "description": "月海 (Sea Moon) 是一款 FaaS/BaaS 实现的 Serverless 网络工具",
-        "commit_message": "fix: change tecent api_gw to http sfc url  (#92)\n\n* chore: update LICENSE info\r\n\r\n* fix: tencent scf url",
-        "commit_date": "2024-07-01 06:33:14",
+        "commit_message": "chore: code format fix (#97)",
+        "commit_date": "2024-07-09 08:07:21",
         "release_date": "2024-07-01 06:40:39",
         "release_message": "# SeaMoon 2.0.1\r\n\r\n2.0.1 主要解决腾讯云的更新问题，以及一些其他的小修复\r\n\r\n## ❤️ What's New\r\n*  🔧 fix:  修正了ci打包时没有带上commit信息的问题\r\n*  🔧 fix：修正了一处编译错误\r\n* 🔧 fix：修复腾讯云弃用 api_gw 导致的触发器失败问题\r\n* 📝 chore：license 更新\r\n\r\n## What's Changed\r\n* 99adf1a fix: change tecent api_gw to http sfc url  (#92)\r\n* e933b3f fix: ci && structure changes (#85)\r\n* 6910fe3 fix: compile error (#86)\r\n\r\n**Full Changelog**: https://github.com/DVKunion/SeaMoon/compare/2.0.0...2.0.1"
     },
