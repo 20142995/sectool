@@ -24101,8 +24101,8 @@
     "https://github.com/tib36/PhishingBook": {
         "created_at": "2023-04-20 11:58:15",
         "description": "红蓝对抗：钓鱼演练资源汇总&备忘录",
-        "commit_date": "2024-06-02 06:44:38",
-        "commit_message": "日常整理",
+        "commit_date": "2024-07-17 07:31:41",
+        "commit_message": "日常更新",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.78.37属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.227.115.131属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27844,12 +27844,12 @@
         "release_message": "修复了部分服务器添加失败bug\r\n更换判断规则是否添加成功方式。\r\n有啥bug欢迎留言。"
     },
     "https://github.com/ngc660sec/NGCBot": {
-        "created_at": "2024-01-02 07:07:54",
+        "created_at": "2024-07-07 02:12:03",
         "description": "一个基于✨HOOK机制的微信机器人，支持🌱安全新闻定时推送【FreeBuf，先知，安全客，奇安信攻防社区】，👯Kfc文案，⚡备案查询，⚡手机号归属地查询，⚡WHOIS信息查询，🎉星座查询，⚡天气查询，🌱摸鱼日历，⚡微步威胁情报查询， 🐛美女视频，⚡美女图片，👯帮助菜单。📫 支持积分功能，⚡支持自动拉人，⚡检测广告，🌱自动群发，👯Ai回复，😄自定义程度丰富，小白也可轻松上手！",
-        "commit_message": "修复一处小Bug",
-        "commit_date": "2024-06-20 15:02:55",
-        "release_date": "2024-01-02 07:24:40",
-        "release_message": "### NGCBot V2.0龙年贺岁版更新！\r\n新增更多功能\r\n更快！更多！更全！\r\n最新请查看Readme\r\n\r\n### 注意：由于新版本采用不同框架，所以不能跟以前版本互通！！\r\n\r\n## 注意：请直接Git代码：https://github.com/ngc660sec/NGCBot.git\r\n## release只提供微信安装包\r\n\r\n"
+        "commit_message": "修复关键词进群一些问题",
+        "commit_date": "2024-07-21 08:30:30",
+        "release_date": "2024-07-15 08:33:08",
+        "release_message": "### 程序版本：NGCBot V2.1\r\n### 兼容微信：\r\n请查看当前 `wcferry` 包的版本\r\n-  `wcferry==39.0.12.0`：[WeChatSetup-3.9.2.23.exe](https://github.com/ngc660sec/NGCBot/releases/download/V2.0-%E9%BE%99%E5%B9%B4%E8%B4%BA%E5%B2%81%E7%89%88/WeChatSetup-3.9.2.23.exe)\r\n- `wcferry==39.2.4.0`：[WeChatSetup-3.9.10.27.exe](https://github.com/lich0821/WeChatFerry/releases/download/v39.2.4/WeChatSetup-3.9.10.27.exe)\r\n\r\n### 这里不提供代码，请直接Git使用！"
     },
     "https://github.com/JSREI/js-cookie-monitor-debugger-hook": {
         "created_at": "2023-08-04 03:36:35",
@@ -28126,8 +28126,8 @@
     "https://github.com/chasingboy/Xtools": {
         "created_at": "2023-07-12 05:42:55",
         "description": "Xtools 是一款 Sublime Text 插件，同时是一款简单的资产处理、命令行调用工具。",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-05-29 07:41:40"
+        "commit_message": "Update Xtools-Text.sublime-syntax",
+        "commit_date": "2024-07-18 13:30:15"
     },
     "https://github.com/offensive-security/exploitdb": {
         "created_at": "2013-12-03 18:50:07",
