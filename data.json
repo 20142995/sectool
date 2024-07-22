@@ -23576,7 +23576,7 @@
         "created_at": "2024-01-14 05:49:03",
         "description": "Nacos漏洞综合利用GUI工具，集成了默认口令漏洞、SQL注入漏洞、身份认证绕过漏洞、反序列化漏洞的检测及其利用",
         "commit_message": "Update README.md",
-        "commit_date": "2024-01-14 05:49:03",
+        "commit_date": "2024-07-19 04:09:36",
         "release_date": "2024-01-14 05:48:00",
         "release_message": "poc优化"
     },
@@ -25376,7 +25376,7 @@
         "commit_date": "2020-06-22 05:23:39"
     },
     "https://github.com/mzz2017/gg": {
-        "created_at": "2021-12-03 14:16:10",
+        "created_at": "2023-02-13 06:51:04",
         "description": "一个支持节点与订阅链接的 Linux 命令行代理工具 | A command-line tool for one-click proxy in your research and development without installing v2ray or anything else (only for linux)",
         "commit_message": "Update README_zh.md\n\nRemove mirror",
         "commit_date": "2023-11-21 10:37:30",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.159.137.228属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.171.78.146属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
