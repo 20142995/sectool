@@ -954,13 +954,13 @@
         "release_message": ""
     },
     "https://github.com/chaitin/xray": {
-        "created_at": "2023-04-12 07:23:36",
+        "created_at": "2024-07-10 06:28:59",
         "description": "一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档",
-        "commit_date": "2024-03-07 10:25:27",
-        "commit_message": "修复图片无效问题",
+        "commit_date": "2024-07-10 06:28:59",
+        "commit_message": "[add] 更新evilpot，修复大数计算bug，以及加法计算错误",
         "release_tag": "1.9.11",
-        "release_date": "2023-05-18 06:49:12",
-        "release_message": "### 版本介绍\r\n\r\n该版本为 用友NC NCMessageServlet反序列化漏洞 注入漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容\r\n\r\n想要检测该漏洞的师傅，可以使用\r\n\r\n`./xray ws --poc poc-yaml-yongyou-nc-ncmessageservlet-rce --url http://example.com`\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=92)"
+        "release_date": "2024-07-19 11:12:29",
+        "release_message": "## 更新日志\r\n\r\n**注意**：本次升级涉及较大配置文件变动。推荐在备份好原配置文件后删除旧文件，并根据新的 example 配置文件重新编写配置。如果未进行变更，系统会将配置文件进行备份，使用默认配置进行扫描。\r\n\r\n---\r\n\r\n### 修复问题\r\n\r\n1. **修复 Ctrl-C 无法中断扫描的问题**：\r\n    - 修复了在扫描过程中按 Ctrl-C 无法中断操作的问题，提升用户体验。\r\n\r\n### 优化改进\r\n\r\n1. **优化 debug 输出内容**：\r\n    - 改进了调试信息的输出格式，使信息更加明确和美观，便于调试和排查问题。\r\n\r\n2. **提高扫描性能，降低内存占用**：\r\n    - 修复 go html 库的 maxbuf 配置未导出导致的可能存在的内存溢出问题。\r\n    - 为响应数据的图标和标题增加了缓存机制，提升处理效率。\r\n    - 增加 HTML 解析的最大长度限制，防止解析过长数据导致的问题。\r\n    - 修复上游正则库中的垃圾回收（GC）问题，提升系统稳定性。\r\n    - 优化插件执行效率，使扫描过程更为高效。\r\n    - 优化缓存机制，减少内存使用量。\r\n\r\n### 新增功能\r\n\r\n1. **新增 example 配置文件，减少非常用配置变更带来的冲突问题**：\r\n    - 新版本 xray 2.0 系列工具会创建一个 example 文件，不再创建默认配置文件。用户可以复制 example 文件并去掉 example 后缀，然后修改其中内容。\r\n\r\n2. **YAML 插件变化**：\r\n    - 新增 `print` 函数：方便在调试场景下打印信息。\r\n    - 新增 `uuid` 函数：支持生成随机的 UUID。\r\n    - 新增 `format` 函数：支持格式化字符串，可以通过指定对齐字符、前缀和步进参数来调整字符串的显示样式。\r\n    - 新增 `bload` 函数：支持将字符串数据按照特定编码规则转换为字节序列。\r\n    - 新增 `gzip` 函数：支持对字符串或字节序列数据进行 GZIP 压缩。\r\n    - 新增 `decToHex` 函数：支持将十进制转换为十六进制。\r\n    - 在 YAML 插件中，定义变量时，下划线开头的变量将不会输出：\r\n        - 这样在输出时，JSON 中不会包含某些不希望输出的变量值。\r\n    - 增强 YAML 插件的鲁棒性，支持在函数中填写不同数据类型。所有只能填写字符串或字节的数据项，两者都可以填写，不再报错。\r\n    - 支持函数调用和方法调用两种方式，即 `func(v1,v2)` 和 `v1.func(v2)` 均可，不再报错。\r\n    - 修复 `icon` 函数，使其行为逻辑与 `getIconContent` 函数保持一致。\r\n    - udp/tcp的request支持获取addrType类型的参数\r\n\r\n3. **支持在未配置的情况下调用 dnslog.cn 进行漏洞检测**：\r\n    - 新增对 dnslog.cn 的支持，即使未进行相关配置也能使用该服务进行漏洞检测。\r\n\r\n### 其他改进\r\n\r\n1. **修复缓存和不合理的超时配置导致的扫描结果不稳定问题**：\r\n    - 改进缓存机制和超时配置，解决因配置不当导致的扫描结果不稳定问题。\r\n\r\n2. **为 group 命令添加 path 约定**：\r\n    - 为 `group` 命令添加路径约定，以便使用 `group` 文件的相对路径。在 `group` 中使用 `{{path}}` 将用 `group` 文件本身的路径替换该内容。\r\n\r\n3. **新特性：多目标输入支持多个 -t 参数**：\r\n    - 取消多目标输入时使用逗号分隔的方式，改为支持以多个 `-t` 输入多个目标，因为 URL 中可能存在逗号，避免冲突。"
     },
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2024-01-03 22:18:35",
@@ -22646,8 +22646,8 @@
     "https://github.com/nelenkov/android-backup-extractor": {
         "created_at": "2022-08-09 06:34:28",
         "description": "Android backup extractor",
-        "commit_date": "2024-02-22 08:03:14",
-        "commit_message": "Merge pull request #125 from ThexXTURBOXx/master\n\nRemove warnings, update dependencies, Gradle and fix build",
+        "commit_date": "2024-07-22 04:39:31",
+        "commit_message": "Merge pull request #131 from nelenkov/renovate/maven-org.bouncycastle-bcprov-jdk18on-vulnerability\n\nfix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.78 [security]",
         "release_tag": "master-20221109063121-8fdfc5e",
         "release_date": "2022-11-09 06:31:30",
         "release_message": null
@@ -23188,9 +23188,9 @@
     },
     "https://github.com/ybdt/exp-hub": {
         "created_at": "2020-09-03 04:47:40",
-        "description": "漏洞复现",
-        "commit_message": "整理",
-        "commit_date": "2024-04-14 02:41:28"
+        "description": "漏洞复现及武器化",
+        "commit_message": "1",
+        "commit_date": "2024-07-23 01:11:15"
     },
     "https://github.com/attacker-codeninja/wprecon": {
         "created_at": "2020-12-11 03:38:26",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.106.214属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.225属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
