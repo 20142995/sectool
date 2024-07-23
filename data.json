@@ -3222,7 +3222,7 @@
         "release_message": ""
     },
     "https://github.com/F6JO/RouteVulScan": {
-        "created_at": "2024-06-14 14:49:26",
+        "created_at": "2022-06-01 07:07:38",
         "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
         "commit_date": "2024-06-14 14:49:26",
         "commit_message": "update 1.5.4",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.196.243属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.54.146属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27103,7 +27103,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": ""
+        "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
