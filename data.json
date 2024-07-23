@@ -1861,12 +1861,12 @@
         "release_message": "1. 效果优化\r\n2. 现在可以自由选择tdm-gcc或者tcc生成loader"
     },
     "https://github.com/hanc00l/nemo_go": {
-        "created_at": "2024-07-02 07:59:26",
+        "created_at": "2024-07-19 06:10:46",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_message": "Update: 修复导入资产的一个影响速度的代码bug（不影响功能）",
-        "commit_date": "2024-07-18 08:24:50",
-        "release_date": "2024-07-02 08:25:48",
-        "release_message": "## v2.13.0\r\n\r\n2024-7-2\r\n\r\n### Update\r\n\r\n- 增加对部份任务的自动化测试（配合发布的nemo_test使用）\r\n- 集成基于[MiniChat](https://github.com/okhanyu/minichat)的轻量级团队在线沟通工具（支持消息、文件上传分享，关闭后自动销毁历史记录）\r\n- 增加对任务结果过滤的调整参数\r\n- 更新部份thirdparty和qqwry.dat\r\n\r\n### Thirdparty版本（更新）\r\n- \r\n- Httpx：1.6.2 （当前最新的1.6.5的无法正常屏幕截图）\r\n- Subfinder：2.6.6\r\n- Nuclei：3.2.9\r\n- Gogo: 2.13.1"
+        "commit_message": "Update：增加minichat可配置匿名访问",
+        "commit_date": "2024-07-19 06:10:46",
+        "release_date": "2024-07-19 06:25:03",
+        "release_message": "### Update\r\n\r\n- 增加ElasticSearch数据同步和查询（测试中）\r\n- 更新Minichat前端UI；可配置参数是否允许匿名使用。\r\n- 更新Httpx至1.6.6。"
     },
     "https://github.com/yuyan-sec/RedisEXP": {
         "created_at": "2024-06-10 07:29:58",
@@ -3831,7 +3831,7 @@
         "release_message": ""
     },
     "https://github.com/aquasecurity/kube-bench": {
-        "created_at": "2024-07-02 07:35:49",
+        "created_at": "2017-06-19 13:27:02",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
         "commit_message": "build(deps): bump golang from 1.22.2 to 1.22.4 (#1629)\n\nBumps golang from 1.22.2 to 1.22.4.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "commit_date": "2024-07-04 05:46:34",
@@ -3926,8 +3926,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2024-07-15 12:57:42",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "chore: request artifact in issue template (#1996)\n\n* chore: request artifact in issue template\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>\r\n\r\n* Apply suggestions from code review\r\n\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nSigned-off-by: William Murphy <willmurphyscode@users.noreply.github.com>\r\n\r\n* Update .github/ISSUE_TEMPLATE/bug_report.md\r\n\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\nSigned-off-by: William Murphy <willmurphyscode@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Will Murphy <will.murphy@anchore.com>\r\nSigned-off-by: William Murphy <willmurphyscode@users.noreply.github.com>\r\nCo-authored-by: Alex Goodman <wagoodman@users.noreply.github.com>",
-        "commit_date": "2024-07-18 21:17:06",
+        "commit_message": "chore(deps): bump github.com/docker/docker (#2000)\n\nBumps [github.com/docker/docker](https://github.com/docker/docker) from 27.0.3+incompatible to 27.1.0+incompatible.\r\n- [Release notes](https://github.com/docker/docker/releases)\r\n- [Commits](https://github.com/docker/docker/compare/v27.0.3...v27.1.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/docker/docker\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-07-22 15:43:47",
         "release_date": "2024-07-15 13:05:27",
         "release_message": "### Bug Fixes\n\n- correct logic checking cpe target software component against package type [[#1658](https://github.com/anchore/grype/pull/1658) @westonsteimel]\n\n### Additional Changes\n\n- update Syft to v1.9.0 [[#1986](https://github.com/anchore/grype/pull/1986) @anchore-actions-token-generator]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.79.2...v0.79.3)**\n\n"
     },
@@ -5898,12 +5898,12 @@
         "release_message": ""
     },
     "https://github.com/github/codeql-cli-binaries": {
-        "created_at": "2024-06-27 17:26:34",
+        "created_at": "2024-07-11 09:22:51",
         "description": "Binaries for the CodeQL CLI",
-        "commit_message": "Update CHANGELOG.md",
-        "commit_date": "2024-06-27 17:26:34",
-        "release_date": "2024-06-27 17:30:17",
-        "release_message": "### New features\r\n\r\n- Beta support is now available for analyzing C# codebases without needing a working build. To use\r\n  this, pass the `--build-mode none` option to `codeql database create`.\r\n\r\n### Improvements\r\n\r\n- The `--model-packs` option is now publicly available. This option allows commands like `codeql database analyze`\r\n  to accept a list of model packs that are used to augment the analysis of all queries involved in the analysis.\r\n\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.17.6`](https://github.com/github/codeql/tree/codeql-cli/v2.17.6).\r\n"
+        "commit_message": "Merge pull request #178 from github/angelapwen/2.18.0-changelog\n\nAdd entry for CLI v2.18.0",
+        "commit_date": "2024-07-11 09:22:51",
+        "release_date": "2024-07-11 09:26:56",
+        "release_message": "### Breaking changes\r\n\r\n- A number of breaking changes have been made to the C and C++ CodeQL\r\n  environment:\r\n  - The environment no longer defines any GNU-specific builtin macros.\r\n    If these macros are still needed, please define them via\r\n    `semmle-extractor-options`.\r\n  - The `--force-recompute` option is no longer directly supported by\r\n    `semmle-extractor-options`. Instead, `--edg --force-recompute`\r\n    should be specified.\r\n  - The `--gnu_version` and `--microsoft_version` options that can be\r\n    specified via `semmle-extractor-options` are now synonyms, and only\r\n    one should be specified as part of `semmle-extractor-options`.\r\n    Furthermore,  is also no longer possible to specify these options\r\n    via the following syntax.\r\n\r\n    - `--edg --gnu_version --edg <version number>`, and\r\n    - `--edg --microsoft_version --edg <version number>`\r\n\r\n    The shorter `--gnu_version <version number>` and\r\n    `--microsoft_version <version number>` should be used.\r\n- The `--build_error_dir` and `--predefined_macros` command line options\r\n  have been removed from the C/C++ extractor. It has never been possible\r\n  to pass these options through the CLI, but some customers with advanced\r\n  setups may have been passing them through internal undocumented interfaces.\r\n  Passing the option `--build_error_dir` did not have any effect, and it\r\n  is safe to remove the option. The `--predefined_macros` option should\r\n  have been unnecessary, as long as the extractor was invoked with the\r\n  `--mimic` option.\r\n\r\n### Regressions\r\n\r\n- Compilation of QL queries is about 30% slower than in previous releases. This\r\n  only affects users who write custom queries, and only at compilation time, not \r\n  at run time. This regression will be fixed in the upcoming 2.18.1 release.\r\n\r\n### Improvements\r\n\r\n- Introduced the `--include-logs` option to the `codeql database bundle`\r\n  command. This new feature allows users to include logs in the generated\r\n  database bundle, allowing for a more complete treatment of the bundle, and\r\n  bringing the tool capabilities up-to-speed with the documentation.\r\n- Extract `.xsaccess`, `*.xsjs` and `*.xsjslib` files for SAP HANA XS as\r\n  Javascript.\r\n\r\n### Bugs fixed\r\n\r\n- Where a MacOS unsigned binary cannot be signed, CodeQL will now continue\r\n  trying to trace compiler invocations created by that process and its\r\n  children. In particular this means that Bazel builds on MacOS are now\r\n  traceable.\r\n- Fixed a bug where test discovery would fail if there is a syntax error in a\r\n  qlpack file. Now, a warning message will be printed and discovery will\r\n  continue.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.18.0`](https://github.com/github/codeql/tree/codeql-cli/v2.18.0).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
         "created_at": "2019-02-21 01:03:39",
@@ -21943,8 +21943,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Broken relative links after migration",
-        "commit_date": "2024-07-18 18:52:01",
+        "commit_message": "Update `com.github.luben:zstd-jni` to version `1.5.6-4` (#2761)",
+        "commit_date": "2024-07-22 15:27:39",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -24233,12 +24233,12 @@
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
     "https://github.com/mrknow001/API-Explorer": {
-        "created_at": "2024-06-26 05:07:32",
-        "description": "API接口管理工具(目前内置微信公众号、微信小程序、企业微信、飞书等)",
+        "created_at": "2024-07-11 05:52:31",
+        "description": "API接口管理工具(目前内置微信公众号、微信小程序、企业微信、飞书、钉钉等)",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-26 05:47:01",
-        "release_date": "2024-06-26 05:09:16",
-        "release_message": "**v2.0.0更新内容**\r\n\r\n1. 更新飞书接口，使用ApiInfo2.0.db数据库，不过也兼容原来的数据库文件\r\n2. 增加自定义接口，可运用于私有化环境\r\n\r\n**TIPS**\r\n打包exe分两版\r\n一个是文件大启动速度快(zip)\r\n一个是文件小启动速度慢(exe)\r\nPS：Python通病，实在想不到什么办法打包出来的exe又快又小\r\n用不起的改下兼容性，改成win7或者win8\r\n\r\n需要将写好接口配置的数据库放在程序同目录下，数据库下载链接：https://github.com/mrknow001/API-Explorer/blob/main/ApiInfo2.0.db\r\n\r\n**Full Changelog**: https://github.com/mrknow001/API-Explorer/compare/v2.0.0...v2.0.0"
+        "commit_date": "2024-07-11 13:25:46",
+        "release_date": "2024-07-11 05:57:28",
+        "release_message": "v2.1.0更新内容\r\n\r\n1. 增加代理功能\r\n2. 修复已知bug\r\n\r\nTIPS\r\n打包exe分两版\r\n一个是文件大启动速度快(zip)\r\n一个是文件小启动速度慢(exe)\r\nPS：Python通病，实在想不到什么办法打包出来的exe又快又小\r\n用不起的改下兼容性，改成win7或者win8\r\n\r\n需要将写好接口配置的数据库放在程序同目录下，数据库下载链接：https://github.com/mrknow001/API-Explorer/blob/main/ApiInfo2.0.db"
     },
     "https://github.com/x364e3ab6/AWVS-13-SCAN-PLUS": {
         "created_at": "",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25392,8 +25392,8 @@
     "https://github.com/deepfence/SecretScanner": {
         "created_at": "2024-04-25 13:56:48",
         "description": ":unlock: :unlock: Find secrets and passwords in container images and file systems :unlock: :unlock:",
-        "commit_message": "update config and remove dead code",
-        "commit_date": "2024-07-11 08:24:31",
+        "commit_message": "fi import (#128)",
+        "commit_date": "2024-07-15 06:28:37",
         "release_date": "2024-04-30 10:42:55",
         "release_message": ""
     },
@@ -25828,8 +25828,8 @@
     "https://github.com/securego/gosec": {
         "created_at": "2024-05-14 13:36:59",
         "description": "Go security checker",
-        "commit_message": "chore(deps): update dependency babel-standalone to v7.24.8",
-        "commit_date": "2024-07-15 07:13:59",
+        "commit_message": "Resolve underlying type to detect overflows in type aliases",
+        "commit_date": "2024-07-20 08:06:43",
         "release_date": "2024-05-14 13:42:29",
         "release_message": "## Changelog\n* 6fbd381 Catch os.ModePerm permissions in os.WriteFile\n* dc5e5a9 Add a unit test to detect the false negative in rule G306 for os.ModePerm permissions\n* 417a44c Add filepath.EvalSymlinks to clean functions in rule G304\n* d34f8b7 chore(deps): update all dependencies\n* 8658b8e Update Go to version 2.22.3 in CI and release\n* d3b2359 chore(deps): update module golang.org/x/text to v0.15.0\n* cf29d54 chore(deps): update all dependencies\n* 09d62bd chore(deps): update module github.com/onsi/gomega to v1.33.0\n* 3b23ec8 Update to go 1.22.2\n* 31009c3 chore(deps): update all dependencies\n* daf6f67 chore(deps): update module github.com/onsi/ginkgo/v2 to v2.17.1\n* e27f442 chore(deps): update all dependencies\n* 5513615 fix(helpers/goversion): get from go.mod\n* 43b8b75 chore: fix function name\n* accd7a1 chore(deps): update all dependencies\n* 48aa72e Format the imports using the gci tool\n* b6df69c Fixup: delete unused variable\n* ccb0a08 Fix test: update test to comply with the spec of generated sources\n* 3a0ea51 Refactor: use standard function to check if a file is generated\n* 11c3252 Fix lint warnings\n* be378e6 Add support for math/rand/v2 added in Go 1.22\n* 36878a9 Skip the G601 tests for Go version 1.22\n* 903c75b Update go version to 1.22.1 and 1.21.8\n* f25ccd9 Ignore 'implicit memory aliasing' rule for Go 1.22+\n* 582e91a chore(deps): update all dependencies\n* 198a40c chore(deps): update module golang.org/x/tools to v0.18.0\n* c824a5d fix(hardcoded): remove duplicated `Stripe API Key`\n* d13d7da Update gosec version to v2.19.0 in the Github action\n\n"
     },
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.76.232属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.196.243属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27103,7 +27103,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": "站长工具_whois查询工具_爱站网"
+        "description": ""
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
@@ -27259,7 +27259,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "用户认证 - 云短信 - 短信接收"
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -27502,8 +27502,8 @@
     "https://github.com/google/tsunami-security-scanner": {
         "created_at": "2024-04-29 13:08:59",
         "description": "Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.",
-        "commit_message": "Add hashes to requirements.txt file and require them for the advanced quick start shell script.\n\nPiperOrigin-RevId: 649414192\nChange-Id: I664d211bd16ad472a4bb735941230008ef847d27",
-        "commit_date": "2024-07-04 14:59:18",
+        "commit_message": "Various language server improvements\n\n- Refactor (redundant code removed)\n- Parsing options via CliOptionsModule (instead of manually)\n- Support for multiple remote language servers\n- Support for customizing the RPC deadline for each plugin server (either local or remote)\n\nPiperOrigin-RevId: 650904806\nChange-Id: I8b2488d794712e30f55f8adfa4656cfdcff76259",
+        "commit_date": "2024-07-10 08:13:26",
         "release_date": "2024-04-29 13:28:19",
         "release_message": "- Add an option to the HTTP client to be able to specify a custom user-agent;\r\n- Compatibility improvements."
     },
