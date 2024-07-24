@@ -2622,7 +2622,7 @@
         "release_message": ""
     },
     "https://github.com/maurosoria/dirsearch": {
-        "created_at": "2013-04-30 15:57:40",
+        "created_at": "2022-10-04 05:43:00",
         "description": "Web path scanner",
         "commit_message": "Merge pull request #1373 from drego85/patch-16\n\nAdded \"sign\" and Sort",
         "commit_date": "2024-05-11 11:29:28",
@@ -26388,12 +26388,12 @@
         "release_message": "Major update opensource version SmartCheck.\r\n\r\nWhat's new:\r\n- synced version with online tool https://tool.smartdec.ru/\r\n- updated rules pack with support of custom rules\r\n- results in .xml format"
     },
     "https://github.com/infobyte/faraday": {
-        "created_at": "2024-05-23 19:27:32",
+        "created_at": "2024-07-17 13:36:27",
         "description": "Open Source Vulnerability Management Platform",
         "commit_message": "Front Updated",
-        "commit_date": "2024-05-23 18:08:42",
-        "release_date": "2024-05-23 19:34:56",
-        "release_message": " * [MOD] Modified parameters for interactive swagger. #7610\n * [ADD] Add services and host endoints that retrives all the information that the users has access. #7503\n * [FIX] Revised the references fetching strategy to enhance memory usage during CSV export. #7712\n * [FIX] Fixed creation of vuln from template. #7711\n * [MOD] Modify version of libraries accordingly to dependabot findings. #7691\n * [ADD] Add vuln endoint that retrives all the objects that the users has access. #7521\n"
+        "commit_date": "2024-07-17 11:13:55",
+        "release_date": "2024-07-17 13:44:43",
+        "release_message": " * [ADD] Implemented Elasticsearch vulnerability ingest from Faraday for comprehensive statistical analysis. #7723\n * [ADD] Implemented workspace update functionality for changes to vulnerabilities, assets, and services. Introduced debouncer logic to prevent redundant updates to the database.#7688\n * [ADD] Added ping timeout, ping interval and logger parameters on faraday server config. #7740\n * [MOD] Changed session_timeout in config to float to allow for fractions of hours. #7737\n * [FIX] Improved SID logic to prevent inconsistencies when the server resets. Also fixed a bug where SIDs were removed using faraday-manage. #7744\n * [FIX] Improved workspaces performance. #7756\n * [FIX] Fix filtering numerical Custom Attributes with some operators. #7759\n * [DEL] Delete unnecessary websocket_port number for default server.ini configuration files. #7729\n"
     },
     "https://github.com/0xsauby/yasuo": {
         "created_at": "2014-09-25 06:20:08",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.114.212属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.42.106.77属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27302,8 +27302,8 @@
         "description": "十大网盘搜索引擎 - 凌风云"
     },
     "https://censys.io/": {
-        "status_code": 200,
-        "description": "Attack Surface Management and Threat Hunting Solutions | Censys"
+        "status_code": 503,
+        "description": "Site is offline"
     },
     "https://www.whois.com/whois/": {
         "status_code": 200,
