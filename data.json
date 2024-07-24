@@ -16748,7 +16748,7 @@
     "https://github.com/f0ng/JavaFileDict": {
         "created_at": "2022-04-26 07:12:56",
         "description": "Java应用的一些配置文件字典，来源于公开的字典与平时收集",
-        "commit_date": "2022-04-26 15:18:29",
+        "commit_date": "2024-02-01 14:45:36",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -23462,7 +23462,7 @@
         "release_message": ""
     },
     "https://github.com/yichensec/yichen_Password_dictionary": {
-        "created_at": "2022-12-02 16:31:52",
+        "created_at": "2022-12-02 16:34:09",
         "description": "逸尘的字典  渗透测试个人专用的字典，搜索网上，及自己平常收集的一些路径，其中信息包括HVV中常见的各大厂商的弱密码，web常见漏洞测试，会遇到的邮箱，密码，服务弱口令，中间件，子域名，漏洞路径，账户密码，等等，这些内容都是基于本人在实战中收集到的，其中包含Github上公布的密码字典整合，堪称最经典的字典，用这个足以满足日常src，渗透测试，资产梳理，红蓝对抗等前期探测工作。",
         "commit_date": "2023-07-16 09:54:52",
         "commit_message": "Update README.md",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.89.141属于美国 伊利诺斯 芝加哥 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.227.14.131属于美国 德克萨斯 达拉斯 Level3_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
