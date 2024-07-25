@@ -12126,13 +12126,13 @@
         "release_message": ""
     },
     "https://github.com/A-D-Team/grafanaExp": {
-        "created_at": "2024-03-28 08:42:15",
+        "created_at": "2024-07-12 14:14:10",
         "description": "A exploit tool for Grafana Unauthorized arbitrary file reading vulnerability (CVE-2021-43798), it can burst plugins / extract secret_key / decrypt data_source info automatic.",
-        "commit_date": "2024-03-28 08:42:15",
-        "commit_message": "fix bug and rebuild it",
+        "commit_date": "2024-07-12 14:14:10",
+        "commit_message": "change go-sqlite3 to \"github.com/glebarez/sqlite\"\n\"gorm.io/gorm\"",
         "release_tag": "V1.1",
-        "release_date": "2024-03-28 08:46:27",
-        "release_message": "1. fix macos binary\r\n2. add windows / darwin_arm binary\r\n3. fix code path error"
+        "release_date": "2024-07-12 14:17:28",
+        "release_message": "修复 sqlite3 报错： Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work.\r\n改用：\r\n``` \r\n\"github.com/glebarez/sqlite\"\r\n\"gorm.io/gorm\"\r\n```"
     },
     "https://github.com/wudicainiao/proxyshell-for-exchange_workload": {
         "created_at": "2021-08-25 06:06:28",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.190.111.171属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.49.54.9属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
