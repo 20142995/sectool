@@ -1050,12 +1050,12 @@
         "release_message": "## What's Changed\r\n* refactor: reduce setOptions function call by @ninoseki in https://github.com/ninoseki/mitaka/pull/805\r\n* Renew neverthrow integration by @ninoseki in https://github.com/ninoseki/mitaka/pull/806\r\n* feat: add reachability check by @ninoseki in https://github.com/ninoseki/mitaka/pull/807\r\n* Refactoring by @ninoseki in https://github.com/ninoseki/mitaka/pull/812\r\n* v2.1.1 by @ninoseki in https://github.com/ninoseki/mitaka/pull/813\r\n\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.1.0...v2.1.1"
     },
     "https://github.com/v2rayA/v2rayA": {
-        "created_at": "2024-06-21 11:53:32",
+        "created_at": "2024-07-16 02:52:08",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
-        "commit_message": "ci: fix Docker image tag uploading",
-        "commit_date": "2024-07-10 13:05:12",
-        "release_date": "2024-06-21 12:17:16",
-        "release_message": "## What's Changed\n* chore(deps): bump golang.org/x/net from 0.18.0 to 0.23.0 in /service by @dependabot in https://github.com/v2rayA/v2rayA/pull/1381\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.5.5...v2.2.5.6"
+        "commit_message": "aur: remove 'armv6h' in PKGBUILD (#1449)",
+        "commit_date": "2024-07-16 08:31:13",
+        "release_date": "2024-07-16 02:56:35",
+        "release_message": "## What's Changed\n* aur: remove armv6 of v2raya-bin by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1447\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.5.7...v2.2.5.8"
     },
     "https://github.com/silentsignal/burp-text4shell": {
         "created_at": "2022-10-18 15:08:41",
@@ -1067,13 +1067,13 @@
         "release_message": "Initial release"
     },
     "https://github.com/Yong-An-Dang/nuclei-plus": {
-        "created_at": "2024-06-26 15:18:44",
+        "created_at": "2024-07-18 06:36:58",
         "description": "Functional enhancement based on nuclei",
-        "commit_date": "2024-06-26 15:32:59",
-        "commit_message": "Release v7.1.7",
+        "commit_date": "2024-07-22 03:28:37",
+        "commit_message": "修复问题：#10\n\n新建项目或打开项目时，出现多个系统托盘的bug",
         "release_tag": "v7.0.0",
-        "release_date": "2024-06-26 15:22:41",
-        "release_message": "### ⭐ 优化\r\n- 运行终端（Running Panel）优化（字体及输出）\r\n- 模板编辑面板优化，自动识别文件编码，避免模板文件编码不一致导致的乱码现\r\n- 优化初始配置参（终端字体大小及行间距）\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.1.4...v7.1.7"
+        "release_date": "2024-07-18 09:41:42",
+        "release_message": "### 🐛 修复\r\n- 修复启动报错：目录创建失败 #30\r\n- \r\n### ⭐ 优化\r\n- 模板同步接口中模板内容的content字段使用Base64编解码\r\n- 优化模板加载与过滤\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.3.2...v7.3.5"
     },
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2024-03-07 09:30:14",
@@ -3856,12 +3856,12 @@
         "release_message": "BBScan 3.0"
     },
     "https://github.com/anchore/syft": {
-        "created_at": "2020-05-07 18:19:29",
+        "created_at": "2024-07-11 17:32:43",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_message": "Infer the package type from ELF package notes (#3008)\n\n* fix ELF package types to be honored\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n* prefer OS packages over binary packages when there are duplicates\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Alex Goodman <wagoodman@users.noreply.github.com>",
-        "commit_date": "2024-07-02 20:07:08",
-        "release_date": "2024-06-24 15:51:42",
-        "release_message": "### Added Features\n\n- Add CycloneDX 1.6 Support [[#2974](https://github.com/anchore/syft/issues/2974) [#2978](https://github.com/anchore/syft/pull/2978) @ragaskar]\n\n### Bug Fixes\n\n- Fixed the detection of arangodb 3.12 [[#2979](https://github.com/anchore/syft/pull/2979) @LaurentGoderre]\n- Syft tries to create the cache directory at a location that has no permission [[#2984](https://github.com/anchore/syft/issues/2984) [#2985](https://github.com/anchore/syft/pull/2985) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.7.0...v1.8.0)**\n\n"
+        "commit_message": "python-cataloger: fix normalization test (#3073)\n\nSigned-off-by: mikcl <mikesmikes400@gmail.com>",
+        "commit_date": "2024-07-25 19:45:14",
+        "release_date": "2024-07-11 17:39:39",
+        "release_message": "### Added Features\n\n- Add detection of Erlang in Alpine linux [[#2996](https://github.com/anchore/syft/pull/2996) @LaurentGoderre]\n- Add version 3 support for swift package manager of the resolved files [[#3001](https://github.com/anchore/syft/pull/3001) @4ell0]\n- Map the downloadLocation field for PHP Composer packages [[#3011](https://github.com/anchore/syft/pull/3011) @LaurentGoderre]\n\n### Bug Fixes\n\n- Infer the package type from ELF package notes [[#3008](https://github.com/anchore/syft/pull/3008) @wagoodman]\n- Order CPEs deterministically for SBOM reproducibility [[#2967](https://github.com/anchore/syft/issues/2967) [#3009](https://github.com/anchore/syft/pull/3009) @spiffcs]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.8.0...v1.9.0)**\n\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2024-07-16 02:16:54",
@@ -5644,8 +5644,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2024-07-09 02:55:43",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_message": "plugin https2http&https2https: return 421 if host not match sni (#4323)",
-        "commit_date": "2024-07-09 02:50:16",
+        "commit_message": "client plugin: added plugin tls2raw (#4341)",
+        "commit_date": "2024-07-25 06:28:17",
         "release_date": "2024-07-09 03:04:23",
         "release_message": "### Features\n\n* Added a new plugin \"http2http\" which allows forwarding HTTP requests to another HTTP server, supporting options like local address binding, host header rewrite, and custom request headers.\n* Added `enableHTTP2` option to control whether to enable HTTP/2 in plugin https2http and https2https, default is true.\n\n### Changes\n\n* Plugin https2http & https2https: return 421 `Misdirected Request` if host not match sni.\n\n"
     },
@@ -5962,8 +5962,8 @@
     "https://github.com/zema1/suo5": {
         "created_at": "2024-04-28 11:07:36",
         "description": "一款高性能 HTTP 代理隧道工具 | A high-performance http proxy tunneling tool",
-        "commit_message": "fix: wails build",
-        "commit_date": "2024-07-01 13:21:43",
+        "commit_message": "fix: invalid header when ',' is in header value (#64)\n\nissue: #63",
+        "commit_date": "2024-07-17 04:51:40",
         "release_date": "2024-04-30 12:02:01",
         "release_message": "Server 端从这里获取 https://github.com/zema1/suo5/tree/v1.2.0/assets ，不同版本的 Server 端请不要混用，否则会有不兼容连不上的问题\r\n\r\n> 带 gui 的版本是界面版，不带 gui 的为命令行版\r\n> 所有编译由 Github Action 自动构建并自动上传，请放心使用\r\n\r\n### 修复\r\n\r\n- 修复部分网站 `TLS` 连接失败的问题  #55 \r\n- 更新部分依赖至最新版"
     },
@@ -8579,7 +8579,7 @@
         "release_message": ""
     },
     "https://github.com/PyCQA/bandit": {
-        "created_at": "2024-06-12 22:17:21",
+        "created_at": "2018-04-26 09:08:12",
         "description": "Bandit is a tool designed to find common security issues in Python code.",
         "commit_date": "2024-07-22 14:41:27",
         "commit_message": "Bump docker/build-push-action from 6.3.0 to 6.5.0 (#1160)\n\nBumps [docker/build-push-action](https://github.com/docker/build-push-action) from 6.3.0 to 6.5.0.\r\n- [Release notes](https://github.com/docker/build-push-action/releases)\r\n- [Commits](https://github.com/docker/build-push-action/compare/1a162644f9a7e87d8f4b053101d1d9a712edc18c...5176d81f87c23d6fc96624dfdbcd9f3830bbe445)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: docker/build-push-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: Eric Brown <ericwb@users.noreply.github.com>",
@@ -12883,7 +12883,7 @@
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
         "commit_message": "automatic module_metadata_base.json update",
-        "commit_date": "2024-07-19 17:55:31"
+        "commit_date": "2024-07-25 13:38:18"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -22607,12 +22607,12 @@
         "release_message": "- 开发框架由.Net Framework 4.0切换为.Net 8\r\n- 采用R2R发布,运行环境已集成到exe中\r\n- 界面上的细小调整\r\n- SHA1: 2AAF1F0DFB7C2ABA175475D834CFCC48A3BB79A8\r\n\r\n由于框架跨度较大，可能会存在BUG。欢迎提交issue"
     },
     "https://github.com/yqcs/prismx": {
-        "created_at": "2024-07-13 13:30:39",
+        "created_at": "2024-07-16 09:06:16",
         "description": ":: 棱镜 X · 自动化企业网络安全风险检测、漏洞扫描工具。",
-        "commit_message": "优化图片",
-        "commit_date": "2024-07-16 09:06:16",
-        "release_date": "2024-07-13 14:07:32",
-        "release_message": " -优化远程控制程序被误报毒问题\r\n- 优化 UI 界面\r\n- 新增 POC & EXP\r\n- 优化邮件测试功能\r\n本次更新无需替换数据库，但为了良好体验，仍建议替换数据库文件"
+        "commit_message": "1.3.1发布",
+        "commit_date": "2024-07-25 15:53:17",
+        "release_date": "2024-07-25 12:35:55",
+        "release_message": "- 新增一键升级功能，以后不用再每次重新下载安装啦\r\n- 优化Mail测试功能\r\n- 优化扫描功能\r\n- 优化Nuclei引擎\r\n 本次更新需重新下载数据库文件"
     },
     "https://github.com/TomSchimansky/CustomTkinter": {
         "created_at": "2021-03-04 17:24:00",
@@ -23684,8 +23684,8 @@
     "https://github.com/sensepost/gowitness": {
         "created_at": "2023-10-29 11:00:04",
         "description": "🔍 gowitness - a golang, web screenshot utility using Chrome Headless",
-        "commit_date": "2024-07-15 13:18:06",
-        "commit_message": "(feat) bump dependencies",
+        "commit_date": "2024-07-23 10:13:21",
+        "commit_message": "(chore) bump deps",
         "release_tag": "",
         "release_date": "2023-10-29 11:11:30",
         "release_message": "## What's Changed\r\n* html a-tag unclosed bug fixed by @gorgiaxx in https://github.com/sensepost/gowitness/pull/187\r\n* Fix database file path location parser by @mr-pmillz in https://github.com/sensepost/gowitness/pull/188\r\n* fix: typo by @testwill in https://github.com/sensepost/gowitness/pull/201\r\n* (fix) MarshalJSON spells with one \"l\" by @alexandear in https://github.com/sensepost/gowitness/pull/198\r\n* Fixing the missing port issue with Nessus  by @quentinpraz in https://github.com/sensepost/gowitness/pull/191\r\n\r\n## New Contributors\r\n* @gorgiaxx made their first contribution in https://github.com/sensepost/gowitness/pull/187\r\n* @mr-pmillz made their first contribution in https://github.com/sensepost/gowitness/pull/188\r\n* @testwill made their first contribution in https://github.com/sensepost/gowitness/pull/201\r\n* @alexandear made their first contribution in https://github.com/sensepost/gowitness/pull/198\r\n* @quentinpraz made their first contribution in https://github.com/sensepost/gowitness/pull/191\r\n\r\n**Full Changelog**: https://github.com/sensepost/gowitness/compare/2.5.0...2.5.1\r\n\r\n```\r\n1edfe2209731e68621006b3cc0376d6a4b97e85e  gowitness-2.5.1-darwin-amd64\r\n3c817d57d704a3de1dcb084a59b77e684dddb154  gowitness-2.5.1-darwin-arm64\r\n19c75086ac90ae2891f24fa89d76c84748eb3d06  gowitness-2.5.1-linux-amd64\r\n105ecb560afccd5f29fe1d748c32862848f556df  gowitness-2.5.1-linux-arm64\r\ne893957658f560911864eeecec606c0cd9ea8e05  gowitness-2.5.1-linux-armv7\r\n32315a0b50ccd4e28b941a4b0121200b6625eb9e  gowitness-2.5.1-windows-amd64.exe\r\n```"
@@ -23978,8 +23978,8 @@
     "https://github.com/MvsCode/frps-onekey": {
         "created_at": "2024-06-26 06:20:34",
         "description": "frp server configuration deploy&manage script (frp服务端安装&管理脚本)",
-        "commit_date": "2024-06-26 06:20:34",
-        "commit_message": "Merge pull request #112 from mvscode/dev\n\nDev",
+        "commit_date": "2024-07-24 06:32:12",
+        "commit_message": "Merge pull request #114 from mvscode/dev\n\nDev",
         "release_tag": "v0.53.2",
         "release_date": "2024-07-15 06:09:12",
         "release_message": "[frp_0.59.0_linux_amd64.tar.gz](https://github.com/user-attachments/files/16230526/frp_0.59.0_linux_amd64.tar.gz)\r\n"
@@ -25412,8 +25412,8 @@
     "https://github.com/leondz/garak": {
         "created_at": "2024-05-10 13:22:31",
         "description": "LLM vulnerability scanner",
-        "commit_message": "add missing comma, extra test case in probes.test.Test (#797)",
-        "commit_date": "2024-07-23 20:50:05",
+        "commit_message": "add mitigation strings, add test for string-based mitigation skipping (#762)\n\n* add mitigation strings, add test for string-based mitigation skipping\r\n\r\n* add mock attempt prompt\r\n\r\nSigned-off-by: Jeffrey Martin <jemartin@nvidia.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Jeffrey Martin <jemartin@nvidia.com>\r\nCo-authored-by: Jeffrey Martin <jemartin@nvidia.com>",
+        "commit_date": "2024-07-25 15:08:38",
         "release_date": "2024-05-10 13:41:33",
         "release_message": "## What's Changed\r\n\r\ngarak's 1st birthday! 🎂\r\n\r\nHeadlines in this birthday release:\r\n* Multimodal support! LLaVa + FigStep - HUGE thanks to @DavidLee528 \r\n* LiteLLM generator support - thanks to @Tien-Cheng!\r\n* DoNotAnswer probe for prompts an LLM should decline - thanks to @AhsanAyub!\r\n* LangChain Serve generator support - thanks to @GustavFredrikson!\r\n* Support for NIM generators, NVIDIA Inference Microservices\r\n* OpenAI abstraction with parallelisation support\r\n* Windows compatibility enhanced, with optional testing in the workflow\r\n* Hugging Face speedup\r\n\r\n### plugins\r\n* LiteLLM generator by @Tien-Cheng in https://github.com/leondz/garak/pull/572\r\n* Support for using 'langchain serve' endpoints by @GustavFredrikson in https://github.com/leondz/garak/pull/588\r\n* Enable parallel OpenAI calls by @jmartin-tech in https://github.com/leondz/garak/pull/645\r\n* Multi-modal Jailbreaking Attack on LLaVA by @DavidLee528 in https://github.com/leondz/garak/pull/587\r\n* bump openai module version to match paths in latest litellm by @leondz in https://github.com/leondz/garak/pull/664\r\n* generator: NIM by @leondz in https://github.com/leondz/garak/pull/637\r\n* Probe: Do Not Answer by @AhsanAyub in https://github.com/leondz/garak/pull/608\r\n\r\n### architecture\r\n* change supported pythons to 3.10-3.12 by @leondz in https://github.com/leondz/garak/pull/503\r\n* add more detailed TAP docs by @leondz in https://github.com/leondz/garak/pull/504\r\n* add multiple-result aggregator by @leondz in https://github.com/leondz/garak/pull/505\r\n* add post buff hook by @erickgalinkin in https://github.com/leondz/garak/pull/506\r\n* Add fleshed-out docs to all probes by @leondz in https://github.com/leondz/garak/pull/507\r\n* add bibtex under citation info in readme by @leondz in https://github.com/leondz/garak/pull/511\r\n* define broad test, all probes, 1 gen per by @leondz in https://github.com/leondz/garak/pull/514\r\n* Feature/taxonomy payloads by @leondz in https://github.com/leondz/garak/pull/519\r\n* include paraphrasing in broad conf by @leondz in https://github.com/leondz/garak/pull/521\r\n* choose whether buffing will also include the original prompt by @leondz in https://github.com/leondz/garak/pull/523\r\n* add config var for capping max # buffed prompts to add per buff by @leondz in https://github.com/leondz/garak/pull/526\r\n* document Probe.probe(); skip a buff hook if no buffs by @leondz in https://github.com/leondz/garak/pull/527\r\n* add type hints to base.Probe; fix base probe rst by @leondz in https://github.com/leondz/garak/pull/528\r\n* Bump datasets package by @shubhobm in https://github.com/leondz/garak/pull/536\r\n* Add ConversationalPipeline for huggingface models by @erickgalinkin in https://github.com/leondz/garak/pull/539\r\n* add generator for supporting openai module v0.x by @leondz in https://github.com/leondz/garak/pull/553\r\n* Update README.md by @erickgalinkin in https://github.com/leondz/garak/pull/558\r\n* Minor typo in FAQ by @jmartin-tech in https://github.com/leondz/garak/pull/562\r\n* Add additional error message when __doc__ is None type by @DavidLee528 in https://github.com/leondz/garak/pull/566\r\n* shared constant & string literal by @jmartin-tech in https://github.com/leondz/garak/pull/571\r\n* Spelling corrections for multiple locations by @jmartin-tech in https://github.com/leondz/garak/pull/564\r\n* Reduce Huggingface GPU utilization by @erickgalinkin in https://github.com/leondz/garak/pull/567\r\n* skip `verbose` flag in secondary parser by @jmartin-tech in https://github.com/leondz/garak/pull/576\r\n* Added project twitter link and corrected a grammatic error by @codebrain001 in https://github.com/leondz/garak/pull/578\r\n* Convert GGML to expect GGUF format by @jmartin-tech in https://github.com/leondz/garak/pull/581\r\n* Update workflows: CLA asst bump, PR & manual testing by @leondz in https://github.com/leondz/garak/pull/591\r\n* add test de-duping using skip-duplicate-actions by @leondz in https://github.com/leondz/garak/pull/597\r\n* Remove `#!` entries from files not intended as executables by @jmartin-tech in https://github.com/leondz/garak/pull/612\r\n* Further align shebangs with code that has executable entry points by @leondz in https://github.com/leondz/garak/pull/613\r\n* interactive mode intro by @leondz in https://github.com/leondz/garak/pull/614\r\n* add tests for `ggml` generator by @jmartin-tech in https://github.com/leondz/garak/pull/618\r\n* add var for generator context_len and populate this for some generators by @leondz in https://github.com/leondz/garak/pull/616\r\n* allow generators.Base.generate() to take an optional param specifying generation count by @leondz in https://github.com/leondz/garak/pull/600\r\n* Enable windows tests as github action by @jmartin-tech in https://github.com/leondz/garak/pull/626\r\n* add on-demand macos testing by @leondz in https://github.com/leondz/garak/pull/631\r\n* macOS test install from correct path by @jmartin-tech in https://github.com/leondz/garak/pull/633\r\n* consolidate test file cleanup by @jmartin-tech in https://github.com/leondz/garak/pull/634\r\n* bump discord link by @leondz in https://github.com/leondz/garak/pull/648\r\n* meta the arguments a bit for GET vs other request types by @jmartin-tech in https://github.com/leondz/garak/pull/640\r\n\r\n### stability\r\n* fail gracefully if nvcf rejects input; compact zalgo prompts by @leondz in https://github.com/leondz/garak/pull/509\r\n* log & skip past NVCF 4xx errors by @leondz in https://github.com/leondz/garak/pull/533\r\n* fix empty autodan prompts & poor detector behaviour by @leondz in https://github.com/leondz/garak/pull/534\r\n* Fix AutoDAN issues by @erickgalinkin in https://github.com/leondz/garak/pull/537\r\n* fix bad nonetype handling in atkgen probe by @leondz in https://github.com/leondz/garak/pull/538\r\n* Division by zero error fixed in HTML report generation by @CoderMayhem in https://github.com/leondz/garak/pull/545\r\n* cap cohere lib version by @leondz in https://github.com/leondz/garak/pull/569\r\n* rm deprecated model from example by @leondz in https://github.com/leondz/garak/pull/575\r\n* Attack fixes by @erickgalinkin in https://github.com/leondz/garak/pull/555\r\n* More regex as string literal by @jmartin-tech in https://github.com/leondz/garak/pull/586\r\n* Bugfix/action dedupe by @leondz in https://github.com/leondz/garak/pull/598\r\n* wrap cli exec to gracefully catch keyboard exit signal by @jmartin-tech in https://github.com/leondz/garak/pull/603\r\n* Enforce warning output for `garak` classes. by @jmartin-tech in https://github.com/leondz/garak/pull/605\r\n* bump hf transformers v to avoid transformers#30076 by @leondz in https://github.com/leondz/garak/pull/636\r\n* update avidtools to remove typing reference by @jmartin-tech in https://github.com/leondz/garak/pull/639\r\n* torch v bump by @leondz in https://github.com/leondz/garak/pull/649\r\n* Pause FigStepTiny by @leondz in https://github.com/leondz/garak/pull/652\r\n* Bugfix/visual jailbreak pause by @leondz in https://github.com/leondz/garak/pull/653\r\n* limit push test to main by @jmartin-tech in https://github.com/leondz/garak/pull/661\r\n* Update MANIFEST.in so all resources are installed by @JKL98ISR in https://github.com/leondz/garak/pull/660\r\n* handle extant but closed `hitlogfile` file by @leondz in https://github.com/leondz/garak/pull/665\r\n\r\n\r\n## New Contributors\r\n* @CoderMayhem made their first contribution in https://github.com/leondz/garak/pull/545\r\n* @jmartin-tech made their first contribution in https://github.com/leondz/garak/pull/562\r\n* @codebrain001 made their first contribution in https://github.com/leondz/garak/pull/578\r\n* @Tien-Cheng made their first contribution in https://github.com/leondz/garak/pull/572\r\n* @GustavFredrikson made their first contribution in https://github.com/leondz/garak/pull/588\r\n* @JKL98ISR made their first contribution in https://github.com/leondz/garak/pull/660\r\n* @AhsanAyub made their first contribution in https://github.com/leondz/garak/pull/608\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.12...v0.9.0.13"
     },
@@ -25428,8 +25428,8 @@
     "https://github.com/google/oss-fuzz": {
         "created_at": "2016-07-20 19:39:50",
         "description": "OSS-Fuzz - continuous fuzzing for open source software.",
-        "commit_message": "Add libzip to GraphicsMagick build (#12239)\n\nAdd libzip to GraphicsMagick build and anchor the base directory.",
-        "commit_date": "2024-07-17 22:05:30"
+        "commit_message": "llamacpp: add load model fuzzer (#12274)\n\nSigned-off-by: David Korczynski <david@adalogics.com>",
+        "commit_date": "2024-07-25 20:30:06"
     },
     "https://github.com/nmalcolm/Inventus": {
         "created_at": "2017-08-28 11:48:02",
@@ -25583,7 +25583,7 @@
         "created_at": "2024-05-23 07:16:14",
         "description": "1、点击“检测漏洞”，会自动检测该URL是否存在S2-001、S2-005、S2-009、S2-013、S2-016、S2-019、S2-020/021、S2-032、S2-037、DevMode、S2-045/046、S2-052、S2-048、S2-053、S2-057、S2-061、S2相关log4j2十余种漏洞。  2、“批量验证”，（为防止批量geshell，此功能已经删除，并不再开发）。  3、S2-020、S2-021仅提供漏洞扫描功能，因漏洞利用exp很大几率造成网站访问异常，本程序暂不提供。  4、对于需要登录的页面，请勾选“设置全局Cookie值”，并填好相应的Cookie，程序每次发包都会带上Cookie。  5、作者对不同的struts2漏洞测试语句做了大量修改，执行",
         "commit_message": "Update README.md",
-        "commit_date": "2024-07-11 12:30:56",
+        "commit_date": "2024-07-15 05:52:37",
         "release_date": "2024-07-11 11:51:42",
         "release_message": "2024.06.10 新增S2 Log4j2漏洞的完整利用过程。\r\n2024.06.09 新增S2-052、S2-053漏洞的手工利用功能。\r\n2024.06.08 新增添加多个http消息头的功能，以应对JWT、HttpBasic等鉴权字段的场景。\r\n2024.06.07 更正添加请求头有多余空格的bug。\r\n2024.06.06 修正User-Agent: Java/1.8.0_181的流量特征。\r\n2024.06.05 更正S2-048漏洞的检测逻辑。"
     },
@@ -25630,8 +25630,8 @@
     "https://github.com/Mr-xn/RedTeam_BlueTeam_HW": {
         "created_at": "2020-12-07 13:15:49",
         "description": "红蓝对抗以及护网相关工具和资料，内存shellcode（cs+msf）和内存马查杀工具",
-        "commit_message": "Update hw相关项目.md\n\nadd EvilPot: 一个专门用于让扫描器产生误报的靶场(蜜罐)",
-        "commit_date": "2024-07-04 12:07:31"
+        "commit_message": "Merge pull request #7 from safe1ine/patch-1\n\nadd safeline",
+        "commit_date": "2024-07-15 11:18:51"
     },
     "https://github.com/eth-sri/securify2": {
         "created_at": "2020-01-22 15:03:58",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.49.54.9属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "23.96.249.172属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27086,8 +27086,8 @@
         "description": "微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区"
     },
     "https://www.yougetsignal.com/tools/web-sites-on-web-server/": {
-        "status_code": 200,
-        "description": "Reverse IP Lookup - Find Other Web Sites Hosted on a Web Server"
+        "status_code": 523,
+        "description": "www.yougetsignal.com | 523: Origin is unreachable"
     },
     "https://reverseip.domaintools.com/": {
         "status_code": 200,
@@ -27103,7 +27103,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": "站长工具_whois查询工具_爱站网"
+        "description": ""
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
@@ -27298,8 +27298,8 @@
         "description": "登录"
     },
     "https://www.lingfengyun.com/": {
-        "status_code": 522,
-        "description": ""
+        "status_code": 200,
+        "description": "十大网盘搜索引擎 - 凌风云"
     },
     "https://censys.io/": {
         "status_code": 200,
