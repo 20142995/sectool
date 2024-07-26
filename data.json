@@ -25278,8 +25278,8 @@
         "description": "天融信阿尔法实验室"
     },
     "https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck": {
-        "status_code": 504,
-        "description": "504 Gateway Time-out"
+        "status_code": 200,
+        "description": "( ͡° ͜ʖ ͡°)fuck - Esolang"
     },
     "https://tool.bugku.com/brainfuck": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.51.206.98属于美国 弗吉尼亚 斯特灵 微软云_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.76.119.4属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
