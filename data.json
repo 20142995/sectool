@@ -235,7 +235,7 @@
         "release_message": "## 更新内容\r\n\r\nHaE 3.3（暨中孚信息元亨实验室**三周年纪念版**）更新内容如下。\r\n\r\n### 功能更新\r\n\r\n1. 新增AI+功能（**实验性**），通过调用阿里（Qwen-Long）和月之暗面（moonshot-v1-128k）的AI大模型API，优化HaE匹配结果。\r\n2. 新增作用域功能，在Config - Setting中可以设置HaE的作用域，可以选择想要高亮提取的模块。\r\n\r\n### 问题修复\r\n\r\n1. 修复Databoard长时间使用卡顿问题。\r\n2. 修复HaE在暗黑主题下加载的Logo颜色问题。\r\n3. 修复项目数据导入、导出提示框过大问题。"
     },
     "https://github.com/kelvinBen/AppInfoScanner": {
-        "created_at": "2020-07-22 01:19:17",
+        "created_at": "2022-10-23 08:30:23",
         "description": "一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。",
         "commit_date": "2022-12-18 11:33:34",
         "commit_message": "Merge pull request #30 from kelvinBen/v1.0.9.1\n\nadd \"识别到壳后自动进行脱壳处理\"",
@@ -23778,13 +23778,13 @@
         "release_message": ""
     },
     "https://github.com/smallfox233/JsonExp": {
-        "created_at": "2023-08-18 11:22:23",
+        "created_at": "2024-07-12 02:35:46",
         "description": "fastjson漏洞批量检测工具",
-        "commit_date": "2023-08-18 11:22:23",
-        "commit_message": "v1.4.0",
+        "commit_date": "2024-07-12 02:35:46",
+        "commit_message": "Update Readme.md",
         "release_tag": "v1.4.0",
-        "release_date": "2023-08-18 11:38:48",
-        "release_message": "\r\n感谢师傅[guanglianniubi](https://github.com/guanglianniubi)及[charis3306](https://github.com/charis3306)提供的建议\r\n\r\n更新内容如下：\r\n1. 新增--dnslog参数，可申请dnslog资源进行检测（需挂全局代理，且对发包速度有影响）\r\n2. 为了防止编号冲突，将编号更换为了7-9位随机参数数字+字母\r\n3. 若使用--dnslog参数时，触发了dnslog，将输出/result/xxx_dnslog.html文件用于展示结果\r\n"
+        "release_date": "2024-07-12 02:36:38",
+        "release_message": "更新内容如下：\r\n1. 从版本1.4.1开始，代码开源\r\n2. 修复导入请求包txt时，发送请求仅第一个报文正常其余报文参数被删的问题\r\n3. 修复使用--proxy设置代理时的访问中断问题\r\n4. 默认超时时长修改为10秒\r\n5. 显示发送payload的响应时长（有些时长过长的请求可能不会触发dnslog，需手动修改域名地址信息尝试）\r\n6. 新增fastjson mysql jdbc的默认payload"
     },
     "https://github.com/BeichenDream/CVE-2022-26134-Godzilla-MEMSHELL": {
         "created_at": "2022-06-07 09:25:40",
@@ -24698,8 +24698,8 @@
         "description": "首页 | UCloud安全应急响应中心"
     },
     "https://src.uniontech.com/": {
-        "status_code": 200,
-        "description": "USRC"
+        "status_code": 503,
+        "description": "503"
     },
     "https://src.youzan.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.119.4属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.36.41属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
