@@ -385,12 +385,12 @@
         "release_message": ""
     },
     "https://github.com/boy-hack/ksubdomain": {
-        "created_at": "2022-03-31 05:45:50",
+        "created_at": "2024-07-23 14:37:02",
         "description": "Subdomain enumeration tool, asynchronous dns packets, use pcap to scan 1600,000 subdomains in 1 second",
-        "commit_date": "2024-06-21 17:06:14",
-        "commit_message": "添加域名枚举测试用例",
+        "commit_date": "2024-07-23 14:37:02",
+        "commit_message": "update action build",
         "release_tag": "v1.9.5",
-        "release_date": "2022-03-31 05:47:14",
+        "release_date": "2024-07-23 14:43:41",
         "release_message": ""
     },
     "https://github.com/TideSec/Tide": {
@@ -4626,8 +4626,8 @@
     "https://github.com/zksync-sdk/zksync2-python": {
         "created_at": "2024-06-07 11:52:49",
         "description": "zksync2 is a web3.py library adapted to work with the ZKsync Era.",
-        "commit_date": "2024-06-24 20:32:48",
-        "commit_message": "chore: add `SECURITY.md` file",
+        "commit_date": "2024-07-25 08:00:44",
+        "commit_message": "chore: update `README` logo",
         "release_tag": "v0.6.0",
         "release_date": "2024-06-07 11:52:52",
         "release_message": "This release is also available on:\n- `v1.2.0`\n---\n# [1.2.0](https://github.com/zksync-sdk/zksync2-python/compare/v1.1.0...v1.2.0) (2024-06-07)\n\n\n### Bug Fixes\n\n* fix abi contract cache ([81b9e4c](https://github.com/zksync-sdk/zksync2-python/commit/81b9e4c8bec9cd2fc258669edeb8012ccafa0c80))\n* non zero gas limit in options breaks transfer function ([d739a60](https://github.com/zksync-sdk/zksync2-python/commit/d739a604f7ff43bc372586377d861d66745980b4))\n* zks_l1_chain_id not returning int type ([0ebd1b8](https://github.com/zksync-sdk/zksync2-python/commit/0ebd1b8499d22b1c83a1051b77a461841e1a4f0d))\n\n\n### Features\n\n* provide support for Bridgehub ([dabbfc0](https://github.com/zksync-sdk/zksync2-python/commit/dabbfc0c95f11e79e6683101b20fae3c851506e8))\n\n\n\n"
@@ -13376,13 +13376,13 @@
         "release_message": ""
     },
     "https://github.com/ozzi-/JWT4B": {
-        "created_at": "2024-06-14 10:38:43",
+        "created_at": "2024-07-23 08:04:17",
         "description": "JWT Support for Burp ",
-        "commit_date": "2024-06-17 05:31:00",
-        "commit_message": "ignore burp api",
+        "commit_date": "2024-07-23 08:04:17",
+        "commit_message": "rsyntaxtextarea font size",
         "release_tag": "2.3",
-        "release_date": "2024-06-14 12:22:11",
-        "release_message": "* improve: Using Burp Montaya API \r\n\r\n* improve: header detection now checks all headers that start with \"Bearer\"\r\n\r\n* fix: jwts in cookies that contain a = (valid b64) now parsed correctly\r\n\r\n* fix: prevent resign key field to break on small window sizes\r\n\r\n* cleaning up about tab"
+        "release_date": "2024-07-23 08:10:02",
+        "release_message": "fix: cookie parse bug introduced in 2.5\r\nimprove: make extension aware of burp font"
     },
     "https://github.com/alibaba/nacos": {
         "created_at": "2018-06-15 06:49:27",
@@ -25862,7 +25862,7 @@
         "commit_date": "2020-04-11 21:50:05"
     },
     "https://github.com/saeeddhqan/Maryam": {
-        "created_at": "2019-10-13 18:03:04",
+        "created_at": "2023-08-06 09:51:17",
         "description": "Maryam: Open-source Intelligence(OSINT) Framework",
         "commit_message": "Version 2.5.3 release",
         "commit_date": "2024-06-19 12:18:05",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "23.96.249.172属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.102.46.176属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27103,7 +27103,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": ""
+        "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
@@ -28108,12 +28108,12 @@
         "commit_date": "2024-01-30 06:02:56"
     },
     "https://github.com/Aabyss-Team/ARL": {
-        "created_at": "2024-05-29 13:01:27",
+        "created_at": "2024-07-25 07:12:39",
         "description": "ARL官方仓库备份项目：ARL(Asset Reconnaissance Lighthouse)资产侦察灯塔系统旨在快速侦察与目标关联的互联网资产，构建基础资产信息库。 协助甲方安全团队或者渗透测试人员有效侦察和检索资产，发现存在的薄弱点和攻击面。",
-        "commit_message": "Update Readme.md",
-        "commit_date": "2024-05-29 13:01:27",
-        "release_date": "2024-05-29 13:03:00",
-        "release_message": "## ARL-Docker安装指南\r\n\r\nDocker安装版本制作完成，这里感谢 [@本间白猫](https://github.com/honmashironeko) 师傅，一起研究源码并解决了相关问题，Docker安装过程如下：\r\n\r\n```C\r\n//下载部署脚本项目\r\ngit clone https://github.com/honmashironeko/ARL-docker.git\r\n\r\n//进入项目文件夹\r\ncd ARL-docker/\r\n\r\n//添加运行权限\r\nchmod +x setup_docker.sh\r\n\r\n//执行部署脚本\r\nbash setup_docker.sh\r\n```\r\n\r\nCentos以外的版本请注意，脚本采用的是yum安装工具，如果是apt的话请运行：`apt install docker.io -y`\r\n\r\n![Clip_2024-05-29_15-38-52](https://github.com/honmashironeko/ARL-docker/assets/139044047/ad96b024-194c-4711-8d4c-0079e535341a)\r\n\r\n输入数字确认安装版本：1 or 2\r\n\r\n```C\r\n//安装完成之后进入容器\r\ndocker exec -it arl /bin/bash\r\n\r\n//开始完成ARL部署\r\nbash /root/arl/set.sh\r\n```\r\n\r\n- 前往ARL-Web页面：`https://IP:5003/`\r\n- 账号：`admin`，密码：`honmashironeko`"
+        "commit_message": "Merge pull request #42 from msmoshang/master\n\n修复一些ubg",
+        "commit_date": "2024-07-25 12:03:43",
+        "release_date": "2024-07-25 07:17:04",
+        "release_message": "**ARL安装命令如下（源码安装和Docker安装合一）**\r\n\r\n```\r\nwget https://raw.githubusercontent.com/Aabyss-Team/ARL/master/misc/setup-arl.sh\r\nchmod +x setup-arl.sh\r\n./setup-arl.sh\r\n```\r\n\r\n近期发现本项目的Issues和Bug比较多，有问题欢迎进群咨询：\r\n\r\n<table>\r\n  <tr>\r\n    <td><img src=\"https://github.com/Aabyss-Team/ARL/blob/master/Team.jpg\" alt=\"\" /></td>\r\n    <td><img src=\"https://github.com/Aabyss-Team/ARL/blob/master/leader.jpg\" alt=\"\" /></td>\r\n  </tr>\r\n</table>"
     },
     "https://github.com/milu001/sm234_decrypt_gui": {
         "created_at": "2024-04-03 07:32:11",
@@ -28658,8 +28658,8 @@
     "https://github.com/netease-youdao/QAnything": {
         "created_at": "2024-05-17 10:08:52",
         "description": "Question and Answer based on Anything.",
-        "commit_message": "Merge pull request #409 from ikun-moxiaofei/patch-2\n\ndocs:Update QAnything使用说明.md",
-        "commit_date": "2024-06-24 09:20:51",
+        "commit_message": "Merge pull request #436 from mvlttt/master\n\nUpdate mysql_client.py",
+        "commit_date": "2024-07-22 11:26:49",
         "release_date": "2024-05-20 03:27:06",
         "release_message": "# 🎉🎉🎉QAnything v1.4.1 发布!\r\n\r\n## 全新发布v1.4.1\r\n\r\n## 新特性\r\n### Docker版本-[master分支](https://github.com/netease-youdao/QAnything/tree/master)\r\n* 支持其他与OpenAI-API兼容的大模型服务，包含ollama，通义千问DashScope等\r\n* 支持多卡推理\r\n* 修复使用OpenAI-API时提示找不到whl文件的问题\r\n### Python版本-[qanything-python分支](https://github.com/netease-youdao/QAnything/tree/qanything-python)\r\n* 支持其他与OpenAI-API兼容的大模型服务，包含ollama，通义千问DashScope等\r\n* PDF文件解析效果优化（包含表格效果）\r\n* 修复部分Linux系统（比如centos7）glibc版本过低时无法启动的问题（onnxruntime-gpu[cuda12.x]自动切换为onnxruntime）\r\n* 修复Mac下embedding和rerank速度异常慢的问题\r\n* 修复部分问答无数据来源的问题\r\n* 前端支持联网检索结果直接点击跳转\r\n* 优化OCR，速度和效果提升；且首次启动时无需下载ocr模型，启动时间优化至60秒内\r\n* 支持无显卡Linux机器启动纯CPU版，优化使用cpu模式或OpenAI-API接口调用大模型时的资源占用\r\n\r\n## 新贡献者\r\n* @WuErPing 在 https://github.com/netease-youdao/QAnything/pull/322 进行了首次贡献"
     },
