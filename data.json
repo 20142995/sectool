@@ -2622,7 +2622,7 @@
         "release_message": ""
     },
     "https://github.com/maurosoria/dirsearch": {
-        "created_at": "2013-04-30 15:57:40",
+        "created_at": "2022-10-04 05:43:00",
         "description": "Web path scanner",
         "commit_message": "Merge pull request #1373 from drego85/patch-16\n\nAdded \"sign\" and Sort",
         "commit_date": "2024-05-11 11:29:28",
@@ -11504,7 +11504,7 @@
         "release_message": ""
     },
     "https://github.com/lc/gau": {
-        "created_at": "2020-02-25 01:10:17",
+        "created_at": "2024-05-14 13:37:17",
         "description": "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.",
         "commit_date": "2024-05-14 13:37:17",
         "commit_message": "Merge pull request #140 from lc/lc/fix-providers-stdin\n\nfix(stdin_providers): fix error when passing domains on stdin",
@@ -24827,7 +24827,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
+        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.36.32属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.51.198.160属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27095,7 +27095,7 @@
     },
     "https://www.webscan.cc/": {
         "status_code": 404,
-        "description": "Not Found"
+        "description": ""
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27103,7 +27103,7 @@
     },
     "https://whois.aizhan.com/": {
         "status_code": 200,
-        "description": "站长工具_whois查询工具_爱站网"
+        "description": ""
     },
     "https://rapiddns.io/sameip": {
         "status_code": 200,
@@ -27752,12 +27752,12 @@
         "commit_date": "2022-04-23 16:53:46"
     },
     "https://github.com/HotBoy-java/PotatoTool": {
-        "created_at": "2024-05-07 04:02:10",
+        "created_at": "2024-07-20 07:22:18",
         "description": "这款工具是一款功能强大的网络安全综合工具，旨在为安全从业者、红蓝对抗人员和网络安全爱好者提供全面的网络安全解决方案。它集成了多种实用功能，包括解密、分析、扫描、溯源等，为用户提供了便捷的操作界面和丰富的功能选择。This tool offers robust network security solutions for professionals and enthusiasts. With features like decryption, analysis, scanning, and traceability, it provides a user-friendly interface and diverse functionality.",
-        "commit_message": "Update README.md\n\nAdd Q&A",
-        "commit_date": "2024-05-08 07:51:19",
-        "release_date": "2024-05-07 04:10:27",
-        "release_message": "Public version initialization"
+        "commit_message": "Update README.md\n\nV1.3 update",
+        "commit_date": "2024-07-20 07:22:18",
+        "release_date": "2024-07-20 11:11:56",
+        "release_message": "# 兼容性\r\n- 兼容arm\r\n\r\n# UI\r\n- 界面放大、缩小按钮\r\n- 尺寸自适应\r\n- 默认生成文件目录规定为jar目录\r\n- ui -记住密码\r\n\r\n# 一键解密\r\n- 兼容AES/DES的zeropadding填充方案自动解密\r\n- md5_32/md5_16/sha1解密内置库，提高查询效率\r\n- 字典爆破项可选\r\n- 通过密文/流量包自动识别webshell管理工具\r\n\r\n# 反编译\r\n- 支持AI优化、添加注释反编译后内容\r\n\r\n# 归属地查询\r\n- 银行卡归属地接口优化\r\n- 手机号归属地库更新\r\n- 支持批量查询\r\n\r\n# AI分析\r\n- AI保留5次会话记忆\r\n\r\n# 文件源信息\r\n- 支持二维码图片解析"
     },
     "https://github.com/Q2h1Cg/dnsbrute": {
         "created_at": "2017-03-27 17:42:29",
