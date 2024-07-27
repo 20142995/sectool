@@ -231,7 +231,7 @@
 #### base36编解码
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线base36编码|在线base36解码|base36编码|base36解码](http://www.hiencode.com/base36w.html) 
 #### brainfuck颜文字
-- <img src="https://favicon.qqsuu.cn/esolangs.org" alt="" style="height: 20px;"> [504 Gateway Time-out](https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck) 
+- <img src="https://favicon.qqsuu.cn/esolangs.org" alt="" style="height: 20px;"> [( ͡° ͜ʖ ͡°)fuck - Esolang](https://esolangs.org/wiki/(_%CD%A1%C2%B0_%CD%9C%CA%96_%CD%A1%C2%B0)fuck) 
 #### chacha20加解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线chacha20加密解密、chacha20在线加密解密、chacha20 encryption and decryption--查错网](http://tool.chacuo.net/cryptchacha20) 
 #### cisco 密码解密
@@ -455,7 +455,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-tools](https://github.com/ctf-wiki/ctf-tools) CTF 工具集合
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf_ics_traffic](https://github.com/NewBee119/ctf_ics_traffic) 工控CTF比赛工具，各种网络数据包处理脚本
 - <img src="https://favicon.qqsuu.cn/www.ctftools.com" alt="" style="height: 20px;"> [CTF资源库|CTF工具下载|CTF工具包|CTF工具集合](http://www.ctftools.com/) 
-- <img src="https://favicon.qqsuu.cn/hello-ctf.com" alt="" style="height: 20px;"> [hello-ctf.com](https://hello-ctf.com/) 
+- <img src="https://favicon.qqsuu.cn/hello-ctf.com" alt="" style="height: 20px;"> [Hello CTF](https://hello-ctf.com/) 
 ## 红队
 ### Web安全
 #### 漏洞利用库
@@ -566,8 +566,8 @@
 ###### Druid
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [druid_sessions 1.2](https://github.com/yuyan-sec/druid_sessions) 获取 alibaba druid 一些 sessions , sql , urls
 ###### Fastjson
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fastjson](https://github.com/safe6Sec/Fastjson) Fastjson姿势技巧集合
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JsonExp v1.4.0](https://github.com/smallfox233/JsonExp) fastjson漏洞批量检测工具
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fastjson](https://github.com/safe6Sec/Fastjson) Fastjson姿势技巧集合
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fastjson 1.2.83](https://github.com/alibaba/fastjson) FASTJSON 2.0.x has been released, faster and more secure, recommend...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FastjsonScan v1.1](https://github.com/a1phaboy/FastjsonScan) Fastjson扫描器，可识别版本、依赖库、autoType状态等。A tool to distinguish fastjson ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fastjsonVul](https://github.com/Lonely-night/fastjsonVul) fastjson 80 远程代码执行漏洞复现
@@ -767,9 +767,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker) JWT brute force cracker written in C
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jwt-fuzzer](https://github.com/andresriancho/jwt-fuzzer) JWT fuzzer
 ###### SQL注入
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap-gui](https://github.com/honmashironeko/sqlmap-gui) 基于官版本 SQLMAP 进行人工汉化，并提供GUI界面及多个自动化脚本
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap](https://github.com/sqlmapproject/sqlmap) Automatic SQL injection and database takeover tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jsql-injection](https://github.com/ron190/jsql-injection) jSQL Injection is a Java application for automatic SQL database inje...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap-gui](https://github.com/honmashironeko/sqlmap-gui) 基于官版本 SQLMAP 进行人工汉化，并提供GUI界面及多个自动化脚本
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ghauri](https://github.com/r0oth3x49/ghauri) An advanced cross-platform tool that automates the process of detecting and ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL) PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MSSQL_SQL_BYPASS_WIKI](https://github.com/aleenzz/MSSQL_SQL_BYPASS_WIKI) MSSQL注入提权,bypass的一些总结
@@ -1183,7 +1183,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.51.206.98属于美国 弗吉尼亚 斯特灵 微软云_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.51.198.160属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1204,7 +1204,7 @@
 - <img src="https://favicon.qqsuu.cn/whois.alexa.cn" alt="" style="height: 20px;"> [Whois域名注册信息查询](http://whois.alexa.cn/) 
 - <img src="https://favicon.qqsuu.cn/sg.godaddy.com" alt="" style="height: 20px;"> [Access Denied](https://sg.godaddy.com/zh/whois) 
 - <img src="https://favicon.qqsuu.cn/who.cx" alt="" style="height: 20px;"> [Just a moment...](https://who.cx/) 
-- <img src="https://favicon.qqsuu.cn/whois.aizhan.com" alt="" style="height: 20px;"> [站长工具_whois查询工具_爱站网](https://whois.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/whois.aizhan.com" alt="" style="height: 20px;"> [whois.aizhan.com](https://whois.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/whois.aliyun.com" alt="" style="height: 20px;"> [whois查询_域名查询_域名交易_阿里云企航(原万网)-阿里云](https://whois.aliyun.com/) 
 - <img src="https://favicon.qqsuu.cn/whois.chinaz.com" alt="" style="height: 20px;"> [域名Whois查询 - 站长工具](https://whois.chinaz.com/) 
 - <img src="https://favicon.qqsuu.cn/whois.cloud.tencent.com" alt="" style="height: 20px;"> [域名信息查询 - 腾讯云](https://whois.cloud.tencent.com/) 
@@ -1226,8 +1226,8 @@
 #### 域名信息查询
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [QueryTools](https://github.com/z-bool/QueryTools) IP/域名资产验证神器(补天|权重、CNVD|注册资金)-功能(IP反查域名、域名备案、ICP资产、公司注册资金、权重、IP定位)快速验证是否为...
 #### 子域名收集
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ksubdomain v1.9.5](https://github.com/boy-hack/ksubdomain) Subdomain enumeration tool, asynchronous dns packets, use pcap to...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [subfinder](https://github.com/projectdiscovery/subfinder) Fast passive subdomain enumeration tool.
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ksubdomain v1.9.5](https://github.com/boy-hack/ksubdomain) Subdomain enumeration tool, asynchronous dns packets, use pcap to...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [theHarvester 4.4.4](https://github.com/laramies/theHarvester) E-mails, subdomains and names Harvester - OSINT 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OneForAll v0.4.5](https://github.com/shmilylty/OneForAll) OneForAll是一款功能强大的子域收集工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OTE](https://github.com/3nock/OTE) OSINT Template Engine
@@ -2019,8 +2019,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sunflower_get_Password](https://github.com/wafinfo/Sunflower_get_Password) 一款针对向日葵的识别码和验证码提取工具
 ##### 微信取证
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PyWxDump](https://github.com/xaoyaoo/PyWxDump) 获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WechatBakTool](https://github.com/SuxueCode/WechatBakTool) 基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WeChatMsg](https://github.com/LC044/WeChatMsg) 提取微信聊天记录，将其导出成HTML、Word、Excel文档永久保存，对聊天记录进行分析生成年度聊天报告，用聊天数据训练专属于个人的AI聊天助手
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WechatBakTool](https://github.com/SuxueCode/WechatBakTool) 基于C#的微信PC版聊天记录备份工具，提供图形界面，解密微信数据库并导出聊天记录。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [chatViewTool BEAT](https://github.com/Ormicron/chatViewTool) 基于Java实现的图形化微信聊天记录解密查看器
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sharp-dumpkey 1](https://github.com/Ormicron/Sharp-dumpkey) 基于C#实现的获取微信数据库密钥的小工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WeChatUserDB](https://github.com/x1hy9/WeChatUserDB) GetWeChat DBPassword&&UserInfo(获取PC数据库密码以及相关微信用户信息支持多系统数据库解密)
@@ -2424,8 +2424,8 @@
 - <img src="https://favicon.qqsuu.cn/habo.qq.com" alt="" style="height: 20px;"> [腾讯哈勃分析系统](https://habo.qq.com/) 
 #### 综合
 ##### 分析辅助
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) 蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/C...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PotatoTool](https://github.com/HotBoy-java/PotatoTool) 这款工具是一款功能强大的网络安全综合工具，旨在为安全从业者、红蓝对抗人员和网络安全爱好者提供全面的网络安全解决方案。它集成了多种实用功能，包括解...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) 蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/C...
 - <img src="https://favicon.qqsuu.cn/potato.gold" alt="" style="height: 20px;"> [Webshell 流量在线解密](https://potato.gold/navbar/tool/webshellDecrypt/index.php) 
 #### 网络层面
 ##### IP信息
@@ -2457,7 +2457,7 @@
 - <img src="https://favicon.qqsuu.cn/megvii.huoxian.cn" alt="" style="height: 20px;"> [火线](https://megvii.huoxian.cn/) 
 - <img src="https://favicon.qqsuu.cn/niosrc.bugbank.cn" alt="" style="height: 20px;"> [安全应急响应中心](https://niosrc.bugbank.cn/) 
 - <img src="https://favicon.qqsuu.cn/pep.butian.net" alt="" style="height: 20px;"> [补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞](https://pep.butian.net/) 
-- <img src="https://favicon.qqsuu.cn/qianxin.butian.net" alt="" style="height: 20px;"> [补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞](https://qianxin.butian.net/) 
+- <img src="https://favicon.qqsuu.cn/qianxin.butian.net" alt="" style="height: 20px;"> [补天 - 企业和白帽子共赢的漏洞响应平台，帮助企业建立SRC](https://qianxin.butian.net/) 
 - <img src="https://favicon.qqsuu.cn/qssrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 轻松筹安全应急响应中心（QSSRC）](https://qssrc.vulbox.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.cainiao.com" alt="" style="height: 20px;"> [菜鸟安全应急响应中心](https://sec.cainiao.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.ctrip.com" alt="" style="height: 20px;"> [携程安全应急响应中心](https://sec.ctrip.com/) 
