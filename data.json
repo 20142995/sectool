@@ -20588,7 +20588,7 @@
         "release_message": ""
     },
     "https://github.com/obsidianforensics/hindsight": {
-        "created_at": "2023-03-29 23:21:04",
+        "created_at": "2014-05-22 03:25:06",
         "description": "Web browser forensics for Google Chrome/Chromium",
         "release_tag": "v2023.03",
         "release_date": "2023-03-29 23:41:39",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24827,7 +24827,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
+        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -25190,8 +25190,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.27.77属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.91.2属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
