@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24827,7 +24827,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
+        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -25190,8 +25190,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 200,
-        "description": "Practical Cryptography"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.37.85属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.27.77属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28698,12 +28698,12 @@
         "commit_date": "2024-07-10 06:19:57"
     },
     "https://github.com/menglike/bug_search": {
-        "created_at": "2024-06-13 07:47:31",
+        "created_at": "2024-07-18 12:25:18",
         "description": "一款免费开源的漏洞情报系统",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-06-13 07:55:06",
-        "release_date": "2024-06-13 07:51:03",
-        "release_message": "更新数据源"
+        "commit_message": "Add files via upload",
+        "commit_date": "2024-07-18 12:25:18",
+        "release_date": "2024-07-18 12:31:18",
+        "release_message": "该版本已增加搜索功能\r\n已优化了界面样式"
     },
     "https://github.com/Akascape/py-window-styles": {
         "created_at": "2023-06-19 14:30:52",
