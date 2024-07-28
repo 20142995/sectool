@@ -3934,8 +3934,8 @@
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-12-31 07:57:37",
         "description": "Metarget is a framework providing automatic constructions of vulnerable infrastructures.",
-        "commit_date": "2024-04-09 12:32:59",
-        "commit_message": "Merge pull request #130 from moui0/master\n\nadd cve-2017-1000353, cve-2018-1000861, cve-2024-23897",
+        "commit_date": "2024-07-27 04:09:04",
+        "commit_message": "Merge pull request #131 from preccrep/master\n\nFix 3 issues",
         "release_tag": "v0.9.1",
         "release_date": "2021-12-31 08:15:47",
         "release_message": "In May 2020, Metarget was open-sourced and has been used by many cloud native security researchers since then. We also obtained lots of contributions from the community. Thank you!\r\n\r\n- adopt semantic versioning\r\n- some `cnv`s and `appv`s added\r\n- ...\r\n\r\nStay tuned :)"
@@ -8468,12 +8468,12 @@
         "release_message": ""
     },
     "https://github.com/0x727/FingerprintHub": {
-        "created_at": "2021-11-06 01:06:52",
+        "created_at": "2024-07-09 10:55:18",
         "description": "侦查守卫(ObserverWard)的指纹库",
-        "commit_message": "Auto Update FingerPrint [Fri Jan 26 01:41:30 UTC 2024] :robot:",
-        "commit_date": "2024-01-26 01:41:30",
-        "release_date": "2022-03-10 09:25:04",
-        "release_message": "因为插件更新比较频繁，所以版本是覆盖更新的，从这里下载的都是最新的版本"
+        "commit_message": "Auto Update Nuclei [Fri Jul 26 18:21:53 UTC 2024] :robot:",
+        "commit_date": "2024-07-26 18:21:53",
+        "release_date": "2024-07-09 11:01:10",
+        "release_message": ""
     },
     "https://github.com/ainrm/cobaltstrike-suricata-rules": {
         "created_at": "2022-06-10 09:55:45",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24827,7 +24827,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
+        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.91.2属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.83.1.214属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27274,8 +27274,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
