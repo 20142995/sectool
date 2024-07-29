@@ -868,11 +868,11 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DNSLog](https://github.com/BugScanTeam/DNSLog) DNSLog 是一款监控 DNS 解析记录和 HTTP 访问记录的工具。
 ##### 漏洞文库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) 📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [my-re0-k8s-security](https://github.com/neargle/my-re0-k8s-security) :atom: [WIP] 整理过去的分享，从零开始的Kubernetes攻防 🧐
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) 基于 docsify 快速部署 Awesome-POC 中的漏洞文档
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Awesome-POC](https://github.com/Threekiii/Awesome-POC) 一个漏洞POC知识库 目前数量 1000+
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wiki](https://github.com/wy876/wiki) 漏洞文库 wiki.wy876.cn
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FrameVul](https://github.com/Awrrays/FrameVul) POC集合，框架nday漏洞利用
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [my-re0-k8s-security](https://github.com/neargle/my-re0-k8s-security) :atom: [WIP] 整理过去的分享，从零开始的Kubernetes攻防 🧐
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Vulhub-Reproduce](https://github.com/Threekiii/Vulhub-Reproduce) 一个Vulhub漏洞复现知识库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book) 面向网络安全从业者的知识文库🍃
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bylibrary](https://github.com/BaizeSec/bylibrary) 白阁文库是白泽Sec安全团队维护的一个漏洞POC和EXP公开项目
@@ -1183,7 +1183,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.183.91.2属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.172.46.64属于美国 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1263,12 +1263,12 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wxapkg-convertor 1.0.1](https://github.com/ezshine/wxapkg-convertor) 一个反编译微信小程序的工具，仓库也收集各种微信小程序/小游戏.wxapkg文件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pc_wxapkg_decrypt 0.1](https://github.com/BlackTrace/pc_wxapkg_decrypt) windows pc端wxpkg文件解密（非解包）
 #### 指纹识别
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FingerprintHub](https://github.com/0x727/FingerprintHub) 侦查守卫(ObserverWard)的指纹库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wappalyzergo v0.0.109](https://github.com/projectdiscovery/wappalyzergo) A high performance go implementation of Wappalyzer Technology...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) Browser fingerprinting library. Accuracy of this version is 40-60%, a...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ObserverWard](https://github.com/0x727/ObserverWard) 侦查守卫(ObserverWard)指纹识别工具Community web fingerprint identification tool 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AlliN v2.4.2](https://github.com/P1-Team/AlliN) A flexible scanner
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [whatweb-plus v0.5.5.19.fix](https://github.com/winezer0/whatweb-plus) whatweb 增强版  8000+插件（提供windows可执行文件）
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FingerprintHub](https://github.com/0x727/FingerprintHub) 侦查守卫(ObserverWard)的指纹库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Finger](https://github.com/EASY233/Finger) 一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [EHole v3.1](https://github.com/EdgeSecurityTeam/EHole) EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Find-SomeThing](https://github.com/LittleBear4/Find-SomeThing) 红队批量脆弱点搜集工具
@@ -1356,7 +1356,7 @@
 - <img src="https://favicon.qqsuu.cn/search.chongbuluo.com" alt="" style="height: 20px;"> [虫部落快搜 - 搜索快人一步](https://search.chongbuluo.com/) 
 - <img src="https://favicon.qqsuu.cn/www.dalipan.com" alt="" style="height: 20px;"> [大力盘 - 网盘搜索引擎](https://www.dalipan.com/#/) 
 - <img src="https://favicon.qqsuu.cn/www.lingfengyun.com" alt="" style="height: 20px;"> [十大网盘搜索引擎 - 凌风云](https://www.lingfengyun.com/) 
-- <img src="https://favicon.qqsuu.cn/www.pan131.com" alt="" style="height: 20px;"> [500 Internal Server Error](https://www.pan131.com/) 
+- <img src="https://favicon.qqsuu.cn/www.pan131.com" alt="" style="height: 20px;"> [百度云搜索,百度网盘云盘资源搜索引擎 - 盘131](https://www.pan131.com/) 
 #### 网站信息
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Web-SurvivalScan](https://github.com/AabyssZG/Web-SurvivalScan) 对Web渗透项目资产进行快速存活验证
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [waybackurls v0.1.0](https://github.com/tomnomnom/waybackurls) Fetch all the URLs that the Wayback Machine knows about for a do...
@@ -1636,8 +1636,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [proxyServer v1.0](https://github.com/safe6Sec/proxyServer) 本项目其实就是个简单的代理服务器，把代理池集成进来来了。
 #### 优秀项目集合
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [exp-hub](https://github.com/ybdt/exp-hub) 漏洞复现及武器化
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SecurityTools](https://github.com/birdhan/SecurityTools) 渗透测试工具包 | 开源安全测试工具 | 网络安全工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [404StarLink](https://github.com/knownsec/404StarLink) 404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SecurityTools](https://github.com/birdhan/SecurityTools) 渗透测试工具包 | 开源安全测试工具 | 网络安全工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [All-Defense-Tool](https://github.com/guchangan1/All-Defense-Tool) 本项目集成了全网优秀的攻防武器工具项目，包含自动化利用，子域名、目录扫描、端口扫描等信息收集工具，各大中间件、cms、OA漏洞利用工...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Scanners-Box](https://github.com/We5ter/Scanners-Box) A powerful and open-source toolkit for hackers and security automation...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Tool_Summary](https://github.com/djytmdj/Tool_Summary) 网络安全测试工具汇总，包含漏洞库、漏洞利用工具、漏洞扫描工具、密码读取工具、中间件利用工具、内网渗透工具。cs、burp、浏览器插件工具、字典等
@@ -2275,7 +2275,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [secgpt](https://github.com/Clouditera/secgpt) SecGPT网络安全大模型
 #### 网络流量分析
 - <img src="https://favicon.qqsuu.cn/www.kismetwireless.net" alt="" style="height: 20px;"> [Kismet - Wi-Fi, Bluetooth, RF, and more](https://www.kismetwireless.net/) 
-- <img src="https://favicon.qqsuu.cn/www.zeek.org" alt="" style="height: 20px;"> [WordPress.com 429 Error](https://www.zeek.org) 
+- <img src="https://favicon.qqsuu.cn/www.zeek.org" alt="" style="height: 20px;"> [The Zeek Network Security Monitor](https://www.zeek.org) 
 #### 自动化代码审计
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [banruo](https://github.com/yingshang/banruo) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Hades](https://github.com/zsdlove/Hades) Static code auditing system
@@ -2544,7 +2544,7 @@
 - <img src="https://favicon.qqsuu.cn/weaversrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 泛微安全应急响应中心（WEAVERSRC）](https://weaversrc.vulbox.com/) 
 - <img src="https://favicon.qqsuu.cn/www.hikvision.com" alt="" style="height: 20px;"> [安全应急响应中心 - 服务支持 - 海康威视 Hikvision](https://www.hikvision.com/cn/support/CybersecurityCenter/) 
 - <img src="https://favicon.qqsuu.cn/www.niwodai.com" alt="" style="height: 20px;"> [首页](https://www.niwodai.com/sec/index.do) 
-- <img src="https://favicon.qqsuu.cn/www.seebug.org" alt="" style="height: 20px;"> [Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing Fi...](https://www.seebug.org/) 
+- <img src="https://favicon.qqsuu.cn/www.seebug.org" alt="" style="height: 20px;"> [知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！](https://www.seebug.org/) 
 - <img src="https://favicon.qqsuu.cn/ysrc.ys7.com" alt="" style="height: 20px;"> [ysrc.ys7.com](https://ysrc.ys7.com/#/home) 
 - <img src="https://favicon.qqsuu.cn/zrsecurity.ziroom.com" alt="" style="height: 20px;"> [首页 | 自如安全应急响应中心](https://zrsecurity.ziroom.com/) 
 ### 相关资源
@@ -2667,8 +2667,8 @@
 ## 软件及系统国内镜像
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror) 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。     走过路过，如觉不错，麻烦点个赞👆🌟
 ## 远程软件
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rustdesk](https://github.com/rustdesk/rustdesk) An open-source remote desktop application designed for self-hosting, as an...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FreeRDP](https://github.com/FreeRDP/FreeRDP) FreeRDP is a free remote desktop protocol library and clients
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rustdesk](https://github.com/rustdesk/rustdesk) An open-source remote desktop application designed for self-hosting, as an...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Quasar v1.4.1](https://github.com/quasar/Quasar) Remote Administration Tool for Windows
 ## 验证码生成
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Calculate_Captcha v1.1](https://github.com/fupinglee/Calculate_Captcha) 计算验证码生成器，用于训练使用
