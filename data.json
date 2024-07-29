@@ -24209,8 +24209,8 @@
     "https://github.com/neargle/my-re0-k8s-security": {
         "created_at": "2021-02-24 03:55:16",
         "description": ":atom: [WIP] 整理过去的分享，从零开始的Kubernetes攻防 🧐",
-        "commit_date": "2024-05-06 07:21:54",
-        "commit_message": "add title in ebpf and container escape paper.md",
+        "commit_date": "2024-07-20 00:59:52",
+        "commit_message": "renew rbac and service account",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25190,8 +25190,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.121.23属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.46.64属于美国 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
