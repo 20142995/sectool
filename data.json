@@ -520,8 +520,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_message": "weekly update at 2024-06-24",
-        "commit_date": "2024-06-24 02:24:55"
+        "commit_message": "weekly update at 2024-07-22",
+        "commit_date": "2024-07-22 03:35:09"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2023-02-09 13:53:02",
@@ -20782,7 +20782,7 @@
         "release_message": ""
     },
     "https://github.com/ffffffff0x/f8x": {
-        "created_at": "2022-09-03 18:18:17",
+        "created_at": "2021-01-21 06:27:27",
         "description": "红/蓝队环境自动化部署工具 | Red/Blue team environment automation deployment tool",
         "commit_message": "add pupy_custom_port(2024/05/31)",
         "commit_date": "2024-05-31 09:30:41",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25190,8 +25190,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 200,
-        "description": "Practical Cryptography"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.171.46.97属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.121.23属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27922,7 +27922,7 @@
         "release_message": ""
     },
     "https://github.com/aquasecurity/cloudsploit": {
-        "created_at": "2024-05-28 15:05:15",
+        "created_at": "2015-06-29 15:33:40",
         "description": "Cloud Security Posture Management (CSPM)",
         "commit_message": "Merge pull request #2056 from AkhtarAmir/M/Aws/Api-gateway-v2-access-logging\n\nM/aws/api gateway v2 access logging",
         "commit_date": "2024-06-20 10:23:26",
