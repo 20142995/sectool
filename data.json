@@ -24038,8 +24038,8 @@
     "https://github.com/lemono0/FastJsonParty": {
         "created_at": "2023-08-15 09:29:27",
         "description": "FastJson全版本Docker漏洞环境(涵盖1.2.47/1.2.68/1.2.80等版本)，主要包括JNDI注入及高版本绕过、waf绕过、文件读写、原生反序列化、利用链探测绕过、不出网利用等。从黑盒的角度覆盖FastJson深入利用",
-        "commit_date": "2023-12-15 02:14:44",
-        "commit_message": "Add 1268 WriteFile RCE",
+        "commit_date": "2024-07-12 13:26:47",
+        "commit_message": "Merge pull request #5 from zrquan/patch-1\n\nFix image tag",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25740,8 +25740,8 @@
     "https://github.com/kvesta/vesta": {
         "created_at": "2024-04-03 12:43:11",
         "description": "A static analysis of vulnerabilities, Docker and Kubernetes cluster configuration detect toolkit based on the real penetration of cloud computing",
-        "commit_message": "Merge pull request #50 from christasa/develop\n\nAdd the checking of liblzma.so backdoor",
-        "commit_date": "2024-04-03 12:43:11",
+        "commit_message": "Merge pull request #53 from christasa/develop\n\nAdapt for the new docker image format",
+        "commit_date": "2024-07-22 14:48:46",
         "release_date": "2024-04-21 09:33:28",
         "release_message": "Notable Updates:\r\n- **Add `CVE-2024-21626` checking**\r\nChecking the mount path, due to the variety of fd number, vesta checks the key path `/proc/self/fd` in WORKDIR.\r\n- **Add `CVE-2024-3094` checking**\r\nChecking the library liblzma.so, refer to [detect.sh](https://www.openwall.com/lists/oss-security/2024/03/29/4/3)\r\n- **Add the severity of each Linux capabilities**\r\nReorder the security severity for different Capabilities based on the ease of  exploitation.\r\n\r\n\r\n\r\n\r\n| md5 | filename |\r\n| --- | --- |\r\n| 7ea0d98f1a9fcb8917cd9834fd51c08e |  vesta_darwin_amd64 |\r\n| ff58c0fba46ab9e4ac083283de1c5072 | vesta_linux_amd64 |\r\n| f8b5b16689ff0dd460a81989970dbcab | vesta_windows_amd64.exe | "
     },
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.46.64属于美国 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.76.239属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27676,8 +27676,8 @@
         "description": "一款针对CTF竞赛MISC的工具~",
         "commit_message": "更新: README.md",
         "commit_date": "2024-02-11 11:04:42",
-        "release_date": "2024-07-09 15:36:50",
-        "release_message": "PS：由于有人公开号召逆向我软件的所有代码，所以本人目前停止后续版本的分享！\r\n\r\n🆕2024.5.3终止 `Lv60` 免费入群\r\n🐧交流群：`761594154` ，群等级 `Lv60` 以上（包括`Lv60`）可以免费拿软件；如果不想要活跃群去获得软件，当然可以走捷径，捐赠 `50` ，后续本人有时间软件会继续更新。\r\n\r\n```\r\nVersion 2.1.0 更新日志：\r\n1）新增：\r\n  `config.yaml` 中 添加置信度设置\r\n\r\n2）修复：\r\n  `图像处理` 功能区 `ImageTools` 的功能 `像素值转图像` 修复通道颜色一直变化问题\r\n  `图像处理` 功能区 `ImageTools` 的两个功能 `打开txt` 按钮的提示类型不对\r\n\r\n3）优化：\r\n  `图像处理` 功能区 `ImageTools` 的功能 `cloacked_pixel` 向下兼容 Windows7 版本\r\n  `图像处理` 功能区 `BruteForceImage` 的功能 `cloacked_pixel` 向下兼容 Windows7 版本\r\n  `流量处理` 功能区 `Behinder` 和 `Godzilla` 的功能 向下兼容 Windows7 版本\r\n```"
+        "release_date": "2024-07-18 02:27:19",
+        "release_message": "PS：由于有人公开号召逆向我软件的所有代码，所以本人目前停止后续版本的分享！\r\n\r\n🆕2024.5.3终止 `Lv60` 免费入群\r\n🐧交流群：`761594154` ，群等级 `Lv60` 以上（包括`Lv60`）可以免费拿软件；如果不想要活跃群去获得软件，当然可以走捷径，捐赠 `50` ，后续本人有时间软件会继续更新。\r\n\r\n```\r\nVersion 2.1.1 更新日志：\r\n1）新增：\r\n  `图像处理` -> `ImageTools` 添加新功能 `BrainTools`\r\n  `图像处理` 添加 新功能 `ImageSteganography`\r\n\r\n2）修复：\r\n  修复 由于兼容Win7 导致 `流量处理` 功能区 `Godzilla` 中的php解密出现不解密问题\r\n  修复 由于兼容Win7 导致 `文本处理` 功能区 `BaseTools` 的二进制转字符串不显示\r\n\r\n3）优化：\r\n  `图像处理` 功能区 `ImageTools` 的功能 `cloacked_pixel` 优化显示字节大小的格式(bytes, KB, MB...)\r\n  `图像处理` 功能区 `ImageTools` 的功能 `BruteForce` 的 `cloacked_pixel` 优化显示字节大小的格式(bytes, KB, MB...)\r\n```"
     },
     "https://ctfever.uniiem.com/tools/pseudo-encrypted-zip-check": {
         "status_code": 200,
