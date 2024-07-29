@@ -5067,8 +5067,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2024-07-08 09:00:33",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_message": "Merge pull request #10374 from akallabeth/drive_fix\n\n[channels,rdpdr] fix drive redirection hotplug",
-        "commit_date": "2024-07-12 06:47:59",
+        "commit_message": "Merge pull request #10428 from FreeRDP/timezone-patches-1721907865\n\n[timezones] Update definitions",
+        "commit_date": "2024-07-25 13:38:00",
         "release_date": "2024-07-08 09:11:26",
         "release_message": "Bugfix release for 3.6.2 issues reported\r\n\r\n## Noteworthy changes:\r\n* fix a graphics regression (#10352)\r\n* workaround for a protocol bug of older FreeRDP based servers (#10358)\r\n* fix possible NULL dereference in command line parser (#10348)\r\n* fix intrinsics detection (#10346, #10350)\r\n\r\nFor a complete and detailed change log since the last release run:\r\ngit log 3.6.3...3.6.2\r\n\r\n## New Contributors\r\n* @Frederick888 made their first contribution in https://github.com/FreeRDP/FreeRDP/pull/10348\r\n\r\n**Full Changelog**: https://github.com/FreeRDP/FreeRDP/compare/3.6.2...3.6.3"
     },
@@ -6496,12 +6496,12 @@
         "release_message": "# 更新日志\r\n\r\n- 优化了脚本流程，减少了部分代码\r\n- 增加了校验模块，根据PNG文件头校验是否为PNG图片\r\n- 新增宽高判断，对于宽高正常的PNG图片，做出提示\r\n- 无需再改后缀名，直接导出PNG后缀的文件"
     },
     "https://github.com/ImageMagick/ImageMagick": {
-        "created_at": "2024-07-14 12:33:07",
+        "created_at": "2024-07-27 12:02:24",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "Fixed typo in documentation of MagickAdaptiveBlurImage (#7500)\n\nThe documentation in the source code incorrectly said MagickAdaptiveSharpenImage.",
-        "commit_date": "2024-07-25 00:44:03",
-        "release_date": "2024-07-14 19:21:11",
-        "release_message": "**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-34...7.1.1-35"
+        "commit_message": "eliminate compiler warnings",
+        "commit_date": "2024-07-27 13:54:10",
+        "release_date": "2024-07-27 16:08:01",
+        "release_message": "## What's Changed\n* uhdr.c: default initialize range field for hdr/sdr intent inputs to enc by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7482\n* Fixed typo in documentation of MagickAdaptiveBlurImage by @JonahEMorgan in https://github.com/ImageMagick/ImageMagick/pull/7500\n* Silence warning when freetype delegate is disabled. by @niclet in https://github.com/ImageMagick/ImageMagick/pull/7515\n\n## New Contributors\n* @JonahEMorgan made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7500\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-35...7.1.1-36"
     },
     "https://github.com/Ch1ngg/JWTPyCrack": {
         "created_at": "2019-09-05 07:55:21",
@@ -21943,8 +21943,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Update `com.github.luben:zstd-jni` to version `1.5.6-4` (#2761)",
-        "commit_date": "2024-07-22 15:27:39",
+        "commit_message": "Add missing `uses` clause",
+        "commit_date": "2024-07-28 12:26:02",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.25.202.43属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.171.46.97属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27274,8 +27274,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
@@ -27780,8 +27780,8 @@
     "https://github.com/T4y1oR/RingQ": {
         "created_at": "2024-05-11 09:26:22",
         "description": "一款后渗透免杀工具，助力每一位像我这样的脚本小子快速实现免杀，支持bypass AV/EDR 360 火绒 Windows Defender Shellcode Loader",
-        "commit_message": "Update 20240708",
-        "commit_date": "2024-07-08 12:11:15",
+        "commit_message": "Update RingQ.exe",
+        "commit_date": "2024-07-22 04:55:20",
         "release_date": "2024-05-11 09:27:43",
         "release_message": "**具体使用方法 参考README.md**\r\n\r\n**[已开源](https://github.com/T4y1oR/RingQ/tree/main/RingQ)，放心食用，Releases编译后的RingQ.exe是经过bypass QVM202的  ~~帮助懒惰的脚本小子~~**  \r\n\r\n**如不放心可自行编译使用[QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250)即可**"
     },
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
