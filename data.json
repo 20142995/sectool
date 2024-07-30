@@ -24827,7 +24827,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
+        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.78.199属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.114.212属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,12 +28248,12 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
-        "status_code": 502,
-        "description": "错误网关 (502)"
+        "status_code": 200,
+        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
     },
     "https://www.la-samhna.de/": {
         "status_code": 200,
