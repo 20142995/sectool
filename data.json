@@ -62,8 +62,8 @@
     "https://github.com/pppscn/SmsForwarder": {
         "created_at": "2024-04-18 02:17:02",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
-        "commit_message": "优化：通过`Content-Type=applicaton/json`指定请求体为`json`格式 #491",
-        "commit_date": "2024-06-29 08:27:00",
+        "commit_message": "优化：`BluetoothReceiver`偶尔崩溃（增加异常捕获） #499",
+        "commit_date": "2024-07-16 01:28:34",
         "release_date": "2024-04-18 02:45:39",
         "release_message": "致敬 `遥遥领先` **先锋计划**，迎接 `SmsForwarder` **预览体验计划**，领先与体验并驾齐驱！\r\n\r\n---\r\n\r\n【强烈建议】`v3.3.0` 用户升级\r\n\r\n【重点推荐】`自动任务·快捷指令`，轻松自动化，助您事半功倍，更多时间享受亲情陪伴！（v3.3+）\r\n\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，如果从低于 `v3.2.0`  升级后请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置（客户端>一键换新机>离线模式>导出），完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n修复：`定时任务`的`Cron表达式`输入非法时导致FC #407\r\n修复：Frpclib未下载时，自动任务添加启停frpc app自动重启 #402\r\n修复：WiFi平板（没有GPS芯片）无法启用`GPS定位服务` #391\r\n修复：错误的 URL 有效性验证正则表达式（兼容IPv6） #286\r\n修复：多个自启动的Frpc无法同时自动启动Bug\r\n修复：疑似`ResUtils.getString`导致FC #426\r\n修复：在线更新失败时手动下载页面地址\r\n修复：转发规则自定义发送通道顺序失效（将`List<T>`按照`instr`的顺序排序） #422\r\n修复：自动任务触发条件在测试倒计时没结束前返回导致app自动重启 #394\r\n修复：自动任务电池状态中充电器任意无法触发 #395\r\n新增：`{{IP_LIST}}`变量标签用于获取`本机所有IP地址列表`（排除环回地址） #I9CVLZ\r\n新增：`通用设置`增加按钮直接跳转`一键换新机`·`离线模式`\r\n新增：Frp内网穿透·编辑配置时语法高亮\r\n新增：发送通道`电子邮箱`支持`S/MIME`或`OpenPGP`加密 #417\r\n新增：监听`Screen`事件`延迟执行时再次校验` #399\r\n新增：两个常用标签`网络状态`(`{{NET_TYPE}}`)和`简单电池信息`(`{{BATTERY_INFO_SIMPLE}}`) #439\r\n新增：免打扰(禁用转发)时间段记录日志（配合`自动任务`实现延时发送） #411\r\n新增：是否加入SmsF预览体验计划（在线更新每周构建版） #416\r\n新增：转发日志增加筛选器方便搜索/批量删除 #433\r\n新增：自动任务·快捷指令 —— 触发条件：短信广播、通话广播、APP通知 #385 #389\r\n新增：自动任务·快捷指令 —— 触发条件：蓝牙设备（状态变化、设备发现、连接断开） #388\r\n新增：自动任务·快捷指令 —— 执行动作：播放警报 #385\r\n新增：自动任务·快捷指令 —— 执行动作：启停任务 #389\r\n新增：自动任务·快捷指令 —— 执行动作：重发消息\r\n优化：`{{BATTERY_PCT}}`保留2位小数\r\n优化：`Android 5.0`以下`TLS协议`&`明文传输` #427 #390 #274 #197\r\n优化：`build.gradle`脚本，编译前后自动清理\r\n优化：`Webhook` 非 `HTTP 200` 应答时仍可以指定 `成功应答关键字` #234\r\n优化：`发送通道`参数默认值（避免反序列化时空指针）\r\n优化：`一换新新机`·`还原设置`时保留本机的`设备名称`和`SIM卡主键/备注`\r\n优化：`自动任务`触发条件`网络状态`：仅`Android 10`(含) 以上显示`数据卡槽`选项 #429\r\n优化：`自动任务`触发条件`网络状态`：延迟5秒获取WiFi名称（给够搜索信号时间） #429\r\n优化：`自动任务·快捷指令` —— 执行动作：`发送短信`支持插入`变量标签`（标签适用场景参见 wiki附录3） #441\r\n优化：Frpc默认配置采用toml格式\r\n优化：部分手机通知栏异常显示两条常驻通知 #392\r\n优化：多语言切换时枚举常量自动切换语言\r\n优化：发送通道`Webhook`支持http/socks5代理\r\n优化：放宽`Url`和`UrlScheme`的正则校验限制 #431\r\n优化：服务端应答`Http 204 No Content`时特殊处理（更新日志状态为成功） #234\r\n优化：服务端应答`HTTP Status 201-299`时特殊处理（更新日志状态为成功） #234\r\n优化：改进IPv6正则表达式（避免`{{IPV6}}`替换为空）\r\n优化：监听`Screen`事件细分`On/Off/Locked/Unlocked` #399\r\n优化：进入`通用设置`时`再次检查`是否已授权`已开启功能`的`必需权限`\r\n优化：判断Frpclib是否已经初始化\r\n优化：权限检查机制判断（适配 OPPO 应用权限受阻跳转优化方案）\r\n优化：以`Base64`形式保存证书（同时兼容`文件路径`形式） #437\r\n优化：自定义模板可用变量标签支持正则替换 #421 #423\r\n优化：自定义模板可用变量统一成英文标签\r\n优化：自定义模板增加`{{IPV4}}``{{IPV6}}`标签 #398\r\n优化：自定义模板增加`{{定位信息_经度}}`/`{{定位信息_纬度}}`/`{{定位信息_地址}}`三个标签 #400\r\n升级：AgentWeb依赖（解决存在的内存泄漏问题）\r\n升级：frpclib 到 `v0.57.0`\r\n升级：XAOP 依赖\r\n升级：XUI 到 `dev-1.2.2`\r\n升级：XUpdate 到 `2.1.5` （兼容Android 12 & 完善日志）\r\n升级：依赖版本\r\n整理：code review & 精简无用资源\r\n回退：`{{通知Scheme}}`(英文系统`{{SCHEME}}`)标签以获取应用通知的`Scheme` #272 #276（无解，去除多余代码）\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备"
     },
@@ -23736,8 +23736,8 @@
     "https://github.com/bigblackhat/oFx": {
         "created_at": "2024-06-14 05:21:29",
         "description": "漏洞批量验证框架",
-        "commit_message": "2.26.5\n\n## version 2.26.5\n\n----------------\n新增：\n* ``JimuReport FreeMarker 服务端模板注入命令执行（CVE-2023-4450）``",
-        "commit_date": "2024-06-14 05:21:29",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-07-27 11:19:46",
         "release_date": "2024-06-14 15:07:25",
         "release_message": "一个稳定版"
     },
@@ -24827,7 +24827,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
+        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.83.123.121属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.7.9属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27922,7 +27922,7 @@
         "release_message": ""
     },
     "https://github.com/aquasecurity/cloudsploit": {
-        "created_at": "2015-06-29 15:33:40",
+        "created_at": "2024-05-28 15:05:15",
         "description": "Cloud Security Posture Management (CSPM)",
         "commit_message": "Merge pull request #2056 from AkhtarAmir/M/Aws/Api-gateway-v2-access-logging\n\nM/aws/api gateway v2 access logging",
         "commit_date": "2024-06-20 10:23:26",
