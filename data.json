@@ -24827,7 +24827,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
+        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.54.148属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.199属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27860,12 +27860,12 @@
         "release_message": "## 油猴商店安装更新 \r\n\r\nhttps://greasyfork.org/zh-CN/scripts/419781-js-cookie-monitor-debugger-hook\r\n\r\n## What's Changed\r\n* format add setting menu by @codehz in https://github.com/JSREI/js-cookie-monitor-debugger-hook/pull/10 （当前版本为bug修复，这个pr会在下一个大版本时v1.0时发布）\r\n* fix #13 \r\n\r\n## New Contributors\r\n* @codehz made their first contribution in https://github.com/JSREI/js-cookie-monitor-debugger-hook/pull/10\r\n\r\n**Full Changelog**: https://github.com/JSREI/js-cookie-monitor-debugger-hook/compare/v0.10...v0.11"
     },
     "https://github.com/CuriousLearnerDev/Online_tools": {
-        "created_at": "2023-12-09 15:00:53",
+        "created_at": "2024-07-19 14:27:39",
         "description": "该工具是一个集成了非常多渗透测试工具，类似软件商城的工具可以进行工具下载，工具的更新，工具编写了自动化的安装脚本，不用担心工具跑不起来。",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-02-06 09:52:01",
-        "release_date": "2024-01-28 03:18:14",
-        "release_message": "1、修复下载文件错位问题\r\n\r\n2、这个版本更新功能\r\n- 更换使用模式\r\n  全工具显示 模式\r\n  工具分类显示 模式\r\n- 每次打开工具都弹窗提示，改成每天就弹窗一次\r\n  （因为每次打开工具都要弹窗真的很烦人！）"
+        "commit_message": "0.7.0",
+        "commit_date": "2024-07-19 15:10:16",
+        "release_date": "2024-07-19 14:39:33",
+        "release_message": "## 1、不在提供破解工具！\r\n\r\n不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载\r\n\r\n## 2、右键工具\r\n\r\n之前我是把全部功能都放到了菜单栏上面会很乱\r\n\r\n下载我们可以右键，如下\r\n\r\n**1、放到下载好的工具上右键**\r\n\r\n**2、右键没有下载的工具**\r\n\r\n## 3、服务端自动化监控工具更新\r\n\r\n之前工具更新基本上都是手动更加工具很繁琐很麻烦，在服务器上写了一个自动化更新推荐的功能\r\n\r\n## 4、工具插件下载功能（比如burp插件，目前维护较少）\r\n\r\n## 5、认证下载和自定义链接下载\r\n\r\n因为下载链接滥用问题，后面全部需要购买认证下载才可以下载。如果不认证你也可以自己提供下载链接放上去\r\n\r\n全部的工具下载配置文件在storage/toollist.json文件里面\r\n\r\n## 6、去除打开显示cmd窗口\r\n\r\n之前添加这个启动cmd显示是为了显示日志，下载把日志保存起来了\r\n\r\n## 7、应急工作上传服务器功能\r\n\r\n这个功能是为了linux应急使用的，然后可以右键后面带有linux的字的工具右键\r\n## 8、更新工具列表\r\n\r\n## 9、解压问题系统版本问题\r\n\r\n上个版本有一个大问题就是，解压问题大部分基本上都是这个问题导致安装失败，从代码里面使用的是tar命令，大部分系统是带这个命令的，但是可能有的服务器系统是没有这个命令导致安装失败，这个版本里面叫7z程序放到代码里面了不会出现解压不了安装失败的问题了\r\n"
     },
     "https://github.com/agienka/blindy": {
         "created_at": "2017-04-10 13:59:25",
@@ -28252,8 +28252,8 @@
         "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
-        "status_code": 200,
-        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
+        "status_code": 502,
+        "description": "错误网关 (502)"
     },
     "https://www.la-samhna.de/": {
         "status_code": 200,
