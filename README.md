@@ -1056,11 +1056,11 @@
 ##### 安卓漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [appshark](https://github.com/bytedance/appshark) Appshark is a static taint analysis platform to scan vulnerabilities in an...
 ##### 容器和集群
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vesta](https://github.com/kvesta/vesta) A static analysis of vulnerabilities, Docker and Kubernetes cluster configura...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kubescape](https://github.com/kubescape/kubescape) Kubescape is an open-source Kubernetes security platform for your IDE, CI...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SecretScanner](https://github.com/deepfence/SecretScanner) :unlock: :unlock: Find secrets and passwords in container images and ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [KubiScan](https://github.com/cyberark/KubiScan) A tool to scan Kubernetes cluster for risky permissions
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ThreatMapper](https://github.com/deepfence/ThreatMapper) Open Source Cloud Native Application Protection Platform (CNAPP)
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vesta](https://github.com/kvesta/vesta) A static analysis of vulnerabilities, Docker and Kubernetes cluster configura...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dockerscan](https://github.com/cr0hn/dockerscan) Docker security analysis & hacking tools
 ##### 微信小程序辅助
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wxapkg v1.5.0](https://github.com/wux1an/wxapkg) 微信小程序反编译工具，.wxapkg 文件扫描 + 解密 + 解包工具
@@ -1105,12 +1105,12 @@
 - <img src="https://favicon.qqsuu.cn/blog.topsec.com.cn" alt="" style="height: 20px;"> [天融信阿尔法实验室](http://blog.topsec.com.cn/ad_lab/alphafuzzer/) 
 - <img src="https://favicon.qqsuu.cn/llvm.org" alt="" style="height: 20px;"> [libFuzzer – a library for coverage-guided fuzz testing. — LLVM 20.0.0git documentat...](http://llvm.org/docs/LibFuzzer.html) 
 ##### 漏洞扫描框架
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oFx](https://github.com/bigblackhat/oFx) 漏洞批量验证框架
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zaproxy](https://github.com/zaproxy/zaproxy) The ZAP core project
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [POC-T](https://github.com/hi-unc1e/POC-T) [✅Py 3.x]渗透测试插件化并发框架 / Open-sourced remote vulnerability PoC/EXP framework，现已...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pentestpackage](https://github.com/leonteale/pentestpackage) a package of Pentest scripts I have made or  commonly use
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yakit](https://github.com/yaklang/yakit) Cyber Security ALL-IN-ONE Platform
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVS](https://github.com/Safe3/CVS) Powerful and customizable vulnerability scanner based on VDSL, which can replac...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oFx](https://github.com/bigblackhat/oFx) 漏洞批量验证框架
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fiora](https://github.com/bit4woo/Fiora) Fiora：漏洞PoC框架Nuclei的图形版。快捷搜索PoC、一键运行Nuclei。即可作为独立程序运行，也可作为burp插件使用。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oday](https://github.com/Janhsu/oday) javafx编写的poc管理工具和漏洞扫描的小工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pocsuite3 v2.0.5](https://github.com/knownsec/pocsuite3) pocsuite3 is an open-sourced remote vulnerability testing framewor...
@@ -1183,7 +1183,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.172.46.64属于美国 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.183.54.148属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1356,7 +1356,7 @@
 - <img src="https://favicon.qqsuu.cn/search.chongbuluo.com" alt="" style="height: 20px;"> [虫部落快搜 - 搜索快人一步](https://search.chongbuluo.com/) 
 - <img src="https://favicon.qqsuu.cn/www.dalipan.com" alt="" style="height: 20px;"> [大力盘 - 网盘搜索引擎](https://www.dalipan.com/#/) 
 - <img src="https://favicon.qqsuu.cn/www.lingfengyun.com" alt="" style="height: 20px;"> [十大网盘搜索引擎 - 凌风云](https://www.lingfengyun.com/) 
-- <img src="https://favicon.qqsuu.cn/www.pan131.com" alt="" style="height: 20px;"> [百度云搜索,百度网盘云盘资源搜索引擎 - 盘131](https://www.pan131.com/) 
+- <img src="https://favicon.qqsuu.cn/www.pan131.com" alt="" style="height: 20px;"> [500 Internal Server Error](https://www.pan131.com/) 
 #### 网站信息
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Web-SurvivalScan](https://github.com/AabyssZG/Web-SurvivalScan) 对Web渗透项目资产进行快速存活验证
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [waybackurls v0.1.0](https://github.com/tomnomnom/waybackurls) Fetch all the URLs that the Wayback Machine knows about for a do...
@@ -1630,8 +1630,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mubeng v0.14.1](https://github.com/kitabisa/mubeng) An incredibly fast proxy checker & IP rotator with ease.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ProxyPoolxSocks v1.2](https://github.com/Anyyy111/ProxyPoolxSocks) ☁️Socks代理池服务端自动化搭建工具☁️
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Venom-Transponder](https://github.com/z-bool/Venom-Transponder) 毒液流量转发器：自动化捡洞/打点/跳板必备神器，支持联动URL爬虫、各种被动扫描器。
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [go_proxy_pool 2022.11.22](https://github.com/pingc0y/go_proxy_pool) 无环境依赖开箱即用的代理IP池
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Gofreeproxy v0.1](https://github.com/ja9er/Gofreeproxy) 自用的动态代理小工具
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [go_proxy_pool 2022.11.22](https://github.com/pingc0y/go_proxy_pool) 无环境依赖开箱即用的代理IP池
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Auto_proxy](https://github.com/Mustard404/Auto_proxy) 利用IP地址池进行自动切换Http代理，防止IP封禁。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [proxyServer v1.0](https://github.com/safe6Sec/proxyServer) 本项目其实就是个简单的代理服务器，把代理池集成进来来了。
 #### 优秀项目集合
@@ -2171,6 +2171,7 @@
 #### web靶场
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WebGoat](https://github.com/WebGoat/WebGoat) WebGoat is a deliberately insecure application
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vulhub](https://github.com/vulhub/vulhub) Pre-Built Vulnerable Environments Based on Docker-Compose
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FastJsonParty](https://github.com/lemono0/FastJsonParty) FastJson全版本Docker漏洞环境(涵盖1.2.47/1.2.68/1.2.80等版本)，主要包括JNDI注入及高版本绕过、waf...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cicd-goat](https://github.com/cider-security-research/cicd-goat) A deliberately vulnerable CI/CD environment. Learn CI/CD security through...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [secgen](https://github.com/cliffe/secgen) Create randomly insecure VMs
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DVWA](https://github.com/digininja/DVWA) Damn Vulnerable Web Application (DVWA)
@@ -2179,7 +2180,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ElectricRat](https://github.com/en0th/ElectricRat) 电气鼠靶场系统是一种带有漏洞的Web应用程序，旨在为Web安全渗透测试学习者提供学习和实践的机会。The Electrical Mouse T...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyhackme](https://github.com/f4cknet/pyhackme) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vulfocus v0.3.2.11](https://github.com/fofapro/vulfocus) 🚀Vulfocus 是一个漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用。
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FastJsonParty](https://github.com/lemono0/FastJsonParty) FastJson全版本Docker漏洞环境(涵盖1.2.47/1.2.68/1.2.80等版本)，主要包括JNDI注入及高版本绕过、waf...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Hello-Java-Sec 1.10](https://github.com/j3ers3/Hello-Java-Sec) ☕️ Java Security，安全编码和代码审计
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SSRF_Vulnerable_Lab](https://github.com/incredibleindishell/SSRF_Vulnerable_Lab) This Lab contain the sample codes which are vulnerable to Serve...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DSVW](https://github.com/stamparm/DSVW) Damn Small Vulnerable Web
@@ -2457,7 +2457,7 @@
 - <img src="https://favicon.qqsuu.cn/megvii.huoxian.cn" alt="" style="height: 20px;"> [火线](https://megvii.huoxian.cn/) 
 - <img src="https://favicon.qqsuu.cn/niosrc.bugbank.cn" alt="" style="height: 20px;"> [安全应急响应中心](https://niosrc.bugbank.cn/) 
 - <img src="https://favicon.qqsuu.cn/pep.butian.net" alt="" style="height: 20px;"> [补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞](https://pep.butian.net/) 
-- <img src="https://favicon.qqsuu.cn/qianxin.butian.net" alt="" style="height: 20px;"> [补天 - 企业和白帽子共赢的漏洞响应平台，帮助企业建立SRC](https://qianxin.butian.net/) 
+- <img src="https://favicon.qqsuu.cn/qianxin.butian.net" alt="" style="height: 20px;"> [补天-漏洞_安全|系统漏洞_IoT|APP漏洞_移动|工控漏洞](https://qianxin.butian.net/) 
 - <img src="https://favicon.qqsuu.cn/qssrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 轻松筹安全应急响应中心（QSSRC）](https://qssrc.vulbox.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.cainiao.com" alt="" style="height: 20px;"> [菜鸟安全应急响应中心](https://sec.cainiao.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.ctrip.com" alt="" style="height: 20px;"> [携程安全应急响应中心](https://sec.ctrip.com/) 
@@ -2465,7 +2465,7 @@
 - <img src="https://favicon.qqsuu.cn/sec.huazhu.com" alt="" style="height: 20px;"> [华住安全响应中心 | Huazhu Security Response Center](https://sec.huazhu.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.ly.com" alt="" style="height: 20px;"> [首页 | 同程旅行安全应急响应中心](https://sec.ly.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.meizu.com" alt="" style="height: 20px;"> [魅族安全中心](https://sec.meizu.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [sec.vip.com](https://sec.vip.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [VSRC首页-唯品会信息安全中心](https://sec.vip.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wacai.com" alt="" style="height: 20px;"> [挖财安全应急响应中心](https://sec.wacai.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wifi.com" alt="" style="height: 20px;"> [WIFI万能钥匙安全响应中心](https://sec.wifi.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.xiaomi.com" alt="" style="height: 20px;"> [小米安全中心](https://sec.xiaomi.com/) 
