@@ -5799,7 +5799,7 @@
         "release_message": ""
     },
     "https://github.com/OrangeWatermelon/frp_cmd": {
-        "created_at": "2021-12-05 10:57:19",
+        "created_at": "2021-12-05 11:21:04",
         "description": "frp修改版，增加socks、pf命令，便捷启用socks5代理、端口转发，且去除流量特征，增加loadini命令，支持命令行参数导入base64编码的配置文件",
         "commit_date": "2021-12-05 14:25:30",
         "commit_message": "增加介绍",
@@ -23240,7 +23240,7 @@
         "release_message": "### Oracle数据库一键提权\r\n![image](http://k8gege.org/k8img/Ladon/OracleCmd.PNG)\r\n5.2 2023.12.14\r\n[+]OracleCmd\tOracle远程提权执行操作系统命令\r\n[+]龙芯架构64位\t支持的linux kernel版本最低也是5.19,旧版龙芯不支持\r\n\r\n基于GO 1.20 一些老旧系统如win2003/xp、unix、liunx低版本不支持\r\nGO 1.20最后一个支持Win7/2008的版本  GO 1.21编译 Win7无法使用\r\n\r\n\r\n5.2 2023.12.13\r\n[+]OracleSql\t执行SQL语句 内置命令ver priv dba\r\n[+]OracleScan\tOracle密码爆破 驱动更新为go-ora\r\n[u]OracleScan\t支持传统字典user.txt pass.txt爆破\r\n[u]OracleScan\t支持sid.txt user.txt pass.txt爆破(sid为数据库名，如orcl)\r\n[u]OracleScan\t支持用户密码组合 userpass.txt爆破\r\n"
     },
     "https://github.com/sp4zcmd/WeblogicExploit-GUI": {
-        "created_at": "2022-04-20 09:35:48",
+        "created_at": "2022-04-20 09:35:49",
         "description": "Weblogic漏洞利用图形化工具 支持注入内存马、一键上传webshell、命令执行",
         "commit_date": "2022-04-20 09:57:03",
         "commit_message": "Update README.md",
@@ -23632,7 +23632,7 @@
         "release_message": ""
     },
     "https://github.com/c0olw/NacosRce": {
-        "created_at": "2023-06-29 01:35:42",
+        "created_at": "2023-07-06 02:41:48",
         "description": "Nacos JRaft Hessian 反序列化 RCE 加载字节码 注入内存马 不出网利用",
         "commit_date": "2023-07-06 03:24:14",
         "commit_message": "Update README.md",
@@ -23849,10 +23849,10 @@
         "release_message": ""
     },
     "https://github.com/Fly-Playgroud/Boom": {
-        "created_at": "2023-06-15 09:06:15",
+        "created_at": "2023-07-13 01:14:05",
         "description": "Boom 是一款基于无头浏览器的智能 Web 弱口令（后台密码）爆破\\检测工具",
-        "commit_date": "2023-07-13 01:14:05",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-05-07 01:09:59",
+        "commit_message": "Update README.md\n\nmod：添加下载地址",
         "release_tag": "v0.3.3",
         "release_date": "2023-10-20 13:50:50",
         "release_message": "## Changelog\r\n* 7451510 fix: 修复部分问题"
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.157.5.227属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.75.95.34属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
