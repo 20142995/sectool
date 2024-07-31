@@ -835,8 +835,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [miscan](https://github.com/mifine666/miscan) 一款简单好用的漏洞管理工具，支持本地和协作两种模式。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [woodpecker-framework-release 1.3.5](https://github.com/woodpecker-framework/woodpecker-framework-release) 高危漏洞精准检测与深度利用框架
 ##### 漏洞利用辅助
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ddddocr](https://github.com/sml2h3/ddddocr) 带带弟弟 通用验证码识别OCR pypi版
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JNDIMap](https://github.com/X1r0z/JNDIMap) JNDI 注入利用工具, 支持 RMI 和 LDAP 协议, 包含多种高版本 JDK 绕过方式 | A JNDI injection exploit ...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ddddocr](https://github.com/sml2h3/ddddocr) 带带弟弟 通用验证码识别OCR pypi版
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Xtools](https://github.com/chasingboy/Xtools) Xtools 是一款 Sublime Text 插件，同时是一款简单的资产处理、命令行调用工具。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ysomap](https://github.com/wh1t3p1g/ysomap) A helpful Java Deserialization exploit framework.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Exp-Tools v1.2.3](https://github.com/cseroad/Exp-Tools) 一款集成高危漏洞exp的实用性工具
@@ -890,8 +890,8 @@
 - <img src="https://favicon.qqsuu.cn/peiqi.wgpsec.org" alt="" style="height: 20px;"> [操作系统漏洞 | PeiQi文库](https://peiqi.wgpsec.org/wiki/system/) 
 - <img src="https://favicon.qqsuu.cn/wiki.teamssix.com" alt="" style="height: 20px;"> [关于文库 | T Wiki](https://wiki.teamssix.com/About/) 
 ##### 漏洞检测利用仓库
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cve-search](https://github.com/cve-search/cve-search) cve-search - a tool to perform local searches for known vulnerabilities
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vulnerability](https://github.com/lal0ne/vulnerability) 收集、整理、修改互联网上公开的漏洞POC
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cve-search](https://github.com/cve-search/cve-search) cve-search - a tool to perform local searches for known vulnerabilities
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github) 聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from G...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [poc_exp](https://github.com/Y1-K1NG/poc_exp) 暂停更新·······正在谋划······
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Penetration_Testing_POC](https://github.com/Mr-xn/Penetration_Testing_POC) 渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing pytho...
@@ -1183,7 +1183,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.183.54.148属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [23.96.249.162属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1191,7 +1191,7 @@
 - <img src="https://favicon.qqsuu.cn/site.ip138.com" alt="" style="height: 20px;"> [域名查iP 域名解析 iP查询网站 iP反查域名 iP反查网站 同一iP网站 同iP网站域名iP查询](https://site.ip138.com/) 
 - <img src="https://favicon.qqsuu.cn/tools.ipip.net" alt="" style="height: 20px;"> [专业精准的IP库服务商_IPIP](https://tools.ipip.net/ipdomain.php) 
 - <img src="https://favicon.qqsuu.cn/viewdns.info" alt="" style="height: 20px;"> [Just a moment...](https://viewdns.info/reverseip/) 
-- <img src="https://favicon.qqsuu.cn/www.webscan.cc" alt="" style="height: 20px;"> [www.webscan.cc](https://www.webscan.cc/) 
+- <img src="https://favicon.qqsuu.cn/www.webscan.cc" alt="" style="height: 20px;"> [同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan](https://www.webscan.cc/) 
 - <img src="https://favicon.qqsuu.cn/www.yougetsignal.com" alt="" style="height: 20px;"> [www.yougetsignal.com | 523: Origin is unreachable](https://www.yougetsignal.com/tools/web-sites-on-web-server/) 
 - <img src="https://favicon.qqsuu.cn/x.threatbook.com" alt="" style="height: 20px;"> [微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区](https://x.threatbook.com/) 
 #### IP定位
@@ -1288,8 +1288,8 @@
 - <img src="https://favicon.qqsuu.cn/www.wappalyzer.com" alt="" style="height: 20px;"> [Find out what websites are built with - Wappalyzer](https://www.wappalyzer.com/) 
 - <img src="https://favicon.qqsuu.cn/www.yunsee.cn" alt="" style="height: 20px;"> [yunsee.cn-2.0](https://www.yunsee.cn/) 
 #### 目录扫描
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gowitness](https://github.com/sensepost/gowitness) 🔍 gowitness - a golang, web screenshot utility using Chrome Headless
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [spray v0.9.1](https://github.com/chainreactors/spray) Next Generation HTTP Dir/File Fuzz Tool
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gowitness](https://github.com/sensepost/gowitness) 🔍 gowitness - a golang, web screenshot utility using Chrome Headless
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RouteCheck-Alpha](https://github.com/ax1sX/RouteCheck-Alpha) A Java Route Collection Tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [feroxbuster](https://github.com/epi052/feroxbuster) A fast, simple, recursive content discovery tool written in Rust.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cansina 1.0.0](https://github.com/deibit/cansina) Web Content Discovery Tool
@@ -1356,7 +1356,7 @@
 - <img src="https://favicon.qqsuu.cn/search.chongbuluo.com" alt="" style="height: 20px;"> [虫部落快搜 - 搜索快人一步](https://search.chongbuluo.com/) 
 - <img src="https://favicon.qqsuu.cn/www.dalipan.com" alt="" style="height: 20px;"> [大力盘 - 网盘搜索引擎](https://www.dalipan.com/#/) 
 - <img src="https://favicon.qqsuu.cn/www.lingfengyun.com" alt="" style="height: 20px;"> [十大网盘搜索引擎 - 凌风云](https://www.lingfengyun.com/) 
-- <img src="https://favicon.qqsuu.cn/www.pan131.com" alt="" style="height: 20px;"> [500 Internal Server Error](https://www.pan131.com/) 
+- <img src="https://favicon.qqsuu.cn/www.pan131.com" alt="" style="height: 20px;"> [百度云搜索,百度网盘云盘资源搜索引擎 - 盘131](https://www.pan131.com/) 
 #### 网站信息
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Web-SurvivalScan](https://github.com/AabyssZG/Web-SurvivalScan) 对Web渗透项目资产进行快速存活验证
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [waybackurls v0.1.0](https://github.com/tomnomnom/waybackurls) Fetch all the URLs that the Wayback Machine knows about for a do...
@@ -1882,11 +1882,11 @@
 - <img src="https://favicon.qqsuu.cn/www.sqlsec.com" alt="" style="height: 20px;"> [Just a moment...](https://www.sqlsec.com/tools.html) 
 #### 工具集成环境
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PST-Bucket](https://github.com/arch3rPro/PST-Bucket) Scoop-Buket for Penetration Suite Toolkit
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Online_tools](https://github.com/CuriousLearnerDev/Online_tools) 该工具是一个集成了非常多渗透测试工具，类似软件商城的工具可以进行工具下载，工具的更新，工具编写了自动化的安装脚本，不用担心工具跑不起来。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [commando-vm](https://github.com/mandiant/commando-vm) Complete Mandiant Offensive VM (Commando VM), a fully customizable Wind...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [f8x](https://github.com/ffffffff0x/f8x) 红/蓝队环境自动化部署工具 | Red/Blue team environment automation deployment tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Pentest-Windows v2.2](https://github.com/arch3rPro/Pentest-Windows) Windows11 Penetration Suite Toolkit 一个开箱即用的windows渗透测试环境
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [axiom](https://github.com/pry0cc/axiom) The dynamic infrastructure framework for everybody! Distribute the workload o...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Online_tools](https://github.com/CuriousLearnerDev/Online_tools) 该工具是一个集成了非常多渗透测试工具，类似软件商城的工具可以进行工具下载，工具的更新，工具编写了自动化的安装脚本，不用担心工具跑不起来。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [okfafu-pentestVM-public](https://github.com/mrl64/okfafu-pentestVM-public) okfafu渗透虚拟机公开版
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ApoalypseSecTools](https://github.com/ApocalypseSec/ApoalypseSecTools) ApoalypseSecTool更新地址
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GUI_Tools V1.1](https://github.com/ghealer/GUI_Tools) 一个由各种图形化渗透工具组成的工具集
@@ -2424,8 +2424,8 @@
 - <img src="https://favicon.qqsuu.cn/habo.qq.com" alt="" style="height: 20px;"> [腾讯哈勃分析系统](https://habo.qq.com/) 
 #### 综合
 ##### 分析辅助
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PotatoTool](https://github.com/HotBoy-java/PotatoTool) 这款工具是一款功能强大的网络安全综合工具，旨在为安全从业者、红蓝对抗人员和网络安全爱好者提供全面的网络安全解决方案。它集成了多种实用功能，包括解...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) 蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/C...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PotatoTool](https://github.com/HotBoy-java/PotatoTool) 这款工具是一款功能强大的网络安全综合工具，旨在为安全从业者、红蓝对抗人员和网络安全爱好者提供全面的网络安全解决方案。它集成了多种实用功能，包括解...
 - <img src="https://favicon.qqsuu.cn/potato.gold" alt="" style="height: 20px;"> [Webshell 流量在线解密](https://potato.gold/navbar/tool/webshellDecrypt/index.php) 
 #### 网络层面
 ##### IP信息
@@ -2465,7 +2465,7 @@
 - <img src="https://favicon.qqsuu.cn/sec.huazhu.com" alt="" style="height: 20px;"> [华住安全响应中心 | Huazhu Security Response Center](https://sec.huazhu.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.ly.com" alt="" style="height: 20px;"> [首页 | 同程旅行安全应急响应中心](https://sec.ly.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.meizu.com" alt="" style="height: 20px;"> [魅族安全中心](https://sec.meizu.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [VSRC首页-唯品会信息安全中心](https://sec.vip.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [sec.vip.com](https://sec.vip.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wacai.com" alt="" style="height: 20px;"> [挖财安全应急响应中心](https://sec.wacai.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wifi.com" alt="" style="height: 20px;"> [WIFI万能钥匙安全响应中心](https://sec.wifi.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.xiaomi.com" alt="" style="height: 20px;"> [小米安全中心](https://sec.xiaomi.com/) 
