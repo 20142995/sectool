@@ -22494,8 +22494,8 @@
     "https://github.com/Prepouce/CoercedPotato": {
         "created_at": "2023-09-11 19:04:29",
         "description": "A Windows potato to privesc",
-        "commit_date": "2023-11-03 20:58:16",
-        "commit_message": "Implementation of random Namedpipe name in order to avoid detection :D",
+        "commit_date": "2024-07-02 15:23:32",
+        "commit_message": "Merge pull request #6 from p0dalirius/errors-verbosity-refactoring\n\n[enhancement] Errors verbosity refactoring",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -23558,13 +23558,13 @@
         "release_message": ""
     },
     "https://github.com/t3l3machus/Villain": {
-        "created_at": "2022-10-25 22:02:59",
+        "created_at": "2024-07-29 12:03:09",
         "description": "Villain is a high level stage 0/1 C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells, enhance their functionality with additional features (commands, utilities) and share them among connected sibling servers (Villain instances running on different machines).",
-        "commit_date": "2023-12-19 13:39:05",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-07-29 12:03:09",
+        "commit_message": "[2024-29-07] v2.1.0 Release \n\n[2024-29-07] v2.1.0 Release",
         "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_date": "2024-07-29 12:08:43",
+        "release_message": "## 🪲 Bug Fixes \r\n- Fixed Python v3.12 invalid escape warning message in regex patterns (by D3vil0p3r, #149) and payload templates (by t3l3machus).\r\n- Fixed exception for non-existent destination path in 'upload' command (by x4v1l0k, #141).\r\n- Fixed session id alias interpretation for the 'exec' command (#159).\r\n- Fixed various tab autocomplete issues.\r\n- Fixed an unhandled exception for the update process (#129).\r\n- Fixed a mistake in payload template `windows/netcat/python3_reverse_tcp`.\r\n\r\n## ⚙️ Improvements\r\n- Improved the LHOST argument parsing in payload generation (supports IP, interface, or hostname with DNS resolution check).\r\n- Instead of checking for updates automatically on startup, the update process was adjusted to fetch the latest commits from the main branch on GitHub if the user supplies the -u option. "
     },
     "https://github.com/hahwul/WebHackersWeapons": {
         "created_at": "2020-04-04 14:54:04",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "23.96.249.162属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.157.5.227属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
