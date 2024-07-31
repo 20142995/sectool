@@ -372,8 +372,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_message": "CVE-2024-36404",
-        "commit_date": "2024-07-04 01:45:34"
+        "commit_message": "CVE-2024-40075",
+        "commit_date": "2024-07-25 02:26:20"
     },
     "https://github.com/CTF-MissFeng/GoScan": {
         "created_at": "2020-12-13 11:08:12",
@@ -1042,12 +1042,12 @@
         "release_message": "- 增加`list-network`参数用于查看网卡ID\r\n- 增加`-csv`参数 用于保存文件到excel\r\n- 增加`-api`参数用于从网络api获取目标\r\n- 增加`-full`参数，用(api+内置字典)进行完整的一次扫描\r\n![WX20210112-175029](https://user-images.githubusercontent.com/18695984/104303212-c5b2ed80-5504-11eb-9d4a-fe8c7a2a1fe9.png)\r\n"
     },
     "https://github.com/ninoseki/mitaka": {
-        "created_at": "2024-05-18 08:49:54",
+        "created_at": "2024-07-28 10:24:08",
         "description": "A browser extension for OSINT search",
-        "commit_message": "Merge pull request #815 from ninoseki/renovate/ts-jest-29.x-lockfile\n\nchore(deps): update dependency ts-jest to v29.2.2",
-        "commit_date": "2024-07-15 07:36:12",
-        "release_date": "2024-05-18 08:52:41",
-        "release_message": "## What's Changed\r\n* refactor: reduce setOptions function call by @ninoseki in https://github.com/ninoseki/mitaka/pull/805\r\n* Renew neverthrow integration by @ninoseki in https://github.com/ninoseki/mitaka/pull/806\r\n* feat: add reachability check by @ninoseki in https://github.com/ninoseki/mitaka/pull/807\r\n* Refactoring by @ninoseki in https://github.com/ninoseki/mitaka/pull/812\r\n* v2.1.1 by @ninoseki in https://github.com/ninoseki/mitaka/pull/813\r\n\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.1.0...v2.1.1"
+        "commit_message": "fix: update package-lock.json",
+        "commit_date": "2024-07-28 10:25:21",
+        "release_date": "2024-07-28 10:24:26",
+        "release_message": "## What's Changed\r\n* feat: support urlscan.io submit/scan visibility by @ninoseki in https://github.com/ninoseki/mitaka/pull/823\r\n* refactor: use valibot to convert Proxy object into vanilla object by @ninoseki in https://github.com/ninoseki/mitaka/pull/824\r\n* fix: fix type error by @ninoseki in https://github.com/ninoseki/mitaka/pull/826\r\n* refactor: use CommandSchema/Type by @ninoseki in https://github.com/ninoseki/mitaka/pull/827\r\n* fix: fix truncate issue (#825) by @ninoseki in https://github.com/ninoseki/mitaka/pull/828\r\n* v2.2.0 by @ninoseki in https://github.com/ninoseki/mitaka/pull/829\r\n\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.1.3...v2.2.0"
     },
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2024-07-16 02:52:08",
@@ -6022,12 +6022,12 @@
         "release_message": "![文件头检测加载文件后 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/f652ebd2-c329-47d1-a468-cbbd1a33a52a)\r\n![文件头检测面板02 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/4c58ac56-84b8-4f8e-81e1-01cfeeddee36)\r\n\r\n```\r\n+ 文件头检测模块\r\n\r\n- 时间戳视图文件命名问题\r\n- 对称加密使用错误加密器问题\r\n```\r\n\r\n详情见 [BE工具的文件头检测功能](https://ryuzu.blog.ffffffff0x.com/post/be%E5%B7%A5%E5%85%B7%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B4%E6%A3%80%E6%B5%8B%E5%8A%9F%E8%83%BD/)"
     },
     "https://github.com/abc123info/BlueTeamTools": {
-        "created_at": "2024-07-08 05:33:23",
+        "created_at": "2024-07-18 10:14:27",
         "description": "蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。",
         "commit_message": "Update README.md",
-        "commit_date": "2024-07-18 10:14:27",
-        "release_date": "2024-07-18 10:12:54",
-        "release_message": "2024.07.18 修正冰蝎、哥斯拉、天蝎解密后中文乱码问题，可以手工选择相应编码进行切换。"
+        "commit_date": "2024-07-24 13:10:22",
+        "release_date": "2024-07-24 13:09:49",
+        "release_message": "2024.07.24 更新IP地址查询库为最新版本，查询IP物理归属地更精确。"
     },
     "https://github.com/yutianqaq/impacket-gui": {
         "created_at": "2023-09-01 10:27:31",
@@ -6362,8 +6362,8 @@
     "https://github.com/ufrisk/MemProcFS": {
         "created_at": "2024-07-29 20:44:07",
         "description": "MemProcFS",
-        "commit_message": "Version 5.11.1",
-        "commit_date": "2024-07-29 22:25:06",
+        "commit_message": "Version 5.11.3",
+        "commit_date": "2024-07-30 13:08:36",
         "release_date": "2024-07-29 20:44:56",
         "release_message": "* Bug fixes.\r\n* [New Vmmsharp C# API](https://github.com/ufrisk/MemProcFS/wiki/API_CSharp).\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
     },
@@ -7671,8 +7671,8 @@
     "https://github.com/locustio/locust": {
         "created_at": "2024-06-25 10:40:48",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Merge pull request #2806 from andrewbaldwin44/feature/avg-response-time\n\nReplace total avg response time with 50 percentile (avg was broken)",
-        "commit_date": "2024-07-18 13:27:27",
+        "commit_message": "Merge pull request #2821 from mquinnfd/update-poetry-windows-tests\n\nUpdate poetry windows tests",
+        "commit_date": "2024-07-30 13:10:49",
         "release_date": "2024-06-25 10:41:20",
         "release_message": "## What's Changed\r\n* Add JavaScript to MIME types for Windows Operating Systems by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2759\r\n* Option to Skip Monkey Patching with LOCUST_SKIP_MONKEY_PATCH by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2765\r\n* Httpsession requests typing by @tdadela in https://github.com/locustio/locust/pull/2699\r\n* HttpSession: Improve error message when someone forgot to pass catch_response=True + small optimization by @cyberw in https://github.com/locustio/locust/pull/2762\r\n* Add proxy support for FastHttpUser by @NicoAdrian in https://github.com/locustio/locust/pull/2758\r\n\r\n## New Contributors\r\n* @NicoAdrian made their first contribution in https://github.com/locustio/locust/pull/2758\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.29.0...2.29.1"
     },
@@ -23751,13 +23751,13 @@
         "release_message": ""
     },
     "https://github.com/chainreactors/spray": {
-        "created_at": "2024-07-04 07:18:46",
+        "created_at": "2024-07-24 05:51:27",
         "description": "Next Generation HTTP Dir/File Fuzz Tool",
-        "commit_date": "2024-07-04 07:40:23",
-        "commit_message": "Merge pull request #45 from chainreactors/dev\n\nrm same status with random baseline filter",
+        "commit_date": "2024-07-29 09:08:42",
+        "commit_message": "Merge pull request #52 from chainreactors/dev\n\nmerge v1.0.0",
         "release_tag": "v0.9.1",
-        "release_date": "2024-07-04 07:39:56",
-        "release_message": "## Changelog\r\n* [feature] **重构spray的输出, 现在的输出格式更加整齐与高效.  感谢多位师傅的提供的建议, 特别是@DuoKeBei 提供的建议**\r\n![image](https://github.com/chainreactors/spray/assets/29176200/99763a57-c51b-4f20-919e-28102706ba16)\r\n* [feature] **新支持ehole与goby的指纹引擎, 现在指纹引擎有fingers(默认), `ehole,fingerprinthub,goby,wappalyzer` (通过`--finger`打开), 并自动聚合指纹.**\r\n* [feature] 支持`-j/--json` 输出json格式的\r\n* [feature] support cpe,wfn,uri 三种关于指纹的输出\r\n* [enhance] 删除了一个自动过滤的规则, 该规则导致与随机页面相同的所有页面都被过滤\r\n* [enhance] 优化了信息收集阶段的性能\r\n* [enhance] 优化了多出代码结构\r\n* [fix] 修复超过缓冲区的body 读取失败的bug, (与gogo中相同)\r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v0.9.8...v0.9.9"
+        "release_date": "2024-07-24 06:53:16",
+        "release_message": "## Changelog\r\n* [feature] **重构交互逻辑**, 现在的spray更加轻量\r\n\t* 现在默认参数下用法类似httpx, 能收集http的基本信息与基本指纹\r\n\t* 支持`--cidr` 指定网段输入\r\n\t* 支持`--port` 会与原有输入进行笛卡尔积, 并支持gogo同等的端口tag解析\r\n\t* 自动添加的字典现在移动到了`--default` 参数中\r\n\t* 大大优化了输出样式\r\n* [feature] **重构指纹引擎**， 带来了大量新特性\r\n\t* 新增多指纹源识别引擎. (fingers, ehole, fingerprinthub, goby, wappalyzer)\r\n\t*  `--finger` 将打开指纹引擎的完全体, 将会使用5个指纹引擎进行被动匹配, 主动识别, favicon匹配\r\n\t* 指纹数据源聚合, 将以fingers原生指纹库为基础, 尽可能聚合多指纹数据\r\n\t* 支持CPE,WFN,URI等通用产品格式\r\n* [feature] support --no-stat flag, 关闭stat文件自动生成\r\n* [enhance] 重构了多处代码, 优化了多出性能问题\r\n* [fix] 修复一个checkpool的输出错误\r\n* [fix] 在退出阶段 bar会吃掉部分输出的bug\r\n* [fix] ctrl+c 无法退出的bug， 现在一次ctrl+c会进入到保存进度的工作， 如果无法正常退出第二次ctrl+c会强制退出\r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v0.9.9...v1.0.0"
     },
     "https://github.com/TD0U/WeaverScan": {
         "created_at": "2022-12-30 12:45:33",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24827,7 +24827,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
+        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -25700,8 +25700,8 @@
     "https://github.com/Anduin2017/HowToCook": {
         "created_at": "2024-06-17 14:03:33",
         "description": "程序员在家做饭方法指南。Programmer's guide about how to cook at home (Simplified Chinese only).",
-        "commit_message": "Update 食品安全.md to fix #1355",
-        "commit_date": "2024-07-06 05:03:40",
+        "commit_message": "Update Dockerfile",
+        "commit_date": "2024-07-22 06:03:29",
         "release_date": "2024-06-17 14:03:41",
         "release_message": "## What's Changed\r\n\r\n* 添加了每道菜的难度星级和按照难度索引的功能\r\n* 添加了 Docker 部署 和 PDF 部署的支持 by @Anduin2017 \r\n* Update readme-generate.js by @YufeiJ1ao in https://github.com/Anduin2017/HowToCook/pull/1329\r\n* feat:添加关于炸小酥肉的做法 by @coder-lib in https://github.com/Anduin2017/HowToCook/pull/1332\r\n* 修正小酥肉的语文语法 by @Anduin2017 in https://github.com/Anduin2017/HowToCook/pull/1333\r\n* Update 西红柿牛腩.md by @xiaohei417 in https://github.com/Anduin2017/HowToCook/pull/1334\r\n* add recipe for winter melon punch by @aytchhh in https://github.com/Anduin2017/HowToCook/pull/1336\r\n\r\n## New Contributors\r\n* @YufeiJ1ao made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1329\r\n* @coder-lib made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1332\r\n* @xiaohei417 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1334\r\n* @aytchhh made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1336\r\n\r\n**Full Changelog**: https://github.com/Anduin2017/HowToCook/compare/1.3.1...1.4.0"
     },
@@ -26252,8 +26252,8 @@
     "https://github.com/X1r0z/JNDIMap": {
         "created_at": "2023-11-06 12:42:03",
         "description": "JNDI 注入利用工具, 支持 RMI 和 LDAP 协议, 包含多种高版本 JDK 绕过方式 | A JNDI injection exploit tool that supports RMI and LDAP protocols, including a variety of methods to bypass higher-version JDK",
-        "commit_message": "fix: ScriptEngine 利用方式兼容高版本 JDK\n\n在 ScriptEngine JavaScript payload 内使用 sun.misc.Unsafe.defineAnonymousClass 以兼容高版本 JDK, Fixed #4",
-        "commit_date": "2024-07-19 10:20:09"
+        "commit_message": "fix: 修复 WebServer class 文件路径问题\n\n修复 WebServer class 文件路径问题",
+        "commit_date": "2024-07-26 10:07:08"
     },
     "https://github.com/dzonerzy/goWAPT": {
         "created_at": "2017-12-05 19:32:43",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.114.212属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.79.3属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27094,8 +27094,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 404,
-        "description": ""
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27274,8 +27274,8 @@
         "description": "Find Missing Patches"
     },
     "https://www.pan131.com/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "百度云搜索,百度网盘云盘资源搜索引擎 - 盘131"
     },
     "http://whois.alexa.cn/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28736,8 +28736,8 @@
     "https://github.com/chatchat-space/Langchain-Chatchat": {
         "created_at": "2024-07-12 14:29:12",
         "description": "Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain ",
-        "commit_message": "fix: 参考文档和图片链接错误 (#4629)",
-        "commit_date": "2024-07-26 14:02:09",
+        "commit_message": "Update README.md (#4651)",
+        "commit_date": "2024-07-31 00:32:22",
         "release_date": "2024-07-12 15:23:05",
         "release_message": "## 重要提示\r\n\r\nLangchain-Chatchat v0.3.1 中命令行调用方式发生调整，请依据项目 README 进行操作；知识库的源文件与向量库仍可与前序版本通用，建议参考项目 README.md 中 快速上手 章节内容进行新版本部署。\r\n\r\n------\r\n\r\n## 新增功能\r\n\r\n* 所有配置项改成 yaml 配置文件，改为命令行执行 chatchat init 初始化项目配置，需要本地文件中修改配置，配置项修改后即时生效，无需重启项目 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* chatchat init 可以直接指定 Xinference API 地址、LLM 模型、Embedding 模型，一步完成知识库初始 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4425\r\n* 新增 RAG 对话页面，包含知识库对话、文件对话、搜索引擎对话 by @liunux4odoo @imClumsyPanda in https://github.com/chatchat-space/Langchain-Chatchat/pull/4471\r\n* 调整对话界面按钮布局，对话输入框左右分别设置\"模型配置\"与\"清空对话\"按钮 by @imClumsyPanda @liunux4odoo \r\n* 支持 searx 搜索引擎 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4476\r\n* 支持 GLM-4V、Qwen-VL 等 Vision 模型接入进行图片对话 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* 使用 Xinference 接入本地模型时，支持自动检测已启动模型，无需手动填写模型名称 by @imClumsyPanda @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* Agent 可调用工具中增加了维基百科搜索、高德地图天气查询、高德地图POI搜索 by @yhfgyyf in https://github.com/chatchat-space/Langchain-Chatchat/pull/4419\r\n* Agent 工具新增 text2promql by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4399\r\n* 增加 dockerfile 并更新 README 中关于 docker 部署的操作介绍 by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4271 and https://github.com/chatchat-space/Langchain-Chatchat/pull/4274\r\n* 新增 Agent 添加工具操作说明 by @zRzRzRzRzRzRzR in https://github.com/chatchat-space/Langchain-Chatchat/pull/4484\r\n* 新增数据库对话配置说明 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4475\r\n* 添加 Agent & Chat API 接口调用的说明，修正知识库检索bug by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4341\r\n* 增加知识库初始化时对 Ctrl+C 中止操作的支持 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4352\r\n* 增加 Pypi 发布自动化操作 by @glide-the in https://github.com/chatchat-space/Langchain-Chatchat/pull/4260\r\n* 增加不同系统部署环境测试 by @glide-the in https://github.com/chatchat-space/Langchain-Chatchat/pull/4480\r\n\r\n\r\n## 问题修复\r\n* 在 readme 中增加对 windows 下创建知识库卡住的说明与解决办法 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4330\r\n* 统一搜索引擎与本地知识库返回格式，修改 WEBUI 渲染上下文方式 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4344\r\n* 修复文生图工具 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4349\r\n* 修复 Milvus 作为知识库时可能发生的错误 by @kwunhang in https://github.com/chatchat-space/Langchain-Chatchat/pull/4319\r\n* 修复 max_tokens 问题 by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4355\r\n* 修改api文档中手动输入工具参数的说明 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4367\r\n* 解决text2sql对GLM的兼容，即temperature不能设置为0 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4370\r\n* 解决es数据库删除时只能删除50条数据的BUG by @YangSuoze in https://github.com/chatchat-space/Langchain-Chatchat/pull/4351\r\n* 解决天气、text2Sql Agent 运行报错的BUG by @21Janur in https://github.com/chatchat-space/Langchain-Chatchat/pull/4336\r\n* 修复知识库对话中的bug by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4468\r\n* fix: action model initialize error by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4347\r\n\r\n## New Contributors\r\n* @kwunhang made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4319\r\n* @YangSuoze made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4351\r\n* @21Janur made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4336\r\n\r\n**Full Changelog**: https://github.com/chatchat-space/Langchain-Chatchat/compare/v0.3.0...v0.3.1"
     },
