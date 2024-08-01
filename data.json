@@ -5618,8 +5618,8 @@
     "https://github.com/fortra/impacket": {
         "created_at": "2023-07-31 15:08:03",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_message": "Delete examples/readLAPS.py\n\nRemoved `readLAPS` example as talked in #1556",
-        "commit_date": "2024-06-26 22:31:48",
+        "commit_message": "Samrdump.py updated (#1622)\n\n* Update samrdump.py\r\n\r\nAdded AdminComment while dumping. This will ensure to dump the Description field in querydispinfo or queruser\r\n\r\n* Update samrdump.py",
+        "commit_date": "2024-07-31 16:23:53",
         "release_date": "2023-08-03 17:36:40",
         "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"
     },
@@ -22640,8 +22640,8 @@
     "https://github.com/whyour/qinglong": {
         "created_at": "2021-03-13 15:21:04",
         "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
-        "commit_message": "更新版本 v2.17.7",
-        "commit_date": "2024-07-01 16:44:56"
+        "commit_message": "更新版本 v2.17.9",
+        "commit_date": "2024-07-28 10:40:10"
     },
     "https://github.com/nelenkov/android-backup-extractor": {
         "created_at": "2022-08-09 06:34:28",
@@ -22704,8 +22704,8 @@
     },
     "https://github.com/Safe3/CVS": {
         "created_at": "2024-06-30 14:30:19",
-        "description": "Powerful and customizable vulnerability scanner based on VDSL, which can replace Nessus or Nuclei, etc. 万象通用漏洞扫描器，支持强大的PoC脚本语言、先进易用的PoC开发和调试IDE、现代化无需等待OOB服务器。可替代Nessus和Nuclei等漏洞扫描产品。",
-        "commit_date": "2024-06-30 14:30:19",
+        "description": "CVS is a powerful comprehensive attack surface management platform that covers the entire lifecycle of vulnerabilities, including network space mapping, asset management, vulnerability scanning, and more. 森罗万象-强大的网络空间测绘、资产管理、漏洞扫描等全生命漏洞周期的综合攻击面管理平台，化繁为简，以一御百。",
+        "commit_date": "2024-07-30 10:00:54",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "2024-07-01 08:25:04",
@@ -23329,8 +23329,8 @@
     "https://github.com/soxoj/maigret": {
         "created_at": "2022-09-03 11:30:24",
         "description": "🕵️‍♂️ Collect a dossier on a person by username from thousands of sites",
-        "commit_date": "2024-06-24 10:51:54",
-        "commit_message": "Update data.json (#1559)\n\nchanged the URL for vidamora.com to www.vidamora.com\r\n\r\nany username on https://vidamora.com/profile/{username} returns a redirect, to www.vidamora.com\r\n\r\non https://www.vidamora.com, you get different behavior for existing and non-existing users.",
+        "commit_date": "2024-07-23 14:19:43",
+        "commit_message": "Adding permutator feature for usernames (#1575)\n\n* Adding permutator feature for usernames\r\n(\"\", \"_\", \"-\", \".\") when id_type == username\r\n\r\nFile : maigret/permutator.py\r\n\r\nArg : --permute\r\n\r\nFor now, only permute from 2 elements and doesn't return single elements (element1, _element1, element1_,  element2, _element2, ...). 12 permuts for 2 elements.\r\n\r\nTo return single elements as well, Permute(usernames).gather(method=\"all\"), but not implemented in maigrat.py. 18 permuts for 2 elements. Should we ? With another argument ?\r\n\r\n* Update test_cli.py\r\n\r\npermute arg added",
         "release_tag": "",
         "release_date": "2022-09-03 11:31:06",
         "release_message": "## What's Changed\r\n* Fixed some false positives by @soxoj in https://github.com/soxoj/maigret/pull/433\r\n* Drop Python 3.6 support by @soxoj in https://github.com/soxoj/maigret/pull/434\r\n* Bump xhtml2pdf from 0.2.5 to 0.2.7 by @dependabot in https://github.com/soxoj/maigret/pull/409\r\n* Bump reportlab from 3.6.6 to 3.6.9 by @dependabot in https://github.com/soxoj/maigret/pull/403\r\n* Bump markupsafe from 2.0.1 to 2.1.1 by @dependabot in https://github.com/soxoj/maigret/pull/389\r\n* Bump pycountry from 22.1.10 to 22.3.5 by @dependabot in https://github.com/soxoj/maigret/pull/384\r\n* Bump pypdf2 from 1.26.0 to 1.27.4 by @dependabot in https://github.com/soxoj/maigret/pull/438\r\n* Update GH actions by @soxoj in https://github.com/soxoj/maigret/pull/439\r\n* Bump tqdm from 4.63.0 to 4.64.0 by @dependabot in https://github.com/soxoj/maigret/pull/440\r\n* Bump jinja2 from 3.0.3 to 3.1.1 by @dependabot in https://github.com/soxoj/maigret/pull/441\r\n* Bump soupsieve from 2.3.1 to 2.3.2 by @dependabot in https://github.com/soxoj/maigret/pull/436\r\n* Bump pypdf2 from 1.26.0 to 1.27.4 by @dependabot in https://github.com/soxoj/maigret/pull/442\r\n* Bump pyvis from 0.1.9 to 0.2.0 by @dependabot in https://github.com/soxoj/maigret/pull/443\r\n* Bump pypdf2 from 1.27.4 to 1.27.6 by @dependabot in https://github.com/soxoj/maigret/pull/448\r\n* Bump typing-extensions from 4.1.1 to 4.2.0 by @dependabot in https://github.com/soxoj/maigret/pull/447\r\n* Bump soupsieve from 2.3.2 to 2.3.2.post1 by @dependabot in https://github.com/soxoj/maigret/pull/444\r\n* Bump pypdf2 from 1.27.6 to 1.27.7 by @dependabot in https://github.com/soxoj/maigret/pull/449\r\n* Bump pypdf2 from 1.27.7 to 1.27.8 by @dependabot in https://github.com/soxoj/maigret/pull/450\r\n* XMind 8 report warning and some docs update by @soxoj in https://github.com/soxoj/maigret/pull/452\r\n* False positive fixes 24.04.22 by @soxoj in https://github.com/soxoj/maigret/pull/455\r\n* Bump pypdf2 from 1.27.8 to 1.27.9 by @dependabot in https://github.com/soxoj/maigret/pull/456\r\n* Bump pytest from 7.0.1 to 7.1.2 by @dependabot in https://github.com/soxoj/maigret/pull/457\r\n* Bump jinja2 from 3.1.1 to 3.1.2 by @dependabot in https://github.com/soxoj/maigret/pull/460\r\n* Ubisoft forums addition by @fen0s in https://github.com/soxoj/maigret/pull/461\r\n* Add BYOND, Figma, BeatStars by @fen0s in https://github.com/soxoj/maigret/pull/462\r\n* fix Figma username definition, add a bunch of sites by @fen0s in https://github.com/soxoj/maigret/pull/464\r\n* Bump pypdf2 from 1.27.9 to 1.27.10 by @dependabot in https://github.com/soxoj/maigret/pull/465\r\n* Bump pypdf2 from 1.27.10 to 1.27.12 by @dependabot in https://github.com/soxoj/maigret/pull/466\r\n* Sites fixes 05 05 22 by @soxoj in https://github.com/soxoj/maigret/pull/469\r\n* Bump pyvis from 0.2.0 to 0.2.1 by @dependabot in https://github.com/soxoj/maigret/pull/472\r\n* Social analyzer websites, also fixing presense strs by @fen0s in https://github.com/soxoj/maigret/pull/471\r\n* Updated logic of false positive risk estimating by @soxoj in https://github.com/soxoj/maigret/pull/475\r\n* Improved usability of external progressbar func by @soxoj in https://github.com/soxoj/maigret/pull/476\r\n* New sites added, some tags/rank update by @soxoj in https://github.com/soxoj/maigret/pull/477\r\n* Added new sites by @soxoj in https://github.com/soxoj/maigret/pull/480\r\n* Added new forums, updated ranks, some utils improvements by @soxoj in https://github.com/soxoj/maigret/pull/481\r\n* Disabled sites with false positives results by @soxoj in https://github.com/soxoj/maigret/pull/482\r\n* Bump certifi from 2021.10.8 to 2022.5.18.1 by @dependabot in https://github.com/soxoj/maigret/pull/488\r\n* Bump psutil from 5.9.0 to 5.9.1 by @dependabot in https://github.com/soxoj/maigret/pull/490\r\n* Bump pypdf2 from 1.27.12 to 1.28.1 by @dependabot in https://github.com/soxoj/maigret/pull/491\r\n* Bump pypdf2 from 1.28.1 to 1.28.2 by @dependabot in https://github.com/soxoj/maigret/pull/493\r\n* added and fixed some websites in data.json by @kustermariocoding in https://github.com/soxoj/maigret/pull/494\r\n* Bump pypdf2 from 1.28.2 to 2.0.0 by @dependabot in https://github.com/soxoj/maigret/pull/504\r\n* Bump pefile from 2021.9.3 to 2022.5.30 by @dependabot in https://github.com/soxoj/maigret/pull/499\r\n* Updated sites list, added disabled Anilist by @soxoj in https://github.com/soxoj/maigret/pull/502\r\n* Bump lxml from 4.8.0 to 4.9.0 by @dependabot in https://github.com/soxoj/maigret/pull/503\r\n* Compatibility with Python 10 by @soxoj in https://github.com/soxoj/maigret/pull/509\r\n* feat: add *.log & *.bak files to gitignore in https://github.com/soxoj/maigret/pull/511\r\n* fix some sites and delete abandoned by @fen0s in https://github.com/soxoj/maigret/pull/526\r\n* Fixesjulyfirst by @fen0s in https://github.com/soxoj/maigret/pull/533\r\n* yazbel, aboutcar, zhihu by @fen0s in https://github.com/soxoj/maigret/pull/531\r\n* Fixes july third by @fen0s in https://github.com/soxoj/maigret/pull/535\r\n* Update data.json by @fen0s in https://github.com/soxoj/maigret/pull/539\r\n* Update data.json by @fen0s in https://github.com/soxoj/maigret/pull/540\r\n* Bump reportlab from 3.6.9 to 3.6.11 by @dependabot in https://github.com/soxoj/maigret/pull/543\r\n* Bump requests from 2.27.1 to 2.28.1 by @dependabot in https://github.com/soxoj/maigret/pull/530\r\n* Bump pypdf2 from 2.0.0 to 2.5.0 by @dependabot in https://github.com/soxoj/maigret/pull/542\r\n* Bump xhtml2pdf from 0.2.7 to 0.2.8 by @dependabot in https://github.com/soxoj/maigret/pull/522\r\n* Bump lxml from 4.9.0 to 4.9.1 by @dependabot in https://github.com/soxoj/maigret/pull/538\r\n* disable yandex music + set utf8 encoding by @fen0s in https://github.com/soxoj/maigret/pull/562\r\n* fix false positives by @fen0s in https://github.com/soxoj/maigret/pull/577\r\n* disable Instagram, fix two false positives by @fen0s in https://github.com/soxoj/maigret/pull/578\r\n* Bump certifi from 2022.5.18.1 to 2022.6.15 by @dependabot in https://github.com/soxoj/maigret/pull/551\r\n* August15 by @fen0s in https://github.com/soxoj/maigret/pull/591\r\n* Bump pytest-httpserver from 1.0.4 to 1.0.5 by @dependabot in https://github.com/soxoj/maigret/pull/583\r\n* Bump typing-extensions from 4.2.0 to 4.3.0 by @dependabot in https://github.com/soxoj/maigret/pull/549\r\n* Bump colorama from 0.4.4 to 0.4.5 by @dependabot in https://github.com/soxoj/maigret/pull/548\r\n* Bump chardet from 4.0.0 to 5.0.0 by @dependabot in https://github.com/soxoj/maigret/pull/550\r\n* Bump cloudscraper from 1.2.60 to 1.2.63 by @dependabot in https://github.com/soxoj/maigret/pull/600\r\n* Bump flake8 from 4.0.1 to 5.0.4 by @dependabot in https://github.com/soxoj/maigret/pull/598\r\n* Bump attrs from 21.4.0 to 22.1.0 by @dependabot in https://github.com/soxoj/maigret/pull/597\r\n* Bump pytest-asyncio from 0.18.2 to 0.19.0 by @dependabot in https://github.com/soxoj/maigret/pull/601\r\n* Bump pypdf2 from 2.5.0 to 2.10.4 by @dependabot in https://github.com/soxoj/maigret/pull/606\r\n* Bump pytest from 7.1.2 to 7.1.3 by @dependabot in https://github.com/soxoj/maigret/pull/613\r\n* Update sites.md -Gitmemory.com suppression by @C3n7ral051nt4g3ncy in https://github.com/soxoj/maigret/pull/610\r\n* Bump cloudscraper from 1.2.63 to 1.2.64 by @dependabot in https://github.com/soxoj/maigret/pull/614\r\n* Bump pycountry from 22.1.10 to 22.3.5 by @dependabot in https://github.com/soxoj/maigret/pull/607\r\n* add ProtonMail, disable 3 broken sites by @fen0s in https://github.com/soxoj/maigret/pull/619\r\n* Bump tqdm from 4.64.0 to 4.64.1 by @dependabot in https://github.com/soxoj/maigret/pull/618\r\n* Bump to 0.4.4 by @soxoj in https://github.com/soxoj/maigret/pull/621\r\n\r\n## New Contributors\r\n* @fen0s made their first contribution in https://github.com/soxoj/maigret/pull/461\r\n* @C3n7ral051nt4g3ncy made their first contribution in https://github.com/soxoj/maigret/pull/610\r\n\r\n**Full Changelog**: https://github.com/soxoj/maigret/compare/v0.4.3...v0.4.4"
@@ -23691,12 +23691,12 @@
         "release_message": "## What's Changed\r\n* html a-tag unclosed bug fixed by @gorgiaxx in https://github.com/sensepost/gowitness/pull/187\r\n* Fix database file path location parser by @mr-pmillz in https://github.com/sensepost/gowitness/pull/188\r\n* fix: typo by @testwill in https://github.com/sensepost/gowitness/pull/201\r\n* (fix) MarshalJSON spells with one \"l\" by @alexandear in https://github.com/sensepost/gowitness/pull/198\r\n* Fixing the missing port issue with Nessus  by @quentinpraz in https://github.com/sensepost/gowitness/pull/191\r\n\r\n## New Contributors\r\n* @gorgiaxx made their first contribution in https://github.com/sensepost/gowitness/pull/187\r\n* @mr-pmillz made their first contribution in https://github.com/sensepost/gowitness/pull/188\r\n* @testwill made their first contribution in https://github.com/sensepost/gowitness/pull/201\r\n* @alexandear made their first contribution in https://github.com/sensepost/gowitness/pull/198\r\n* @quentinpraz made their first contribution in https://github.com/sensepost/gowitness/pull/191\r\n\r\n**Full Changelog**: https://github.com/sensepost/gowitness/compare/2.5.0...2.5.1\r\n\r\n```\r\n1edfe2209731e68621006b3cc0376d6a4b97e85e  gowitness-2.5.1-darwin-amd64\r\n3c817d57d704a3de1dcb084a59b77e684dddb154  gowitness-2.5.1-darwin-arm64\r\n19c75086ac90ae2891f24fa89d76c84748eb3d06  gowitness-2.5.1-linux-amd64\r\n105ecb560afccd5f29fe1d748c32862848f556df  gowitness-2.5.1-linux-arm64\r\ne893957658f560911864eeecec606c0cd9ea8e05  gowitness-2.5.1-linux-armv7\r\n32315a0b50ccd4e28b941a4b0121200b6625eb9e  gowitness-2.5.1-windows-amd64.exe\r\n```"
     },
     "https://github.com/qi4L/JYso": {
-        "created_at": "2024-05-29 08:13:04",
+        "created_at": "2024-07-24 07:38:01",
         "description": "It can be either a JNDIExploit or a ysoserial.",
-        "commit_message": "Update issue templates",
-        "commit_date": "2024-06-05 04:46:41",
-        "release_date": "2024-05-29 08:17:49",
-        "release_message": "# 给回显类添加构造函数写法版本\r\n类加载时，同名类只会执行一次静态代码，搞得每次执行都要打一遍\r\n如果打的构造类方法，就可以打一次就一直用\r\n# 修复JNDI模式下TomcatBypass路由失效问题"
+        "commit_message": "Increase CC13",
+        "commit_date": "2024-07-27 07:56:38",
+        "release_date": "2024-07-24 07:43:04",
+        "release_message": "+ 增加CC13 [Issues#47](https://github.com/qi4L/JYso/issues/47)\r\n+ 修复 [Issues#48](https://github.com/qi4L/JYso/issues/48) "
     },
     "https://github.com/cider-security-research/cicd-goat": {
         "created_at": "2024-07-11 13:31:30",
@@ -25572,12 +25572,12 @@
         "commit_date": "2016-10-06 14:49:45"
     },
     "https://github.com/AabyssZG/SpringBoot-Scan": {
-        "created_at": "2024-06-29 04:40:25",
+        "created_at": "2024-07-25 07:22:01",
         "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-29 04:40:25",
-        "release_date": "2024-06-29 04:43:37",
-        "release_message": "# 概述\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **解决了 `name 'u' is not defined` 的报错**\r\n- **优化了一些其他Bug**\r\n- **准备对一些 `Issues` 提出的问题进行进一步的处理**"
+        "commit_date": "2024-07-30 15:05:46",
+        "release_date": "2024-07-25 02:58:21",
+        "release_message": "# 概述\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **优化了 #18 中 [`zy696`](https://github.com/zy696) 师傅提出的CVE-2022-2947漏报的问题**\r\n- **优化了Spring资产识别的流程**\r\n- **准备对一些 `Issues` 提出的问题进行进一步的处理**"
     },
     "https://github.com/abc123info/Struts2VulsScanTools": {
         "created_at": "2024-05-23 07:16:14",
@@ -26094,11 +26094,11 @@
         "commit_date": "2016-01-02 11:04:22"
     },
     "https://github.com/deepfence/ThreatMapper": {
-        "created_at": "2024-06-17 19:03:02",
+        "created_at": "2024-07-30 18:32:37",
         "description": "Open Source Cloud Native Application Protection Platform (CNAPP)",
-        "commit_message": "Update docs",
-        "commit_date": "2024-06-17 19:03:02",
-        "release_date": "2024-07-21 00:15:19",
+        "commit_message": "Merge branch 'main' into release-2.3",
+        "commit_date": "2024-07-30 18:32:37",
+        "release_date": "2024-08-01 00:15:04",
         "release_message": ""
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.119.178属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.29.140属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27259,7 +27259,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "用户认证 - 云短信 - 短信接收"
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -27590,12 +27590,12 @@
         "release_message": "Added a lot of yummy ports! Fixed some minor bug - information about IP count was wrong by 2 hosts."
     },
     "https://github.com/Arinue/CTF-NetA": {
-        "created_at": "2024-06-20 02:17:14",
+        "created_at": "2024-07-29 07:20:01",
         "description": "CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析，快速自动获取flag。",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-21 06:16:10",
-        "release_date": "2024-06-20 02:18:25",
-        "release_message": "v1.5.4 20240615\r\n1.修复哥斯拉和冰蝎webshell解密中多处bug\r\n2.支持将主题配置保存到配置文件\r\n3.针对icmp协议中部分题目要求seq排序的情况，导出icmp.seq作为序号参照\r\n"
+        "commit_date": "2024-07-30 08:03:07",
+        "release_date": "2024-07-29 07:20:30",
+        "release_message": "v1.7.0 20240728\r\n1.支持minidump解密cs流量\r\n2.使用子线程运行URI、open port、ips统计功能\r\n3.优化授权校验机制，增加更多提示信息\r\n\r\nv1.6.0 20240727\r\n1.重构日志输出\r\n2.加强webshell请求和响应流量日志分色显示\r\n3.明文关键字作为全局检测高亮\r\n4.修复antSword中识别文件出错的bug"
     },
     "https://jiji.pro/yygq.js/": {
         "status_code": 200,
