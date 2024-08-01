@@ -228,8 +228,8 @@
     "https://github.com/gh0stkey/HaE": {
         "created_at": "2024-07-23 01:22:43",
         "description": "HaE - Highlighter and Extractor, Empower ethical hacker for efficient operations.",
-        "commit_date": "2024-07-23 01:22:43",
-        "commit_message": "Version: 3.3 Update",
+        "commit_date": "2024-07-31 00:57:17",
+        "commit_message": "Update",
         "release_tag": "2.4.6",
         "release_date": "2024-07-23 01:27:47",
         "release_message": "## 更新内容\r\n\r\nHaE 3.3（暨中孚信息元亨实验室**三周年纪念版**）更新内容如下。\r\n\r\n### 功能更新\r\n\r\n1. 新增AI+功能（**实验性**），通过调用阿里（Qwen-Long）和月之暗面（moonshot-v1-128k）的AI大模型API，优化HaE匹配结果。\r\n2. 新增作用域功能，在Config - Setting中可以设置HaE的作用域，可以选择想要高亮提取的模块。\r\n\r\n### 问题修复\r\n\r\n1. 修复Databoard长时间使用卡顿问题。\r\n2. 修复HaE在暗黑主题下加载的Logo颜色问题。\r\n3. 修复项目数据导入、导出提示框过大问题。"
@@ -1042,7 +1042,7 @@
         "release_message": "- 增加`list-network`参数用于查看网卡ID\r\n- 增加`-csv`参数 用于保存文件到excel\r\n- 增加`-api`参数用于从网络api获取目标\r\n- 增加`-full`参数，用(api+内置字典)进行完整的一次扫描\r\n![WX20210112-175029](https://user-images.githubusercontent.com/18695984/104303212-c5b2ed80-5504-11eb-9d4a-fe8c7a2a1fe9.png)\r\n"
     },
     "https://github.com/ninoseki/mitaka": {
-        "created_at": "2024-07-28 10:24:08",
+        "created_at": "2018-02-09 00:13:30",
         "description": "A browser extension for OSINT search",
         "commit_message": "fix: update package-lock.json",
         "commit_date": "2024-07-28 10:25:21",
@@ -1878,12 +1878,12 @@
         "release_message": "1. 关闭redis缓存来写入webshell，写入后再恢复原来的设置\r\n2. redis 计划任务可以是任意文件名，不要使用默认的 root ，这样就不会覆盖原有的计划任务"
     },
     "https://github.com/hiroi-sora/Umi-OCR": {
-        "created_at": "2024-06-03 13:16:33",
+        "created_at": "2024-07-23 17:38:36",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "Translated using Weblate (Portuguese) (#604)\n\nCurrently translated at 29.3% (132 of 450 strings)\r\n\r\nTranslation: Umi-OCR/UI\r\nTranslate-URL: https://hosted.weblate.org/projects/umi-ocr/ui/pt/",
-        "commit_date": "2024-07-21 17:45:43",
-        "release_date": "2024-06-03 13:46:15",
-        "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.2?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.2 主要更新\r\n\r\n- 新增：批量任务（图片、文档）支持 **暂停任务** 。只要不退出软件，在待机/休眠后可以恢复任务。\r\n- 新增：文档任务支持保存为 **单层纯文本PDF** 。\r\n- 新增：HTTP OCR接口 允许设置 **忽略区域** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#1-%E5%9B%BE%E7%89%87ocrbase64-%E8%AF%86%E5%88%AB%E6%8E%A5%E5%8F%A3)\r\n- 新增：HTTP 二维码接口 允许设置 **图像预处理** 参数。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_HTTP.md#/api/qrcode)\r\n- 新增：命令行`--screenshot`允许 **指定屏幕范围** ，自动进行截图。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/README_CLI.md#ocr%E6%8C%87%E4%BB%A4)\r\n- 修复：文档内容提取和写入时的坐标旋转、比例适配问题。\r\n- 修复：截图预览 & 记录面板中，跨区块复制文本时，尾块的复制字数不正确。\r\n- 修复：文档识别 整页强制OCR 模式下，无法进行任务。（2024.6.5紧急修复）\r\n- 优化：批量文档标签页，拖入大量文件、提交大批任务时的性能和流畅度。\r\n- 优化：文档任务保存的文件名规则。\r\n- UI：优化一些布局，调整一些文本，美化一些视觉效果。\r\n\r\n#### Windows7 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n#### Linux 用户：可尝试使用 [最新测试版本](https://github.com/hiroi-sora/Umi-OCR/releases)\r\n\r\n---\r\n\r\n新开通了赞助方式 [爱发电](https://afdian.net/a/hiroi-sora) ，有意愿的用户可以支持一下~\r\n\r\nUmi-OCR 保证始终 **开源** 和 **完全免费** 。所有需要付费/注册/关注才能下载的渠道均 **不是** 我们发布的渠道，请注意辨别。\r\n\r\n---\r\n\r\n### 配置文件迁移\r\n\r\nUmi-OCR v2 用户升级时，将旧版软件的`UmiOCR-data/.settings`拷贝到新版相同位置即可。\r\n\r\n### 下载说明\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致。\r\n均支持 win7 x64 及以上的系统，附带多国语言识别库。\r\n\r\n`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.2.7z.exe** （128.5MB）\r\nSHA256: `6dce23ea7f95a2ffb9415f8f5bb588df75ddf90abdcbbb972cc38fe2dbbfc70d`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.2.7z.exe** （97.1MB）\r\nSHA256: `879484ca912814702c30ba4dc0d9a5afff1ba0457c2fca2825ef7ea7adcde7b4`\r\n\r\n## 更多插件\r\n\r\n前往 [Umi-OCR_插件仓库](https://github.com/hiroi-sora/Umi-OCR_plugins) ，下载更多OCR插件，获取`离线数学公式识别`等附加功能。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.2/)"
+        "commit_message": "更新文档",
+        "commit_date": "2024-07-31 09:57:03",
+        "release_date": "2024-07-23 17:40:09",
+        "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.3?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.3 主要更新：\r\n\r\n- 新推出 Linux (Debian) 平台版本。\r\n- 支持：[Docker 部署](https://github.com/hiroi-sora/Umi-OCR_runtime_linux/blob/main/README-docker.md) 。\r\n- 新增：HTTP 文档识别接口。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/http/api_doc.md#/api/doc)\r\n- 修复：文档中宽高为0的异常图片会导致任务卡住。\r\n\r\nbate.1 版本之后的更新：\r\n- 修复：HTTP文档识别接口上传的文件名含非ascii字符时，该字符可被保留。\r\n- 优化：HTTP文档识别接口的 [Python示例](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/http/api_doc_demo.py) 和 [Html示例](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/http/api_doc_demo.html) 代码。\r\n- 优化：排版解析的 **单栏-单行** 方案，对于间隔较大的两个相邻文本块，会添加空格作为间隔符。\r\n\r\n#### Windows7 和 Linux 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n## Windows 下载\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致，附带多国语言识别库。`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.3.7z.exe** （134MB）\r\nSHA256: `27f5eb5097ba8fe95bf8247cb186c9c8518f6c8268b4f5d828e2e80b9e40be34`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.3.7z.exe** （97MB）\r\nSHA256: `de945941f785b9bbf6c7c5d82a5736c9b14a777d3503966c5ea110ac21ebc816`\r\n\r\n## Linux 下载\r\n\r\n**Umi-OCR_Debian_x64_Paddle_2.1.3.tar.xz** （273MB）\r\nSHA256: `6d9596eaf482d4a37452bf8e960586fc66605d9c96047927270128a0a3a416fd`\r\n\r\n此发行版在 `Ubuntu 22.04` / `Debian 12.5` / `Kali 2023.3` 桌面环境中通过测试。由于 Linux 平台的多样化，发行版不一定能在所有环境中正常运行。如果遇到问题，可参考 [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447) ，或根据报错安装缺失的依赖库。欢迎提 Issue 共同讨论解决方法。有能力的用户可尝试 [从源码部署 Umi-OCR](https://github.com/hiroi-sora/Umi-OCR_runtime_linux) ，以得到最好的兼容性。\r\n\r\n首次运行请在命令行中执行 `./umi-ocr.sh` ，随后可在全局设置中创建桌面/开始菜单快捷方式，便于日常使用。\r\n\r\n## 鸣谢\r\n\r\n- @Gavin1937 为 [PaddleOCR-json引擎](https://github.com/Gavin1937/PaddleOCR-json) 兼容 Linux 做出的大量贡献。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.3/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr) | [Docker 部署](https://github.com/hiroi-sora/Umi-OCR_runtime_linux/blob/main/README-docker.md)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.3/)"
     },
     "https://github.com/qianxiao996/CTF-Tools": {
         "created_at": "2022-07-21 08:40:01",
@@ -2341,7 +2341,7 @@
         "release_message": ""
     },
     "https://github.com/FunnyWolf/Viper": {
-        "created_at": "2020-05-29 12:53:42",
+        "created_at": "2024-07-08 08:47:19",
         "description": "Attack Surface Management & Red Team Simulation Platform 互联网攻击面管理&红队模拟平台",
         "commit_message": "update version 2.3.1",
         "commit_date": "2024-07-08 08:47:19",
@@ -3901,8 +3901,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2024-05-01 16:55:34",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_message": "build(deps): bump github.com/google/go-containerregistry\n\nBumps [github.com/google/go-containerregistry](https://github.com/google/go-containerregistry) from 0.19.2 to 0.20.0.\n- [Release notes](https://github.com/google/go-containerregistry/releases)\n- [Changelog](https://github.com/google/go-containerregistry/blob/main/.goreleaser.yml)\n- [Commits](https://github.com/google/go-containerregistry/compare/v0.19.2...v0.20.0)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/google/go-containerregistry\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "commit_date": "2024-07-09 19:34:23",
+        "commit_message": "build(deps): bump github.com/urfave/cli/v2 from 2.27.2 to 2.27.3\n\nBumps [github.com/urfave/cli/v2](https://github.com/urfave/cli) from 2.27.2 to 2.27.3.\n- [Release notes](https://github.com/urfave/cli/releases)\n- [Changelog](https://github.com/urfave/cli/blob/main/docs/CHANGELOG.md)\n- [Commits](https://github.com/urfave/cli/compare/v2.27.2...v2.27.3)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/urfave/cli/v2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-07-29 23:43:40",
         "release_date": "2024-05-01 16:59:42",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.4\"></a>\r\n## [v4.7.4] - 2024-05-01\r\n\r\n### NOTE\r\n[The default layer download location has changed](https://github.com/quay/clair/blob/release-4.7/Documentation/howto/deployment.md#disk-usage-considerations)\r\n\r\n### Claircore\r\n- tarfs: follow hardlinks in `ReadFile`\r\n  <details>\r\n  This makes `fs.ReadFile` work as expected when opening hardlinks.\r\n  </details>\r\n\r\n- debian: update how \"source\" packages are handled\r\n  <details>\r\n  Previously, the Updater parsed metadata from the repository to try to\r\n  record only \"binary\" packages. This was inaccurate and, with the new\r\n  dpkg handling, now unneeded. The new approach should be more accurate.\r\n  </details>\r\n\r\n- dpkg: improve Source handling\r\n  <details>\r\n  The dpkg handling machinery now correctly records source packages and\r\n  versions. Previously, version differences between a source package and\r\n  the resulting binary package(s) were incorrect if the versions were not\r\n  identical.\r\n  </details>\r\n\r\n- libindex: add `O_TMPFILE` fallback logic\r\n  <details>\r\n  After discovering that some common deployment methods are incompatible with\r\n  using the `O_TMPFILE` `open(2)` flag, a fallback path has been added. The\r\n  changes also move the default location of where temporary files are downloaded\r\n  to, to better align with the layout recommended by systemd.\r\n  \r\n  Please see [the documentation] for specifics.\r\n  \r\n  [the documentation]: https://pkg.go.dev/github.com/quay/claircore/libindex@v1.5.\r\n  26-0.20240325212310-fedb9d327aa7#NewRemoteFetchArena\r\n  </details>\r\n\r\n- osv: parse database_specific severity when no CVSS severity is defined\r\n  <details>\r\n  Occasionally there are OSV advisories that don't include any severity\r\n  information in the `.severity` object but they do contain a severity in\r\n  the `.database_specific` object. This change attempts to parse that\r\n  severity if we don't get a severity from the native `.severity` object.\r\n  </details>\r\n\r\n### Build(Deps)\r\n- [3ebd889c](https://github.com/quay/clair/commit/3ebd889cb37603e071ba0d8fb8ba631702b13414): bump peter-evans/create-pull-request from 6.0.0 to 6.0.1\r\n- [b7566a0f](https://github.com/quay/clair/commit/b7566a0feedc5de0227a5bfd6e2921014ec68704): bump peter-evans/create-pull-request from 5.0.2 to 6.0.0\r\n- [4db2f09b](https://github.com/quay/clair/commit/4db2f09be2330e4dc9061dc2e9d44d8979b8c34d): bump actions/cache from 3 to 4\r\n- [6cef8311](https://github.com/quay/clair/commit/6cef8311255b024dd3a1fc0a70f7edf38969906c): bump actions/upload-artifact from 3 to 4\r\n- [5ed80215](https://github.com/quay/clair/commit/5ed80215fa17adb7e72ba3d9267368474afd411e): bump actions/download-artifact from 3 to 4\r\n- [c9e1f56b](https://github.com/quay/clair/commit/c9e1f56b224f25aacd5df861563006520e63297b): bump actions/setup-go from 4 to 5\r\n- [3ab3de55](https://github.com/quay/clair/commit/3ab3de558380fff38b8503de914c1b9c0611c4c8): bump actions/stale from 8 to 9\r\n- [591188f0](https://github.com/quay/clair/commit/591188f0a877b81878209be4b9185d4cb7c404f3): bump docker/setup-buildx-action from 2 to 3\r\n- [7ef6ef6b](https://github.com/quay/clair/commit/7ef6ef6b7587386b80cef9fbe7269b0083c8f039): bump docker/login-action from 2 to 3\r\n- [5597e7cc](https://github.com/quay/clair/commit/5597e7ccb94c113cc8344e8289be886049b23f63): bump docker/build-push-action from 4 to 5\r\n- [14d7f2b4](https://github.com/quay/clair/commit/14d7f2b4927fa9e4debc9005fb6dc620a6a47833): bump docker/setup-qemu-action from 2 to 3\r\n- [1204db98](https://github.com/quay/clair/commit/1204db98853cdfdce7790f3d3276d4617e4e3000): bump actions/checkout from 3 to 4\r\n### Chore\r\n- [4170798b](https://github.com/quay/clair/commit/4170798b6d464be0b8f74b1979785a17ad71dbd0): 4.7.4 changelog bump\r\n- [96dc6074](https://github.com/quay/clair/commit/96dc60748b492df1cb4af3761c9c44c10266ed09): Add merge step when creating release binaries\r\n- [a1c7eb7c](https://github.com/quay/clair/commit/a1c7eb7c8cce687e12fcc056be1acacbdc608a31): update go version for release\r\n- [6eeb9393](https://github.com/quay/clair/commit/6eeb9393b539cf49a10c42e247b833ce7e040607): update claircore to v1.5.27\r\n- [809dd5ab](https://github.com/quay/clair/commit/809dd5ab474994eb9a32599f4257437fde995064): update go version\r\n### Cicd\r\n- [e6378d03](https://github.com/quay/clair/commit/e6378d0333085a072cf73bfa32228af24b710b05): add container version skew check\r\n- [2ba3ecc0](https://github.com/quay/clair/commit/2ba3ecc0a66679dcd82f7015695db5b2a3f0c02a): update testing workflow\r\n- [ae135c49](https://github.com/quay/clair/commit/ae135c4956358d6c18109438b6e59170100787ea): don't upload workspace on failure\r\n- [7222dc88](https://github.com/quay/clair/commit/7222dc88d4fe919cc2b88e2fe7587061a881b794): change version specifiers to be major-version only\r\n### Clairctl\r\n- [2a2ba37f](https://github.com/quay/clair/commit/2a2ba37f6404e377d702e50f78bccd172b08b03f): warn when range requests are not honored\r\n### Dockerfile\r\n- [5547b96a](https://github.com/quay/clair/commit/5547b96aeff795da43fbc6e2dc8ec7b5dda7691d): remove sh loop\r\n### Docs\r\n- [3753415b](https://github.com/quay/clair/commit/3753415b4e2b6bc9b63a940b8b2101d82ab523ef): add mention of disk space path and usage\r\n### Httptransport\r\n- [c6df986f](https://github.com/quay/clair/commit/c6df986fddfe5121b6fd9dbfff0ccca35c55cb71): GET vuln report returns 404 when indexing in-progress\r\n### Initialize\r\n- [9828576a](https://github.com/quay/clair/commit/9828576af20c966e0dbe99bbac68d3e80b07baa1): use defaults for NewRemoteFetcher\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.4...HEAD\r\n[v4.7.4]: https://github.com/quay/clair/compare/v4.7.3...v4.7.4\r\n"
     },
@@ -6498,8 +6498,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2024-07-27 12:02:24",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "eliminate compiler warnings",
-        "commit_date": "2024-07-27 13:54:10",
+        "commit_message": "optimize fwrite() arguments",
+        "commit_date": "2024-07-31 22:37:07",
         "release_date": "2024-07-27 16:08:01",
         "release_message": "## What's Changed\n* uhdr.c: default initialize range field for hdr/sdr intent inputs to enc by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7482\n* Fixed typo in documentation of MagickAdaptiveBlurImage by @JonahEMorgan in https://github.com/ImageMagick/ImageMagick/pull/7500\n* Silence warning when freetype delegate is disabled. by @niclet in https://github.com/ImageMagick/ImageMagick/pull/7515\n\n## New Contributors\n* @JonahEMorgan made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7500\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-35...7.1.1-36"
     },
@@ -7669,12 +7669,12 @@
         "release_message": ""
     },
     "https://github.com/locustio/locust": {
-        "created_at": "2024-06-25 10:40:48",
+        "created_at": "2024-07-31 13:38:48",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Merge pull request #2821 from mquinnfd/update-poetry-windows-tests\n\nUpdate poetry windows tests",
-        "commit_date": "2024-07-30 13:10:49",
-        "release_date": "2024-06-25 10:41:20",
-        "release_message": "## What's Changed\r\n* Add JavaScript to MIME types for Windows Operating Systems by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2759\r\n* Option to Skip Monkey Patching with LOCUST_SKIP_MONKEY_PATCH by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2765\r\n* Httpsession requests typing by @tdadela in https://github.com/locustio/locust/pull/2699\r\n* HttpSession: Improve error message when someone forgot to pass catch_response=True + small optimization by @cyberw in https://github.com/locustio/locust/pull/2762\r\n* Add proxy support for FastHttpUser by @NicoAdrian in https://github.com/locustio/locust/pull/2758\r\n\r\n## New Contributors\r\n* @NicoAdrian made their first contribution in https://github.com/locustio/locust/pull/2758\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.29.0...2.29.1"
+        "commit_message": "changelog remove extra links",
+        "commit_date": "2024-07-31 13:49:42",
+        "release_date": "2024-07-31 13:48:24",
+        "release_message": "## What's Changed\r\n* FastHttpSession: Enable passing json as a positional argument for post() and stop converting response times to int by @tdadela in https://github.com/locustio/locust/pull/2772\r\n* Remove Line Chart Default Zoom by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2774\r\n* FastHttpSession requests typing  by @tdadela in https://github.com/locustio/locust/pull/2775\r\n* new events for heartbeat and usage monitor by @mgor in https://github.com/locustio/locust/pull/2777\r\n* dispatch benchmark test improvements by @tdadela in https://github.com/locustio/locust/pull/2780\r\n* SequentialTaskSet: Allow weighted tasks and dict in .tasks by @bakhtos in https://github.com/locustio/locust/pull/2742\r\n* Fix StatsEntry docstring by @tdadela in https://github.com/locustio/locust/pull/2784\r\n* Implement Poetry build system (mainly so we don't have to commit dynamically generated front end bundles to git) by @mquinnfd in https://github.com/locustio/locust/pull/2725\r\n* Typing: strict optional in dispatch.py by @tdadela in https://github.com/locustio/locust/pull/2779\r\n* Correctly set version from Poetry in published builds by @mquinnfd in https://github.com/locustio/locust/pull/2791\r\n* Fix Extend Webui Example by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2800\r\n* Provide warning for local installs where yarn is not present by @mquinnfd in https://github.com/locustio/locust/pull/2801\r\n* Fix tests on windows by @mquinnfd in https://github.com/locustio/locust/pull/2803\r\n* Add example of a bottlenecked server and use that test to make a new graph for the docs by @cyberw in https://github.com/locustio/locust/pull/2805\r\n* Replace total avg response time with 50 percentile (avg was broken) by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2806\r\n* Avoid deadlock in gevent/urllib3 connection pool (fixes occasional worker heartbeat timeouts) by @tdadela in https://github.com/locustio/locust/pull/2813\r\n* Fix Dockerfile style warning by @mehrdadbn9 in https://github.com/locustio/locust/pull/2814\r\n* Fix pypy gc.freeze() AttributeError by @jimoleary in https://github.com/locustio/locust/pull/2819\r\n* Update poetry windows tests by @mquinnfd in https://github.com/locustio/locust/pull/2821\r\n\r\n## New Contributors\r\n* @bakhtos made their first contribution in https://github.com/locustio/locust/pull/2742\r\n* @mquinnfd made their first contribution in https://github.com/locustio/locust/pull/2725\r\n* @mehrdadbn9 made their first contribution in https://github.com/locustio/locust/pull/2814\r\n* @jimoleary made their first contribution in https://github.com/locustio/locust/pull/2819\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.29.1...2.30.0"
     },
     "https://github.com/Wh04m1001/IFaultrepElevatedDataCollectionUAC": {
         "created_at": "2022-10-14 21:40:59",
@@ -12883,7 +12883,7 @@
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
         "commit_message": "automatic module_metadata_base.json update",
-        "commit_date": "2024-07-25 13:38:18"
+        "commit_date": "2024-07-31 14:02:53"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -21943,8 +21943,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Add missing `uses` clause",
-        "commit_date": "2024-07-28 12:26:02",
+        "commit_message": "Update `org.tukaani:xz` to version `1.10` (#2779)",
+        "commit_date": "2024-07-30 10:54:01",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.75.95.34属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.76.119.178属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27086,8 +27086,8 @@
         "description": "微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区"
     },
     "https://www.yougetsignal.com/tools/web-sites-on-web-server/": {
-        "status_code": 523,
-        "description": "www.yougetsignal.com | 523: Origin is unreachable"
+        "status_code": 200,
+        "description": "Reverse IP Lookup - Find Other Web Sites Hosted on a Web Server"
     },
     "https://reverseip.domaintools.com/": {
         "status_code": 200,
@@ -27259,7 +27259,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
+        "description": "用户认证 - 云短信 - 短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -28090,8 +28090,8 @@
     "https://github.com/wy876/wiki": {
         "created_at": "2023-12-31 07:18:18",
         "description": "漏洞文库 wiki.wy876.cn",
-        "commit_message": "7.7更新漏洞",
-        "commit_date": "2024-07-07 08:33:43"
+        "commit_message": "730更新wiki",
+        "commit_date": "2024-07-30 11:26:05"
     },
     "https://github.com/R0A1NG/Botgate_bypass": {
         "created_at": "2024-04-25 09:47:00",
