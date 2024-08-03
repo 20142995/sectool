@@ -268,6 +268,8 @@
                 - http://www.hiencode.com/pub_asys.html
             关键字密码:
                 - http://www.hiencode.com/keyword.html
+            其他:
+                - https://www.cryptool.org/en/ct2/downloads/
             凯撒密码(Caesar):
                 - http://moersima.00cha.net/kaisamima.asp
                 - http://www.hiencode.com/caesar.html
@@ -485,6 +487,7 @@
                         - https://github.com/tangxiaofeng7/Landray-OA-Treexml-Rce
                         - https://github.com/zhutougg/LandrayDES
                     通达OA:
+                        - https://github.com/Fu5r0dah/TongdaScan_go
                         - https://github.com/NS-Sp4ce/TongDaOA-Fake-User
                         - https://github.com/OA-HUNTER/TongDa-OA
                         - https://github.com/xiaokp7/TongdaOATool
@@ -566,6 +569,7 @@
                         - https://github.com/yuyan-sec/druid_sessions
                     Fastjson:
                         - https://github.com/Lonely-night/fastjsonVul
+                        - https://github.com/W1one/FastJsonAttack
                         - https://github.com/a1phaboy/FastjsonScan
                         - https://github.com/alibaba/fastjson
                         - https://github.com/bigsizeme/fastjson-check
@@ -587,9 +591,12 @@
                     JBoss:
                         - https://github.com/joaomatosf/jexboss
                         - https://github.com/yunxu1/jboss-_CVE-2017-12149
+                    JeecgBoot:
+                        - https://github.com/MInggongK/jeecg-
                     Jenkins:
                         - https://github.com/TheBeastofwar/JenkinsExploit-GUI
                         - https://github.com/blackye/Jenkins
+                        - https://github.com/xaitax/CVE-2024-23897
                     JumpServer:
                         - https://github.com/tarihub/blackjump
                     Nacos:
@@ -634,6 +641,7 @@
                         - https://github.com/Y4er/CVE-2020-2555
                         - https://github.com/Y4er/CVE-2020-2883
                         - https://github.com/black-mirror/Weblogic
+                        - https://github.com/dadvlingd/CVE-2024-21006
                         - https://github.com/dr0op/WeblogicScan
                         - https://github.com/dream0x01/weblogic-framework
                         - https://github.com/hktalent/CVE-2020-2551
@@ -885,6 +893,7 @@
                     - https://github.com/neargle/my-re0-k8s-security
                     - https://github.com/nomi-sec/PoC-in-GitHub
                     - https://github.com/r0eXpeR/redteam_vul
+                    - https://github.com/wy876/POC
                     - https://github.com/wy876/wiki
                     - https://peiqi.wgpsec.org/wiki/system/
                     - https://wiki.teamssix.com/About/
@@ -1175,6 +1184,7 @@
             CDN识别:
                 - https://github.com/alwaystest18/cdnChecker
                 - https://github.com/boy-hack/w8fuckcdn
+                - https://github.com/ccc-f/FCDN
             C段信息收集:
                 - https://github.com/SleepingBag945/IPSearch
                 - https://github.com/Xyntax/BingC
@@ -1384,6 +1394,7 @@
                 - https://github.com/mscandev/mscan
                 - https://github.com/smallcham/sec-admin
                 - https://github.com/taomujian/linbing
+                - https://github.com/testnet0/testnet
                 - https://github.com/wgpsec/DBJ
                 - https://github.com/xuchaoa/WebScan
                 - https://github.com/xundididi/Voyager
@@ -1427,6 +1438,7 @@
         后渗透:
             代理转发:
                 - http://rootkiter.com/Termite/
+                - https://gitee.com/dromara/neutrino-proxy
                 - https://github.com/DVKunion/SeaMoon
                 - https://github.com/FunnyWolf/pystinger
                 - https://github.com/Goqi/Erfrp
@@ -1516,8 +1528,10 @@
                     - https://github.com/BeichenDream/BadPotato
                     - https://github.com/Prepouce/CoercedPotato
                     - https://github.com/SecWiki/windows-kernel-exploits
+                    - https://github.com/StarfireLab/AutoZerologon
                     - https://github.com/bitsadmin/wesng
                     - https://github.com/hackvens/CoercedPotato
+                    - https://github.com/itm4n/PrivescCheck
                     - https://github.com/klsfct/getshell
                     - https://i.hacking8.com/tiquan
                     - https://patchchecker.com/
@@ -2031,6 +2045,7 @@
                     - https://github.com/Naturehi666/searchall
                     - https://github.com/QAX-A-Team/BrowserGhost
                     - https://github.com/SD-XD/Catch-Browser
+                    - https://github.com/StarfireLab/SharpWeb
                     - https://github.com/Z3ratu1/HackBrowserDataManual
                     - https://github.com/djhohnstein/SharpChromium
                     - https://github.com/djhohnstein/SharpWeb
@@ -2171,6 +2186,7 @@
                 - https://dvwa.co.uk/
                 - https://github.com/0verSp4ce/DoraBox
                 - https://github.com/710leo/ZVulDrill
+                - https://github.com/API-Security/APISandbox
                 - https://github.com/Audi-1/sqli-labs
                 - https://github.com/HXSecurity/TerraformGoat
                 - https://github.com/Hackademic/hackademic
@@ -2181,6 +2197,7 @@
                 - https://github.com/WebGoat/WebGoat-Legacy
                 - https://github.com/adamdoupe/WackoPicko
                 - https://github.com/aj00200/xssed
+                - https://github.com/ax1sX/MemShell
                 - https://github.com/bugku/BWVS
                 - https://github.com/c0ny1/upload-labs
                 - https://github.com/c0ny1/vulstudy
@@ -2210,6 +2227,7 @@
                 - https://github.com/bytedance/Elkeid
                 - https://github.com/theSecHunter/Hades
             主机入侵防御:
+                - https://github.com/wazuh/wazuh
                 - https://github.com/wecooperate/iDefender
             企业云盘:
                 - https://filerun.com/
@@ -2250,6 +2268,7 @@
                 - https://github.com/decoymini/DecoyMini
                 - https://github.com/fnmsd/MySQL_Fake_Server
                 - https://github.com/hacklcx/HFish
+                - https://github.com/handbye/potmanager
                 - https://github.com/mushorg/conpot
                 - https://github.com/seccome/Ehoney
                 - https://github.com/wendell1224/ide-honeypot
@@ -2273,6 +2292,7 @@
             网络安全大模型:
                 - https://github.com/Clouditera/secgpt
             网络流量分析:
+                - https://github.com/stamparm/maltrail
                 - https://www.kismetwireless.net/
                 - https://www.zeek.org
             自动化代码审计:
@@ -2376,6 +2396,7 @@
                     - https://github.com/P4ck/Emergency
                     - https://github.com/al0ne/LinuxCheck
                     - https://github.com/alexandreborges/malwoverview
+                    - https://github.com/enomothem/Whoamifuck
                     - https://github.com/evilsocket/uroboros
                     - https://github.com/grayddq/GScan
                     - https://github.com/heikanet/whohk
@@ -2384,6 +2405,7 @@
                     - https://rkhunter.sourceforge.net/
                 Windows应急工具:
                     windows日志分析:
+                        - https://github.com/Fheidt12/Windows_Log
                         - https://github.com/Qihoo360/WatchAD2.0
                         - https://github.com/Yamato-Security/WELA
                         - https://github.com/ahmedkhlief/APT-Hunter
@@ -2558,11 +2580,13 @@
     Python:
         GUI框架:
             - https://github.com/Akascape/py-window-styles
+            - https://github.com/rdbende/Forest-ttk-theme
         其他:
             - https://github.com/TomSchimansky/CustomTkinter
             - https://github.com/jackfrued/Python-100-Days
             - https://github.com/jackzhenguo/python-small-examples
             - https://github.com/mozillazg/python-pinyin
+            - https://github.com/spyoungtech/FreeSimpleGUI
     正则:
         - https://github.com/cdoco/common-regex
 杂七杂八:
