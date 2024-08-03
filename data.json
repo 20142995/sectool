@@ -5067,8 +5067,8 @@
     "https://github.com/FreeRDP/FreeRDP": {
         "created_at": "2024-07-08 09:00:33",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_message": "Merge pull request #10428 from FreeRDP/timezone-patches-1721907865\n\n[timezones] Update definitions",
-        "commit_date": "2024-07-25 13:38:00",
+        "commit_message": "Merge pull request #10431 from ivelin91/fix-json-typos\n\nfix(winpr-json): typos causing make errors",
+        "commit_date": "2024-08-02 14:06:40",
         "release_date": "2024-07-08 09:11:26",
         "release_message": "Bugfix release for 3.6.2 issues reported\r\n\r\n## Noteworthy changes:\r\n* fix a graphics regression (#10352)\r\n* workaround for a protocol bug of older FreeRDP based servers (#10358)\r\n* fix possible NULL dereference in command line parser (#10348)\r\n* fix intrinsics detection (#10346, #10350)\r\n\r\nFor a complete and detailed change log since the last release run:\r\ngit log 3.6.3...3.6.2\r\n\r\n## New Contributors\r\n* @Frederick888 made their first contribution in https://github.com/FreeRDP/FreeRDP/pull/10348\r\n\r\n**Full Changelog**: https://github.com/FreeRDP/FreeRDP/compare/3.6.2...3.6.3"
     },
@@ -7671,8 +7671,8 @@
     "https://github.com/locustio/locust": {
         "created_at": "2024-07-31 13:38:48",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "changelog remove extra links",
-        "commit_date": "2024-07-31 13:49:42",
+        "commit_message": "Merge pull request #2826 from andrewbaldwin44/feature/dashboard-as-a-module-2\n\nImprove Echarts and Expose Line and Axis Configuration",
+        "commit_date": "2024-08-03 10:02:34",
         "release_date": "2024-07-31 13:48:24",
         "release_message": "## What's Changed\r\n* FastHttpSession: Enable passing json as a positional argument for post() and stop converting response times to int by @tdadela in https://github.com/locustio/locust/pull/2772\r\n* Remove Line Chart Default Zoom by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2774\r\n* FastHttpSession requests typing  by @tdadela in https://github.com/locustio/locust/pull/2775\r\n* new events for heartbeat and usage monitor by @mgor in https://github.com/locustio/locust/pull/2777\r\n* dispatch benchmark test improvements by @tdadela in https://github.com/locustio/locust/pull/2780\r\n* SequentialTaskSet: Allow weighted tasks and dict in .tasks by @bakhtos in https://github.com/locustio/locust/pull/2742\r\n* Fix StatsEntry docstring by @tdadela in https://github.com/locustio/locust/pull/2784\r\n* Implement Poetry build system (mainly so we don't have to commit dynamically generated front end bundles to git) by @mquinnfd in https://github.com/locustio/locust/pull/2725\r\n* Typing: strict optional in dispatch.py by @tdadela in https://github.com/locustio/locust/pull/2779\r\n* Correctly set version from Poetry in published builds by @mquinnfd in https://github.com/locustio/locust/pull/2791\r\n* Fix Extend Webui Example by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2800\r\n* Provide warning for local installs where yarn is not present by @mquinnfd in https://github.com/locustio/locust/pull/2801\r\n* Fix tests on windows by @mquinnfd in https://github.com/locustio/locust/pull/2803\r\n* Add example of a bottlenecked server and use that test to make a new graph for the docs by @cyberw in https://github.com/locustio/locust/pull/2805\r\n* Replace total avg response time with 50 percentile (avg was broken) by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2806\r\n* Avoid deadlock in gevent/urllib3 connection pool (fixes occasional worker heartbeat timeouts) by @tdadela in https://github.com/locustio/locust/pull/2813\r\n* Fix Dockerfile style warning by @mehrdadbn9 in https://github.com/locustio/locust/pull/2814\r\n* Fix pypy gc.freeze() AttributeError by @jimoleary in https://github.com/locustio/locust/pull/2819\r\n* Update poetry windows tests by @mquinnfd in https://github.com/locustio/locust/pull/2821\r\n\r\n## New Contributors\r\n* @bakhtos made their first contribution in https://github.com/locustio/locust/pull/2742\r\n* @mquinnfd made their first contribution in https://github.com/locustio/locust/pull/2725\r\n* @mehrdadbn9 made their first contribution in https://github.com/locustio/locust/pull/2814\r\n* @jimoleary made their first contribution in https://github.com/locustio/locust/pull/2819\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.29.1...2.30.0"
     },
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/07/27 00:29:42",
-        "commit_date": "2024-07-27 00:29:42"
+        "commit_message": "Auto Update 2024/08/03 12:29:04",
+        "commit_date": "2024-08-03 12:29:04"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -21943,8 +21943,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Update `org.tukaani:xz` to version `1.10` (#2779)",
-        "commit_date": "2024-07-30 10:54:01",
+        "commit_message": "Revamp database appenders\n\nThis PR splits the documentation of database appenders into their own files.\n\nAs in the previous PRs we:\n\n* check and reformat the configuration options,\n* add links to the Plugin Reference,\n* improve the readability of the description by shortening it and reformatting it,",
+        "commit_date": "2024-08-02 17:35:40",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.79.247.98属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.37.81属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28126,8 +28126,8 @@
     "https://github.com/chasingboy/Xtools": {
         "created_at": "2023-07-12 05:42:55",
         "description": "Xtools 是一款 Sublime Text 插件，同时是一款简单的资产处理、命令行调用工具。",
-        "commit_message": "Update Xtools-Text.sublime-syntax",
-        "commit_date": "2024-07-18 13:30:15"
+        "commit_message": "Update xtools.py",
+        "commit_date": "2024-07-29 10:19:43"
     },
     "https://github.com/offensive-security/exploitdb": {
         "created_at": "2013-12-03 18:50:07",
@@ -28772,5 +28772,21 @@
     "https://hello-ctf.com/": {
         "status_code": 200,
         "description": "Hello CTF"
+    },
+    "https://github.com/StarfireLab/SharpWeb": {
+        "created_at": "2024-07-15 08:52:27",
+        "description": "一个浏览器数据（密码|历史记录|Cookie|书签|下载记录）的导出工具，支持主流浏览器。",
+        "commit_message": "Create dotnet.yml",
+        "commit_date": "2024-07-15 08:52:27",
+        "release_date": "2024-07-15 09:08:12",
+        "release_message": ""
+    },
+    "https://gitee.com/dromara/neutrino-proxy": {
+        "status_code": 200,
+        "description": "neutrino-proxy: NeutrinoProxy(中微子代理) 一款基于solon、netty的内网穿透神器！"
+    },
+    "https://www.cryptool.org/en/ct2/downloads/": {
+        "status_code": 200,
+        "description": "CT2 Downloads - CrypTool"
     }
 }
