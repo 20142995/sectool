@@ -3058,12 +3058,12 @@
         "release_message": "#### 0x01 功能增加\r\n* 添加验证码识别接口json和xml格式的匹配方式\r\n* 将Intruder模块调用验证码识别过程改为后台线程执行，防止burp卡住\r\n\r\n#### 0x02 Bug修复\r\n* 添加显示和隐藏Intruder模块识别结果,以便在极端情况下节省内存资源,防止burp卡住"
     },
     "https://github.com/projectdiscovery/nuclei": {
-        "created_at": "2024-06-16 14:12:35",
+        "created_at": "2024-07-17 13:59:32",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_message": "Merge pull request #5325 from projectdiscovery/dependabot/go_modules/dev/github.com/projectdiscovery/useragent-0.0.57",
-        "commit_date": "2024-07-01 06:54:54",
-        "release_date": "2024-06-16 14:53:37",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Features\r\n* **Fuzzing feature enhancements** by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/5139\r\n\t- Added `part: request` to fuzz all the keys in request with fuzzing templates.\r\n\t- Added `-fuzz-aggression` CLI option to control fuzz aggression via template.\r\n\t- Added `-fuzz-param-frequency` option to control counter for skipping uninteresting parameter.\r\n\t- Added `-display-fuzz-points` option to display fuzzing points (for debugging).\r\n* **PDCP Team ID input support** via environment variable to upload results into team account by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5295\r\n```console\r\nexport PDCP_TEAM_ID=cphlrbmnr2khg33n6ik1\r\n```\r\n> [!NOTE]\r\n> Team ID is optional input and can be obtained from https://cloud.projectdiscovery.io/settings/team. If provided, results will be uploaded to the team account instead of your personal account.\r\n\r\n### 🐞 Bug Fixes\r\n* **Fixed slow scan for hosts blocked WAF or getting timed out** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5275\r\n* **Fixed issues with multi-thread execution** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5187\r\n* Fixed panic on failed raw request by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5230\r\n* Fixed `ExecuteCallbackWithCtx` to use the context that was provided by @doug-threatmate in https://github.com/projectdiscovery/nuclei/pull/5236\r\n* Fixed nil deref err in reporting by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5283\r\n* Fixed `types.RequestResponse` url field `UnmarshalJSON` by @LazyMaple in https://github.com/projectdiscovery/nuclei/pull/5267\r\n* Fixed tempalte validation by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5261\r\n* Fixed severity filter for per tracker reporting filters by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/5297\r\n\r\n### Other Changes\r\n* Added Spanish translation of README by @MachadoOtto in https://github.com/projectdiscovery/nuclei/pull/5242\r\n* Added Japanese translation of README by @eltociear in https://github.com/projectdiscovery/nuclei/pull/5259\r\n* Added timestamp in error log (`-elog`) with `-ts` option by @oscarintherocks in https://github.com/projectdiscovery/nuclei/pull/5292\r\n\r\n## New Contributors\r\n* @doug-threatmate made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5236\r\n* @MachadoOtto made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5242\r\n* @eltociear made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5259\r\n* @oscarintherocks made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5292\r\n* @LazyMaple made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5267\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.2.8...v3.2.9"
+        "commit_message": "Apply input transformation to multi-protocol templates (#5426)\n\n* Apply input transformation to multi-protocol template execution\r\n\r\n* Remove ad hoc input transoformation from DNS protocol\r\n\r\n* Add SSL protocol input transformer\r\n\r\n* Remove ad hoc input transoformation from SSL protocol\r\n\r\n* Remove unused function extractDomain from the DNS protocol engine\r\n\r\n* transform in flow as well\r\n\r\n* bug fix + update test\r\n\r\n* bug fix multi proto\r\n:\r\n\r\n* bug fix multi proto input\r\n\r\n* bug fixes in input transform\r\n\r\n---------\r\n\r\nCo-authored-by: Tarun Koyalwar <tarun@projectdiscovery.io>",
+        "commit_date": "2024-08-01 15:13:47",
+        "release_date": "2024-07-17 14:26:28",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🐞 Bug Fixes\r\n* **Fixed security issue with use of custom workflows** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5318\r\n* **Fixed issue to reduce memory usage by javascript templates** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5291\r\n* Fixed target loading issue with `-input-mode` option by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5369\r\n* Fixed issue with `stop-at-first-match` option in headless mode with fuzzing by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5330\r\n* Fixed issue with ldap search function by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5356\r\n* Fixed issue with `ExecuteWithResults` function not returning expected results (SDK) by @boy-hack in https://github.com/projectdiscovery/nuclei/pull/5376\r\n\r\n### Other Changes\r\n* Added `cname` information in http protocol when available by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5389\r\n* Added goja function (`isUDPPortOpen`) to check UDP port by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5397\r\n* Added sdk option to disable update check (SDK) by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5346\r\n* Added support to use `fs.FS` when explicitly given (SDK) by @doug-threatmate in https://github.com/projectdiscovery/nuclei/pull/5312\r\n* Added timeouts config in `types.Options` (SDK) by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5228\r\n* Improved ldap output with custom type to return additional information by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5387\r\n* Improved template clustering performance by @KristinnVikar in https://github.com/projectdiscovery/nuclei/pull/5319\r\n>[!CAUTION]\r\n> In this release, with the changes in https://github.com/projectdiscovery/nuclei/pull/5228, the following options have been removed from the CLI. They are now configured implicitly and can be customized via SDK usage.\r\n> ```console\r\n>  -dt, -dialer-timeout value  timeout for network requests.\r\n>  -rrt, -response-read-timeout value  response read timeout in seconds (default 5s)\r\n> ```\r\n\r\n\r\n## New Contributors\r\n* @KristinnVikar made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5319\r\n* @boy-hack made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5376\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.2.9...v3.3.0"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2024-05-01 22:28:19",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25094,8 +25094,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 200,
-        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -26232,8 +26232,8 @@
     "https://github.com/cliffe/secgen": {
         "created_at": "2015-01-29 16:33:04",
         "description": "Create randomly insecure VMs",
-        "commit_message": "Jboss_remoting_unified_invoker_rce flags location, for #315",
-        "commit_date": "2024-06-26 13:13:41"
+        "commit_message": "Update security_shepherd installation and configuration",
+        "commit_date": "2024-08-01 00:06:38"
     },
     "https://github.com/shengqi158/weak_password_detect": {
         "created_at": "2013-01-24 09:30:06",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.37.85属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.146.81属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27106,8 +27106,8 @@
         "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
-        "status_code": 200,
-        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "http://wooyun.2xss.cc/index.php": {
         "status_code": 200,
@@ -27788,8 +27788,8 @@
     "https://github.com/digininja/DVWA": {
         "created_at": "2023-06-11 11:35:15",
         "description": "Damn Vulnerable Web Application (DVWA)",
-        "commit_message": "Update install instructions\n\nAdded a warning about running other people's code without reviewing it.",
-        "commit_date": "2024-06-13 14:24:16",
+        "commit_message": "MariaDB not mysql",
+        "commit_date": "2024-08-02 13:39:38",
         "release_date": "2023-06-11 11:39:10",
         "release_message": "Easy built in support for containers by @hoang-himself ."
     },
@@ -28762,12 +28762,12 @@
         "release_message": "1、新增mac版本，仅支持M系列芯片\r\n2、修复windows下工具无法调整大小的bug\r\n3、修复第一次编辑POC时无法正常新增的bug"
     },
     "https://github.com/MInggongK/Hikvision-": {
-        "created_at": "2024-06-21 14:32:44",
+        "created_at": "2024-07-28 01:56:27",
         "description": "Hikvision综合漏洞利用工具",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-24 09:07:18",
-        "release_date": "2024-06-21 14:39:23",
-        "release_message": "增加了批量指纹识别功能\r\n增加了Hikvision综合安防管理平台orgManage模块检测\r\n增加了Hikvision综合安防管理平台files模块检测"
+        "commit_date": "2024-07-28 01:56:27",
+        "release_date": "2024-07-28 02:12:49",
+        "release_message": "增加了Hikvision综合安防管理平台detection模块检测\r\n增加了自定义detection利用模块\r\n优化了Hikvision applyAutoLoginTicket命令执行漏洞"
     },
     "https://hello-ctf.com/": {
         "status_code": 200,
