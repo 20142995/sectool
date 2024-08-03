@@ -1781,10 +1781,10 @@
         "release_message": ""
     },
     "https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking": {
-        "created_at": "2022-04-30 01:01:32",
+        "created_at": "2022-06-05 23:22:00",
         "description": "Cyclops 是一款具有 XSS 检测功能的浏览器",
-        "commit_date": "2022-06-05 23:43:51",
-        "commit_message": "Update README-en.md",
+        "commit_date": "2024-06-30 02:11:06",
+        "commit_message": "Rename README-en.md to README.md",
         "release_tag": "v0.3",
         "release_date": "2022-06-05 23:29:09",
         "release_message": "# location 可配置  \r\n允许修改或者 hook location 属性。如下图  \r\n![](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking/blob/main/images/V0.3-location-configurable.png)"
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.38.73属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.79.247.98属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27584,8 +27584,8 @@
     "https://github.com/nullt3r/jfscan": {
         "created_at": "2022-11-20 15:34:52",
         "description": "JF⚡can - Super fast port scanning & service discovery using Masscan and Nmap. Scan large networks with Masscan and use Nmap's scripting abilities to discover information about services. Generate report.",
-        "commit_message": "Update README.md",
-        "commit_date": "2023-03-23 17:41:59",
+        "commit_message": "Merge pull request #10 from fbarre96/empty-port-range\n\nHandle empty port range (-p-) to full port scan shortcut",
+        "commit_date": "2024-07-28 17:37:22",
         "release_date": "2022-11-20 15:40:29",
         "release_message": "Added a lot of yummy ports! Fixed some minor bug - information about IP count was wrong by 2 hosts."
     },
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
