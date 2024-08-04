@@ -2666,12 +2666,12 @@
         "release_message": ""
     },
     "https://github.com/madneal/gshark": {
-        "created_at": "2024-05-19 07:24:32",
+        "created_at": "2024-07-20 09:11:30",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_message": "Merge pull request #211 from madneal/dependabot/go_modules/server/github.com/hashicorp/go-retryablehttp-0.7.7\n\nBump github.com/hashicorp/go-retryablehttp from 0.6.8 to 0.7.7 in /server",
-        "commit_date": "2024-06-30 00:48:40",
-        "release_date": "2024-06-22 04:21:47",
-        "release_message": "## Fixed\r\n\r\n* 组件依赖升级\r\n* 修复 API 列表排序问题\r\n* 移除任务列表"
+        "commit_message": "avoid sleep for empty GitLab client",
+        "commit_date": "2024-07-20 10:24:29",
+        "release_date": "2024-07-20 09:19:30",
+        "release_message": "## Fixed\r\n\r\n* 组件依赖升级\r\n* 修复部分安全问题\r\n* 丰富使用说明 README\r\n* 恢复本地 build 脚本\r\n* 简化项目，移除 autocode"
     },
     "https://github.com/kozmer/log4j-shell-poc": {
         "created_at": "2021-12-10 23:19:28",
@@ -3154,12 +3154,12 @@
         "release_message": ""
     },
     "https://github.com/joke2k/faker": {
-        "created_at": "2024-06-26 21:17:07",
+        "created_at": "2024-08-01 16:41:00",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_message": "Bump version: 25.9.2 → 26.0.0",
-        "commit_date": "2024-06-26 21:17:07",
-        "release_date": "2024-06-26 21:17:46",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v26.0.0/CHANGELOG.md)."
+        "commit_message": "Bump version: 26.0.0 → 26.1.0",
+        "commit_date": "2024-08-01 16:40:59",
+        "release_date": "2024-08-01 16:41:44",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v26.1.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2023-04-24 06:48:58",
@@ -7910,8 +7910,8 @@
     "https://github.com/eryajf/Thanks-Mirror": {
         "created_at": "2022-05-07 15:08:23",
         "description": "整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。     走过路过，如觉不错，麻烦点个赞👆🌟",
-        "commit_date": "2024-06-07 14:49:29",
-        "commit_message": "update readme",
+        "commit_date": "2024-07-30 00:38:41",
+        "commit_message": "chore(docs): update TOC",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.24.211属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.37.94属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27402,8 +27402,8 @@
     "https://github.com/sullo/nikto": {
         "created_at": "2023-12-03 16:16:14",
         "description": "Nikto web server scanner",
-        "commit_message": "MAX_WARN is no longer used",
-        "commit_date": "2024-07-01 16:52:08",
+        "commit_message": "Apache version",
+        "commit_date": "2024-08-02 16:11:06",
         "release_date": "2023-12-03 19:00:51",
         "release_message": "Nikto 2.5.0 has now been promoted to release and the master branch!\r\n\r\n**Note: [Breaking changes](https://github.com/sullo/nikto/wiki/2.5.0-Potentially-Breaking-Changes) to JSON and XML output may have occurred. If you rely on these formats please test before upgrading.**\r\n\r\nThis version contains hundreds of updates over several years, including the highlights below. \r\n- IPv6 support (thanks to @richardleach)\r\n- Updated `db_checks` format uses multiple reference\r\n- Hundreds of OSVDB and BID references replaced\r\n- Removal of some very old and false-positive prone tests\r\n- Decode Netscaler cookies (thanks to @canberkpolat)\r\n- Add `-usecookies` flag to send received cookies with subsequent requests\r\n- Add `-followredirects` flag to signal 3xx responses should be fetched and tested\r\n- Add `-noslash` to remove trailing slash from directories\r\n- Check for indexing on redirect paths\r\n- Alert on `alt-svc` header\r\n- Hundreds of bug fixes, test updates and enhancements, and other optimization changes\r\n\r\nYou can start using Nikto 2.5.0 by performing a `git pull` from the master branch, cloning the repository again, or [downloading the zip file](https://github.com/sullo/nikto/archive/refs/heads/master.zip).\r\n\r\nAs always, if you encounter bugs or problems, please [open an issue](https://github.com/sullo/nikto/issues/new/choose).\r\n\r\n![image](https://github.com/sullo/nikto/assets/1474884/796062af-7cb1-404c-9c0c-720d110d62c7 )\r\n"
     },
@@ -28802,5 +28802,21 @@
         "description": "简单蜜罐管理平台",
         "commit_message": "update readme",
         "commit_date": "2024-04-18 13:40:51"
+    },
+    "https://github.com/rdbende/Forest-ttk-theme": {
+        "created_at": "2021-07-02 12:01:59",
+        "description": "A beautiful modern theme for ttk, inspired by MS Excel's look 🌲🌳",
+        "commit_message": "Update screenshots",
+        "commit_date": "2021-07-28 13:26:26",
+        "release_date": "2021-07-02 12:03:21",
+        "release_message": "this is the first release of my stunning Forest theme for ttk, inspired by Excel."
+    },
+    "https://github.com/Fu5r0dah/TongdaScan_go": {
+        "created_at": "2023-05-27 11:40:51",
+        "description": "通达OA漏洞检测工具-TongdaScan_go",
+        "commit_message": "Create release.yaml",
+        "commit_date": "2023-05-27 11:40:51",
+        "release_date": "2023-05-27 11:43:57",
+        "release_message": "20230527更新\r\n\r\n支持检测：\r\n通达OA v11.10 getdata 任意文件上传"
     }
 }
