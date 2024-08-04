@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.37.94属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.251.124.124属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28818,5 +28818,19 @@
         "commit_date": "2023-05-27 11:40:51",
         "release_date": "2023-05-27 11:43:57",
         "release_message": "20230527更新\r\n\r\n支持检测：\r\n通达OA v11.10 getdata 任意文件上传"
+    },
+    "https://github.com/testnet0/testnet": {
+        "created_at": "2024-06-14 11:29:17",
+        "description": null,
+        "commit_message": "update\n\nSigned-off-by: TestNet <1@shengkai.wang>",
+        "commit_date": "2024-07-30 04:03:47"
+    },
+    "https://github.com/wazuh/wazuh": {
+        "created_at": "2024-07-17 11:54:12",
+        "description": "Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.",
+        "commit_message": "Merge pull request #24923 from wazuh/bug/24889-add-VD-efficacy-test\n\nAdd new case to VD efficacy tests and update faling ones",
+        "commit_date": "2024-08-02 05:12:12",
+        "release_date": "2024-07-22 11:05:01",
+        "release_message": "## Manager\r\n\r\n### Fixed\r\n\r\n- Fixed bug in `upgrade_agent` CLI where it would sometimes raise an unhandled exception. ([#24341](https://github.com/wazuh/wazuh/pull/24341))\r\n- Changed keystore cipher algorithm to remove reuse of sslmanager.cert and sslmanager.key. ([#24509](https://github.com/wazuh/wazuh/pull/24509))\r\n\r\n## Agent\r\n\r\n### Fixed\r\n\r\n- Fixed incorrect macOS agent name retrieval. ([#23989](https://github.com/wazuh/wazuh/pull/23989))\r\n\r\n## RESTful API\r\n\r\n### Changed\r\n\r\n- Changed `GET /manager/version/check` endpoint response to always show the `uuid` field. ([#24173](https://github.com/wazuh/wazuh/pull/24173))\r\n\r\n## Other\r\n\r\n### Changed\r\n\r\n- Upgraded external Jinja2 library dependency version to 3.1.4. ([#24108](https://github.com/wazuh/wazuh/pull/24108))\r\n- Upgraded external requests library dependency version to 2.32.2. ([#23925](https://github.com/wazuh/wazuh/pull/23925))"
     }
 }
