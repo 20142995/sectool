@@ -3060,8 +3060,8 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2024-07-17 13:59:32",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_message": "Apply input transformation to multi-protocol templates (#5426)\n\n* Apply input transformation to multi-protocol template execution\r\n\r\n* Remove ad hoc input transoformation from DNS protocol\r\n\r\n* Add SSL protocol input transformer\r\n\r\n* Remove ad hoc input transoformation from SSL protocol\r\n\r\n* Remove unused function extractDomain from the DNS protocol engine\r\n\r\n* transform in flow as well\r\n\r\n* bug fix + update test\r\n\r\n* bug fix multi proto\r\n:\r\n\r\n* bug fix multi proto input\r\n\r\n* bug fixes in input transform\r\n\r\n---------\r\n\r\nCo-authored-by: Tarun Koyalwar <tarun@projectdiscovery.io>",
-        "commit_date": "2024-08-01 15:13:47",
+        "commit_message": "ci: use composite actions (#5483)\n\nSigned-off-by: Dwi Siswanto <git@dw1.io>",
+        "commit_date": "2024-08-03 18:14:37",
         "release_date": "2024-07-17 14:26:28",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🐞 Bug Fixes\r\n* **Fixed security issue with use of custom workflows** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5318\r\n* **Fixed issue to reduce memory usage by javascript templates** by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5291\r\n* Fixed target loading issue with `-input-mode` option by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5369\r\n* Fixed issue with `stop-at-first-match` option in headless mode with fuzzing by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5330\r\n* Fixed issue with ldap search function by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5356\r\n* Fixed issue with `ExecuteWithResults` function not returning expected results (SDK) by @boy-hack in https://github.com/projectdiscovery/nuclei/pull/5376\r\n\r\n### Other Changes\r\n* Added `cname` information in http protocol when available by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5389\r\n* Added goja function (`isUDPPortOpen`) to check UDP port by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5397\r\n* Added sdk option to disable update check (SDK) by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5346\r\n* Added support to use `fs.FS` when explicitly given (SDK) by @doug-threatmate in https://github.com/projectdiscovery/nuclei/pull/5312\r\n* Added timeouts config in `types.Options` (SDK) by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5228\r\n* Improved ldap output with custom type to return additional information by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5387\r\n* Improved template clustering performance by @KristinnVikar in https://github.com/projectdiscovery/nuclei/pull/5319\r\n>[!CAUTION]\r\n> In this release, with the changes in https://github.com/projectdiscovery/nuclei/pull/5228, the following options have been removed from the CLI. They are now configured implicitly and can be customized via SDK usage.\r\n> ```console\r\n>  -dt, -dialer-timeout value  timeout for network requests.\r\n>  -rrt, -response-read-timeout value  response read timeout in seconds (default 5s)\r\n> ```\r\n\r\n\r\n## New Contributors\r\n* @KristinnVikar made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5319\r\n* @boy-hack made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5376\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.2.9...v3.3.0"
     },
@@ -3427,12 +3427,12 @@
         "release_message": ""
     },
     "https://github.com/yogeshojha/rengine": {
-        "created_at": "2024-07-20 08:04:54",
+        "created_at": "2024-07-30 03:32:10",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_message": "release 2.1.1",
-        "commit_date": "2024-07-20 08:04:54",
-        "release_date": "2024-07-20 08:11:16",
-        "release_message": "## What's Changed\r\n* fix xss on page title fix #1185 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1296\r\n* fix context key error #1263 #1209 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1294\r\n* fix xss on vulnerability description payloads #1262 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1298\r\n* (bug) fix screenshot csv parser #1299 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1300\r\n* (Security) Fixes #1202 bug risk of leaking the scan result files by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1301\r\n* Fix #1291 Refactor Makefiles for windows/linux to accomodate both v1 and v2 of docker compose by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1302\r\n* Fix custom_header to accept multiple headers using custom_headers by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1303\r\n* Handle hash in url, added navigation for Tabs, Fixes #1155 bug href link with html id does not link to the expected url by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1306\r\n* Optimize uninstall scripts to perform operations only related to reNgine Fixes # 1187 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1307\r\n* Added validators to validate URL fixes #1176 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1308\r\n* Fix LLM/langchain issue for fetching vulnerability report using local LLM model Fixed #1292  local model dont use fetch gpt vulnerability details by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1311\r\n* Fixes for Clocked and Periodic Scans Fix #1287 Fixes #1015 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1313\r\n* Fix Not able to add todo from All Subdomains Section Fixes #1310 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1314\r\n* Fix #1315 Fix for todo URLs not compatible with slugs by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1316\r\n* Fixes #1122 But in port service lookup that caused multiple entries of Port with same port number but different service name/description by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1317\r\n* Update contribution guidelines reference by @emmanuel-ferdman in https://github.com/yogeshojha/rengine/pull/1286\r\n\r\n## New Contributors\r\n* @emmanuel-ferdman made their first contribution in https://github.com/yogeshojha/rengine/pull/1286\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.1.0...v2.1.1"
+        "commit_message": "Merge pull request #1346 from yogeshojha/1343-bug-after-updating-from-v211-to-v212-web-gui-still-show-v211\n\nupdate version and changelog for 2.1.2",
+        "commit_date": "2024-07-31 04:14:07",
+        "release_date": "2024-07-30 03:39:32",
+        "release_message": "## What's Changed\r\n\r\n### Security update\r\n* (Security) CVE-2024-41661 Fix Authenticated command injection in WAF detection tool reported by @n-thumann Advisory https://github.com/yogeshojha/rengine/security/advisories/GHSA-fx7f-f735-vgh4\r\n\r\n### Bug Fixes\r\n\r\n* Fix issue while initiating periodic and clocked scan #1322 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1328\r\n* Fix 500 error on \"Test Hackerone api Key\" by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1332\r\n* UI Typos and bug Fixes #1333 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1334\r\n* Fix error during tool update Fixes #1152 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1335\r\n* Upgrade setuptools to 72.1.0 to resolve installation error by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1338\r\n* (chores) Fix github pages build by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1339\r\n* Fix subdomain import for subdomains with suffixes more than 4 chars Fixes #1128 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1340\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.1.1...v2.1.2"
     },
     "https://github.com/rootclay/WMIHACKER": {
         "created_at": "2020-07-02 06:57:25",
@@ -3856,12 +3856,12 @@
         "release_message": "BBScan 3.0"
     },
     "https://github.com/anchore/syft": {
-        "created_at": "2024-07-11 17:32:43",
+        "created_at": "2024-07-30 16:13:22",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_message": "python-cataloger: fix normalization test (#3073)\n\nSigned-off-by: mikcl <mikesmikes400@gmail.com>",
-        "commit_date": "2024-07-25 19:45:14",
-        "release_date": "2024-07-11 17:39:39",
-        "release_message": "### Added Features\n\n- Add detection of Erlang in Alpine linux [[#2996](https://github.com/anchore/syft/pull/2996) @LaurentGoderre]\n- Add version 3 support for swift package manager of the resolved files [[#3001](https://github.com/anchore/syft/pull/3001) @4ell0]\n- Map the downloadLocation field for PHP Composer packages [[#3011](https://github.com/anchore/syft/pull/3011) @LaurentGoderre]\n\n### Bug Fixes\n\n- Infer the package type from ELF package notes [[#3008](https://github.com/anchore/syft/pull/3008) @wagoodman]\n- Order CPEs deterministically for SBOM reproducibility [[#2967](https://github.com/anchore/syft/issues/2967) [#3009](https://github.com/anchore/syft/pull/3009) @spiffcs]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.8.0...v1.9.0)**\n\n"
+        "commit_message": "fix: use organization for package supplier when reading Java vendor fields  (#3093)\n\nSigned-off-by: Harippriya Sivapatham <harippriyasivapatham@gmail.com>",
+        "commit_date": "2024-08-03 20:00:55",
+        "release_date": "2024-07-30 16:20:36",
+        "release_message": "### Added Features\n\n- Detect go main module from partial package builds [[#3060](https://github.com/anchore/syft/pull/3060) @wagoodman]\n- Support traefik in linux/arm/v6, linux/riscv64 [[#3038](https://github.com/anchore/syft/issues/3038) [#3077](https://github.com/anchore/syft/pull/3077) @witchcraze]\n- Catalog TiDB binary [[#2763](https://github.com/anchore/syft/issues/2763)]\n- Generate a Maven friendly CPE [[#3042](https://github.com/anchore/syft/issues/3042) [#3045](https://github.com/anchore/syft/pull/3045) @kzantow]\n\n### Bug Fixes\n\n- Only match ldflag version if it matches the main module or targets main.version [[#3062](https://github.com/anchore/syft/pull/3062) @LaurentGoderre]\n- python requirements.txt cataloger: allow dots in python package names [[#3070](https://github.com/anchore/syft/pull/3070) @Mikcl]\n- SPDX output performance with many relationships [[#3053](https://github.com/anchore/syft/pull/3053) @kzantow]\n- Order CPEs deterministically for SBOM reproducibility [[#2967](https://github.com/anchore/syft/issues/2967) [#3085](https://github.com/anchore/syft/pull/3085) @kzantow]\n- Python packages: name normalization [[#3064](https://github.com/anchore/syft/issues/3064) [#3069](https://github.com/anchore/syft/pull/3069) @Mikcl]\n- Syft report panics with the golang cataloger [[#3037](https://github.com/anchore/syft/issues/3037) [#3043](https://github.com/anchore/syft/pull/3043) @willmurphyscode]\n\n### Additional Changes\n\n- add debug logging for errors reading RPM files [[#3051](https://github.com/anchore/syft/pull/3051) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.9.0...v1.10.0)**\n\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2024-07-16 02:16:54",
@@ -15432,8 +15432,8 @@
     "https://github.com/containerd/containerd": {
         "created_at": "2024-07-18 04:02:27",
         "description": "An open and reliable container runtime",
-        "commit_message": "Merge pull request #9858 from w13915984028/fixdebug\n\nAdd file name to device type check failure message",
-        "commit_date": "2024-07-26 21:20:38",
+        "commit_message": "Merge pull request #10516 from etungsten/ensure-state-dir-perms\n\nEnsure /run/containerd gets created with correct perms",
+        "commit_date": "2024-07-31 14:22:04",
         "release_date": "2024-07-18 04:19:46",
         "release_message": "Welcome to the v1.7.20 release of containerd!\n\nThe twentieth patch release for containerd 1.7 contains various fixes\nand updates.\n\n### Highlights\n\n* Support for dropping inheritable capabilities ([#10469](https://github.com/containerd/containerd/pull/10469))\n\n#### Container Runtime Interface (CRI)\n\n* Make PodSandboxStatus friendlier to shim crashes ([#10461](https://github.com/containerd/containerd/pull/10461))\n* Handle empty DNSConfig differently than unspecified ([#10462](https://github.com/containerd/containerd/pull/10462))\n* Fix for `[cri] ttrpc: closed` during ListPodSandboxStats ([#10423](https://github.com/containerd/containerd/pull/10423))\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Derek McGowan\n* Akihiro Suda\n* Phil Estes\n* Akhil Mohan\n* Bryant Biggs\n* Danny Canter\n* Davanum Srinivas\n* Mike Brown\n* Samuel Karp\n* Tim Hockin\n\n### Changes\n<details><summary>16 commits</summary>\n<p>\n\n* Prepare release notes for v1.7.20 ([#10481](https://github.com/containerd/containerd/pull/10481))\n  * [`7f2d4cd97`](https://github.com/containerd/containerd/commit/7f2d4cd978f602bc5f68c3a3f7123a834150fe1d) Prepare release notes for v1.7.20\n* deps: Update otelgrpc ([#10413](https://github.com/containerd/containerd/pull/10413))\n  * [`3a02c523d`](https://github.com/containerd/containerd/commit/3a02c523d07fd8636b72ba8de6fd21d6c3ffa042) deps: Update otelgrpc\n* Make PodSandboxStatus friendlier to shim crashes ([#10461](https://github.com/containerd/containerd/pull/10461))\n  * [`df86bdd5d`](https://github.com/containerd/containerd/commit/df86bdd5dc6a9948e65fe8a8a296052b19734286) CRI Sbserver: Make PodSandboxStatus friendlier to shim crashes\n* Handle empty DNSConfig differently than unspecified ([#10462](https://github.com/containerd/containerd/pull/10462))\n  * [`209ee4f10`](https://github.com/containerd/containerd/commit/209ee4f107af61f1385bb77770c9ae0568add13e) CRI: An empty DNSConfig != unspecified\n* Support for dropping inheritable capabilities ([#10469](https://github.com/containerd/containerd/pull/10469))\n  * [`ce65228af`](https://github.com/containerd/containerd/commit/ce65228afd0b0fce6f5ef3dd0d7ec312b2c552b0) Support for dropping inheritable capabilities\n* Fix for `[cri] ttrpc: closed` during ListPodSandboxStats ([#10423](https://github.com/containerd/containerd/pull/10423))\n  * [`610498df7`](https://github.com/containerd/containerd/commit/610498df750c3b30b137ddb4ab236e5b0a84ceda) Fix for `[cri] ttrpc: closed` during ListPodSandboxStats\n* update to go1.21.12 / go1.22.5 ([#10426](https://github.com/containerd/containerd/pull/10426))\n  * [`e61c7932e`](https://github.com/containerd/containerd/commit/e61c7932efc40f7246eaffb00b19fd697c0447f8) update to go1.21.12 / go1.22.5\n* errdefs: denote deprecation as a godoc comment ([#10424](https://github.com/containerd/containerd/pull/10424))\n  * [`c7d5e430a`](https://github.com/containerd/containerd/commit/c7d5e430a4dc9e7fb3a0241adfb5477466f09c59) errdefs: denote deprecation as a godoc comment\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/go-logr/logr**                                                      v1.2.4 -> v1.3.0\n* **github.com/google/go-cmp**                                                     v0.5.9 -> v0.6.0\n* **github.com/google/uuid**                                                       v1.3.1 -> v1.4.0\n* **go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc**  v0.45.0 -> v0.46.1\n* **go.opentelemetry.io/otel**                                                     v1.19.0 -> v1.21.0\n* **go.opentelemetry.io/otel/metric**                                              v1.19.0 -> v1.21.0\n* **go.opentelemetry.io/otel/sdk**                                                 v1.19.0 -> v1.21.0\n* **go.opentelemetry.io/otel/trace**                                               v1.19.0 -> v1.21.0\n* **google.golang.org/genproto**                                                   e6e6cdab5c13 -> 989df2bf70f3\n* **google.golang.org/genproto/googleapis/api**                                    007df8e322eb -> 83a465c0220f\n* **google.golang.org/genproto/googleapis/rpc**                                    d307bd883b97 -> 995d672761c0\n\nPrevious release can be found at [v1.7.19](https://github.com/containerd/containerd/releases/tag/v1.7.19)\n"
     },
@@ -22364,10 +22364,10 @@
     "https://github.com/xaoyaoo/PyWxDump": {
         "created_at": "2024-07-23 02:15:17",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_message": "add wx3.9.11.25",
-        "commit_date": "2024-07-24 02:09:33",
+        "commit_message": "fix 合并数据库，以及部分专业工具的显示问题",
+        "commit_date": "2024-08-03 05:22:55",
         "release_date": "2024-07-23 02:18:33",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.0.42\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.0.42\r\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\r\n当前版本存在BUG，请先使用3.0.37版本，新版本正在准备中。\r\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-11-15 03:33:53",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25602,8 +25602,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2024-05-07 17:05:30",
         "description": "The ZAP core project",
-        "commit_message": "Add the possibility to search into notes (#8536)\n\nFix #8518.\r\n\r\nSigned-off-by: Paul-Emmanuel Raoul <skyper@skyplabs.net>",
-        "commit_date": "2024-07-23 08:21:42",
+        "commit_message": "Merge pull request #8583 from thc202/update-deps\n\nUpdate dependencies",
+        "commit_date": "2024-07-30 09:58:27",
         "release_date": "2024-05-07 17:39:14",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.15.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.15.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0.dmg) | `ae025403e46cdefff013cd0c3b88d8edc5a183a76daa63cb62c7c629005337a5` |\r\n| [ZAP_2.15.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_aarch64.dmg) | `4426253f4702bbd5fb4779bcf4d62490b2c10ec851c4ebc94ced8f156d2e5509` |\r\n| [ZAP_2.15.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Core.zip) | `e3cf30ad526e4f3fb8a228e1d5e02da0389b2ec7436b989bb28f959703380bf5` |\r\n| [ZAP_2.15.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Crossplatform.zip) | `05d3932a1affb0ab7987664677134709982ca3837a0b0f0e16f9aeb391933341` |\r\n| [ZAP_2.15.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz) | `6410e196baab458a9204e29aafb5745fca003a2a6c0386f2c6e5c04b67621fa7` |\r\n| [ZAP_2_15_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_unix.sh) | `3d976a197b7f71c52c8b8b2e9f06b988384845fb854b637ebb8be0e4cb38112f` |\r\n| [ZAP_2_15_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows-x32.exe) | `114953f29647a5e4e5774b338f2271d6149711e9222e0b92b11be3a35b812478` |\r\n| [ZAP_2_15_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows.exe) | `28b348dd65116ddabbbbd98b7f84864a0bb0f98d656266f2f08bfd010ae51c57` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/bom.json) | `04f3e148aaa406cd7f31f2be8d3ef282e16e852233da85de13aacb3a173f4740` |\r\n"
     },
@@ -26470,8 +26470,8 @@
     "https://github.com/ConsenSys/mythril": {
         "created_at": "2024-03-27 22:02:15",
         "description": "Security analysis tool for EVM bytecode. Supports smart contracts built for Ethereum, Hedera, Quorum, Vechain, Rootstock, Tron and other EVM-compatible blockchains.",
-        "commit_message": "Supports Python3.12 and fixes some bugs (#1860)\n\n* Add transient storage\r\n\r\n* Fix issues with transient storage\r\n\r\n* Remove obselete opcodes\r\n\r\n* Cleanup\r\n\r\n* Fix some issues and support python 3.12\r\n\r\n* Refactor\r\n\r\n* Improve the test readability",
-        "commit_date": "2024-07-24 14:13:00",
+        "commit_message": "Fully switch from mock to unittest.mock (#1864)\n\nmock became part of the Python stdlib in Python 3.3, see\r\n* https://docs.python.org/3/library/unittest.mock.html\r\n* https://mock.readthedocs.io/en/latest/\r\n\r\nSome tests already use unittest.mock, this PR now changes all mock imports\r\nto unittest.mock and removes mock from the requirements.txt file.",
+        "commit_date": "2024-08-02 22:52:57",
         "release_date": "2024-03-27 22:02:44",
         "release_message": "## What's Changed\r\n* Add improved state merging by @norhh in https://github.com/Consensys/mythril/pull/1843\r\n* Remove a partial feature  by @norhh in https://github.com/Consensys/mythril/pull/1844\r\n* chore: remove repetitive words by @suchsoon in https://github.com/Consensys/mythril/pull/1845\r\n* fix typos by @xiaoxianBoy in https://github.com/Consensys/mythril/pull/1846\r\n* Fix a bug due to issues with balance by @norhh in https://github.com/Consensys/mythril/pull/1848\r\n* chore: fix some comments by @sellskin in https://github.com/Consensys/mythril/pull/1849\r\n\r\n## New Contributors\r\n* @suchsoon made their first contribution in https://github.com/Consensys/mythril/pull/1845\r\n* @xiaoxianBoy made their first contribution in https://github.com/Consensys/mythril/pull/1846\r\n* @sellskin made their first contribution in https://github.com/Consensys/mythril/pull/1849\r\n\r\n**Full Changelog**: https://github.com/Consensys/mythril/compare/v0.24.7...v0.24.8"
     },
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.37.81属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.24.211属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28788,5 +28788,19 @@
     "https://www.cryptool.org/en/ct2/downloads/": {
         "status_code": 200,
         "description": "CT2 Downloads - CrypTool"
+    },
+    "https://github.com/W1one/FastJsonAttack": {
+        "created_at": "2021-01-05 10:56:16",
+        "description": "fastjson全版本漏洞利用工具，只支持POST",
+        "commit_message": "delete file",
+        "commit_date": "2021-01-05 11:14:40",
+        "release_date": "2021-01-05 11:02:19",
+        "release_message": "直接打包好的jar文件"
+    },
+    "https://github.com/handbye/potmanager": {
+        "created_at": "2024-04-18 13:20:27",
+        "description": "简单蜜罐管理平台",
+        "commit_message": "update readme",
+        "commit_date": "2024-04-18 13:40:51"
     }
 }
