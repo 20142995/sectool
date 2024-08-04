@@ -2881,7 +2881,7 @@
         "release_message": "[更新1.3版本，支持SpringCloudGatewayRCE CVE-2022-22947](https://github.com/0x727/SpringBootExploit/commit/e9dcb1b3e4ea55f753e2a6b4e0078bb01a3ae8cf)\r\n目前仅仅支持小马，NettyMemshell和SpringRequestMappingMemshell 参考 文章https://gv7.me/articles/2022/the-spring-cloud-gateway-inject-memshell-through-spel-expressions/\r\n "
     },
     "https://github.com/Ice3man543/SubOver": {
-        "created_at": "2018-02-04 09:49:46",
+        "created_at": "2018-06-19 05:40:42",
         "description": "A Powerful Subdomain Takeover Tool",
         "commit_date": "2018-08-30 00:38:45",
         "commit_message": "Update README.md",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.251.124.124属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.51.159.37属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27259,7 +27259,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
+        "description": "用户认证 - 云短信 - 短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
