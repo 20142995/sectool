@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.78.48属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.38.152属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28368,7 +28368,7 @@
         "release_message": "Nebula 1.1.2：\r\n1.  解決CPU占用率過高問題\r\n2.  解決风险事件管理无数据的問題\r\n3.  解決無法創建用户和用户组的問題\r\n4.  解決監控大屏没有風險事件數據的問題"
     },
     "https://github.com/smarttang/w3a_SOC": {
-        "created_at": "2022-06-05 17:06:25",
+        "created_at": "2013-12-03 09:26:11",
         "description": "元豚科技 - 基于日志安全分析做切入，做最好用的「云原生安全运维工作台」",
         "commit_message": "Update README.md\n\n修改Readme",
         "commit_date": "2024-05-23 07:33:41",
@@ -28838,5 +28838,23 @@
         "description": "通过域名批量查找没有使用 cdn、云waf、dmzweb的站点。",
         "commit_message": "remove  dmz.xxx.edu.cn rule",
         "commit_date": "2023-01-12 12:50:53"
+    },
+    "https://github.com/StarfireLab/AutoZerologon": {
+        "created_at": "2023-07-13 08:20:28",
+        "description": "Zerologon自动化脚本",
+        "commit_message": "test",
+        "commit_date": "2023-09-20 11:12:32"
+    },
+    "https://github.com/xaitax/CVE-2024-23897": {
+        "created_at": "2024-01-26 19:00:03",
+        "description": "CVE-2024-23897 | Jenkins <= 2.441 & <= LTS 2.426.2 PoC and scanner. ",
+        "commit_message": "Merge pull request #2 from cbartholomew/packetlength-command-add\n\n- The packet length will now adjust to ensure all file names will be …",
+        "commit_date": "2024-02-29 12:13:20"
+    },
+    "https://github.com/API-Security/APISandbox": {
+        "created_at": "2021-11-24 08:39:08",
+        "description": "Pre-Built Vulnerable Multiple API Scenarios Environments Based on Docker-Compose.",
+        "commit_message": "update Gateway\n\n更新Gateway的利用方式，修改固定路由为使用CVE-2022-22947来读取hosts，再动态修改路由进行SSRF",
+        "commit_date": "2022-03-10 13:12:25"
     }
 }
