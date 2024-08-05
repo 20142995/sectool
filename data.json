@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.84.127.98属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.48属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27259,7 +27259,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "用户认证 - 云短信 - 短信接收"
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
