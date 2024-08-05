@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.113.206属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.227.115.99属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28856,5 +28856,13 @@
         "description": "Pre-Built Vulnerable Multiple API Scenarios Environments Based on Docker-Compose.",
         "commit_message": "update Gateway\n\n更新Gateway的利用方式，修改固定路由为使用CVE-2022-22947来读取hosts，再动态修改路由进行SSRF",
         "commit_date": "2022-03-10 13:12:25"
+    },
+    "https://github.com/Fheidt12/Windows_Log": {
+        "created_at": "2024-08-05 02:41:18",
+        "description": "基于Go编写的windows日志分析工具",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-05 03:06:54",
+        "release_date": "2024-08-05 02:59:18",
+        "release_message": "Bug：解决\r\n1、解决向日葵和todesk日志分析闪退bug\r\n2、解决计划任务排版报错bug\r\n新增功能：\r\n1、输出日志文件统一放到两个文件中\r\n2、新增进程日志分析功能"
     }
 }
