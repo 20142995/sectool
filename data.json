@@ -3260,8 +3260,8 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2024-07-29 07:35:58",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_message": "Merge pull request #666 from bytedance/main-hupdate-guoyj\n\nMain hupdate guoyj",
-        "commit_date": "2024-07-29 07:35:58",
+        "commit_message": "Merge pull request #668 from bytedance/main-rasp-fixupdate\n\nMain rasp fixupdate",
+        "commit_date": "2024-07-30 03:55:13",
         "release_date": "2024-07-29 09:19:22",
         "release_message": ""
     },
@@ -3841,8 +3841,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2024-07-11 06:07:03",
         "description": null,
-        "commit_message": "Merge pull request #1481 from holyspectral/NVSHAS-8305-auto-generate-tls-certs-for-controller\n\nNVSHAS-8305 regen certs when it's ill-formatted",
-        "commit_date": "2024-08-01 01:00:27",
+        "commit_message": "Merge pull request #1488 from holyspectral/NVSHAS-7853-TLS-handshake-error-EOF\n\nNVSHAS-7853 TLS handshake EOF",
+        "commit_date": "2024-08-03 23:34:13",
         "release_date": "2024-07-24 17:15:33",
         "release_message": "NVSHAS-8980, get host and tunnel interface on node successfully in oc 4.15, exclude 169.254.x.x as host interface IPs\r\nNVSHAS-9177: Reexam host interface afte 1 minute of enforcer startup"
     },
@@ -3864,12 +3864,12 @@
         "release_message": "### Added Features\n\n- Detect go main module from partial package builds [[#3060](https://github.com/anchore/syft/pull/3060) @wagoodman]\n- Support traefik in linux/arm/v6, linux/riscv64 [[#3038](https://github.com/anchore/syft/issues/3038) [#3077](https://github.com/anchore/syft/pull/3077) @witchcraze]\n- Catalog TiDB binary [[#2763](https://github.com/anchore/syft/issues/2763)]\n- Generate a Maven friendly CPE [[#3042](https://github.com/anchore/syft/issues/3042) [#3045](https://github.com/anchore/syft/pull/3045) @kzantow]\n\n### Bug Fixes\n\n- Only match ldflag version if it matches the main module or targets main.version [[#3062](https://github.com/anchore/syft/pull/3062) @LaurentGoderre]\n- python requirements.txt cataloger: allow dots in python package names [[#3070](https://github.com/anchore/syft/pull/3070) @Mikcl]\n- SPDX output performance with many relationships [[#3053](https://github.com/anchore/syft/pull/3053) @kzantow]\n- Order CPEs deterministically for SBOM reproducibility [[#2967](https://github.com/anchore/syft/issues/2967) [#3085](https://github.com/anchore/syft/pull/3085) @kzantow]\n- Python packages: name normalization [[#3064](https://github.com/anchore/syft/issues/3064) [#3069](https://github.com/anchore/syft/pull/3069) @Mikcl]\n- Syft report panics with the golang cataloger [[#3037](https://github.com/anchore/syft/issues/3037) [#3043](https://github.com/anchore/syft/pull/3043) @willmurphyscode]\n\n### Additional Changes\n\n- add debug logging for errors reading RPM files [[#3051](https://github.com/anchore/syft/pull/3051) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.9.0...v1.10.0)**\n\n"
     },
     "https://github.com/chaitin/safeline": {
-        "created_at": "2024-07-16 02:16:54",
-        "description": "A web security gateway, serve as a reverse proxy to protect your websites from attacks and exploits.",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-07-16 02:16:54",
-        "release_date": "2024-07-18 11:08:26",
-        "release_message": "## Improvements:\r\n* Dashboard add the Interception counts caused by different reasons, such as attack blocking and Rate Limiting\r\n* Custom Rules add 'Source IP' - 'Not In CIDR' ([#980](https://github.com/chaitin/SafeLine/issues/980))\r\n* Site Upstream allow Underline in hostname ([#985](https://github.com/chaitin/SafeLine/issues/985))\r\n\r\n## Fixes:\r\n* TOTP username of the Built-in user does not appear correctly when it's modified\r\n* The content of AI Analysis is sometimes formatted incorrectly"
+        "created_at": "2024-08-01 13:02:57",
+        "description": "serve as a reverse proxy to protect your web services from attacks and exploits.",
+        "commit_message": "feat: add env for 6.4.0",
+        "commit_date": "2024-08-01 13:02:57",
+        "release_date": "2024-08-02 08:01:58",
+        "release_message": "#### Optimized\r\n* UI optimizations"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -4006,8 +4006,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2023-12-05 10:21:15",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_message": "fix: copying file using `transferTo` sometimes fails. (#1862)\n\nTurns out that using this method sometimes fails with an exception about unable to delete a directory.\r\nThe stacktrace points to:\r\n\r\n```\r\njava.nio.file.FileSystemException: /tmp/webwolf-fileserver/dumbanddummer/xxe_a11.dtd: Not a directory\r\n        at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100) ~[na:na]\r\n        at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[na:na]\r\n        at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[na:na]\r\n        at java.base/sun.nio.fs.UnixFileSystemProvider.implDelete(UnixFileSystemProvider.java:248) ~[na:na]\r\n        at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[na:na]\r\n        at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191) ~[na:na]\r\n        at java.base/java.nio.file.Files.copy(Files.java:3147) ~[na:na]\r\n        at io.undertow.server.handlers.form.FormData$FileItem.write(FormData.java:274) ~[undertow-core-2.3.10.Final.jar!/:2.3.10.Final]\r\n        at io.undertow.servlet.spec.PartImpl.write(PartImpl.java:119) ~[undertow-servlet-2.3.10.Final.jar!/:2.3.10.Final]\r\n        at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile.transferTo(StandardMultipartHttpServletRequest.java:254) ~[spring-web-6.0.13.jar!/:6.0.13]\r\n        at org.owasp.webgoat.webwolf.FileServer.importFile(FileServer.java:89)\r\n```\r\n\r\nIt has to do with the underlying implmentation in Undertow. An explaination can be found here: https://stackoverflow.com/questions/60336929/java-nio-file-nosuchfileexception-when-file-transferto-is-called\r\n\r\nThe solution is to take the input stream and use a simple `Files.copy()` to copy the file.\r\n\r\nCloses: #1737",
-        "commit_date": "2024-07-28 15:47:30",
+        "commit_message": "chore: bump io.github.bonigarcia:webdrivermanager from 5.9.1 to 5.9.2 (#1866)\n\nBumps [io.github.bonigarcia:webdrivermanager](https://github.com/bonigarcia/webdrivermanager) from 5.9.1 to 5.9.2.\r\n- [Release notes](https://github.com/bonigarcia/webdrivermanager/releases)\r\n- [Changelog](https://github.com/bonigarcia/webdrivermanager/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/bonigarcia/webdrivermanager/compare/webdrivermanager-5.9.1...webdrivermanager-5.9.2)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: io.github.bonigarcia:webdrivermanager\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-08-04 13:57:57",
         "release_date": "2023-12-05 10:23:50",
         "release_message": "## Version v2023.8 \r\n\r\n### 🚀 New functionality\r\n\r\n- Consistent environment values and url references (#1677)\r\n- Show directly requested file in requests overview\r\n- Show creating time in file upload overview\r\n\r\n ### 🐞 Bug fixes\r\n\r\n- Fix startup message (#1687)\r\n- Fix/state of software supply chain links (#1683)\r\n- Fix WebWolf UI (#1686)\r\n\r\n### 🔄 Technical tasks\r\n\r\n- bump actions/setup-java from 3 to 4 (#1690)\r\n- bump commons-io:commons-io from 2.14.0 to 2.15.1 (#1689)\r\n- bump com.diffplug.spotless:spotless-maven-plugin (#1688)\r\n   \r\n Full change log: https://github.com/WebGoat/WebGoat/compare/v2023.5...v2023.8  \r\n\r\n\r\n Team WebGoat\r\n"
     },
@@ -6301,8 +6301,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2024-07-09 06:09:55",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_message": "fix: Sidebar panels not being resizable anymore properly",
-        "commit_date": "2024-07-16 16:15:28",
+        "commit_message": "build: Updated ImGui to v1.91.0",
+        "commit_date": "2024-08-03 21:49:47",
         "release_date": "2024-07-09 06:39:05",
         "release_message": "## Improvements\r\n- Pattern hover highlighting performance has been drastically improved\r\n- Completely eradicated any Window flickering during resizes on Windows and the Web\r\n- Toolbar items now have tooltips\r\n- The web version can now be properly used on mobile and with touch inputs\r\n- Custom plugins can once again be built using the SDK\r\n- File dialogs now belong to the ImHex window on Linux. Thanks a lot to @btzy \r\n\r\n## Bug Fixes\r\n- Fixed a crash that triggered when an auto backup was being created on macOS\r\n- Fixed liblzma not being configured in correctly on all OSes\r\n- Having debug mode enabled in a pattern no longer makes the UI lag out after evaluation\r\n- The find and goto popups no longer go transparent when opening a combo box within them\r\n- Fixed a rare crash when re-evaluating patterns while a sorting option was selected\r\n\r\n## Pattern Language\r\n- Added builtin crc8, crc16 and crc64 hash functions\r\n- The crc functions can now also be used with strings \r\n- Fixed a bug where patterns passed to non-type template parameters would get hidden\r\n- std::mem::find_sequence and co are now HUNDREDS of times faster. This includes std::mem::MagicSearcher\r\n\r\n# Previous Release \r\n\r\n## Additions\r\n- Added basic process memory provider support to macOS\r\n    - Due to limitations on Apple's side, this only works with SIP disabled\r\n- View providers can now be renamed\r\n- Added options to load files into memory or read data from disk instead, independent of the file size\r\n- Find results can now be exported as CSVs, TSVs and JSONs. Thanks a lot to @SparkyTD\r\n- Added various per-byte highlights to the hex editor minimap\r\n    - The minimap can now display the highlighting of individual bytes\r\n- Added a digital signal pattern visualizer\r\n- The pattern data view now uses nicer colors and strings to convey information\r\n- The recent files section on the welcome screen can now be collapsed\r\n- You can now scroll the hex editor view faster by holding down CTRL or even faster when holding down SHIFT + CTRL\r\n- Added a `--reset-settings` CLI command to clear all settings in case something gets corrupted\r\n\r\n## Improvements\r\n- **Drastically improved rendering times**\r\n- Added a small moon icon to the welcome screen in nightly builds\r\n- Providers now close instantly\r\n- The hex editor view no longer scrolls when jumping to a selection that's already visible\r\n- Auto project backups are now enabled by default\r\n- Custom data inspector rows now display a nice error message in the UI when they encountered an error\r\n- Bookmark reordering now doesn't swap entries anymore and actually works as expected\r\n- ImHex now displays a little dot in the close button on macOS if there's unsaved changes\r\n- Auto backups no longer remove the dirty status of providers anymore\r\n- SIGINT signals are now being handled to not close ImHex immediately anymore but to show a popup\r\n- UI scaling factors are now limited between 0.1x and 4.0x to prevent issues\r\n    - Larger values are still possible by CTRL-clicking into the slider and entering a value manually\r\n- PageUp + PageDown no longer affects the hex editor selection\r\n- Row highlighting in the pattern data view is now less bright so the text has a better contrast\r\n\r\n## Bug Fixes\r\n- ImHex can now properly load files stored on network drives on Windows\r\n- Fixed crashes when searching for certain regex strings\r\n- Fixed an infinite loop when searching forward/backward with CTRL + F\r\n- Fixed loading of layout files\r\n- Fixed fonts being blurry in some cases\r\n- Bookmark regions can now be set to 1 byte\r\n- Fixes Alt and Ctrl being swapped in the text editor on macOS\r\n- Fixed disassembler always disassembling in little endian\r\n- ImHex no longer tries to store files in system paths now\r\n- Fixed an infinite loop when exporting data selections to a file. Thanks a lot to @FireNX70\r\n- Fixed file name display issues with files that contain unicode characters\r\n- Fixed content store getting stuck sometimes when updating multiple items at once\r\n\r\n## Pattern Language \r\n- `continue` and `break` now work as one would expect\r\n- Added `std::core::execute_function()`\r\n- Arrays can now be initialized using the following syntax:\r\n    - `u32 myArray[5] = { 1, 2, 3, 4, 5 };`\r\n- Added support for constants inside of custom types\r\n- Unsigned, signed and floating point patterns no longer display their hex value in their value by default\r\n- Fixed [[no_unique_address]] not working correctly with bitfields\r\n- Patterns are now highlighted in the hex editor view when hovering over them in the pattern data view\r\n- Patterns in the pattern data view table are now highlighted when they are fully selected in the hex editor view\r\n- Bitfields can now be properly edited in the pattern data view\r\n- The filter in the pattern data view now gets correctly applied again after re-evaluating a pattern\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
     },
@@ -23560,8 +23560,8 @@
     "https://github.com/t3l3machus/Villain": {
         "created_at": "2024-07-29 12:03:09",
         "description": "Villain is a high level stage 0/1 C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells, enhance their functionality with additional features (commands, utilities) and share them among connected sibling servers (Villain instances running on different machines).",
-        "commit_date": "2024-07-29 12:03:09",
-        "commit_message": "[2024-29-07] v2.1.0 Release \n\n[2024-29-07] v2.1.0 Release",
+        "commit_date": "2024-08-02 10:24:18",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "2024-07-29 12:08:43",
         "release_message": "## 🪲 Bug Fixes \r\n- Fixed Python v3.12 invalid escape warning message in regex patterns (by D3vil0p3r, #149) and payload templates (by t3l3machus).\r\n- Fixed exception for non-existent destination path in 'upload' command (by x4v1l0k, #141).\r\n- Fixed session id alias interpretation for the 'exec' command (#159).\r\n- Fixed various tab autocomplete issues.\r\n- Fixed an unhandled exception for the update process (#129).\r\n- Fixed a mistake in payload template `windows/netcat/python3_reverse_tcp`.\r\n\r\n## ⚙️ Improvements\r\n- Improved the LHOST argument parsing in payload generation (supports IP, interface, or hostname with DNS resolution check).\r\n- Instead of checking for updates automatically on startup, the update process was adjusted to fetch the latest commits from the main branch on GitHub if the user supplies the -u option. "
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.51.159.37属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.84.127.98属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28832,5 +28832,11 @@
         "commit_date": "2024-08-02 05:12:12",
         "release_date": "2024-07-22 11:05:01",
         "release_message": "## Manager\r\n\r\n### Fixed\r\n\r\n- Fixed bug in `upgrade_agent` CLI where it would sometimes raise an unhandled exception. ([#24341](https://github.com/wazuh/wazuh/pull/24341))\r\n- Changed keystore cipher algorithm to remove reuse of sslmanager.cert and sslmanager.key. ([#24509](https://github.com/wazuh/wazuh/pull/24509))\r\n\r\n## Agent\r\n\r\n### Fixed\r\n\r\n- Fixed incorrect macOS agent name retrieval. ([#23989](https://github.com/wazuh/wazuh/pull/23989))\r\n\r\n## RESTful API\r\n\r\n### Changed\r\n\r\n- Changed `GET /manager/version/check` endpoint response to always show the `uuid` field. ([#24173](https://github.com/wazuh/wazuh/pull/24173))\r\n\r\n## Other\r\n\r\n### Changed\r\n\r\n- Upgraded external Jinja2 library dependency version to 3.1.4. ([#24108](https://github.com/wazuh/wazuh/pull/24108))\r\n- Upgraded external requests library dependency version to 2.32.2. ([#23925](https://github.com/wazuh/wazuh/pull/23925))"
+    },
+    "https://github.com/ccc-f/FCDN": {
+        "created_at": "2022-12-02 07:54:08",
+        "description": "通过域名批量查找没有使用 cdn、云waf、dmzweb的站点。",
+        "commit_message": "remove  dmz.xxx.edu.cn rule",
+        "commit_date": "2023-01-12 12:50:53"
     }
 }
