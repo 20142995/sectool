@@ -1580,7 +1580,7 @@
     "https://github.com/i11us0ry/goon": {
         "created_at": "2021-06-28 15:31:50",
         "description": "goon,集合了fscan和kscan等优秀工具功能的扫描爆破工具。功能包含：ip探活、port扫描、web指纹扫描、title扫描、压缩文件扫描、fofa获取、ms17010、mssql、mysql、postgres、redis、ssh、smb、rdp、telnet、tomcat等爆破以及如netbios探测等功能。",
-        "commit_date": "2024-06-02 15:50:48",
+        "commit_date": "2024-08-05 08:15:15",
         "commit_message": "Update README.md",
         "release_tag": "v3.5",
         "release_date": "2023-12-27 09:13:03",
@@ -20782,7 +20782,7 @@
         "release_message": ""
     },
     "https://github.com/ffffffff0x/f8x": {
-        "created_at": "2021-01-21 06:27:27",
+        "created_at": "2022-09-03 18:18:17",
         "description": "红/蓝队环境自动化部署工具 | Red/Blue team environment automation deployment tool",
         "commit_message": "add pupy_custom_port(2024/05/31)",
         "commit_date": "2024-05-31 09:30:41",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.107.19属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.249.14.240属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28368,7 +28368,7 @@
         "release_message": "Nebula 1.1.2：\r\n1.  解決CPU占用率過高問題\r\n2.  解決风险事件管理无数据的問題\r\n3.  解決無法創建用户和用户组的問題\r\n4.  解決監控大屏没有風險事件數據的問題"
     },
     "https://github.com/smarttang/w3a_SOC": {
-        "created_at": "2013-12-03 09:26:11",
+        "created_at": "2022-06-05 17:06:25",
         "description": "元豚科技 - 基于日志安全分析做切入，做最好用的「云原生安全运维工作台」",
         "commit_message": "Update README.md\n\n修改Readme",
         "commit_date": "2024-05-23 07:33:41",
@@ -28879,5 +28879,13 @@
         "created_at": "2024-08-01 12:05:27",
         "release_date": "2024-08-01 14:00:37",
         "release_message": ""
+    },
+    "https://github.com/enomothem/Whoamifuck": {
+        "created_at": "2024-08-03 06:04:17",
+        "description": "用于Linux应急响应，快速排查异常用户登录情况和入侵信息排查，准确定位溯源时间线，高效辅助还原攻击链。",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-06 01:01:35",
+        "release_date": "2024-08-03 10:53:14",
+        "release_message": "- 2024年07月14日 发布6.2.1-alpha，新增『重要文件hash值』\r\n- 2024年08月01日 发布6.3.0，新增『信使 - 邮箱通知功能』、 优化『定时任务相关代码优化，增加分钟』"
     }
 }
