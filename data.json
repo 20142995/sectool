@@ -23363,13 +23363,13 @@
         "release_message": "Upgrade to use the latest versions of python, django and other dependencies as of Jun 2022"
     },
     "https://github.com/xiaokp7/TongdaOATool": {
-        "created_at": "2023-09-16 19:08:08",
+        "created_at": "2023-09-16 20:17:53",
         "description": "通达OA漏洞检测工具",
-        "commit_date": "2023-09-16 20:17:53",
-        "commit_message": "更新 README.md",
+        "commit_date": "2024-07-11 15:52:38",
+        "commit_message": "v1.6",
         "release_tag": "v1.3",
-        "release_date": "2023-09-16 19:16:14",
-        "release_message": "1. 采用线程池修复卡顿问题\r\n2. 新增通达OA前台authmobi伪造在线用户登录漏洞（TongdaOA_Authmobi_Login）\r\n3. 新增通达OA登录认证绕过漏洞(TongdaOA_Bypass_Auth)\r\n4. 新增通达OA gataway前台任意文件上传漏洞"
+        "release_date": "2024-07-11 15:48:37",
+        "release_message": "xdm点点start呀"
     },
     "https://github.com/b0bac/ApolloScanner": {
         "created_at": "2022-03-17 01:34:24",
@@ -24400,8 +24400,8 @@
         "description": "法大大安全应急响应中心"
     },
     "https://sec.huazhu.com/": {
-        "status_code": 403,
-        "description": "AccessDeny"
+        "status_code": 200,
+        "description": "华住安全响应中心 | Huazhu Security Response Center"
     },
     "https://sec.ly.com/": {
         "status_code": 200,
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.249.14.209属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.2.102属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28237,7 +28237,7 @@
     },
     "https://owncloud.com/products/": {
         "status_code": 200,
-        "description": "One moment, please..."
+        "description": "Product overview: ownCloud file sync and share"
     },
     "https://osquery.io/": {
         "status_code": 200,
