@@ -17569,8 +17569,8 @@
     "https://github.com/laramies/theHarvester": {
         "created_at": "2024-03-17 20:13:30",
         "description": "E-mails, subdomains and names Harvester - OSINT ",
-        "commit_date": "2024-07-05 22:35:57",
-        "commit_message": "Bump ruff from 0.5.0 to 0.5.1\n\nBumps [ruff](https://github.com/astral-sh/ruff) from 0.5.0 to 0.5.1.\n- [Release notes](https://github.com/astral-sh/ruff/releases)\n- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/astral-sh/ruff/compare/0.5.0...0.5.1)\n\n---\nupdated-dependencies:\n- dependency-name: ruff\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-08-06 00:06:02",
+        "commit_message": "Bump wheel from 0.43.0 to 0.44.0\n\nBumps [wheel](https://github.com/pypa/wheel) from 0.43.0 to 0.44.0.\n- [Release notes](https://github.com/pypa/wheel/releases)\n- [Changelog](https://github.com/pypa/wheel/blob/main/docs/news.rst)\n- [Commits](https://github.com/pypa/wheel/compare/0.43.0...0.44.0)\n\n---\nupdated-dependencies:\n- dependency-name: wheel\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "4.4.4",
         "release_date": "2024-03-17 20:20:19",
         "release_message": "## Package Maintainer Changes\r\nWe have dropped using pyppeteer and moved to using PlayWright https://playwright.dev/ for the screenshot module\r\n\r\n## Dev Changes:\r\nMoved away from isort,black and flake8 for ruff for linting and formatting as ruff can do all that and more, not to mention is crazy fast.\r\n\r\n## What's Changed\r\n* chore(deps): bump fastapi from 0.109.0 to 0.109.1 in /requirements by @dependabot in https://github.com/laramies/theHarvester/pull/1649\r\n* chore(deps): bump slowapi from 0.1.8 to 0.1.9 by @dependabot in https://github.com/laramies/theHarvester/pull/1651\r\n* chore(deps): bump fastapi from 0.109.1 to 0.109.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1652\r\n* chore(deps-dev): bump pydantic from 2.5.3 to 2.6.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1650\r\n* chore(deps-dev): bump pytest-asyncio from 0.23.4 to 0.23.5 by @dependabot in https://github.com/laramies/theHarvester/pull/1654\r\n* chore(deps): bump netaddr from 0.10.1 to 1.1.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1659\r\n* chore(deps-dev): bump black from 24.1.1 to 24.2.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1656\r\n* chore(deps): bump uvicorn from 0.27.0.post1 to 0.27.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1658\r\n* chore(deps): bump setuptools from 69.0.3 to 69.1.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1655\r\n* chore(deps): bump dnspython from 2.5.0 to 2.6.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1661\r\n* chore(deps): bump aiosqlite from 0.19.0 to 0.20.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1667\r\n* Fix ip-address parsing for IPv6 addresses by @jeffguy in https://github.com/laramies/theHarvester/pull/1670\r\n* chore(deps): bump netaddr from 1.1.0 to 1.2.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1665\r\n* chore(deps): bump dnspython from 2.6.0 to 2.6.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1663\r\n* chore(deps): bump setuptools from 69.1.0 to 69.1.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1668\r\n* chore(deps): bump fastapi from 0.109.2 to 0.110.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1671\r\n* chore(deps-dev): bump pytest from 7.4.4 to 8.0.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1672\r\n* chore(deps): bump python-dateutil from 2.8.2 to 2.9.0.post0 by @dependabot in https://github.com/laramies/theHarvester/pull/1674\r\n* chore(deps): bump playwright from 1.41.2 to 1.42.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1676\r\n* chore(deps-dev): bump ruff from 0.3.0 to 0.3.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1677\r\n* chore(deps-dev): bump pytest from 8.0.2 to 8.1.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1687\r\n* chore(deps-dev): bump types-requests from 2.31.0.6 to 2.31.0.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1686\r\n* chore(deps-dev): bump ruff from 0.3.1 to 0.3.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1682\r\n* chore(deps-dev): bump mypy from 1.8.0 to 1.9.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1680\r\n* chore(deps-dev): bump types-python-dateutil from 2.8.19.20240106 to 2.8.19.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1685\r\n* chore(deps): bump uvicorn from 0.27.1 to 0.28.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1681\r\n* chore(deps-dev): bump types-pyyaml from 6.0.12.12 to 6.0.12.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1684\r\n* chore(deps-dev): bump wheel from 0.42.0 to 0.43.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1683\r\n* chore(deps-dev): bump pytest-asyncio from 0.23.5 to 0.23.5.post1 by @dependabot in https://github.com/laramies/theHarvester/pull/1679\r\n* chore(deps-dev): bump ruff from 0.3.2 to 0.3.3 by @dependabot in https://github.com/laramies/theHarvester/pull/1689\r\n* chore(deps): bump setuptools from 69.1.1 to 69.2.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1688\r\n* chore(deps-dev): bump types-python-dateutil from 2.8.19.20240311 to 2.9.0.20240315 by @dependabot in https://github.com/laramies/theHarvester/pull/1690\r\n\r\n## New Contributors\r\n* @jeffguy made their first contribution in https://github.com/laramies/theHarvester/pull/1670\r\n\r\n**Full Changelog**: https://github.com/laramies/theHarvester/compare/4.5.1...4.6.0"
@@ -23581,7 +23581,7 @@
         "release_message": "poc优化"
     },
     "https://github.com/ki9mu/ARL-plus-docker": {
-        "created_at": "2024-05-24 15:20:27",
+        "created_at": "2022-04-15 08:37:51",
         "description": "基于ARL-V2.6.2修改后的版本",
         "commit_date": "2024-06-28 15:52:25",
         "commit_message": "Update README.md",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.254.1.175属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.107.19属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28864,5 +28864,20 @@
         "commit_date": "2024-08-05 03:06:54",
         "release_date": "2024-08-05 02:59:18",
         "release_message": "Bug：解决\r\n1、解决向日葵和todesk日志分析闪退bug\r\n2、解决计划任务排版报错bug\r\n新增功能：\r\n1、输出日志文件统一放到两个文件中\r\n2、新增进程日志分析功能"
+    },
+    "https://github.com/stamparm/maltrail": {
+        "created_at": "2024-07-31 21:28:22",
+        "description": "Malicious traffic detection system",
+        "commit_message": "Update generic.txt",
+        "commit_date": "2024-08-05 19:07:16",
+        "release_date": "2024-07-31 22:11:03",
+        "release_message": "Start-of-month release"
+    },
+    "https://github.com/wy876/POC": {
+        "commit_message": "8.4更新漏洞",
+        "commit_date": "2024-08-04 03:27:35",
+        "created_at": "2024-08-01 12:05:27",
+        "release_date": "2024-08-01 14:00:37",
+        "release_message": ""
     }
 }
