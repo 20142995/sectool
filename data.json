@@ -813,8 +813,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2023-05-15 12:21:31",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_message": "fix(envinspection): repository=\"unmanaged\"",
-        "commit_date": "2024-07-23 09:05:44",
+        "commit_message": "fix(npm): include optionalDependencies",
+        "commit_date": "2024-08-02 09:02:48",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
     },
@@ -5186,13 +5186,13 @@
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/50?closed=1\r\n\r\n* arthas-spring-boot-starter support spring boot3. #2524\r\n* upgrade spring-boot 2 to 2.7.15, spring boot 3 to 3.1.7\r\n* upgrade bytekit to 0.0.9 (#2775)\r\n* fix not use arthasHome when constructing ArthasAgent(#2544)\r\n* fix AnsiLog static init may error. #2740\r\n* sysenv/sysprop command sorted by key #2619 (#2652)\r\n* upgrade bytebuddy to 1.14.11\r\n* UserStat support agentId (#2501)"
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
-        "created_at": "2024-07-21 00:26:13",
+        "created_at": "2024-08-04 00:26:11",
         "description": "A high performance go implementation of Wappalyzer Technology Detection Library",
-        "commit_date": "2024-07-21 00:26:13",
-        "commit_message": "Weekly fingerprints update [Sun Jul 21 00:26:13 UTC 2024] :robot:",
+        "commit_date": "2024-08-04 00:26:11",
+        "commit_message": "Weekly fingerprints update [Sun Aug  4 00:26:11 UTC 2024] :robot:",
         "release_tag": "v0.0.109",
-        "release_date": "2024-07-21 00:26:29",
-        "release_message": "### [0.1.11](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.10...v0.1.11) (2024-07-21)"
+        "release_date": "2024-08-04 00:26:30",
+        "release_message": "### [0.1.13](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.12...v0.1.13) (2024-08-04)"
     },
     "https://github.com/cseroad/Webshell_Generate": {
         "created_at": "2023-06-19 03:21:09",
@@ -7669,12 +7669,12 @@
         "release_message": ""
     },
     "https://github.com/locustio/locust": {
-        "created_at": "2024-07-31 13:38:48",
+        "created_at": "2024-08-05 17:33:58",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Merge pull request #2826 from andrewbaldwin44/feature/dashboard-as-a-module-2\n\nImprove Echarts and Expose Line and Axis Configuration",
-        "commit_date": "2024-08-03 10:02:34",
-        "release_date": "2024-07-31 13:48:24",
-        "release_message": "## What's Changed\r\n* FastHttpSession: Enable passing json as a positional argument for post() and stop converting response times to int by @tdadela in https://github.com/locustio/locust/pull/2772\r\n* Remove Line Chart Default Zoom by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2774\r\n* FastHttpSession requests typing  by @tdadela in https://github.com/locustio/locust/pull/2775\r\n* new events for heartbeat and usage monitor by @mgor in https://github.com/locustio/locust/pull/2777\r\n* dispatch benchmark test improvements by @tdadela in https://github.com/locustio/locust/pull/2780\r\n* SequentialTaskSet: Allow weighted tasks and dict in .tasks by @bakhtos in https://github.com/locustio/locust/pull/2742\r\n* Fix StatsEntry docstring by @tdadela in https://github.com/locustio/locust/pull/2784\r\n* Implement Poetry build system (mainly so we don't have to commit dynamically generated front end bundles to git) by @mquinnfd in https://github.com/locustio/locust/pull/2725\r\n* Typing: strict optional in dispatch.py by @tdadela in https://github.com/locustio/locust/pull/2779\r\n* Correctly set version from Poetry in published builds by @mquinnfd in https://github.com/locustio/locust/pull/2791\r\n* Fix Extend Webui Example by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2800\r\n* Provide warning for local installs where yarn is not present by @mquinnfd in https://github.com/locustio/locust/pull/2801\r\n* Fix tests on windows by @mquinnfd in https://github.com/locustio/locust/pull/2803\r\n* Add example of a bottlenecked server and use that test to make a new graph for the docs by @cyberw in https://github.com/locustio/locust/pull/2805\r\n* Replace total avg response time with 50 percentile (avg was broken) by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2806\r\n* Avoid deadlock in gevent/urllib3 connection pool (fixes occasional worker heartbeat timeouts) by @tdadela in https://github.com/locustio/locust/pull/2813\r\n* Fix Dockerfile style warning by @mehrdadbn9 in https://github.com/locustio/locust/pull/2814\r\n* Fix pypy gc.freeze() AttributeError by @jimoleary in https://github.com/locustio/locust/pull/2819\r\n* Update poetry windows tests by @mquinnfd in https://github.com/locustio/locust/pull/2821\r\n\r\n## New Contributors\r\n* @bakhtos made their first contribution in https://github.com/locustio/locust/pull/2742\r\n* @mquinnfd made their first contribution in https://github.com/locustio/locust/pull/2725\r\n* @mehrdadbn9 made their first contribution in https://github.com/locustio/locust/pull/2814\r\n* @jimoleary made their first contribution in https://github.com/locustio/locust/pull/2819\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.29.1...2.30.0"
+        "commit_message": "Update autogenerated changelog",
+        "commit_date": "2024-08-05 17:46:57",
+        "release_date": "2024-08-05 17:34:09",
+        "release_message": "## What's Changed\r\n* Fix issue with downloading HTML report, update package.json for webui build by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2834\r\n\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.31.0...2.31.1"
     },
     "https://github.com/Wh04m1001/IFaultrepElevatedDataCollectionUAC": {
         "created_at": "2022-10-14 21:40:59",
@@ -8579,10 +8579,10 @@
         "release_message": ""
     },
     "https://github.com/PyCQA/bandit": {
-        "created_at": "2018-04-26 09:08:12",
+        "created_at": "2024-06-12 22:17:21",
         "description": "Bandit is a tool designed to find common security issues in Python code.",
-        "commit_date": "2024-07-22 14:41:27",
-        "commit_message": "Bump docker/build-push-action from 6.3.0 to 6.5.0 (#1160)\n\nBumps [docker/build-push-action](https://github.com/docker/build-push-action) from 6.3.0 to 6.5.0.\r\n- [Release notes](https://github.com/docker/build-push-action/releases)\r\n- [Commits](https://github.com/docker/build-push-action/compare/1a162644f9a7e87d8f4b053101d1d9a712edc18c...5176d81f87c23d6fc96624dfdbcd9f3830bbe445)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: docker/build-push-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\r\nCo-authored-by: Eric Brown <ericwb@users.noreply.github.com>",
+        "commit_date": "2024-08-05 14:31:16",
+        "commit_message": "Bump docker/setup-buildx-action from 3.5.0 to 3.6.1 (#1163)\n\nBumps [docker/setup-buildx-action](https://github.com/docker/setup-buildx-action) from 3.5.0 to 3.6.1.\r\n- [Release notes](https://github.com/docker/setup-buildx-action/releases)\r\n- [Commits](https://github.com/docker/setup-buildx-action/compare/aa33708b10e362ff993539393ff100fa93ed6a27...988b5a0280414f521da01fcc63a27aeeb4b104db)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: docker/setup-buildx-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "1.7.5",
         "release_date": "2024-06-12 22:19:26",
         "release_message": "## What's Changed\r\n* Bump docker/build-push-action from 5.1.0 to 5.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1117\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1119\r\n* New logo for Bandit based on raccoon by @ericwb in https://github.com/PyCQA/bandit/pull/1121\r\n* Start testing on Python 3.13 by @ericwb in https://github.com/PyCQA/bandit/pull/1122\r\n* Bump docker/build-push-action from 5.2.0 to 5.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1123\r\n* Bump docker/setup-buildx-action from 3.1.0 to 3.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1124\r\n* Bump docker/login-action from 3.0.0 to 3.1.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1125\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1126\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1127\r\n* Bump docker/setup-buildx-action from 3.2.0 to 3.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1130\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1131\r\n* Bump sigstore/cosign-installer from 3.4.0 to 3.5.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1132\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1133\r\n* Updates banner logo so it renders well in dark mode by @ericwb in https://github.com/PyCQA/bandit/pull/1134\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1135\r\n* Add a sponsor section to README by @ericwb in https://github.com/PyCQA/bandit/pull/1137\r\n* Ensure sarif extra is included as part of doc build by @ericwb in https://github.com/PyCQA/bandit/pull/1139\r\n* Bump docker/login-action from 3.1.0 to 3.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1142\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1143\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1145\r\n* Guard against empty call argument list by @ericwb in https://github.com/PyCQA/bandit/pull/1146\r\n* Bump docker/build-push-action from 5.3.0 to 5.4.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1144\r\n* Support `configfile` in `.bandit` file by @bersbersbers in https://github.com/PyCQA/bandit/pull/1052\r\n\r\n## New Contributors\r\n* @pre-commit-ci made their first contribution in https://github.com/PyCQA/bandit/pull/1119\r\n* @bersbersbers made their first contribution in https://github.com/PyCQA/bandit/pull/1052\r\n\r\n**Full Changelog**: https://github.com/PyCQA/bandit/compare/1.7.8...1.7.9"
@@ -19284,12 +19284,12 @@
         "commit_message": "Merge pull request #5 from ar7z1/fix-link-to-microsoft-advisory\n\nFix link to Microsoft advisory"
     },
     "https://github.com/jumpserver/jumpserver": {
-        "created_at": "2024-07-11 07:56:55",
+        "created_at": "2024-07-31 02:58:08",
         "description": "An open-source PAM tool alternative to CyberArk.  广受欢迎的开源堡垒机。",
-        "commit_message": "perf: remove receptor",
-        "commit_date": "2024-07-12 10:38:26",
-        "release_date": "2024-07-04 02:17:23",
-        "release_message": "## ✨JumpServer v4.0.0 is now available!  ✨ \r\n\r\nOn the 10th anniversary of the JumpServer open-source project, we released the v4.0 milestone version. JumpServer v4.0 is optimized for world-wide users especially.\r\n\r\nJumpServer v4.0 is a better open-source Privileged Access Management (PAM) tool that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a Web Browser.\r\n\r\n![JumpServer Overview](https://github.com/jumpserver/jumpserver/assets/32935519/94252236-d666-4f91-8bf8-1f0c4cf1798c)\r\n\r\n## 🚀 Quick Start\r\n\r\nPrepare a clean Linux Server ( 64 bit, >= 4c8g )\r\n\r\n```\r\ncurl -sSL https://github.com/jumpserver/jumpserver/releases/download/v4.0.0/quick_start.sh | bash\r\n```\r\n\r\nAccess JumpServer in your browser at `http://your-jumpserver-ip/`\r\n- Username: `admin`\r\n- Password: `ChangeMe`"
+        "commit_message": "perf: Reset password remove sensitive data",
+        "commit_date": "2024-08-05 10:25:11",
+        "release_date": "2024-08-01 02:14:21",
+        "release_message": "## Changelog\r\n\r\n- Fixed inaccurate user role display. [#4248](https://github.com/jumpserver/lina/pull/4248)\r\n- Fixed the missing port in the callback URL for SAML2 third-party user login. [#13814](https://github.com/jumpserver/jumpserver/pull/13814)\r\n- Fixed some issues for improved stability and performance."
     },
     "https://github.com/random-robbie/cve-2020-0688": {
         "created_at": "2020-02-25 23:44:16",
@@ -22607,12 +22607,12 @@
         "release_message": "- 开发框架由.Net Framework 4.0切换为.Net 8\r\n- 采用R2R发布,运行环境已集成到exe中\r\n- 界面上的细小调整\r\n- SHA1: 2AAF1F0DFB7C2ABA175475D834CFCC48A3BB79A8\r\n\r\n由于框架跨度较大，可能会存在BUG。欢迎提交issue"
     },
     "https://github.com/yqcs/prismx": {
-        "created_at": "2024-07-16 09:06:16",
-        "description": ":: 棱镜 X · 自动化企业网络安全风险检测、漏洞扫描工具。",
-        "commit_message": "1.3.1发布",
-        "commit_date": "2024-07-25 15:53:17",
-        "release_date": "2024-07-25 12:35:55",
-        "release_message": "- 新增一键升级功能，以后不用再每次重新下载安装啦\r\n- 优化Mail测试功能\r\n- 优化扫描功能\r\n- 优化Nuclei引擎\r\n 本次更新需重新下载数据库文件"
+        "created_at": "2024-07-26 03:23:59",
+        "description": ":: Prism X · Automated Enterprise Network Security Risk Detection and Vulnerability Scanning Tool  / 棱镜 X · 自动化企业网络安全风险检测、漏洞扫描工具",
+        "commit_message": "1.3.3发布",
+        "commit_date": "2024-07-31 06:59:29",
+        "release_date": "2024-07-29 07:21:17",
+        "release_message": "###  存储仓库：\r\n#### https://oss.prismx.io/\r\n\r\n### 依赖文件：\r\n- built.zip ：远程管理客户端，仅高级版需下载\r\n- lib.zip： 数据库、授权文件，仅web版需下载\r\n\r\n### Linux Amd64 运行示例：\r\n\r\n```bash\r\n$ wget https://oss.prismx.io/built.zip\r\n$ wget https://oss.prismx.io/lib.zip\r\n$ wget https://oss.prismx.io/prismx_linux_amd64\r\n$ unzip built.zip\r\n$ unzip lib.zip\r\n$ chmod +x prismx_linux_amd64\r\n$ ./prismx_linux_amd64\r\n```\r\n\r\n启动后访问`https://yourIP:443`即可进入登录页，使用 -port 参数可指定端口。系统默认账号`prismx/prismx@passw0rd`\r\n\r\n"
     },
     "https://github.com/TomSchimansky/CustomTkinter": {
         "created_at": "2021-03-04 17:24:00",
@@ -25878,8 +25878,8 @@
     "https://github.com/retirejs/retire.js": {
         "created_at": "2024-07-15 20:26:49",
         "description": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds.",
-        "commit_message": "Adding vuln for next.js",
-        "commit_date": "2024-07-24 06:57:50",
+        "commit_message": "fix build command : add browserify directly instead of looking in node_modules/.bin (#446)\n\nsince npm handles the paths for node_modules/.bin\r\nit will automatically use the correct binary from node_modules/.bin.",
+        "commit_date": "2024-08-04 20:23:39",
         "release_date": "2024-07-15 20:26:52",
         "release_message": "## [4.4.3]\n\n### Bugfix\n\n- JSON format should not include results without vulnerabilities unless `--verbose` is specified.\n\n"
     },
@@ -26391,7 +26391,7 @@
         "created_at": "2024-07-24 18:19:01",
         "description": "Open Source Vulnerability Management Platform",
         "commit_message": "Front Updated",
-        "commit_date": "2024-07-24 15:52:11",
+        "commit_date": "2024-08-01 20:54:44",
         "release_date": "2024-07-24 18:25:54",
         "release_message": " * [FIX] Improved bulk update logic in the general context view. #7766\n"
     },
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.115.99属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.254.1.175属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27094,8 +27094,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 530,
+        "description": "Argo Tunnel error | www.webscan.cc | Cloudflare"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27590,12 +27590,12 @@
         "release_message": "Added a lot of yummy ports! Fixed some minor bug - information about IP count was wrong by 2 hosts."
     },
     "https://github.com/Arinue/CTF-NetA": {
-        "created_at": "2024-07-29 07:20:01",
+        "created_at": "2024-08-05 03:24:52",
         "description": "CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析，快速自动获取flag。",
         "commit_message": "Update README.md",
-        "commit_date": "2024-07-30 08:03:07",
-        "release_date": "2024-07-29 07:20:30",
-        "release_message": "v1.7.0 20240728\r\n1.支持minidump解密cs流量\r\n2.使用子线程运行URI、open port、ips统计功能\r\n3.优化授权校验机制，增加更多提示信息\r\n\r\nv1.6.0 20240727\r\n1.重构日志输出\r\n2.加强webshell请求和响应流量日志分色显示\r\n3.明文关键字作为全局检测高亮\r\n4.修复antSword中识别文件出错的bug"
+        "commit_date": "2024-08-05 03:24:52",
+        "release_date": "2024-08-05 03:26:01",
+        "release_message": "v1.8.1 20240805\r\n1.添加日志输出窗口右键base64 32 16 decode、url decode和一键发送至CyberChef\r\n\r\nv1.8.0 20240802\r\n1.添加mysql流量分析：\r\n    支持识别登录成功的用户名和hash\r\n    支持识别查询语句和返回信息\r\n2.支持自定义设置协议检测线程\r\n3.修复modbus中regval_uint16传输数据解码异常bug\r\n    \r\nv1.7.6 20240731\r\n1.加强和优化USB流量分析\r\n2.添加日志保存按钮\r\n3.webshell解密中，http请求返回包设置不同颜色适配黑色主题\r\n\r\nv1.7.5 20240723\r\n1.修复数位板流量分析中的BUG\r\n\r\nv1.7.4 20240715\r\n1.重构蓝牙流量分析，增加传输内容和设备识别，以及文件自动保存\r\n\r\nv1.7.3 20240711\r\n1.支持日志输出窗口Ctrl+鼠标滚轮改变字体大小\r\n2.dns流量分析小小的优化\r\n3.优化冰蝎流量只有返回包时不能解密的bug\r\n\r\nv1.7.2 20240703\r\n1.加强USB流量分析\r\n\r\nv1.7.1 20240702\r\n1.增加sql盲注中存在多个列的兼容性（亦可能降低识别精准度）"
     },
     "https://jiji.pro/yygq.js/": {
         "status_code": 200,
@@ -28689,7 +28689,7 @@
     },
     "https://reqable.com/zh-CN/": {
         "status_code": 200,
-        "description": "先进API生产力工具 | Reqable"
+        "description": "Reqable"
     },
     "https://github.com/THUDM/ChatGLM3": {
         "created_at": "2023-10-26 06:22:47",
