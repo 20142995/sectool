@@ -24400,8 +24400,8 @@
         "description": "法大大安全应急响应中心"
     },
     "https://sec.huazhu.com/": {
-        "status_code": 200,
-        "description": "华住安全响应中心 | Huazhu Security Response Center"
+        "status_code": 403,
+        "description": "AccessDeny"
     },
     "https://sec.ly.com/": {
         "status_code": 200,
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.249.14.240属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.249.14.209属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27800,7 +27800,7 @@
         "commit_date": "2024-05-16 07:42:00"
     },
     "https://github.com/misiai/hunhepan": {
-        "created_at": "2024-03-13 03:31:10",
+        "created_at": "2023-02-21 07:09:34",
         "description": "混合盘APP - 网盘搜索、磁力搜索 - 搜索20个百度网盘、阿里网盘、夸克网盘以及磁力资源",
         "commit_message": "Add files via upload",
         "commit_date": "2024-03-13 03:31:10",
@@ -28237,7 +28237,7 @@
     },
     "https://owncloud.com/products/": {
         "status_code": 200,
-        "description": "Product overview: ownCloud file sync and share"
+        "description": "One moment, please..."
     },
     "https://osquery.io/": {
         "status_code": 200,
