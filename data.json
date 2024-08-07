@@ -613,13 +613,13 @@
         "release_message": ""
     },
     "https://github.com/wgpsec/ENScan_GO": {
-        "created_at": "2024-07-30 13:14:20",
+        "created_at": "2024-08-03 12:44:17",
         "description": "一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。",
-        "commit_date": "2024-07-30 13:14:20",
-        "commit_message": "修复AQC经常触发验证问题 fix #131 #121",
+        "commit_date": "2024-08-03 12:44:17",
+        "commit_message": "更新请求库自定义jar3指纹 fix 137",
         "release_tag": "0.0.15",
-        "release_date": "2024-07-30 13:19:43",
-        "release_message": "## 📦 Uncategorized\r\n\r\n- 修复问题\r\n   - AQC 查询经常触发验证问题 #131 #121\r\n\r\n**触发验证看这里**\r\n\r\n1. 需要稳定得批量查询，打开浏览器复制cookie不要关闭页面，当提示出现验证时在网页随意查询关键词即可触发验证\r\n2. 挂上burp代理 --proxy http://127.0.0.1:8080 放行即可，绕过浏览器校验减少被BAN的风险"
+        "release_date": "2024-08-03 12:49:00",
+        "release_message": "## 📦 Uncategorized\r\n\r\n- 修复问题\r\n   1. AQC 查询经常触发验证问题 #131 #121\r\n   2. 自定义tls指纹ja3，应该不用挂burp了，有问题可以提issue\r\n\r\n**触发验证看这里**\r\n\r\n1. 批量查询请复制cookie后不要关闭浏览器，遇到验证直接刷新过验证\r\n2. TYC增加延时时间可以勉强用\r\n"
     },
     "https://github.com/jackfrued/Python-100-Days": {
         "created_at": "2018-03-01 16:05:52",
@@ -3916,12 +3916,12 @@
         "release_message": "## Network Flight Simulator v2.5.1 (2024-04-04)\r\n\r\nThis release fixes problem with `go install` installing an old version of the tool.\r\n\r\n"
     },
     "https://github.com/aquasecurity/trivy": {
-        "created_at": "2024-07-01 11:28:03",
+        "created_at": "2024-07-31 15:52:50",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "chore(deps): bump goreleaser from `v2.0.0` to `v2.1.0` (#7162)",
-        "commit_date": "2024-07-16 07:44:10",
-        "release_date": "2024-07-01 12:16:03",
-        "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉 https://github.com/aquasecurity/trivy/discussions/7061 \r\n\r\n## Changelog\r\nhttps://github.com/aquasecurity/trivy/blob/main/CHANGELOG.md#0530-2024-07-01"
+        "commit_message": "fix(misconf): do not set default value for default_cache_behavior (#7234)\n\nSigned-off-by: nikpivkin <nikita.pivkin@smartforce.io>",
+        "commit_date": "2024-08-07 00:11:59",
+        "release_date": "2024-07-31 16:45:52",
+        "release_message": "## Changelog\n* 854c61d34a550a9fcbab3bc59e55b868c15d1962 release: v0.54.1 [release/v0.54] (#7282)\n* 334a1c293bb3d490af2a6d80732f399efaac22f7 fix(flag): incorrect behavior for deprected flag `--clear-cache` [backport: release/v0.54] (#7285)\n* f61725c28b56d80fb46395479842a2ab0c517c5f fix(java): Return error when trying to find a remote pom to avoid segfault [backport: release/v0.54] (#7283)\n* a7b7117fe2c9608e990b42e702cc83675c48f888 fix(plugin): do not call GitHub content API for releases and tags [backport: release/v0.54] (#7279)\n\n"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2024-07-15 12:57:42",
@@ -4553,7 +4553,7 @@
         "release_message": ""
     },
     "https://github.com/baidu/dperf": {
-        "created_at": "2024-06-05 10:43:58",
+        "created_at": "2021-12-21 08:02:08",
         "description": "dperf is a 100Gbps network load tester.",
         "commit_message": "Merge pull request #475 from pengjianzhang/main\n\ntry to disable mq_rx_rss at port config",
         "commit_date": "2024-07-23 10:20:29",
@@ -6362,8 +6362,8 @@
     "https://github.com/ufrisk/MemProcFS": {
         "created_at": "2024-07-29 20:44:07",
         "description": "MemProcFS",
-        "commit_message": "Version 5.11.3",
-        "commit_date": "2024-07-30 13:08:36",
+        "commit_message": "Version 5.11.4",
+        "commit_date": "2024-08-04 21:53:44",
         "release_date": "2024-07-29 20:44:56",
         "release_message": "* Bug fixes.\r\n* [New Vmmsharp C# API](https://github.com/ufrisk/MemProcFS/wiki/API_CSharp).\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
     },
@@ -22732,8 +22732,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": null,
-        "commit_message": "Update Rebels_H.js",
-        "commit_date": "2024-07-13 15:13:49"
+        "commit_message": "sync",
+        "commit_date": "2024-08-06 03:31:07"
     },
     "https://github.com/harlamism/IdaClu": {
         "created_at": "2024-03-09 03:45:07",
@@ -23204,8 +23204,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-01-14 18:05:21",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "Clean Path (#1299)\n\n* clean path\r\n\r\n* clean path",
-        "commit_date": "2024-07-13 11:17:46"
+        "commit_message": "Update models.py",
+        "commit_date": "2024-08-06 12:04:46"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25828,8 +25828,8 @@
     "https://github.com/securego/gosec": {
         "created_at": "2024-05-14 13:36:59",
         "description": "Go security checker",
-        "commit_message": "chore(deps): update dependency babel-standalone to v7.24.10",
-        "commit_date": "2024-07-23 09:43:16",
+        "commit_message": "chore(deps): update all dependencies",
+        "commit_date": "2024-08-05 15:38:32",
         "release_date": "2024-05-14 13:42:29",
         "release_message": "## Changelog\n* 6fbd381 Catch os.ModePerm permissions in os.WriteFile\n* dc5e5a9 Add a unit test to detect the false negative in rule G306 for os.ModePerm permissions\n* 417a44c Add filepath.EvalSymlinks to clean functions in rule G304\n* d34f8b7 chore(deps): update all dependencies\n* 8658b8e Update Go to version 2.22.3 in CI and release\n* d3b2359 chore(deps): update module golang.org/x/text to v0.15.0\n* cf29d54 chore(deps): update all dependencies\n* 09d62bd chore(deps): update module github.com/onsi/gomega to v1.33.0\n* 3b23ec8 Update to go 1.22.2\n* 31009c3 chore(deps): update all dependencies\n* daf6f67 chore(deps): update module github.com/onsi/ginkgo/v2 to v2.17.1\n* e27f442 chore(deps): update all dependencies\n* 5513615 fix(helpers/goversion): get from go.mod\n* 43b8b75 chore: fix function name\n* accd7a1 chore(deps): update all dependencies\n* 48aa72e Format the imports using the gci tool\n* b6df69c Fixup: delete unused variable\n* ccb0a08 Fix test: update test to comply with the spec of generated sources\n* 3a0ea51 Refactor: use standard function to check if a file is generated\n* 11c3252 Fix lint warnings\n* be378e6 Add support for math/rand/v2 added in Go 1.22\n* 36878a9 Skip the G601 tests for Go version 1.22\n* 903c75b Update go version to 1.22.1 and 1.21.8\n* f25ccd9 Ignore 'implicit memory aliasing' rule for Go 1.22+\n* 582e91a chore(deps): update all dependencies\n* 198a40c chore(deps): update module golang.org/x/tools to v0.18.0\n* c824a5d fix(hardcoded): remove duplicated `Stripe API Key`\n* d13d7da Update gosec version to v2.19.0 in the Github action\n\n"
     },
@@ -26094,11 +26094,11 @@
         "commit_date": "2016-01-02 11:04:22"
     },
     "https://github.com/deepfence/ThreatMapper": {
-        "created_at": "2024-07-30 18:32:37",
+        "created_at": "2024-08-03 09:38:11",
         "description": "Open Source Cloud Native Application Protection Platform (CNAPP)",
-        "commit_message": "Merge branch 'main' into release-2.3",
-        "commit_date": "2024-07-30 18:32:37",
-        "release_date": "2024-08-01 00:15:04",
+        "commit_message": "Create cloud scanner log directories on restart\n\n(cherry picked from commit 650a82c3e54a752b0fb29514e4c968184f6ef195)",
+        "commit_date": "2024-08-03 09:38:11",
+        "release_date": "2024-08-07 00:15:08",
         "release_message": ""
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.2.102属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.84.64属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27500,12 +27500,12 @@
         "commit_date": "2019-11-12 09:18:28"
     },
     "https://github.com/google/tsunami-security-scanner": {
-        "created_at": "2024-04-29 13:08:59",
+        "created_at": "2024-07-29 08:38:58",
         "description": "Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.",
-        "commit_message": "Support compact RunRequest so requests sent to heavy plugin services still fit in the default gRPC message limit.\n\nPiperOrigin-RevId: 656270995\nChange-Id: I3216fe01796ff866caa464aad1d49d1c0dd35256",
-        "commit_date": "2024-07-26 06:51:29",
-        "release_date": "2024-04-29 13:28:19",
-        "release_message": "- Add an option to the HTTP client to be able to specify a custom user-agent;\r\n- Compatibility improvements."
+        "commit_message": "Start development of Tsunami version `0.0.24`.\n\nPiperOrigin-RevId: 657216672\nChange-Id: Iab97786ae5f033868fed3b7946dfe7f6027389f4",
+        "commit_date": "2024-07-29 15:56:19",
+        "release_date": "2024-07-29 14:59:01",
+        "release_message": "**IMPORTANT: This release changes definitions for language servers' protocol buffers. If you have your own language server, you need to ensure that the version of the protos are updated everywhere.**\r\n\r\n- Language servers now support a more compact [`RunRequest`](https://github.com/google/tsunami-security-scanner/blob/67f5d7958fcd1b6065eab6974520fdbc8286de34/proto/plugin_service.proto#L42) that should avoid repetitions and save some memory;\r\n- Fixes issues with the Python language server that should not be fully supported;\r\n- Add `hive-jdbc` as a dependency;\r\n- Add support for OS fingerprinting;\r\n"
     },
     "https://www.sojson.com/encrypt_triple_des.html": {
         "status_code": 200,
@@ -27754,8 +27754,8 @@
     "https://github.com/HotBoy-java/PotatoTool": {
         "created_at": "2024-07-20 07:22:18",
         "description": "这款工具是一款功能强大的网络安全综合工具，旨在为安全从业者、红蓝对抗人员和网络安全爱好者提供全面的网络安全解决方案。它集成了多种实用功能，包括解密、分析、扫描、溯源等，为用户提供了便捷的操作界面和丰富的功能选择。This tool offers robust network security solutions for professionals and enthusiasts. With features like decryption, analysis, scanning, and traceability, it provides a user-friendly interface and diverse functionality.",
-        "commit_message": "Update README.md\n\nV1.3 update",
-        "commit_date": "2024-07-20 07:22:18",
+        "commit_message": "Update README.md\n\n更新常见问题",
+        "commit_date": "2024-07-30 04:00:27",
         "release_date": "2024-07-20 11:11:56",
         "release_message": "# 兼容性\r\n- 兼容arm\r\n\r\n# UI\r\n- 界面放大、缩小按钮\r\n- 尺寸自适应\r\n- 默认生成文件目录规定为jar目录\r\n- ui -记住密码\r\n\r\n# 一键解密\r\n- 兼容AES/DES的zeropadding填充方案自动解密\r\n- md5_32/md5_16/sha1解密内置库，提高查询效率\r\n- 字典爆破项可选\r\n- 通过密文/流量包自动识别webshell管理工具\r\n\r\n# 反编译\r\n- 支持AI优化、添加注释反编译后内容\r\n\r\n# 归属地查询\r\n- 银行卡归属地接口优化\r\n- 手机号归属地库更新\r\n- 支持批量查询\r\n\r\n# AI分析\r\n- AI保留5次会话记忆\r\n\r\n# 文件源信息\r\n- 支持二维码图片解析"
     },
@@ -27810,8 +27810,8 @@
     "https://github.com/en0th/ElectricRat": {
         "created_at": "2024-07-31 09:05:33",
         "description": "电气鼠靶场系统是一种带有漏洞的Web应用程序，旨在为Web安全渗透测试学习者提供学习和实践的机会。The Electrical Mouse Target Range System is a web application with vulnerabilities designed to provide learning and practice opportunities for web security penetration testing learners.",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-07-31 09:19:48",
+        "commit_message": "Update docker-compose.yml\n\n删除version字段，解决\r\nWARN[0000] /root/ElectricRat-docker/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion\r\n告警",
+        "commit_date": "2024-08-05 02:14:44",
         "release_date": "2024-07-31 09:18:46",
         "release_message": "# 更新说明\r\n1. 修复文件上传路径错误及上传逻辑问题\r\n2. 修复反序列化中Cookie检测逻辑问题\r\n3. 修复XSS、FileUpload等页面显示问题\r\n4. 修复过滤器不严格问题\r\n5. 修复命令执行在不同系统环境下执行错误问题\r\n6. 修改文件上传中压缩文件上传场景的上传路径\r\n7. 增加安装步骤解释\r\n\r\n# 如何更新\r\n1. 将 ElectricRat-docker.zip 中的 ElectricRat.war 覆盖之前的 war 包。\r\n2. 重启 docker `sudo docker restart electricrat-web`\r\n3. 稍等片刻后，访问 http://127.0.0.1:12666/ElectricRat/\r\n\r\n# 如何卸载\r\n1. 关闭并删除容器 `sudo docker-compose down`\r\n2. 删除压缩包及解压文件。"
     },
@@ -28736,8 +28736,8 @@
     "https://github.com/chatchat-space/Langchain-Chatchat": {
         "created_at": "2024-07-12 14:29:12",
         "description": "Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain ",
-        "commit_message": "Update README.md (#4651)",
-        "commit_date": "2024-07-31 00:32:22",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-02 02:44:24",
         "release_date": "2024-07-12 15:23:05",
         "release_message": "## 重要提示\r\n\r\nLangchain-Chatchat v0.3.1 中命令行调用方式发生调整，请依据项目 README 进行操作；知识库的源文件与向量库仍可与前序版本通用，建议参考项目 README.md 中 快速上手 章节内容进行新版本部署。\r\n\r\n------\r\n\r\n## 新增功能\r\n\r\n* 所有配置项改成 yaml 配置文件，改为命令行执行 chatchat init 初始化项目配置，需要本地文件中修改配置，配置项修改后即时生效，无需重启项目 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* chatchat init 可以直接指定 Xinference API 地址、LLM 模型、Embedding 模型，一步完成知识库初始 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4425\r\n* 新增 RAG 对话页面，包含知识库对话、文件对话、搜索引擎对话 by @liunux4odoo @imClumsyPanda in https://github.com/chatchat-space/Langchain-Chatchat/pull/4471\r\n* 调整对话界面按钮布局，对话输入框左右分别设置\"模型配置\"与\"清空对话\"按钮 by @imClumsyPanda @liunux4odoo \r\n* 支持 searx 搜索引擎 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4476\r\n* 支持 GLM-4V、Qwen-VL 等 Vision 模型接入进行图片对话 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* 使用 Xinference 接入本地模型时，支持自动检测已启动模型，无需手动填写模型名称 by @imClumsyPanda @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* Agent 可调用工具中增加了维基百科搜索、高德地图天气查询、高德地图POI搜索 by @yhfgyyf in https://github.com/chatchat-space/Langchain-Chatchat/pull/4419\r\n* Agent 工具新增 text2promql by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4399\r\n* 增加 dockerfile 并更新 README 中关于 docker 部署的操作介绍 by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4271 and https://github.com/chatchat-space/Langchain-Chatchat/pull/4274\r\n* 新增 Agent 添加工具操作说明 by @zRzRzRzRzRzRzR in https://github.com/chatchat-space/Langchain-Chatchat/pull/4484\r\n* 新增数据库对话配置说明 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4475\r\n* 添加 Agent & Chat API 接口调用的说明，修正知识库检索bug by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4341\r\n* 增加知识库初始化时对 Ctrl+C 中止操作的支持 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4352\r\n* 增加 Pypi 发布自动化操作 by @glide-the in https://github.com/chatchat-space/Langchain-Chatchat/pull/4260\r\n* 增加不同系统部署环境测试 by @glide-the in https://github.com/chatchat-space/Langchain-Chatchat/pull/4480\r\n\r\n\r\n## 问题修复\r\n* 在 readme 中增加对 windows 下创建知识库卡住的说明与解决办法 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4330\r\n* 统一搜索引擎与本地知识库返回格式，修改 WEBUI 渲染上下文方式 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4344\r\n* 修复文生图工具 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4349\r\n* 修复 Milvus 作为知识库时可能发生的错误 by @kwunhang in https://github.com/chatchat-space/Langchain-Chatchat/pull/4319\r\n* 修复 max_tokens 问题 by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4355\r\n* 修改api文档中手动输入工具参数的说明 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4367\r\n* 解决text2sql对GLM的兼容，即temperature不能设置为0 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4370\r\n* 解决es数据库删除时只能删除50条数据的BUG by @YangSuoze in https://github.com/chatchat-space/Langchain-Chatchat/pull/4351\r\n* 解决天气、text2Sql Agent 运行报错的BUG by @21Janur in https://github.com/chatchat-space/Langchain-Chatchat/pull/4336\r\n* 修复知识库对话中的bug by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4468\r\n* fix: action model initialize error by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4347\r\n\r\n## New Contributors\r\n* @kwunhang made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4319\r\n* @YangSuoze made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4351\r\n* @21Janur made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4336\r\n\r\n**Full Changelog**: https://github.com/chatchat-space/Langchain-Chatchat/compare/v0.3.0...v0.3.1"
     },
@@ -28828,8 +28828,8 @@
     "https://github.com/wazuh/wazuh": {
         "created_at": "2024-07-17 11:54:12",
         "description": "Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.",
-        "commit_message": "Merge pull request #24923 from wazuh/bug/24889-add-VD-efficacy-test\n\nAdd new case to VD efficacy tests and update faling ones",
-        "commit_date": "2024-08-02 05:12:12",
+        "commit_message": "Merge pull request #25082 from wazuh/enhancement/25002-engine-update-dep-request-version\n\nUpdate requirements of engine-evtx2xml tool",
+        "commit_date": "2024-08-06 16:04:56",
         "release_date": "2024-07-22 11:05:01",
         "release_message": "## Manager\r\n\r\n### Fixed\r\n\r\n- Fixed bug in `upgrade_agent` CLI where it would sometimes raise an unhandled exception. ([#24341](https://github.com/wazuh/wazuh/pull/24341))\r\n- Changed keystore cipher algorithm to remove reuse of sslmanager.cert and sslmanager.key. ([#24509](https://github.com/wazuh/wazuh/pull/24509))\r\n\r\n## Agent\r\n\r\n### Fixed\r\n\r\n- Fixed incorrect macOS agent name retrieval. ([#23989](https://github.com/wazuh/wazuh/pull/23989))\r\n\r\n## RESTful API\r\n\r\n### Changed\r\n\r\n- Changed `GET /manager/version/check` endpoint response to always show the `uuid` field. ([#24173](https://github.com/wazuh/wazuh/pull/24173))\r\n\r\n## Other\r\n\r\n### Changed\r\n\r\n- Upgraded external Jinja2 library dependency version to 3.1.4. ([#24108](https://github.com/wazuh/wazuh/pull/24108))\r\n- Upgraded external requests library dependency version to 2.32.2. ([#23925](https://github.com/wazuh/wazuh/pull/23925))"
     },
