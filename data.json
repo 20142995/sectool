@@ -23796,7 +23796,7 @@
         "release_message": ""
     },
     "https://github.com/r3curs1v3-pr0xy/vajra": {
-        "created_at": "2021-03-28 15:19:23",
+        "created_at": "2021-03-12 17:05:47",
         "description": "Vajra is a highly customizable target and scope based automated web hacking framework to automate boring recon tasks and same scans for multiple target during web applications penetration testing.",
         "commit_date": "2021-10-29 10:43:47",
         "commit_message": "Update critical.txt",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.119.167属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.67.133.144属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27517,7 +27517,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
