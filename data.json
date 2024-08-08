@@ -22387,11 +22387,11 @@
         "release_message": "这是64位的，shellcode要求为64位"
     },
     "https://github.com/qwqdanchun/Pillager": {
-        "created_at": "2024-02-12 04:29:40",
+        "created_at": "2024-08-01 04:16:14",
         "description": "Pillager是一个适用于后渗透期间的信息收集工具",
         "commit_message": "update",
-        "commit_date": "2024-02-12 04:29:40",
-        "release_date": "2024-02-12 04:30:57",
+        "commit_date": "2024-08-01 04:16:14",
+        "release_date": "2024-08-01 04:18:25",
         "release_message": ""
     },
     "https://github.com/veo/vagent": {
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.91.68.160属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.207属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
