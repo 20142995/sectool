@@ -560,7 +560,7 @@
         "release_message": ""
     },
     "https://github.com/minhangxiaohui/DecodeSomeJSPWebshell": {
-        "created_at": "2022-02-12 02:05:07",
+        "created_at": "2022-02-12 02:35:52",
         "description": "冰蝎、哥斯拉 jsp webshell通信流量解密器",
         "commit_date": "2023-04-18 10:06:15",
         "commit_message": "Update README.md\n\n哥斯拉解密的时候的具体使用方法没有描述清除，导致我自己很久没用这个工具之后也忘记使用方法了，所以这里更新下描述文件，添加了哥斯拉的解密case样例",
@@ -4198,7 +4198,7 @@
         "release_message": ""
     },
     "https://github.com/yqcs/ZheTian": {
-        "created_at": "2022-08-13 04:33:23",
+        "created_at": "2021-08-24 09:16:18",
         "description": "::ZheTian / 强大的免杀生成工具，Bypass All.",
         "commit_date": "2022-12-05 09:55:50",
         "commit_message": "Update README.md",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25094,8 +25094,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 200,
-        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.78.207属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.33.113属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28887,5 +28887,13 @@
         "commit_date": "2024-08-06 01:01:35",
         "release_date": "2024-08-03 10:53:14",
         "release_message": "- 2024年07月14日 发布6.2.1-alpha，新增『重要文件hash值』\r\n- 2024年08月01日 发布6.3.0，新增『信使 - 邮箱通知功能』、 优化『定时任务相关代码优化，增加分钟』"
+    },
+    "https://github.com/dadvlingd/CVE-2024-21006": {
+        "created_at": "2024-07-25 00:34:16",
+        "description": null,
+        "commit_message": "Update README.md",
+        "commit_date": "2024-07-25 00:39:52",
+        "release_date": "2024-07-25 00:36:17",
+        "release_message": "1、通过协议发包。\r\n"
     }
 }
