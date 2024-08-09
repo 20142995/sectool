@@ -29,8 +29,8 @@
     "https://github.com/RsaCtfTool/RsaCtfTool": {
         "created_at": "2015-03-07 17:29:33",
         "description": "RSA attack tool (mainly for ctf) - retrieve private key from weak public key and/or uncipher data",
-        "commit_message": "Update number_theory.py: add is_lucas function",
-        "commit_date": "2024-06-07 22:32:04"
+        "commit_message": "Merge pull request #484 from Zandroid505/master\n\nUpdated Docker Section in README",
+        "commit_date": "2024-07-29 17:53:09"
     },
     "https://github.com/admintony/svnExploit": {
         "created_at": "2018-02-06 09:43:26",
@@ -2622,10 +2622,10 @@
         "release_message": ""
     },
     "https://github.com/maurosoria/dirsearch": {
-        "created_at": "2022-10-04 05:43:00",
+        "created_at": "2013-04-30 15:57:40",
         "description": "Web path scanner",
-        "commit_message": "Merge pull request #1373 from drego85/patch-16\n\nAdded \"sign\" and Sort",
-        "commit_date": "2024-05-11 11:29:28",
+        "commit_message": "Merge pull request #1387 from maurosoria/shelld3v-patch-10\n\nAdded missing package",
+        "commit_date": "2024-08-03 01:43:30",
         "release_date": "2022-10-05 13:01:24",
         "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
     },
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.109.60.241属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.27.199属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28895,5 +28895,13 @@
         "commit_date": "2024-07-25 00:39:52",
         "release_date": "2024-07-25 00:36:17",
         "release_message": "1、通过协议发包。\r\n"
+    },
+    "https://github.com/spyoungtech/FreeSimpleGUI": {
+        "created_at": "2024-07-25 01:13:24",
+        "description": "The free-forever GUI library",
+        "commit_message": "5.1.1 :package:",
+        "commit_date": "2024-07-25 01:13:24",
+        "release_date": "2024-07-25 01:14:32",
+        "release_message": "## What's Changed\r\n\r\nIn this release, we introduced a significant refactor (specifically, introduced in https://github.com/spyoungtech/FreeSimpleGUI/pull/9) of the large FreeSimpleGUI module. This is just a first step we're taking towards making FreeSimpleGUI more maintainable and approachable for contributors. There's still a lot of work to do, but this change cuts the main module size in half, making it quite a bit easier for LSPs and Intellisense to keep up with changes. Elements are now tucked neatly away into their own modules within the new `elements` subpackage.\r\n\r\nAll names are imported back into the main package, so this change should be non-breaking.\r\n\r\nWe also moved the main module back to `__init__.py` instead of the internal `FreeSimpleGUI.py` module. This avoids a bug introduced by the initial refactor by which changes to global state (which is unfortunately used extensively) may not take effect properly in some cases.\r\n\r\nOther minor changes and deprecations:\r\n\r\n- The globals `pil_imported` and `pil_import_attempted` are no longer used internally. Attempting to access these globals will produce a deprecation warning.\r\n- The behavior of the methods `save_element_screenshot_to_disk` and `save_window_screenshot_to_disk` returning `None` when `PIL` cannot be imported is deprecated. In a future version, calling `save_element_screenshot_to_disk` or `save_window_screenshot_to_disk` when `PIL` cannot be imported will raise an `ImportError`.\r\n- This also fixes a bug where calling `save_element_screenshot_to_disk` or `save_window_screenshot_to_disk` would incidentally overwrite the `Image` element class due to use of the `global` keyword in these methods and importing the name `Image` from PIL whilst marking `Image` as `global`\r\n- The methods `timer_start`, `timer_stop`, and `timer_stop_usec` are deprecated and will be removed in a future version. (code timing is not FreeSimpleGUI's wheelhouse, and these implementations are flawed in any case). Not to be confused with the `Window` class methods of the same name, which are unchanged.\r\n- Using functions with `CamelCase` names that have `snake_case` function name replacements is deprecated and those camel-cased function aliases may be removed in a future version. Using these names will produce a deprecation warning.\r\n- don't use deprecated names internally by @spyoungtech in https://github.com/spyoungtech/FreeSimpleGUI/pull/10\r\n\r\nEnhancements from new contributors:\r\n\r\n* theme_previewer changes. by @RoboPickle in https://github.com/spyoungtech/FreeSimpleGUI/pull/21\r\n* Fix Nuitka cross compilation by @deajan in https://github.com/spyoungtech/FreeSimpleGUI/pull/27\r\n\r\n\r\n## New Contributors\r\n* @RoboPickle made their first contribution in https://github.com/spyoungtech/FreeSimpleGUI/pull/21\r\n* @deajan made their first contribution in https://github.com/spyoungtech/FreeSimpleGUI/pull/27\r\n\r\n**Full Changelog**: https://github.com/spyoungtech/FreeSimpleGUI/compare/v5.1.0...v5.1.1"
     }
 }
