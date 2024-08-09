@@ -271,7 +271,7 @@
         "release_message": ""
     },
     "https://github.com/wh1t3p1g/ysomap": {
-        "created_at": "2023-12-04 14:55:41",
+        "created_at": "2020-02-08 12:59:32",
         "description": "A helpful Java Deserialization exploit framework.",
         "commit_date": "2024-06-20 14:56:47",
         "commit_message": "优化ReflectionHelper",
@@ -2341,12 +2341,12 @@
         "release_message": ""
     },
     "https://github.com/FunnyWolf/Viper": {
-        "created_at": "2024-07-08 08:47:19",
+        "created_at": "2024-08-05 08:42:44",
         "description": "Attack Surface Management & Red Team Simulation Platform 互联网攻击面管理&红队模拟平台",
-        "commit_message": "update version 2.3.1",
-        "commit_date": "2024-07-08 08:47:19",
-        "release_date": "2024-07-08 08:48:13",
-        "release_message": "### 新功能\r\n\r\n- 新增`V-GPT`,AI驱动的攻击型智能体框架\r\n- 新增`数据分析智能体` `数据分析多角色智能体`模块\r\n- 新增`OpenAI`集成\r\n\r\n### 优化\r\n\r\n- 调整`平台设置`部分UI\r\n\r\n### Bugfix\r\n\r\n- fix https://github.com/FunnyWolf/Viper/issues/217\r\n- fix https://github.com/FunnyWolf/Viper/issues/218"
+        "commit_message": "update version 2.3.2",
+        "commit_date": "2024-08-05 08:42:44",
+        "release_date": "2024-08-05 08:56:31",
+        "release_message": "\r\n\r\n### 新功能\r\n\r\n- 新增`SMTP配置`,用于发送邮件\r\n- `数据分析多角色智能体`支持session\\handler相关信息查询分析\r\n- `数据分析多角色智能体`支持meterpreter相关操作(摄像头/截屏/键盘记录/查看文件)\r\n- 新增`邮件生成/发送智能体`,可以根据用户简单描述生成完整的邮件并发送\r\n\r\n### 优化\r\n\r\n- 部分按钮UI调整\r\n- `OpenAI`新增`gpt-4o-mini`模型\r\n- `渗透服务`状态检查新增心跳功能检测\r\n- `互联网攻击面管理`的worker代码合并到主分支\r\n\r\n### Bugfix\r\n\r\n- fix 部分界面抖动问题"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -10158,7 +10158,7 @@
         "created_at": "2020-02-04 09:30:48",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
         "commit_message": "Auto renew the anti-AD list.",
-        "commit_date": "2024-07-04 18:36:58",
+        "commit_date": "2024-08-07 18:38:40",
         "release_date": "2020-02-04 09:32:25",
         "release_message": "- 引入无效域名、无效hosts剔除机制，大幅提升各过滤列表命中率\r\n- 为了更好的支持pi-hole，加入一个新的全域名列表 - `anti-ad-domains.txt`\r\n- 根据网友 [@xlighting2017](https://github.com/privacy-protection-tools/anti-AD/issues/29) 建议，更新surge到新的格式\r\n- 引入数个新的配置参数，对输出结果精确控制\r\n- 若干bug和逻辑修复"
     },
@@ -23570,7 +23570,7 @@
         "created_at": "2020-04-04 14:54:04",
         "description": "⚔️ Web Hacker's Weapons / A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting",
         "commit_message": "Deploy README.md and Categorize Docs",
-        "commit_date": "2024-07-02 08:22:28"
+        "commit_date": "2024-07-24 14:50:48"
     },
     "https://github.com/charonlight/NacosExploitGUI": {
         "created_at": "2024-01-14 05:49:03",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25094,8 +25094,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.33.113属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.60.241属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
