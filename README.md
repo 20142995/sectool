@@ -629,6 +629,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tp5-getshell](https://github.com/theLSA/tp5-getshell) thinkphp5 rce getshell
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tphack](https://github.com/whirlwind110/tphack) Thinkphp3/5 Log文件泄漏利用工具
 ###### Weblogic
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2024-21006](https://github.com/dadvlingd/CVE-2024-21006) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WeblogicTool v1.3](https://github.com/KimJun1010/WeblogicTool) WeblogicTool，GUI漏洞利用工具，支持漏洞检测、命令执行、内存马注入、密码解密等（深信服深蓝实验室天威战队强力驱动）
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2020-2551](https://github.com/hktalent/CVE-2020-2551) how detect CVE-2020-2551 poc exploit python Weblogic RCE with IIOP
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2020-2555](https://github.com/Y4er/CVE-2020-2555) Weblogic com.tangosol.util.extractor.ReflectionExtractor RCE
@@ -651,7 +652,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cve-2019-2618](https://github.com/jas502n/cve-2019-2618) Weblogic Upload Vuln(Need  username password)-CVE-2019-2618
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2018-2894](https://github.com/LandGrey/CVE-2018-2894) CVE-2018-2894 WebLogic Unrestricted File Upload Lead To RCE Check Script
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2017-10271](https://github.com/1337g/CVE-2017-10271) CVE-2017-10271 WEBLOGIC RCE  (TESTED)
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2024-21006](https://github.com/dadvlingd/CVE-2024-21006) 
 ###### YApi
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [YApiRCE](https://github.com/Tas9er/YApiRCE) Code By:Tas9er / YApi接口管理平台远程命令执行
 ###### django
@@ -1193,7 +1193,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [13.91.68.160属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [52.238.27.199属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1298,6 +1298,7 @@
 - <img src="https://favicon.qqsuu.cn/www.wappalyzer.com" alt="" style="height: 20px;"> [Find out what websites are built with - Wappalyzer](https://www.wappalyzer.com/) 
 - <img src="https://favicon.qqsuu.cn/www.yunsee.cn" alt="" style="height: 20px;"> [yunsee.cn-2.0](https://www.yunsee.cn/) 
 #### 目录扫描
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dirsearch](https://github.com/maurosoria/dirsearch) Web path scanner
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [spray v0.9.1](https://github.com/chainreactors/spray) Next Generation HTTP Dir/File Fuzz Tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gowitness](https://github.com/sensepost/gowitness) 🔍 gowitness - a golang, web screenshot utility using Chrome Headless
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RouteCheck-Alpha](https://github.com/ax1sX/RouteCheck-Alpha) A Java Route Collection Tool
@@ -1306,7 +1307,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Arjun 2.2.1](https://github.com/s0md3v/Arjun) HTTP parameter discovery suite.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BBScan v1.5](https://github.com/lijiejie/BBScan) A fast vulnerability scanner helps pentesters pinpoint possibly vulnera...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gau v2.2.1](https://github.com/lc/gau) Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Mac...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dirsearch](https://github.com/maurosoria/dirsearch) Web path scanner
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [katana v1.0.4](https://github.com/projectdiscovery/katana) A next-generation crawling and spidering framework.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gospider v1.1.6](https://github.com/jaeles-project/gospider) Gospider - Fast web spider written in Go
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jsluice](https://github.com/BishopFox/jsluice) Extract URLs, paths, secrets, and other interesting bits from JavaScript
@@ -2042,12 +2042,12 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wechat-backup v1.0.0](https://github.com/greycodee/wechat-backup) 微信聊天记录持久化备份本地硬盘，释放手机存储空间。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GoWxDump v1.0.12](https://github.com/SpenserCai/GoWxDump) SharpWxDump的Go语言版。微信客户端取证，获取信息(微信号、手机号、昵称)，微信聊天记录分析(Top N聊天的人、统计聊天...
 ##### 浏览器取证
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Pillager](https://github.com/qwqdanchun/Pillager) Pillager是一个适用于后渗透期间的信息收集工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HackBrowserData v0.4.4](https://github.com/moonD4rk/HackBrowserData) Extract and decrypt browser data, supporting multiple data t...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SharpWeb](https://github.com/StarfireLab/SharpWeb) 一个浏览器数据（密码|历史记录|Cookie|书签|下载记录）的导出工具，支持主流浏览器。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [hindsight v2023.03](https://github.com/obsidianforensics/hindsight) Web browser forensics for Google Chrome/Chromium
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [searchall search3.5.8](https://github.com/Naturehi666/searchall) 强大的敏感信息搜索工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HackBrowserDataManual](https://github.com/Z3ratu1/HackBrowserDataManual) Get password/cookie/history from browser and use devtools pro...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Pillager](https://github.com/qwqdanchun/Pillager) Pillager是一个适用于后渗透期间的信息收集工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SharpCookieMonster](https://github.com/riskydissonance/SharpCookieMonster) Extracts cookies from Chrome.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Catch-Browser](https://github.com/SD-XD/Catch-Browser) This is a crawler password tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [360SafeBrowsergetpass v0.1](https://github.com/hayasec/360SafeBrowsergetpass) 这是一个一键辅助抓取360安全浏览器密码的CobaltStrike脚本以及解密小工具，用于节省红队工作量，通过下...
@@ -2487,7 +2487,7 @@
 - <img src="https://favicon.qqsuu.cn/sec.huazhu.com" alt="" style="height: 20px;"> [华住安全响应中心 | Huazhu Security Response Center](https://sec.huazhu.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.ly.com" alt="" style="height: 20px;"> [首页 | 同程旅行安全应急响应中心](https://sec.ly.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.meizu.com" alt="" style="height: 20px;"> [魅族安全中心](https://sec.meizu.com/) 
-- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [VSRC首页-唯品会信息安全中心](https://sec.vip.com/) 
+- <img src="https://favicon.qqsuu.cn/sec.vip.com" alt="" style="height: 20px;"> [sec.vip.com](https://sec.vip.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wacai.com" alt="" style="height: 20px;"> [挖财安全应急响应中心](https://sec.wacai.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.wifi.com" alt="" style="height: 20px;"> [WIFI万能钥匙安全响应中心](https://sec.wifi.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.xiaomi.com" alt="" style="height: 20px;"> [小米安全中心](https://sec.xiaomi.com/) 
@@ -2583,11 +2583,11 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [py-window-styles](https://github.com/Akascape/py-window-styles) Customize your python UI window with awesome pre-built windows 11 ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Forest-ttk-theme](https://github.com/rdbende/Forest-ttk-theme) A beautiful modern theme for ttk, inspired by MS Excel's look 🌲🌳
 ### 其他
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FreeSimpleGUI](https://github.com/spyoungtech/FreeSimpleGUI) The free-forever GUI library
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [python-small-examples](https://github.com/jackzhenguo/python-small-examples) 告别枯燥，致力于打造 Python 实用小例子，更多Python良心教程见  https://ai-jupyter.com
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Python-100-Days](https://github.com/jackfrued/Python-100-Days) Python - 100天从新手到大师
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [python-pinyin v0.49.0](https://github.com/mozillazg/python-pinyin) 汉字转拼音(pypinyin)
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) A modern and customizable python UI-library based on Tkinter
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FreeSimpleGUI](https://github.com/spyoungtech/FreeSimpleGUI) 
 ## 正则
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [common-regex](https://github.com/cdoco/common-regex) :jack_o_lantern: 常用正则表达式 - 收集一些在平时项目开发中经常用到的正则表达式。
 # 杂七杂八
