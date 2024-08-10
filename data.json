@@ -5528,8 +5528,8 @@
     "https://github.com/kunwu2023/kunwu": {
         "created_at": "2023-05-12 06:46:06",
         "description": "kunwu是新一代webshell检测引擎，使用了内置了模糊规则、污点分析模拟执行、机器学习三种高效的检测策略",
-        "commit_date": "2024-02-21 02:21:45",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-07-10 07:43:10",
+        "commit_message": "Merge pull request #4 from b3nguang/main\n\n修复了单文件获取路径失败的问题",
         "release_tag": "0.1.0",
         "release_date": "2023-05-12 07:30:33",
         "release_message": "20230516:\r\n1.修复了Gui启动报错的问题\r\n2.优化了输出结果\r\n\r\n20230519:\r\n1.优化的云端引擎的检出速度\r\n\r\n20230619:\r\n1.优化webshell gui性能占用\r\n\r\n20231120:\r\n1.修复一些cli的已知问题"
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.14.225属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.42.106.77属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28190,8 +28190,8 @@
         "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## 🚩 Database migration\r\n\r\n- Listing Tables: Add toggle switch in system settings @Maffooch (#10617)\r\n\r\n## 🚀 API features and enhancements\r\n\r\n- Uploaded File Management: Centralize file serving and bolster error handling @Maffooch (#10638)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Report ToC: Expand on whitespace escaping @Maffooch (#10646)\r\n- Importer: Correct logic bug for empty scan reports @Maffooch (#10645)\r\n- Refresh Helm Chart Lock File: The removal @Maffooch (#10641)\r\n- Benchmarks: Add additional permissions for AJAX calls @Maffooch (#10640)\r\n- Finding notes cascading deletes @dogboat (#10636)\r\n- Engagement: Add missing permission check to view an Engagement @Maffooch (#10639)\r\n- Uploaded File Management: Centralize file serving and bolster error handling @Maffooch (#10638)\r\n- Update Qualys WebApp parser to use DefusedXML @Maffooch (#10637)\r\n- :bug: extend aqua format issue #10611 @manuel-sommer (#10616)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Report ToC: Expand on whitespace escaping @Maffooch (#10646)\r\n- creds-notes-fixes Some updates to creds/cred-related notes @dogboat (#10644)\r\n- Listing Tables: Add toggle switch in system settings @Maffooch (#10617)\r\n"
     },
     "https://gitee.com/gy071089/SecurityManageFramwork": {
-        "status_code": 502,
-        "description": "错误网关 (502)"
+        "status_code": 200,
+        "description": "SecurityManageFramwork: 企业内网安全管理平台，可用于企业内部的安全管理。 本平台旨在帮助安全人员少，业务线繁杂，周期巡检困难，自动化程度低的甲方，更好的实现企业内部的安全管理。  新版已发布"
     },
     "https://rasp.baidu.com": {
         "status_code": 200,
@@ -28252,8 +28252,8 @@
         "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
-        "status_code": 502,
-        "description": "错误网关 (502)"
+        "status_code": 200,
+        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
     },
     "https://www.la-samhna.de/": {
         "status_code": 200,
@@ -28782,8 +28782,8 @@
         "release_message": ""
     },
     "https://gitee.com/dromara/neutrino-proxy": {
-        "status_code": 502,
-        "description": "错误网关 (502)"
+        "status_code": 200,
+        "description": "neutrino-proxy: NeutrinoProxy(中微子代理) 一款基于solon、netty的内网穿透神器！"
     },
     "https://www.cryptool.org/en/ct2/downloads/": {
         "status_code": 200,
