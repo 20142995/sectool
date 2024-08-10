@@ -1837,8 +1837,8 @@
     "https://github.com/f0ng/captcha-killer-modified": {
         "created_at": "2024-05-07 13:12:28",
         "description": "captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码爆破，适配新版Burpsuite",
-        "commit_message": "Update FAQ.md",
-        "commit_date": "2024-06-24 15:47:31",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-07-30 08:41:41",
         "release_date": "2024-05-07 13:13:22",
         "release_message": "【2024-5-7】 0.24.6\r\n1.增加多个接口，建议和最新服务端codereg.py一起使用，接口类型如下：\r\n纯整数0-9\r\n纯小写英文a-z\r\n纯大写英文A-Z\r\n小写英文a-z + 大写英文A-Z\r\n小写英文a-z + 整数0-9\r\n大写英文A-Z + 整数0-9\r\n小写英文a-z + 大写英文A-Z + 整数0-9\r\n自定义字符串库(ranges传参)\r\n"
     },
@@ -23581,9 +23581,9 @@
         "release_message": "poc优化"
     },
     "https://github.com/ki9mu/ARL-plus-docker": {
-        "created_at": "2022-04-15 08:37:51",
+        "created_at": "2024-05-24 15:20:27",
         "description": "基于ARL-V2.6.2修改后的版本",
-        "commit_date": "2024-06-28 15:52:25",
+        "commit_date": "2024-07-31 14:52:07",
         "commit_message": "Update README.md",
         "release_tag": "2.8.0",
         "release_date": "2024-05-24 15:22:35",
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.78.38属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.49.55.99属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27106,8 +27106,8 @@
         "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
-        "status_code": 200,
-        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "http://wooyun.2xss.cc/index.php": {
         "status_code": 200,
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
