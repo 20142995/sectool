@@ -2630,10 +2630,10 @@
         "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
     },
     "https://github.com/Hel10-Web/Databasetools": {
-        "created_at": "2023-01-30 15:16:50",
+        "created_at": "2023-02-19 10:42:49",
         "description": "一款用Go语言编写的数据库自动化提权工具，支持Mysql、MSSQL、Postgresql、Oracle、Redis数据库提权、命令执行、爆破以及ssh连接",
-        "commit_date": "2023-02-19 10:42:49",
-        "commit_message": "更新错误处理",
+        "commit_date": "2023-08-30 07:31:23",
+        "commit_message": "Update ssh.txt",
         "release_tag": "1.2",
         "release_date": "2023-02-19 10:47:57",
         "release_message": "更新部分错误处理，增加mac版本"
@@ -24135,7 +24135,7 @@
         "release_message": ""
     },
     "https://github.com/yanghaoi/ridhijack": {
-        "created_at": "2021-12-09 08:46:41",
+        "created_at": "2021-12-09 10:39:24",
         "description": "通过C/C++实现的 Windows RID Hijacking persistence technique (RID劫持 影子账户 账户克隆).",
         "commit_date": "2021-12-22 05:38:43",
         "commit_message": "Update README.md",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.42.106.77属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.131.67属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
