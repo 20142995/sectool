@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.49.55.99属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.14.225属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27106,8 +27106,8 @@
         "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://wooyun.2xss.cc/index.php": {
         "status_code": 200,
@@ -28190,8 +28190,8 @@
         "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## 🚩 Database migration\r\n\r\n- Listing Tables: Add toggle switch in system settings @Maffooch (#10617)\r\n\r\n## 🚀 API features and enhancements\r\n\r\n- Uploaded File Management: Centralize file serving and bolster error handling @Maffooch (#10638)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Report ToC: Expand on whitespace escaping @Maffooch (#10646)\r\n- Importer: Correct logic bug for empty scan reports @Maffooch (#10645)\r\n- Refresh Helm Chart Lock File: The removal @Maffooch (#10641)\r\n- Benchmarks: Add additional permissions for AJAX calls @Maffooch (#10640)\r\n- Finding notes cascading deletes @dogboat (#10636)\r\n- Engagement: Add missing permission check to view an Engagement @Maffooch (#10639)\r\n- Uploaded File Management: Centralize file serving and bolster error handling @Maffooch (#10638)\r\n- Update Qualys WebApp parser to use DefusedXML @Maffooch (#10637)\r\n- :bug: extend aqua format issue #10611 @manuel-sommer (#10616)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Report ToC: Expand on whitespace escaping @Maffooch (#10646)\r\n- creds-notes-fixes Some updates to creds/cred-related notes @dogboat (#10644)\r\n- Listing Tables: Add toggle switch in system settings @Maffooch (#10617)\r\n"
     },
     "https://gitee.com/gy071089/SecurityManageFramwork": {
-        "status_code": 200,
-        "description": "SecurityManageFramwork: 企业内网安全管理平台，可用于企业内部的安全管理。 本平台旨在帮助安全人员少，业务线繁杂，周期巡检困难，自动化程度低的甲方，更好的实现企业内部的安全管理。  新版已发布"
+        "status_code": 502,
+        "description": "错误网关 (502)"
     },
     "https://rasp.baidu.com": {
         "status_code": 200,
@@ -28252,8 +28252,8 @@
         "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
-        "status_code": 200,
-        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
+        "status_code": 502,
+        "description": "错误网关 (502)"
     },
     "https://www.la-samhna.de/": {
         "status_code": 200,
@@ -28782,8 +28782,8 @@
         "release_message": ""
     },
     "https://gitee.com/dromara/neutrino-proxy": {
-        "status_code": 200,
-        "description": "neutrino-proxy: NeutrinoProxy(中微子代理) 一款基于solon、netty的内网穿透神器！"
+        "status_code": 502,
+        "description": "错误网关 (502)"
     },
     "https://www.cryptool.org/en/ct2/downloads/": {
         "status_code": 200,
