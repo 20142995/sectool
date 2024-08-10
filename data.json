@@ -1042,7 +1042,7 @@
         "release_message": "- 增加`list-network`参数用于查看网卡ID\r\n- 增加`-csv`参数 用于保存文件到excel\r\n- 增加`-api`参数用于从网络api获取目标\r\n- 增加`-full`参数，用(api+内置字典)进行完整的一次扫描\r\n![WX20210112-175029](https://user-images.githubusercontent.com/18695984/104303212-c5b2ed80-5504-11eb-9d4a-fe8c7a2a1fe9.png)\r\n"
     },
     "https://github.com/ninoseki/mitaka": {
-        "created_at": "2018-02-09 00:13:30",
+        "created_at": "2024-07-28 10:24:08",
         "description": "A browser extension for OSINT search",
         "commit_message": "fix: update package-lock.json",
         "commit_date": "2024-07-28 10:25:21",
@@ -4219,7 +4219,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-07-12 12:39:57"
+        "commit_date": "2024-08-09 20:22:02"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -6411,9 +6411,9 @@
     },
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
-        "description": "Scoop-Buket for Penetration Suite Toolkit",
-        "commit_message": "netsparker@23.9.1: Fix hash (Closes #31)",
-        "commit_date": "2024-07-24 20:23:42"
+        "description": "Scoop-Buket for Penetration Suite Toolkit  -  Windows渗透测试工具仓库For Scoop",
+        "commit_message": "yakit: Update to version 1.3.4-sp6",
+        "commit_date": "2024-08-09 16:33:16"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-08 05:50:33",
@@ -23977,12 +23977,12 @@
     },
     "https://github.com/MvsCode/frps-onekey": {
         "created_at": "2024-06-26 06:20:34",
-        "description": "frp server configuration deploy&manage script (frp服务端安装&管理脚本)",
-        "commit_date": "2024-07-24 06:32:12",
-        "commit_message": "Merge pull request #114 from mvscode/dev\n\nDev",
+        "description": "Frp server one-click configuration script. The script obtains the latest Frp version by default",
+        "commit_date": "2024-07-27 14:56:15",
+        "commit_message": "Add files via upload",
         "release_tag": "v0.53.2",
         "release_date": "2024-07-15 06:09:12",
-        "release_message": "[frp_0.59.0_linux_amd64.tar.gz](https://github.com/user-attachments/files/16230526/frp_0.59.0_linux_amd64.tar.gz)\r\n"
+        "release_message": ""
     },
     "https://github.com/iSafeBlue/fastjson-autotype-bypass-demo": {
         "created_at": "2020-05-10 05:41:03",
@@ -24412,8 +24412,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25410,12 +25410,12 @@
         "commit_date": "2016-07-08 02:42:50"
     },
     "https://github.com/leondz/garak": {
-        "created_at": "2024-05-10 13:22:31",
+        "created_at": "2024-07-29 13:07:12",
         "description": "LLM vulnerability scanner",
-        "commit_message": "add mitigation strings, add test for string-based mitigation skipping (#762)\n\n* add mitigation strings, add test for string-based mitigation skipping\r\n\r\n* add mock attempt prompt\r\n\r\nSigned-off-by: Jeffrey Martin <jemartin@nvidia.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Jeffrey Martin <jemartin@nvidia.com>\r\nCo-authored-by: Jeffrey Martin <jemartin@nvidia.com>",
-        "commit_date": "2024-07-25 15:08:38",
-        "release_date": "2024-05-10 13:41:33",
-        "release_message": "## What's Changed\r\n\r\ngarak's 1st birthday! 🎂\r\n\r\nHeadlines in this birthday release:\r\n* Multimodal support! LLaVa + FigStep - HUGE thanks to @DavidLee528 \r\n* LiteLLM generator support - thanks to @Tien-Cheng!\r\n* DoNotAnswer probe for prompts an LLM should decline - thanks to @AhsanAyub!\r\n* LangChain Serve generator support - thanks to @GustavFredrikson!\r\n* Support for NIM generators, NVIDIA Inference Microservices\r\n* OpenAI abstraction with parallelisation support\r\n* Windows compatibility enhanced, with optional testing in the workflow\r\n* Hugging Face speedup\r\n\r\n### plugins\r\n* LiteLLM generator by @Tien-Cheng in https://github.com/leondz/garak/pull/572\r\n* Support for using 'langchain serve' endpoints by @GustavFredrikson in https://github.com/leondz/garak/pull/588\r\n* Enable parallel OpenAI calls by @jmartin-tech in https://github.com/leondz/garak/pull/645\r\n* Multi-modal Jailbreaking Attack on LLaVA by @DavidLee528 in https://github.com/leondz/garak/pull/587\r\n* bump openai module version to match paths in latest litellm by @leondz in https://github.com/leondz/garak/pull/664\r\n* generator: NIM by @leondz in https://github.com/leondz/garak/pull/637\r\n* Probe: Do Not Answer by @AhsanAyub in https://github.com/leondz/garak/pull/608\r\n\r\n### architecture\r\n* change supported pythons to 3.10-3.12 by @leondz in https://github.com/leondz/garak/pull/503\r\n* add more detailed TAP docs by @leondz in https://github.com/leondz/garak/pull/504\r\n* add multiple-result aggregator by @leondz in https://github.com/leondz/garak/pull/505\r\n* add post buff hook by @erickgalinkin in https://github.com/leondz/garak/pull/506\r\n* Add fleshed-out docs to all probes by @leondz in https://github.com/leondz/garak/pull/507\r\n* add bibtex under citation info in readme by @leondz in https://github.com/leondz/garak/pull/511\r\n* define broad test, all probes, 1 gen per by @leondz in https://github.com/leondz/garak/pull/514\r\n* Feature/taxonomy payloads by @leondz in https://github.com/leondz/garak/pull/519\r\n* include paraphrasing in broad conf by @leondz in https://github.com/leondz/garak/pull/521\r\n* choose whether buffing will also include the original prompt by @leondz in https://github.com/leondz/garak/pull/523\r\n* add config var for capping max # buffed prompts to add per buff by @leondz in https://github.com/leondz/garak/pull/526\r\n* document Probe.probe(); skip a buff hook if no buffs by @leondz in https://github.com/leondz/garak/pull/527\r\n* add type hints to base.Probe; fix base probe rst by @leondz in https://github.com/leondz/garak/pull/528\r\n* Bump datasets package by @shubhobm in https://github.com/leondz/garak/pull/536\r\n* Add ConversationalPipeline for huggingface models by @erickgalinkin in https://github.com/leondz/garak/pull/539\r\n* add generator for supporting openai module v0.x by @leondz in https://github.com/leondz/garak/pull/553\r\n* Update README.md by @erickgalinkin in https://github.com/leondz/garak/pull/558\r\n* Minor typo in FAQ by @jmartin-tech in https://github.com/leondz/garak/pull/562\r\n* Add additional error message when __doc__ is None type by @DavidLee528 in https://github.com/leondz/garak/pull/566\r\n* shared constant & string literal by @jmartin-tech in https://github.com/leondz/garak/pull/571\r\n* Spelling corrections for multiple locations by @jmartin-tech in https://github.com/leondz/garak/pull/564\r\n* Reduce Huggingface GPU utilization by @erickgalinkin in https://github.com/leondz/garak/pull/567\r\n* skip `verbose` flag in secondary parser by @jmartin-tech in https://github.com/leondz/garak/pull/576\r\n* Added project twitter link and corrected a grammatic error by @codebrain001 in https://github.com/leondz/garak/pull/578\r\n* Convert GGML to expect GGUF format by @jmartin-tech in https://github.com/leondz/garak/pull/581\r\n* Update workflows: CLA asst bump, PR & manual testing by @leondz in https://github.com/leondz/garak/pull/591\r\n* add test de-duping using skip-duplicate-actions by @leondz in https://github.com/leondz/garak/pull/597\r\n* Remove `#!` entries from files not intended as executables by @jmartin-tech in https://github.com/leondz/garak/pull/612\r\n* Further align shebangs with code that has executable entry points by @leondz in https://github.com/leondz/garak/pull/613\r\n* interactive mode intro by @leondz in https://github.com/leondz/garak/pull/614\r\n* add tests for `ggml` generator by @jmartin-tech in https://github.com/leondz/garak/pull/618\r\n* add var for generator context_len and populate this for some generators by @leondz in https://github.com/leondz/garak/pull/616\r\n* allow generators.Base.generate() to take an optional param specifying generation count by @leondz in https://github.com/leondz/garak/pull/600\r\n* Enable windows tests as github action by @jmartin-tech in https://github.com/leondz/garak/pull/626\r\n* add on-demand macos testing by @leondz in https://github.com/leondz/garak/pull/631\r\n* macOS test install from correct path by @jmartin-tech in https://github.com/leondz/garak/pull/633\r\n* consolidate test file cleanup by @jmartin-tech in https://github.com/leondz/garak/pull/634\r\n* bump discord link by @leondz in https://github.com/leondz/garak/pull/648\r\n* meta the arguments a bit for GET vs other request types by @jmartin-tech in https://github.com/leondz/garak/pull/640\r\n\r\n### stability\r\n* fail gracefully if nvcf rejects input; compact zalgo prompts by @leondz in https://github.com/leondz/garak/pull/509\r\n* log & skip past NVCF 4xx errors by @leondz in https://github.com/leondz/garak/pull/533\r\n* fix empty autodan prompts & poor detector behaviour by @leondz in https://github.com/leondz/garak/pull/534\r\n* Fix AutoDAN issues by @erickgalinkin in https://github.com/leondz/garak/pull/537\r\n* fix bad nonetype handling in atkgen probe by @leondz in https://github.com/leondz/garak/pull/538\r\n* Division by zero error fixed in HTML report generation by @CoderMayhem in https://github.com/leondz/garak/pull/545\r\n* cap cohere lib version by @leondz in https://github.com/leondz/garak/pull/569\r\n* rm deprecated model from example by @leondz in https://github.com/leondz/garak/pull/575\r\n* Attack fixes by @erickgalinkin in https://github.com/leondz/garak/pull/555\r\n* More regex as string literal by @jmartin-tech in https://github.com/leondz/garak/pull/586\r\n* Bugfix/action dedupe by @leondz in https://github.com/leondz/garak/pull/598\r\n* wrap cli exec to gracefully catch keyboard exit signal by @jmartin-tech in https://github.com/leondz/garak/pull/603\r\n* Enforce warning output for `garak` classes. by @jmartin-tech in https://github.com/leondz/garak/pull/605\r\n* bump hf transformers v to avoid transformers#30076 by @leondz in https://github.com/leondz/garak/pull/636\r\n* update avidtools to remove typing reference by @jmartin-tech in https://github.com/leondz/garak/pull/639\r\n* torch v bump by @leondz in https://github.com/leondz/garak/pull/649\r\n* Pause FigStepTiny by @leondz in https://github.com/leondz/garak/pull/652\r\n* Bugfix/visual jailbreak pause by @leondz in https://github.com/leondz/garak/pull/653\r\n* limit push test to main by @jmartin-tech in https://github.com/leondz/garak/pull/661\r\n* Update MANIFEST.in so all resources are installed by @JKL98ISR in https://github.com/leondz/garak/pull/660\r\n* handle extant but closed `hitlogfile` file by @leondz in https://github.com/leondz/garak/pull/665\r\n\r\n\r\n## New Contributors\r\n* @CoderMayhem made their first contribution in https://github.com/leondz/garak/pull/545\r\n* @jmartin-tech made their first contribution in https://github.com/leondz/garak/pull/562\r\n* @codebrain001 made their first contribution in https://github.com/leondz/garak/pull/578\r\n* @Tien-Cheng made their first contribution in https://github.com/leondz/garak/pull/572\r\n* @GustavFredrikson made their first contribution in https://github.com/leondz/garak/pull/588\r\n* @JKL98ISR made their first contribution in https://github.com/leondz/garak/pull/660\r\n* @AhsanAyub made their first contribution in https://github.com/leondz/garak/pull/608\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.12...v0.9.0.13"
+        "commit_message": "update slurprompts filename in encoding pkg (#818)",
+        "commit_date": "2024-08-06 09:34:04",
+        "release_date": "2024-07-29 13:24:01",
+        "release_message": "## What's Changed\r\n\r\n### New plugins\r\n* BEAST Attack Implementation by @erickgalinkin in https://github.com/leondz/garak/pull/728\r\n* add probe for \"grandma\" attack by @leondz in https://github.com/leondz/garak/pull/740\r\n* generator: lorem ipsum by @leondz in https://github.com/leondz/garak/pull/776\r\n\r\n### New features\r\n* Feature: configurable plugins by @jmartin-tech in https://github.com/leondz/garak/pull/711\r\n* Add JSON Path support for RestGenerator by @leondz in https://github.com/leondz/garak/pull/651\r\n* Make banner line test dynamic by @jmartin-tech in https://github.com/leondz/garak/pull/670\r\n* Tutorial for contributing a generator by @leondz in https://github.com/leondz/garak/pull/688\r\n* add 'complete' message to report at end of run by @leondz in https://github.com/leondz/garak/pull/735\r\n* support chat modality in attempts by @leondz in https://github.com/leondz/garak/pull/644\r\n* add grandma substance synth probe, update docs and var names by @leondz in https://github.com/leondz/garak/pull/763\r\n* update NVCF to support versioning, custom payload keys by @leondz in https://github.com/leondz/garak/pull/772\r\n* WINDOWS & OSX SUPPORT: test by default on linux, osx, win by @leondz in https://github.com/leondz/garak/pull/793\r\n* enable nested setting of plugin configs by @leondz in https://github.com/leondz/garak/pull/773\r\n* always log nvcf payload by @leondz in https://github.com/leondz/garak/pull/778\r\n* update ecoji for windows support by @jmartin-tech in https://github.com/leondz/garak/pull/787\r\n* remove extraneous default params for nims that expect conservative pa… by @leondz in https://github.com/leondz/garak/pull/749\r\n* require probes to match input modality of the generator by @jmartin-tech in https://github.com/leondz/garak/pull/738\r\n* Improve cloze data for `leakreplay` probe by @leondz in https://github.com/leondz/garak/pull/708\r\n* add CONTRIBUTING.md, update contributing guide in docs by @leondz in https://github.com/leondz/garak/pull/706\r\n* add DEFAULT_PARAMS to base types that are configurables by @leondz in https://github.com/leondz/garak/pull/771\r\n* atkgen - add configurability, allow config of which adversarial generator to use by @leondz in https://github.com/leondz/garak/pull/777\r\n* enhancement: enable lazy setting of nested dicts by @leondz in https://github.com/leondz/garak/pull/775\r\n* convert mutation_generator to use `load_plugin` by @jmartin-tech in https://github.com/leondz/garak/pull/795\r\n* Add support for gpt-4o, gpt-4o-mini by @erickgalinkin in https://github.com/leondz/garak/pull/798\r\n* bump transformers ver to min reqd for llama 3.1 by @leondz in https://github.com/leondz/garak/pull/800\r\n* add mitigation strings, add test for string-based mitigation skipping by @leondz in https://github.com/leondz/garak/pull/762\r\n* speedup report generation by using class attribs instead of instantiating by @leondz in https://github.com/leondz/garak/pull/707\r\n* cached plugin enum by @jmartin-tech in https://github.com/leondz/garak/pull/768\r\n\r\n### Tuning & fixes\r\n* add some actionable opinions about linting by @leondz in https://github.com/leondz/garak/pull/668\r\n* handle target model returning None in atkgen by @leondz in https://github.com/leondz/garak/pull/678\r\n* bump & fix black version by @leondz in https://github.com/leondz/garak/pull/686\r\n* Bump/black 24.4.2 -- and apply formatting by @leondz in https://github.com/leondz/garak/pull/687\r\n* convert module-level constant names to uppercase by @leondz in https://github.com/leondz/garak/pull/685\r\n* Guard cli run with invalid or incomplete config by @jmartin-tech in https://github.com/leondz/garak/pull/677\r\n* Catch generic exception from transformers in huggingface by @jmartin-tech in https://github.com/leondz/garak/pull/690\r\n* stablize openai parallel by @jmartin-tech in https://github.com/leondz/garak/pull/689\r\n* rest generator response must be a list by @jmartin-tech in https://github.com/leondz/garak/pull/693\r\n* Set generator `_call_model()` and `_generate()` type hints; amend functions by @leondz in https://github.com/leondz/garak/pull/694\r\n* typo in racial slur prompt by @leondz in https://github.com/leondz/garak/pull/697\r\n* Generator streamlining, docs by @leondz in https://github.com/leondz/garak/pull/682\r\n* Split NVCF generator into completion chat by @leondz in https://github.com/leondz/garak/pull/696\r\n* Update the quality taxonomy by @leondz in https://github.com/leondz/garak/pull/703\r\n* generator & detector structure validation by @leondz in https://github.com/leondz/garak/pull/702\r\n* doc & inheritance fixes to DanInTheWildMini by @leondz in https://github.com/leondz/garak/pull/712\r\n* Remove support for openai api v0 by @leondz in https://github.com/leondz/garak/pull/718\r\n* restore `req_template_json_object` lost in refactor by @jmartin-tech in https://github.com/leondz/garak/pull/729\r\n* utilize GarakException in cli by @jmartin-tech in https://github.com/leondz/garak/pull/730\r\n* ensure report is printed in `utf-8` for Windows by @jmartin-tech in https://github.com/leondz/garak/pull/732\r\n* Linting - 20240612 by @leondz in https://github.com/leondz/garak/pull/733\r\n* add garak preprint paper by @leondz in https://github.com/leondz/garak/pull/739\r\n* only set generations if still default by @jmartin-tech in https://github.com/leondz/garak/pull/741\r\n* return value from `batch_decode` is already a list by @jmartin-tech in https://github.com/leondz/garak/pull/743\r\n* Handle openai 400 errors more gracefully by @leondz in https://github.com/leondz/garak/pull/744\r\n* Refactor `huggingface` config support by @jmartin-tech in https://github.com/leondz/garak/pull/742\r\n* rename class level probe doc_uri by @jmartin-tech in https://github.com/leondz/garak/pull/759\r\n* retry openaicompatible requests if invalid content received by @leondz in https://github.com/leondz/garak/pull/761\r\n* add colour theme config by @leondz in https://github.com/leondz/garak/pull/769\r\n* reduce zalgo-ness by @leondz in https://github.com/leondz/garak/pull/770\r\n* move REST generator exception into garak.exceptions by @leondz in https://github.com/leondz/garak/pull/779\r\n* defensive coding: allow python generators more places by @leondz in https://github.com/leondz/garak/pull/782\r\n* stop encoding.payloads accumulating each load by @leondz in https://github.com/leondz/garak/pull/780\r\n* correct sorting for set json in plugin_cache.json by @jmartin-tech in https://github.com/leondz/garak/pull/794\r\n* corrections to config format for TAP internal generators by @jmartin-tech in https://github.com/leondz/garak/pull/796\r\n* add missing comma, extra test case in probes.test.Test by @leondz in https://github.com/leondz/garak/pull/797\r\n* Bugfix/leakreplay output setting by @leondz in https://github.com/leondz/garak/pull/790\r\n\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.13...v0.9.0.14"
     },
     "https://github.com/Ekultek/WhatWaf": {
         "created_at": "2019-12-01 09:42:24",
@@ -25572,12 +25572,12 @@
         "commit_date": "2016-10-06 14:49:45"
     },
     "https://github.com/AabyssZG/SpringBoot-Scan": {
-        "created_at": "2024-07-25 07:22:01",
+        "created_at": "2024-08-07 08:01:06",
         "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-07-30 15:05:46",
-        "release_date": "2024-07-25 02:58:21",
-        "release_message": "# 概述\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **优化了 #18 中 [`zy696`](https://github.com/zy696) 师傅提出的CVE-2022-2947漏报的问题**\r\n- **优化了Spring资产识别的流程**\r\n- **准备对一些 `Issues` 提出的问题进行进一步的处理**"
+        "commit_message": "Update output.py",
+        "commit_date": "2024-08-07 08:01:06",
+        "release_date": "2024-08-07 08:02:17",
+        "release_message": "# 概述\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **根据 #13 对端点爆破模块进行优化，对页面进行Hash计算，如果发现页面Hash相同的情况就不导入到 `urlout.txt`**\r\n- **准备对一些 `Issues` 提出的问题进行进一步的处理**"
     },
     "https://github.com/abc123info/Struts2VulsScanTools": {
         "created_at": "2024-05-23 07:16:14",
@@ -25602,8 +25602,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2024-05-07 17:05:30",
         "description": "The ZAP core project",
-        "commit_message": "Merge pull request #8583 from thc202/update-deps\n\nUpdate dependencies",
-        "commit_date": "2024-07-30 09:58:27",
+        "commit_message": "Merge pull request #8590 from thc202/correct-snm-check\n\nCorrect `StructuralNodeModifier` key check",
+        "commit_date": "2024-08-09 12:51:02",
         "release_date": "2024-05-07 17:39:14",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.15.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.15.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0.dmg) | `ae025403e46cdefff013cd0c3b88d8edc5a183a76daa63cb62c7c629005337a5` |\r\n| [ZAP_2.15.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_aarch64.dmg) | `4426253f4702bbd5fb4779bcf4d62490b2c10ec851c4ebc94ced8f156d2e5509` |\r\n| [ZAP_2.15.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Core.zip) | `e3cf30ad526e4f3fb8a228e1d5e02da0389b2ec7436b989bb28f959703380bf5` |\r\n| [ZAP_2.15.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Crossplatform.zip) | `05d3932a1affb0ab7987664677134709982ca3837a0b0f0e16f9aeb391933341` |\r\n| [ZAP_2.15.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz) | `6410e196baab458a9204e29aafb5745fca003a2a6c0386f2c6e5c04b67621fa7` |\r\n| [ZAP_2_15_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_unix.sh) | `3d976a197b7f71c52c8b8b2e9f06b988384845fb854b637ebb8be0e4cb38112f` |\r\n| [ZAP_2_15_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows-x32.exe) | `114953f29647a5e4e5774b338f2271d6149711e9222e0b92b11be3a35b812478` |\r\n| [ZAP_2_15_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows.exe) | `28b348dd65116ddabbbbd98b7f84864a0bb0f98d656266f2f08bfd010ae51c57` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/bom.json) | `04f3e148aaa406cd7f31f2be8d3ef282e16e852233da85de13aacb3a173f4740` |\r\n"
     },
@@ -25698,7 +25698,7 @@
         "release_message": ""
     },
     "https://github.com/Anduin2017/HowToCook": {
-        "created_at": "2024-06-17 14:03:33",
+        "created_at": "2020-02-29 10:43:49",
         "description": "程序员在家做饭方法指南。Programmer's guide about how to cook at home (Simplified Chinese only).",
         "commit_message": "Update Dockerfile",
         "commit_date": "2024-07-22 06:03:29",
@@ -26098,7 +26098,7 @@
         "description": "Open Source Cloud Native Application Protection Platform (CNAPP)",
         "commit_message": "Create cloud scanner log directories on restart\n\n(cherry picked from commit 650a82c3e54a752b0fb29514e4c968184f6ef195)",
         "commit_date": "2024-08-03 09:38:11",
-        "release_date": "2024-08-08 00:15:59",
+        "release_date": "2024-08-10 00:14:41",
         "release_message": ""
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.254.65.75属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.38属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28108,12 +28108,12 @@
         "commit_date": "2024-01-30 06:02:56"
     },
     "https://github.com/Aabyss-Team/ARL": {
-        "created_at": "2024-07-25 07:12:39",
+        "created_at": "2024-07-27 03:43:05",
         "description": "ARL官方仓库备份项目：ARL(Asset Reconnaissance Lighthouse)资产侦察灯塔系统旨在快速侦察与目标关联的互联网资产，构建基础资产信息库。 协助甲方安全团队或者渗透测试人员有效侦察和检索资产，发现存在的薄弱点和攻击面。",
-        "commit_message": "Merge pull request #42 from msmoshang/master\n\n修复一些ubg",
-        "commit_date": "2024-07-25 12:03:43",
-        "release_date": "2024-07-25 07:17:04",
-        "release_message": "**ARL安装命令如下（源码安装和Docker安装合一）**\r\n\r\n```\r\nwget https://raw.githubusercontent.com/Aabyss-Team/ARL/master/misc/setup-arl.sh\r\nchmod +x setup-arl.sh\r\n./setup-arl.sh\r\n```\r\n\r\n近期发现本项目的Issues和Bug比较多，有问题欢迎进群咨询：\r\n\r\n<table>\r\n  <tr>\r\n    <td><img src=\"https://github.com/Aabyss-Team/ARL/blob/master/Team.jpg\" alt=\"\" /></td>\r\n    <td><img src=\"https://github.com/Aabyss-Team/ARL/blob/master/leader.jpg\" alt=\"\" /></td>\r\n  </tr>\r\n</table>"
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-09 12:04:59",
+        "release_date": "2024-07-27 03:45:08",
+        "release_message": "**ARL安装命令如下（源码安装和Docker安装合一）**\r\n\r\n```\r\nwget https://raw.githubusercontent.com/Aabyss-Team/ARL/master/misc/setup-arl.sh\r\nchmod +x setup-arl.sh\r\n./setup-arl.sh\r\n```\r\n\r\n---\r\n\r\n如果选择的是源码安装，可以通过以下命令确认服务状态（如果全部运行正常那就没问题）：\r\n\r\n```\r\nsystemctl status mongod\r\nsystemctl status rabbitmq-server\r\nsystemctl status arl-web\r\nsystemctl status arl-worker\r\nsystemctl status arl-worker-github\r\nsystemctl status arl-scheduler\r\nsystemctl status nginx\r\n```\r\n\r\n源码安装后，请前往ARL-Web页面：`https://IP:5003/`：账号：`admin`，密码：`arlpass`\r\n\r\n---\r\n\r\nDocker安装总共有三个版本进行选择，如下：\r\n\r\n```\r\n1) arl-docker/moshangms：ARL初始版本，仅去除域名限制,5000+指纹\r\n2) arl-docker-initial：ARL初始版本，仅去除域名限制。\r\n3) arl-docker-all：ARL完全指纹版本，去除域名限制，全量 7165 条指纹。\r\n```\r\n\r\n- 如果选择1进行Docker安装，直接拉取镜像运行容器即可，不需要额外操作，请前往`https://IP:5003/`：账号：`admin`，密码：`arlpass`\r\n- 如果选择2和3进行Docker安装，拉取完镜像开始运行容器后，需要进入容器执行脚本：\r\n\r\n```\r\n//在安装完成之后进入容器\r\ndocker exec -it arl /bin/bash\r\n\r\n//开始完成ARL部署\r\nbash /root/arl/set.sh\r\n```\r\n\r\n执行完脚本确认没报错后，请前往ARL-Web页面：`https://IP:5003/`：账号：`admin`，密码：`honmashironeko`\r\n\r\n---\r\n\r\n近期发现本项目的Issues和Bug比较多，有问题欢迎进群咨询：\r\n\r\n<table>\r\n  <tr>\r\n    <td><img src=\"https://github.com/Aabyss-Team/ARL/blob/master/Team.jpg\" alt=\"\" /></td>\r\n    <td><img src=\"https://github.com/Aabyss-Team/ARL/blob/master/Aabyss-Bot.jpg\" alt=\"\" /></td>\r\n  </tr>\r\n</table>"
     },
     "https://github.com/milu001/sm234_decrypt_gui": {
         "created_at": "2024-04-03 07:32:11",
@@ -28248,8 +28248,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28736,8 +28736,8 @@
     "https://github.com/chatchat-space/Langchain-Chatchat": {
         "created_at": "2024-07-12 14:29:12",
         "description": "Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain ",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-08-02 02:44:24",
+        "commit_message": "fix (#4700)\n\nfix",
+        "commit_date": "2024-08-08 13:03:40",
         "release_date": "2024-07-12 15:23:05",
         "release_message": "## 重要提示\r\n\r\nLangchain-Chatchat v0.3.1 中命令行调用方式发生调整，请依据项目 README 进行操作；知识库的源文件与向量库仍可与前序版本通用，建议参考项目 README.md 中 快速上手 章节内容进行新版本部署。\r\n\r\n------\r\n\r\n## 新增功能\r\n\r\n* 所有配置项改成 yaml 配置文件，改为命令行执行 chatchat init 初始化项目配置，需要本地文件中修改配置，配置项修改后即时生效，无需重启项目 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* chatchat init 可以直接指定 Xinference API 地址、LLM 模型、Embedding 模型，一步完成知识库初始 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4425\r\n* 新增 RAG 对话页面，包含知识库对话、文件对话、搜索引擎对话 by @liunux4odoo @imClumsyPanda in https://github.com/chatchat-space/Langchain-Chatchat/pull/4471\r\n* 调整对话界面按钮布局，对话输入框左右分别设置\"模型配置\"与\"清空对话\"按钮 by @imClumsyPanda @liunux4odoo \r\n* 支持 searx 搜索引擎 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4476\r\n* 支持 GLM-4V、Qwen-VL 等 Vision 模型接入进行图片对话 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* 使用 Xinference 接入本地模型时，支持自动检测已启动模型，无需手动填写模型名称 by @imClumsyPanda @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* Agent 可调用工具中增加了维基百科搜索、高德地图天气查询、高德地图POI搜索 by @yhfgyyf in https://github.com/chatchat-space/Langchain-Chatchat/pull/4419\r\n* Agent 工具新增 text2promql by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4399\r\n* 增加 dockerfile 并更新 README 中关于 docker 部署的操作介绍 by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4271 and https://github.com/chatchat-space/Langchain-Chatchat/pull/4274\r\n* 新增 Agent 添加工具操作说明 by @zRzRzRzRzRzRzR in https://github.com/chatchat-space/Langchain-Chatchat/pull/4484\r\n* 新增数据库对话配置说明 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4475\r\n* 添加 Agent & Chat API 接口调用的说明，修正知识库检索bug by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4341\r\n* 增加知识库初始化时对 Ctrl+C 中止操作的支持 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4352\r\n* 增加 Pypi 发布自动化操作 by @glide-the in https://github.com/chatchat-space/Langchain-Chatchat/pull/4260\r\n* 增加不同系统部署环境测试 by @glide-the in https://github.com/chatchat-space/Langchain-Chatchat/pull/4480\r\n\r\n\r\n## 问题修复\r\n* 在 readme 中增加对 windows 下创建知识库卡住的说明与解决办法 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4330\r\n* 统一搜索引擎与本地知识库返回格式，修改 WEBUI 渲染上下文方式 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4344\r\n* 修复文生图工具 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4349\r\n* 修复 Milvus 作为知识库时可能发生的错误 by @kwunhang in https://github.com/chatchat-space/Langchain-Chatchat/pull/4319\r\n* 修复 max_tokens 问题 by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4355\r\n* 修改api文档中手动输入工具参数的说明 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4367\r\n* 解决text2sql对GLM的兼容，即temperature不能设置为0 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4370\r\n* 解决es数据库删除时只能删除50条数据的BUG by @YangSuoze in https://github.com/chatchat-space/Langchain-Chatchat/pull/4351\r\n* 解决天气、text2Sql Agent 运行报错的BUG by @21Janur in https://github.com/chatchat-space/Langchain-Chatchat/pull/4336\r\n* 修复知识库对话中的bug by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4468\r\n* fix: action model initialize error by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4347\r\n\r\n## New Contributors\r\n* @kwunhang made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4319\r\n* @YangSuoze made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4351\r\n* @21Janur made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4336\r\n\r\n**Full Changelog**: https://github.com/chatchat-space/Langchain-Chatchat/compare/v0.3.0...v0.3.1"
     },
@@ -28874,11 +28874,12 @@
         "release_message": "Start-of-month release"
     },
     "https://github.com/wy876/POC": {
-        "commit_message": "8.4更新漏洞",
-        "commit_date": "2024-08-04 03:27:35",
+        "commit_message": "8.10更新漏洞",
+        "commit_date": "2024-08-09 18:33:49",
         "created_at": "2024-08-01 12:05:27",
         "release_date": "2024-08-01 14:00:37",
-        "release_message": ""
+        "release_message": "",
+        "description": "收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，长期更新。"
     },
     "https://github.com/enomothem/Whoamifuck": {
         "created_at": "2024-08-03 06:04:17",
