@@ -965,8 +965,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2024-01-03 22:18:35",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_message": "Dummy update",
-        "commit_date": "2024-07-18 12:46:21",
+        "commit_message": "Fixes #5759",
+        "commit_date": "2024-08-05 15:47:30",
         "release_date": "2024-01-03 22:20:06",
         "release_message": "Stable version 1.8 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.7...1.8))"
     },
@@ -4113,8 +4113,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_message": "add CVE-2021-29442 POC link to references",
-        "commit_date": "2024-07-15 15:42:18"
+        "commit_message": "Merge pull request #542 from trganda/master\n\nOptimize The poc.py in CVE-2021-29442",
+        "commit_date": "2024-08-09 11:06:13"
     },
     "https://github.com/zhuifengshaonianhanlu/pikachu": {
         "created_at": "2018-07-24 08:21:19",
@@ -4219,7 +4219,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-08-09 20:22:02"
+        "commit_date": "2024-08-10 20:21:00"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -5618,8 +5618,8 @@
     "https://github.com/fortra/impacket": {
         "created_at": "2023-07-31 15:08:03",
         "description": "Impacket is a collection of Python classes for working with network protocols.",
-        "commit_message": "Samrdump.py updated (#1622)\n\n* Update samrdump.py\r\n\r\nAdded AdminComment while dumping. This will ensure to dump the Description field in querydispinfo or queruser\r\n\r\n* Update samrdump.py",
-        "commit_date": "2024-07-31 16:23:53",
+        "commit_message": "tstool.py update & kerberos issue fix (#1420)\n\n* kerberos issue fix & refactoring\r\n\r\n* tstool.py: resolve SID to Username",
+        "commit_date": "2024-08-07 05:19:46",
         "release_date": "2023-08-03 17:36:40",
         "release_message": "## Impacket 0.11.0:\r\nProject's main page at https://www.coresecurity.com/core-labs/open-source-tools/impacket\r\n\r\nChangeLog for 0.11.0:\r\n1. Library improvements \r\n    * Added new Kerberos error codes (@ly4k).\r\n\t* Added `[MS-TSTS]` Terminal Services Terminal Server Runtime Interface Protocol implementation (@nopernik).\r\n    * Changed the setting up for new SSL connections (@mpgn, @CT-H00K and @0xdeaddood).\r\n    * Added a callback function to smbserver for incoming authentications (@p0dalirius).\r\n    * Fix crash in winregistry (@laxa)\r\n    * Fixes in IDispatch derived classes in comev implementation (@NtAlexio2)\r\n    * Fix CVE-2020-17049 in ccache.py (@godylockz)\r\n    * Smbserver: Added SMB2_FILE_ALLOCATION_INFO type determination (@JerAxxxxxxx)\r\n    * tds: Fixed python3 incompatibility when receiving over TLS socket (@exploide)\r\n    * crypto: Ensure passwords are utf-8 encoded before deriving Kerberos keys (@jojonas)\r\n    * ese: Fixed python3 incompatibility when reading from db (@alexisbalbachan)\r\n    * ldap queries: Escaped characters are now correctly parsed (@alexisbalbachan)\r\n    * Support SASL authentication in ldap protocol (@NtAlexio2)\r\n\r\n2. Examples improvements\r\n    * [GetADUsers.py](examples/GetADUsers.py), [GetNPUsers.py](examples/GetNPUsers.py), [GetUserSPNs.py](examples/GetUserSPNs.py) and [findDelegation.py](examples/findDelegation.py):\r\n      * Added dc-host option to connect to specific KDC using its FQDN or NetBIOS name (@rmaksimov and @0xdeaddood).\r\n    * [GetNPUsers.py](examples/GetNPUsers.py)\r\n      * Printing TGT in stdout despite -outputfile parameter (@alexisbalbachan and @Zamanry)\r\n      * Fixed output hash format for AES128/256 (etype 17/18) (@erasmusc)\r\n    * [GetUserSPNs.py](examples/GetUserSPNs.py):\r\n      * Added LDAP paged search (@ThePirateWhoSmellsOfSunflowers and @SAERXCIT).\r\n      * Added a -stealth flag to remove the SPN filter from the LDAP query (@clavoillotte).\r\n      * Improved searchFilter (@ShutdownRepo)\r\n      * Use LDAP paged search (@ThePirateWhoSmellsOfSunflowers)\r\n    * [psexec.py](examples/psexec.py):\r\n      * Added support for name customization using a custom binary file (@Dramelac).\r\n    * [smbexec.py](examples/smbexec.py):\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).\r\n      * Fixed python3 compatibility issues, added workaround TCP over NetBIOS being disabled (@ljrk0)\r\n    * [secretsdump.py](examples/secretsdump.py):\r\n      * Added a new option to extract only NTDS.DIT data for specific users based on an LDAP filter (@snovvcrash).\r\n      * Security fixes for privilege escalation vulnerabilities (@bugch3ck).  \r\n    * [mssqlclient.py](examples/mssqlclient.py):\r\n      * Added multiple new commands. Now supports xp_dirtree execution (@Mayfly277, @trietend and @TurtleARM).\r\n    * [ntlmrelayx.py](examples/ntlmrelayx.py):\r\n      * Added ability to trigger SQLShell when running ntlmrelayx in interactive mode (@sploutchy).\r\n      * Added filter option to the socks command in ntlmrelayx CLI (@shoxxdj)\r\n      * Added ability to register DNS records through LDAP.\r\n    * [addcomputer.py](examples/addcomputer.py), [rbcd.py](examples/rbcd.py):\r\n      * Allow weak TLS ciphers for LDAP connections (@AdrianVollmer)\r\n    * [Get-GPPPassword.py](examples/Get-GPPPassword.py):\r\n      * Better handling of various XML files in Group Policy Preferences (@p0dalirius)\r\n    * [smbclient.py](examples/smbclient.py):\r\n      * Added recursive file listing (@Sq00ky)\r\n    * [ticketer.py](examples/ticketer.py):\r\n      * Ticket duration is now specified in hours instead of days (@Dramelac)\r\n      * Added extra-pac implementation (@Dramelac)\r\n\r\n3. New examples\r\n    * [net.py](examples/net.py) Implementation of windows net.exe builtin tool (@NtAlexio2)\r\n    * [changepasswd.py](examples/changepasswd.py) New example that allows password changing or reseting through multiple protocols (@Alef-Burzmali, @snovvcrash, @bransh, @api0cradle and @p0dalirius)\r\n    * [DumpNTLMInfo.py](examples/DumpNTLMInfo.py) New example that dumps remote host information in ntlm authentication model, without credentials. For SMB protocols v1, v2 and v3. (@NtAlexio2)\r\n    \r\nAs always, thanks a lot to all these contributors that make this library better every day (up to now):\r\n\r\n@ly4k @nopernik @snovvcrash @ShutdownRepo @kiwids0220 @mpgn @CT-H00K @rmaksimov @arossert @aevy-syn @tirkarthi @p0dalirius @Dramelac @Mayfly277 @S3cur3Th1sSh1t @nobbd @AdrianVollmer @trietend @TurtleARM @ThePirateWhoSmellsOfSunflowers @SAERXCIT @clavoillotte @Marshall-Hallenbeck @sploutchy @almandin @rtpt-alexanderneumann @JerAxxxxxxx @NtAlexio2 @laxa @godylockz @exploide @jojonas @Zamanry @erasmusc @bugch3ck @ljrk0 @Sq00ky @shoxxdj @Alef-Burzmali @bransh @api0cradle @alexisbalbachan @0xdeaddood @sanmopre\r\n"
     },
@@ -22779,12 +22779,12 @@
         "release_message": ""
     },
     "https://github.com/qiwentaidi/Slack": {
-        "created_at": "2024-07-17 11:55:02",
-        "description": "一款Go Wails实现的渗透测试工具，功能涵盖网站扫描、端口扫描、企业信息收集、空间引擎搜索等，希望能帮助你少让你少开几个应用测试",
-        "commit_message": "完成多引擎聚合搜索",
-        "commit_date": "2024-07-21 16:11:59",
-        "release_date": "2024-07-17 14:54:52",
-        "release_message": "新增:\r\n1、Nacos CVE-2021-29441、CVE-2021-29442、Derby SQL RCE 漏洞利用\r\n2、海康CVE-2021-7921、CVE-2021-36260 漏洞利用，摄像头弱口令批量检测\r\n\r\n优化:\r\n1、syn扫描进度条显示过快\r\n2、对域名解析到CNAME为空时需要对唯一IP进行显示\r\n3、FOFA增加组件显示\r\n\r\n修复:\r\n1、Windows以管理员运行程序无法判断成功\r\n2、端口扫描过滤完数据后，分页数量不会更改\r\n3、端口扫描在输入192.168.1.1:6379类似目标时无法执行\r\n4、POC数量显示不正确\r\n5、由于localstore存储限制，更改文件名会导致存储读取异常，目前已经转为配置文件存储"
+        "created_at": "2024-08-02 07:37:26",
+        "description": "安服集成化工具平台，帮助测试人员减少测试脚本多，使用繁琐问题",
+        "commit_message": "修改首页",
+        "commit_date": "2024-08-09 16:25:47",
+        "release_date": "2024-08-02 08:06:44",
+        "release_message": "Bug太多了新发一版，修复下面问题\r\n\r\n1、目录扫描文件输入判断错误，选择自定义文件无法清除（现在已经改为临时加载在列表目录中），多目标后缀/处理\r\n2、Quake数据导出为空问题\r\n3、Quake排除过滤功能无法使用\r\n4、Dialog或者Drawer弹出时，右边框缩窄15px\r\n5、上个版本不小心把端口执行代码注释掉了，现在已经恢复\r\n6、钉钉aksk利用bug"
     },
     "https://github.com/horizon3ai/CVE-2023-27524": {
         "created_at": "2023-04-25 04:59:05",
@@ -25094,8 +25094,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 200,
-        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -27075,7 +27075,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.131.67属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.88.99.130属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28748,10 +28748,12 @@
         "commit_date": "2022-04-11 05:34:01"
     },
     "https://github.com/Mintplex-Labs/anything-llm": {
-        "created_at": "2023-06-04 02:29:14",
+        "created_at": "2024-08-07 21:28:57",
         "description": "The all-in-one Desktop & Docker AI application with full RAG and AI Agent capabilities.",
-        "commit_message": "[FEAT] Prisma injection validation (#1874)\n\ncheck all prisma models/model usage and patch any potential sql injection vulns",
-        "commit_date": "2024-07-16 23:40:05"
+        "commit_message": "#2084 Support Go filetype (#2085)\n\nSupport Go filetype",
+        "commit_date": "2024-08-10 02:29:29",
+        "release_date": "2024-08-08 16:12:19",
+        "release_message": "## New features\r\n- Full [PiperTTS](https://github.com/rhasspy/piper) for in-browser text-to-speech with over 100+ voices (s/o to @rhasspy & @diffusion-studio for MIT work & base-fork of NPM package)\r\n- Full Portuguese by @im-ramon\r\n- Full German Translation\r\n- Multiple `/slash` command expansion in prompts by @shatfield4\r\n- MathJax/KaTeX/LaTeX support in responses\r\n\r\n## Fixes & others\r\n* Fix typo by @martincenturion in https://github.com/Mintplex-Labs/anything-llm/pull/2041\r\n* 2034 automate port forwarding for GitHub codespaces using gh cli by @MrSimonC in https://github.com/Mintplex-Labs/anything-llm/pull/2035\r\n* Youtube loader whitespace fix by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2051\r\n* 2049 remove break that prevents fetching files from gitlab repo by @mehmetunlu in https://github.com/Mintplex-Labs/anything-llm/pull/2050\r\n* Hide upload element for default role users by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2061\r\n* New user account validations by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2037\r\n* Developer API access for embed chat widgets by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/1999\r\n* Speech to text hotkey by @Rrojaski in https://github.com/Mintplex-Labs/anything-llm/pull/1771\r\n\r\n## New Contributors\r\n* @martincenturion made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2041\r\n* @MrSimonC made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2035\r\n* @im-ramon made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2054\r\n* @mehmetunlu made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2050\r\n* @Rrojaski made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/1771\r\n\r\nDesktop version pin:  v1.6.1\r\n\r\n**Full Changelog**: https://github.com/Mintplex-Labs/anything-llm/compare/v1.1.1...v1.2.0"
     },
     "https://github.com/mifine666/miscan": {
         "created_at": "2024-06-24 01:06:10",
@@ -28828,8 +28830,8 @@
     "https://github.com/wazuh/wazuh": {
         "created_at": "2024-07-17 11:54:12",
         "description": "Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.",
-        "commit_message": "Merge pull request #25082 from wazuh/enhancement/25002-engine-update-dep-request-version\n\nUpdate requirements of engine-evtx2xml tool",
-        "commit_date": "2024-08-06 16:04:56",
+        "commit_message": "Merge pull request #24571 from wazuh/enhancement/24500-engine-automatic-documentation-generation\n\nEngine - Automatic documentation generation",
+        "commit_date": "2024-08-09 04:21:19",
         "release_date": "2024-07-22 11:05:01",
         "release_message": "## Manager\r\n\r\n### Fixed\r\n\r\n- Fixed bug in `upgrade_agent` CLI where it would sometimes raise an unhandled exception. ([#24341](https://github.com/wazuh/wazuh/pull/24341))\r\n- Changed keystore cipher algorithm to remove reuse of sslmanager.cert and sslmanager.key. ([#24509](https://github.com/wazuh/wazuh/pull/24509))\r\n\r\n## Agent\r\n\r\n### Fixed\r\n\r\n- Fixed incorrect macOS agent name retrieval. ([#23989](https://github.com/wazuh/wazuh/pull/23989))\r\n\r\n## RESTful API\r\n\r\n### Changed\r\n\r\n- Changed `GET /manager/version/check` endpoint response to always show the `uuid` field. ([#24173](https://github.com/wazuh/wazuh/pull/24173))\r\n\r\n## Other\r\n\r\n### Changed\r\n\r\n- Upgraded external Jinja2 library dependency version to 3.1.4. ([#24108](https://github.com/wazuh/wazuh/pull/24108))\r\n- Upgraded external requests library dependency version to 2.32.2. ([#23925](https://github.com/wazuh/wazuh/pull/23925))"
     },
@@ -28904,5 +28906,13 @@
         "commit_date": "2024-07-25 01:13:24",
         "release_date": "2024-07-25 01:14:32",
         "release_message": "## What's Changed\r\n\r\nIn this release, we introduced a significant refactor (specifically, introduced in https://github.com/spyoungtech/FreeSimpleGUI/pull/9) of the large FreeSimpleGUI module. This is just a first step we're taking towards making FreeSimpleGUI more maintainable and approachable for contributors. There's still a lot of work to do, but this change cuts the main module size in half, making it quite a bit easier for LSPs and Intellisense to keep up with changes. Elements are now tucked neatly away into their own modules within the new `elements` subpackage.\r\n\r\nAll names are imported back into the main package, so this change should be non-breaking.\r\n\r\nWe also moved the main module back to `__init__.py` instead of the internal `FreeSimpleGUI.py` module. This avoids a bug introduced by the initial refactor by which changes to global state (which is unfortunately used extensively) may not take effect properly in some cases.\r\n\r\nOther minor changes and deprecations:\r\n\r\n- The globals `pil_imported` and `pil_import_attempted` are no longer used internally. Attempting to access these globals will produce a deprecation warning.\r\n- The behavior of the methods `save_element_screenshot_to_disk` and `save_window_screenshot_to_disk` returning `None` when `PIL` cannot be imported is deprecated. In a future version, calling `save_element_screenshot_to_disk` or `save_window_screenshot_to_disk` when `PIL` cannot be imported will raise an `ImportError`.\r\n- This also fixes a bug where calling `save_element_screenshot_to_disk` or `save_window_screenshot_to_disk` would incidentally overwrite the `Image` element class due to use of the `global` keyword in these methods and importing the name `Image` from PIL whilst marking `Image` as `global`\r\n- The methods `timer_start`, `timer_stop`, and `timer_stop_usec` are deprecated and will be removed in a future version. (code timing is not FreeSimpleGUI's wheelhouse, and these implementations are flawed in any case). Not to be confused with the `Window` class methods of the same name, which are unchanged.\r\n- Using functions with `CamelCase` names that have `snake_case` function name replacements is deprecated and those camel-cased function aliases may be removed in a future version. Using these names will produce a deprecation warning.\r\n- don't use deprecated names internally by @spyoungtech in https://github.com/spyoungtech/FreeSimpleGUI/pull/10\r\n\r\nEnhancements from new contributors:\r\n\r\n* theme_previewer changes. by @RoboPickle in https://github.com/spyoungtech/FreeSimpleGUI/pull/21\r\n* Fix Nuitka cross compilation by @deajan in https://github.com/spyoungtech/FreeSimpleGUI/pull/27\r\n\r\n\r\n## New Contributors\r\n* @RoboPickle made their first contribution in https://github.com/spyoungtech/FreeSimpleGUI/pull/21\r\n* @deajan made their first contribution in https://github.com/spyoungtech/FreeSimpleGUI/pull/27\r\n\r\n**Full Changelog**: https://github.com/spyoungtech/FreeSimpleGUI/compare/v5.1.0...v5.1.1"
+    },
+    "https://github.com/MInggongK/jeecg-": {
+        "created_at": "2024-07-28 16:23:14",
+        "description": "Jeecg综合漏洞利用工具",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-07-28 16:23:14",
+        "release_date": "2024-08-06 02:49:37",
+        "release_message": "增加了jeecg-boot-v2 api接口信息泄露模块检测\r\n优化了jeecg-boot jmreport任意文件上传漏洞\r\n优化了多请求执行线程问题"
     }
 }
