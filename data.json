@@ -5898,12 +5898,12 @@
         "release_message": ""
     },
     "https://github.com/github/codeql-cli-binaries": {
-        "created_at": "2024-07-11 09:22:51",
+        "created_at": "2024-07-26 16:02:49",
         "description": "Binaries for the CodeQL CLI",
-        "commit_message": "Merge pull request #178 from github/angelapwen/2.18.0-changelog\n\nAdd entry for CLI v2.18.0",
-        "commit_date": "2024-07-11 09:22:51",
-        "release_date": "2024-07-11 09:26:56",
-        "release_message": "### Breaking changes\r\n\r\n- A number of breaking changes have been made to the C and C++ CodeQL\r\n  environment:\r\n  - The environment no longer defines any GNU-specific builtin macros.\r\n    If these macros are still needed, please define them via\r\n    `semmle-extractor-options`.\r\n  - The `--force-recompute` option is no longer directly supported by\r\n    `semmle-extractor-options`. Instead, `--edg --force-recompute`\r\n    should be specified.\r\n  - The `--gnu_version` and `--microsoft_version` options that can be\r\n    specified via `semmle-extractor-options` are now synonyms, and only\r\n    one should be specified as part of `semmle-extractor-options`.\r\n    Furthermore,  is also no longer possible to specify these options\r\n    via the following syntax.\r\n\r\n    - `--edg --gnu_version --edg <version number>`, and\r\n    - `--edg --microsoft_version --edg <version number>`\r\n\r\n    The shorter `--gnu_version <version number>` and\r\n    `--microsoft_version <version number>` should be used.\r\n- The `--build_error_dir` and `--predefined_macros` command line options\r\n  have been removed from the C/C++ extractor. It has never been possible\r\n  to pass these options through the CLI, but some customers with advanced\r\n  setups may have been passing them through internal undocumented interfaces.\r\n  Passing the option `--build_error_dir` did not have any effect, and it\r\n  is safe to remove the option. The `--predefined_macros` option should\r\n  have been unnecessary, as long as the extractor was invoked with the\r\n  `--mimic` option.\r\n\r\n### Regressions\r\n\r\n- Compilation of QL queries is about 30% slower than in previous releases. This\r\n  only affects users who write custom queries, and only at compilation time, not \r\n  at run time. This regression will be fixed in the upcoming 2.18.1 release.\r\n\r\n### Improvements\r\n\r\n- Introduced the `--include-logs` option to the `codeql database bundle`\r\n  command. This new feature allows users to include logs in the generated\r\n  database bundle, allowing for a more complete treatment of the bundle, and\r\n  bringing the tool capabilities up-to-speed with the documentation.\r\n- Extract `.xsaccess`, `*.xsjs` and `*.xsjslib` files for SAP HANA XS as\r\n  Javascript.\r\n\r\n### Bugs fixed\r\n\r\n- Where a MacOS unsigned binary cannot be signed, CodeQL will now continue\r\n  trying to trace compiler invocations created by that process and its\r\n  children. In particular this means that Bazel builds on MacOS are now\r\n  traceable.\r\n- Fixed a bug where test discovery would fail if there is a syntax error in a\r\n  qlpack file. Now, a warning message will be printed and discovery will\r\n  continue.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.18.0`](https://github.com/github/codeql/tree/codeql-cli/v2.18.0).\r\n"
+        "commit_message": "Merge pull request #179 from github/jketema/change-log-fix\n\nFix change note to clarify that C/C++ breaking changes related to tests only",
+        "commit_date": "2024-07-26 21:27:52",
+        "release_date": "2024-07-25 17:00:01",
+        "release_message": "### Security Updates\r\n\r\n- Resolves CVE-2023-4759, an arbitrary file overwrite in Eclipse JGit that can be triggered when using untrusted third-party queries from a git repository. See the [security advisory](https://github.com/github/codeql-cli-binaries/security/advisories/GHSA-x4gx-f2xv-6wj9) for more information.\r\n- The following dependencies have been updated. These updates include security fixes in the respective libraries that prevent out-of-bounds accesses or denial-of-service in scenarios where untrusted files are processed. These scenarios are not likely to be encountered in most uses of CodeQL and code scanning, and only apply to advanced use cases where precompiled query packs, database ZIP files, or database TRAP files are obtained from untrusted sources and then processed on a trusted machine.\r\n    - airlift/aircompressor is updated to version 0.27.\r\n    - Apache Ant is updated to version 1.10.11.\r\n    - Apache Commons Compress is updated to version 1.26.0.\r\n    - Apache Commons IO is updated to version 2.15.1.\r\n    - Apache Commons Lang3 is updated to version 3.14.0.\r\n    - jsoup is updated to version 1.15.3.\r\n    - Logback is updated to version 1.2.13.\r\n    - Snappy is updated to version 0.5.\r\n\r\n### New features\r\n\r\n- The *experimental* type `QlBuiltins::BigInt` of arbitrary-precision integers has been introduced. To opt in to this API, compile your queries with `--allow-experimental=bigint`. Big integers can be constructed using the `.toBigInt()` methods of `int` and `string`.\r\n- `codeql test run` now supports postprocessing of test results. When .qlref files specify a path to a `postprocess` query, then this is evaluated after the test query to transform the test outputs prior to concatenating them into the `actual` results.\r\n\r\n### Improvements\r\n\r\n- The 30% QL query compilation slowdown noted in 2.18.0 has been fixed.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.18.1`](https://github.com/github/codeql/tree/codeql-cli/v2.18.1).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
         "created_at": "2019-02-21 01:03:39",
@@ -6146,13 +6146,13 @@
         "release_message": "## Changelog\n### Features\n* c185df8 feat: implemented JavaScript code beautification for HTML files\n* 6ce2b40 feat: allows disabling of code beautification with global flag '--disable-beautify'\n### Bug fixes\n* 7e273d6 fix: fix flag '--disable-beautify'\n\n"
     },
     "https://github.com/CTFd/CTFd": {
-        "created_at": "2024-06-18 16:01:54",
+        "created_at": "2024-07-24 16:38:33",
         "description": "CTFs as you need them",
-        "commit_date": "2024-07-11 19:27:18",
-        "commit_message": "Fix issue where challenge solves would not respect account visibility (#2570)",
+        "commit_date": "2024-08-08 21:29:31",
+        "commit_message": "Remove warning (#2579)",
         "release_tag": "",
-        "release_date": "2024-06-18 21:34:27",
-        "release_message": "# 3.7.2 / 2024-06-18\r\n\r\n**Security**\r\n\r\n- Patches an issue where on certain browsers flags could be leaked with admin interaction on a malicious page\r\n\r\n**API**\r\n\r\n- Disable returning 404s in listing pages with pagination\r\n  - Instead of returning 404 these pages will now return 200\r\n  - For API endpoints, the response will be a 200 with an empty listing instead of a 404\r\n\r\n**Deployment**\r\n\r\n- CTFd will now add the `Cross-Origin-Opener-Policy` response header to all responses with the default value of `same-origin-allow-popups`\r\n- Add `CROSS_ORIGIN_OPENER_POLICY` setting to control the `Cross-Origin-Opener-Policy` header"
+        "release_date": "2024-07-24 21:00:44",
+        "release_message": "# 3.7.3 / 2024-07-24\r\n\r\n**Security**\r\n\r\n- Fix issue where challenge solves and account names could be seen despite accounts not being visible\r\n\r\n**Admin Panel**\r\n\r\n- Add a Localization section in the Config Panel\r\n- Add the Default Language config in the Admin Panel to allow admins to configure a default language\r\n  - Previously CTFd would default to an auto-detected language specified by the user's browser. This setting allows for that default to be set by the admin instead of auto-detected.\r\n\r\n**Translations**\r\n\r\n- Fix issue where Simplified Chinese would be used instead of Traditional Chinese\r\n- Update the language names for Simplified Chinese and Traditional Chinese for clarity\r\n- Update Vietnamese translation\r\n- Add Catalan translation"
     },
     "https://github.com/Gu-f/CTFd_chinese_CN": {
         "created_at": "2022-02-23 06:40:51",
@@ -6334,12 +6334,12 @@
         "release_message": "## What’s Changed\r\n\r\n* Updated `__main__` to be smarter (#652) @bee-san\r\n* Added linking & description to Cipheys pywhat (#645) @bee-san\r\n* Add click tests & fix greppable bug with `pywhat` (#654) @bee-san\r\n* Update pywhat requirement from >=0.2.5,<1.1.0 to >=0.2.5,<1.2.0 (#650) @dependabot\r\n* Remove unnecessary newline (#649) @swanandx\r\n* Update pywhat requirement from ^0.2.5 to >=0.2.5,<1.1.0 (#647) @dependabot\r\n* Remove yaspin and replace it with Rich (#638) @bee-san\r\n"
     },
     "https://github.com/audacity/audacity": {
-        "created_at": "2024-04-24 10:55:07",
+        "created_at": "2024-07-19 11:25:04",
         "description": "Audio Editor                                     ",
-        "commit_message": "[AU4] Moved play cursor to the top of the timeline ruler",
-        "commit_date": "2024-07-11 15:31:55",
-        "release_date": "2024-04-24 16:21:57",
-        "release_message": " This is a hotfix release. It fixes the following bugs:\r\n \r\n   * #6322 Fixed a crash on launch on macOS 11 and older.\r\n   * #6324 Fixed the update notification looking for alpha versions instead of release versions.\r\n   * #6321 Fixed a freeze when using macros on multiple files."
+        "commit_message": "[AU4] Update muse to u0809_2",
+        "commit_date": "2024-08-10 11:02:13",
+        "release_date": "2024-07-22 08:06:54",
+        "release_message": "This is a hotfix release. It fixes the following bugs:\r\n\r\n   * #6889 Fixed a crash when exporting multichannel audio.\r\n   * #6882 Fixed a crash when pasting mono clips into stereo tracks.\r\n   * #4763 (Accessibility) Made more values available when using the plain UI of plugins. (Thanks, David Bailes!)\r\n   * #6855 Prevented incompatible versions from opening projects created in 3.6.x.\r\n   * #6892 Fixed the dark theme sometimes having white corners in buttons."
     },
     "https://github.com/0Chencc/CTFCrackTools": {
         "created_at": "2022-11-16 22:23:09",
@@ -12302,10 +12302,12 @@
         "release_message": ""
     },
     "https://github.com/zoujingli/ThinkAdmin": {
-        "created_at": "2017-02-13 07:00:14",
+        "created_at": "2024-08-08 15:40:12",
         "description": "基于 ThinkPHP6 的极简后台管理系统，内置注解权限、异步多任务、应用插件生态等，支持类 PaaS 更新公共模块和应用插件，插件可本地化定制开发。",
-        "commit_message": "更新登录统计",
-        "commit_date": "2024-07-06 02:01:22"
+        "commit_message": "fix: 同步更新插件代码",
+        "commit_date": "2024-08-08 16:17:39",
+        "release_date": "2024-08-08 15:40:41",
+        "release_message": "#### 修改\n* 更新 Githhub Actions 配置脚本 ([ff08376d](https://github.com/zoujingli/ThinkAdmin/commit/ff08376d9a809f146d3daa4495545a7da41813d4))  @zoujingli\n* 同步更新常用插件代码 ([327cffbe](https://github.com/zoujingli/ThinkAdmin/commit/327cffbe6411fe60aeb87f2c4e6bcfc89525362b))  @zoujingli\n* 更新项目描述 ([6b2fe21e](https://github.com/zoujingli/ThinkAdmin/commit/6b2fe21efb69d6b745ed43eb9f5ee78ebfe62a15))  @zoujingli\n\n"
     },
     "https://github.com/mubix/netview": {
         "created_at": "2012-08-31 01:27:02",
@@ -18476,7 +18478,7 @@
         "release_message": ""
     },
     "https://github.com/wikiZ/RedGuard": {
-        "created_at": "2024-06-18 12:33:35",
+        "created_at": "2022-05-08 04:02:33",
         "description": "RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.",
         "commit_date": "2024-06-18 12:33:35",
         "commit_message": "Optimized the problem of requesting regional restriction matching errors",
@@ -25094,8 +25096,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -27075,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.88.99.130属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.47.55属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
