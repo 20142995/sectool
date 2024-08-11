@@ -1949,7 +1949,7 @@
         "release_message": "当发送到fastjson scan请求的content-type不是json时，强制将其改为application/json进行测试"
     },
     "https://github.com/weishen250/npscrack": {
-        "created_at": "2023-02-16 14:41:11",
+        "created_at": "2023-02-16 14:11:38",
         "description": "蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、Burp插件、一键利用",
         "commit_date": "2023-03-14 09:43:45",
         "commit_message": "Add files via upload",
@@ -3625,7 +3625,7 @@
         "commit_date": "2024-04-12 07:08:35"
     },
     "https://github.com/teamssix/container-escape-check": {
-        "created_at": "2022-04-07 11:10:26",
+        "created_at": "2022-03-17 11:00:37",
         "description": "docker container escape check || Docker 容器逃逸检测",
         "commit_date": "2022-04-19 07:50:10",
         "commit_message": "Merge pull request #2 from teamssix/add-license-1\n\nCreate LICENSE",
@@ -3950,7 +3950,7 @@
         "release_message": ""
     },
     "https://github.com/lintstar/LSTAR": {
-        "created_at": "2022-01-15 10:55:47",
+        "created_at": "2021-07-07 06:39:44",
         "description": "LSTAR - CobaltStrike 综合后渗透插件",
         "commit_date": "2022-01-30 14:39:17",
         "commit_message": "fix AuthMaintain",
@@ -24414,8 +24414,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.130.203属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.27.64属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27896,7 +27896,7 @@
         "release_message": "\r\n---------------------------\r\n\r\n**Implemented enhancements:**\r\n\r\n- Java 21 Support [\\#723](https://github.com/find-sec-bugs/find-sec-bugs/issues/723)\r\n\r\n**Closed issues:**\r\n\r\n- SpringEntityLeakDetector crashes with array types [\\#679](https://github.com/find-sec-bugs/find-sec-bugs/issues/679)\r\n- Java 17 not working [\\#678](https://github.com/find-sec-bugs/find-sec-bugs/issues/678)\r\n- Detect usage of Apache BeanUtils.copyProperties as dangerous [\\#601](https://github.com/find-sec-bugs/find-sec-bugs/issues/601)\r\n\r\n**Merged pull requests:**\r\n\r\n- Upgrade SpotBugs to 4.8.3 [\\#725](https://github.com/find-sec-bugs/find-sec-bugs/pull/725) ([gtoison](https://github.com/gtoison))\r\n- Updates to handle string-building taint with invokedynamic concatenation in JDK \\> 8 [\\#713](https://github.com/find-sec-bugs/find-sec-bugs/pull/713) ([jbindel](https://github.com/jbindel))\r\n- taint-config files java-lang.txt and scala.txt propagate taint from character types [\\#712](https://github.com/find-sec-bugs/find-sec-bugs/pull/712) ([jbindel](https://github.com/jbindel))\r\n- Add GCM-SIV to authenticated cipher mode list [\\#710](https://github.com/find-sec-bugs/find-sec-bugs/pull/710) ([mzcu](https://github.com/mzcu))\r\n- Fix IMPROPER\\_UNICODE rule description [\\#707](https://github.com/find-sec-bugs/find-sec-bugs/pull/707) ([Vampire](https://github.com/Vampire))\r\n- Update messages.xml [\\#700](https://github.com/find-sec-bugs/find-sec-bugs/pull/700) ([jasonparallel](https://github.com/jasonparallel))\r\n- Fixing typo in docs [\\#699](https://github.com/find-sec-bugs/find-sec-bugs/pull/699) ([kdowbecki](https://github.com/kdowbecki))\r\n- Verbose source line locations report [\\#691](https://github.com/find-sec-bugs/find-sec-bugs/pull/691) ([oxeye-gal](https://github.com/oxeye-gal))\r\n- Adding workaround for JDK \\> 8 invokedynamic tainting [\\#690](https://github.com/find-sec-bugs/find-sec-bugs/pull/690) ([oxeye-gal](https://github.com/oxeye-gal))\r\n- JstlExpressionWhiteLister now allows custom regular expressions [\\#686](https://github.com/find-sec-bugs/find-sec-bugs/pull/686) ([jbindel](https://github.com/jbindel))\r\n- fix: added \"cash account\" to the safe words, not a SHA password [\\#683](https://github.com/find-sec-bugs/find-sec-bugs/pull/683) ([gtoison](https://github.com/gtoison))\r\n- Add Detector for XXE in XML SchemaFactory [\\#682](https://github.com/find-sec-bugs/find-sec-bugs/pull/682) ([exceptionfactory](https://github.com/exceptionfactory))\r\n- Add Detector for XXE in XML Validator [\\#681](https://github.com/find-sec-bugs/find-sec-bugs/pull/681) ([exceptionfactory](https://github.com/exceptionfactory))\r\n- fix: handle arrays in SignatureParserWithGeneric [\\#680](https://github.com/find-sec-bugs/find-sec-bugs/pull/680) ([gtoison](https://github.com/gtoison))\r\n- New detector for potential XML injection [\\#663](https://github.com/find-sec-bugs/find-sec-bugs/pull/663) ([baloghadamsoftware](https://github.com/baloghadamsoftware))\r\n- Detect usage of Apache BeanUtils as dangerous \\#601 [\\#629](https://github.com/find-sec-bugs/find-sec-bugs/pull/629) ([marcelel](https://github.com/marcelel))\r\n"
     },
     "https://github.com/XiaoLi996/Impacket_For_Web": {
-        "created_at": "2023-09-06 05:26:46",
+        "created_at": "2023-09-02 13:09:58",
         "description": "Impacket GUI 让Impacket部分横向模块可视化操作,减少复杂指令",
         "commit_message": "Merge remote-tracking branch 'origin/main'",
         "commit_date": "2023-09-18 02:19:12",
@@ -28250,8 +28250,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28278,8 +28278,8 @@
         "description": "Security Onion Solutions"
     },
     "https://www.prelude-siem.org/": {
-        "status_code": 502,
-        "description": "502 Proxy Error"
+        "status_code": 200,
+        "description": "Overview - PRELUDE SIEM - UNITY 360"
     },
     "https://rasp.baidu.com/doc/install/iast.html": {
         "status_code": 200,
