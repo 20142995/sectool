@@ -24414,8 +24414,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.249.13.176属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.190.111.193属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28733,7 +28733,7 @@
         "created_at": "2018-12-30 07:55:40",
         "description": "开源安全产品源码，IDS、IPS、WAF、蜜罐等",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-11 08:03:36"
+        "commit_date": "2024-08-09 07:48:14"
     },
     "https://github.com/chatchat-space/Langchain-Chatchat": {
         "created_at": "2024-07-12 14:29:12",
@@ -28916,5 +28916,11 @@
         "commit_date": "2024-07-28 16:23:14",
         "release_date": "2024-08-06 02:49:37",
         "release_message": "增加了jeecg-boot-v2 api接口信息泄露模块检测\r\n优化了jeecg-boot jmreport任意文件上传漏洞\r\n优化了多请求执行线程问题"
+    },
+    "https://github.com/ax1sX/MemShell": {
+        "created_at": "2022-06-14 12:18:41",
+        "description": "MemShell List",
+        "commit_message": "Merge pull request #1 from suizhibo/main\n\nFix",
+        "commit_date": "2023-07-18 11:55:34"
     }
 }
