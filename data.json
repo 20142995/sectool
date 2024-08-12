@@ -3367,8 +3367,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2024-06-29 03:16:31",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_message": "Update ToolPanel.java",
-        "commit_date": "2024-07-12 10:26:41",
+        "commit_message": "update",
+        "commit_date": "2024-08-09 04:59:10",
         "release_date": "2024-06-29 03:49:14",
         "release_message": "全局：\r\n基础依赖包更新，包括URL、域名、邮箱、等基础函数\r\n多个bug修复，功能优化\r\n数据加载和保存逻辑优化更新\r\n\r\ntitle面板\r\n**1、【重点】显示favicon，更容易判断资产类型，方便进行同类资产搜索**\r\n2、搜索功能增强，新增部分应用特征\r\n3、获取cert信息逻辑增强\r\n4、重复记录标记功能\r\n5、“删除非目标记录”逻辑更新\r\n6、网段汇算逻辑排除CDN IP\r\n7、逻辑优化+DNS查询加强\r\n\r\ntool面板\r\n1、智能识别SuperJTextArea的内容是否为文件\r\n2、工具面板多个功能新增或更新\r\n3、使用BackGroundButton改造按钮功能实现，避免UI卡死\r\n\r\nSearch面板\r\n**1、【重点】新增Search面板，集成fofa、hunter等资产搜索引擎**\r\n\r\nconfig面板\r\n1、更新配置数据结果，方便添加删除配置项"
     },
@@ -12897,10 +12897,10 @@
         "release_message": ""
     },
     "https://github.com/volatilityfoundation/volatility3": {
-        "created_at": "2014-01-26 18:09:20",
+        "created_at": "2024-05-29 19:24:06",
         "description": "Volatility 3.0 development",
-        "commit_message": "Merge pull request #1172 from volatilityfoundation/threads\n\nAdd threads and suspicious_threads plugins. Condense code for re-use",
-        "commit_date": "2024-07-03 20:05:11",
+        "commit_message": "Merge pull request #1234 from dadokkio/patch-1\n\nadd args and kwargs to threads.py init",
+        "commit_date": "2024-08-06 21:20:18",
         "release_date": "2024-05-29 19:45:32",
         "release_message": "* New plugins: \r\n  - `windows.iat`\r\n  - `windows.truecrypt`\r\n  - `linux.library_list`\r\n  - `mac.dmesg`\r\n* Support for configuration files for common CLI options\r\n* `windows.driverirp`: Report IRP entries that point inside a hidden module\r\n* `windows.thrdscan`: Improvements\r\n* `linux.kmsg`: Supports older kernels\r\n* `mac.maps`: Add process dump support\r\n* Support for Python 3.12"
     },
@@ -24414,8 +24414,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25096,8 +25096,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -27022,8 +27022,8 @@
     "https://github.com/leonteale/pentestpackage": {
         "created_at": "2014-04-25 00:29:27",
         "description": "a package of Pentest scripts I have made or  commonly use",
-        "commit_message": ".",
-        "commit_date": "2024-07-08 12:01:27"
+        "commit_message": "add htb scipt",
+        "commit_date": "2024-08-09 21:54:31"
     },
     "https://github.com/f4cknet/pyhackme": {
         "created_at": "2023-11-03 13:50:55",
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.46.118属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.249.13.176属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
