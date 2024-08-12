@@ -777,8 +777,8 @@
     "https://github.com/xiecat/fofax": {
         "created_at": "2023-12-21 12:39:45",
         "description": "fofax is a command line query tool based on the API of https://fofa.info/, simple is the best!",
-        "commit_date": "2024-04-01 09:26:11",
-        "commit_message": "Update parser.go",
+        "commit_date": "2024-07-22 02:48:19",
+        "commit_message": "修改版本更新检查显示的日志等级",
         "release_tag": "v0.1.44",
         "release_date": "2023-12-21 12:44:08",
         "release_message": "## Changelog\r\n* 本版本支持直接使用 FOFA Key 登录。同时兼容 FOFA email 字段在使用时会有提示( FOFA API 已经废弃 `email` 字段。)\r\n\r\n"
@@ -21567,8 +21567,8 @@
         "release_tag": "",
         "release_date": "",
         "release_message": "",
-        "commit_date": "2023-10-24 20:25:39",
-        "commit_message": "Fix status output"
+        "commit_date": "2024-07-09 20:17:40",
+        "commit_message": "Improve command line parsing"
     },
     "https://github.com/Stardustsky/SaiDict": {
         "created_at": "2018-11-09 06:04:22",
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.190.111.193属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.7.8属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
