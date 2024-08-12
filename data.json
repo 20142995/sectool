@@ -2211,8 +2211,8 @@
     "https://github.com/cnrstar/anti-honeypot": {
         "created_at": "2020-08-16 14:24:29",
         "description": "一款可以检测WEB蜜罐并阻断请求的Chrome插件",
-        "commit_date": "2020-10-30 02:59:02",
-        "commit_message": "Merge pull request #8 from jhhd88/patch-4\n\n更新黑名单",
+        "commit_date": "2024-08-05 08:23:29",
+        "commit_message": "优化代码逻辑，增加启动/暂停功能",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -23798,7 +23798,7 @@
         "release_message": ""
     },
     "https://github.com/r3curs1v3-pr0xy/vajra": {
-        "created_at": "2021-03-12 17:05:47",
+        "created_at": "2021-03-28 15:19:23",
         "description": "Vajra is a highly customizable target and scope based automated web hacking framework to automate boring recon tasks and same scans for multiple target during web applications penetration testing.",
         "commit_date": "2021-10-29 10:43:47",
         "commit_message": "Update critical.txt",
@@ -24414,8 +24414,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 200,
-        "description": "VSRC首页-唯品会信息安全中心"
+        "status_code": 503,
+        "description": ""
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -24856,8 +24856,8 @@
         "description": "The Rootkit Hunter project"
     },
     "http://dnslog.pw/login": {
-        "status_code": 200,
-        "description": "登录 - DNSlog System"
+        "status_code": 504,
+        "description": "504 Gateway Time-out"
     },
     "http://www.jsons.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.7.8属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.53.47属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27212,8 +27212,8 @@
         "description": "TideFinger  潮汐指纹 TideFinger  潮汐指纹"
     },
     "http://dnslog.pw/": {
-        "status_code": 200,
-        "description": "登录 - DNSlog System"
+        "status_code": 504,
+        "description": "504 Gateway Time-out"
     },
     "https://findthatlead.com/en": {
         "status_code": 200,
@@ -28278,8 +28278,8 @@
         "description": "Security Onion Solutions"
     },
     "https://www.prelude-siem.org/": {
-        "status_code": 200,
-        "description": "Overview - PRELUDE SIEM - UNITY 360"
+        "status_code": 502,
+        "description": "502 Proxy Error"
     },
     "https://rasp.baidu.com/doc/install/iast.html": {
         "status_code": 200,
