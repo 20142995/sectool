@@ -372,8 +372,8 @@
     "https://github.com/lal0ne/vulnerability": {
         "created_at": "2022-01-20 02:48:42",
         "description": "收集、整理、修改互联网上公开的漏洞POC",
-        "commit_message": "CVE-2024-40075",
-        "commit_date": "2024-07-25 02:26:20"
+        "commit_message": "CVE-2024-38077",
+        "commit_date": "2024-08-09 02:50:44"
     },
     "https://github.com/CTF-MissFeng/GoScan": {
         "created_at": "2020-12-13 11:08:12",
@@ -1067,13 +1067,13 @@
         "release_message": "Initial release"
     },
     "https://github.com/Yong-An-Dang/nuclei-plus": {
-        "created_at": "2024-07-18 06:36:58",
+        "created_at": "2024-08-07 14:11:07",
         "description": "Functional enhancement based on nuclei",
-        "commit_date": "2024-07-22 03:28:37",
-        "commit_message": "修复问题：#10\n\n新建项目或打开项目时，出现多个系统托盘的bug",
+        "commit_date": "2024-08-08 13:10:37",
+        "commit_message": "新增模板刷新等待进度条",
         "release_tag": "v7.0.0",
-        "release_date": "2024-07-18 09:41:42",
-        "release_message": "### 🐛 修复\r\n- 修复启动报错：目录创建失败 #30\r\n- \r\n### ⭐ 优化\r\n- 模板同步接口中模板内容的content字段使用Base64编解码\r\n- 优化模板加载与过滤\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.3.2...v7.3.5"
+        "release_date": "2024-08-07 14:11:26",
+        "release_message": "> 配置文件有变更，建议备份后重新生成配置文件\r\n\r\n### 💯 新增\r\n- 新增http流生成模板面板，实现智能生成PoC模板（基于大语言模型，配套服务：[nuclei-plus-server](https://github.com/Yong-An-Dang/nuclei-plus-server)）\r\n\r\n### ⭐ 优化\r\n- 优化模板同步接口：默认配置路径拼接 + “/template/sync”\r\n- 优化同步dir的获取\r\n- 模板编辑面板自动补全快捷键：ctrl +i\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.3.5...v7.4.8"
     },
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2024-03-07 09:30:14",
@@ -3429,8 +3429,8 @@
     "https://github.com/yogeshojha/rengine": {
         "created_at": "2024-07-30 03:32:10",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_message": "Merge pull request #1353 from jxdv/remove-redundant-dockerfile-variables\n\nremove redundant docker environment variables",
-        "commit_date": "2024-08-04 02:06:07",
+        "commit_message": "Merge pull request #1363 from yogeshojha/1362-bug-rengine-installation-error-failed-during-requirements-installation\n\nfix: reNgine installation issue due to orjson and langchain #1362",
+        "commit_date": "2024-08-09 03:19:05",
         "release_date": "2024-07-30 03:39:32",
         "release_message": "## What's Changed\r\n\r\n### Security update\r\n* (Security) CVE-2024-41661 Fix Authenticated command injection in WAF detection tool reported by @n-thumann Advisory https://github.com/yogeshojha/rengine/security/advisories/GHSA-fx7f-f735-vgh4\r\n\r\n### Bug Fixes\r\n\r\n* Fix issue while initiating periodic and clocked scan #1322 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1328\r\n* Fix 500 error on \"Test Hackerone api Key\" by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1332\r\n* UI Typos and bug Fixes #1333 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1334\r\n* Fix error during tool update Fixes #1152 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1335\r\n* Upgrade setuptools to 72.1.0 to resolve installation error by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1338\r\n* (chores) Fix github pages build by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1339\r\n* Fix subdomain import for subdomains with suffixes more than 4 chars Fixes #1128 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1340\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.1.1...v2.1.2"
     },
@@ -3856,12 +3856,12 @@
         "release_message": "BBScan 3.0"
     },
     "https://github.com/anchore/syft": {
-        "created_at": "2024-07-30 16:13:22",
+        "created_at": "2024-08-09 17:52:21",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
-        "commit_message": "fix: use organization for package supplier when reading Java vendor fields  (#3093)\n\nSigned-off-by: Harippriya Sivapatham <harippriyasivapatham@gmail.com>",
-        "commit_date": "2024-08-03 20:00:55",
-        "release_date": "2024-07-30 16:20:36",
-        "release_message": "### Added Features\n\n- Detect go main module from partial package builds [[#3060](https://github.com/anchore/syft/pull/3060) @wagoodman]\n- Support traefik in linux/arm/v6, linux/riscv64 [[#3038](https://github.com/anchore/syft/issues/3038) [#3077](https://github.com/anchore/syft/pull/3077) @witchcraze]\n- Catalog TiDB binary [[#2763](https://github.com/anchore/syft/issues/2763)]\n- Generate a Maven friendly CPE [[#3042](https://github.com/anchore/syft/issues/3042) [#3045](https://github.com/anchore/syft/pull/3045) @kzantow]\n\n### Bug Fixes\n\n- Only match ldflag version if it matches the main module or targets main.version [[#3062](https://github.com/anchore/syft/pull/3062) @LaurentGoderre]\n- python requirements.txt cataloger: allow dots in python package names [[#3070](https://github.com/anchore/syft/pull/3070) @Mikcl]\n- SPDX output performance with many relationships [[#3053](https://github.com/anchore/syft/pull/3053) @kzantow]\n- Order CPEs deterministically for SBOM reproducibility [[#2967](https://github.com/anchore/syft/issues/2967) [#3085](https://github.com/anchore/syft/pull/3085) @kzantow]\n- Python packages: name normalization [[#3064](https://github.com/anchore/syft/issues/3064) [#3069](https://github.com/anchore/syft/pull/3069) @Mikcl]\n- Syft report panics with the golang cataloger [[#3037](https://github.com/anchore/syft/issues/3037) [#3043](https://github.com/anchore/syft/pull/3043) @willmurphyscode]\n\n### Additional Changes\n\n- add debug logging for errors reading RPM files [[#3051](https://github.com/anchore/syft/pull/3051) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.9.0...v1.10.0)**\n\n"
+        "commit_message": "test: increase java purl generation test coverage (#3110)\n\nensures correct package url generation for more java packages now that\r\nsyft has more deterministic results per https://github.com/anchore/syft/pull/3085\r\n\r\nSigned-off-by: Weston Steimel <commits@weston.slmail.me>",
+        "commit_date": "2024-08-09 10:14:10",
+        "release_date": "2024-08-09 18:00:27",
+        "release_message": "### Added Features\r\n\r\n- Added the SWI Prolog (swipl) ecosystem [[#3076](https://github.com/anchore/syft/pull/3076) @LaurentGoderre]\r\n- Improved java cataloging [[#2769](https://github.com/anchore/syft/pull/2769) @GijsCalis]\r\n\r\n### Bug Fixes\r\n\r\n- Empty version field on some dependencies when reading pom.xml [[#1129](https://github.com/anchore/syft/issues/1129) [#2769](https://github.com/anchore/syft/pull/2769) @GijsCalis]\r\n- Support Maven multi-level configuration file / parent POM [[#2017](https://github.com/anchore/syft/issues/2017) [#2769](https://github.com/anchore/syft/pull/2769) @GijsCalis]\r\n- DependencyManagement ignored in pom.xml [[#1813](https://github.com/anchore/syft/issues/1813) [#2769](https://github.com/anchore/syft/pull/2769) @GijsCalis]\r\n- Version parsing regression for Go binaries [[#3086](https://github.com/anchore/syft/issues/3086) [#3087](https://github.com/anchore/syft/pull/3087) @spiffcs]\r\n\r\n### Additional Changes\r\n\r\n- rather than have a hard max recursive depth - syft should detect parent pom cycles [[#2284](https://github.com/anchore/syft/issues/2284) [#2769](https://github.com/anchore/syft/pull/2769) @GijsCalis]\r\n- increase java purl generation test coverage [[#3110](https://github.com/anchore/syft/pull/3110) @westonsteimel]\r\n- Updated PackageSupplier to type Organization for JAR files [[#3093](https://github.com/anchore/syft/pull/3093) @harippriyas]\r\n- Ensure accurate java main artifact name retrieval for multi-JARs and refine fallback approach [[#3054](https://github.com/anchore/syft/pull/3054) @dor-hayun]\r\n\r\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.10.0...v1.11.0)**\r\n\r\n"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2024-08-01 13:02:57",
@@ -4219,7 +4219,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-08-10 20:21:00"
+        "commit_date": "2024-08-11 20:20:54"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -4553,10 +4553,10 @@
         "release_message": ""
     },
     "https://github.com/baidu/dperf": {
-        "created_at": "2021-12-21 08:02:08",
+        "created_at": "2024-06-05 10:43:58",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_message": "Merge pull request #475 from pengjianzhang/main\n\ntry to disable mq_rx_rss at port config",
-        "commit_date": "2024-07-23 10:20:29",
+        "commit_message": "Merge pull request #480 from pengjianzhang/main\n\nfix: compilation warning",
+        "commit_date": "2024-08-10 05:18:09",
         "release_date": "2024-06-05 10:58:44",
         "release_message": "## v1.7.0 - 2024-06-06\r\n\r\nAfter more than six months, the 1.7.0 version has finally been released. [Pengfei Zhang](https://github.com/zhangpengfei-xyz) contributed many features to this version. Thank you, Pengfei Zhang, for making dperf more powerful. We welcome more developers to join us and make dperf even better.\r\n\r\n### Added\r\n\r\n- send http post requests\r\n\r\n- dpdk pdump\r\n\r\n    thanks ZhangPengfei\r\n\r\n- fast_close: use RST to close connections\r\n\r\n- support DPDK-23.11 and DPDK-24\r\n\r\n- enable simd512\r\n\r\n- disable ack\r\n\r\n- configure retransmit timeout\r\n\r\n### Changed\r\n\r\n- config DPDK log level\r\n\r\n- clear_screen: dperf can clear screen output and make the screen cleaner\r\n\r\n- static linking\r\n\r\n    thanks ZhangPengfei\r\n\r\n### Fixed\r\n\r\n- dpdk cleanup\r\n\r\n    thanks ZhangPengfei\r\n\r\n- CFLAGS override\r\n\r\n    thanks ZhangPengfei\r\n\r\n- missspell\r\n\r\n    thanks ZhangPengfei\r\n\r\n- don't clear sequences in time-wait state"
     },
@@ -5065,12 +5065,12 @@
         "release_message": ""
     },
     "https://github.com/FreeRDP/FreeRDP": {
-        "created_at": "2024-07-08 09:00:33",
+        "created_at": "2024-08-08 10:03:39",
         "description": "FreeRDP is a free remote desktop protocol library and clients",
-        "commit_message": "Merge pull request #10431 from ivelin91/fix-json-typos\n\nfix(winpr-json): typos causing make errors",
-        "commit_date": "2024-08-02 14:06:40",
-        "release_date": "2024-07-08 09:11:26",
-        "release_message": "Bugfix release for 3.6.2 issues reported\r\n\r\n## Noteworthy changes:\r\n* fix a graphics regression (#10352)\r\n* workaround for a protocol bug of older FreeRDP based servers (#10358)\r\n* fix possible NULL dereference in command line parser (#10348)\r\n* fix intrinsics detection (#10346, #10350)\r\n\r\nFor a complete and detailed change log since the last release run:\r\ngit log 3.6.3...3.6.2\r\n\r\n## New Contributors\r\n* @Frederick888 made their first contribution in https://github.com/FreeRDP/FreeRDP/pull/10348\r\n\r\n**Full Changelog**: https://github.com/FreeRDP/FreeRDP/compare/3.6.2...3.6.3"
+        "commit_message": "Merge pull request #10463 from akallabeth/ncrypt_checks\n\n[winpr,ncrypt] check p11 for NULL",
+        "commit_date": "2024-08-09 09:01:17",
+        "release_date": "2024-08-08 10:13:08",
+        "release_message": "This release has accumulated quite a number of changes. Along bugfixes for 3.6.3 it also\r\n contains a number of improvements for distributors:\r\n \r\n * Support for FDK-AAC for sound and microphone redirection (activate with -DWITH_FDK_AAC=ON build option)\r\n   This allows enabling the AAC compression that do not ship faad2 and/or faac\r\n * Support keyboard layouts as JSON resources (activate with -DWITH_KEYBOARD_LAYOUT_FROM_FILE=ON build option,\r\n   also requires JSON support)\r\n   This allows editing keyboard layouts for existing releases should the need arise\r\n * Support timezones as JSON resources (activate with -DWITH_TIMEZONE_FROM_FILE=ON -DWITH_TIMEZONE_COMPILED=OFF build options,\r\n   also requires JSON support)\r\n   Allows reading the mapping between IANA and windows timezones from a JSON file, allowing easier updates without recompile\r\n * Improve shadow server compatibility with windows 11 24H2 RDP client\r\n   Windows 7 RFX and bitmap updates with multiple rectangles have been deactivated, so adjust shadow to not send such.\r\n \r\n## Noteworthy changes:\r\n * Fix ActionScript paramter (#10423)\r\n * Support keyboard layouts as JSON resource (#10394)\r\n * Support timezones as JSON resource and command line argument (#10428 #10393 #10391)\r\n * Deactivate AsyncUpdate (#10402)\r\n * Compatibility fixes for shadow with windows 11 24H2 (#10455 #10422 #10420 #10416)\r\n * Fix SDL client autoreconnect (#10390)\r\n * Fix xfreerdp clipboard locking (#10385)\r\n * Improve logging (#10426 #10441)\r\n * Improve warnings and code checks (#10381 #10401 #10403 #10405 #10406 #10410 #10421 #10454)\r\n * Support FDK-AAC (#10372)\r\n * Fix drive redirection state transitions (#10367 #10374)\r\n * Support mth:// routing token (#10366)\r\n * Ignore unsupported SetThreadPriority (#10363)\r\n * Fix reported documentation and code typos (#10365 #10368 #10370 #10369 #10431 #10446)\r\n\r\n## New Contributors\r\n* @abenson made their first contribution in https://github.com/FreeRDP/FreeRDP/pull/10369\r\n* @hedwigz made their first contribution in https://github.com/FreeRDP/FreeRDP/pull/10398\r\n* @MatthewAllDev made their first contribution in https://github.com/FreeRDP/FreeRDP/pull/10409\r\n* @github-actions made their first contribution in https://github.com/FreeRDP/FreeRDP/pull/10428\r\n* @ivelin91 made their first contribution in https://github.com/FreeRDP/FreeRDP/pull/10431\r\n\r\n**Full Changelog**: https://github.com/FreeRDP/FreeRDP/compare/3.6.3...3.7.0"
     },
     "https://github.com/iSafeBlue/fastjson-autotype-bypass-dem": {
         "created_at": "",
@@ -6301,8 +6301,8 @@
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2024-07-09 06:09:55",
         "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-        "commit_message": "build: Updated ImGui to v1.91.0",
-        "commit_date": "2024-08-03 21:49:47",
+        "commit_message": "patterns: Updated pattern language",
+        "commit_date": "2024-08-10 07:17:41",
         "release_date": "2024-07-09 06:39:05",
         "release_message": "## Improvements\r\n- Pattern hover highlighting performance has been drastically improved\r\n- Completely eradicated any Window flickering during resizes on Windows and the Web\r\n- Toolbar items now have tooltips\r\n- The web version can now be properly used on mobile and with touch inputs\r\n- Custom plugins can once again be built using the SDK\r\n- File dialogs now belong to the ImHex window on Linux. Thanks a lot to @btzy \r\n\r\n## Bug Fixes\r\n- Fixed a crash that triggered when an auto backup was being created on macOS\r\n- Fixed liblzma not being configured in correctly on all OSes\r\n- Having debug mode enabled in a pattern no longer makes the UI lag out after evaluation\r\n- The find and goto popups no longer go transparent when opening a combo box within them\r\n- Fixed a rare crash when re-evaluating patterns while a sorting option was selected\r\n\r\n## Pattern Language\r\n- Added builtin crc8, crc16 and crc64 hash functions\r\n- The crc functions can now also be used with strings \r\n- Fixed a bug where patterns passed to non-type template parameters would get hidden\r\n- std::mem::find_sequence and co are now HUNDREDS of times faster. This includes std::mem::MagicSearcher\r\n\r\n# Previous Release \r\n\r\n## Additions\r\n- Added basic process memory provider support to macOS\r\n    - Due to limitations on Apple's side, this only works with SIP disabled\r\n- View providers can now be renamed\r\n- Added options to load files into memory or read data from disk instead, independent of the file size\r\n- Find results can now be exported as CSVs, TSVs and JSONs. Thanks a lot to @SparkyTD\r\n- Added various per-byte highlights to the hex editor minimap\r\n    - The minimap can now display the highlighting of individual bytes\r\n- Added a digital signal pattern visualizer\r\n- The pattern data view now uses nicer colors and strings to convey information\r\n- The recent files section on the welcome screen can now be collapsed\r\n- You can now scroll the hex editor view faster by holding down CTRL or even faster when holding down SHIFT + CTRL\r\n- Added a `--reset-settings` CLI command to clear all settings in case something gets corrupted\r\n\r\n## Improvements\r\n- **Drastically improved rendering times**\r\n- Added a small moon icon to the welcome screen in nightly builds\r\n- Providers now close instantly\r\n- The hex editor view no longer scrolls when jumping to a selection that's already visible\r\n- Auto project backups are now enabled by default\r\n- Custom data inspector rows now display a nice error message in the UI when they encountered an error\r\n- Bookmark reordering now doesn't swap entries anymore and actually works as expected\r\n- ImHex now displays a little dot in the close button on macOS if there's unsaved changes\r\n- Auto backups no longer remove the dirty status of providers anymore\r\n- SIGINT signals are now being handled to not close ImHex immediately anymore but to show a popup\r\n- UI scaling factors are now limited between 0.1x and 4.0x to prevent issues\r\n    - Larger values are still possible by CTRL-clicking into the slider and entering a value manually\r\n- PageUp + PageDown no longer affects the hex editor selection\r\n- Row highlighting in the pattern data view is now less bright so the text has a better contrast\r\n\r\n## Bug Fixes\r\n- ImHex can now properly load files stored on network drives on Windows\r\n- Fixed crashes when searching for certain regex strings\r\n- Fixed an infinite loop when searching forward/backward with CTRL + F\r\n- Fixed loading of layout files\r\n- Fixed fonts being blurry in some cases\r\n- Bookmark regions can now be set to 1 byte\r\n- Fixes Alt and Ctrl being swapped in the text editor on macOS\r\n- Fixed disassembler always disassembling in little endian\r\n- ImHex no longer tries to store files in system paths now\r\n- Fixed an infinite loop when exporting data selections to a file. Thanks a lot to @FireNX70\r\n- Fixed file name display issues with files that contain unicode characters\r\n- Fixed content store getting stuck sometimes when updating multiple items at once\r\n\r\n## Pattern Language \r\n- `continue` and `break` now work as one would expect\r\n- Added `std::core::execute_function()`\r\n- Arrays can now be initialized using the following syntax:\r\n    - `u32 myArray[5] = { 1, 2, 3, 4, 5 };`\r\n- Added support for constants inside of custom types\r\n- Unsigned, signed and floating point patterns no longer display their hex value in their value by default\r\n- Fixed [[no_unique_address]] not working correctly with bitfields\r\n- Patterns are now highlighted in the hex editor view when hovering over them in the pattern data view\r\n- Patterns in the pattern data view table are now highlighted when they are fully selected in the hex editor view\r\n- Bitfields can now be properly edited in the pattern data view\r\n- The filter in the pattern data view now gets correctly applied again after re-evaluating a pattern\r\n\r\n<br/>\r\n\r\n<p align=\"center\">If you like my work, please consider supporting me on GitHub Sponsors, Patreon or PayPal. Thanks a lot!</p>\r\n<p align=\"center\">\r\n<a href=\"https://github.com/sponsors/WerWolv\"><img src=\"https://werwolv.net/assets/github_banner.png\" alt=\"GitHub donate button\" /> </a>\r\n<a href=\"https://www.patreon.com/werwolv\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Patreon donate button\" /> </a>\r\n<a href=\"https://werwolv.net/donate\"><img src=\"https://werwolv.net/assets/paypal_banner.png\" alt=\"PayPal donate button\" /> </a>\r\n</p"
     },
@@ -6498,8 +6498,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2024-07-27 12:02:24",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "optimize fwrite() arguments",
-        "commit_date": "2024-07-31 22:37:07",
+        "commit_message": "be less forgiving for invalid image indexes",
+        "commit_date": "2024-08-08 00:58:49",
         "release_date": "2024-07-27 16:08:01",
         "release_message": "## What's Changed\n* uhdr.c: default initialize range field for hdr/sdr intent inputs to enc by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7482\n* Fixed typo in documentation of MagickAdaptiveBlurImage by @JonahEMorgan in https://github.com/ImageMagick/ImageMagick/pull/7500\n* Silence warning when freetype delegate is disabled. by @niclet in https://github.com/ImageMagick/ImageMagick/pull/7515\n\n## New Contributors\n* @JonahEMorgan made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7500\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-35...7.1.1-36"
     },
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/08/03 12:29:04",
-        "commit_date": "2024-08-03 12:29:04"
+        "commit_message": "Auto Update 2024/08/12 00:29:23",
+        "commit_date": "2024-08-12 00:29:23"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -23695,10 +23695,10 @@
     "https://github.com/qi4L/JYso": {
         "created_at": "2024-07-24 07:38:01",
         "description": "It can be either a JNDIExploit or a ysoserial.",
-        "commit_message": "Increase CC13",
-        "commit_date": "2024-07-27 07:56:38",
+        "commit_message": "hessian类型的Payload",
+        "commit_date": "2024-08-04 06:58:13",
         "release_date": "2024-07-24 07:43:04",
-        "release_message": "+ 增加CC13 [Issues#47](https://github.com/qi4L/JYso/issues/47)\r\n+ 修复 [Issues#48](https://github.com/qi4L/JYso/issues/48) "
+        "release_message": "+ 增加CC13 [Issues#47](https://github.com/qi4L/JYso/issues/47)\r\n+ 修复 [Issues#48](https://github.com/qi4L/JYso/issues/48) \r\n+ [PR#50](https://github.com/qi4L/JYso/pull/50)\r\n+ hessian反序列化payload生成 [Issues#51](https://github.com/qi4L/JYso/issues/51)"
     },
     "https://github.com/cider-security-research/cicd-goat": {
         "created_at": "2024-07-11 13:31:30",
@@ -24229,8 +24229,8 @@
     "https://github.com/jeremylong/DependencyCheck": {
         "created_at": "2024-07-16 10:39:46",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "fix: skip blank lines in requirements.txt (#6867)",
-        "commit_date": "2024-07-25 10:39:24",
+        "commit_message": "build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.3.0 to 3.3.1 (#6882)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-08-10 13:51:12",
         "release_date": "2024-07-16 11:14:16",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
@@ -24414,8 +24414,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25096,8 +25096,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 200,
-        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -26647,7 +26647,7 @@
     },
     "http://www.atoolbox.net/Tool.php?Id=918": {
         "status_code": 200,
-        "description": "ADFGX密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+        "description": "ADFGX Cipher - A.Tools"
     },
     "http://www.hiencode.com/runkey.html": {
         "status_code": 200,
@@ -26711,7 +26711,7 @@
     },
     "http://www.atoolbox.net/Tool.php?Id=919": {
         "status_code": 200,
-        "description": "同音替代密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+        "description": "Homophonic Substitution Cipher - A.Tools"
     },
     "http://www.hiencode.com/gronsfeld.html": {
         "status_code": 200,
@@ -26907,7 +26907,7 @@
     },
     "http://www.atoolbox.net/Tool.php?Id=920": {
         "status_code": 200,
-        "description": "自动密钥密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+        "description": "Autokey Cipher - A.Tools"
     },
     "http://www.atoolbox.net/Tool.php?Id=930": {
         "status_code": 200,
@@ -26927,7 +26927,7 @@
     },
     "http://www.atoolbox.net/Tool.php?Id=993": {
         "status_code": 200,
-        "description": "恩尼格玛密码机密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+        "description": "Enigma Cipher - A.Tools"
     },
     "http://www.hiencode.com/http_head.html": {
         "status_code": 200,
@@ -26967,7 +26967,7 @@
     },
     "http://www.atoolbox.net/Tool.php?Id=992": {
         "status_code": 200,
-        "description": "Type7密码加密/解密 - 一个工具箱 - 好用的在线工具都在这里！"
+        "description": "Type 7 Cipher - A.Tools"
     },
     "http://www.hiencode.com/base58w.html": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.27.64属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.46.118属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28872,8 +28872,8 @@
     "https://github.com/stamparm/maltrail": {
         "created_at": "2024-07-31 21:28:22",
         "description": "Malicious traffic detection system",
-        "commit_message": "Update generic.txt",
-        "commit_date": "2024-08-05 19:07:16",
+        "commit_message": "Update vidar.txt",
+        "commit_date": "2024-08-11 18:38:43",
         "release_date": "2024-07-31 22:11:03",
         "release_message": "Start-of-month release"
     },
