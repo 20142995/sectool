@@ -7820,8 +7820,8 @@
     "https://github.com/J0o1ey/BountyHunterInChina": {
         "created_at": "2022-03-06 07:42:18",
         "description": "重生之我在安全行业讨口子系列，分享在安全行业讨口子过程中，SRC、项目实战的有趣案例",
-        "commit_date": "2024-02-05 04:54:18",
-        "commit_message": "讨不到口子-Updated\n\n讨不到口子-Updated",
+        "commit_date": "2024-08-09 02:59:08",
+        "commit_message": "Update 重生之我在安全行业讨口子(番外篇②) - 某头部直辖市攻防演练纪实-如何不用0day打下n个点.pdf\n\n解决图文挂掉的问题",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -22548,7 +22548,7 @@
         "release_message": ""
     },
     "https://github.com/bit4woo/reCAPTCHA": {
-        "created_at": "2020-06-13 09:33:13",
+        "created_at": "2017-11-01 06:28:09",
         "description": "reCAPTCHA = REcognize CAPTCHA: A Burp Suite Extender that recognize CAPTCHA and use for intruder payload 自动识别图形验证码并用于burp intruder爆破模块的插件",
         "commit_date": "2023-11-23 07:25:00",
         "commit_message": "Update .gitignore",
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.242.225.147属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.157.14.89属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27108,8 +27108,8 @@
         "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://wooyun.2xss.cc/index.php": {
         "status_code": 200,
