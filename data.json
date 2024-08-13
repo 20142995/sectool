@@ -226,13 +226,13 @@
         "release_message": "## Changelog\n* 743f91d fix: reduce SQLITE_BUSY\n\n"
     },
     "https://github.com/gh0stkey/HaE": {
-        "created_at": "2024-07-23 01:22:43",
+        "created_at": "2024-08-12 02:41:24",
         "description": "HaE - Highlighter and Extractor, Empower ethical hacker for efficient operations.",
-        "commit_date": "2024-07-31 00:57:17",
-        "commit_message": "Update",
+        "commit_date": "2024-08-12 02:41:24",
+        "commit_message": "Version: 3.3.1 Update",
         "release_tag": "2.4.6",
-        "release_date": "2024-07-23 01:27:47",
-        "release_message": "## 更新内容\r\n\r\nHaE 3.3（暨中孚信息元亨实验室**三周年纪念版**）更新内容如下。\r\n\r\n### 功能更新\r\n\r\n1. 新增AI+功能（**实验性**），通过调用阿里（Qwen-Long）和月之暗面（moonshot-v1-128k）的AI大模型API，优化HaE匹配结果。\r\n2. 新增作用域功能，在Config - Setting中可以设置HaE的作用域，可以选择想要高亮提取的模块。\r\n\r\n### 问题修复\r\n\r\n1. 修复Databoard长时间使用卡顿问题。\r\n2. 修复HaE在暗黑主题下加载的Logo颜色问题。\r\n3. 修复项目数据导入、导出提示框过大问题。"
+        "release_date": "2024-08-12 02:42:20",
+        "release_message": "## 更新内容\r\n\r\nHaE 3.3.1更新内容如下。\r\n\r\n### 功能更新\r\n\r\n1. 优化HaE的项目管理提示信息，使用表格方式呈现。\r\n2. 新增`Exclude status`用于排除对应HTTP状态码报文。\r\n3. 新增`Request URI`规则，用于快速发现未授权访问漏洞。\r\n\r\n### 问题修复\r\n\r\n1. 修复Databoard下空列表查询时状态栏停留问题。\r\n2. 修复Databoard下报文多次选中时数据小时问题。\r\n4. 修复特殊场景下的报错问题，容错处理。\r\n5. 修复Config下添加按钮失效问题。\r\n\r\n### 致谢信息\r\n\r\n感谢 @JaveleyQAQ 提供的规则优化建议。"
     },
     "https://github.com/kelvinBen/AppInfoScanner": {
         "created_at": "2022-10-23 08:30:23",
@@ -1026,7 +1026,7 @@
     "https://github.com/sml2h3/ddddocr": {
         "created_at": "2021-07-14 09:00:06",
         "description": "带带弟弟 通用验证码识别OCR pypi版",
-        "commit_date": "2024-07-25 00:43:27",
+        "commit_date": "2024-07-25 02:55:43",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -3014,12 +3014,12 @@
         "release_message": "- Added SNI support\r\n- Minor fixed and improvements"
     },
     "https://github.com/zan8in/afrog": {
-        "created_at": "2024-07-21 13:28:08",
+        "created_at": "2024-08-09 12:29:39",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_message": "version 3.0.9",
-        "commit_date": "2024-07-21 13:26:43",
-        "release_date": "2024-07-21 13:32:40",
-        "release_message": "【BUG】修复了 -t 命令中自动将路径（path）全部转换为小写的错误（BUG）。\r\n------------------\r\n[BUG] The bug that automatically converted all paths to lowercase in the -t command has been fixed."
+        "commit_message": "add version 3.1.1",
+        "commit_date": "2024-08-09 12:29:20",
+        "release_date": "2024-08-09 12:38:27",
+        "release_message": "- 【需求】HTML报告新增 Copy 按钮，一键复制Request请求包。\r\n- 【BUG】修复 afrog 工具中使用 -P 命令指定不存在的YAML文件时，会错误地扫描所有PoC文件的问题。\r\n- ----------------\r\n- Added Copy button to HTML report for one-click Request package copy.\r\n- Resolve the bug where using the '-P' command with a non-existent YAML file for afrog results in scanning all PoCs.\r\n\r\n"
     },
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2024-07-16 04:01:21",
@@ -3918,8 +3918,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2024-07-31 15:52:50",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "fix(misconf): do not set default value for default_cache_behavior (#7234)\n\nSigned-off-by: nikpivkin <nikita.pivkin@smartforce.io>",
-        "commit_date": "2024-08-07 00:11:59",
+        "commit_message": "docs: update air-gapped docs (#7160)\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2024-08-09 06:30:53",
         "release_date": "2024-07-31 16:45:52",
         "release_message": "## Changelog\n* 854c61d34a550a9fcbab3bc59e55b868c15d1962 release: v0.54.1 [release/v0.54] (#7282)\n* 334a1c293bb3d490af2a6d80732f399efaac22f7 fix(flag): incorrect behavior for deprected flag `--clear-cache` [backport: release/v0.54] (#7285)\n* f61725c28b56d80fb46395479842a2ab0c517c5f fix(java): Return error when trying to find a remote pom to avoid segfault [backport: release/v0.54] (#7283)\n* a7b7117fe2c9608e990b42e702cc83675c48f888 fix(plugin): do not call GitHub content API for releases and tags [backport: release/v0.54] (#7279)\n\n"
     },
@@ -4461,8 +4461,8 @@
     "https://github.com/MobSF/Mobile-Security-Framework-MobSF": {
         "created_at": "2024-03-24 21:56:26",
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
-        "commit_message": "Update SECURITY.md (#2418)",
-        "commit_date": "2024-07-31 18:57:39",
+        "commit_message": "[EFR][HOTFIX] Realtime Scan status and logs (#2416)\n\n* Realtime Scan Status in UI and PDF reports\r\n* Scan Status REST API & tests\r\n* Fixes #2414\r\n* Address #2413\r\n* Code QA\r\n* Dependency and version bump",
+        "commit_date": "2024-08-04 19:07:38",
         "release_date": "2024-03-25 18:20:18",
         "release_message": "### v3.9.7 Beta Changelog\r\n\r\n- Features or Enhancements\r\n   - iOS Dynamic Analyzer with Corellium\r\n   - Dynamic Analysis refactoring for Android and iOS\r\n   - Exposed iOS Dynamic Analysis REST APIs\r\n   - Added more helper Frida Scripts for Android and iOS Dynamic Analyzer\r\n   - Frida support improvements Injected Frida Code View, Injection, Spawn, Attach and Session\r\n   - Corellium Reverse SSH connection support\r\n   - Enhancements to ARC and Stack Canary Checks in Mach-O Parsing\r\n   - Frida RPC Hooks support\r\n   - Frida Script QA\r\n   - Runtime Executable Tampering Detection\r\n   - iOS Dynamic Analysis REST API Docs\r\n   - Global Datatables Export as PDF, CSV, XLS, Copy and Print\r\n   - Corellium custom host domain support\r\n   - Huge improvements in Static Analysis report generation page rendering for APKs/IPAs with large amount of data by @JPSxzy8 \r\n   -  Scan independent library file (.so, .dylib, Framework dylib) from APK/IPA Static Analysis Report\r\n   -  Library analysis refactored relative path helper for Django template.\r\n   - Re-introduced RELRO checks for Android, added Dart binary check to avoid Flutter false positives.\r\n   - Improved stripped debug symbol check for ELF and MachO using native OS tools such as nm and objdump when available.\r\n   - Merge iOS Framework and Dylib Analysis.\r\n   - SAST Performance improvements\r\n   - Android API Analysis rule QA\r\n   - Apksigner.jar fallback for signature parsing\r\n   - Simplify MobSF `scan` REST API\r\n   - Support for analysis of iOS Frameworks\r\n   - Android SVG icon parsing improvments\r\n   - Icon analysis refactor and support jpeg and webp icons\r\n   - Github action QA\r\n   - iOS merge findings from swift and objective c rules with same rule identifier. Fixes #2287 \r\n   - iOS Binary analysis, sort regex matches. Fixes #2252\r\n   - Framework dylibs with no extensions to skip PIE checks. Fixes #2307\r\n   - Select correct network_security config. Fixes #2049\r\n   - Android Manifest Analysis added support for detecting task hijacking (StrandHogg 1.0 and StrandHogg 2.0) . Fixes #2124\r\n   - Added new manifest analysis rule to warn on apps targeting older Android OS\r\n   - Updated severity of findings\r\n   - UI improvement for AppSec dashboard to show a loader\r\n   - UI changes in Static Analysis to collapse large no of files in API and Code Analysis for better real estate\r\n   - Improved certificate file analysis for android, jar, aar, and iOS\r\n   - AppLink asset json check multithreading performance improvements\r\n   - Code QA and ruleset improvements with ChatGPT\r\n   - Fixes #2324 , Bug in parsing DSA Public Key parameters for fingerprint calculation.\r\n   - AssetLink check QA\r\n   - Remove Androguard dependency use only features required by MobSF\r\n   \r\n - Security\r\n   -  Arbitrary file writes on Windows with apktool fixed\r\n   -  Fixed an LFI reported by @0x33c0unt\r\n   -  Fixed SSRF in AppLinks and Firebase database checks\r\n     \r\n## What's Changed\r\n* Performance Improvements on SAST by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2251\r\n* add apksigner.jar for reading signatures by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2254\r\n* [HOTFIX] add jar by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2255\r\n* Bump Frida to address crash on M1 Mac by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2258\r\n* Simplify Scan API by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2259\r\n* [HOTFIX] iOS Framework Analysis + Multiple Feature QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2260\r\n* [HOTFIX] Support webp for icon by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2267\r\n* fixed that the icon cannot be found by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2265\r\n* [HOTFIX] Allow jpeg icons by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2268\r\n* Fix jadx and apktool failure due to JDK changes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2269\r\n* [HOTFIX][EFR] Priority Bug Fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2275\r\n* update apktool to 2.9.0 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2278\r\n* Build(deps): Bump django from 4.1.12 to 4.1.13 by @dependabot in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2282\r\n* iOS Dynamic Analysis with Corellium by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2194\r\n* Dynamic Analysis Improvements Android & iOS by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2295\r\n* Dec 2023 QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2297\r\n* [HOTFIX] More Android & iOS Frida Scripts by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2299\r\n* [HOTFIX] Android script loading,  frida injected code view, paramiko SSH issues by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2300\r\n* Enhancements to ARC and Stack Canary Checks in Mach-O Parsing by @cpuu in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* [HOTFIX] RPC hook suggestions + Bug Fix by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2301\r\n* update apktool to 2.9.1 by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2304\r\n* [EFR] QA Request by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2306\r\n* Bug Fixes + Improvements by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2307\r\n* ChatGPT Permission Mapping + Improved Description by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2308\r\n* Windows Python tempfile permission error fix by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2309\r\n* Multiple Features Improved or Added by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2310\r\n* Malware Permission Check for Android by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2313\r\n* [HOTFIX] Bug Fix and QA by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2315\r\n* Using multithreading to improve code efficiency by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2319\r\n* GPT Goodness by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2318\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2323\r\n* [HOTFIX][SECURITY] Fix an LFI, DSA Pub Key parsing bug and dependencies  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2326\r\n* Filter out invalid links by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2322\r\n* [SECURITY] Fix Arbitrary file writes on Windows by @superpoussin22 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2328\r\n* Runtime Exec Tampering Detection, iOS Dynamic REST APIs, Datatables Export  by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2339\r\n* MOBSF_CORELLIUM_API_DOMAIN Update by @HackJJ in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* poetry pyqt5 fixes by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2362\r\n* Remove Androguard dependency use only features required by MobSF by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2363\r\n* Optimize rendering of big lists by @JPSxzy8 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2364\r\n* Update SECURITY.md by @ajinabraham in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2365\r\n* Resolve the situation where the function name is bytes by @ohyeah521 in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2367\r\n\r\n## New Contributors\r\n* @cpuu made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2284\r\n* @HackJJ made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2347\r\n* @JPSxzy8 made their first contribution in https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2351\r\n\r\n**Full Changelog**: https://github.com/MobSF/Mobile-Security-Framework-MobSF/compare/v3.7.6...v3.9.7"
     },
@@ -6463,8 +6463,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: XScanEngine 2024-08-08",
-        "commit_date": "2024-08-07 22:18:18",
+        "commit_message": "Update module: XVisualizationWidget 2024-08-12",
+        "commit_date": "2024-08-12 17:30:58",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -21945,8 +21945,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Revamp database appenders\n\nThis PR splits the documentation of database appenders into their own files.\n\nAs in the previous PRs we:\n\n* check and reformat the configuration options,\n* add links to the Plugin Reference,\n* improve the readability of the description by shortening it and reformatting it,",
-        "commit_date": "2024-08-02 17:35:40",
+        "commit_message": "Fix additional missing links",
+        "commit_date": "2024-08-12 15:59:13",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -24829,7 +24829,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
+        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -24856,8 +24856,8 @@
         "description": "The Rootkit Hunter project"
     },
     "http://dnslog.pw/login": {
-        "status_code": 504,
-        "description": "504 Gateway Time-out"
+        "status_code": 200,
+        "description": "登录 - DNSlog System"
     },
     "http://www.jsons.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -25096,8 +25096,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 200,
-        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -26234,8 +26234,8 @@
     "https://github.com/cliffe/secgen": {
         "created_at": "2015-01-29 16:33:04",
         "description": "Create randomly insecure VMs",
-        "commit_message": "Update security_shepherd installation and configuration",
-        "commit_date": "2024-08-01 00:06:38"
+        "commit_message": "Merge branch 'master' of https://github.com/cliffe/SecGen",
+        "commit_date": "2024-08-11 23:55:23"
     },
     "https://github.com/shengqi158/weak_password_detect": {
         "created_at": "2013-01-24 09:30:06",
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.53.47属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.42.106.79属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27108,8 +27108,8 @@
         "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
-        "status_code": 200,
-        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "http://wooyun.2xss.cc/index.php": {
         "status_code": 200,
@@ -27212,8 +27212,8 @@
         "description": "TideFinger  潮汐指纹 TideFinger  潮汐指纹"
     },
     "http://dnslog.pw/": {
-        "status_code": 504,
-        "description": "504 Gateway Time-out"
+        "status_code": 200,
+        "description": "登录 - DNSlog System"
     },
     "https://findthatlead.com/en": {
         "status_code": 200,
@@ -27404,8 +27404,8 @@
     "https://github.com/sullo/nikto": {
         "created_at": "2023-12-03 16:16:14",
         "description": "Nikto web server scanner",
-        "commit_message": "Apache version",
-        "commit_date": "2024-08-02 16:11:06",
+        "commit_message": "Adjust indentation of SSL info to better line up",
+        "commit_date": "2024-08-08 20:22:30",
         "release_date": "2023-12-03 19:00:51",
         "release_message": "Nikto 2.5.0 has now been promoted to release and the master branch!\r\n\r\n**Note: [Breaking changes](https://github.com/sullo/nikto/wiki/2.5.0-Potentially-Breaking-Changes) to JSON and XML output may have occurred. If you rely on these formats please test before upgrading.**\r\n\r\nThis version contains hundreds of updates over several years, including the highlights below. \r\n- IPv6 support (thanks to @richardleach)\r\n- Updated `db_checks` format uses multiple reference\r\n- Hundreds of OSVDB and BID references replaced\r\n- Removal of some very old and false-positive prone tests\r\n- Decode Netscaler cookies (thanks to @canberkpolat)\r\n- Add `-usecookies` flag to send received cookies with subsequent requests\r\n- Add `-followredirects` flag to signal 3xx responses should be fetched and tested\r\n- Add `-noslash` to remove trailing slash from directories\r\n- Check for indexing on redirect paths\r\n- Alert on `alt-svc` header\r\n- Hundreds of bug fixes, test updates and enhancements, and other optimization changes\r\n\r\nYou can start using Nikto 2.5.0 by performing a `git pull` from the master branch, cloning the repository again, or [downloading the zip file](https://github.com/sullo/nikto/archive/refs/heads/master.zip).\r\n\r\nAs always, if you encounter bugs or problems, please [open an issue](https://github.com/sullo/nikto/issues/new/choose).\r\n\r\n![image](https://github.com/sullo/nikto/assets/1474884/796062af-7cb1-404c-9c0c-720d110d62c7 )\r\n"
     },
@@ -28184,12 +28184,12 @@
         "description": "中远麒麟堡垒机_堡垒机_一键安装支持多云及动态口令数据库审计的堡垒机_官网"
     },
     "https://github.com/DefectDojo/django-DefectDojo": {
-        "created_at": "2024-07-29 18:44:47",
+        "created_at": "2024-08-12 17:39:07",
         "description": " DevSecOps, ASPM, Vulnerability Management. All on one platform.",
-        "commit_message": "Merge pull request #10647 from DefectDojo/release/2.36.6\n\nRelease: Merge release into master from: release/2.36.6",
-        "commit_date": "2024-07-29 18:42:02",
-        "release_date": "2024-07-29 18:50:58",
-        "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## 🚩 Database migration\r\n\r\n- Listing Tables: Add toggle switch in system settings @Maffooch (#10617)\r\n\r\n## 🚀 API features and enhancements\r\n\r\n- Uploaded File Management: Centralize file serving and bolster error handling @Maffooch (#10638)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Report ToC: Expand on whitespace escaping @Maffooch (#10646)\r\n- Importer: Correct logic bug for empty scan reports @Maffooch (#10645)\r\n- Refresh Helm Chart Lock File: The removal @Maffooch (#10641)\r\n- Benchmarks: Add additional permissions for AJAX calls @Maffooch (#10640)\r\n- Finding notes cascading deletes @dogboat (#10636)\r\n- Engagement: Add missing permission check to view an Engagement @Maffooch (#10639)\r\n- Uploaded File Management: Centralize file serving and bolster error handling @Maffooch (#10638)\r\n- Update Qualys WebApp parser to use DefusedXML @Maffooch (#10637)\r\n- :bug: extend aqua format issue #10611 @manuel-sommer (#10616)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Report ToC: Expand on whitespace escaping @Maffooch (#10646)\r\n- creds-notes-fixes Some updates to creds/cred-related notes @dogboat (#10644)\r\n- Listing Tables: Add toggle switch in system settings @Maffooch (#10617)\r\n"
+        "commit_message": "Merge pull request #10746 from DefectDojo/release/2.37.1\n\nRelease: Merge release into master from: release/2.37.1",
+        "commit_date": "2024-08-12 17:38:05",
+        "release_date": "2024-08-12 17:54:32",
+        "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.37.0\r\n- fix(k8s): run k8s test on the latest version of k8s and minikube @kiblik (#10737)\r\n- fix aqua parser #10585 @manuel-sommer (#10725)\r\n- fix(helm): Remove leftover from debugging (db-migration-checker) @kiblik (#10683)\r\n- fix(docs): Typo in \"Release Notes\" link @kiblik (#10682)\r\n\r\n## 🚩 Changes to `settings.dist.py` / `local_settings.py`\r\n\r\n- Appcheck web application scanner parser @dogboat (#10723)\r\n\r\n## 🚩 Security\r\n\r\n- Permission fixes @Maffooch (#10713)\r\n- Update to Django 4.2.15 @Maffooch (#10703)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Permission fixes @Maffooch (#10713)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Add anonymous questionnaire to engagement @dogboat (#10734)\r\n\r\n## 🧰 Maintenance\r\n\r\n- Rest Framework: Remove Parallel + Shuffle @Maffooch (#10696)\r\n"
     },
     "https://gitee.com/gy071089/SecurityManageFramwork": {
         "status_code": 200,
@@ -28254,8 +28254,8 @@
         "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
-        "status_code": 200,
-        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
+        "status_code": 502,
+        "description": "错误网关 (502)"
     },
     "https://www.la-samhna.de/": {
         "status_code": 200,
@@ -28278,8 +28278,8 @@
         "description": "Security Onion Solutions"
     },
     "https://www.prelude-siem.org/": {
-        "status_code": 502,
-        "description": "502 Proxy Error"
+        "status_code": 200,
+        "description": "Overview - PRELUDE SIEM - UNITY 360"
     },
     "https://rasp.baidu.com/doc/install/iast.html": {
         "status_code": 200,
