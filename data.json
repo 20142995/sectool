@@ -22764,7 +22764,7 @@
         "release_message": ""
     },
     "https://github.com/Janhsu/oday": {
-        "created_at": "2024-02-01 14:34:55",
+        "created_at": "2023-03-24 13:07:50",
         "description": "javafx编写的poc管理工具和漏洞扫描的小工具",
         "commit_message": "Update README.md",
         "commit_date": "2024-05-21 11:51:26",
@@ -24829,7 +24829,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
+        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -25096,8 +25096,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -25192,8 +25192,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.33.176属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.242.225.147属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
