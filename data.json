@@ -196,8 +196,8 @@
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
         "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
-        "commit_message": "update 2024-07-01 07:44:32",
-        "commit_date": "2024-06-30 23:44:32"
+        "commit_message": "update 2024-08-13 09:50:09",
+        "commit_date": "2024-08-13 01:50:09"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -6281,7 +6281,7 @@
         "release_message": ""
     },
     "https://github.com/guofei9987/blind_watermark": {
-        "created_at": "2021-12-18 14:23:02",
+        "created_at": "2019-07-16 14:08:51",
         "description": "Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！",
         "commit_date": "2024-06-23 12:29:59",
         "commit_message": "Merge pull request #137 from Keycatowo/master\n\nFix logical error in image size check",
@@ -7731,11 +7731,11 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-07-01 08:10:36",
+        "created_at": "2024-08-09 09:36:50",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "Luoluo/feat/linux and mac build (#1785)\n\n* cib打包mac和Linux\r\n\r\n* feat:mac 解压内置引擎区分arch\r\n\r\n* feat:下载引擎和社区版mac和linux区分arm64和amd64\r\n\r\n* feat:asyncFetchCheckYaklangSource:区分arm64和amd64\r\n\r\n* feat:抽离校验引擎是否为官方的方法为getCheckTextUrl;feat:检测引擎版本升级的立即更新区分arm64和amd64\r\n\r\n* feat:getCheckTextUrl增加获取可用域的逻辑，使用可用域\r\n\r\n* doc:ci取消上传yakit-version.txt的注释",
-        "commit_date": "2024-07-08 06:44:29",
-        "release_date": "2024-07-01 08:38:18",
+        "commit_message": "Song/fix/mitm page (#1902)\n\n* fix: mitm部分调整\r\n\r\n* zancun",
+        "commit_date": "2024-08-12 09:14:54",
+        "release_date": "2024-08-09 10:00:04",
         "release_message": ""
     },
     "https://github.com/bartblaze/Yara-rules": {
@@ -24414,8 +24414,8 @@
         "description": "魅族安全中心"
     },
     "https://sec.vip.com/": {
-        "status_code": 503,
-        "description": ""
+        "status_code": 200,
+        "description": "VSRC首页-唯品会信息安全中心"
     },
     "https://sec.wacai.com/": {
         "status_code": 200,
@@ -25192,8 +25192,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 200,
-        "description": "Practical Cryptography"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -25593,7 +25593,7 @@
         "created_at": "2022-03-07 07:52:37",
         "description": "渗透测试工具包 | 开源安全测试工具 | 网络安全工具",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-25 02:26:49"
+        "commit_date": "2024-08-09 07:45:55"
     },
     "https://github.com/vlad902/hacking-team-windows-kernel-lpe": {
         "created_at": "2015-07-11 22:48:59",
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.42.106.79属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.33.176属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28254,8 +28254,8 @@
         "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
-        "status_code": 502,
-        "description": "错误网关 (502)"
+        "status_code": 200,
+        "description": "radar: 实时风控引擎(Risk Engine)，自定义规则引擎(Rule Script)，完美支持中文，适用于反欺诈(Anti-fraud)应用场景，开箱即用！！！移动互联网时代的风险管理利器，你 Get 到了吗？"
     },
     "https://www.la-samhna.de/": {
         "status_code": 200,
