@@ -6281,7 +6281,7 @@
         "release_message": ""
     },
     "https://github.com/guofei9987/blind_watermark": {
-        "created_at": "2019-07-16 14:08:51",
+        "created_at": "2021-12-18 14:23:02",
         "description": "Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！",
         "commit_date": "2024-06-23 12:29:59",
         "commit_message": "Merge pull request #137 from Keycatowo/master\n\nFix logical error in image size check",
@@ -18478,7 +18478,7 @@
         "release_message": ""
     },
     "https://github.com/wikiZ/RedGuard": {
-        "created_at": "2022-05-08 04:02:33",
+        "created_at": "2024-06-18 12:33:35",
         "description": "RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.",
         "commit_date": "2024-06-18 12:33:35",
         "commit_message": "Optimized the problem of requesting regional restriction matching errors",
@@ -25096,8 +25096,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.78.42属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.24.190属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27108,8 +27108,8 @@
         "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://wooyun.2xss.cc/index.php": {
         "status_code": 200,
