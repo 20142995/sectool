@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.24.190属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.77.201属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27620,12 +27620,12 @@
         "description": "CacheSleuth - Brainfuck & Ook! Code"
     },
     "https://github.com/alwaystest18/cdnChecker": {
-        "created_at": "2024-03-12 11:38:49",
+        "created_at": "2024-08-08 08:04:43",
         "description": "A tool to detect CDN for given domains",
-        "commit_message": "调整参数",
-        "commit_date": "2024-06-15 00:41:43",
-        "release_date": "2024-03-12 13:31:27",
-        "release_message": "## Changelog\n* 834fa86 修复windows下\\r\\n换行导致的bug\n* 761a311 有效dns低于20时不再退出程序,改为仅提醒\n* a7d831a 修复某些dns解析域名ip为dns自身ip导致的误报\n* d5b665c update cdn cname list\n* e7dd9d5 增加自动打包\n* 38f8ce2 update dns server\n* 986e826 优化程序内存占用\n* 0fee227 增加常见问题补充\n* 94da415 Merge branch 'master' of github.com:alwaystest18/cdnChecker\n* a799a5d 增加域名+ip的内容输出，方便根据ip反查对应域名\n* 0ff7a8a Update README.md\n* 10415e3 增加域名+ip的内容输出，方便根据ip反查对应域名\n* 7892e91 update cdn cname\n* 6b3da78 Merge branch 'master' of github.com:alwaystest18/cdnChecker\n* f0f1cb2 update cdn cname\n* 1086bcb Update README.md\n* fd1c77e Update README.md\n* 14325a6 Update README.md\n* 360369a Update README.md\n* 2a92e52 Create README.md\n* 2bfa8c9 v1.0\n\n"
+        "commit_message": "增加引用感谢",
+        "commit_date": "2024-08-08 08:04:43",
+        "release_date": "2024-08-09 11:41:14",
+        "release_message": "## Changelog\n* e37f9b0de2e29a49d874541683a69d8cd25bdd71 增加引用感谢\n* 8eaf6bc213f1b1ab43e63ff0de3f80bf8ce6e9bc 增加引用感谢\n* 5f0c40e48e0e4b54b9aebaec1f00ddb29bc6a8eb 增加cdn cname列表\n* e84ae68d4e4c324e2788b6910c5e3f7ca5d9522a 增加cdn cname列表\n* 2b17ff39b0b8994cefd5c2c5b6d42a9a7879a522 升级部分依赖包版本,修复漏洞\n* be4f2584fe83bf3340944098d5a7161d4cbc581d 更新cdn_cname列表\n* d7b38db6257f140c2ffbb32ff9315213b28ebd19 调整参数\n* 834fa8646c81abb30bcfb599adbd60cddaa68b48 修复windows下\\r\\n换行导致的bug\n* 761a311187d5a25716c218f2db7adf5bfbe9ecbd 有效dns低于20时不再退出程序,改为仅提醒\n* a7d831a032e8ebe577c4cebd7224b1a5a9106d4c 修复某些dns解析域名ip为dns自身ip导致的误报\n* d5b665c3c21391a26d894f452fc864fece966e50 update cdn cname list\n* e7dd9d5e3cd2f54209745e00de4d7400f0e7561d 增加自动打包\n* 38f8ce25a7b38eec6efd99fc2948a5cbc2f1ff45 update dns server\n* 986e82611f00f9cc8be46a36421ccbb9fcd81a72 优化程序内存占用\n* 0fee2277c5d9e79d3821fb0e922d929f951b3b2f 增加常见问题补充\n* 94da4152b5c9fd773333c5ebdb49866b71a15012 Merge branch 'master' of github.com:alwaystest18/cdnChecker\n* a799a5dd14d708e2f864350e45c76d6b266237ad 增加域名+ip的内容输出，方便根据ip反查对应域名\n* 0ff7a8a9312973a329a69e7b3d606cd01898b8fe Update README.md\n* 10415e3048eef263719cfa924d5a897f77b4bc04 增加域名+ip的内容输出，方便根据ip反查对应域名\n* 7892e914a18c4af3685d888b88475469ef9042d8 update cdn cname\n* 6b3da784e100033d2a727e68420cefa1bdccd10c Merge branch 'master' of github.com:alwaystest18/cdnChecker\n* f0f1cb2f8e636df4cafba1d501473f416407e35c update cdn cname\n* 1086bcbe2882db4c1b8c645d513bbb1af837c292 Update README.md\n* fd1c77e6442e27e6e2edd0e8c3643b84ec160c44 Update README.md\n* 14325a6fd99ed26ae5510087c8b571b363e3dbff Update README.md\n* 360369aa79b3162eec41c22f87e12368b4a48d1b Update README.md\n* 2a92e520091b6ffc897d5466da8a634f3c096141 Create README.md\n* 2bfa8c9d466008fd2ff64cb33b6a332fb1ef04e3 v1.0\n\n"
     },
     "https://github.com/izcoser/stegpy": {
         "created_at": "2018-08-22 20:51:57",
@@ -28250,8 +28250,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
