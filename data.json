@@ -1949,7 +1949,7 @@
         "release_message": "当发送到fastjson scan请求的content-type不是json时，强制将其改为application/json进行测试"
     },
     "https://github.com/weishen250/npscrack": {
-        "created_at": "2023-02-16 14:11:38",
+        "created_at": "2023-02-16 14:41:11",
         "description": "蓝队利器、溯源反制、NPS 漏洞利用、NPS exp、NPS poc、Burp插件、一键利用",
         "commit_date": "2023-03-14 09:43:45",
         "commit_message": "Add files via upload",
@@ -3625,7 +3625,7 @@
         "commit_date": "2024-04-12 07:08:35"
     },
     "https://github.com/teamssix/container-escape-check": {
-        "created_at": "2022-03-17 11:00:37",
+        "created_at": "2022-04-07 11:10:26",
         "description": "docker container escape check || Docker 容器逃逸检测",
         "commit_date": "2022-04-19 07:50:10",
         "commit_message": "Merge pull request #2 from teamssix/add-license-1\n\nCreate LICENSE",
@@ -25096,8 +25096,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.40.27属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.76.106.55属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
