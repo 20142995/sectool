@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.118.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.138.50属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28054,7 +28054,7 @@
         "release_message": "OWASP VBScan 0.1.8 [Self Challenge]\r\n============\r\n* Updated vulnerabilities database\r\n* \"Email Before Registration Plugin\" SQL exploit added\r\n* \"Tapatalk vbulletin plugin\" exploit added\r\n* \"Routestring RCE\" exploit added\r\n* Vbulletin possible password logger detector added\r\n* Allow start from any path\r\n* OpenRedirection founder module added\r\n* Vbulletin version comparing module added\r\n* A few enhancements"
     },
     "https://github.com/errors11/TomcatVuln": {
-        "created_at": "2024-04-18 06:25:24",
+        "created_at": "2024-04-16 12:01:02",
         "description": "Tomcat漏洞利用工具",
         "commit_message": "update passwordExp",
         "commit_date": "2024-04-18 11:52:42",
