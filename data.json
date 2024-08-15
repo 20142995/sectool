@@ -18990,8 +18990,8 @@
     "https://github.com/gaoyifan/china-operator-ip": {
         "created_at": "2017-01-19 10:11:16",
         "description": "中国运营商IPv4/IPv6地址库-每日更新",
-        "commit_date": "2023-04-26 10:25:27",
-        "commit_message": "china set exclude AS132203 (fix #27)",
+        "commit_date": "2024-08-14 05:54:19",
+        "commit_message": "fix axel error when action retried `No state file, cannot resume`",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.138.50属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.102.199.102属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
