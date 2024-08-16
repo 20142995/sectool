@@ -24992,8 +24992,8 @@
         "description": "CTF在线工具-在线核心价值观编码|核心价值观编码算法|Core Values Encoder"
     },
     "https://www.microsoft.com/en-us/download/details.aspx?id=24659": {
-        "status_code": 404,
-        "description": "Error 404 - Not Found"
+        "status_code": 200,
+        "description": "Download Log Parser 2.2 from Official Microsoft Download Center"
     },
     "https://www.ifm.net.nz/cookbooks/passwordcracker.html": {
         "status_code": 200,
@@ -25312,8 +25312,8 @@
         "description": "MD5免费在线解密破解_MD5在线加密-SOMD5"
     },
     "https://www.chamd5.org/": {
-        "status_code": 500,
-        "description": "运行时错误"
+        "status_code": 522,
+        "description": "www.chamd5.org | 522: Connection timed out"
     },
     "http://pan.baidu.com/s/1pLjaQKF": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.123.42.228属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.249.13.129属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28200,8 +28200,8 @@
         "description": "开源应用运行时自我保护解决方案 - OpenRASP - 百度安全"
     },
     "https://www.snort.org": {
-        "status_code": 200,
-        "description": "Snort - Network Intrusion Detection & Prevention System"
+        "status_code": 503,
+        "description": "Application Error"
     },
     "https://github.com/loveshell/ngx_lua_waf": {
         "created_at": "2013-03-23 10:15:27",
