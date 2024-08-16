@@ -578,7 +578,7 @@
         "release_message": "修复fernflow引擎的一些bug"
     },
     "https://github.com/shadow1ng/fscan": {
-        "created_at": "2024-05-11 08:09:14",
+        "created_at": "2020-11-13 16:35:20",
         "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
         "commit_message": "GitHub action go-version: 1.20.14",
         "commit_date": "2024-06-15 09:10:56",
@@ -624,8 +624,8 @@
     "https://github.com/jackfrued/Python-100-Days": {
         "created_at": "2018-03-01 16:05:52",
         "description": "Python - 100天从新手到大师",
-        "commit_date": "2024-05-30 10:30:37",
-        "commit_message": "修改了README文件",
+        "commit_date": "2024-08-15 10:52:19",
+        "commit_message": "更新了部分文档",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -22764,7 +22764,7 @@
         "release_message": ""
     },
     "https://github.com/Janhsu/oday": {
-        "created_at": "2023-03-24 13:07:50",
+        "created_at": "2024-02-01 14:34:55",
         "description": "javafx编写的poc管理工具和漏洞扫描的小工具",
         "commit_message": "Update README.md",
         "commit_date": "2024-05-21 11:51:26",
@@ -23603,8 +23603,8 @@
     "https://github.com/SexyBeast233/SecDictionary": {
         "created_at": "2023-02-20 07:02:05",
         "description": "实战沉淀字典",
-        "commit_date": "2024-05-28 06:42:54",
-        "commit_message": "敏感词，用于源码过滤codeql、rg、find过滤文本使用",
+        "commit_date": "2024-08-13 14:02:04",
+        "commit_message": "增加实战管检测 来源：真实路径、真实参数，zhtxtFinder提取",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -25312,8 +25312,8 @@
         "description": "MD5免费在线解密破解_MD5在线加密-SOMD5"
     },
     "https://www.chamd5.org/": {
-        "status_code": 522,
-        "description": "www.chamd5.org | 522: Connection timed out"
+        "status_code": 500,
+        "description": "运行时错误"
     },
     "http://pan.baidu.com/s/1pLjaQKF": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.249.13.129属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.225.77.223属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28200,8 +28200,8 @@
         "description": "开源应用运行时自我保护解决方案 - OpenRASP - 百度安全"
     },
     "https://www.snort.org": {
-        "status_code": 503,
-        "description": "Application Error"
+        "status_code": 200,
+        "description": "Snort - Network Intrusion Detection & Prevention System"
     },
     "https://github.com/loveshell/ngx_lua_waf": {
         "created_at": "2013-03-23 10:15:27",
