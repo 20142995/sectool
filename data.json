@@ -25312,8 +25312,8 @@
         "description": "MD5免费在线解密破解_MD5在线加密-SOMD5"
     },
     "https://www.chamd5.org/": {
-        "status_code": 500,
-        "description": "运行时错误"
+        "status_code": 522,
+        "description": "www.chamd5.org | 522: Connection timed out"
     },
     "http://pan.baidu.com/s/1pLjaQKF": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.225.77.223属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "23.96.249.168属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27108,8 +27108,8 @@
         "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
-        "status_code": 200,
-        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+        "status_code": 504,
+        "description": "rapiddns.io | 504: Gateway time-out"
     },
     "http://wooyun.2xss.cc/index.php": {
         "status_code": 200,
