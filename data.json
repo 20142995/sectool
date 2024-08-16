@@ -3016,8 +3016,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2024-08-09 12:29:39",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_message": "add version 3.1.1",
-        "commit_date": "2024-08-09 12:29:20",
+        "commit_message": "add pocs",
+        "commit_date": "2024-08-13 02:48:02",
         "release_date": "2024-08-09 12:38:27",
         "release_message": "- 【需求】HTML报告新增 Copy 按钮，一键复制Request请求包。\r\n- 【BUG】修复 afrog 工具中使用 -P 命令指定不存在的YAML文件时，会错误地扫描所有PoC文件的问题。\r\n- ----------------\r\n- Added Copy button to HTML report for one-click Request package copy.\r\n- Resolve the bug where using the '-P' command with a non-existent YAML file for afrog results in scanning all PoCs.\r\n\r\n"
     },
@@ -3154,12 +3154,12 @@
         "release_message": ""
     },
     "https://github.com/joke2k/faker": {
-        "created_at": "2024-08-01 16:41:00",
+        "created_at": "2024-08-12 16:25:14",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_message": "Bump version: 26.0.0 → 26.1.0",
-        "commit_date": "2024-08-01 16:40:59",
-        "release_date": "2024-08-01 16:41:44",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v26.1.0/CHANGELOG.md)."
+        "commit_message": "Fix rst syntax",
+        "commit_date": "2024-08-12 17:30:26",
+        "release_date": "2024-08-12 16:25:55",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v27.0.0/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2023-04-24 06:48:58",
@@ -3258,11 +3258,11 @@
         "release_message": ""
     },
     "https://github.com/bytedance/Elkeid": {
-        "created_at": "2024-07-29 07:35:58",
+        "created_at": "2024-08-09 08:57:20",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_message": "Merge pull request #668 from bytedance/main-rasp-fixupdate\n\nMain rasp fixupdate",
-        "commit_date": "2024-07-30 03:55:13",
-        "release_date": "2024-07-29 09:19:22",
+        "commit_message": "LKM: version 1.7.0.21 to be released\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+        "commit_date": "2024-08-14 11:45:31",
+        "release_date": "2024-08-09 09:34:53",
         "release_message": ""
     },
     "https://github.com/knownsec/ct": {
@@ -3918,8 +3918,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2024-07-31 15:52:50",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "docs: update air-gapped docs (#7160)\n\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
-        "commit_date": "2024-08-09 06:30:53",
+        "commit_message": "refactor(misconf): highlight only affected rows (#7310)\n\nSigned-off-by: nikpivkin <nikita.pivkin@smartforce.io>",
+        "commit_date": "2024-08-15 22:58:27",
         "release_date": "2024-07-31 16:45:52",
         "release_message": "## Changelog\n* 854c61d34a550a9fcbab3bc59e55b868c15d1962 release: v0.54.1 [release/v0.54] (#7282)\n* 334a1c293bb3d490af2a6d80732f399efaac22f7 fix(flag): incorrect behavior for deprected flag `--clear-cache` [backport: release/v0.54] (#7285)\n* f61725c28b56d80fb46395479842a2ab0c517c5f fix(java): Return error when trying to find a remote pom to avoid segfault [backport: release/v0.54] (#7283)\n* a7b7117fe2c9608e990b42e702cc83675c48f888 fix(plugin): do not call GitHub content API for releases and tags [backport: release/v0.54] (#7279)\n\n"
     },
@@ -5644,8 +5644,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2024-07-09 02:55:43",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_message": "client plugin: added plugin tls2raw (#4341)",
-        "commit_date": "2024-07-25 06:28:17",
+        "commit_message": "replace github.com/templexxx/xorsimd to the new version (#4373)",
+        "commit_date": "2024-08-07 03:18:17",
         "release_date": "2024-07-09 03:04:23",
         "release_message": "### Features\n\n* Added a new plugin \"http2http\" which allows forwarding HTTP requests to another HTTP server, supporting options like local address binding, host header rewrite, and custom request headers.\n* Added `enableHTTP2` option to control whether to enable HTTP/2 in plugin https2http and https2https, default is true.\n\n### Changes\n\n* Plugin https2http & https2https: return 421 `Misdirected Request` if host not match sni.\n\n"
     },
@@ -7731,11 +7731,11 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-08-09 09:36:50",
+        "created_at": "2024-08-14 08:22:22",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "Song/fix/mitm page (#1902)\n\n* fix: mitm部分调整\r\n\r\n* zancun",
-        "commit_date": "2024-08-12 09:14:54",
-        "release_date": "2024-08-09 10:00:04",
+        "commit_message": "测试关闭 ci 更新文件逻辑 (#1914)",
+        "commit_date": "2024-08-15 03:12:06",
+        "release_date": "2024-08-14 08:46:11",
         "release_message": ""
     },
     "https://github.com/bartblaze/Yara-rules": {
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/08/12 00:29:23",
-        "commit_date": "2024-08-12 00:29:23"
+        "commit_message": "Auto Update 2024/08/16 00:29:58",
+        "commit_date": "2024-08-16 00:29:58"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -17742,8 +17742,8 @@
     "https://github.com/commixproject/commix": {
         "created_at": "2024-01-19 06:40:42",
         "description": "Automated All-in-One OS Command Injection Exploitation Tool.",
-        "commit_date": "2024-07-27 06:00:02",
-        "commit_message": "Minor update",
+        "commit_date": "2024-08-07 04:12:36",
+        "commit_message": "Fixes https://github.com/commixproject/commix/issues/920",
         "release_tag": "v3.8",
         "release_date": "2024-01-19 06:44:15",
         "release_message": "* Fixed: Multiple bug-fixes regarding several reported unhandled exceptions.\r\n* Revised: Minor improvement regarding logging user-supplied command(s) (i.e. `--os-cmd` option) to a file.\r\n* Revised: Improvement regarding parsing HTTP requests through Tor HTTP proxy (i.e. `--tor` switch).\r\n* Added: New (hidden) option `--ignore-stdin` regarding ignoring STDIN input. (via @n00b-bot)\r\n* Revised: Minor improvement regarding successfully completing the scanning process (i.e. in case that parameters with anti-CSRF tokens are omitted). (via @xerxoria)\r\n* Revised: Minor improvement regarding Windows-based payloads for semiblind (i.e. \"file-based\") technique (i.e. command execution output).\r\n* Revised: Minor improvement in semiblind (i.e. \"file-based\") technique, regarding defining the URL where the execution output of an injected payload is shown.\r\n* Added: New switch `--ignore-proxy` to ignore the system default HTTP proxy.\r\n* Revised: Minor improvement regarding parsing HTTP requests through HTTP proxy (i.e. `--proxy` option).\r\n* Added: New switch `--smart` for conducting through tests only in case of positive heuristic(s).\r\n* Added: Translation for [README.md](https://github.com/commixproject/commix/blob/master/doc/translations/README-tr-TR.md) in Turkish. (via @Kazgangap)\r\n* Revised: Minor improvement regarding parsing SOAP/XML POST data.\r\n\r\n_Note: For more check the [detailed changeset](https://github.com/commixproject/commix/compare/v3.8...v3.9)._"
@@ -22364,12 +22364,12 @@
         "release_message": ""
     },
     "https://github.com/xaoyaoo/PyWxDump": {
-        "created_at": "2024-07-23 02:15:17",
+        "created_at": "2024-08-13 05:22:06",
         "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_message": "fix 合并数据库，以及部分专业工具的显示问题",
-        "commit_date": "2024-08-03 05:22:55",
-        "release_date": "2024-07-23 02:18:33",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.0.42\r\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\r\n当前版本存在BUG，请先使用3.0.37版本，新版本正在准备中。\r\n"
+        "commit_message": "add export html",
+        "commit_date": "2024-08-13 15:54:21",
+        "release_date": "2024-08-13 05:27:14",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.1.18\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-11-15 03:33:53",
@@ -24992,8 +24992,8 @@
         "description": "CTF在线工具-在线核心价值观编码|核心价值观编码算法|Core Values Encoder"
     },
     "https://www.microsoft.com/en-us/download/details.aspx?id=24659": {
-        "status_code": 200,
-        "description": "Download Log Parser 2.2 from Official Microsoft Download Center"
+        "status_code": 404,
+        "description": "Error 404 - Not Found"
     },
     "https://www.ifm.net.nz/cookbooks/passwordcracker.html": {
         "status_code": 200,
@@ -25312,8 +25312,8 @@
         "description": "MD5免费在线解密破解_MD5在线加密-SOMD5"
     },
     "https://www.chamd5.org/": {
-        "status_code": 200,
-        "description": "MD5在线解密|md5在线破解|批量破解md5网站 - ChaMd5.Org"
+        "status_code": 500,
+        "description": "运行时错误"
     },
     "http://pan.baidu.com/s/1pLjaQKF": {
         "status_code": 200,
@@ -26234,8 +26234,8 @@
     "https://github.com/cliffe/secgen": {
         "created_at": "2015-01-29 16:33:04",
         "description": "Create randomly insecure VMs",
-        "commit_message": "Merge branch 'master' of https://github.com/cliffe/SecGen",
-        "commit_date": "2024-08-11 23:55:23"
+        "commit_message": "Lab update hosts",
+        "commit_date": "2024-08-14 23:16:06"
     },
     "https://github.com/shengqi158/weak_password_detect": {
         "created_at": "2013-01-24 09:30:06",
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.102.199.102属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.123.42.228属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
