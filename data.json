@@ -25096,8 +25096,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 200,
-        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
+        "status_code": 504,
+        "description": "rapiddns.io | 504: Gateway time-out"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -25312,8 +25312,8 @@
         "description": "MD5免费在线解密破解_MD5在线加密-SOMD5"
     },
     "https://www.chamd5.org/": {
-        "status_code": 522,
-        "description": "www.chamd5.org | 522: Connection timed out"
+        "status_code": 200,
+        "description": "MD5在线解密|md5在线破解|批量破解md5网站 - ChaMd5.Org"
     },
     "http://pan.baidu.com/s/1pLjaQKF": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "23.96.249.168属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.102.214.6属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27108,8 +27108,8 @@
         "description": "站长工具_whois查询工具_爱站网"
     },
     "https://rapiddns.io/sameip": {
-        "status_code": 504,
-        "description": "rapiddns.io | 504: Gateway time-out"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://wooyun.2xss.cc/index.php": {
         "status_code": 200,
