@@ -956,8 +956,8 @@
     "https://github.com/chaitin/xray": {
         "created_at": "2024-07-10 06:28:59",
         "description": "一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档",
-        "commit_date": "2024-07-10 06:28:59",
-        "commit_message": "[add] 更新evilpot，修复大数计算bug，以及加法计算错误",
+        "commit_date": "2024-08-16 07:18:55",
+        "commit_message": "[add] 更新客服信息",
         "release_tag": "1.9.11",
         "release_date": "2024-07-19 11:12:29",
         "release_message": "## 更新日志\r\n\r\n**注意**：本次升级涉及较大配置文件变动。推荐在备份好原配置文件后删除旧文件，并根据新的 example 配置文件重新编写配置。如果未进行变更，系统会将配置文件进行备份，使用默认配置进行扫描。\r\n\r\n---\r\n\r\n### 修复问题\r\n\r\n1. **修复 Ctrl-C 无法中断扫描的问题**：\r\n    - 修复了在扫描过程中按 Ctrl-C 无法中断操作的问题，提升用户体验。\r\n\r\n### 优化改进\r\n\r\n1. **优化 debug 输出内容**：\r\n    - 改进了调试信息的输出格式，使信息更加明确和美观，便于调试和排查问题。\r\n\r\n2. **提高扫描性能，降低内存占用**：\r\n    - 修复 go html 库的 maxbuf 配置未导出导致的可能存在的内存溢出问题。\r\n    - 为响应数据的图标和标题增加了缓存机制，提升处理效率。\r\n    - 增加 HTML 解析的最大长度限制，防止解析过长数据导致的问题。\r\n    - 修复上游正则库中的垃圾回收（GC）问题，提升系统稳定性。\r\n    - 优化插件执行效率，使扫描过程更为高效。\r\n    - 优化缓存机制，减少内存使用量。\r\n\r\n### 新增功能\r\n\r\n1. **新增 example 配置文件，减少非常用配置变更带来的冲突问题**：\r\n    - 新版本 xray 2.0 系列工具会创建一个 example 文件，不再创建默认配置文件。用户可以复制 example 文件并去掉 example 后缀，然后修改其中内容。\r\n\r\n2. **YAML 插件变化**：\r\n    - 新增 `print` 函数：方便在调试场景下打印信息。\r\n    - 新增 `uuid` 函数：支持生成随机的 UUID。\r\n    - 新增 `format` 函数：支持格式化字符串，可以通过指定对齐字符、前缀和步进参数来调整字符串的显示样式。\r\n    - 新增 `bload` 函数：支持将字符串数据按照特定编码规则转换为字节序列。\r\n    - 新增 `gzip` 函数：支持对字符串或字节序列数据进行 GZIP 压缩。\r\n    - 新增 `decToHex` 函数：支持将十进制转换为十六进制。\r\n    - 在 YAML 插件中，定义变量时，下划线开头的变量将不会输出：\r\n        - 这样在输出时，JSON 中不会包含某些不希望输出的变量值。\r\n    - 增强 YAML 插件的鲁棒性，支持在函数中填写不同数据类型。所有只能填写字符串或字节的数据项，两者都可以填写，不再报错。\r\n    - 支持函数调用和方法调用两种方式，即 `func(v1,v2)` 和 `v1.func(v2)` 均可，不再报错。\r\n    - 修复 `icon` 函数，使其行为逻辑与 `getIconContent` 函数保持一致。\r\n    - udp/tcp的request支持获取addrType类型的参数\r\n\r\n3. **支持在未配置的情况下调用 dnslog.cn 进行漏洞检测**：\r\n    - 新增对 dnslog.cn 的支持，即使未进行相关配置也能使用该服务进行漏洞检测。\r\n\r\n### 其他改进\r\n\r\n1. **修复缓存和不合理的超时配置导致的扫描结果不稳定问题**：\r\n    - 改进缓存机制和超时配置，解决因配置不当导致的扫描结果不稳定问题。\r\n\r\n2. **为 group 命令添加 path 约定**：\r\n    - 为 `group` 命令添加路径约定，以便使用 `group` 文件的相对路径。在 `group` 中使用 `{{path}}` 将用 `group` 文件本身的路径替换该内容。\r\n\r\n3. **新特性：多目标输入支持多个 -t 参数**：\r\n    - 取消多目标输入时使用逗号分隔的方式，改为支持以多个 `-t` 输入多个目标，因为 URL 中可能存在逗号，避免冲突。"
@@ -6119,7 +6119,7 @@
         "release_message": "    1、Suid shell bash检测判断\r\n    2、重写生成代码(优化商城模块)\r\n    3、BT后渗透脚本编写\r\n        A. BT linux面板后渗透编写[详情查看思维导图]\r\n![BT渗透](https://github.com/RuoJi6/HackerPermKeeper/assets/79234113/58da1f32-ef66-4f62-8495-1461d24c1ca3)\r\n"
     },
     "https://github.com/dark-kingA/cloudTools": {
-        "created_at": "2024-01-21 04:14:47",
+        "created_at": "2023-09-18 11:51:28",
         "description": "云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云存储工具、云服务工具， 云存储工具主要是针对oss存储、查看、删除、上传、下载、预览等等 云服务工具主要是针对rds、服务器的管理，查看、执行命令、接管等等",
         "commit_date": "2024-07-02 04:04:38",
         "commit_message": "Update README.md",
@@ -23296,8 +23296,8 @@
     "https://github.com/sulab999/AppMessenger": {
         "created_at": "2024-06-14 07:26:32",
         "description": "一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、鸿蒙)辅助分析工具",
-        "commit_message": "Update version",
-        "commit_date": "2024-07-04 06:57:41",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-15 11:42:14",
         "release_date": "2024-07-04 06:56:45",
         "release_message": "1、优化某加固反编译对抗\r\n2、新增几条加固特征"
     },
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.24.181属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.91.168属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27890,8 +27890,8 @@
     "https://github.com/find-sec-bugs/find-sec-bugs": {
         "created_at": "2024-02-26 05:35:21",
         "description": "The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin, Groovy and Scala projects)",
-        "commit_message": "Merge pull request #734 from cheeghi/feature/jakarta-support\n\nAdd support for jakarta",
-        "commit_date": "2024-06-27 14:27:18",
+        "commit_message": "Merge pull request #740 from JuditKnoll/mvn-target-task\n\nReplace deprecated tasks with target in maven-antrun-plugin",
+        "commit_date": "2024-08-17 00:39:32",
         "release_date": "2024-02-26 06:27:32",
         "release_message": "\r\n---------------------------\r\n\r\n**Implemented enhancements:**\r\n\r\n- Java 21 Support [\\#723](https://github.com/find-sec-bugs/find-sec-bugs/issues/723)\r\n\r\n**Closed issues:**\r\n\r\n- SpringEntityLeakDetector crashes with array types [\\#679](https://github.com/find-sec-bugs/find-sec-bugs/issues/679)\r\n- Java 17 not working [\\#678](https://github.com/find-sec-bugs/find-sec-bugs/issues/678)\r\n- Detect usage of Apache BeanUtils.copyProperties as dangerous [\\#601](https://github.com/find-sec-bugs/find-sec-bugs/issues/601)\r\n\r\n**Merged pull requests:**\r\n\r\n- Upgrade SpotBugs to 4.8.3 [\\#725](https://github.com/find-sec-bugs/find-sec-bugs/pull/725) ([gtoison](https://github.com/gtoison))\r\n- Updates to handle string-building taint with invokedynamic concatenation in JDK \\> 8 [\\#713](https://github.com/find-sec-bugs/find-sec-bugs/pull/713) ([jbindel](https://github.com/jbindel))\r\n- taint-config files java-lang.txt and scala.txt propagate taint from character types [\\#712](https://github.com/find-sec-bugs/find-sec-bugs/pull/712) ([jbindel](https://github.com/jbindel))\r\n- Add GCM-SIV to authenticated cipher mode list [\\#710](https://github.com/find-sec-bugs/find-sec-bugs/pull/710) ([mzcu](https://github.com/mzcu))\r\n- Fix IMPROPER\\_UNICODE rule description [\\#707](https://github.com/find-sec-bugs/find-sec-bugs/pull/707) ([Vampire](https://github.com/Vampire))\r\n- Update messages.xml [\\#700](https://github.com/find-sec-bugs/find-sec-bugs/pull/700) ([jasonparallel](https://github.com/jasonparallel))\r\n- Fixing typo in docs [\\#699](https://github.com/find-sec-bugs/find-sec-bugs/pull/699) ([kdowbecki](https://github.com/kdowbecki))\r\n- Verbose source line locations report [\\#691](https://github.com/find-sec-bugs/find-sec-bugs/pull/691) ([oxeye-gal](https://github.com/oxeye-gal))\r\n- Adding workaround for JDK \\> 8 invokedynamic tainting [\\#690](https://github.com/find-sec-bugs/find-sec-bugs/pull/690) ([oxeye-gal](https://github.com/oxeye-gal))\r\n- JstlExpressionWhiteLister now allows custom regular expressions [\\#686](https://github.com/find-sec-bugs/find-sec-bugs/pull/686) ([jbindel](https://github.com/jbindel))\r\n- fix: added \"cash account\" to the safe words, not a SHA password [\\#683](https://github.com/find-sec-bugs/find-sec-bugs/pull/683) ([gtoison](https://github.com/gtoison))\r\n- Add Detector for XXE in XML SchemaFactory [\\#682](https://github.com/find-sec-bugs/find-sec-bugs/pull/682) ([exceptionfactory](https://github.com/exceptionfactory))\r\n- Add Detector for XXE in XML Validator [\\#681](https://github.com/find-sec-bugs/find-sec-bugs/pull/681) ([exceptionfactory](https://github.com/exceptionfactory))\r\n- fix: handle arrays in SignatureParserWithGeneric [\\#680](https://github.com/find-sec-bugs/find-sec-bugs/pull/680) ([gtoison](https://github.com/gtoison))\r\n- New detector for potential XML injection [\\#663](https://github.com/find-sec-bugs/find-sec-bugs/pull/663) ([baloghadamsoftware](https://github.com/baloghadamsoftware))\r\n- Detect usage of Apache BeanUtils as dangerous \\#601 [\\#629](https://github.com/find-sec-bugs/find-sec-bugs/pull/629) ([marcelel](https://github.com/marcelel))\r\n"
     },
