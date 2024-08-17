@@ -1869,13 +1869,13 @@
         "release_message": "### Update\r\n\r\n- 增加ElasticSearch数据同步和查询（测试中）\r\n- 更新Minichat前端UI；可配置参数是否允许匿名使用。\r\n- 更新Httpx至1.6.6。"
     },
     "https://github.com/yuyan-sec/RedisEXP": {
-        "created_at": "2024-06-10 07:29:58",
+        "created_at": "2024-08-14 01:21:17",
         "description": "Redis 漏洞利用工具",
-        "commit_date": "2024-06-10 07:37:23",
+        "commit_date": "2024-08-14 01:21:17",
         "commit_message": "update",
         "release_tag": "0.0.3",
-        "release_date": "2024-06-10 07:30:54",
-        "release_message": "1. 关闭redis缓存来写入webshell，写入后再恢复原来的设置\r\n2. redis 计划任务可以是任意文件名，不要使用默认的 root ，这样就不会覆盖原有的计划任务"
+        "release_date": "2024-08-14 01:23:22",
+        "release_message": "`stop-writes-on-bgsave-error` 默认为 `yes`, 如果 Redis 开启了 RDB 持久化并且最后一次失败了，Redis 默认会停止写入，让用户意识到数据的持久化没有正常工作。临时的解决方案是 `conf set stop-writes-on-bgsave-error` 设置为 no，只是让程序暂时忽略了这个问题，但是数据的持久化的问题并没有。（工具会默认设置为 `no` ，等工具退出的时候再重新设置回原来的值`yes`，不要使用 -m cli 来执行 bgsave 因为cli没设置 `stop-writes-on-bgsave-error` ，直接使用 -m bgsave）\r\n\r\n```\r\nconfig set stop-writes-on-bgsave-error no\r\n```\r\n\r\n"
     },
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2024-07-23 17:38:36",
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.91.168属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.84.127.101属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
