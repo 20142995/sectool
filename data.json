@@ -3841,8 +3841,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2024-07-11 06:07:03",
         "description": null,
-        "commit_message": "Merge pull request #1488 from holyspectral/NVSHAS-7853-TLS-handshake-error-EOF\n\nNVSHAS-7853 TLS handshake EOF",
-        "commit_date": "2024-08-03 23:34:13",
+        "commit_message": "Merge pull request #1511 from williamlin-suse/main\n\nNVSHAS-9320/NVSHAS-9321: NV SSO user with fed(r/w)+regscan(r/w) permi…",
+        "commit_date": "2024-08-16 22:50:39",
         "release_date": "2024-07-24 17:15:33",
         "release_message": "NVSHAS-8980, get host and tunnel interface on node successfully in oc 4.15, exclude 169.254.x.x as host interface IPs\r\nNVSHAS-9177: Reexam host interface afte 1 minute of enforcer startup"
     },
@@ -6336,8 +6336,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2024-07-19 11:25:04",
         "description": "Audio Editor                                     ",
-        "commit_message": "[AU4] Update muse to u0809_2",
-        "commit_date": "2024-08-10 11:02:13",
+        "commit_message": "cstdint includes for gcc15\n\nCo-Authored-By: t-dr <29378498+t-dr@users.noreply.github.com>",
+        "commit_date": "2024-08-16 11:49:37",
         "release_date": "2024-07-22 08:06:54",
         "release_message": "This is a hotfix release. It fixes the following bugs:\r\n\r\n   * #6889 Fixed a crash when exporting multichannel audio.\r\n   * #6882 Fixed a crash when pasting mono clips into stereo tracks.\r\n   * #4763 (Accessibility) Made more values available when using the plain UI of plugins. (Thanks, David Bailes!)\r\n   * #6855 Prevented incompatible versions from opening projects created in 3.6.x.\r\n   * #6892 Fixed the dark theme sometimes having white corners in buttons."
     },
@@ -6412,8 +6412,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit  -  Windows渗透测试工具仓库For Scoop",
-        "commit_message": "yakit: Update to version 1.3.4-sp6",
-        "commit_date": "2024-08-09 16:33:16"
+        "commit_message": "nuclei: Update to version 3.3.1",
+        "commit_date": "2024-08-16 16:34:51"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-08 05:50:33",
@@ -8581,8 +8581,8 @@
     "https://github.com/PyCQA/bandit": {
         "created_at": "2024-06-12 22:17:21",
         "description": "Bandit is a tool designed to find common security issues in Python code.",
-        "commit_date": "2024-08-05 14:31:16",
-        "commit_message": "Bump docker/setup-buildx-action from 3.5.0 to 3.6.1 (#1163)\n\nBumps [docker/setup-buildx-action](https://github.com/docker/setup-buildx-action) from 3.5.0 to 3.6.1.\r\n- [Release notes](https://github.com/docker/setup-buildx-action/releases)\r\n- [Commits](https://github.com/docker/setup-buildx-action/compare/aa33708b10e362ff993539393ff100fa93ed6a27...988b5a0280414f521da01fcc63a27aeeb4b104db)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: docker/setup-buildx-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-08-12 14:07:09",
+        "commit_message": "Bump sigstore/cosign-installer from 3.5.0 to 3.6.0 (#1165)\n\nBumps [sigstore/cosign-installer](https://github.com/sigstore/cosign-installer) from 3.5.0 to 3.6.0.\r\n- [Release notes](https://github.com/sigstore/cosign-installer/releases)\r\n- [Commits](https://github.com/sigstore/cosign-installer/compare/59acb6260d9c0ba8f4a2f9d9b48431a222b68e20...4959ce089c160fddf62f7b42464195ba1a56d382)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: sigstore/cosign-installer\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "1.7.5",
         "release_date": "2024-06-12 22:19:26",
         "release_message": "## What's Changed\r\n* Bump docker/build-push-action from 5.1.0 to 5.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1117\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1119\r\n* New logo for Bandit based on raccoon by @ericwb in https://github.com/PyCQA/bandit/pull/1121\r\n* Start testing on Python 3.13 by @ericwb in https://github.com/PyCQA/bandit/pull/1122\r\n* Bump docker/build-push-action from 5.2.0 to 5.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1123\r\n* Bump docker/setup-buildx-action from 3.1.0 to 3.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1124\r\n* Bump docker/login-action from 3.0.0 to 3.1.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1125\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1126\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1127\r\n* Bump docker/setup-buildx-action from 3.2.0 to 3.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1130\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1131\r\n* Bump sigstore/cosign-installer from 3.4.0 to 3.5.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1132\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1133\r\n* Updates banner logo so it renders well in dark mode by @ericwb in https://github.com/PyCQA/bandit/pull/1134\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1135\r\n* Add a sponsor section to README by @ericwb in https://github.com/PyCQA/bandit/pull/1137\r\n* Ensure sarif extra is included as part of doc build by @ericwb in https://github.com/PyCQA/bandit/pull/1139\r\n* Bump docker/login-action from 3.1.0 to 3.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1142\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1143\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1145\r\n* Guard against empty call argument list by @ericwb in https://github.com/PyCQA/bandit/pull/1146\r\n* Bump docker/build-push-action from 5.3.0 to 5.4.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1144\r\n* Support `configfile` in `.bandit` file by @bersbersbers in https://github.com/PyCQA/bandit/pull/1052\r\n\r\n## New Contributors\r\n* @pre-commit-ci made their first contribution in https://github.com/PyCQA/bandit/pull/1119\r\n* @bersbersbers made their first contribution in https://github.com/PyCQA/bandit/pull/1052\r\n\r\n**Full Changelog**: https://github.com/PyCQA/bandit/compare/1.7.8...1.7.9"
@@ -21945,8 +21945,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Fix additional missing links",
-        "commit_date": "2024-08-12 15:59:13",
+        "commit_message": "Fix links to issues",
+        "commit_date": "2024-08-16 11:48:01",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -23585,7 +23585,7 @@
     "https://github.com/ki9mu/ARL-plus-docker": {
         "created_at": "2024-05-24 15:20:27",
         "description": "基于ARL-V2.6.2修改后的版本",
-        "commit_date": "2024-07-31 14:52:07",
+        "commit_date": "2024-08-14 09:09:32",
         "commit_message": "Update README.md",
         "release_tag": "2.8.0",
         "release_date": "2024-05-24 15:22:35",
@@ -23753,13 +23753,13 @@
         "release_message": ""
     },
     "https://github.com/chainreactors/spray": {
-        "created_at": "2024-07-24 05:51:27",
+        "created_at": "2024-08-12 07:12:43",
         "description": "Next Generation HTTP Dir/File Fuzz Tool",
-        "commit_date": "2024-07-29 09:08:42",
-        "commit_message": "Merge pull request #52 from chainreactors/dev\n\nmerge v1.0.0",
+        "commit_date": "2024-08-06 08:53:00",
+        "commit_message": "Merge pull request #54 from chainreactors/dev\n\nmerge v1.0.1",
         "release_tag": "v0.9.1",
-        "release_date": "2024-07-24 06:53:16",
-        "release_message": "## Changelog\r\n* [feature] **重构交互逻辑**, 现在的spray更加轻量\r\n\t* 现在默认参数下用法类似httpx, 能收集http的基本信息与基本指纹\r\n\t* 支持`--cidr` 指定网段输入\r\n\t* 支持`--port` 会与原有输入进行笛卡尔积, 并支持gogo同等的端口tag解析\r\n\t* 自动添加的字典现在移动到了`--default` 参数中\r\n\t* 大大优化了输出样式\r\n* [feature] **重构指纹引擎**， 带来了大量新特性\r\n\t* 新增多指纹源识别引擎. (fingers, ehole, fingerprinthub, goby, wappalyzer)\r\n\t*  `--finger` 将打开指纹引擎的完全体, 将会使用5个指纹引擎进行被动匹配, 主动识别, favicon匹配\r\n\t* 指纹数据源聚合, 将以fingers原生指纹库为基础, 尽可能聚合多指纹数据\r\n\t* 支持CPE,WFN,URI等通用产品格式\r\n* [feature] support --no-stat flag, 关闭stat文件自动生成\r\n* [enhance] 重构了多处代码, 优化了多出性能问题\r\n* [fix] 修复一个checkpool的输出错误\r\n* [fix] 在退出阶段 bar会吃掉部分输出的bug\r\n* [fix] ctrl+c 无法退出的bug， 现在一次ctrl+c会进入到保存进度的工作， 如果无法正常退出第二次ctrl+c会强制退出\r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v0.9.9...v1.0.0"
+        "release_date": "2024-08-12 07:17:43",
+        "release_message": "## Changelog\r\n\r\n* [feature] 新增 `--active`, 将会开启主动指纹识别, 但也会导致强制开启爆破模式. 具体使用请查看 https://chainreactors.github.io/wiki/spray/start/#_19 \r\n* [enhance] 更新help的使用说明\r\n* [enhance] 更新wiki中的文档到v1.0.1\r\n* [fix] 修复word在不使用字典时失效的bug , #53 \r\n* [fix] 修复爬虫失效的bug, #51\r\n* [fix] 修复多个在解析http结构时的bug\r\n* [fix] 重新发布了v1.0.1, 修复了checkpool模式下无法正常退出的bug\r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v1.0.0...v1.0.1"
     },
     "https://github.com/TD0U/WeaverScan": {
         "created_at": "2022-12-30 12:45:33",
@@ -25096,8 +25096,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://rapiddns.io/subdomain": {
-        "status_code": 504,
-        "description": "rapiddns.io | 504: Gateway time-out"
+        "status_code": 200,
+        "description": "Subdomain - RapidDNS Rapid DNS Information Collection"
     },
     "http://www.zhongguosou.com/zonghe/moErSiCodeConverter.aspx": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.102.214.6属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.24.181属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28911,7 +28911,7 @@
     },
     "https://github.com/MInggongK/jeecg-": {
         "created_at": "2024-07-28 16:23:14",
-        "description": "Jeecg综合漏洞利用工具",
+        "description": "jeecg综合漏洞利用工具",
         "commit_message": "Update README.md",
         "commit_date": "2024-07-28 16:23:14",
         "release_date": "2024-08-06 02:49:37",
