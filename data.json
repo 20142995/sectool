@@ -4084,7 +4084,7 @@
         "release_message": ""
     },
     "https://github.com/tongcheng-security-team/NextScan": {
-        "created_at": "2023-06-30 12:25:44",
+        "created_at": "2023-03-17 05:47:33",
         "description": "飞刃是一套完整的企业级黑盒漏洞扫描系统，集成漏洞扫描、漏洞管理、扫描资产、爬虫等服务。 拥有强大的漏洞检测引擎和丰富的插件库，覆盖多种漏洞类型和应用程序框架。",
         "commit_date": "2023-05-05 09:39:23",
         "commit_message": "添加群聊",
@@ -9524,8 +9524,8 @@
     "https://github.com/greycodee/wechat-backup": {
         "created_at": "2022-07-30 14:56:17",
         "description": "微信聊天记录持久化备份本地硬盘，释放手机存储空间。",
-        "commit_date": "2023-06-22 13:34:20",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-08-02 02:20:23",
+        "commit_message": "update deps",
         "release_tag": "v1.0.0",
         "release_date": "2022-07-30 14:59:56",
         "release_message": ""
@@ -18496,13 +18496,13 @@
         "release_message": ""
     },
     "https://github.com/guelfoweb/knock": {
-        "created_at": "2014-02-11 14:36:13",
+        "created_at": "2024-07-30 15:54:22",
         "description": "Knock Subdomain Scan",
         "commit_date": "2023-07-17 10:11:06",
         "commit_message": "Merge pull request #135 from guelfoweb/drego85-patch-1\n\nUpdate wordlist.txt",
         "release_tag": "5.4.0",
-        "release_date": "2023-01-09 13:38:02",
-        "release_message": "# Changelog\r\n\r\n- added passive reconnaissance plugins"
+        "release_date": "2024-07-30 15:56:15",
+        "release_message": "## What's Changed\r\n* Update setup.py by @LocutusOfBorg in https://github.com/guelfoweb/knock/pull/142\r\n* Update README.md by @guelfoweb in https://github.com/guelfoweb/knock/pull/145\r\n* added autoaction to upload pypi package on release by @mlodic in https://github.com/guelfoweb/knock/pull/148\r\n\r\n## New Contributors\r\n* @guelfoweb made their first contribution in https://github.com/guelfoweb/knock/pull/145\r\n* @mlodic made their first contribution in https://github.com/guelfoweb/knock/pull/148\r\n\r\n**Full Changelog**: https://github.com/guelfoweb/knock/compare/7.0.0...7.0.1"
     },
     "https://github.com/trietptm/SQL-Injection-Payloads": {
         "created_at": "2016-04-05 03:25:10",
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.84.127.101属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.38.40属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
