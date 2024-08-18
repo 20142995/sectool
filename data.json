@@ -3024,8 +3024,8 @@
     "https://github.com/moonD4rk/HackBrowserData": {
         "created_at": "2024-07-16 04:01:21",
         "description": "Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (macOS, Windows, Linux).",
-        "commit_date": "2024-07-19 12:30:07",
-        "commit_message": "docs: Remove Chinese README file",
+        "commit_date": "2024-08-11 00:26:22",
+        "commit_message": "chore(deps): bump golang dependencies (#380)\n\n* chore(deps): bump github.com/tidwall/gjson from 1.17.1 to 1.17.3\r\n\r\nBumps [github.com/tidwall/gjson](https://github.com/tidwall/gjson) from 1.17.1 to 1.17.3.\r\n- [Commits](https://github.com/tidwall/gjson/compare/v1.17.1...v1.17.3)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/tidwall/gjson\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\n* chore(deps): bump modernc.org/sqlite from 1.30.1 to 1.31.1\r\n\r\nBumps [modernc.org/sqlite](https://gitlab.com/cznic/sqlite) from 1.30.1 to 1.31.1.\r\n- [Commits](https://gitlab.com/cznic/sqlite/compare/v1.30.1...v1.31.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: modernc.org/sqlite\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\n---------\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "release_tag": "v0.4.4",
         "release_date": "2024-07-16 04:10:40",
         "release_message": "## What's Changed\r\n* dev: refactor items and update repo deploy by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/278\r\n* feat: refactor logger to standard library by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/280\r\n* dev: Remove CGO go-sqlite3 with pure go driver by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/292\r\n* dev: Optimize encryption and decryption module by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/305\r\n* refactor: refactor the logic for obtaining browser data. by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/321\r\n* fix: skip chromium snapshot dir to find right password database by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/353\r\n* fix: Improve error handling if walk browser profile dir by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/354\r\n* chore: Optimize GitHub actions and dependencies updates by @moonD4rk in https://github.com/moonD4rk/HackBrowserData/pull/362\r\n\r\n\r\n**Full Changelog**: https://github.com/moonD4rk/HackBrowserData/compare/v0.4.5...v0.4.6"
@@ -4926,8 +4926,8 @@
     "https://github.com/rustdesk/rustdesk": {
         "created_at": "2024-07-23 02:46:50",
         "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-        "commit_message": "Bump Android NDK to r27 (#8918)\n\nSigned-off-by: Vasyl Gello <vasek.gello@gmail.com>",
-        "commit_date": "2024-08-01 13:33:59",
+        "commit_message": "Update Italian language (#9093)",
+        "commit_date": "2024-08-16 10:39:36",
         "release_date": "2024-07-23 04:02:05",
         "release_message": "![image](https://github.com/rustdesk/rustdesk/assets/71636191/83754a64-31b8-47f0-8570-da22207759a9)\r\n\r\n| Architecture | Windows | Ubuntu | Mac | Android | Flatpak | AppImage | iOS |\r\n|--------------|---------|--------|-----|----------|---------|---------|---------|\r\n| x86-64 (64-bit) | [EXE](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.exe) &nbsp; [MSI](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.msi) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.deb) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.dmg) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.flatpak) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86_64.AppImage) |\r\n| AArch64 (ARM64) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-aarch64.deb) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-aarch64.dmg) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-aarch64-signed.apk) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-aarch64.flatpak) |  [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-aarch64.AppImage)  | [TestFlight](https://testflight.apple.com/join/KBG9EsZW)\r\n| ARMv7 (32-bit) |  | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-armv7-sciter.deb) |  |  [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-armv7-signed.apk) |  |  |\r\n| x86-32 (32-bit) | [Download](https://github.com/rustdesk/rustdesk/releases/download/1.2.7/rustdesk-1.2.7-x86-sciter.exe) |  |  |  |  |  |\r\n\r\n\r\n## For more downloads (Fedora / Arch Linux / Suse): [check below please](#)\r\n\r\n## For the latest features: [check out the nightly build](https://github.com/rustdesk/rustdesk/releases/tag/nightly)\r\n\r\n <details>\r\n <summary>Changelog</summary>\r\n\r\n# Added\r\n- Shared image of clipboard ([#8561](https://github.com/rustdesk/rustdesk/pull/8561), [video](https://x.com/rustdesk/status/1807981430775206289))\r\n- Sciter version of Linux x64 deb and flatpak in case Flutter does not work on your machine ([#8545](https://github.com/rustdesk/rustdesk/pull/8545))\r\n- Loading window for portable Windows ([#8490](https://github.com/rustdesk/rustdesk/pull/8490))\r\n- More options for custom client ([#277](https://github.com/rustdesk/rustdesk-server-pro/issues/277), [#276](https://github.com/rustdesk/rustdesk-server-pro/issues/276), [#281](https://github.com/rustdesk/rustdesk-server-pro/discussions/281), [#284](https://github.com/rustdesk/rustdesk-server-pro/issues/284#issuecomment-2216521407), [#8660](https://github.com/rustdesk/rustdesk/pull/8660), [53dbc2f](https://github.com/rustdesk/rustdesk/commit/53dbc2fa6f1b46a11adad7d2a2ce52013041c837), [#320](https://github.com/rustdesk/rustdesk-server-pro/discussions/320#discussioncomment-10121621))\r\n- Android actions to menu and with more actions in case floating toolbar is hidden ([#8512](https://github.com/rustdesk/rustdesk/pull/8512))\r\n- Telegram 2FA and notification ([9e85154](https://github.com/rustdesk/rustdesk/commit/9e851542eca5b4e5c9b61cc612485f9f39f63991))\r\n- Set clipboard text of controlled Android ([#8677](https://github.com/rustdesk/rustdesk/pull/8677))\r\n- MacOS hardware codecs ([#8683](https://github.com/rustdesk/rustdesk/pull/8683))\r\n- Add view mode / resolution change / virtual dispaly / proxy etc to mobile ([#8689](https://github.com/rustdesk/rustdesk/discussions/8689), [#8717](https://github.com/rustdesk/rustdesk/pull/8717))\r\n\r\n# Changed\r\n- Remove confusing \"Connection not allowd\" popup ([#8566](https://github.com/rustdesk/rustdesk/pull/8566))\r\n- Don't use audio input option for audio call ([#8703](https://github.com/rustdesk/rustdesk/pull/8703))\r\n- More aggressive online query for self-hosting ([22c6f5e](https://github.com/rustdesk/rustdesk/commit/22c6f5e589bf2a69c24a062063d078599d99d458))\r\n\r\n# Fixed\r\n- Two tray icons on some Intel osx 14 ([#8569](https://github.com/rustdesk/rustdesk/discussions/8569))\r\n- Abnormal image on some Linux ([#6627](https://github.com/rustdesk/rustdesk/discussions/6627))\r\n- Big cursor on Android ([#8477](https://github.com/rustdesk/rustdesk/discussions/8477))\r\n- Wakelock stop sleep/hiberate manually ([#8473](https://github.com/rustdesk/rustdesk/discussions/8473))\r\n- The Windows program exits abnormally when starting RustDesk as soon as you enter the desktop ([#8462](https://github.com/rustdesk/rustdesk/issues/8462), [#8714](https://github.com/rustdesk/rustdesk/pull/8714))\r\n- Unexpected voice call prompt ([#8432](https://github.com/rustdesk/rustdesk/issues/8432))\r\n- The alt+tab case of bypassing \"Remote Configuration Modification\" ([#8633](https://github.com/rustdesk/rustdesk/issues/8633))\r\n- Multi-monitor layout changed upon disconnect if using privacy mode ([#8531](https://github.com/rustdesk/rustdesk/pull/8531))\r\n- Ukrainian keyboard secial letter keys ([#8603](https://github.com/rustdesk/rustdesk/pull/8603))\r\n- Portable elevation problems  ([#8527](https://github.com/rustdesk/rustdesk/pull/8527), [#8525](https://github.com/rustdesk/rustdesk/pull/8525))\r\n- iOS soft keyboard composing input strings ([#8471](https://github.com/rustdesk/rustdesk/pull/8471])), but introduce a new bug [#8786](https://github.com/rustdesk/rustdesk/issues/8786 )\r\n- Autohide toolbar ([#8347](https://github.com/rustdesk/rustdesk/pull/8347))\r\n- Mouse forward back button ([#8689](https://github.com/rustdesk/rustdesk/discussions/8689))\r\n- MacOS client session freezes when leaving RustDesk window ([#8548](https://github.com/rustdesk/rustdesk/issues/8548))\r\n- Connection timeout due to inactivity ([#8748](https://github.com/rustdesk/rustdesk/discussions/8748#discussioncomment-10080822))\r\n- Bad network condition on client side cause multi-typing ([#6793](https://github.com/rustdesk/rustdesk/issues/6793))\r\n\r\n</details>\r\n\r\n"
     },
@@ -6498,8 +6498,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2024-07-27 12:02:24",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "be less forgiving for invalid image indexes",
-        "commit_date": "2024-08-08 00:58:49",
+        "commit_message": "persist app1 jpeg profile (https://github.com/ImageMagick/ImageMagick/issues/4713)",
+        "commit_date": "2024-08-17 17:15:38",
         "release_date": "2024-07-27 16:08:01",
         "release_message": "## What's Changed\n* uhdr.c: default initialize range field for hdr/sdr intent inputs to enc by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7482\n* Fixed typo in documentation of MagickAdaptiveBlurImage by @JonahEMorgan in https://github.com/ImageMagick/ImageMagick/pull/7500\n* Silence warning when freetype delegate is disabled. by @niclet in https://github.com/ImageMagick/ImageMagick/pull/7515\n\n## New Contributors\n* @JonahEMorgan made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7500\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-35...7.1.1-36"
     },
@@ -8470,8 +8470,8 @@
     "https://github.com/0x727/FingerprintHub": {
         "created_at": "2024-07-09 10:55:18",
         "description": "侦查守卫(ObserverWard)的指纹库",
-        "commit_message": "Auto Update Nuclei [Wed Aug 14 06:25:34 UTC 2024] :robot:",
-        "commit_date": "2024-08-14 06:25:34",
+        "commit_message": "Auto Update Nuclei [Sat Aug 17 06:23:53 UTC 2024] :robot:",
+        "commit_date": "2024-08-17 06:23:53",
         "release_date": "2024-07-09 11:01:10",
         "release_message": ""
     },
@@ -10158,7 +10158,7 @@
         "created_at": "2020-02-04 09:30:48",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
         "commit_message": "Auto renew the anti-AD list.",
-        "commit_date": "2024-08-07 18:38:40",
+        "commit_date": "2024-08-16 18:38:41",
         "release_date": "2020-02-04 09:32:25",
         "release_message": "- 引入无效域名、无效hosts剔除机制，大幅提升各过滤列表命中率\r\n- 为了更好的支持pi-hole，加入一个新的全域名列表 - `anti-ad-domains.txt`\r\n- 根据网友 [@xlighting2017](https://github.com/privacy-protection-tools/anti-AD/issues/29) 建议，更新surge到新的格式\r\n- 引入数个新的配置参数，对输出结果精确控制\r\n- 若干bug和逻辑修复"
     },
@@ -13378,13 +13378,13 @@
         "release_message": ""
     },
     "https://github.com/ozzi-/JWT4B": {
-        "created_at": "2024-07-23 08:04:17",
+        "created_at": "2024-08-12 12:42:13",
         "description": "JWT Support for Burp ",
-        "commit_date": "2024-07-23 08:04:17",
-        "commit_message": "rsyntaxtextarea font size",
+        "commit_date": "2024-08-12 12:42:13",
+        "commit_message": "increase about tab height",
         "release_tag": "2.3",
-        "release_date": "2024-07-23 08:10:02",
-        "release_message": "fix: cookie parse bug introduced in 2.5\r\nimprove: make extension aware of burp font"
+        "release_date": "2024-08-12 12:49:46",
+        "release_message": "- Feature: Consider request header values with a JWT such as \"Token: ey.ey.ey\"\r\n- Fix: Height of about window"
     },
     "https://github.com/alibaba/nacos": {
         "created_at": "2018-06-15 06:49:27",
@@ -22442,12 +22442,12 @@
         "release_message": ""
     },
     "https://github.com/GZTimeWalker/GZCTF": {
-        "created_at": "2024-07-31 19:29:31",
+        "created_at": "2024-08-17 14:15:34",
         "description": "The GZ::CTF project, an open source CTF platform.",
-        "commit_message": "release: bump version to v0.21.0",
-        "commit_date": "2024-07-31 19:29:31",
-        "release_date": "2024-07-31 19:56:30",
-        "release_message": "## [0.21.0](https://github.com/GZTimeWalker/GZCTF/compare/v0.20.9..v0.21.0) - 2024-07-31\r\n\r\n### ⛰️ Features\r\n\r\n- **(log)** unified exception rendering - ([30f3a3](https://github.com/GZTimeWalker/GZCTF/commit/30f3a3)) by **GZTime**\r\n- Append exception information to log - ([d342bb](https://github.com/GZTimeWalker/GZCTF/commit/d342bb)) by **Steven He**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(docker)** container only bind specific ports - ([b36718](https://github.com/GZTimeWalker/GZCTF/commit/b36718)) by **Kengwang**\r\n- **(frontend)** page padding and overflow for game edit and chall edit (#314) - ([39934f](https://github.com/GZTimeWalker/GZCTF/commit/39934f)) by **LilRan**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.20.9...v0.21.0"
+        "commit_message": "release: bump version to v0.21.3",
+        "commit_date": "2024-08-17 14:15:34",
+        "release_date": "2024-08-17 14:17:49",
+        "release_message": "## [0.21.3](https://github.com/GZTimeWalker/GZCTF/compare/v0.21.2..v0.21.3) - 2024-08-16\r\n\r\n### ⛰️ Features\r\n\r\n- Add zstd compression support - ([4ae144](https://github.com/GZTimeWalker/GZCTF/commit/4ae144)) by **Steven He**\r\n- Enable response compression for more scenarios - ([bda153](https://github.com/GZTimeWalker/GZCTF/commit/bda153)) by **Steven He**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(server)** remove unnecessary mimetypes - ([acf84c](https://github.com/GZTimeWalker/GZCTF/commit/acf84c)) by **GZTime**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.21.2...v0.21.3"
     },
     "https://github.com/savior-only/Spring_All_Reachable": {
         "created_at": "2023-06-01 09:12:40",
@@ -23738,8 +23738,8 @@
     "https://github.com/bigblackhat/oFx": {
         "created_at": "2024-06-14 05:21:29",
         "description": "漏洞批量验证框架",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-07-27 11:19:46",
+        "commit_message": "Update poc.py",
+        "commit_date": "2024-08-16 03:53:17",
         "release_date": "2024-06-14 15:07:25",
         "release_message": "一个稳定版"
     },
@@ -24229,8 +24229,8 @@
     "https://github.com/jeremylong/DependencyCheck": {
         "created_at": "2024-07-16 10:39:46",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.3.0 to 3.3.1 (#6882)\n\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-08-10 13:51:12",
+        "commit_message": "fix: do not report over 100% download complete (#6899)",
+        "commit_date": "2024-08-17 11:43:40",
         "release_date": "2024-07-16 11:14:16",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
@@ -24817,7 +24817,7 @@
     },
     "https://www.qqxiuzi.cn/bianma/rot5-13-18-47.php": {
         "status_code": 404,
-        "description": "404 Not Found"
+        "description": ""
     },
     "https://dig.pm": {
         "status_code": 403,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.38.40属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.159.142.198属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27504,8 +27504,8 @@
     "https://github.com/google/tsunami-security-scanner": {
         "created_at": "2024-07-29 08:38:58",
         "description": "Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.",
-        "commit_message": "Start development of Tsunami version `0.0.24`.\n\nPiperOrigin-RevId: 657216672\nChange-Id: Iab97786ae5f033868fed3b7946dfe7f6027389f4",
-        "commit_date": "2024-07-29 15:56:19",
+        "commit_message": "Change the logic of `buildWebApplicationRootUrl` to return a default result even for non web services.\n\nPiperOrigin-RevId: 663912068\nChange-Id: I5602d68b3bf3f60670e31a5f0179c611f75e9ad2",
+        "commit_date": "2024-08-16 23:33:33",
         "release_date": "2024-07-29 14:59:01",
         "release_message": "**IMPORTANT: This release changes definitions for language servers' protocol buffers. If you have your own language server, you need to ensure that the version of the protos are updated everywhere.**\r\n\r\n- Language servers now support a more compact [`RunRequest`](https://github.com/google/tsunami-security-scanner/blob/67f5d7958fcd1b6065eab6974520fdbc8286de34/proto/plugin_service.proto#L42) that should avoid repetitions and save some memory;\r\n- Fixes issues with the Python language server that should not be fully supported;\r\n- Add `hive-jdbc` as a dependency;\r\n- Add support for OS fingerprinting;\r\n"
     },
@@ -28658,12 +28658,12 @@
         "commit_date": "2020-06-29 15:38:15"
     },
     "https://github.com/netease-youdao/QAnything": {
-        "created_at": "2024-05-17 10:08:52",
+        "created_at": "2024-07-26 09:31:50",
         "description": "Question and Answer based on Anything.",
         "commit_message": "Merge pull request #436 from mvlttt/master\n\nUpdate mysql_client.py",
         "commit_date": "2024-07-22 11:26:49",
-        "release_date": "2024-05-20 03:27:06",
-        "release_message": "# 🎉🎉🎉QAnything v1.4.1 发布!\r\n\r\n## 全新发布v1.4.1\r\n\r\n## 新特性\r\n### Docker版本-[master分支](https://github.com/netease-youdao/QAnything/tree/master)\r\n* 支持其他与OpenAI-API兼容的大模型服务，包含ollama，通义千问DashScope等\r\n* 支持多卡推理\r\n* 修复使用OpenAI-API时提示找不到whl文件的问题\r\n### Python版本-[qanything-python分支](https://github.com/netease-youdao/QAnything/tree/qanything-python)\r\n* 支持其他与OpenAI-API兼容的大模型服务，包含ollama，通义千问DashScope等\r\n* PDF文件解析效果优化（包含表格效果）\r\n* 修复部分Linux系统（比如centos7）glibc版本过低时无法启动的问题（onnxruntime-gpu[cuda12.x]自动切换为onnxruntime）\r\n* 修复Mac下embedding和rerank速度异常慢的问题\r\n* 修复部分问答无数据来源的问题\r\n* 前端支持联网检索结果直接点击跳转\r\n* 优化OCR，速度和效果提升；且首次启动时无需下载ocr模型，启动时间优化至60秒内\r\n* 支持无显卡Linux机器启动纯CPU版，优化使用cpu模式或OpenAI-API接口调用大模型时的资源占用\r\n\r\n## 新贡献者\r\n* @WuErPing 在 https://github.com/netease-youdao/QAnything/pull/322 进行了首次贡献"
+        "release_date": "2024-08-15 03:02:23",
+        "release_message": "# 🎉🎉🎉QAnything v1.4.2 发布!\r\n\r\n## 全新发布v1.4.2\r\n\r\n## 新特性\r\n### Python版本-[qanything-python分支](https://github.com/netease-youdao/QAnything/tree/qanything-python)\r\n* 添加更便捷的启动方法（需提供openai，ollama等LLM服务的api-key），只需要一行代码就可以自动配置conda虚拟环境并启动项目，（WIN（WSL）、Mac、LInux下所有启动脚本合并为两个：run_for_CPU.sh/run_for_GPU.sh，支持python2环境）\r\n* 优化控制台日志输出，可以在终端输出更详细的日志\r\n* 将一部分常用参数的值调整至根目录配置文件（config.py）下统一管理，增加更多可自定义的参数\r\n* 将pdf格式转markdown格式的模块独立为子模块，在执行pip install -e .命令后可以在本地独立使用\r\n* 修复联网检索模块在检索到的数据内容过长时会导致本地知识库内容无法正常获取的问题\r\n* 优化联网检索的文档分割效果，并优化上传失败文档的错误信息展示。\r\n* 修复了表格解析报错，rerank重复执行，opencv安装失败，rerank执行出错，单次前端问答多次调用后端问答接口等一系列bug。\r\n\r\n## 新贡献者\r\n* @ikun-moxiaofei 在 https://github.com/netease-youdao/QAnything/pull/384 进行了首次贡献（共17PR）\r\n* @glorialucheng 在 https://github.com/netease-youdao/QAnything/pull/447 进行了首次贡献"
     },
     "https://github.com/DVKunion/SeaMoon": {
         "created_at": "2024-07-01 06:33:14",
@@ -28878,8 +28878,8 @@
         "release_message": "Start-of-month release"
     },
     "https://github.com/wy876/POC": {
-        "commit_message": "8.13更新漏洞",
-        "commit_date": "2024-08-13 04:44:01",
+        "commit_message": "08-17更新漏洞",
+        "commit_date": "2024-08-17 03:26:38",
         "created_at": "2024-08-01 12:05:27",
         "release_date": "2024-08-01 14:00:37",
         "release_message": "",
