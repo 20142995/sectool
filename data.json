@@ -27028,8 +27028,8 @@
     "https://github.com/f4cknet/pyhackme": {
         "created_at": "2023-11-03 13:50:55",
         "description": null,
-        "commit_message": "fixed issues/2",
-        "commit_date": "2024-04-13 08:00:02"
+        "commit_message": "ssti",
+        "commit_date": "2024-08-17 08:43:37"
     },
     "https://www.snapmail.cc/": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.98.209属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.33.184属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
