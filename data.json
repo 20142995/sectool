@@ -2666,12 +2666,12 @@
         "release_message": ""
     },
     "https://github.com/madneal/gshark": {
-        "created_at": "2024-07-20 09:11:30",
+        "created_at": "2024-08-17 01:57:47",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_message": "avoid sleep for empty GitLab client",
-        "commit_date": "2024-07-20 10:24:29",
-        "release_date": "2024-07-20 09:19:30",
-        "release_message": "## Fixed\r\n\r\n* 组件依赖升级\r\n* 修复部分安全问题\r\n* 丰富使用说明 README\r\n* 恢复本地 build 脚本\r\n* 简化项目，移除 autocode"
+        "commit_message": "fix typo",
+        "commit_date": "2024-08-19 12:17:24",
+        "release_date": "2024-08-17 02:02:43",
+        "release_message": "## Fixed\r\n\r\n* 组件版本升级\r\n* 将后端服务与扫描服务分离\r\n* 改进 Docker 镜像"
     },
     "https://github.com/kozmer/log4j-shell-poc": {
         "created_at": "2021-12-10 23:19:28",
@@ -25660,8 +25660,8 @@
     "https://github.com/cve-search/cve-search": {
         "created_at": "2024-07-24 04:34:06",
         "description": "cve-search - a tool to perform local searches for known vulnerabilities",
-        "commit_message": "chg: [changelog] release 5.1.0 (#1115)",
-        "commit_date": "2024-07-19 15:18:09",
+        "commit_message": "Remove support for search.py -q (#1117)",
+        "commit_date": "2024-08-09 17:50:11",
         "release_date": "2024-07-24 04:37:10",
         "release_message": "## cve-search v5.1.0\r\n\r\ncve-search v5.1.0 released with source improvements, bugs fixed and integrate latest version of CveXplore.\r\n\r\n### Changes\r\n\r\n* Retire db_mgmt_[source].py (#1113) [Esa Jokinen]\r\n  * **Caution!** Possibly backwards incompatible change as the procedure for\r\n    initial population of the database has changed. Please revise the\r\n    [documentation](https://cve-search.github.io/cve-search/database/database.html#populating-the-database)\r\n    and update your SystemD cvesearch.db_init.service based on the updated example.\r\n  * All these features are now available through db_updater.py --sources option.\r\n* Pass configuration to CveXplore [Esa Jokinen]\r\n  * Pass sources configuration to CveXplore (#1112)\r\n  * Pass MongoDB configuration to CveXplore (#1107)\r\n  * Pass proxy configuration to CveXplore (#1102)\r\n  * Set sources & update interval manually for NVD API (#1110)\r\n* Fix sort_dir in free queries (#1109) [Giuseppe Crea]\r\n* Fix default config & remove unused imports (#1108) [Esa Jokinen]\r\n\r\n### Other\r\n\r\n* Update CveXplore dependency from 0.3.30 to 0.3.35 with many improvements, e.g.,\r\n  * Set update interval (1–120 days) manually for NVD API\r\n  * Fix MongoDB dbname, user & password configuration with & without credentials\r\n  * Improve error logging of NVD API\r\n  * Ignore EPSS for rejected CVEs; fixes sorting of DataTables (#1103)\r\n    * **Caution!** Updates database schema; requires repopulation\r\n      (or [manual cleanup](https://github.com/cve-search/cve-search/issues/1103#issuecomment-2198044483)).\r\n  * Updates PyMongo to 4.8.0 with [fallback to stdlib ssl](https://github.com/mongodb/mongo-python-driver/pull/1669)\r\n    when PyOpenSSL (< 23.2.0) import fails with AttributeError due to incompatible\r\n    versions with cryptography (>= 42.0.0).\r\n"
     },
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.51.206.96属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.36.46属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28200,8 +28200,8 @@
         "description": "开源应用运行时自我保护解决方案 - OpenRASP - 百度安全"
     },
     "https://www.snort.org": {
-        "status_code": 200,
-        "description": "Snort - Network Intrusion Detection & Prevention System"
+        "status_code": 503,
+        "description": "Application Error"
     },
     "https://github.com/loveshell/ngx_lua_waf": {
         "created_at": "2013-03-23 10:15:27",
