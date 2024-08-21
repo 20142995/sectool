@@ -443,8 +443,8 @@
 #### 定向目录扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-wscan](https://github.com/OrangeWatermelon/ctf-wscan) 在kingkaki的项目上进行了修改，改为单线程，可以在任意目录下执行，对重复的请求进行了过滤
 ### 相关资源
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTFd](https://github.com/CTFd/CTFd) CTFs as you need them
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-archives](https://github.com/sajjadium/ctf-archives)  CTF Archives: Collection of CTF Challenges.
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTFd](https://github.com/CTFd/CTFd) CTFs as you need them
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-OS](https://github.com/ProbiusOfficial/CTF-OS) 【Hello CTF】专为CTF比赛封装的虚拟机，基于工具集封装多个版本和系统，更多选择，开箱即用。比赛愉快！
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-challenges](https://github.com/ctf-wiki/ctf-challenges) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BerylEnigma 1.15.0](https://github.com/ffffffff0x/BerylEnigma) ffffffff0x team toolset for penetration testing, cryptography re...
@@ -1193,7 +1193,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [4.227.175.179属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [52.234.33.250属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -2541,7 +2541,7 @@
 - <img src="https://favicon.qqsuu.cn/security.vipkid.com.cn" alt="" style="height: 20px;"> [502 Bad Gateway](https://security.vipkid.com.cn/) 
 - <img src="https://favicon.qqsuu.cn/security.vivo.com.cn" alt="" style="height: 20px;"> [vivo 安全应急响应平台](https://security.vivo.com.cn/) 
 - <img src="https://favicon.qqsuu.cn/security.webank.com" alt="" style="height: 20px;"> [微众银行安全响应中心](https://security.webank.com/) 
-- <img src="https://favicon.qqsuu.cn/security.wps.cn" alt="" style="height: 20px;"> [金山办公安全应急响应中心](https://security.wps.cn/) 
+- <img src="https://favicon.qqsuu.cn/security.wps.cn" alt="" style="height: 20px;"> [504 Gateway Time-out](https://security.wps.cn/) 
 - <img src="https://favicon.qqsuu.cn/security.xiaoying.com" alt="" style="height: 20px;"> [首页 | 小赢安全应急响应中心](https://security.xiaoying.com/) 
 - <img src="https://favicon.qqsuu.cn/security.ximalaya.com" alt="" style="height: 20px;"> [喜马拉雅安全应急响应中心](https://security.ximalaya.com/) 
 - <img src="https://favicon.qqsuu.cn/security.xunlei.com" alt="" style="height: 20px;"> [迅雷安全应急响应中心](https://security.xunlei.com/) 
@@ -2570,8 +2570,8 @@
 - <img src="https://favicon.qqsuu.cn/ysrc.ys7.com" alt="" style="height: 20px;"> [ysrc.ys7.com](https://ysrc.ys7.com/#/home) 
 - <img src="https://favicon.qqsuu.cn/zrsecurity.ziroom.com" alt="" style="height: 20px;"> [首页 | 自如安全应急响应中心](https://zrsecurity.ziroom.com/) 
 ### 相关资源
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BountyHunterInChina](https://github.com/J0o1ey/BountyHunterInChina) 重生之我在安全行业讨口子系列，分享在安全行业讨口子过程中，SRC、项目实战的有趣案例
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedTeam_BlueTeam_HW](https://github.com/Mr-xn/RedTeam_BlueTeam_HW) 红蓝对抗以及护网相关工具和资料，内存shellcode（cs+msf）和内存马查杀工具
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BountyHunterInChina](https://github.com/J0o1ey/BountyHunterInChina) 重生之我在安全行业讨口子系列，分享在安全行业讨口子过程中，SRC、项目实战的有趣案例
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sec-Interview-4-2023](https://github.com/vvmdx/Sec-Interview-4-2023) 一个2023届毕业生在毕业前持续更新、收集的安全岗面试题及面试经验分享~
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Blue-Team-Notes](https://github.com/Purp1eW0lf/Blue-Team-Notes) You didn't think I'd go and leave the blue team out, right? 
 # 开发
