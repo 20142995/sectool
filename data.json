@@ -2919,8 +2919,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2024-08-15 16:11:26",
         "description": "Free universal database tool and SQL client",
-        "commit_message": "Annotations",
-        "commit_date": "2024-08-18 10:51:48",
+        "commit_message": "Grouping icon fix",
+        "commit_date": "2024-08-20 17:20:48",
         "release_date": "2024-08-18 16:20:59",
         "release_message": "\n                - SQL Editor:\n                    - Added semantic analysis and Outline viewer support for CREATE and ALTER TABLE queries\n                    - Added presentation for warnings in  semantic analysis results\n                    - Data type icons were redesigned\n                    - SQL error presentation was redesigned\n                    - 'Execute SQL Script' option behavior was fixed\n                    - SQL Output for SQL scripts was fixed\n                    - Output panel opening was fixed\n                    - Column aliases can now be copied with Advanced Copy option (thanks to @dstivanov)\n                    - Column validation for UPDATE SET clause was fixed\n                    - Issue with invalid table name was fixed\n                    - If all tabs with query results are pinned, a new tab with a new query result is created\n                - Data Editor: Paste into the table with no foreign key was fixed\n                - Database Navigator:\n                    - Connection visualization was fixed\n                    - Navigator icons were redesigned\n                - Connectivity: Connection page for custom drivers with the URL template was fixed\n                - General:\n                    - Opening links to local files has been restricted due to a security issue discovered by @LuskaBol\n                    - Improved error handling when trying to use not allowed characters in project name\n                - Databases:\n                    - Altibase: Non-schema objects like Job, Database Link, Directory, and Library are now supported (thanks to @zennken)\n                    - BigQuery: Database monitoring dashboards were added\n                    - GaussDB driver was updated to version 4-1.1 (thanks to @GaussDB-Fans)\n                    - MariaDB: Geometry data type is now supported\n                    - Ocient: Incorrect DDL generation was fixed (thanks to @mjsterckx)\n                    - SQLite: Full text search was improved\n                    - SQL Server: Saving changes in procedures was fixed\n            "
     },
@@ -3901,8 +3901,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2024-05-01 16:55:34",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_message": "build(deps): bump github.com/urfave/cli/v2 from 2.27.2 to 2.27.3\n\nBumps [github.com/urfave/cli/v2](https://github.com/urfave/cli) from 2.27.2 to 2.27.3.\n- [Release notes](https://github.com/urfave/cli/releases)\n- [Changelog](https://github.com/urfave/cli/blob/main/docs/CHANGELOG.md)\n- [Commits](https://github.com/urfave/cli/compare/v2.27.2...v2.27.3)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/urfave/cli/v2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "commit_date": "2024-07-29 23:43:40",
+        "commit_message": "build(deps): bump github.com/google/go-containerregistry\n\nBumps [github.com/google/go-containerregistry](https://github.com/google/go-containerregistry) from 0.20.1 to 0.20.2.\n- [Release notes](https://github.com/google/go-containerregistry/releases)\n- [Changelog](https://github.com/google/go-containerregistry/blob/main/.goreleaser.yml)\n- [Commits](https://github.com/google/go-containerregistry/compare/v0.20.1...v0.20.2)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/google/go-containerregistry\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-08-12 23:14:04",
         "release_date": "2024-05-01 16:59:42",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.4\"></a>\r\n## [v4.7.4] - 2024-05-01\r\n\r\n### NOTE\r\n[The default layer download location has changed](https://github.com/quay/clair/blob/release-4.7/Documentation/howto/deployment.md#disk-usage-considerations)\r\n\r\n### Claircore\r\n- tarfs: follow hardlinks in `ReadFile`\r\n  <details>\r\n  This makes `fs.ReadFile` work as expected when opening hardlinks.\r\n  </details>\r\n\r\n- debian: update how \"source\" packages are handled\r\n  <details>\r\n  Previously, the Updater parsed metadata from the repository to try to\r\n  record only \"binary\" packages. This was inaccurate and, with the new\r\n  dpkg handling, now unneeded. The new approach should be more accurate.\r\n  </details>\r\n\r\n- dpkg: improve Source handling\r\n  <details>\r\n  The dpkg handling machinery now correctly records source packages and\r\n  versions. Previously, version differences between a source package and\r\n  the resulting binary package(s) were incorrect if the versions were not\r\n  identical.\r\n  </details>\r\n\r\n- libindex: add `O_TMPFILE` fallback logic\r\n  <details>\r\n  After discovering that some common deployment methods are incompatible with\r\n  using the `O_TMPFILE` `open(2)` flag, a fallback path has been added. The\r\n  changes also move the default location of where temporary files are downloaded\r\n  to, to better align with the layout recommended by systemd.\r\n  \r\n  Please see [the documentation] for specifics.\r\n  \r\n  [the documentation]: https://pkg.go.dev/github.com/quay/claircore/libindex@v1.5.\r\n  26-0.20240325212310-fedb9d327aa7#NewRemoteFetchArena\r\n  </details>\r\n\r\n- osv: parse database_specific severity when no CVSS severity is defined\r\n  <details>\r\n  Occasionally there are OSV advisories that don't include any severity\r\n  information in the `.severity` object but they do contain a severity in\r\n  the `.database_specific` object. This change attempts to parse that\r\n  severity if we don't get a severity from the native `.severity` object.\r\n  </details>\r\n\r\n### Build(Deps)\r\n- [3ebd889c](https://github.com/quay/clair/commit/3ebd889cb37603e071ba0d8fb8ba631702b13414): bump peter-evans/create-pull-request from 6.0.0 to 6.0.1\r\n- [b7566a0f](https://github.com/quay/clair/commit/b7566a0feedc5de0227a5bfd6e2921014ec68704): bump peter-evans/create-pull-request from 5.0.2 to 6.0.0\r\n- [4db2f09b](https://github.com/quay/clair/commit/4db2f09be2330e4dc9061dc2e9d44d8979b8c34d): bump actions/cache from 3 to 4\r\n- [6cef8311](https://github.com/quay/clair/commit/6cef8311255b024dd3a1fc0a70f7edf38969906c): bump actions/upload-artifact from 3 to 4\r\n- [5ed80215](https://github.com/quay/clair/commit/5ed80215fa17adb7e72ba3d9267368474afd411e): bump actions/download-artifact from 3 to 4\r\n- [c9e1f56b](https://github.com/quay/clair/commit/c9e1f56b224f25aacd5df861563006520e63297b): bump actions/setup-go from 4 to 5\r\n- [3ab3de55](https://github.com/quay/clair/commit/3ab3de558380fff38b8503de914c1b9c0611c4c8): bump actions/stale from 8 to 9\r\n- [591188f0](https://github.com/quay/clair/commit/591188f0a877b81878209be4b9185d4cb7c404f3): bump docker/setup-buildx-action from 2 to 3\r\n- [7ef6ef6b](https://github.com/quay/clair/commit/7ef6ef6b7587386b80cef9fbe7269b0083c8f039): bump docker/login-action from 2 to 3\r\n- [5597e7cc](https://github.com/quay/clair/commit/5597e7ccb94c113cc8344e8289be886049b23f63): bump docker/build-push-action from 4 to 5\r\n- [14d7f2b4](https://github.com/quay/clair/commit/14d7f2b4927fa9e4debc9005fb6dc620a6a47833): bump docker/setup-qemu-action from 2 to 3\r\n- [1204db98](https://github.com/quay/clair/commit/1204db98853cdfdce7790f3d3276d4617e4e3000): bump actions/checkout from 3 to 4\r\n### Chore\r\n- [4170798b](https://github.com/quay/clair/commit/4170798b6d464be0b8f74b1979785a17ad71dbd0): 4.7.4 changelog bump\r\n- [96dc6074](https://github.com/quay/clair/commit/96dc60748b492df1cb4af3761c9c44c10266ed09): Add merge step when creating release binaries\r\n- [a1c7eb7c](https://github.com/quay/clair/commit/a1c7eb7c8cce687e12fcc056be1acacbdc608a31): update go version for release\r\n- [6eeb9393](https://github.com/quay/clair/commit/6eeb9393b539cf49a10c42e247b833ce7e040607): update claircore to v1.5.27\r\n- [809dd5ab](https://github.com/quay/clair/commit/809dd5ab474994eb9a32599f4257437fde995064): update go version\r\n### Cicd\r\n- [e6378d03](https://github.com/quay/clair/commit/e6378d0333085a072cf73bfa32228af24b710b05): add container version skew check\r\n- [2ba3ecc0](https://github.com/quay/clair/commit/2ba3ecc0a66679dcd82f7015695db5b2a3f0c02a): update testing workflow\r\n- [ae135c49](https://github.com/quay/clair/commit/ae135c4956358d6c18109438b6e59170100787ea): don't upload workspace on failure\r\n- [7222dc88](https://github.com/quay/clair/commit/7222dc88d4fe919cc2b88e2fe7587061a881b794): change version specifiers to be major-version only\r\n### Clairctl\r\n- [2a2ba37f](https://github.com/quay/clair/commit/2a2ba37f6404e377d702e50f78bccd172b08b03f): warn when range requests are not honored\r\n### Dockerfile\r\n- [5547b96a](https://github.com/quay/clair/commit/5547b96aeff795da43fbc6e2dc8ec7b5dda7691d): remove sh loop\r\n### Docs\r\n- [3753415b](https://github.com/quay/clair/commit/3753415b4e2b6bc9b63a940b8b2101d82ab523ef): add mention of disk space path and usage\r\n### Httptransport\r\n- [c6df986f](https://github.com/quay/clair/commit/c6df986fddfe5121b6fd9dbfff0ccca35c55cb71): GET vuln report returns 404 when indexing in-progress\r\n### Initialize\r\n- [9828576a](https://github.com/quay/clair/commit/9828576af20c966e0dbe99bbac68d3e80b07baa1): use defaults for NewRemoteFetcher\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.4...HEAD\r\n[v4.7.4]: https://github.com/quay/clair/compare/v4.7.3...v4.7.4\r\n"
     },
@@ -3918,8 +3918,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2024-07-31 15:52:50",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "refactor(misconf): highlight only affected rows (#7310)\n\nSigned-off-by: nikpivkin <nikita.pivkin@smartforce.io>",
-        "commit_date": "2024-08-15 22:58:27",
+        "commit_message": "feat(misconf): scanning support for YAML and JSON (#7311)\n\nSigned-off-by: nikpivkin <nikita.pivkin@smartforce.io>",
+        "commit_date": "2024-08-20 04:55:45",
         "release_date": "2024-07-31 16:45:52",
         "release_message": "## Changelog\n* 854c61d34a550a9fcbab3bc59e55b868c15d1962 release: v0.54.1 [release/v0.54] (#7282)\n* 334a1c293bb3d490af2a6d80732f399efaac22f7 fix(flag): incorrect behavior for deprected flag `--clear-cache` [backport: release/v0.54] (#7285)\n* f61725c28b56d80fb46395479842a2ab0c517c5f fix(java): Return error when trying to find a remote pom to avoid segfault [backport: release/v0.54] (#7283)\n* a7b7117fe2c9608e990b42e702cc83675c48f888 fix(plugin): do not call GitHub content API for releases and tags [backport: release/v0.54] (#7279)\n\n"
     },
@@ -5186,13 +5186,13 @@
         "release_message": ""
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
-        "created_at": "2024-08-11 00:26:42",
+        "created_at": "2024-08-18 00:26:22",
         "description": "A high performance go implementation of Wappalyzer Technology Detection Library",
-        "commit_date": "2024-08-11 00:26:42",
-        "commit_message": "Weekly fingerprints update [Sun Aug 11 00:26:42 UTC 2024] :robot:",
+        "commit_date": "2024-08-18 00:26:22",
+        "commit_message": "Weekly fingerprints update [Sun Aug 18 00:26:22 UTC 2024] :robot:",
         "release_tag": "v0.0.109",
-        "release_date": "2024-08-11 00:27:01",
-        "release_message": "### [0.1.14](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.13...v0.1.14) (2024-08-11)"
+        "release_date": "2024-08-18 00:26:42",
+        "release_message": "### [0.1.15](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.14...v0.1.15) (2024-08-18)"
     },
     "https://github.com/cseroad/Webshell_Generate": {
         "created_at": "2023-06-19 03:21:09",
@@ -5898,12 +5898,12 @@
         "release_message": ""
     },
     "https://github.com/github/codeql-cli-binaries": {
-        "created_at": "2024-07-26 16:02:49",
+        "created_at": "2024-08-13 14:08:00",
         "description": "Binaries for the CodeQL CLI",
-        "commit_message": "Merge pull request #179 from github/jketema/change-log-fix\n\nFix change note to clarify that C/C++ breaking changes related to tests only",
-        "commit_date": "2024-07-26 21:27:52",
-        "release_date": "2024-07-25 17:00:01",
-        "release_message": "### Security Updates\r\n\r\n- Resolves CVE-2023-4759, an arbitrary file overwrite in Eclipse JGit that can be triggered when using untrusted third-party queries from a git repository. See the [security advisory](https://github.com/github/codeql-cli-binaries/security/advisories/GHSA-x4gx-f2xv-6wj9) for more information.\r\n- The following dependencies have been updated. These updates include security fixes in the respective libraries that prevent out-of-bounds accesses or denial-of-service in scenarios where untrusted files are processed. These scenarios are not likely to be encountered in most uses of CodeQL and code scanning, and only apply to advanced use cases where precompiled query packs, database ZIP files, or database TRAP files are obtained from untrusted sources and then processed on a trusted machine.\r\n    - airlift/aircompressor is updated to version 0.27.\r\n    - Apache Ant is updated to version 1.10.11.\r\n    - Apache Commons Compress is updated to version 1.26.0.\r\n    - Apache Commons IO is updated to version 2.15.1.\r\n    - Apache Commons Lang3 is updated to version 3.14.0.\r\n    - jsoup is updated to version 1.15.3.\r\n    - Logback is updated to version 1.2.13.\r\n    - Snappy is updated to version 0.5.\r\n\r\n### New features\r\n\r\n- The *experimental* type `QlBuiltins::BigInt` of arbitrary-precision integers has been introduced. To opt in to this API, compile your queries with `--allow-experimental=bigint`. Big integers can be constructed using the `.toBigInt()` methods of `int` and `string`.\r\n- `codeql test run` now supports postprocessing of test results. When .qlref files specify a path to a `postprocess` query, then this is evaluated after the test query to transform the test outputs prior to concatenating them into the `actual` results.\r\n\r\n### Improvements\r\n\r\n- The 30% QL query compilation slowdown noted in 2.18.0 has been fixed.\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.18.1`](https://github.com/github/codeql/tree/codeql-cli/v2.18.1).\r\n"
+        "commit_message": "Reintroduce Non-breaking space",
+        "commit_date": "2024-08-13 14:08:00",
+        "release_date": "2024-08-13 14:10:15",
+        "release_message": "### Deprecations\r\n\r\n- Swift analysis on Ubuntu is no longer supported. Please migrate to macOS if this affects you.\r\n\r\n### Miscellaneous\r\n\r\n- The build of Eclipse Temurin OpenJDK that is used to run the CodeQL\r\n  CLI has been updated to version 21.0.3.\r\n\r\n\r\nFor more information about the changes included in this release, see the [CodeQL CLI changelog](https://github.com/github/codeql-cli-binaries/blob/HEAD/CHANGELOG.md).\r\n\r\nYou can download _either_ the `codeql-PLATFORM.zip` for your platform, _or_ the generic `codeql.zip` which contains binaries for all supported platforms. Please ignore the additional \"source code\" downloads below the `.zip` artifacts.\r\n\r\nThis release is compatible with the CodeQL language packs from [`github/codeql@codeql-cli/v2.18.2`](https://github.com/github/codeql/tree/codeql-cli/v2.18.2).\r\n"
     },
     "https://github.com/Ascotbe/HackerMind": {
         "created_at": "2019-02-21 01:03:39",
@@ -6336,8 +6336,8 @@
     "https://github.com/audacity/audacity": {
         "created_at": "2024-07-19 11:25:04",
         "description": "Audio Editor                                     ",
-        "commit_message": "cstdint includes for gcc15\n\nCo-Authored-By: t-dr <29378498+t-dr@users.noreply.github.com>",
-        "commit_date": "2024-08-16 11:49:37",
+        "commit_message": "lighten focus border",
+        "commit_date": "2024-08-20 12:46:36",
         "release_date": "2024-07-22 08:06:54",
         "release_message": "This is a hotfix release. It fixes the following bugs:\r\n\r\n   * #6889 Fixed a crash when exporting multichannel audio.\r\n   * #6882 Fixed a crash when pasting mono clips into stereo tracks.\r\n   * #4763 (Accessibility) Made more values available when using the plain UI of plugins. (Thanks, David Bailes!)\r\n   * #6855 Prevented incompatible versions from opening projects created in 3.6.x.\r\n   * #6892 Fixed the dark theme sometimes having white corners in buttons."
     },
@@ -6498,8 +6498,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2024-07-27 12:02:24",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "persist app1 jpeg profile (https://github.com/ImageMagick/ImageMagick/issues/4713)",
-        "commit_date": "2024-08-17 17:15:38",
+        "commit_message": "parentheses is the plural of parenthesis",
+        "commit_date": "2024-08-19 12:28:44",
         "release_date": "2024-07-27 16:08:01",
         "release_message": "## What's Changed\n* uhdr.c: default initialize range field for hdr/sdr intent inputs to enc by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7482\n* Fixed typo in documentation of MagickAdaptiveBlurImage by @JonahEMorgan in https://github.com/ImageMagick/ImageMagick/pull/7500\n* Silence warning when freetype delegate is disabled. by @niclet in https://github.com/ImageMagick/ImageMagick/pull/7515\n\n## New Contributors\n* @JonahEMorgan made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7500\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-35...7.1.1-36"
     },
@@ -8470,8 +8470,8 @@
     "https://github.com/0x727/FingerprintHub": {
         "created_at": "2024-07-09 10:55:18",
         "description": "侦查守卫(ObserverWard)的指纹库",
-        "commit_message": "Auto Update Nuclei [Sat Aug 17 06:23:53 UTC 2024] :robot:",
-        "commit_date": "2024-08-17 06:23:53",
+        "commit_message": "Auto Update FingerPrint [Tue Aug 20 05:45:44 UTC 2024] :robot:",
+        "commit_date": "2024-08-20 05:45:44",
         "release_date": "2024-07-09 11:01:10",
         "release_message": ""
     },
@@ -12884,8 +12884,8 @@
     "https://github.com/rapid7/metasploit-framework": {
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
-        "commit_message": "Bump version of framework to 6.4.22",
-        "commit_date": "2024-08-08 08:38:47"
+        "commit_message": "automatic module_metadata_base.json update",
+        "commit_date": "2024-08-19 08:40:02"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -23695,10 +23695,10 @@
     "https://github.com/qi4L/JYso": {
         "created_at": "2024-07-24 07:38:01",
         "description": "It can be either a JNDIExploit or a ysoserial.",
-        "commit_message": "hessian类型的Payload",
-        "commit_date": "2024-08-04 06:58:13",
+        "commit_message": "base64编码输出Payload",
+        "commit_date": "2024-08-13 10:43:58",
         "release_date": "2024-07-24 07:43:04",
-        "release_message": "+ 增加CC13 [Issues#47](https://github.com/qi4L/JYso/issues/47)\r\n+ 修复 [Issues#48](https://github.com/qi4L/JYso/issues/48) \r\n+ [PR#50](https://github.com/qi4L/JYso/pull/50)\r\n+ hessian反序列化payload生成 [Issues#51](https://github.com/qi4L/JYso/issues/51)"
+        "release_message": "+ 增加CC13 [Issues#47](https://github.com/qi4L/JYso/issues/47)\r\n+ 修复 [Issues#48](https://github.com/qi4L/JYso/issues/48) \r\n+ [PR#50](https://github.com/qi4L/JYso/pull/50)\r\n+ hessian反序列化payload生成 [Issues#51](https://github.com/qi4L/JYso/issues/51)\r\n+ Base64编码输出Payload"
     },
     "https://github.com/cider-security-research/cicd-goat": {
         "created_at": "2024-07-11 13:31:30",
@@ -26390,12 +26390,12 @@
         "release_message": "Major update opensource version SmartCheck.\r\n\r\nWhat's new:\r\n- synced version with online tool https://tool.smartdec.ru/\r\n- updated rules pack with support of custom rules\r\n- results in .xml format"
     },
     "https://github.com/infobyte/faraday": {
-        "created_at": "2013-11-06 02:07:23",
+        "created_at": "2024-08-07 15:25:15",
         "description": "Open Source Vulnerability Management Platform",
         "commit_message": "Front Updated",
         "commit_date": "2024-08-01 20:54:44",
-        "release_date": "2024-07-24 18:25:54",
-        "release_message": " * [FIX] Improved bulk update logic in the general context view. #7766\n"
+        "release_date": "2024-08-07 15:31:44",
+        "release_message": " * [ADD] Added Scheduler feature to community. #7752\n * [MOD] Modified pytest launch parameters to fail job at first error. #7733\n * [ADD] Adder Pipelines feature in community. #7751\n"
     },
     "https://github.com/0xsauby/yasuo": {
         "created_at": "2014-09-25 06:20:08",
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.200.199.185属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.51属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28872,8 +28872,8 @@
     "https://github.com/stamparm/maltrail": {
         "created_at": "2024-07-31 21:28:22",
         "description": "Malicious traffic detection system",
-        "commit_message": "Update vidar.txt",
-        "commit_date": "2024-08-11 18:38:43",
+        "commit_message": "Update fin7.txt",
+        "commit_date": "2024-08-20 18:53:00",
         "release_date": "2024-07-31 22:11:03",
         "release_message": "Start-of-month release"
     },
