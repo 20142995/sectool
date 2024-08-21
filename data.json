@@ -18498,8 +18498,8 @@
     "https://github.com/guelfoweb/knock": {
         "created_at": "2024-07-30 15:54:22",
         "description": "Knock Subdomain Scan",
-        "commit_date": "2023-07-17 10:11:06",
-        "commit_message": "Merge pull request #135 from guelfoweb/drego85-patch-1\n\nUpdate wordlist.txt",
+        "commit_date": "2024-07-30 15:54:22",
+        "commit_message": "Update setup.py",
         "release_tag": "5.4.0",
         "release_date": "2024-07-30 15:56:15",
         "release_message": "## What's Changed\r\n* Update setup.py by @LocutusOfBorg in https://github.com/guelfoweb/knock/pull/142\r\n* Update README.md by @guelfoweb in https://github.com/guelfoweb/knock/pull/145\r\n* added autoaction to upload pypi package on release by @mlodic in https://github.com/guelfoweb/knock/pull/148\r\n\r\n## New Contributors\r\n* @guelfoweb made their first contribution in https://github.com/guelfoweb/knock/pull/145\r\n* @mlodic made their first contribution in https://github.com/guelfoweb/knock/pull/148\r\n\r\n**Full Changelog**: https://github.com/guelfoweb/knock/compare/7.0.0...7.0.1"
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.53.32属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.107.67属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
