@@ -1120,12 +1120,12 @@
         "release_message": "## [6.3.0](https://github.com/mdp/rotp/compare/v6.2.2...v6.3.0) (2023-08-30)\n\n\n### Features\n\n* Allow for non-standard provisioning URI params, eg. image/icon ([#91](https://github.com/mdp/rotp/issues/91)) ([45d8aac](https://github.com/mdp/rotp/commit/45d8aac8356424897faf3a0dbda59f88b22df775))"
     },
     "https://github.com/gchq/CyberChef": {
-        "created_at": "2024-06-21 13:12:37",
+        "created_at": "2024-08-14 14:35:17",
         "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
-        "commit_date": "2024-06-21 13:14:59",
-        "commit_message": "Merge branch 'master' of github.com:gchq/CyberChef",
+        "commit_date": "2024-08-14 14:35:17",
+        "commit_message": "10.19.2",
         "release_tag": "v10.5.2",
-        "release_date": "2024-06-21 13:22:29",
+        "release_date": "2024-08-14 17:34:54",
         "release_message": "See the [CHANGELOG](https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md) and [commit messages](https://github.com/gchq/CyberChef/commits/master) for details."
     },
     "https://github.com/NeoTheCapt/PowerScanner": {
@@ -4485,7 +4485,7 @@
         "release_message": "单纯的代理服务器，不依赖ip池。\r\n"
     },
     "https://github.com/jhao104/proxy_pool": {
-        "created_at": "2023-02-23 07:22:44",
+        "created_at": "2016-11-25 13:49:07",
         "description": "Python ProxyPool for web spider",
         "commit_date": "2024-06-17 06:32:09",
         "commit_message": "Update README.md",
@@ -18480,8 +18480,8 @@
     "https://github.com/wikiZ/RedGuard": {
         "created_at": "2024-06-18 12:33:35",
         "description": "RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.",
-        "commit_date": "2024-06-18 12:33:35",
-        "commit_message": "Optimized the problem of requesting regional restriction matching errors",
+        "commit_date": "2024-08-20 17:43:35",
+        "commit_message": "Update README_CN.md",
         "release_tag": "23.08.21",
         "release_date": "2024-06-18 12:47:04",
         "release_message": "## [24.06.18.2001] - 2024-06-18\r\n### Update\r\n- Optimized the problem of requesting regional restriction matching errors"
@@ -25052,8 +25052,8 @@
         "description": ""
     },
     "https://www.fujieace.com/hacker/tools/yujian.html": {
-        "status_code": 200,
-        "description": "御剑后台扫描工具下载、安装、使用教程 - 付杰博客"
+        "status_code": 524,
+        "description": ""
     },
     "https://n.shellpub.com/": {
         "status_code": 200,
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.97.191.176属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.28.132属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28006,8 +28006,8 @@
     "https://github.com/zema1/watchvuln": {
         "created_at": "2024-06-04 12:16:45",
         "description": "一个高价值漏洞采集与推送服务 | collect valueable vulnerability and push it",
-        "commit_message": "Merge pull request #85 from zema1/feat-filter-list\n\nfeat: add product filter list",
-        "commit_date": "2024-06-04 12:16:45",
+        "commit_message": "Merge pull request #96 from zema1/new-features\n\nNew Features",
+        "commit_date": "2024-08-17 06:31:48",
         "release_date": "2024-06-04 12:28:35",
         "release_message": "> 所有二进制由 Github Action 自动构建并自动上传，请放心使用\r\n> Docker 用户请手动 `docker pull zemal/watchvuln:latest`\r\n\r\n\r\n### 新增\r\n\r\n- 支持白名单关键词过滤, 用于只推送包含白名单关键词的漏洞, 通过 `-wf` 或者环境变量 `WHITELIST_FILE`\r\n  指定 [#84](https://github.com/zema1/watchvuln/issues/84)\r\n- 支持黑名单关键词过滤, 用于过滤包含黑名单关键词的漏洞, 通过 `-bf` 或者环境变量 `BLACKLIST_FILE` 指定\r\n\r\n"
     },
