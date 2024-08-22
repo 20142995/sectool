@@ -23996,7 +23996,7 @@
         "release_message": ""
     },
     "https://github.com/silentsignal/burp-log4shell": {
-        "created_at": "2023-09-24 08:29:21",
+        "created_at": "2021-12-12 14:52:49",
         "description": "Log4Shell scanner for Burp Suite",
         "commit_date": "2023-09-24 08:25:29",
         "commit_message": "manifest update for v0.2.4",
@@ -24829,7 +24829,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
+        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -26434,7 +26434,7 @@
         "commit_date": "2020-09-30 05:29:25"
     },
     "https://github.com/aboul3la/Sublist3r": {
-        "created_at": "2020-04-06 18:01:01",
+        "created_at": "2015-12-15 00:55:25",
         "description": "Fast subdomains enumeration tool for penetration testers",
         "commit_message": "Fixed cannot pickle '_thread.lock' error in python 3.8+\n\nFixed #236: cannot pickle '_thread.lock' object in python 3.8",
         "commit_date": "2020-07-29 06:08:31",
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.98.200属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.171.75.98属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28250,8 +28250,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
