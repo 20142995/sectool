@@ -6463,8 +6463,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: XVisualizationWidget 2024-08-12",
-        "commit_date": "2024-08-12 17:30:58",
+        "commit_message": "Update module: XFileInfo 2024-08-22",
+        "commit_date": "2024-08-21 22:20:58",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -7669,12 +7669,12 @@
         "release_message": ""
     },
     "https://github.com/locustio/locust": {
-        "created_at": "2024-08-06 19:17:28",
+        "created_at": "2024-08-15 18:25:25",
         "description": "Write scalable load tests in plain Python 🚗💨",
-        "commit_message": "Merge pull request #2851 from locustio/improve-docs-for---config-users-and-give-better-error-messages-if-json-is-bad\n\nImprove docs for --class-picker/--config-users and give better error messages if json is bad",
-        "commit_date": "2024-08-14 14:05:12",
-        "release_date": "2024-08-06 19:19:28",
-        "release_message": "## What's Changed\r\n* Documentation: Configure html_baseurl and jinja on RTD by @plaindocs in https://github.com/locustio/locust/pull/2837\r\n* Add Tests for Web UI Line Chart by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2838\r\n* Prebuild UI in PyPi publish steps so that even source distributions contain web UI code by @mquinnfd in https://github.com/locustio/locust/pull/2839\r\n\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.31.1...2.31.2"
+        "commit_message": "Merge pull request #2867 from andrewbaldwin44/task/update-logo\n\nWebui Replace Logo SVG",
+        "commit_date": "2024-08-20 13:23:26",
+        "release_date": "2024-08-15 18:25:29",
+        "release_message": "## What's Changed\r\n* Webui Add Scatterplot Support by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2840\r\n* Use new logo in web UI + some minor improvements by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2844\r\n* Webui Notification Improvements by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2846\r\n* Add missing margin between Logo and Host in Navbar by @heyman in https://github.com/locustio/locust/pull/2850\r\n* Web UI Should use Built-In Echarts Time Axis by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2847\r\n* Improve docs for --class-picker/--config-users and give better error messages if json is bad by @cyberw in https://github.com/locustio/locust/pull/2851\r\n* Update GitHub action versions by @cyberw in https://github.com/locustio/locust/pull/2853\r\n* Web UI Remove Echarts startValue by @andrewbaldwin44 in https://github.com/locustio/locust/pull/2855\r\n\r\n\r\n**Full Changelog**: https://github.com/locustio/locust/compare/2.31.2...2.31.3"
     },
     "https://github.com/Wh04m1001/IFaultrepElevatedDataCollectionUAC": {
         "created_at": "2022-10-14 21:40:59",
@@ -12899,8 +12899,8 @@
     "https://github.com/volatilityfoundation/volatility3": {
         "created_at": "2024-05-29 19:24:06",
         "description": "Volatility 3.0 development",
-        "commit_message": "Merge pull request #1234 from dadokkio/patch-1\n\nadd args and kwargs to threads.py init",
-        "commit_date": "2024-08-06 21:20:18",
+        "commit_message": "Bump as the release branch has been cut",
+        "commit_date": "2024-08-21 19:36:09",
         "release_date": "2024-05-29 19:45:32",
         "release_message": "* New plugins: \r\n  - `windows.iat`\r\n  - `windows.truecrypt`\r\n  - `linux.library_list`\r\n  - `mac.dmesg`\r\n* Support for configuration files for common CLI options\r\n* `windows.driverirp`: Report IRP entries that point inside a hidden module\r\n* `windows.thrdscan`: Improvements\r\n* `linux.kmsg`: Supports older kernels\r\n* `mac.maps`: Add process dump support\r\n* Support for Python 3.12"
     },
@@ -19216,8 +19216,8 @@
     "https://github.com/bitsadmin/wesng": {
         "created_at": "2019-03-02 15:25:40",
         "description": "Windows Exploit Suggester - Next Generation",
-        "commit_date": "2024-08-11 18:15:12",
-        "commit_message": "Updated 20240811",
+        "commit_date": "2024-08-17 08:51:16",
+        "commit_message": "Updated 20240817",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -22706,7 +22706,7 @@
     },
     "https://github.com/Safe3/CVS": {
         "created_at": "2024-06-30 14:30:19",
-        "description": "CVS is a powerful comprehensive attack surface management platform that covers the entire lifecycle of vulnerabilities, including network space mapping, asset management, vulnerability scanning, and more. 森罗万象-强大的网络空间测绘、资产管理、漏洞扫描等全生命漏洞周期的综合攻击面管理平台，化繁为简，以一御百。",
+        "description": "CVS is a powerful comprehensive attack surface management platform.  森罗万象-强大的网络空间测绘、资产管理、漏洞扫描等全生命漏洞周期的综合攻击面管理平台，化繁为简，以一御百。",
         "commit_date": "2024-07-30 10:00:54",
         "commit_message": "Update README.md",
         "release_tag": "",
@@ -22781,12 +22781,12 @@
         "release_message": ""
     },
     "https://github.com/qiwentaidi/Slack": {
-        "created_at": "2024-08-02 07:37:26",
+        "created_at": "2024-08-15 10:06:17",
         "description": "安服集成化工具平台，帮助测试人员减少测试脚本多，使用繁琐问题",
-        "commit_message": "修改首页",
-        "commit_date": "2024-08-09 16:25:47",
-        "release_date": "2024-08-02 08:06:44",
-        "release_message": "Bug太多了新发一版，修复下面问题\r\n\r\n1、目录扫描文件输入判断错误，选择自定义文件无法清除（现在已经改为临时加载在列表目录中），多目标后缀/处理\r\n2、Quake数据导出为空问题\r\n3、Quake排除过滤功能无法使用\r\n4、Dialog或者Drawer弹出时，右边框缩窄15px\r\n5、上个版本不小心把端口执行代码注释掉了，现在已经恢复\r\n6、钉钉aksk利用bug"
+        "commit_message": "测试完毕",
+        "commit_date": "2024-08-20 14:53:40",
+        "release_date": "2024-08-15 10:27:08",
+        "release_message": "### 新增:\r\n\r\n- 目录扫描递归功能\r\n- 子域名暴破更改，具有查询、枚举、混合模式三种功能（查询模式借助Chao、Bevigil等API进行查询子域名）\r\n- 数据处理处增加IP定位识别功能\r\n- 企业信息查询可查询至多3级子公司\r\n- 互联网敏感信息采集，目前只实现github\r\n\r\n### 优化:\r\n\r\n- 数据处理界面优化\r\n- 更改漏扫详情的显示方式\r\n- 首页内容展示\r\n\r\n### 修复:\r\n\r\n- 由于参数判断错误导致，漏扫模块不可被选择\r\n\r\n### 其他\r\n\r\n- Github增加Actions打包实例\r\n"
     },
     "https://github.com/horizon3ai/CVE-2023-27524": {
         "created_at": "2023-04-25 04:59:05",
@@ -25652,8 +25652,8 @@
     "https://github.com/future-architect/vuls": {
         "created_at": "2024-06-18 07:20:48",
         "description": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-        "commit_message": "chore(deps): bump github.com/gosnmp/gosnmp from 1.37.0 to 1.38.0 (#2005)\n\nBumps [github.com/gosnmp/gosnmp](https://github.com/gosnmp/gosnmp) from 1.37.0 to 1.38.0.\r\n- [Release notes](https://github.com/gosnmp/gosnmp/releases)\r\n- [Changelog](https://github.com/gosnmp/gosnmp/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/gosnmp/gosnmp/compare/v1.37.0...v1.38.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/gosnmp/gosnmp\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-08-13 04:59:09",
+        "commit_message": "feat(models): add new cveContentType trivy:azure (#2006)",
+        "commit_date": "2024-08-14 13:55:33",
         "release_date": "2024-06-24 07:48:30",
         "release_message": "## What's Changed\r\n\r\n* fix(trivy-to-vuls): remove cvss/severity duplicates, list all severities by @MaineK00n in https://github.com/future-architect/vuls/pull/1929\r\n* feat(reporter/s3): support minio by @MaineK00n in https://github.com/future-architect/vuls/pull/1930\r\n* feat(ci): group aws-sdk-go-v2 updates, check github actions update by @MaineK00n in https://github.com/future-architect/vuls/pull/1941\r\n* fix(redhat-based): collect running kernel packages by @MaineK00n in https://github.com/future-architect/vuls/pull/1950\r\n* fix(debian,ubuntu): collect running kernel source package by @MaineK00n in https://github.com/future-architect/vuls/pull/1935\r\n* fix(ci): Remove unused files to avoid disk full by @shino in https://github.com/future-architect/vuls/pull/1957\r\n* feat(config/os): add alpine 3.19, 3.20 EOL by @MaineK00n in https://github.com/future-architect/vuls/pull/1965\r\n* style(log): saas s3 upload error log by @future-ryunosuketanai in https://github.com/future-architect/vuls/pull/1966\r\n* refactor(report/s3): remove deprecated method for s3 endpoint by @MaineK00n in https://github.com/future-architect/vuls/pull/1967\r\n* feat: update EOL and Windows KB list by @MaineK00n in https://github.com/future-architect/vuls/pull/1971\r\n* fix(config/os): Fix EOL date of ubuntu 23.10 by @shino in https://github.com/future-architect/vuls/pull/1972\r\n\r\n## Misc changes\r\n\r\n* chore(deps): bump github.com/package-url/packageurl-go from 0.1.2 to 0.1.3 by @dependabot in https://github.com/future-architect/vuls/pull/1927\r\n* chore(deps): bump github.com/aquasecurity/trivy from 0.51.1 to 0.51.2 by @dependabot in https://github.com/future-architect/vuls/pull/1928\r\n* chore(deps): use aws-sdk-go-v2 by @MaineK00n in https://github.com/future-architect/vuls/pull/1922\r\n* chore(deps): bump github.com/aws/aws-sdk-go from 1.53.0 to 1.53.9 by @dependabot in https://github.com/future-architect/vuls/pull/1934\r\n* chore(deps): bump github.com/aws/aws-sdk-go-v2/credentials from 1.17.15 to 1.17.16 by @dependabot in https://github.com/future-architect/vuls/pull/1936\r\n* chore(deps): bump docker/login-action from 2 to 3 by @dependabot in https://github.com/future-architect/vuls/pull/1942\r\n* chore(deps): bump goreleaser/goreleaser-action from 4 to 5 by @dependabot in https://github.com/future-architect/vuls/pull/1943\r\n* chore(deps): bump actions/checkout from 3 to 4 by @dependabot in https://github.com/future-architect/vuls/pull/1944\r\n* chore(deps): bump docker/build-push-action from 2 to 5 by @dependabot in https://github.com/future-architect/vuls/pull/1945\r\n* chore(deps): bump the aws group with 2 updates by @dependabot in https://github.com/future-architect/vuls/pull/1947\r\n* chore(deps): bump github.com/hashicorp/go-version from 1.6.0 to 1.7.0 by @dependabot in https://github.com/future-architect/vuls/pull/1948\r\n* chore(deps): bump actions/setup-go from 3 to 5 by @dependabot in https://github.com/future-architect/vuls/pull/1946\r\n* chore(deps): bump github.com/BurntSushi/toml from 1.3.2 to 1.4.0 by @dependabot in https://github.com/future-architect/vuls/pull/1949\r\n* chore(deps): use github.com/Azure/azure-sdk-for-go/sdk/storage/azblob by @MaineK00n in https://github.com/future-architect/vuls/pull/1661\r\n* chore(deps): bump github.com/aquasecurity/trivy from 0.51.2 to 0.51.4 by @dependabot in https://github.com/future-architect/vuls/pull/1938\r\n* chore(deps): bump github/codeql-action from 2 to 3 by @dependabot in https://github.com/future-architect/vuls/pull/1951\r\n* chore(deps): bump golangci/golangci-lint-action from 3 to 6 by @dependabot in https://github.com/future-architect/vuls/pull/1952\r\n* chore(deps): bump docker/metadata-action from 4 to 5 by @dependabot in https://github.com/future-architect/vuls/pull/1953\r\n* chore(deps): bump docker/setup-qemu-action from 2 to 3 by @dependabot in https://github.com/future-architect/vuls/pull/1954\r\n* chore(deps): bump docker/setup-buildx-action from 2 to 3 by @dependabot in https://github.com/future-architect/vuls/pull/1955\r\n* chore(deps): bump the aws group with 5 updates by @dependabot in https://github.com/future-architect/vuls/pull/1958\r\n* chore(deps): bump golang.org/x/text from 0.15.0 to 0.16.0 by @dependabot in https://github.com/future-architect/vuls/pull/1959\r\n* chore(deps): bump github.com/CycloneDX/cyclonedx-go from 0.8.0 to 0.9.0 by @dependabot in https://github.com/future-architect/vuls/pull/1960\r\n* chore(deps): bump golang.org/x/oauth2 from 0.20.0 to 0.21.0 by @dependabot in https://github.com/future-architect/vuls/pull/1962\r\n* chore(deps): bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.5.2 to 1.6.0 by @dependabot in https://github.com/future-architect/vuls/pull/1964\r\n* chore(deps): bump github.com/aquasecurity/trivy from 0.51.4 to 0.52.1 by @dependabot in https://github.com/future-architect/vuls/pull/1961\r\n* chore(deps): bump github.com/spf13/cobra from 1.8.0 to 1.8.1 by @dependabot in https://github.com/future-architect/vuls/pull/1970\r\n* chore(deps): bump github.com/aquasecurity/trivy from 0.52.1 to 0.52.2 by @dependabot in https://github.com/future-architect/vuls/pull/1969\r\n\r\n**Full Changelog**: https://github.com/future-architect/vuls/compare/v0.25.4...v0.26.0"
     },
@@ -26253,9 +26253,9 @@
     },
     "https://github.com/X1r0z/JNDIMap": {
         "created_at": "2023-11-06 12:42:03",
-        "description": "JNDI 注入利用工具, 支持 RMI 和 LDAP 协议, 包含多种高版本 JDK 绕过方式 | A JNDI injection exploit tool that supports RMI and LDAP protocols, including a variety of methods to bypass higher-version JDK",
-        "commit_message": "fix: 修复 WebServer class 文件路径问题\n\n修复 WebServer class 文件路径问题",
-        "commit_date": "2024-07-26 10:07:08"
+        "description": "JNDI 注入利用工具, 支持 RMI, LDAP 和 LDAPS 协议, 包含多种高版本 JDK 绕过方式 | A JNDI injection exploit tool that supports RMI, LDAP and LDAPS protocols, including a variety of methods to bypass higher-version JDK",
+        "commit_message": "feat: 支持 LDAPS 协议\n\n1. 支持 LDAPS 协议\n2. 将 Custom 路由重命名为 Script",
+        "commit_date": "2024-08-21 11:18:51"
     },
     "https://github.com/dzonerzy/goWAPT": {
         "created_at": "2017-12-05 19:32:43",
@@ -27077,7 +27077,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.107.67属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.97.191.176属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27502,12 +27502,12 @@
         "commit_date": "2019-11-12 09:18:28"
     },
     "https://github.com/google/tsunami-security-scanner": {
-        "created_at": "2024-07-29 08:38:58",
+        "created_at": "2024-08-20 14:22:01",
         "description": "Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.",
-        "commit_message": "Change the logic of `buildWebApplicationRootUrl` to return a default result even for non web services.\n\nPiperOrigin-RevId: 663912068\nChange-Id: I5602d68b3bf3f60670e31a5f0179c611f75e9ad2",
-        "commit_date": "2024-08-16 23:33:33",
-        "release_date": "2024-07-29 14:59:01",
-        "release_message": "**IMPORTANT: This release changes definitions for language servers' protocol buffers. If you have your own language server, you need to ensure that the version of the protos are updated everywhere.**\r\n\r\n- Language servers now support a more compact [`RunRequest`](https://github.com/google/tsunami-security-scanner/blob/67f5d7958fcd1b6065eab6974520fdbc8286de34/proto/plugin_service.proto#L42) that should avoid repetitions and save some memory;\r\n- Fixes issues with the Python language server that should not be fully supported;\r\n- Add `hive-jdbc` as a dependency;\r\n- Add support for OS fingerprinting;\r\n"
+        "commit_message": "Temporarily remove broken links from the documentation.\n\nPiperOrigin-RevId: 665884765\nChange-Id: Id59a13bba9bb24fea2e43515475336497bffde78",
+        "commit_date": "2024-08-21 15:10:01",
+        "release_date": "2024-08-20 14:53:38",
+        "release_message": "- #117: Fix a null exception that was introduced in version 0.0.23\r\n- #110: Add additional payloads for the callback server\r\n- 315dfe1: Change the behavior of `buildWebApplicationRootUrl` so that it can be used generically\r\n- #118: `setTrustAllCertificates` not directly accessible in client and set to true by default\r\n- Misc updates to the documentation"
     },
     "https://www.sojson.com/encrypt_triple_des.html": {
         "status_code": 200,
@@ -28140,8 +28140,8 @@
     "https://github.com/honmashironeko/sqlmap-gui": {
         "created_at": "2024-07-22 01:28:15",
         "description": "基于官版本 SQLMAP 进行人工汉化，并提供GUI界面及多个自动化脚本",
-        "commit_message": "Update",
-        "commit_date": "2024-07-25 02:37:30",
+        "commit_message": "update",
+        "commit_date": "2024-08-21 01:39:11",
         "release_date": "2024-07-22 01:38:19",
         "release_message": "1、检测第三方库安装情况，并根据情况自动安装第三方库 requests。\r\n2、优化运行逻辑。"
     },
@@ -28250,8 +28250,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
