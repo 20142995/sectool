@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.147.115属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.225.76.191属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28177,7 +28177,7 @@
         "created_at": "2024-06-12 01:49:12",
         "description": "哥斯拉webshell管理工具二次开发规避流量检测设备",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-12 01:49:12",
+        "commit_date": "2024-08-21 03:24:26",
         "release_date": "2024-06-12 02:51:47",
         "release_message": "1.更新aspx生成即免杀\r\n2.更新流量随机html title\r\n"
     },
@@ -28252,8 +28252,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
