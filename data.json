@@ -520,8 +520,8 @@
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
         "description": "404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目",
-        "commit_message": "weekly update at 2024-07-22",
-        "commit_date": "2024-07-22 03:35:09"
+        "commit_message": "weekly update at 2024-08-19",
+        "commit_date": "2024-08-19 03:53:14"
     },
     "https://github.com/gwen001/github-subdomains": {
         "created_at": "2023-02-09 13:53:02",
@@ -1052,8 +1052,8 @@
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2024-07-16 02:52:08",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
-        "commit_message": "aur: remove 'armv6h' in PKGBUILD (#1449)",
-        "commit_date": "2024-07-16 08:31:13",
+        "commit_message": "Add Support for QUIC Protocol in VLESS (#1473)",
+        "commit_date": "2024-08-18 13:57:40",
         "release_date": "2024-07-16 02:56:35",
         "release_message": "## What's Changed\n* aur: remove armv6 of v2raya-bin by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1447\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.5.7...v2.2.5.8"
     },
@@ -18366,8 +18366,8 @@
     "https://github.com/hacklcx/HFish": {
         "created_at": "2019-08-07 05:01:28",
         "description": "安全、可靠、简单、免费的企业级蜜罐",
-        "commit_message": "modify version info again and again and again!",
-        "commit_date": "2024-07-16 05:35:28"
+        "commit_message": "Update detail-intel.md",
+        "commit_date": "2024-08-13 10:46:31"
     },
     "https://github.com/michenriksen/aquatone": {
         "created_at": "2019-05-19 09:07:56",
@@ -23054,9 +23054,9 @@
     },
     "https://github.com/myshell-ai/OpenVoice": {
         "created_at": "2023-11-29 12:17:01",
-        "description": "Instant voice cloning by MyShell.",
-        "commit_message": "update readme",
-        "commit_date": "2024-07-06 00:21:18"
+        "description": "Instant voice cloning by MIT and MyShell.",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-21 18:04:49"
     },
     "https://github.com/nitscan/inlinux": {
         "created_at": "2015-02-04 14:24:34",
@@ -23477,8 +23477,8 @@
     "https://github.com/Mr-xn/Penetration_Testing_POC": {
         "created_at": "2019-07-24 03:37:55",
         "description": "渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-06-27 15:44:44"
+        "commit_message": "add 漏洞分析、挖掘、IOT安全、红蓝攻防等相关文章\n\nCC链再次挖掘\nCVE-2024-36401 GeoServer远程代码执行\nCobaltStrike(4.9.1)的狩猎与反狩猎 · Arui's blog\nDIR-820 CVE-2022-26258漏洞复现\nGeoServer Property evalute 远程代码执行漏洞 (CVE-2024-36401) 分析\nGeoServer property RCE注入内存马\nGeoServer历史漏洞分析-CSDN博客\nICMP_DNS 隧道处置方法 _ Linux 应急响应\nICMP_DNS 隧道处置方法 _ Windows 应急响应\n_.Net ViewState反序列化实现无文件哥斯拉内存马(万户ezEip)\nnginx deny限制路径绕过\n从jhttpd分析到系统命令注入(CVE-2021-46227-D-Link Di-7200G 命令注入漏洞)\n契约锁代码审计分析-CSDN博客\n宏景eHR人力系统的代码审计(权限绕过_downlawbase注入_任意文件删除下载_反序列化RCE)\n帆软channel v5反序列化绕过\n帆软channel反序列化漏洞分析\n某凌 EKP 前台远程命令执行漏洞分析\n某园区系统登录绕过分析(大华智慧园区综合管理平台-登录绕过_ZIP上传目录穿越)\n深入解析PHP CGI Windows平台远程代码执行漏洞（CVE-2024-4577_CVE-2012-1823）\n漏洞挖掘之再探某园区系统(大华智慧园区综合管理平台—未授权用户添加_查看_修改_xstream反序列化RCE)\n记某大学智慧云平台存在弱口令爆破_水平越权信息泄露_Wx_SessionKey篡改 任意用户登录漏洞",
+        "commit_date": "2024-08-16 13:00:47"
     },
     "https://github.com/qianxiao996/R-Knife": {
         "created_at": "2023-06-30 02:53:55",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.131.71属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.147.115属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28098,10 +28098,10 @@
         "commit_date": "2024-08-19 07:58:43"
     },
     "https://github.com/R0A1NG/Botgate_bypass": {
-        "created_at": "2024-04-25 09:47:00",
+        "created_at": "2024-04-12 03:09:12",
         "description": "绕过瑞数waf的动态验证机制，实现请求包重放，理论支持不同网站环境使用，如网页、小程序、APP等。",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-07-23 08:33:32",
+        "commit_message": "'message'",
+        "commit_date": "2024-08-09 06:53:20",
         "release_date": "2024-04-25 09:48:48",
         "release_message": "v2.1，此处不为最新版本，下载最新版本请直接git下载"
     },
