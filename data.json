@@ -1329,8 +1329,8 @@
     "https://github.com/projectdiscovery/subfinder": {
         "created_at": "2024-03-27 21:55:17",
         "description": "Fast passive subdomain enumeration tool.",
-        "commit_message": "Merge pull request #1335 from projectdiscovery/dependabot/go_modules/v2/dev/github.com/projectdiscovery/goflags-0.1.62",
-        "commit_date": "2024-08-05 14:40:25",
+        "commit_message": "Merge pull request #1342 from projectdiscovery/dependabot/go_modules/v2/dev/github.com/projectdiscovery/retryablehttp-go-1.0.73\n\nchore(deps): bump github.com/projectdiscovery/retryablehttp-go from 1.0.71 to 1.0.73 in /v2",
+        "commit_date": "2024-08-13 11:49:57",
         "release_date": "2024-03-27 22:00:39",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### Other Changes\r\n\r\n* Added context to crtsh database query by @UFeindschiff in https://github.com/projectdiscovery/subfinder/pull/1190\r\n* Fixed SDK log config issue by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1200\r\n* Fixed issue of url scheme being added in output by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1166\r\n* Fixed issue with pagination by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1177\r\n* Fixed flaky tests by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1202\r\n* Updated go version in Dockerfile by @tarunKoyalwar in https://github.com/projectdiscovery/subfinder/pull/1159\r\n* Updated log level by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1167\r\n* Updated alpine to 3.18.6 for security fixes by @alizademhdi in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* Removed` time.sleep` from sources by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1175\r\n\r\n## New Contributors\r\n* @alizademhdi made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* @UFeindschiff made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1190\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.5...v2.6.6"
     },
@@ -12899,8 +12899,8 @@
     "https://github.com/volatilityfoundation/volatility3": {
         "created_at": "2024-05-29 19:24:06",
         "description": "Volatility 3.0 development",
-        "commit_message": "Bump as the release branch has been cut",
-        "commit_date": "2024-08-21 19:36:09",
+        "commit_message": "Merge pull request #1213 from forensicxlab/feature/lsof_inodes\n\nImprovement: Linux/lsof",
+        "commit_date": "2024-08-22 22:45:20",
         "release_date": "2024-05-29 19:45:32",
         "release_message": "* New plugins: \r\n  - `windows.iat`\r\n  - `windows.truecrypt`\r\n  - `linux.library_list`\r\n  - `mac.dmesg`\r\n* Support for configuration files for common CLI options\r\n* `windows.driverirp`: Report IRP entries that point inside a hidden module\r\n* `windows.thrdscan`: Improvements\r\n* `linux.kmsg`: Supports older kernels\r\n* `mac.maps`: Add process dump support\r\n* Support for Python 3.12"
     },
@@ -17571,8 +17571,8 @@
     "https://github.com/laramies/theHarvester": {
         "created_at": "2024-03-17 20:13:30",
         "description": "E-mails, subdomains and names Harvester - OSINT ",
-        "commit_date": "2024-08-06 00:06:02",
-        "commit_message": "Bump wheel from 0.43.0 to 0.44.0\n\nBumps [wheel](https://github.com/pypa/wheel) from 0.43.0 to 0.44.0.\n- [Release notes](https://github.com/pypa/wheel/releases)\n- [Changelog](https://github.com/pypa/wheel/blob/main/docs/news.rst)\n- [Commits](https://github.com/pypa/wheel/compare/0.43.0...0.44.0)\n\n---\nupdated-dependencies:\n- dependency-name: wheel\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-08-20 00:02:20",
+        "commit_message": "Bump aiohttp from 3.10.3 to 3.10.5\n\nBumps [aiohttp](https://github.com/aio-libs/aiohttp) from 3.10.3 to 3.10.5.\n- [Release notes](https://github.com/aio-libs/aiohttp/releases)\n- [Changelog](https://github.com/aio-libs/aiohttp/blob/v3.10.5/CHANGES.rst)\n- [Commits](https://github.com/aio-libs/aiohttp/compare/v3.10.3...v3.10.5)\n\n---\nupdated-dependencies:\n- dependency-name: aiohttp\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
         "release_tag": "4.4.4",
         "release_date": "2024-03-17 20:20:19",
         "release_message": "## Package Maintainer Changes\r\nWe have dropped using pyppeteer and moved to using PlayWright https://playwright.dev/ for the screenshot module\r\n\r\n## Dev Changes:\r\nMoved away from isort,black and flake8 for ruff for linting and formatting as ruff can do all that and more, not to mention is crazy fast.\r\n\r\n## What's Changed\r\n* chore(deps): bump fastapi from 0.109.0 to 0.109.1 in /requirements by @dependabot in https://github.com/laramies/theHarvester/pull/1649\r\n* chore(deps): bump slowapi from 0.1.8 to 0.1.9 by @dependabot in https://github.com/laramies/theHarvester/pull/1651\r\n* chore(deps): bump fastapi from 0.109.1 to 0.109.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1652\r\n* chore(deps-dev): bump pydantic from 2.5.3 to 2.6.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1650\r\n* chore(deps-dev): bump pytest-asyncio from 0.23.4 to 0.23.5 by @dependabot in https://github.com/laramies/theHarvester/pull/1654\r\n* chore(deps): bump netaddr from 0.10.1 to 1.1.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1659\r\n* chore(deps-dev): bump black from 24.1.1 to 24.2.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1656\r\n* chore(deps): bump uvicorn from 0.27.0.post1 to 0.27.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1658\r\n* chore(deps): bump setuptools from 69.0.3 to 69.1.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1655\r\n* chore(deps): bump dnspython from 2.5.0 to 2.6.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1661\r\n* chore(deps): bump aiosqlite from 0.19.0 to 0.20.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1667\r\n* Fix ip-address parsing for IPv6 addresses by @jeffguy in https://github.com/laramies/theHarvester/pull/1670\r\n* chore(deps): bump netaddr from 1.1.0 to 1.2.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1665\r\n* chore(deps): bump dnspython from 2.6.0 to 2.6.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1663\r\n* chore(deps): bump setuptools from 69.1.0 to 69.1.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1668\r\n* chore(deps): bump fastapi from 0.109.2 to 0.110.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1671\r\n* chore(deps-dev): bump pytest from 7.4.4 to 8.0.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1672\r\n* chore(deps): bump python-dateutil from 2.8.2 to 2.9.0.post0 by @dependabot in https://github.com/laramies/theHarvester/pull/1674\r\n* chore(deps): bump playwright from 1.41.2 to 1.42.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1676\r\n* chore(deps-dev): bump ruff from 0.3.0 to 0.3.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1677\r\n* chore(deps-dev): bump pytest from 8.0.2 to 8.1.1 by @dependabot in https://github.com/laramies/theHarvester/pull/1687\r\n* chore(deps-dev): bump types-requests from 2.31.0.6 to 2.31.0.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1686\r\n* chore(deps-dev): bump ruff from 0.3.1 to 0.3.2 by @dependabot in https://github.com/laramies/theHarvester/pull/1682\r\n* chore(deps-dev): bump mypy from 1.8.0 to 1.9.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1680\r\n* chore(deps-dev): bump types-python-dateutil from 2.8.19.20240106 to 2.8.19.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1685\r\n* chore(deps): bump uvicorn from 0.27.1 to 0.28.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1681\r\n* chore(deps-dev): bump types-pyyaml from 6.0.12.12 to 6.0.12.20240311 by @dependabot in https://github.com/laramies/theHarvester/pull/1684\r\n* chore(deps-dev): bump wheel from 0.42.0 to 0.43.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1683\r\n* chore(deps-dev): bump pytest-asyncio from 0.23.5 to 0.23.5.post1 by @dependabot in https://github.com/laramies/theHarvester/pull/1679\r\n* chore(deps-dev): bump ruff from 0.3.2 to 0.3.3 by @dependabot in https://github.com/laramies/theHarvester/pull/1689\r\n* chore(deps): bump setuptools from 69.1.1 to 69.2.0 by @dependabot in https://github.com/laramies/theHarvester/pull/1688\r\n* chore(deps-dev): bump types-python-dateutil from 2.8.19.20240311 to 2.9.0.20240315 by @dependabot in https://github.com/laramies/theHarvester/pull/1690\r\n\r\n## New Contributors\r\n* @jeffguy made their first contribution in https://github.com/laramies/theHarvester/pull/1670\r\n\r\n**Full Changelog**: https://github.com/laramies/theHarvester/compare/4.5.1...4.6.0"
@@ -18478,7 +18478,7 @@
         "release_message": ""
     },
     "https://github.com/wikiZ/RedGuard": {
-        "created_at": "2024-06-18 12:33:35",
+        "created_at": "2022-05-08 04:02:33",
         "description": "RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.",
         "commit_date": "2024-08-20 17:43:35",
         "commit_message": "Update README_CN.md",
@@ -22444,8 +22444,8 @@
     "https://github.com/GZTimeWalker/GZCTF": {
         "created_at": "2024-08-17 14:15:34",
         "description": "The GZ::CTF project, an open source CTF platform.",
-        "commit_message": "release: bump version to v0.21.3",
-        "commit_date": "2024-08-17 14:15:34",
+        "commit_message": "chore(deps): fix lockfile",
+        "commit_date": "2024-08-22 09:14:21",
         "release_date": "2024-08-17 14:17:49",
         "release_message": "## [0.21.3](https://github.com/GZTimeWalker/GZCTF/compare/v0.21.2..v0.21.3) - 2024-08-16\r\n\r\n### ⛰️ Features\r\n\r\n- Add zstd compression support - ([4ae144](https://github.com/GZTimeWalker/GZCTF/commit/4ae144)) by **Steven He**\r\n- Enable response compression for more scenarios - ([bda153](https://github.com/GZTimeWalker/GZCTF/commit/bda153)) by **Steven He**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(server)** remove unnecessary mimetypes - ([acf84c](https://github.com/GZTimeWalker/GZCTF/commit/acf84c)) by **GZTime**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.21.2...v0.21.3"
     },
@@ -23204,10 +23204,12 @@
         "release_message": ""
     },
     "https://github.com/RVC-Boss/GPT-SoVITS": {
-        "created_at": "2024-01-14 18:05:21",
+        "created_at": "2024-08-21 14:53:32",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "Update models.py",
-        "commit_date": "2024-08-06 12:04:46"
+        "commit_message": "add SORT_KEYS (#1509)",
+        "commit_date": "2024-08-21 14:53:32",
+        "release_date": "2024-08-21 15:50:40",
+        "release_message": " [windows 7z package download](https://huggingface.co/lj1995/GPT-SoVITS-windows-package/resolve/main/GPT-SoVITS-v2-240821.7z)\r\n\r\n中国用户可使用以下2个源加速下载整合包\r\n1、[需登录，免费满速下载链接](https://www.123pan.cn/s/5tIqVv-GVRcv.html)\r\n2、[有度盘超级会员的可以用度盘](https://pan.baidu.com/s/1OE5qL0KreO-ASHwm6Zl9gA?pwd=mqpi)\r\n\r\n[教程持续更新](www.yuque.com/baicaigongchang1145haoyuangong/ib3g1e) [user guide](https://rentry.co/GPT-SoVITS-guide#/)\r\n\r\nupdated to v2，[更新内容详情(v2 new features)](https://github.com/RVC-Boss/GPT-SoVITS/wiki/GPT%E2%80%90SoVITS%E2%80%90v2%E2%80%90features-(%E6%96%B0%E7%89%B9%E6%80%A7))\r\n\r\n[一些其他资料（some other documents）](https://github.com/RVC-Boss/GPT-SoVITS/wiki)\r\n\r\n[Changelog](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/docs/en/Changelog_EN.md) [更新日志](https://github.com/RVC-Boss/GPT-SoVITS/blob/main/docs/cn/Changelog_CN.md)\r\n\r\n[云端镜像（国内）](https://www.codewithgpu.com/i/RVC-Boss/GPT-SoVITS/GPT-SoVITS-Official )"
     },
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
@@ -23753,13 +23755,13 @@
         "release_message": ""
     },
     "https://github.com/chainreactors/spray": {
-        "created_at": "2024-08-12 07:12:43",
+        "created_at": "2024-08-20 08:42:32",
         "description": "Next Generation HTTP Dir/File Fuzz Tool",
-        "commit_date": "2024-08-06 08:53:00",
-        "commit_message": "Merge pull request #54 from chainreactors/dev\n\nmerge v1.0.1",
+        "commit_date": "2024-08-20 08:53:55",
+        "commit_message": "Merge pull request #57 from chainreactors/dev\n\nmerge v1.0.2",
         "release_tag": "v0.9.1",
-        "release_date": "2024-08-12 07:17:43",
-        "release_message": "## Changelog\r\n\r\n* [feature] 新增 `--active`, 将会开启主动指纹识别, 但也会导致强制开启爆破模式. 具体使用请查看 https://chainreactors.github.io/wiki/spray/start/#_19 \r\n* [enhance] 更新help的使用说明\r\n* [enhance] 更新wiki中的文档到v1.0.1\r\n* [fix] 修复word在不使用字典时失效的bug , #53 \r\n* [fix] 修复爬虫失效的bug, #51\r\n* [fix] 修复多个在解析http结构时的bug\r\n* [fix] 重新发布了v1.0.1, 修复了checkpool模式下无法正常退出的bug\r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v1.0.0...v1.0.1"
+        "release_date": "2024-08-20 08:49:34",
+        "release_message": "## Changelog\r\n* [fix] 修复v1.0.1 中check模式挂死的bug\r\n* [fix] 修复自动http/https判断中相互递归导致的死锁bug\r\n* [fix] brute plugin 开启后不会自动切换到brute模式的bug \r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v1.0.1...v1.0.2"
     },
     "https://github.com/TD0U/WeaverScan": {
         "created_at": "2022-12-30 12:45:33",
@@ -25052,8 +25054,8 @@
         "description": ""
     },
     "https://www.fujieace.com/hacker/tools/yujian.html": {
-        "status_code": 502,
-        "description": "502 Bad Gateway"
+        "status_code": 200,
+        "description": "御剑后台扫描工具下载、安装、使用教程 - 付杰博客"
     },
     "https://n.shellpub.com/": {
         "status_code": 200,
@@ -25878,12 +25880,12 @@
         "commit_date": "2017-07-21 18:33:08"
     },
     "https://github.com/retirejs/retire.js": {
-        "created_at": "2024-07-15 20:26:49",
+        "created_at": "2024-08-20 09:07:12",
         "description": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds.",
-        "commit_message": "fix build command : add browserify directly instead of looking in node_modules/.bin (#446)\n\nsince npm handles the paths for node_modules/.bin\r\nit will automatically use the correct binary from node_modules/.bin.",
-        "commit_date": "2024-08-04 20:23:39",
-        "release_date": "2024-07-15 20:26:52",
-        "release_message": "## [4.4.3]\n\n### Bugfix\n\n- JSON format should not include results without vulnerabilities unless `--verbose` is specified.\n\n"
+        "commit_message": "Fix range",
+        "commit_date": "2024-08-20 09:06:57",
+        "release_date": "2024-08-20 09:07:16",
+        "release_message": "## [5.2.2]\n\n### Bugfix\n\n- Encode purls correctly in SBOM\n\n"
     },
     "https://github.com/1N3/XSSTracer": {
         "created_at": "2015-03-17 19:33:55",
@@ -27077,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.171.75.98属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.131.71属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27404,8 +27406,8 @@
     "https://github.com/sullo/nikto": {
         "created_at": "2023-12-03 16:16:14",
         "description": "Nikto web server scanner",
-        "commit_message": "Adjust indentation of SSL info to better line up",
-        "commit_date": "2024-08-08 20:22:30",
+        "commit_message": "A little more efficient",
+        "commit_date": "2024-08-16 13:49:06",
         "release_date": "2023-12-03 19:00:51",
         "release_message": "Nikto 2.5.0 has now been promoted to release and the master branch!\r\n\r\n**Note: [Breaking changes](https://github.com/sullo/nikto/wiki/2.5.0-Potentially-Breaking-Changes) to JSON and XML output may have occurred. If you rely on these formats please test before upgrading.**\r\n\r\nThis version contains hundreds of updates over several years, including the highlights below. \r\n- IPv6 support (thanks to @richardleach)\r\n- Updated `db_checks` format uses multiple reference\r\n- Hundreds of OSVDB and BID references replaced\r\n- Removal of some very old and false-positive prone tests\r\n- Decode Netscaler cookies (thanks to @canberkpolat)\r\n- Add `-usecookies` flag to send received cookies with subsequent requests\r\n- Add `-followredirects` flag to signal 3xx responses should be fetched and tested\r\n- Add `-noslash` to remove trailing slash from directories\r\n- Check for indexing on redirect paths\r\n- Alert on `alt-svc` header\r\n- Hundreds of bug fixes, test updates and enhancements, and other optimization changes\r\n\r\nYou can start using Nikto 2.5.0 by performing a `git pull` from the master branch, cloning the repository again, or [downloading the zip file](https://github.com/sullo/nikto/archive/refs/heads/master.zip).\r\n\r\nAs always, if you encounter bugs or problems, please [open an issue](https://github.com/sullo/nikto/issues/new/choose).\r\n\r\n![image](https://github.com/sullo/nikto/assets/1474884/796062af-7cb1-404c-9c0c-720d110d62c7 )\r\n"
     },
@@ -28250,8 +28252,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 200,
-        "description": "The Zeek Network Security Monitor"
+        "status_code": 429,
+        "description": "WordPress.com 429 Error"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
@@ -28328,8 +28330,8 @@
     "https://github.com/cowrie/cowrie": {
         "created_at": "2023-01-09 15:18:42",
         "description": "Cowrie SSH/Telnet Honeypot https://cowrie.readthedocs.io",
-        "commit_message": "build(deps): bump bcrypt from 4.1.3 to 4.2.0 (#2250)\n\nBumps [bcrypt](https://github.com/pyca/bcrypt) from 4.1.3 to 4.2.0.\r\n- [Changelog](https://github.com/pyca/bcrypt/blob/main/release.py)\r\n- [Commits](https://github.com/pyca/bcrypt/compare/4.1.3...4.2.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: bcrypt\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-07-26 08:44:21",
+        "commit_message": "remove threatjammer. domain is gone. (#2282)",
+        "commit_date": "2024-08-22 06:23:41",
         "release_date": "2023-01-09 15:19:22",
         "release_message": "Release 2.5.0\r\n*************\r\n\r\n* Datadog output module (Fred Baguelin <frederic.baguelin@datadoghq.com>)\r\n* General improvements to shell expansion handling\r\n* New version of Twisted supported\r\n* Python 3.11 support\r\n* Pypy 3.9 support\r\n* Add session type to Telegram output"
     },
