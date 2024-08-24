@@ -427,6 +427,7 @@
             Java反编译:
                 - https://github.com/MountCloud/JavaDecompileTool-GUI
                 - https://github.com/Ppsoft1991/CodeReviewTools
+                - https://github.com/leibnitz27/cfr
             pyc逆向:
                 - https://c5r.app/tools/pyc-decompiler
                 - https://ctfever.uniiem.com/tools/pyc-decompiler
@@ -713,6 +714,8 @@
                         - https://github.com/m4ll0k/SecretFinder
                     邮件密码泄露:
                         - https://github.com/D4Vinci/Cr3dOv3r
+                其他:
+                    - https://github.com/gojue/muou
                 半自动化漏洞利用:
                     - https://github.com/R4gd0ll/I-Wanna-Get-All
                     - https://github.com/abc123info/EquationToolsGUI
@@ -1278,12 +1281,16 @@
                 - https://github.com/0x727/ObserverWard
                 - https://github.com/EASY233/Finger
                 - https://github.com/EdgeSecurityTeam/EHole
+                - https://github.com/Funsiooo/chunsou
                 - https://github.com/Ghr07h/Heimdallr
+                - https://github.com/HackAllSec/hfinger
                 - https://github.com/L10nK1n6/LazyDog
                 - https://github.com/LittleBear4/Find-SomeThing
+                - https://github.com/P001water/P1finger
                 - https://github.com/P1-Team/AlliN
                 - https://github.com/TideSec/TideFinger
                 - https://github.com/b1ackc4t/14Finger
+                - https://github.com/chaitin/xapp
                 - https://github.com/fingerprintjs/fingerprintjs
                 - https://github.com/n4xh4ck5/CMSsc4n
                 - https://github.com/projectdiscovery/wappalyzergo
@@ -1507,6 +1514,7 @@
                 - https://github.com/shadow1ng/fscan
             后渗透框架:
                 - https://github.com/TryGOTry/CobaltStrike_Cat_4.5
+                - https://github.com/n1nj4sec/pupy
                 - https://github.com/rapid7/metasploit-framework
                 - https://github.com/t3l3machus/Villain
             域渗透工具:
@@ -1576,6 +1584,7 @@
                     - https://github.com/Inf0secRabbit/BadAssMacros
                     - https://github.com/M-Kings/BypassAv-web
                     - https://github.com/Pizz33/GobypassAV-shellcode
+                    - https://github.com/Pizz33/JoJoLoader
                     - https://github.com/Pizz33/Qianji
                     - https://github.com/T4y1oR/RingQ
                     - https://github.com/TideSec/BypassAntiVirus
@@ -1717,6 +1726,7 @@
                         - https://github.com/nccgroup/AutoRepeater
                         - https://github.com/nccgroup/BurpSuiteHTTPSmuggler
                         - https://github.com/nccgroup/LoggerPlusPlus
+                        - https://github.com/outlaws-bai/Galaxy
                         - https://github.com/portswigger/http-request-smuggler
                         - https://github.com/silentsignal/burp-requests
                         - https://github.com/smxiazi/NEW_xp_CAPTCHA
@@ -1863,6 +1873,7 @@
                 pocassist:
                     - https://github.com/jweny/pocassistdb
                 pocsuite3:
+                    - https://github.com/S2eTo/Pocsuite3Gui
                     - https://github.com/hanc00l/some_pocsuite
                     - https://github.com/smallfox233/ExpToPocsuite3
                 rsas:
@@ -1973,6 +1984,7 @@
                         - https://github.com/yuyan-sec/RedisEXP
                         - https://github.com/zyylhn/redis_rce
                     综合:
+                        - https://github.com/DeEpinGh0st/MDUT-Extend-Release
                         - https://github.com/Hel10-Web/Databasetools
                         - https://github.com/Ryze-T/Sylas
                         - https://github.com/SafeGroceryStore/MDUT
@@ -2084,6 +2096,8 @@
                 邮件取证:
                     - https://github.com/b0bac/GetMail
             操作系统取证:
+                华为手机备份解密:
+                    - https://github.com/RealityNet/kobackupdec
                 安卓取证:
                     - https://github.com/nelenkov/android-backup-extractor
             文件取证:
@@ -2176,6 +2190,8 @@
                 - https://www.prelude-siem.org/
             WAF:
                 - https://github.com/C4o/Juggler
+                - https://github.com/chaitin/blazehttp
+                - https://github.com/httpwaf/httpwaf2.0
                 - https://github.com/loveshell/ngx_lua_waf
                 - https://github.com/xsec-lab/x-waf
                 - https://rasp.baidu.com
@@ -2393,6 +2409,7 @@
                     - https://github.com/cyberark/DLLSpy
                 Linux应急工具:
                     - http://rkhunter.sourceforge.net/
+                    - https://github.com/Ashro-one/Ashro_linux
                     - https://github.com/P4ck/Emergency
                     - https://github.com/al0ne/LinuxCheck
                     - https://github.com/alexandreborges/malwoverview
@@ -2413,6 +2430,7 @@
                         - https://www.microsoft.com/en-us/download/details.aspx?id=24659
                         - https://www.nirsoft.net/utils/full_event_log_view.html
                     信息采集:
+                        - https://github.com/Fheidt12/Windows_Memory_Search
                         - https://github.com/MountCloud/FireKylin
                         - https://github.com/SwiftOnSecurity/sysmon-config
                         - https://github.com/i11us0ry/winlog
