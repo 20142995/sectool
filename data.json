@@ -23963,7 +23963,7 @@
     },
     "https://github.com/0x783kb/Security-operation-book": {
         "created_at": "2019-07-10 08:44:30",
-        "description": "常见的黑客行为监测特征及方法，涵盖端点和流量，未包含PowerShell和Sysmon。预祝运营生活愉快！",
+        "description": "常见的攻击行为监测特征及方法，涵盖端点和流量，未包含PowerShell和Sysmon。预祝运营生活愉快！",
         "commit_date": "2024-06-18 03:53:59",
         "commit_message": "Update README.md",
         "release_tag": "",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.33.242属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.81.159.28属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
