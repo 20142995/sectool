@@ -776,7 +776,7 @@
     },
     "https://github.com/xiecat/fofax": {
         "created_at": "2023-12-21 12:39:45",
-        "description": "fofax is a command line query tool based on the API of https://fofa.info/, simple is the best!",
+        "description": "FOFAX是一个基于fofa.info的API命令行查询工具",
         "commit_date": "2024-07-22 02:48:19",
         "commit_message": "修改版本更新检查显示的日志等级",
         "release_tag": "v0.1.44",
@@ -4811,8 +4811,8 @@
     "https://github.com/babysor/MockingBird": {
         "created_at": "2021-10-23 02:25:43",
         "description": "🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time",
-        "commit_date": "2024-07-06 02:13:09",
-        "commit_message": "Env update 添加环境需求注释 (#660)\n\n* Update Readme Doc\r\n\r\n添加环境需求注释\r\n\r\n* Update Readme Doc\r\n\r\nAdd environmental requirement notes\r\n\r\n---------\r\n\r\nCo-authored-by: Limingrui0 <65227354+Limingrui0@users.noreply.github.com>",
+        "commit_date": "2024-08-22 07:06:40",
+        "commit_message": "Update requirements.txt (#747)\n\nUbuntu 20.04.1 CUDA 11.3 缺少依赖，还有依赖冲突\r\n\r\nCo-authored-by: Vega <babysor00@gmail.com>",
         "release_tag": "v0.0.1",
         "release_date": "2021-11-07 13:53:53",
         "release_message": ""
@@ -25702,10 +25702,10 @@
         "release_message": ""
     },
     "https://github.com/Anduin2017/HowToCook": {
-        "created_at": "2020-02-29 10:43:49",
+        "created_at": "2024-06-17 14:03:33",
         "description": "程序员在家做饭方法指南。Programmer's guide about how to cook at home (Simplified Chinese only).",
-        "commit_message": "Update Dockerfile",
-        "commit_date": "2024-07-22 06:03:29",
+        "commit_message": "Update 炒方便面.md (#1375)\n\n改正了\"浓稠\"的错别写法",
+        "commit_date": "2024-08-13 13:03:54",
         "release_date": "2024-06-17 14:03:41",
         "release_message": "## What's Changed\r\n\r\n* 添加了每道菜的难度星级和按照难度索引的功能\r\n* 添加了 Docker 部署 和 PDF 部署的支持 by @Anduin2017 \r\n* Update readme-generate.js by @YufeiJ1ao in https://github.com/Anduin2017/HowToCook/pull/1329\r\n* feat:添加关于炸小酥肉的做法 by @coder-lib in https://github.com/Anduin2017/HowToCook/pull/1332\r\n* 修正小酥肉的语文语法 by @Anduin2017 in https://github.com/Anduin2017/HowToCook/pull/1333\r\n* Update 西红柿牛腩.md by @xiaohei417 in https://github.com/Anduin2017/HowToCook/pull/1334\r\n* add recipe for winter melon punch by @aytchhh in https://github.com/Anduin2017/HowToCook/pull/1336\r\n\r\n## New Contributors\r\n* @YufeiJ1ao made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1329\r\n* @coder-lib made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1332\r\n* @xiaohei417 made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1334\r\n* @aytchhh made their first contribution in https://github.com/Anduin2017/HowToCook/pull/1336\r\n\r\n**Full Changelog**: https://github.com/Anduin2017/HowToCook/compare/1.3.1...1.4.0"
     },
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.75.95.169属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.33.242属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27098,8 +27098,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 530,
-        "description": "Cloudflare Tunnel error | www.webscan.cc | Cloudflare"
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27998,12 +27998,12 @@
         "commit_date": "2023-05-15 03:59:15"
     },
     "https://github.com/kubescape/kubescape": {
-        "created_at": "2024-07-15 14:49:07",
+        "created_at": "2024-08-21 11:04:21",
         "description": "Kubescape is an open-source Kubernetes security platform for your IDE, CI/CD pipelines, and clusters. It includes risk analysis, security, compliance, and misconfiguration scanning, saving Kubernetes users and administrators precious time, effort, and resources.",
-        "commit_message": "Merge pull request #1717 from kubescape/documentation_ugrades\n\nDocumentation ugrades",
-        "commit_date": "2024-07-15 14:49:07",
-        "release_date": "2024-07-15 16:12:13",
-        "release_message": "## What's Changed\r\n* Simplify the concurrency in http handler for scan. by @ttimonen in https://github.com/kubescape/kubescape/pull/1710\r\n* use proper params in pager call by @matthyx in https://github.com/kubescape/kubescape/pull/1713\r\n* update docs by @dwertent in https://github.com/kubescape/kubescape/pull/1450\r\n* fix generated ValidatingAdmissionPolicyBinding by @matthyx in https://github.com/kubescape/kubescape/pull/1716\r\n* Documentation ugrades by @idohuber in https://github.com/kubescape/kubescape/pull/1717\r\n\r\n## New Contributors\r\n* @ttimonen made their first contribution in https://github.com/kubescape/kubescape/pull/1710\r\n* @idohuber made their first contribution in https://github.com/kubescape/kubescape/pull/1717\r\n\r\n**Full Changelog**: https://github.com/kubescape/kubescape/compare/v3.0.13...v3.0.14"
+        "commit_message": "Merge pull request #1729 from kubescape/bump\n\nupdate to go 1.23 and base image to debian12",
+        "commit_date": "2024-08-21 11:04:21",
+        "release_date": "2024-08-21 11:33:37",
+        "release_message": "## What's Changed\r\n* chore: improve the publishing workflows for krew by @maanugh in https://github.com/kubescape/kubescape/pull/1719\r\n* Bump github.com/docker/docker from 26.1.0+incompatible to 26.1.4+incompatible by @dependabot in https://github.com/kubescape/kubescape/pull/1723\r\n* Bump github.com/docker/docker from 26.1.0+incompatible to 26.1.4+incompatible in /httphandler by @dependabot in https://github.com/kubescape/kubescape/pull/1722\r\n* Bump github.com/docker/docker from 26.1.4+incompatible to 26.1.5+incompatible by @dependabot in https://github.com/kubescape/kubescape/pull/1726\r\n* Bump github.com/docker/docker from 26.1.4+incompatible to 26.1.5+incompatible in /httphandler by @dependabot in https://github.com/kubescape/kubescape/pull/1728\r\n* update to go 1.23 and base image to debian12 by @matthyx in https://github.com/kubescape/kubescape/pull/1729\r\n\r\n## New Contributors\r\n* @maanugh made their first contribution in https://github.com/kubescape/kubescape/pull/1719\r\n\r\n**Full Changelog**: https://github.com/kubescape/kubescape/compare/v3.0.15...v3.0.16"
     },
     "https://github.com/zema1/watchvuln": {
         "created_at": "2024-06-04 12:16:45",
@@ -28662,8 +28662,8 @@
     "https://github.com/netease-youdao/QAnything": {
         "created_at": "2024-07-26 09:31:50",
         "description": "Question and Answer based on Anything.",
-        "commit_message": "Merge pull request #436 from mvlttt/master\n\nUpdate mysql_client.py",
-        "commit_date": "2024-07-22 11:26:49",
+        "commit_message": "Merge pull request #482 from ikun-moxiaofei/patch-5\n\nUpdate README_zh.md",
+        "commit_date": "2024-08-23 09:49:09",
         "release_date": "2024-08-15 03:02:23",
         "release_message": "# 🎉🎉🎉QAnything v1.4.2 发布!\r\n\r\n## 全新发布v1.4.2\r\n\r\n## 新特性\r\n### Python版本-[qanything-python分支](https://github.com/netease-youdao/QAnything/tree/qanything-python)\r\n* 添加更便捷的启动方法（需提供openai，ollama等LLM服务的api-key），只需要一行代码就可以自动配置conda虚拟环境并启动项目，（WIN（WSL）、Mac、LInux下所有启动脚本合并为两个：run_for_CPU.sh/run_for_GPU.sh，支持python2环境）\r\n* 优化控制台日志输出，可以在终端输出更详细的日志\r\n* 将一部分常用参数的值调整至根目录配置文件（config.py）下统一管理，增加更多可自定义的参数\r\n* 将pdf格式转markdown格式的模块独立为子模块，在执行pip install -e .命令后可以在本地独立使用\r\n* 修复联网检索模块在检索到的数据内容过长时会导致本地知识库内容无法正常获取的问题\r\n* 优化联网检索的文档分割效果，并优化上传失败文档的错误信息展示。\r\n* 修复了表格解析报错，rerank重复执行，opencv安装失败，rerank执行出错，单次前端问答多次调用后端问答接口等一系列bug。\r\n\r\n## 新贡献者\r\n* @ikun-moxiaofei 在 https://github.com/netease-youdao/QAnything/pull/384 进行了首次贡献（共17PR）\r\n* @glorialucheng 在 https://github.com/netease-youdao/QAnything/pull/447 进行了首次贡献"
     },
