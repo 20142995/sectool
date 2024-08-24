@@ -1976,7 +1976,7 @@
         "release_message": "Penetration Suite Toolkit v5.0：\r\n链接：https://pan.baidu.com/s/1NuMveYWy3BOGBUsu5Ztlbg?pwd=8tje\r\n注：由于部分用户反馈 ova 文件导入失败，现重新上传压缩包版本，解压后打开 vmx 文件即用。\r\n\r\n全套虚拟机镜像：\r\n链接：https://pan.xunlei.com/s/VN2xlbB9pxTo0bWdgdg5vXUtA1?pwd=fvp3"
     },
     "https://github.com/bit4woo/knife": {
-        "created_at": "2024-05-06 10:51:08",
+        "created_at": "2018-06-12 14:25:18",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
         "commit_date": "2024-08-13 08:14:10",
         "commit_message": "update",
@@ -2919,8 +2919,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2024-08-15 16:11:26",
         "description": "Free universal database tool and SQL client",
-        "commit_message": "Grouping icon fix",
-        "commit_date": "2024-08-20 17:20:48",
+        "commit_message": "Generate fully qualified table names in the grouping panel according to the SQL dialect (#35314)\n\n* Generate fully qualified table names in the grouping panel according to the SQL dialect\r\n\r\n* fix comments\r\n\r\n* fix comments\r\n\r\n* fix\r\n\r\n* fix\r\n\r\n---------\r\n\r\nCo-authored-by: Diana <31996417+uslss@users.noreply.github.com>",
+        "commit_date": "2024-08-23 13:15:36",
         "release_date": "2024-08-18 16:20:59",
         "release_message": "\n                - SQL Editor:\n                    - Added semantic analysis and Outline viewer support for CREATE and ALTER TABLE queries\n                    - Added presentation for warnings in  semantic analysis results\n                    - Data type icons were redesigned\n                    - SQL error presentation was redesigned\n                    - 'Execute SQL Script' option behavior was fixed\n                    - SQL Output for SQL scripts was fixed\n                    - Output panel opening was fixed\n                    - Column aliases can now be copied with Advanced Copy option (thanks to @dstivanov)\n                    - Column validation for UPDATE SET clause was fixed\n                    - Issue with invalid table name was fixed\n                    - If all tabs with query results are pinned, a new tab with a new query result is created\n                - Data Editor: Paste into the table with no foreign key was fixed\n                - Database Navigator:\n                    - Connection visualization was fixed\n                    - Navigator icons were redesigned\n                - Connectivity: Connection page for custom drivers with the URL template was fixed\n                - General:\n                    - Opening links to local files has been restricted due to a security issue discovered by @LuskaBol\n                    - Improved error handling when trying to use not allowed characters in project name\n                - Databases:\n                    - Altibase: Non-schema objects like Job, Database Link, Directory, and Library are now supported (thanks to @zennken)\n                    - BigQuery: Database monitoring dashboards were added\n                    - GaussDB driver was updated to version 4-1.1 (thanks to @GaussDB-Fans)\n                    - MariaDB: Geometry data type is now supported\n                    - Ocient: Incorrect DDL generation was fixed (thanks to @mjsterckx)\n                    - SQLite: Full text search was improved\n                    - SQL Server: Saving changes in procedures was fixed\n            "
     },
@@ -3427,12 +3427,12 @@
         "release_message": ""
     },
     "https://github.com/yogeshojha/rengine": {
-        "created_at": "2024-07-30 03:32:10",
+        "created_at": "2024-08-18 01:49:14",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_message": "Merge pull request #1363 from yogeshojha/1362-bug-rengine-installation-error-failed-during-requirements-installation\n\nfix: reNgine installation issue due to orjson and langchain #1362",
-        "commit_date": "2024-08-09 03:19:05",
-        "release_date": "2024-07-30 03:39:32",
-        "release_message": "## What's Changed\r\n\r\n### Security update\r\n* (Security) CVE-2024-41661 Fix Authenticated command injection in WAF detection tool reported by @n-thumann Advisory https://github.com/yogeshojha/rengine/security/advisories/GHSA-fx7f-f735-vgh4\r\n\r\n### Bug Fixes\r\n\r\n* Fix issue while initiating periodic and clocked scan #1322 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1328\r\n* Fix 500 error on \"Test Hackerone api Key\" by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1332\r\n* UI Typos and bug Fixes #1333 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1334\r\n* Fix error during tool update Fixes #1152 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1335\r\n* Upgrade setuptools to 72.1.0 to resolve installation error by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1338\r\n* (chores) Fix github pages build by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1339\r\n* Fix subdomain import for subdomains with suffixes more than 4 chars Fixes #1128 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1340\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.1.1...v2.1.2"
+        "commit_message": "Merge pull request #1377 from yogeshojha/bump-version_2.1.3\n\nUpdate changelog, bump version for 2.1.3",
+        "commit_date": "2024-08-18 01:49:14",
+        "release_date": "2024-08-18 01:50:26",
+        "release_message": "## What's Changed\r\n\r\n### Security Update\r\n\r\n* (Security) CVE-2024-41661 Stored Cross-Site Scripting (XSS) via DNS Record Poisoning reported by @touhidshaikh Advisory https://github.com/yogeshojha/rengine/security/advisories/GHSA-96q4-fj2m-jqf7\r\n\r\n### Bug Fixes\r\n\r\n* remove redundant docker environment variables by @jxdv in https://github.com/yogeshojha/rengine/pull/1353\r\n* fix: reNgine installation issue due to orjson and langchain #1362 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1363\r\n* #1364 FIx whois lookup and improve performance by executing various modules of whois lookup to run concurrently by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1368\r\n* chores: Add error handling for the curl command by @gitworkflows in https://github.com/yogeshojha/rengine/pull/1367\r\n* Update Github Actions Workflows by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1369\r\n* chores: Fix docker build on master by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1373\r\n\r\n### New Contributors\r\n* @gitworkflows made their first contribution in https://github.com/yogeshojha/rengine/pull/1367\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.1.2...v2.1.3\r\n"
     },
     "https://github.com/rootclay/WMIHACKER": {
         "created_at": "2020-07-02 06:57:25",
@@ -3901,8 +3901,8 @@
     "https://github.com/quay/clair": {
         "created_at": "2024-05-01 16:55:34",
         "description": "Vulnerability Static Analysis for Containers",
-        "commit_message": "build(deps): bump github.com/google/go-containerregistry\n\nBumps [github.com/google/go-containerregistry](https://github.com/google/go-containerregistry) from 0.20.1 to 0.20.2.\n- [Release notes](https://github.com/google/go-containerregistry/releases)\n- [Changelog](https://github.com/google/go-containerregistry/blob/main/.goreleaser.yml)\n- [Commits](https://github.com/google/go-containerregistry/compare/v0.20.1...v0.20.2)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/google/go-containerregistry\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "commit_date": "2024-08-12 23:14:04",
+        "commit_message": "contrib/openshfit: only start buildkitd container if needed\n\nSigned-off-by: Hank Donnay <hdonnay@redhat.com>",
+        "commit_date": "2024-08-22 21:15:03",
         "release_date": "2024-05-01 16:59:42",
         "release_message": "<a name=\"unreleased\"></a>\r\n## [Unreleased]\r\n\r\n\r\n<a name=\"v4.7.4\"></a>\r\n## [v4.7.4] - 2024-05-01\r\n\r\n### NOTE\r\n[The default layer download location has changed](https://github.com/quay/clair/blob/release-4.7/Documentation/howto/deployment.md#disk-usage-considerations)\r\n\r\n### Claircore\r\n- tarfs: follow hardlinks in `ReadFile`\r\n  <details>\r\n  This makes `fs.ReadFile` work as expected when opening hardlinks.\r\n  </details>\r\n\r\n- debian: update how \"source\" packages are handled\r\n  <details>\r\n  Previously, the Updater parsed metadata from the repository to try to\r\n  record only \"binary\" packages. This was inaccurate and, with the new\r\n  dpkg handling, now unneeded. The new approach should be more accurate.\r\n  </details>\r\n\r\n- dpkg: improve Source handling\r\n  <details>\r\n  The dpkg handling machinery now correctly records source packages and\r\n  versions. Previously, version differences between a source package and\r\n  the resulting binary package(s) were incorrect if the versions were not\r\n  identical.\r\n  </details>\r\n\r\n- libindex: add `O_TMPFILE` fallback logic\r\n  <details>\r\n  After discovering that some common deployment methods are incompatible with\r\n  using the `O_TMPFILE` `open(2)` flag, a fallback path has been added. The\r\n  changes also move the default location of where temporary files are downloaded\r\n  to, to better align with the layout recommended by systemd.\r\n  \r\n  Please see [the documentation] for specifics.\r\n  \r\n  [the documentation]: https://pkg.go.dev/github.com/quay/claircore/libindex@v1.5.\r\n  26-0.20240325212310-fedb9d327aa7#NewRemoteFetchArena\r\n  </details>\r\n\r\n- osv: parse database_specific severity when no CVSS severity is defined\r\n  <details>\r\n  Occasionally there are OSV advisories that don't include any severity\r\n  information in the `.severity` object but they do contain a severity in\r\n  the `.database_specific` object. This change attempts to parse that\r\n  severity if we don't get a severity from the native `.severity` object.\r\n  </details>\r\n\r\n### Build(Deps)\r\n- [3ebd889c](https://github.com/quay/clair/commit/3ebd889cb37603e071ba0d8fb8ba631702b13414): bump peter-evans/create-pull-request from 6.0.0 to 6.0.1\r\n- [b7566a0f](https://github.com/quay/clair/commit/b7566a0feedc5de0227a5bfd6e2921014ec68704): bump peter-evans/create-pull-request from 5.0.2 to 6.0.0\r\n- [4db2f09b](https://github.com/quay/clair/commit/4db2f09be2330e4dc9061dc2e9d44d8979b8c34d): bump actions/cache from 3 to 4\r\n- [6cef8311](https://github.com/quay/clair/commit/6cef8311255b024dd3a1fc0a70f7edf38969906c): bump actions/upload-artifact from 3 to 4\r\n- [5ed80215](https://github.com/quay/clair/commit/5ed80215fa17adb7e72ba3d9267368474afd411e): bump actions/download-artifact from 3 to 4\r\n- [c9e1f56b](https://github.com/quay/clair/commit/c9e1f56b224f25aacd5df861563006520e63297b): bump actions/setup-go from 4 to 5\r\n- [3ab3de55](https://github.com/quay/clair/commit/3ab3de558380fff38b8503de914c1b9c0611c4c8): bump actions/stale from 8 to 9\r\n- [591188f0](https://github.com/quay/clair/commit/591188f0a877b81878209be4b9185d4cb7c404f3): bump docker/setup-buildx-action from 2 to 3\r\n- [7ef6ef6b](https://github.com/quay/clair/commit/7ef6ef6b7587386b80cef9fbe7269b0083c8f039): bump docker/login-action from 2 to 3\r\n- [5597e7cc](https://github.com/quay/clair/commit/5597e7ccb94c113cc8344e8289be886049b23f63): bump docker/build-push-action from 4 to 5\r\n- [14d7f2b4](https://github.com/quay/clair/commit/14d7f2b4927fa9e4debc9005fb6dc620a6a47833): bump docker/setup-qemu-action from 2 to 3\r\n- [1204db98](https://github.com/quay/clair/commit/1204db98853cdfdce7790f3d3276d4617e4e3000): bump actions/checkout from 3 to 4\r\n### Chore\r\n- [4170798b](https://github.com/quay/clair/commit/4170798b6d464be0b8f74b1979785a17ad71dbd0): 4.7.4 changelog bump\r\n- [96dc6074](https://github.com/quay/clair/commit/96dc60748b492df1cb4af3761c9c44c10266ed09): Add merge step when creating release binaries\r\n- [a1c7eb7c](https://github.com/quay/clair/commit/a1c7eb7c8cce687e12fcc056be1acacbdc608a31): update go version for release\r\n- [6eeb9393](https://github.com/quay/clair/commit/6eeb9393b539cf49a10c42e247b833ce7e040607): update claircore to v1.5.27\r\n- [809dd5ab](https://github.com/quay/clair/commit/809dd5ab474994eb9a32599f4257437fde995064): update go version\r\n### Cicd\r\n- [e6378d03](https://github.com/quay/clair/commit/e6378d0333085a072cf73bfa32228af24b710b05): add container version skew check\r\n- [2ba3ecc0](https://github.com/quay/clair/commit/2ba3ecc0a66679dcd82f7015695db5b2a3f0c02a): update testing workflow\r\n- [ae135c49](https://github.com/quay/clair/commit/ae135c4956358d6c18109438b6e59170100787ea): don't upload workspace on failure\r\n- [7222dc88](https://github.com/quay/clair/commit/7222dc88d4fe919cc2b88e2fe7587061a881b794): change version specifiers to be major-version only\r\n### Clairctl\r\n- [2a2ba37f](https://github.com/quay/clair/commit/2a2ba37f6404e377d702e50f78bccd172b08b03f): warn when range requests are not honored\r\n### Dockerfile\r\n- [5547b96a](https://github.com/quay/clair/commit/5547b96aeff795da43fbc6e2dc8ec7b5dda7691d): remove sh loop\r\n### Docs\r\n- [3753415b](https://github.com/quay/clair/commit/3753415b4e2b6bc9b63a940b8b2101d82ab523ef): add mention of disk space path and usage\r\n### Httptransport\r\n- [c6df986f](https://github.com/quay/clair/commit/c6df986fddfe5121b6fd9dbfff0ccca35c55cb71): GET vuln report returns 404 when indexing in-progress\r\n### Initialize\r\n- [9828576a](https://github.com/quay/clair/commit/9828576af20c966e0dbe99bbac68d3e80b07baa1): use defaults for NewRemoteFetcher\r\n\r\n[Unreleased]: https://github.com/quay/clair/compare/v4.7.4...HEAD\r\n[v4.7.4]: https://github.com/quay/clair/compare/v4.7.3...v4.7.4\r\n"
     },
@@ -4555,8 +4555,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2024-06-05 10:43:58",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_message": "Merge pull request #480 from pengjianzhang/main\n\nfix: compilation warning",
-        "commit_date": "2024-08-10 05:18:09",
+        "commit_message": "Merge pull request #487 from pengjianzhang/main\n\nsupport multi processes",
+        "commit_date": "2024-08-23 01:04:46",
         "release_date": "2024-06-05 10:58:44",
         "release_message": "## v1.7.0 - 2024-06-06\r\n\r\nAfter more than six months, the 1.7.0 version has finally been released. [Pengfei Zhang](https://github.com/zhangpengfei-xyz) contributed many features to this version. Thank you, Pengfei Zhang, for making dperf more powerful. We welcome more developers to join us and make dperf even better.\r\n\r\n### Added\r\n\r\n- send http post requests\r\n\r\n- dpdk pdump\r\n\r\n    thanks ZhangPengfei\r\n\r\n- fast_close: use RST to close connections\r\n\r\n- support DPDK-23.11 and DPDK-24\r\n\r\n- enable simd512\r\n\r\n- disable ack\r\n\r\n- configure retransmit timeout\r\n\r\n### Changed\r\n\r\n- config DPDK log level\r\n\r\n- clear_screen: dperf can clear screen output and make the screen cleaner\r\n\r\n- static linking\r\n\r\n    thanks ZhangPengfei\r\n\r\n### Fixed\r\n\r\n- dpdk cleanup\r\n\r\n    thanks ZhangPengfei\r\n\r\n- CFLAGS override\r\n\r\n    thanks ZhangPengfei\r\n\r\n- missspell\r\n\r\n    thanks ZhangPengfei\r\n\r\n- don't clear sequences in time-wait state"
     },
@@ -8470,8 +8470,8 @@
     "https://github.com/0x727/FingerprintHub": {
         "created_at": "2024-07-09 10:55:18",
         "description": "侦查守卫(ObserverWard)的指纹库",
-        "commit_message": "Auto Update FingerPrint [Tue Aug 20 05:45:44 UTC 2024] :robot:",
-        "commit_date": "2024-08-20 05:45:44",
+        "commit_message": "Auto Update Nuclei [Wed Aug 21 18:23:04 UTC 2024] :robot:",
+        "commit_date": "2024-08-21 18:23:04",
         "release_date": "2024-07-09 11:01:10",
         "release_message": ""
     },
@@ -8566,8 +8566,8 @@
     "https://github.com/nomi-sec/PoC-in-GitHub": {
         "created_at": "2019-12-08 13:03:54",
         "description": "📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.",
-        "commit_message": "Auto Update 2024/08/16 00:29:58",
-        "commit_date": "2024-08-16 00:29:58"
+        "commit_message": "Auto Update 2024/08/24 00:29:14",
+        "commit_date": "2024-08-24 00:29:14"
     },
     "https://github.com/Ridter/CVE-2017-11882": {
         "created_at": "2017-11-21 05:55:53",
@@ -25662,8 +25662,8 @@
     "https://github.com/cve-search/cve-search": {
         "created_at": "2024-07-24 04:34:06",
         "description": "cve-search - a tool to perform local searches for known vulnerabilities",
-        "commit_message": "Remove support for search.py -q (#1117)",
-        "commit_date": "2024-08-09 17:50:11",
+        "commit_message": "Update web/VERSION 5.1.0.dev2",
+        "commit_date": "2024-08-20 20:33:41",
         "release_date": "2024-07-24 04:37:10",
         "release_message": "## cve-search v5.1.0\r\n\r\ncve-search v5.1.0 released with source improvements, bugs fixed and integrate latest version of CveXplore.\r\n\r\n### Changes\r\n\r\n* Retire db_mgmt_[source].py (#1113) [Esa Jokinen]\r\n  * **Caution!** Possibly backwards incompatible change as the procedure for\r\n    initial population of the database has changed. Please revise the\r\n    [documentation](https://cve-search.github.io/cve-search/database/database.html#populating-the-database)\r\n    and update your SystemD cvesearch.db_init.service based on the updated example.\r\n  * All these features are now available through db_updater.py --sources option.\r\n* Pass configuration to CveXplore [Esa Jokinen]\r\n  * Pass sources configuration to CveXplore (#1112)\r\n  * Pass MongoDB configuration to CveXplore (#1107)\r\n  * Pass proxy configuration to CveXplore (#1102)\r\n  * Set sources & update interval manually for NVD API (#1110)\r\n* Fix sort_dir in free queries (#1109) [Giuseppe Crea]\r\n* Fix default config & remove unused imports (#1108) [Esa Jokinen]\r\n\r\n### Other\r\n\r\n* Update CveXplore dependency from 0.3.30 to 0.3.35 with many improvements, e.g.,\r\n  * Set update interval (1–120 days) manually for NVD API\r\n  * Fix MongoDB dbname, user & password configuration with & without credentials\r\n  * Improve error logging of NVD API\r\n  * Ignore EPSS for rejected CVEs; fixes sorting of DataTables (#1103)\r\n    * **Caution!** Updates database schema; requires repopulation\r\n      (or [manual cleanup](https://github.com/cve-search/cve-search/issues/1103#issuecomment-2198044483)).\r\n  * Updates PyMongo to 4.8.0 with [fallback to stdlib ssl](https://github.com/mongodb/mongo-python-driver/pull/1669)\r\n    when PyOpenSSL (< 23.2.0) import fails with AttributeError due to incompatible\r\n    versions with cryptography (>= 42.0.0).\r\n"
     },
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.54.153属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.75.95.169属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27098,8 +27098,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 530,
+        "description": "Cloudflare Tunnel error | www.webscan.cc | Cloudflare"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27506,8 +27506,8 @@
     "https://github.com/google/tsunami-security-scanner": {
         "created_at": "2024-08-20 14:22:01",
         "description": "Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.",
-        "commit_message": "Temporarily remove broken links from the documentation.\n\nPiperOrigin-RevId: 665884765\nChange-Id: Id59a13bba9bb24fea2e43515475336497bffde78",
-        "commit_date": "2024-08-21 15:10:01",
+        "commit_message": "Log the execution time of each plugin. This allows for identification and optimization of plugins taking the longest time.\n\nPiperOrigin-RevId: 666334401\nChange-Id: I7c922ed89b1463cdf3268bd77ac37a55e5dd74eb",
+        "commit_date": "2024-08-22 14:04:36",
         "release_date": "2024-08-20 14:53:38",
         "release_message": "- #117: Fix a null exception that was introduced in version 0.0.23\r\n- #110: Add additional payloads for the callback server\r\n- 315dfe1: Change the behavior of `buildWebApplicationRootUrl` so that it can be used generically\r\n- #118: `setTrustAllCertificates` not directly accessible in client and set to true by default\r\n- Misc updates to the documentation"
     },
@@ -28252,8 +28252,8 @@
         "description": "GitGuardian: Git Security Scanning & Secrets Detection"
     },
     "https://www.zeek.org": {
-        "status_code": 429,
-        "description": "WordPress.com 429 Error"
+        "status_code": 200,
+        "description": "The Zeek Network Security Monitor"
     },
     "https://gitee.com/freshday/radar": {
         "status_code": 200,
