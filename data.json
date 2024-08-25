@@ -2622,10 +2622,10 @@
         "release_message": ""
     },
     "https://github.com/maurosoria/dirsearch": {
-        "created_at": "2013-04-30 15:57:40",
+        "created_at": "2022-10-04 05:43:00",
         "description": "Web path scanner",
-        "commit_message": "Merge pull request #1387 from maurosoria/shelld3v-patch-10\n\nAdded missing package",
-        "commit_date": "2024-08-03 01:43:30",
+        "commit_message": "Merge pull request #1348 from ajcriado/1341-Issue-fix\n\n1341 Issue fix -  reports folder is created (empty) when you specify output flag",
+        "commit_date": "2024-08-18 20:29:24",
         "release_date": "2022-10-05 13:01:24",
         "release_message": "- Automatically detect the URI scheme (`http` or `https`) if no scheme is provided\r\n- SQLite report format\r\n- Option to overwrite unwanted extensions with selected extensions\r\n- Option to view redirects history when following redirects\r\n- Option to crawl web paths in the responses\r\n- HTTP traffic is saved inside log file\r\n- Capability to save progress and resume later\r\n- Support client certificate\r\n- Maximum size of the log file via configuration\r\n- More accurate"
     },
@@ -5183,7 +5183,7 @@
         "commit_message": "Update CONTRIBUTING.md",
         "commit_date": "2024-08-12 12:01:54",
         "release_date": "2024-08-12 08:39:13",
-        "release_message": ""
+        "release_message": "Issues: https://github.com/alibaba/arthas/milestone/47?closed=1\r\n\r\n要点：\r\n\r\n1. 4.0.0 之后只支持JDK8，支持 JDK 17/21/23\r\n2. 升级 jackson, fastjson2, ognl, netty, spring-boot 等依赖版本\r\n3. profiler 命令优化\r\n\r\n---\r\n\r\n* #2875 使用wisp时，报NPE错误\r\n\r\n* #2572 When Tunnel Server uses a custom port, the jump from the detail-pages to the agent console page fails.\r\n\r\n* #2498 升级到 fastjson2\r\n\r\n* #2659 logger 命令在jdk17的环境下无响应 bug\r\n\r\n\r\n* #2705 Tomcat CVE-2023-42795漏洞有升级计划嘛\r\n\r\n\r\n* #2740 AnsiLog 的 static 初始化可能抛出异常\r\n\r\n\r\n* #2611 升级 ognl 依赖版本\r\n\r\n* #2490 请升级一下依赖 jackson-databind 的版本\r\n\r\n\r\n* #2861 支持 jdk 22/23\r\n\r\n\r\n* #2835 Release netty ByteBuf after use \r\n\r\n\r\n* #2804 update DynamicCompiler add -g option for generate LocalVariableTable \r\n\r\n* #2736 Optimized the compilation speed of the memory compiler \r\n\r\n* #2710  update ognl website url \r\n\r\n* #2680 Bump zt-zip from 1.14 to 1.16 \r\n\r\n\r\n* #2681 Bump spring-boot3 to 3.1.3 and spring-boot to 2.7.15 \r\n\r\n\r\n* #2670 check directory for JadCommand and fix typos \r\n\r\n\r\n* #2658 优化识别重定向 \r\n\r\n\r\n* #2661 Upgrade to JUnit 5 \r\n\r\n\r\n* #2544 fix: agent-attach携带的arthasHome参数未生效 bug\r\n\r\n\r\n* #2663 Adjust time display accuracy to milliseconds \r\n\r\n\r\n* #2669  fix directory check for DumpClassCommand \r\n\r\n\r\n* #2662 Make thread id uniformly displayed in decimal format \r\n\r\n* #2652 feat: sysenv sorted by property key \r\n\r\n\r\n* #2646 jad命令优化 \r\n\r\n\r\n* #2608 Async profiler api upgrade \r\n\r\n\r\n* #2573 Fix the page redirection issue of Arthas tunnel server #2572\r\n\r\n\r\n* #2566  print job output file \r\n\r\n* #2513 JDK17 ArthasAgent.attach Api Provider sun.tools.attach.LinuxAttachProvider not found bug\r\n"
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
         "created_at": "2024-08-18 00:26:22",
@@ -6463,8 +6463,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: XFileInfo 2024-08-22",
-        "commit_date": "2024-08-21 22:20:58",
+        "commit_message": "Update module: XTranslation 2024-08-25",
+        "commit_date": "2024-08-24 22:56:02",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -18478,7 +18478,7 @@
         "release_message": ""
     },
     "https://github.com/wikiZ/RedGuard": {
-        "created_at": "2022-05-08 04:02:33",
+        "created_at": "2024-06-18 12:33:35",
         "description": "RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.",
         "commit_date": "2024-08-20 17:43:35",
         "commit_message": "Update README_CN.md",
@@ -23206,8 +23206,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-08-21 14:53:32",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "add SORT_KEYS (#1509)",
-        "commit_date": "2024-08-21 14:53:32",
+        "commit_message": "chores (#1528)\n\n* chores\r\n\r\n* ...\r\n\r\n* Add files via upload\r\n\r\n* ...\r\n\r\n* remove gradio warnings\r\n\r\n* Update inference_webui.py\r\n\r\nFix inference_cli issue",
+        "commit_date": "2024-08-23 09:47:27",
         "release_date": "2024-08-21 15:50:40",
         "release_message": " [windows 7z package download](https://huggingface.co/lj1995/GPT-SoVITS-windows-package/resolve/main/GPT-SoVITS-v2-240821.7z)\r\n\r\n中国用户可使用以下2个源加速下载整合包\r\n1、[需登录，免费满速下载链接](https://www.123pan.cn/s/5tIqVv-GVRcv.html)\r\n2、[有度盘超级会员的可以用度盘](https://pan.baidu.com/s/1OE5qL0KreO-ASHwm6Zl9gA?pwd=mqpi)\r\n\r\n[教程持续更新](www.yuque.com/baicaigongchang1145haoyuangong/ib3g1e) [user guide](https://rentry.co/GPT-SoVITS-guide#/)\r\n\r\nupdated to v2，[更新内容详情(v2 new features)](https://github.com/RVC-Boss/GPT-SoVITS/wiki/GPT%E2%80%90SoVITS%E2%80%90v2%E2%80%90features-(%E6%96%B0%E7%89%B9%E6%80%A7))\r\n\r\n[一些其他资料（some other documents）](https://github.com/RVC-Boss/GPT-SoVITS/wiki)\r\n\r\n[Changelog](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/docs/en/Changelog_EN.md) [更新日志](https://github.com/RVC-Boss/GPT-SoVITS/blob/main/docs/cn/Changelog_CN.md)\r\n\r\n[云端镜像（国内）](https://www.codewithgpu.com/i/RVC-Boss/GPT-SoVITS/GPT-SoVITS-Official )"
     },
@@ -23738,7 +23738,7 @@
         "release_message": "加入多线程和爬虫功能"
     },
     "https://github.com/bigblackhat/oFx": {
-        "created_at": "2021-06-02 06:09:41",
+        "created_at": "2024-06-14 05:21:29",
         "description": "漏洞批量验证框架",
         "commit_message": "Update poc.py",
         "commit_date": "2024-08-16 03:53:17",
@@ -25314,8 +25314,8 @@
         "description": "MD5免费在线解密破解_MD5在线加密-SOMD5"
     },
     "https://www.chamd5.org/": {
-        "status_code": 200,
-        "description": "MD5在线解密|md5在线破解|批量破解md5网站 - ChaMd5.Org"
+        "status_code": 500,
+        "description": "运行时错误"
     },
     "http://pan.baidu.com/s/1pLjaQKF": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.181.124属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.235.135.251属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28924,5 +28924,13 @@
         "description": "MemShell List",
         "commit_message": "Merge pull request #1 from suizhibo/main\n\nFix",
         "commit_date": "2023-07-18 11:55:34"
+    },
+    "https://github.com/Funsiooo/chunsou": {
+        "created_at": "2024-07-28 08:27:57",
+        "description": "Chunsou（春蒐），Python3编写的多线程Web指纹识别工具,适用于安全测试人员前期的资产识别、风险收敛以及企业互联网资产风险摸查。",
+        "commit_message": "Update check.py",
+        "commit_date": "2024-07-28 08:27:57",
+        "release_date": "2024-07-28 08:33:40",
+        "release_message": "1）新增、优化部分指纹\r\n2） -f 功能添加网段扫描功能，例：扫描\"网段.txt\"，内容格式例：192.168.1.0/24、192.168.1.1-192.168.1.1-100）"
     }
 }
