@@ -1362,13 +1362,13 @@
         "release_message": ""
     },
     "https://github.com/smxiazi/NEW_xp_CAPTCHA": {
-        "created_at": "2022-09-05 02:06:51",
+        "created_at": "2024-08-19 15:14:42",
         "description": "xp_CAPTCHA(瞎跑 白嫖版) burp 验证码 识别 burp插件",
-        "commit_date": "2022-10-27 08:04:03",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-08-19 22:23:07",
+        "commit_message": "Update BurpExtender.java",
         "release_tag": "4.2",
-        "release_date": "2022-09-05 02:09:34",
-        "release_message": "* 新增支持从验证码反回包中获取内容填充到请求包中（该功能可以支持uuid验证码格式以及其他类似模式）\r\n* 如果下载我打包好的环境的，请替换掉对应的server.py脚本"
+        "release_date": "2024-08-19 15:31:37",
+        "release_message": "* 新增支持验证码指定输出格式，如：纯整数0-9、纯小写英文a-z、小写英文a-z + 大写英文A-Z + 整数0-9等\r\n* 新增支持自定义数据包，如发送POST数据包等\r\n* 新增支持高级模式5个验证码均可同时用（之前只能一个验证码使用高级模式）\r\n* 新增支持监控Proxy的流量\r\n* 弃用 muggle-ocr 模块，只是使用ddddocr，模块安装更简单方便\r\n* 使用方法和之前一样，拉到下面查看使用方法\r\n* 注意，请更新ddddocr模块到最新版本\r\n```\r\n未安装ddddocr模块\r\npython3 -m pip install ddddocr\r\n已经安装过的请更新模块\r\npython3 -m pip install -U ddddocr\r\n```"
     },
     "https://github.com/ReddyyZ/urlbrute": {
         "created_at": "2020-12-05 15:54:27",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.27.192属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.25.74属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
