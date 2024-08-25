@@ -3222,7 +3222,7 @@
         "release_message": ""
     },
     "https://github.com/F6JO/RouteVulScan": {
-        "created_at": "2024-06-14 14:49:26",
+        "created_at": "2022-06-01 07:07:38",
         "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
         "commit_date": "2024-06-14 14:49:26",
         "commit_message": "update 1.5.4",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.59.181属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.76.181.127属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28940,5 +28940,33 @@
         "commit_date": "2024-08-07 02:21:51",
         "release_date": "2024-08-07 06:02:48",
         "release_message": "2024/08/04 修复免杀失效问题"
+    },
+    "https://github.com/chaitin/xapp": {
+        "created_at": "2024-06-27 09:18:39",
+        "description": null,
+        "commit_message": "修复展示",
+        "commit_date": "2024-06-27 09:18:39",
+        "release_date": "2024-07-19 09:22:32",
+        "release_message": "## 更新日志\r\n### 优化改进\r\n\r\n1. **优化 debug 输出内容**：\r\n    - 改进了调试信息的输出格式，使信息更加明确和美观，便于调试和排查问题。\r\n\r\n2. **提高扫描性能，降低内存占用**：\r\n    - 修复上游正则库中的垃圾回收（GC）问题，提升系统稳定性。\r\n    - 优化插件执行效率，使扫描过程更为高效。\r\n    - 优化缓存机制，减少内存使用量。\r\n\r\n### 新增功能\r\n\r\n1. **YAML 插件变化**：\r\n    - 新增 `print` 函数：方便在调试场景下打印信息。\r\n    - 新增 `uuid` 函数：支持生成随机的 UUID。\r\n    - 在 YAML 插件中，定义变量时，下划线开头的变量将不会输出：\r\n        - 这样在输出时，JSON 中不会包含某些不希望输出的变量值。\r\n    - 增强 YAML 插件的鲁棒性，支持在函数中填写不同数据类型。所有只能填写字符串或字节的数据项，两者都可以填写，不再报错。\r\n    - 支持函数调用和方法调用两种方式，即 `func(v1,v2)` 和 `v1.func(v2)` 均可，不再报错。\r\n    - 修复 `icon` 函数，使其行为逻辑与 `getIconContent` 函数保持一致。\r\n    - udp/tcp的request支持获取addrType类型的参数"
+    },
+    "https://github.com/Ashro-one/Ashro_linux": {
+        "created_at": "2023-04-04 06:35:51",
+        "description": "Linux通用应急响应脚本，适用大多数情况",
+        "commit_message": "Update Ashro_linux.sh",
+        "commit_date": "2024-07-01 13:23:19"
+    },
+    "https://github.com/P001water/P1finger": {
+        "created_at": "2024-08-11 10:59:59",
+        "description": "P1finger - 红队行动下的重点资产指纹识别工具",
+        "commit_message": "Delete image-20240811182412364.png",
+        "commit_date": "2024-08-11 18:20:42",
+        "release_date": "2024-08-11 11:25:52",
+        "release_message": "P1finger 测试版本 0.0.1"
+    },
+    "https://github.com/httpwaf/httpwaf2.0": {
+        "created_at": "2021-12-02 02:27:57",
+        "description": "httpwaf是一款永久免费的web应用防火墙，是最好用的waf。",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-06-13 02:24:03"
     }
 }
