@@ -5422,8 +5422,8 @@
     "https://github.com/esrrhs/pingtunnel": {
         "created_at": "2023-11-29 03:44:01",
         "description": "Pingtunnel is a tool that send TCP/UDP traffic over ICMP",
-        "commit_date": "2024-04-20 03:02:42",
-        "commit_message": "Merge pull request #62 from esrrhs/dependabot/go_modules/golang.org/x/net-0.23.0\n\nBump golang.org/x/net from 0.19.0 to 0.23.0",
+        "commit_date": "2024-08-14 07:14:34",
+        "commit_message": "Merge pull request #66 from esrrhs/esrrhs-patch-1\n\nUpdate Dockerfile",
         "release_tag": "",
         "release_date": "2023-11-29 03:52:00",
         "release_message": ""
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.76.181.127属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.27.192属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28968,5 +28968,29 @@
         "description": "httpwaf是一款永久免费的web应用防火墙，是最好用的waf。",
         "commit_message": "Update README.md",
         "commit_date": "2024-06-13 02:24:03"
+    },
+    "https://github.com/outlaws-bai/Galaxy": {
+        "created_at": "2024-08-16 08:58:49",
+        "description": "Burp插件，自动解密被加密的报文，让你像测试明文一样简单。A Burp plugin that automatically decrypts encrypted messages, making it as simple as testing plaintext.",
+        "commit_message": "1. 增加对两种格式的sm2密钥兼容(一种格式的公钥长度待补充)",
+        "commit_date": "2024-08-24 07:02:51",
+        "release_date": "2024-08-16 09:07:14",
+        "release_message": "## 功能更新\r\n\r\n1. **完成与被动代理扫描器、sqlmap等工具的联动功能**\r\n2. UI优化，部分配置改为可在setting模块管理\r\n3. 增加一些常用的右键\r\n4. 在Repeater请求编辑器右键加解密请求时改为修改当前请求\r\n5. 移除无用的hook request按钮\r\n6. 通过右键加解密失败时改为抛出异常\r\n\r\n## 问题修复\r\n\r\n1. 修复当使用汉化Burp时，Http Hook启动后无法停止的问题\r\n\r\n## 注意事项\r\n\r\n如果你下载或打包后的jar包含 without-jython 字样，请在Burp的Java environment(Settings -> Extensions)配置一个文件夹，并将 jython-standalone-xxx.jar 放在该文件夹。[Download](https://www.jython.org/download)"
+    },
+    "https://github.com/Fheidt12/Windows_Memory_Search": {
+        "created_at": "2024-08-14 07:16:37",
+        "description": "基于Go开发检索windows进程字符串工具",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-15 02:10:49",
+        "release_date": "2024-08-14 07:22:38",
+        "release_message": "当前版本实现功能：\r\n1、检索当前主机所有正在运行进程内存，将匹配到指定字符串的表格形式输出，包括PID、进程名、进程文件路径\r\n2、指定进程进行检索字符串，打印字符串前后50个长度的字符；\r\n3、将检索的结果输出到工具所有目录的指定文件中；"
+    },
+    "https://github.com/HackAllSec/hfinger": {
+        "created_at": "2024-08-22 13:14:23",
+        "description": "一个用于web框架、CDN和CMS指纹识别的高性能命令行工具。A high-performance command-line tool for web framework, CDN and CMS fingerprinting.",
+        "commit_message": "Update finger.json",
+        "commit_date": "2024-08-23 09:29:48",
+        "release_date": "2024-08-22 13:26:00",
+        "release_message": "# hfinger\r\n\r\nA high-performance command-line tool for web framework, CDN and CMS fingerprinting.\r\nhfinger 是一个高性能、准确的命令行指纹识别工具，用于红队打点时快速准确识别指定目标的 Web 框架、CDN 和 CMS 等信息。\r\n\r\n- 增加并优化指纹\r\n- 优化代码，显著提升性能\r\n- 修复同一目标无法匹配多个指纹的bug\r\n- 修复自动跟随跳转导致漏报和被动模式异常的bug"
     }
 }
