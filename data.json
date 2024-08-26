@@ -813,8 +813,8 @@
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2023-05-15 12:21:31",
         "description": "An open source tool focused on software supply chain security. 墨菲安全专注于软件供应链安全，具备专业的软件成分分析（SCA）、漏洞检测、专业漏洞库。",
-        "commit_message": "fix(gradle): skip empty gradle configuration",
-        "commit_date": "2024-08-19 10:00:07",
+        "commit_message": "fix : no build detection skips detection of illegal folders",
+        "commit_date": "2024-08-23 07:18:17",
         "release_date": "2023-05-15 12:52:58",
         "release_message": "Support NPM lockfile v3 "
     },
@@ -3260,8 +3260,8 @@
     "https://github.com/bytedance/Elkeid": {
         "created_at": "2024-08-09 08:57:20",
         "description": "Elkeid is an open source solution that can meet the security requirements of various workloads such as hosts, containers and K8s, and serverless. It is derived from ByteDance's internal best practices.",
-        "commit_message": "LKM: version 1.7.0.21 to be released\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
-        "commit_date": "2024-08-14 11:45:31",
+        "commit_message": "Version 1.7.0.21\n\nSigned-off-by: shenping.matt <shenping.matt@bytedance.com>",
+        "commit_date": "2024-08-22 08:46:10",
         "release_date": "2024-08-09 09:34:53",
         "release_message": ""
     },
@@ -3841,8 +3841,8 @@
     "https://github.com/neuvector/neuvector": {
         "created_at": "2024-07-11 06:07:03",
         "description": null,
-        "commit_message": "Merge pull request #1511 from williamlin-suse/main\n\nNVSHAS-9320/NVSHAS-9321: NV SSO user with fed(r/w)+regscan(r/w) permi…",
-        "commit_date": "2024-08-16 22:50:39",
+        "commit_message": "Merge pull request #1529 from holyspectral/fix-proxy-issue\n\nfix: NVSHAS-9358 image scan using proxy would fail",
+        "commit_date": "2024-08-23 21:48:03",
         "release_date": "2024-07-24 17:15:33",
         "release_message": "NVSHAS-8980, get host and tunnel interface on node successfully in oc 4.15, exclude 169.254.x.x as host interface IPs\r\nNVSHAS-9177: Reexam host interface afte 1 minute of enforcer startup"
     },
@@ -23296,12 +23296,12 @@
         "release_message": "Bug fixes (#40/#41)\r\nUpdated nvidia docker config/images and flask-login"
     },
     "https://github.com/sulab999/AppMessenger": {
-        "created_at": "2024-06-14 07:26:32",
+        "created_at": "2024-08-15 11:42:14",
         "description": "一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、鸿蒙)辅助分析工具",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-08-15 11:42:14",
-        "release_date": "2024-07-04 06:56:45",
-        "release_message": "1、优化某加固反编译对抗\r\n2、新增几条加固特征"
+        "commit_message": "Update version",
+        "commit_date": "2024-08-20 13:43:59",
+        "release_date": "2024-08-20 13:39:53",
+        "release_message": "1、优化windows启动方式\r\n2、优化几个解析bug"
     },
     "https://github.com/pandasec888/taowu-cobalt_strike": {
         "created_at": "2020-07-05 10:13:00",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.25.74属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.29.196属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28186,12 +28186,12 @@
         "description": "中远麒麟堡垒机_堡垒机_一键安装支持多云及动态口令数据库审计的堡垒机_官网"
     },
     "https://github.com/DefectDojo/django-DefectDojo": {
-        "created_at": "2024-08-12 17:39:07",
+        "created_at": "2024-08-19 16:16:56",
         "description": " DevSecOps, ASPM, Vulnerability Management. All on one platform.",
-        "commit_message": "Merge pull request #10746 from DefectDojo/release/2.37.1\n\nRelease: Merge release into master from: release/2.37.1",
-        "commit_date": "2024-08-12 17:38:05",
-        "release_date": "2024-08-12 17:54:32",
-        "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.37.0\r\n- fix(k8s): run k8s test on the latest version of k8s and minikube @kiblik (#10737)\r\n- fix aqua parser #10585 @manuel-sommer (#10725)\r\n- fix(helm): Remove leftover from debugging (db-migration-checker) @kiblik (#10683)\r\n- fix(docs): Typo in \"Release Notes\" link @kiblik (#10682)\r\n\r\n## 🚩 Changes to `settings.dist.py` / `local_settings.py`\r\n\r\n- Appcheck web application scanner parser @dogboat (#10723)\r\n\r\n## 🚩 Security\r\n\r\n- Permission fixes @Maffooch (#10713)\r\n- Update to Django 4.2.15 @Maffooch (#10703)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Permission fixes @Maffooch (#10713)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Add anonymous questionnaire to engagement @dogboat (#10734)\r\n\r\n## 🧰 Maintenance\r\n\r\n- Rest Framework: Remove Parallel + Shuffle @Maffooch (#10696)\r\n"
+        "commit_message": "Merge pull request #10782 from DefectDojo/release/2.37.2\n\nRelease: Merge release into master from: release/2.37.2",
+        "commit_date": "2024-08-19 16:16:30",
+        "release_date": "2024-08-19 16:22:55",
+        "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.37.1\r\n- restore relative date filter for findings @hblankenship (#10760)\r\n- feat(helm): Use `--wait` during tests @kiblik (#10744)\r\n- fix(helm): Break circular dependency @kiblik (#10740)\r\n- if severity not enforced do not notify @hblankenship (#10776)\r\n- OS Docs - Add accurate password for DefectDojo demo site @paulOsinski (#10759)\r\n- No Docker build checks in GHA @cneill (#10747)\r\n- :bug: fix nmap parser, add script output #10456 @manuel-sommer (#10739) \r\n## 🖌 Updates in UI\r\n\r\n- Inline finding images on reports @dogboat (#10738)\r\n"
     },
     "https://gitee.com/gy071089/SecurityManageFramwork": {
         "status_code": 200,
@@ -28992,5 +28992,31 @@
         "commit_date": "2024-08-23 09:29:48",
         "release_date": "2024-08-22 13:26:00",
         "release_message": "# hfinger\r\n\r\nA high-performance command-line tool for web framework, CDN and CMS fingerprinting.\r\nhfinger 是一个高性能、准确的命令行指纹识别工具，用于红队打点时快速准确识别指定目标的 Web 框架、CDN 和 CMS 等信息。\r\n\r\n- 增加并优化指纹\r\n- 优化代码，显著提升性能\r\n- 修复同一目标无法匹配多个指纹的bug\r\n- 修复自动跟随跳转导致漏报和被动模式异常的bug"
+    },
+    "https://github.com/chaitin/blazehttp": {
+        "created_at": "2024-07-01 02:49:20",
+        "description": "BlazeHTTP 是一款简单易用的 WAF 防护效果测试工具。BlazeHTTP stands as a user-friendly WAF protection efficacy evaluation tool.",
+        "commit_message": "Merge pull request #30 from xiaomakuaiz/feat-add-some-testcase\n\nfeat: add some test case",
+        "commit_date": "2024-07-01 02:49:20",
+        "release_date": "2024-07-01 08:29:37",
+        "release_message": "## What's Changed\r\n* feat: add some test case by @xiaomakuaiz in https://github.com/chaitin/blazehttp/pull/30\r\n\r\n\r\n**Full Changelog**: https://github.com/chaitin/blazehttp/compare/v0.2.0...v0.3.0"
+    },
+    "https://github.com/DeEpinGh0st/MDUT-Extend-Release": {
+        "created_at": "2024-08-20 03:03:04",
+        "description": "MDUT-Extend(扩展版本)发布仓库",
+        "commit_message": "release v1.1.0",
+        "commit_date": "2024-08-20 03:03:04",
+        "release_date": "2024-08-20 03:09:22",
+        "release_message": "**修复**\r\n- 修复mysql no select databse问题\r\n-  修复postgresql命令执行UTF-8字符问题 #5\r\n- 修复数据库链接遗留问题\r\n\r\n**优化**\r\n- 添加socks5代理支持\r\n- 添加redis windows系统支持\r\n- 添加postgresql文件管理功能\r\n- 调整redis利用界面布局\r\n\r\n**SHA1**\r\nMDUT-Extend-1.1.0.zip  993062938583FEEA8A8E6FA9272A1DEB1CC08095\r\nredis-module-extend-windows.zip 1477798592D5F7711E2D04FFCC10BD8F13336E23\r\nredis-module-extend-linux.zip  750B6EBA467B636C7A1A2C80B80AD32414D1BC40\r\n"
+    },
+    "https://github.com/RealityNet/kobackupdec": {
+        "created_at": "2019-07-29 17:10:05",
+        "description": "Huawei backup decryptor",
+        "commit_message": "EOL\n\nAdded EOL",
+        "commit_date": "2020-12-28 22:42:16"
+    },
+    "https://github.com/S2eTo/Pocsuite3Gui": {
+        "created_at": "2022-12-13 07:44:58",
+        "description": "Flask+Vue Gui for Pocsuite3 "
     }
 }
