@@ -3924,12 +3924,12 @@
         "release_message": "## Changelog\n* 854c61d34a550a9fcbab3bc59e55b868c15d1962 release: v0.54.1 [release/v0.54] (#7282)\n* 334a1c293bb3d490af2a6d80732f399efaac22f7 fix(flag): incorrect behavior for deprected flag `--clear-cache` [backport: release/v0.54] (#7285)\n* f61725c28b56d80fb46395479842a2ab0c517c5f fix(java): Return error when trying to find a remote pom to avoid segfault [backport: release/v0.54] (#7283)\n* a7b7117fe2c9608e990b42e702cc83675c48f888 fix(plugin): do not call GitHub content API for releases and tags [backport: release/v0.54] (#7279)\n\n"
     },
     "https://github.com/anchore/grype": {
-        "created_at": "2024-07-15 12:57:42",
+        "created_at": "2024-08-20 17:56:35",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "chore(deps): bump github.com/docker/docker (#2000)\n\nBumps [github.com/docker/docker](https://github.com/docker/docker) from 27.0.3+incompatible to 27.1.0+incompatible.\r\n- [Release notes](https://github.com/docker/docker/releases)\r\n- [Commits](https://github.com/docker/docker/compare/v27.0.3...v27.1.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/docker/docker\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-07-22 15:43:47",
-        "release_date": "2024-07-15 13:05:27",
-        "release_message": "### Bug Fixes\n\n- correct logic checking cpe target software component against package type [[#1658](https://github.com/anchore/grype/pull/1658) @westonsteimel]\n\n### Additional Changes\n\n- update Syft to v1.9.0 [[#1986](https://github.com/anchore/grype/pull/1986) @anchore-actions-token-generator]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.79.2...v0.79.3)**\n\n"
+        "commit_message": "chore(deps): update tools to latest versions (#2080)",
+        "commit_date": "2024-08-23 13:08:35",
+        "release_date": "2024-08-20 18:05:33",
+        "release_message": "### Added Features\n\n- Add info subcommand in order to query grype db vulnerabilities [[#1629](https://github.com/anchore/grype/issues/1629) [#2031](https://github.com/anchore/grype/pull/2031) @tomersein]\n\n### Bug Fixes\n\n- correctly close the db file in v4/v5 stores [[#2066](https://github.com/anchore/grype/pull/2066) @AndreiStefanie]\n- Grype panics with a nil pointer dereference error when given an empty string argument [[#2063](https://github.com/anchore/grype/issues/2063) [#2064](https://github.com/anchore/grype/pull/2064) @lucasrod16]\n- Ignoring search results when CPE is not set in the SBOM [[#2039](https://github.com/anchore/grype/issues/2039) [#2040](https://github.com/anchore/grype/pull/2040) @aeg]\n- \"No vulnerability database update available\" when actually the check for an update was unsuccessful [[#310](https://github.com/anchore/grype/issues/310) [#1247](https://github.com/anchore/grype/pull/1247) @shanedell]\n- CycloneDX output `metadata.properties` set to `null` instead of empty array or omitted [[#1759](https://github.com/anchore/grype/issues/1759)]\n\n### Additional Changes\n\n- update Syft to v1.11.1 [[#2071](https://github.com/anchore/grype/pull/2071) @anchore-actions-token-generator]\n- add grype version to db network operations [[#2062](https://github.com/anchore/grype/pull/2062) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.79.6...v0.80.0)**\n\n"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-12-31 07:57:37",
@@ -6025,7 +6025,7 @@
         "created_at": "2024-07-18 10:14:27",
         "description": "蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。",
         "commit_message": "Update README.md",
-        "commit_date": "2024-07-24 13:10:22",
+        "commit_date": "2024-08-21 12:39:47",
         "release_date": "2024-07-24 13:09:49",
         "release_message": "2024.07.24 更新IP地址查询库为最新版本，查询IP物理归属地更精确。"
     },
@@ -23112,8 +23112,8 @@
     "https://github.com/fingerprintjs/fingerprintjs": {
         "created_at": "2024-07-11 12:35:49",
         "description": "Browser fingerprinting library. Accuracy of this version is 40-60%, accuracy of the commercial Fingerprint Identification is 99.5%. V4 of this library is BSL licensed.",
-        "commit_message": "Bump the version to 4.4.3 (#1018)",
-        "commit_date": "2024-07-11 12:35:49",
+        "commit_message": "Update Karma to fix the testing browser list (#1022)\n\nThe fixed problem: https://github.com/fingerprintjs/broyster/issues/74",
+        "commit_date": "2024-08-23 14:19:40",
         "release_date": "2024-07-11 12:52:48",
         "release_message": "- fix: An unwanted `Feature policy 'Payment' check failed...` console error in cross-origin iframes in Safari (#1017)"
     },
@@ -25587,7 +25587,7 @@
         "created_at": "2024-05-23 07:16:14",
         "description": "1、点击“检测漏洞”，会自动检测该URL是否存在S2-001、S2-005、S2-009、S2-013、S2-016、S2-019、S2-020/021、S2-032、S2-037、DevMode、S2-045/046、S2-052、S2-048、S2-053、S2-057、S2-061、S2相关log4j2十余种漏洞。  2、“批量验证”，（为防止批量geshell，此功能已经删除，并不再开发）。  3、S2-020、S2-021仅提供漏洞扫描功能，因漏洞利用exp很大几率造成网站访问异常，本程序暂不提供。  4、对于需要登录的页面，请勾选“设置全局Cookie值”，并填好相应的Cookie，程序每次发包都会带上Cookie。  5、作者对不同的struts2漏洞测试语句做了大量修改，执行",
         "commit_message": "Update README.md",
-        "commit_date": "2024-07-15 05:52:37",
+        "commit_date": "2024-08-21 14:33:21",
         "release_date": "2024-07-11 11:51:42",
         "release_message": "2024.06.10 新增S2 Log4j2漏洞的完整利用过程。\r\n2024.06.09 新增S2-052、S2-053漏洞的手工利用功能。\r\n2024.06.08 新增添加多个http消息头的功能，以应对JWT、HttpBasic等鉴权字段的场景。\r\n2024.06.07 更正添加请求头有多余空格的bug。\r\n2024.06.06 修正User-Agent: Java/1.8.0_181的流量特征。\r\n2024.06.05 更正S2-048漏洞的检测逻辑。"
     },
@@ -26781,7 +26781,7 @@
     },
     "http://www.atoolbox.net/Tool.php?Id=921": {
         "status_code": 200,
-        "description": "随机密码和密钥生成器 - 一个工具箱 - 好用的在线工具都在这里！"
+        "description": "Random Password & Key Generator - A.Tools"
     },
     "http://tool.chacuo.net/cryptchacha20": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.29.196属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.249.14.214属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27126,8 +27126,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://www.dalipan.com/#/": {
-        "status_code": 200,
-        "description": "大力盘 - 网盘搜索引擎"
+        "status_code": 502,
+        "description": ""
     },
     "https://viewdns.info/reverseip/": {
         "status_code": 403,
@@ -28724,12 +28724,12 @@
         "release_message": "This release only supports java source code scanning which contains \"/WEB-INF/\" directory structure"
     },
     "https://github.com/MInggongK/dahuaExploitGUI": {
-        "created_at": "2024-07-12 07:47:12",
+        "created_at": "2024-08-06 02:10:16",
         "description": "dahua综合漏洞利用工具",
         "commit_message": "Update README.md",
-        "commit_date": "2024-07-21 13:05:01",
-        "release_date": "2024-07-21 12:40:03",
-        "release_message": "增加了大华智能物联综合管理平台env模块检测\r\n增加了大华ICC智能物联综合管理平台readpic模块检测\r\n增加了大华DSS数字监控系统任意文件读取模块检测"
+        "commit_date": "2024-08-06 02:10:16",
+        "release_date": "2024-08-06 02:15:50",
+        "release_message": "优化了大华DSS user_edit.action信息泄露漏洞\r\n优化了多目录的去重处理\r\n优化了多请求线程执行问题"
     },
     "https://github.com/birdhan/SecurityProduct": {
         "created_at": "2018-12-30 07:55:40",
@@ -29017,6 +29017,8 @@
     },
     "https://github.com/S2eTo/Pocsuite3Gui": {
         "created_at": "2022-12-13 07:44:58",
-        "description": "Flask+Vue Gui for Pocsuite3 "
+        "description": "Flask+Vue Gui for Pocsuite3 ",
+        "commit_message": "first commit",
+        "commit_date": "2022-12-13 08:28:15"
     }
 }
