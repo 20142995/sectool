@@ -3222,7 +3222,7 @@
         "release_message": ""
     },
     "https://github.com/F6JO/RouteVulScan": {
-        "created_at": "2022-06-01 07:07:38",
+        "created_at": "2024-06-14 14:49:26",
         "description": "Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的burp插件",
         "commit_date": "2024-06-14 14:49:26",
         "commit_message": "update 1.5.4",
@@ -4485,7 +4485,7 @@
         "release_message": "单纯的代理服务器，不依赖ip池。\r\n"
     },
     "https://github.com/jhao104/proxy_pool": {
-        "created_at": "2016-11-25 13:49:07",
+        "created_at": "2023-02-23 07:22:44",
         "description": "Python ProxyPool for web spider",
         "commit_date": "2024-06-17 06:32:09",
         "commit_message": "Update README.md",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.249.14.214属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.97.189.19属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27126,8 +27126,8 @@
         "description": "[~]#棱角 ::Edge.Forum*"
     },
     "https://www.dalipan.com/#/": {
-        "status_code": 502,
-        "description": ""
+        "status_code": 200,
+        "description": "大力盘 - 网盘搜索引擎"
     },
     "https://viewdns.info/reverseip/": {
         "status_code": 403,
@@ -29020,5 +29020,13 @@
         "description": "Flask+Vue Gui for Pocsuite3 ",
         "commit_message": "first commit",
         "commit_date": "2022-12-13 08:28:15"
+    },
+    "https://github.com/leibnitz27/cfr": {
+        "created_at": "2021-12-11 10:22:14",
+        "description": "This is the public repository for the CFR Java decompiler",
+        "commit_message": "Fix #357 - dropped else block",
+        "commit_date": "2024-07-21 08:03:27",
+        "release_date": "2021-12-11 10:48:28",
+        "release_message": "0.152\r\n\r\nOk, it's been almost 10 months since I last published a release.    Guilt release time!\r\n\r\n* Handle overly lengthy static enum initialisers.\r\n* Fix possible loop in conditional condenser.\r\n* Optional resugaring of unobfuscated retrolambda.\r\n* Relink external constants where possible\r\n* Be more restrictive inlining lvalues in the presence of possible side effects\r\n* Fix Constantlinks relinking (thanks Marcono1234)\r\n* Docs fixes (thanks YannisBft)\r\n* Fix race when decompiling with multiple drivers in parallel\r\n* Support enum changes in Java 15+\r\n* Tweak record support for Java 15+ changes\r\n* Fix stack overflow when determining original bytecode location (when showing bytecode loc)\r\n* Support for sealed classes\r\n* Fix possible infinite loop in changeassignment rewriter\r\n* Improve byte data performance (thanks CoolMineman)"
     }
 }
