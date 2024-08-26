@@ -2012,13 +2012,13 @@
         "release_message": ""
     },
     "https://github.com/silentsignal/burp-requests": {
-        "created_at": "2024-03-07 08:58:57",
+        "created_at": "2024-08-22 19:41:24",
         "description": "Copy as requests plugin for Burp Suite",
-        "commit_date": "2024-03-07 08:57:51",
-        "commit_message": "bumped version to v0.2.5",
+        "commit_date": "2024-08-22 19:52:50",
+        "commit_message": "README.md: updated instructions for Gradle",
         "release_tag": "v0.2.4",
-        "release_date": "2024-03-07 09:01:04",
-        "release_message": "Fixed a bug that parsed requests with a colon (`:`) in the path incorrectly (#3)"
+        "release_date": "2024-08-22 19:44:07",
+        "release_message": "Improved the handling of invalid `Cookie:` headers without an equals sign (`'='`) with graceful degradation (#4)"
     },
     "https://github.com/EASY233/BpScan": {
         "created_at": "2022-11-23 03:56:16",
@@ -26200,8 +26200,8 @@
     "https://github.com/AabyssZG/WebShell-Bypass-Guide": {
         "created_at": "2023-11-02 14:29:48",
         "description": "从零学习Webshell免杀手册",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-04-01 11:20:05",
+        "commit_message": "Update PHP-Webshell-ByPass-Guide.md",
+        "commit_date": "2024-08-17 05:38:57",
         "release_date": "2023-11-02 14:37:42",
         "release_message": "# 更新日志\r\n\r\n- 更新主页面和所有手册的更新进度\r\n\r\n# 关于手册\r\n\r\n- 感谢各位师傅和推友的关注和支持，将本手册开源出来\r\n- 这是一系列能让你从零开始学习WebShell免杀的手册，同时我会在内部群迭代更新\r\n\r\nPHP从零学习到WebShell免杀手册在线阅读地址： [https://blog.zgsec.cn/archives/197.html](https://blog.zgsec.cn/archives/197.html)\r\n\r\n**如果师傅们觉得不错，欢迎给我点个Star哈哈~ 有什么新的WebShell免杀姿势、手法，欢迎与我交流哈哈**"
     },
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.97.189.19属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.12.51.138属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -29028,5 +29028,13 @@
         "commit_date": "2024-07-21 08:03:27",
         "release_date": "2021-12-11 10:48:28",
         "release_message": "0.152\r\n\r\nOk, it's been almost 10 months since I last published a release.    Guilt release time!\r\n\r\n* Handle overly lengthy static enum initialisers.\r\n* Fix possible loop in conditional condenser.\r\n* Optional resugaring of unobfuscated retrolambda.\r\n* Relink external constants where possible\r\n* Be more restrictive inlining lvalues in the presence of possible side effects\r\n* Fix Constantlinks relinking (thanks Marcono1234)\r\n* Docs fixes (thanks YannisBft)\r\n* Fix race when decompiling with multiple drivers in parallel\r\n* Support enum changes in Java 15+\r\n* Tweak record support for Java 15+ changes\r\n* Fix stack overflow when determining original bytecode location (when showing bytecode loc)\r\n* Support for sealed classes\r\n* Fix possible infinite loop in changeassignment rewriter\r\n* Improve byte data performance (thanks CoolMineman)"
+    },
+    "https://github.com/gojue/muou": {
+        "created_at": "2024-04-28 14:38:51",
+        "description": "网络包测试工具",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-04-29 01:00:39",
+        "release_date": "2024-04-28 14:44:30",
+        "release_message": "## 用法\r\n增加Maximum segment size，时间戳值为：`1460`。\r\n* Kind: Maximum Segment Size (2)\r\n* Length: 4\r\n* MSS Value: 1460\r\n\r\n字节内容即为`020405b4`，其中`02`表示Kind，`04`表示Length，`05b4`表示MSS Value。\r\n\r\n\r\n```shell\r\nsudo ./muou t -b 020405b4\r\n```"
     }
 }
