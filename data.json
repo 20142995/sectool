@@ -3689,8 +3689,8 @@
     "https://github.com/k8gege/Ladon": {
         "created_at": "2023-12-15 15:58:24",
         "description": "Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。Ladon 12.2内置262个功能,网络资产探测模块32个通过多种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)以及方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等信息，高危漏洞检测16个含MS17010、Zimbra、Exchange",
-        "commit_date": "2023-12-19 15:05:38",
-        "commit_message": "Add files via upload",
+        "commit_date": "2024-08-11 16:58:14",
+        "commit_message": "Zyxel CVE-2024-29973 POC/EXP",
         "release_tag": "",
         "release_date": "2023-12-15 16:04:29",
         "release_message": "### Oracle数据库一键提权\r\n12.15\r\n[+]OracleCmd2\tOracle数据库远程提权工具2 官方驱动>=net 4.8 大小4.9M不内置\r\n![image](http://k8gege.org/k8img/Ladon/OracleStudy.png)\r\nLadon 12.2  12.14\r\n[+]OracleCmd\tOracle数据库远程提权工具 3种方法一键提权 \r\n\t\t\t\t支持Windows/Linux/MacOS等服务器操作系统\r\n\t\t\t\t支持高版本Oracle 12G、11G、12G及之前版本\r\n[+]FindAD\t\tPVEFindADUser可用于查找活动目录用户登陆的位置、枚举域用户\r\n\r\n![image](http://k8gege.org/k8img/Ladon/OracleCmd.png)\r\n\r\nLadon 12.1  12.08\r\n[+]LotusAdmin\t检测用户是否Lotus管理员\r\n[+]HtaSer\t\tHta服务器(不限后缀,如访问doc执行hta)\r\n[+]ConfVer\t\tConfluenceVer探测Confluence版本\r\n![image](http://k8gege.org/k8img/Ladon/LotusAdmin.PNG)"
@@ -3847,7 +3847,7 @@
         "release_message": "NVSHAS-8980, get host and tunnel interface on node successfully in oc 4.15, exclude 169.254.x.x as host interface IPs\r\nNVSHAS-9177: Reexam host interface afte 1 minute of enforcer startup"
     },
     "https://github.com/lijiejie/BBScan": {
-        "created_at": "2024-05-28 02:28:53",
+        "created_at": "2015-11-13 07:41:10",
         "description": "A fast vulnerability scanner helps pentesters pinpoint possibly vulnerable targets from a large number of web servers",
         "commit_date": "2024-05-28 02:28:53",
         "commit_message": "fix",
@@ -6114,7 +6114,7 @@
         "created_at": "2024-03-05 05:39:49",
         "description": "Linux权限维持",
         "commit_message": "Update README.md",
-        "commit_date": "2024-04-23 07:06:42",
+        "commit_date": "2024-08-27 01:23:23",
         "release_date": "2024-03-05 06:37:43",
         "release_message": "    1、Suid shell bash检测判断\r\n    2、重写生成代码(优化商城模块)\r\n    3、BT后渗透脚本编写\r\n        A. BT linux面板后渗透编写[详情查看思维导图]\r\n![BT渗透](https://github.com/RuoJi6/HackerPermKeeper/assets/79234113/58da1f32-ef66-4f62-8495-1461d24c1ca3)\r\n"
     },
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.78.193属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.82.154属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
