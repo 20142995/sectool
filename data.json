@@ -25868,8 +25868,8 @@
     "https://github.com/saeeddhqan/Maryam": {
         "created_at": "2023-08-06 09:51:17",
         "description": "Maryam: Open-source Intelligence(OSINT) Framework",
-        "commit_message": "Version 2.5.3 release",
-        "commit_date": "2024-06-19 12:18:05",
+        "commit_message": "Merge pull request #288 from X0RW3LL/master\n\nFix python 3.12 syntax warnings",
+        "commit_date": "2024-08-26 10:45:05",
         "release_date": "2023-08-06 09:54:06",
         "release_message": "- Remove dead engines and modules\r\n- Make iris better by finding more results\r\n"
     },
@@ -27063,7 +27063,7 @@
     },
     "http://www.skymem.info/": {
         "status_code": 200,
-        "description": "Plans & Pricing • Skymem"
+        "description": "Find email addresses of companies and people - Skymem"
     },
     "https://www.onyphe.io/": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.131.18属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.193属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
