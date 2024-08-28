@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.235.135.248属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.14.226属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28120,12 +28120,12 @@
         "release_message": "**ARL安装命令如下（源码安装和Docker安装合一）**\r\n\r\n```\r\nwget https://raw.githubusercontent.com/Aabyss-Team/ARL/master/misc/setup-arl.sh\r\nchmod +x setup-arl.sh\r\n./setup-arl.sh\r\n```\r\n\r\n---\r\n\r\n如果选择的是源码安装，可以通过以下命令确认服务状态（如果全部运行正常那就没问题）：\r\n\r\n```\r\nsystemctl status mongod\r\nsystemctl status rabbitmq-server\r\nsystemctl status arl-web\r\nsystemctl status arl-worker\r\nsystemctl status arl-worker-github\r\nsystemctl status arl-scheduler\r\nsystemctl status nginx\r\n```\r\n\r\n源码安装后，请前往ARL-Web页面：`https://IP:5003/`：账号：`admin`，密码：`arlpass`\r\n\r\n---\r\n\r\nDocker安装总共有三个版本进行选择，如下：\r\n\r\n```\r\n1) arl-docker/moshangms：ARL初始版本，仅去除域名限制,5000+指纹\r\n2) arl-docker-initial：ARL初始版本，仅去除域名限制。\r\n3) arl-docker-all：ARL完全指纹版本，去除域名限制，全量 7165 条指纹。\r\n```\r\n\r\n- 如果选择1进行Docker安装，直接拉取镜像运行容器即可，不需要额外操作，请前往`https://IP:5003/`：账号：`admin`，密码：`arlpass`\r\n- 如果选择2和3进行Docker安装，拉取完镜像开始运行容器后，需要进入容器执行脚本：\r\n\r\n```\r\n//在安装完成之后进入容器\r\ndocker exec -it arl /bin/bash\r\n\r\n//开始完成ARL部署\r\nbash /root/arl/set.sh\r\n```\r\n\r\n执行完脚本确认没报错后，请前往ARL-Web页面：`https://IP:5003/`：账号：`admin`，密码：`honmashironeko`\r\n\r\n---\r\n\r\n近期发现本项目的Issues和Bug比较多，有问题欢迎进群咨询：\r\n\r\n<table>\r\n  <tr>\r\n    <td><img src=\"https://github.com/Aabyss-Team/ARL/blob/master/Team.jpg\" alt=\"\" /></td>\r\n    <td><img src=\"https://github.com/Aabyss-Team/ARL/blob/master/Aabyss-Bot.jpg\" alt=\"\" /></td>\r\n  </tr>\r\n</table>"
     },
     "https://github.com/milu001/sm234_decrypt_gui": {
-        "created_at": "2024-04-03 07:32:11",
+        "created_at": "2024-08-23 07:24:40",
         "description": "国密SM系列加解密图形化GUI工具，支持sm2加密，sm2解密，sm3加密，sm4加密，sm4解密，sm4支持多种填充方式，输入输出支持hex与base64。不依赖网络，适合内网使用",
         "commit_message": "Update README.md",
-        "commit_date": "2024-06-20 02:37:13",
-        "release_date": "2024-06-14 07:22:04",
-        "release_message": "SM2加解密\r\nSM3计算，大小写\r\nSM4加解密，支持了PKCS7、PKCS5、Zero、Ansix923、ISO10126填充方式"
+        "commit_date": "2024-08-26 02:20:39",
+        "release_date": "2024-08-23 07:31:35",
+        "release_message": "- 修复了SM2部分解密问题，加密结果附加了04标识。\r\n- 美化了用户界面。\r\n- 增加了操作日志模块，可以查看历史加解密记录。\r\n- 增加了JSON格式化功能，方便阅读。"
     },
     "https://github.com/chasingboy/Xtools": {
         "created_at": "2023-07-12 05:42:55",
