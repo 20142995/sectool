@@ -4624,7 +4624,7 @@
         "release_message": "Compiled for .NET 4.6 on 8/16/18."
     },
     "https://github.com/zksync-sdk/zksync2-python": {
-        "created_at": "2024-06-07 11:52:49",
+        "created_at": "2022-05-19 10:19:07",
         "description": "zksync2 is a web3.py library adapted to work with the ZKsync Era.",
         "commit_date": "2024-07-25 08:00:44",
         "commit_message": "chore: update `README` logo",
@@ -7647,8 +7647,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_message": "Update DYNAMIC doc with new formats",
-        "commit_date": "2024-07-11 18:18:14"
+        "commit_message": "docs: add a LICENSE on the main GitHub page\n\nFix #4467\n\nSigned-off-by: Claudio André <dev@claudioandre.slmail.me>",
+        "commit_date": "2024-08-25 16:31:39"
     },
     "https://github.com/shimmeris/SCFProxy": {
         "created_at": "2021-04-18 11:21:43",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.67.141.252属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.235.135.248属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27521,7 +27521,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27537,7 +27537,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27553,11 +27553,11 @@
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线DES加密,DES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
@@ -27850,8 +27850,8 @@
     "https://github.com/ngc660sec/NGCBot": {
         "created_at": "2024-07-07 02:12:03",
         "description": "一个基于✨HOOK机制的微信机器人，支持🌱安全新闻定时推送【FreeBuf，先知，安全客，奇安信攻防社区】，👯Kfc文案，⚡备案查询，⚡手机号归属地查询，⚡WHOIS信息查询，🎉星座查询，⚡天气查询，🌱摸鱼日历，⚡微步威胁情报查询， 🐛美女视频，⚡美女图片，👯帮助菜单。📫 支持积分功能，⚡支持自动拉人，⚡检测广告，🌱自动群发，👯Ai回复，😄自定义程度丰富，小白也可轻松上手！",
-        "commit_message": "修复关键词进群一些问题",
-        "commit_date": "2024-07-21 08:30:30",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-15 06:43:07",
         "release_date": "2024-07-15 08:33:08",
         "release_message": "### 程序版本：NGCBot V2.1\r\n### 兼容微信：\r\n请查看当前 `wcferry` 包的版本\r\n-  `wcferry==39.0.12.0`：[WeChatSetup-3.9.2.23.exe](https://github.com/ngc660sec/NGCBot/releases/download/V2.0-%E9%BE%99%E5%B9%B4%E8%B4%BA%E5%B2%81%E7%89%88/WeChatSetup-3.9.2.23.exe)\r\n- `wcferry==39.2.4.0`：[WeChatSetup-3.9.10.27.exe](https://github.com/lich0821/WeChatFerry/releases/download/v39.2.4/WeChatSetup-3.9.10.27.exe)\r\n\r\n### 这里不提供代码，请直接Git使用！"
     },
