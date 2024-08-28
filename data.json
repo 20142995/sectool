@@ -22633,8 +22633,8 @@
     "https://github.com/hoto/jenkins-credentials-decryptor": {
         "created_at": "2024-04-09 10:43:18",
         "description": "Command line tool for dumping Jenkins credentials.",
-        "commit_date": "2024-04-09 11:01:15",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-08-17 10:52:10",
+        "commit_message": "Add Nix flake along with usage instructions",
         "release_tag": "1.2.0",
         "release_date": "2024-04-09 10:50:54",
         "release_message": "\n\n## Changelog\n\nec1ece0 Add tokens and ApiTokens secrets\nc997a8a Update readme\n0fe79ef Update readme\n\n\n"
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.14.226属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.235.135.255属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
