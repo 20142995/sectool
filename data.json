@@ -23227,12 +23227,12 @@
         "release_message": "修复部分问题，添加邮箱批量删除，添加web SSL默认配置启用。"
     },
     "https://github.com/x364e3ab6/DudeSuite": {
-        "created_at": "2024-02-20 12:44:34",
-        "description": "Dude Suite Web 渗透测试工具",
+        "created_at": "2024-08-12 12:07:34",
+        "description": "Dude Suite Web Security Tools",
         "commit_message": "Update README.md",
-        "commit_date": "2024-03-17 09:25:45",
-        "release_date": "2024-03-17 09:20:48",
-        "release_message": "Dude v1.4.0.7"
+        "commit_date": "2024-08-25 08:12:15",
+        "release_date": "2024-08-24 07:37:06",
+        "release_message": "DudeSuite v1.0.0.4 For Windows x64\r\n\r\n1. 修改程序更新机制，由原来的PowerShell脚本更新改为程序更新，减少杀毒误报及更新成功率\r\n2. 现在漏洞验证请求Poc可以复制了，扫描完也由结束提示\r\n3.  FOFA可以设置自定义API服务器\r\n4. SQLMAP 新增自动随机代理（浏览器AG）及注入绕过脚本功能\r\n5. 网络地址查询工具极大优化了批量查询的容错性，并且支持域名直接查询\r\n6. 修复了一些细节及细微BUG"
     },
     "https://github.com/k8gege/LadonGo": {
         "created_at": "2022-09-15 15:27:33",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.223.228属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.52.195属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27521,7 +27521,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": "在线RC4加密,RC4解密工具-在线工具箱"
+        "description": ""
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27537,7 +27537,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
+        "description": ""
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27549,11 +27549,11 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": "在线DES加密,DES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
