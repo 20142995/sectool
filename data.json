@@ -1880,8 +1880,8 @@
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2024-07-23 17:38:36",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "更新文档",
-        "commit_date": "2024-07-31 09:57:03",
+        "commit_message": "update version 2.1.4",
+        "commit_date": "2024-08-28 15:42:37",
         "release_date": "2024-07-23 17:40:09",
         "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.3?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.3 主要更新：\r\n\r\n- 新推出 Linux (Debian) 平台版本。\r\n- 支持：[Docker 部署](https://github.com/hiroi-sora/Umi-OCR_runtime_linux/blob/main/README-docker.md) 。\r\n- 新增：HTTP 文档识别接口。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/http/api_doc.md#/api/doc)\r\n- 修复：文档中宽高为0的异常图片会导致任务卡住。\r\n\r\nbate.1 版本之后的更新：\r\n- 修复：HTTP文档识别接口上传的文件名含非ascii字符时，该字符可被保留。\r\n- 优化：HTTP文档识别接口的 [Python示例](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/http/api_doc_demo.py) 和 [Html示例](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/http/api_doc_demo.html) 代码。\r\n- 优化：排版解析的 **单栏-单行** 方案，对于间隔较大的两个相邻文本块，会添加空格作为间隔符。\r\n\r\n#### Windows7 和 Linux 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n## Windows 下载\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致，附带多国语言识别库。`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.3.7z.exe** （134MB）\r\nSHA256: `27f5eb5097ba8fe95bf8247cb186c9c8518f6c8268b4f5d828e2e80b9e40be34`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.3.7z.exe** （97MB）\r\nSHA256: `de945941f785b9bbf6c7c5d82a5736c9b14a777d3503966c5ea110ac21ebc816`\r\n\r\n## Linux 下载\r\n\r\n**Umi-OCR_Debian_x64_Paddle_2.1.3.tar.xz** （273MB）\r\nSHA256: `6d9596eaf482d4a37452bf8e960586fc66605d9c96047927270128a0a3a416fd`\r\n\r\n此发行版在 `Ubuntu 22.04` / `Debian 12.5` / `Kali 2023.3` 桌面环境中通过测试。由于 Linux 平台的多样化，发行版不一定能在所有环境中正常运行。如果遇到问题，可参考 [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447) ，或根据报错安装缺失的依赖库。欢迎提 Issue 共同讨论解决方法。有能力的用户可尝试 [从源码部署 Umi-OCR](https://github.com/hiroi-sora/Umi-OCR_runtime_linux) ，以得到最好的兼容性。\r\n\r\n首次运行请在命令行中执行 `./umi-ocr.sh` ，随后可在全局设置中创建桌面/开始菜单快捷方式，便于日常使用。\r\n\r\n## 鸣谢\r\n\r\n- @Gavin1937 为 [PaddleOCR-json引擎](https://github.com/Gavin1937/PaddleOCR-json) 兼容 Linux 做出的大量贡献。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.3/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr) | [Docker 部署](https://github.com/hiroi-sora/Umi-OCR_runtime_linux/blob/main/README-docker.md)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.3/)"
     },
@@ -3429,8 +3429,8 @@
     "https://github.com/yogeshojha/rengine": {
         "created_at": "2024-08-18 01:49:14",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_message": "Merge pull request #1377 from yogeshojha/bump-version_2.1.3\n\nUpdate changelog, bump version for 2.1.3",
-        "commit_date": "2024-08-18 01:49:14",
+        "commit_message": "Merge pull request #1390 from SJ029626/celery-reentry-fix\n\nUpdate celery-entrypoint.sh",
+        "commit_date": "2024-08-27 00:12:45",
         "release_date": "2024-08-18 01:50:26",
         "release_message": "## What's Changed\r\n\r\n### Security Update\r\n\r\n* (Security) CVE-2024-41661 Stored Cross-Site Scripting (XSS) via DNS Record Poisoning reported by @touhidshaikh Advisory https://github.com/yogeshojha/rengine/security/advisories/GHSA-96q4-fj2m-jqf7\r\n\r\n### Bug Fixes\r\n\r\n* remove redundant docker environment variables by @jxdv in https://github.com/yogeshojha/rengine/pull/1353\r\n* fix: reNgine installation issue due to orjson and langchain #1362 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1363\r\n* #1364 FIx whois lookup and improve performance by executing various modules of whois lookup to run concurrently by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1368\r\n* chores: Add error handling for the curl command by @gitworkflows in https://github.com/yogeshojha/rengine/pull/1367\r\n* Update Github Actions Workflows by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1369\r\n* chores: Fix docker build on master by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1373\r\n\r\n### New Contributors\r\n* @gitworkflows made their first contribution in https://github.com/yogeshojha/rengine/pull/1367\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.1.2...v2.1.3\r\n"
     },
@@ -5186,13 +5186,13 @@
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/47?closed=1\r\n\r\n要点：\r\n\r\n1. 4.0.0 之后只支持JDK8，支持 JDK 17/21/23\r\n2. 升级 jackson, fastjson2, ognl, netty, spring-boot 等依赖版本\r\n3. profiler 命令优化\r\n\r\n---\r\n\r\n* #2875 使用wisp时，报NPE错误\r\n\r\n* #2572 When Tunnel Server uses a custom port, the jump from the detail-pages to the agent console page fails.\r\n\r\n* #2498 升级到 fastjson2\r\n\r\n* #2659 logger 命令在jdk17的环境下无响应 bug\r\n\r\n\r\n* #2705 Tomcat CVE-2023-42795漏洞有升级计划嘛\r\n\r\n\r\n* #2740 AnsiLog 的 static 初始化可能抛出异常\r\n\r\n\r\n* #2611 升级 ognl 依赖版本\r\n\r\n* #2490 请升级一下依赖 jackson-databind 的版本\r\n\r\n\r\n* #2861 支持 jdk 22/23\r\n\r\n\r\n* #2835 Release netty ByteBuf after use \r\n\r\n\r\n* #2804 update DynamicCompiler add -g option for generate LocalVariableTable \r\n\r\n* #2736 Optimized the compilation speed of the memory compiler \r\n\r\n* #2710  update ognl website url \r\n\r\n* #2680 Bump zt-zip from 1.14 to 1.16 \r\n\r\n\r\n* #2681 Bump spring-boot3 to 3.1.3 and spring-boot to 2.7.15 \r\n\r\n\r\n* #2670 check directory for JadCommand and fix typos \r\n\r\n\r\n* #2658 优化识别重定向 \r\n\r\n\r\n* #2661 Upgrade to JUnit 5 \r\n\r\n\r\n* #2544 fix: agent-attach携带的arthasHome参数未生效 bug\r\n\r\n\r\n* #2663 Adjust time display accuracy to milliseconds \r\n\r\n\r\n* #2669  fix directory check for DumpClassCommand \r\n\r\n\r\n* #2662 Make thread id uniformly displayed in decimal format \r\n\r\n* #2652 feat: sysenv sorted by property key \r\n\r\n\r\n* #2646 jad命令优化 \r\n\r\n\r\n* #2608 Async profiler api upgrade \r\n\r\n\r\n* #2573 Fix the page redirection issue of Arthas tunnel server #2572\r\n\r\n\r\n* #2566  print job output file \r\n\r\n* #2513 JDK17 ArthasAgent.attach Api Provider sun.tools.attach.LinuxAttachProvider not found bug\r\n"
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
-        "created_at": "2024-08-18 00:26:22",
+        "created_at": "2024-08-25 00:26:40",
         "description": "A high performance go implementation of Wappalyzer Technology Detection Library",
-        "commit_date": "2024-08-18 00:26:22",
-        "commit_message": "Weekly fingerprints update [Sun Aug 18 00:26:22 UTC 2024] :robot:",
+        "commit_date": "2024-08-25 00:26:40",
+        "commit_message": "Weekly fingerprints update [Sun Aug 25 00:26:40 UTC 2024] :robot:",
         "release_tag": "v0.0.109",
-        "release_date": "2024-08-18 00:26:42",
-        "release_message": "### [0.1.15](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.14...v0.1.15) (2024-08-18)"
+        "release_date": "2024-08-25 00:26:57",
+        "release_message": "### [0.1.16](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.15...v0.1.16) (2024-08-25)"
     },
     "https://github.com/cseroad/Webshell_Generate": {
         "created_at": "2023-06-19 03:21:09",
@@ -22611,10 +22611,10 @@
     "https://github.com/yqcs/prismx": {
         "created_at": "2024-07-26 03:23:59",
         "description": ":: Prism X · Automated Enterprise Network Security Risk Detection and Vulnerability Scanning Tool  / 棱镜 X · 自动化企业网络安全风险检测、漏洞扫描工具",
-        "commit_message": "1.3.3发布",
-        "commit_date": "2024-07-31 06:59:29",
+        "commit_message": "1.4.3发布",
+        "commit_date": "2024-08-21 08:30:05",
         "release_date": "2024-07-29 07:21:17",
-        "release_message": "###  存储仓库：\r\n#### https://oss.prismx.io/\r\n\r\n### 依赖文件：\r\n- built.zip ：远程管理客户端，仅高级版需下载\r\n- lib.zip： 数据库、授权文件，仅web版需下载\r\n\r\n### Linux Amd64 运行示例：\r\n\r\n```bash\r\n$ wget https://oss.prismx.io/built.zip\r\n$ wget https://oss.prismx.io/lib.zip\r\n$ wget https://oss.prismx.io/prismx_linux_amd64\r\n$ unzip built.zip\r\n$ unzip lib.zip\r\n$ chmod +x prismx_linux_amd64\r\n$ ./prismx_linux_amd64\r\n```\r\n\r\n启动后访问`https://yourIP:443`即可进入登录页，使用 -port 参数可指定端口。系统默认账号`prismx/prismx@passw0rd`\r\n\r\n"
+        "release_message": "###  存储仓库：\r\n#### https://oss.prismx.io/\r\n\r\n### 依赖文件：\r\n- lib.zip： web版依赖文件，CLI 模式无需下载\r\n\r\n### Linux Amd64 运行示例：\r\n\r\n```bash\r\n$ wget https://oss.prismx.io/lib.zip\r\n$ wget https://oss.prismx.io/prismx_linux_amd64\r\n$ unzip lib.zip\r\n$ chmod +x prismx_linux_amd64\r\n$ ./prismx_linux_amd64\r\n```\r\n\r\n启动后访问`https://yourIP:443`即可进入登录页，使用 -port 参数可指定端口。系统默认账号`prismx/prismx@passw0rd`\r\n\r\n"
     },
     "https://github.com/TomSchimansky/CustomTkinter": {
         "created_at": "2021-03-04 17:24:00",
@@ -22734,8 +22734,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": null,
-        "commit_message": "sync",
-        "commit_date": "2024-08-06 03:31:07"
+        "commit_message": "Update jd_clean_coupon.js",
+        "commit_date": "2024-08-28 06:58:15"
     },
     "https://github.com/harlamism/IdaClu": {
         "created_at": "2024-03-09 03:45:07",
@@ -23757,8 +23757,8 @@
     "https://github.com/chainreactors/spray": {
         "created_at": "2024-08-20 08:42:32",
         "description": "Next Generation HTTP Dir/File Fuzz Tool",
-        "commit_date": "2024-08-20 08:53:55",
-        "commit_message": "Merge pull request #57 from chainreactors/dev\n\nmerge v1.0.2",
+        "commit_date": "2024-08-27 06:30:40",
+        "commit_message": "Merge pull request #65 from chainreactors/dev\n\nmerge v1.1.0",
         "release_tag": "v0.9.1",
         "release_date": "2024-08-20 08:49:34",
         "release_message": "## Changelog\r\n* [fix] 修复v1.0.1 中check模式挂死的bug\r\n* [fix] 修复自动http/https判断中相互递归导致的死锁bug\r\n* [fix] brute plugin 开启后不会自动切换到brute模式的bug \r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v1.0.1...v1.0.2"
@@ -26392,12 +26392,12 @@
         "release_message": "Major update opensource version SmartCheck.\r\n\r\nWhat's new:\r\n- synced version with online tool https://tool.smartdec.ru/\r\n- updated rules pack with support of custom rules\r\n- results in .xml format"
     },
     "https://github.com/infobyte/faraday": {
-        "created_at": "2024-08-23 18:20:24",
+        "created_at": "2024-08-28 20:05:47",
         "description": "Open Source Vulnerability Management Platform",
         "commit_message": "Front Updated",
-        "commit_date": "2024-08-23 14:20:59",
-        "release_date": "2024-08-23 18:27:39",
-        "release_message": " * [FIX] Resolved an issue when filtering assets by numeric values. #7769\n * [ADD] Added workspace update logic on general view. Fixed bug where workspaces updated without making any change on them. #7769\n"
+        "commit_date": "2024-08-28 18:57:24",
+        "release_date": "2024-08-28 20:12:09",
+        "release_message": " * [FIX] Resolved an issue with filtering by Custom Attributes. #7800\n"
     },
     "https://github.com/0xsauby/yasuo": {
         "created_at": "2014-09-25 06:20:08",
@@ -27024,8 +27024,8 @@
     "https://github.com/leonteale/pentestpackage": {
         "created_at": "2014-04-25 00:29:27",
         "description": "a package of Pentest scripts I have made or  commonly use",
-        "commit_message": "add htb scipt",
-        "commit_date": "2024-08-09 21:54:31"
+        "commit_message": "Removed sharelist.sh from dev-mightnotworkyet after moving to Network",
+        "commit_date": "2024-08-28 14:33:06"
     },
     "https://github.com/f4cknet/pyhackme": {
         "created_at": "2023-11-03 13:50:55",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.172.44.135属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.83.123.180属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27306,8 +27306,8 @@
         "description": "十大网盘搜索引擎 - 凌风云"
     },
     "https://censys.io/": {
-        "status_code": 503,
-        "description": "Site is offline"
+        "status_code": 200,
+        "description": "Attack Surface Management and Threat Hunting Solutions | Censys"
     },
     "https://www.whois.com/whois/": {
         "status_code": 200,
@@ -28972,8 +28972,8 @@
     "https://github.com/outlaws-bai/Galaxy": {
         "created_at": "2024-08-16 08:58:49",
         "description": "Burp插件，自动解密被加密的报文，让你像测试明文一样简单。A Burp plugin that automatically decrypts encrypted messages, making it as simple as testing plaintext.",
-        "commit_message": "1. 增加对两种格式的sm2密钥兼容(一种格式的公钥长度待补充)",
-        "commit_date": "2024-08-24 07:02:51",
+        "commit_message": "fix bug",
+        "commit_date": "2024-08-27 10:38:05",
         "release_date": "2024-08-16 09:07:14",
         "release_message": "## 功能更新\r\n\r\n1. **完成与被动代理扫描器、sqlmap等工具的联动功能**\r\n2. UI优化，部分配置改为可在setting模块管理\r\n3. 增加一些常用的右键\r\n4. 在Repeater请求编辑器右键加解密请求时改为修改当前请求\r\n5. 移除无用的hook request按钮\r\n6. 通过右键加解密失败时改为抛出异常\r\n\r\n## 问题修复\r\n\r\n1. 修复当使用汉化Burp时，Http Hook启动后无法停止的问题\r\n\r\n## 注意事项\r\n\r\n如果你下载或打包后的jar包含 without-jython 字样，请在Burp的Java environment(Settings -> Extensions)配置一个文件夹，并将 jython-standalone-xxx.jar 放在该文件夹。[Download](https://www.jython.org/download)"
     },
