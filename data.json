@@ -4527,12 +4527,12 @@
         "commit_date": "2024-04-25 23:22:49"
     },
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
-        "created_at": "2024-07-11 00:34:38",
+        "created_at": "2024-08-11 20:28:07",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
-        "commit_message": "fix(ci): error docker action",
-        "commit_date": "2024-07-11 06:25:05",
-        "release_date": "2024-07-11 03:42:46",
-        "release_message": "**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.2.1...v3.2.3"
+        "commit_message": "chore(deps): bump axios from 1.7.3 to 1.7.4 (#53)\n\nBumps [axios](https://github.com/axios/axios) from 1.7.3 to 1.7.4.\r\n- [Release notes](https://github.com/axios/axios/releases)\r\n- [Changelog](https://github.com/axios/axios/blob/v1.x/CHANGELOG.md)\r\n- [Commits](https://github.com/axios/axios/compare/v1.7.3...v1.7.4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: axios\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-08-18 00:44:23",
+        "release_date": "2024-08-12 01:05:18",
+        "release_message": "**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.2.3...v3.2.4"
     },
     "https://github.com/LangLangShanDeNanKe/chatgpt": {
         "created_at": "2023-03-15 12:39:55",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.83.123.180属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.38.64属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28904,7 +28904,7 @@
         "release_message": "1、通过协议发包。\r\n"
     },
     "https://github.com/spyoungtech/FreeSimpleGUI": {
-        "created_at": "2024-04-03 22:49:15",
+        "created_at": "2024-07-25 01:13:24",
         "description": "The free-forever GUI library",
         "commit_message": "5.1.1 :package:",
         "commit_date": "2024-07-25 01:13:24",
@@ -28914,8 +28914,8 @@
     "https://github.com/MInggongK/jeecg-": {
         "created_at": "2024-07-28 16:23:14",
         "description": "jeecg综合漏洞利用工具",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-07-28 16:23:14",
+        "commit_message": "Add files via upload",
+        "commit_date": "2024-08-27 16:40:49",
         "release_date": "2024-08-06 02:49:37",
         "release_message": "增加了jeecg-boot-v2 api接口信息泄露模块检测\r\n优化了jeecg-boot jmreport任意文件上传漏洞\r\n优化了多请求执行线程问题"
     },
