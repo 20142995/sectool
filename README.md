@@ -878,9 +878,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JNDI-Injection-Exploit v1.0](https://github.com/welk1n/JNDI-Injection-Exploit) JNDI注入测试工具（A tool which generates JNDI links can start ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DNSLog](https://github.com/BugScanTeam/DNSLog) DNSLog 是一款监控 DNS 解析记录和 HTTP 访问记录的工具。
 ##### 漏洞文库
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [POC](https://github.com/wy876/POC) 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，长期更新。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) 📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wiki](https://github.com/wy876/wiki) 漏洞文库 wiki.wy876.cn
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [POC](https://github.com/wy876/POC) 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，长期更新。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [my-re0-k8s-security](https://github.com/neargle/my-re0-k8s-security) :atom: [WIP] 整理过去的分享，从零开始的Kubernetes攻防 🧐
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Vulnerability-Wiki](https://github.com/Threekiii/Vulnerability-Wiki) 基于 docsify 快速部署 Awesome-POC 中的漏洞文档
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Awesome-POC](https://github.com/Threekiii/Awesome-POC) 一个漏洞POC知识库 目前数量 1000+
@@ -1119,6 +1119,7 @@
 ##### 漏洞扫描框架
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pentestpackage](https://github.com/leonteale/pentestpackage) a package of Pentest scripts I have made or  commonly use
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zaproxy](https://github.com/zaproxy/zaproxy) The ZAP core project
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DudeSuite](https://github.com/x364e3ab6/DudeSuite) Dude Suite Web Security Tools
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oFx](https://github.com/bigblackhat/oFx) 漏洞批量验证框架
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yakit](https://github.com/yaklang/yakit) Cyber Security ALL-IN-ONE Platform
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVS](https://github.com/Safe3/CVS) CVS is a powerful comprehensive attack surface management platform.  森罗万象-强大的网络...
@@ -1127,7 +1128,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oday](https://github.com/Janhsu/oday) javafx编写的poc管理工具和漏洞扫描的小工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pocsuite3 v2.0.5](https://github.com/knownsec/pocsuite3) pocsuite3 is an open-sourced remote vulnerability testing framewor...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [daydayEXP](https://github.com/bcvgh/daydayEXP) 支持自定义Poc文件的图形化漏洞利用工具
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DudeSuite](https://github.com/x364e3ab6/DudeSuite) Dude Suite Web 渗透测试工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pocassist 1.0.5](https://github.com/jweny/pocassist) 傻瓜式漏洞PoC测试框架
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FrameScan-GUI v1.4.3](https://github.com/qianxiao996/FrameScan-GUI) FrameScan-GUI 一款python3和Pyqt编写的具有图形化界面的cms漏洞检测框架。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nishang](https://github.com/samratashok/nishang) Nishang - Offensive PowerShell for red team, penetration testing and offens...
@@ -1196,7 +1196,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.55.223.228属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.183.51.114属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1579,9 +1579,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [NetDLLSpy](https://github.com/Ivan1ee/NetDLLSpy) .NET后渗透下的权限维持，附下载DLL
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [webshell](https://github.com/backlion/webshell) 这是一些常用的webshell
 ##### 免杀
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RingQ](https://github.com/T4y1oR/RingQ) 一款后渗透免杀工具，助力每一位像我这样的脚本小子快速实现免杀，支持bypass AV/EDR 360 火绒 Windows Defender Shellc...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedGuard 23.08.21](https://github.com/wikiZ/RedGuard) RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JoJoLoader](https://github.com/Pizz33/JoJoLoader) 助力红队成员一键生成免杀木马，使用rust实现 | Help Redteam members generate Evasive Anti-vir...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RingQ](https://github.com/T4y1oR/RingQ) 一款后渗透免杀工具，助力每一位像我这样的脚本小子快速实现免杀，支持bypass AV/EDR 360 火绒 Windows Defender Shellc...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AVByPass](https://github.com/yhy0/AVByPass) 一款Web在线自动免杀工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Qianji](https://github.com/Pizz33/Qianji) 千机-红队免杀木马自动生成器  Bypass defender、火绒、360等国内主流杀软 随机加密混淆shellcode快速生成免杀马
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus) 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效...
@@ -2668,8 +2668,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚...
 ## 本地知识库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [anything-llm](https://github.com/Mintplex-Labs/anything-llm) The all-in-one Desktop & Docker AI application with full RAG and AI Ag...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qw...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [QAnything](https://github.com/netease-youdao/QAnything) Question and Answer based on Anything.
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qw...
 ## 机器学习
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dddd_trainer](https://github.com/sml2h3/dddd_trainer) ddddocr训练工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Augmentor](https://github.com/mdbloice/Augmentor) Image augmentation library in Python for machine learning.
