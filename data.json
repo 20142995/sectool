@@ -19288,8 +19288,8 @@
     "https://github.com/jumpserver/jumpserver": {
         "created_at": "2024-08-21 09:49:10",
         "description": "An open-source PAM tool alternative to CyberArk.  广受欢迎的开源堡垒机。",
-        "commit_message": "perf: add a script activate user manually",
-        "commit_date": "2024-08-21 06:55:57",
+        "commit_message": "perf: refresh oracle ports if need",
+        "commit_date": "2024-08-29 11:06:55",
         "release_date": "2024-08-15 14:41:31",
         "release_message": "## What’s new\r\n\r\n* Enable the use of email as a username to log in to JumpServer.\r\n\r\n* When adding an account using a template, the template is pushed by default, and the sudo permissions are updated. Usage scenarios include creating an account on the account list page and the asset details page, as well as creating an authorization.\r\n\r\n* Allows users to customize asset names and descriptions on the My Assets page of the workbench.\r\n\r\n* Allows users to create multiple SSH keys in personal settings. Users can use different SSH keys in different clients to improve security. The default maximum is limited to `10`.\r\n\r\n* The user authentication allows configuration of attribute mapping and default organizations, including LDAP, CAS, OIDC, AML2, OAuth2, WeCom, Dingtalk, Feishu, Lark, Slack, Radius. (JumpServer EE)\r\n\r\n* Provides the capability to connect to an Oracle database on the IBM AIX (Advanced Interactive eXecutive) operating system through a database client. (JumpServer EE)\r\n\r\n\r\n## Improvements\r\n\r\n* The MongoDB platform supports configuring connection options. For example, retryWrites=false&retryReads=false. Which will take effect when the user connects to the database.\r\n\r\n* The user’s phone configuration supports most international country codes.\r\n\r\n* When users connect to assets, the remote application publisher matched via asset tags uses a random selection strategy to improve load balancing across publishers.\r\n\r\n* Restart each Gunicorn process more gracefully to ensure uninterrupted service.\r\n\r\n* Session support records the use of RemoteApp machine, and administrators and auditors can view the session description.\r\n\r\n* Asset account user switching supports `su` and `sudo su` to maintain the current user environment variables.\r\n\r\n* When replaying a session recording online, add the current viewer's watermark.\r\n\r\n* The configuration of approvers in the Ticket approval flow supports three policy options, all users, specified users, and specified user attributes. (JumpServer EE)\r\n\r\n* Refactored Magnus Oracle connection logic to improve the user's database operation experience. (JumpServer EE)\r\n\r\n\r\n## Bug fixes\r\n\r\n* Fixed the issue that the disk size calculation of Linux host hardware information was inaccurate, and it would be calculated repeatedly if mounted multiple times. \r\n\r\n* Fixed the issue that the scheduled cleanup task of the audit log was not executed. For example, login log, operation log, etc.\r\n\r\n* Resolved the issue where SMS sending would fail when the user logged in.\r\n\r\n* No longer notify Kael and Magnus about components being offline.\r\n\r\n* Fixed the issue that SSL certificate authentication was not effective when initializing and deploying a RemoteApp machine.\r\n\r\n* Fixed the issue that Luna page asset session Tab cannot be renamed.\r\n\r\n* Resolved the issue where the callback address lost the port during SAML2 user authentication, causing user login failures. (JumpServer EE)\r\n"
     },
@@ -20824,8 +20824,8 @@
         "release_tag": "",
         "release_date": "",
         "release_message": "",
-        "commit_date": "2024-08-07 22:06:05",
-        "commit_message": "fix(burp): incorrect variable in error message"
+        "commit_date": "2024-08-28 15:20:33",
+        "commit_message": "chore: version bump to 1.4.0"
     },
     "https://github.com/KibodWapon/Axis-1": {
         "created_at": "",
@@ -21945,8 +21945,8 @@
     "https://github.com/apache/logging-log4j2": {
         "created_at": "2024-03-10 19:05:47",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "Fix links to issues",
-        "commit_date": "2024-08-16 11:48:01",
+        "commit_message": "Update `com.github.luben:zstd-jni` to version `1.5.6-5` (#2901)",
+        "commit_date": "2024-08-29 11:21:12",
         "release_date": "2024-03-10 19:24:14",
         "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
     },
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.52.195属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.190.111.242属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27506,8 +27506,8 @@
     "https://github.com/google/tsunami-security-scanner": {
         "created_at": "2024-08-20 14:22:01",
         "description": "Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.",
-        "commit_message": "Log the execution time of each plugin. This allows for identification and optimization of plugins taking the longest time.\n\nPiperOrigin-RevId: 666334401\nChange-Id: I7c922ed89b1463cdf3268bd77ac37a55e5dd74eb",
-        "commit_date": "2024-08-22 14:04:36",
+        "commit_message": "Introduce the `RequiresCallbackServer` annotation that ensures a plugin only gets executed if the callback server is present.\n\nPiperOrigin-RevId: 667556868\nChange-Id: I8641612e85372a89812e2173705da999e640c35e",
+        "commit_date": "2024-08-26 12:59:04",
         "release_date": "2024-08-20 14:53:38",
         "release_message": "- #117: Fix a null exception that was introduced in version 0.0.23\r\n- #110: Add additional payloads for the callback server\r\n- 315dfe1: Change the behavior of `buildWebApplicationRootUrl` so that it can be used generically\r\n- #118: `setTrustAllCertificates` not directly accessible in client and set to true by default\r\n- Misc updates to the documentation"
     },
@@ -27521,7 +27521,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27537,7 +27537,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27549,11 +27549,11 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线DES加密,DES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -28662,8 +28662,8 @@
     "https://github.com/netease-youdao/QAnything": {
         "created_at": "2024-07-26 09:31:50",
         "description": "Question and Answer based on Anything.",
-        "commit_message": "Merge pull request #482 from ikun-moxiaofei/patch-5\n\nUpdate README_zh.md",
-        "commit_date": "2024-08-23 09:49:09",
+        "commit_message": "Merge pull request #483 from cairong-ai/fix-upload-files-for-local\n\nfix: 上传本地文件问题",
+        "commit_date": "2024-08-29 10:18:02",
         "release_date": "2024-08-15 03:02:23",
         "release_message": "# 🎉🎉🎉QAnything v1.4.2 发布!\r\n\r\n## 全新发布v1.4.2\r\n\r\n## 新特性\r\n### Python版本-[qanything-python分支](https://github.com/netease-youdao/QAnything/tree/qanything-python)\r\n* 添加更便捷的启动方法（需提供openai，ollama等LLM服务的api-key），只需要一行代码就可以自动配置conda虚拟环境并启动项目，（WIN（WSL）、Mac、LInux下所有启动脚本合并为两个：run_for_CPU.sh/run_for_GPU.sh，支持python2环境）\r\n* 优化控制台日志输出，可以在终端输出更详细的日志\r\n* 将一部分常用参数的值调整至根目录配置文件（config.py）下统一管理，增加更多可自定义的参数\r\n* 将pdf格式转markdown格式的模块独立为子模块，在执行pip install -e .命令后可以在本地独立使用\r\n* 修复联网检索模块在检索到的数据内容过长时会导致本地知识库内容无法正常获取的问题\r\n* 优化联网检索的文档分割效果，并优化上传失败文档的错误信息展示。\r\n* 修复了表格解析报错，rerank重复执行，opencv安装失败，rerank执行出错，单次前端问答多次调用后端问答接口等一系列bug。\r\n\r\n## 新贡献者\r\n* @ikun-moxiaofei 在 https://github.com/netease-youdao/QAnything/pull/384 进行了首次贡献（共17PR）\r\n* @glorialucheng 在 https://github.com/netease-youdao/QAnything/pull/447 进行了首次贡献"
     },
@@ -28740,8 +28740,8 @@
     "https://github.com/chatchat-space/Langchain-Chatchat": {
         "created_at": "2024-07-12 14:29:12",
         "description": "Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain ",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-08-24 12:06:23",
+        "commit_message": "fix(components): [ensemble.py] The top_k value of the retriever cannot be specified (#4705)\n\nCo-authored-by: Zhengyunlong <lonson@MBP-HHFQL4RXM1-0213.local>",
+        "commit_date": "2024-08-29 08:35:59",
         "release_date": "2024-07-12 15:23:05",
         "release_message": "## 重要提示\r\n\r\nLangchain-Chatchat v0.3.1 中命令行调用方式发生调整，请依据项目 README 进行操作；知识库的源文件与向量库仍可与前序版本通用，建议参考项目 README.md 中 快速上手 章节内容进行新版本部署。\r\n\r\n------\r\n\r\n## 新增功能\r\n\r\n* 所有配置项改成 yaml 配置文件，改为命令行执行 chatchat init 初始化项目配置，需要本地文件中修改配置，配置项修改后即时生效，无需重启项目 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* chatchat init 可以直接指定 Xinference API 地址、LLM 模型、Embedding 模型，一步完成知识库初始 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4425\r\n* 新增 RAG 对话页面，包含知识库对话、文件对话、搜索引擎对话 by @liunux4odoo @imClumsyPanda in https://github.com/chatchat-space/Langchain-Chatchat/pull/4471\r\n* 调整对话界面按钮布局，对话输入框左右分别设置\"模型配置\"与\"清空对话\"按钮 by @imClumsyPanda @liunux4odoo \r\n* 支持 searx 搜索引擎 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4476\r\n* 支持 GLM-4V、Qwen-VL 等 Vision 模型接入进行图片对话 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* 使用 Xinference 接入本地模型时，支持自动检测已启动模型，无需手动填写模型名称 by @imClumsyPanda @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4421\r\n* Agent 可调用工具中增加了维基百科搜索、高德地图天气查询、高德地图POI搜索 by @yhfgyyf in https://github.com/chatchat-space/Langchain-Chatchat/pull/4419\r\n* Agent 工具新增 text2promql by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4399\r\n* 增加 dockerfile 并更新 README 中关于 docker 部署的操作介绍 by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4271 and https://github.com/chatchat-space/Langchain-Chatchat/pull/4274\r\n* 新增 Agent 添加工具操作说明 by @zRzRzRzRzRzRzR in https://github.com/chatchat-space/Langchain-Chatchat/pull/4484\r\n* 新增数据库对话配置说明 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4475\r\n* 添加 Agent & Chat API 接口调用的说明，修正知识库检索bug by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4341\r\n* 增加知识库初始化时对 Ctrl+C 中止操作的支持 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4352\r\n* 增加 Pypi 发布自动化操作 by @glide-the in https://github.com/chatchat-space/Langchain-Chatchat/pull/4260\r\n* 增加不同系统部署环境测试 by @glide-the in https://github.com/chatchat-space/Langchain-Chatchat/pull/4480\r\n\r\n\r\n## 问题修复\r\n* 在 readme 中增加对 windows 下创建知识库卡住的说明与解决办法 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4330\r\n* 统一搜索引擎与本地知识库返回格式，修改 WEBUI 渲染上下文方式 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4344\r\n* 修复文生图工具 by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4349\r\n* 修复 Milvus 作为知识库时可能发生的错误 by @kwunhang in https://github.com/chatchat-space/Langchain-Chatchat/pull/4319\r\n* 修复 max_tokens 问题 by @yuehua-s in https://github.com/chatchat-space/Langchain-Chatchat/pull/4355\r\n* 修改api文档中手动输入工具参数的说明 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4367\r\n* 解决text2sql对GLM的兼容，即temperature不能设置为0 by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4370\r\n* 解决es数据库删除时只能删除50条数据的BUG by @YangSuoze in https://github.com/chatchat-space/Langchain-Chatchat/pull/4351\r\n* 解决天气、text2Sql Agent 运行报错的BUG by @21Janur in https://github.com/chatchat-space/Langchain-Chatchat/pull/4336\r\n* 修复知识库对话中的bug by @srszzw in https://github.com/chatchat-space/Langchain-Chatchat/pull/4468\r\n* fix: action model initialize error by @liunux4odoo in https://github.com/chatchat-space/Langchain-Chatchat/pull/4347\r\n\r\n## New Contributors\r\n* @kwunhang made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4319\r\n* @YangSuoze made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4351\r\n* @21Janur made their first contribution in https://github.com/chatchat-space/Langchain-Chatchat/pull/4336\r\n\r\n**Full Changelog**: https://github.com/chatchat-space/Langchain-Chatchat/compare/v0.3.0...v0.3.1"
     },
@@ -28754,8 +28754,8 @@
     "https://github.com/Mintplex-Labs/anything-llm": {
         "created_at": "2024-08-19 19:26:22",
         "description": "The all-in-one Desktop & Docker AI application with full RAG and AI Agent capabilities.",
-        "commit_message": "pre-validate sessionID type for embed chats",
-        "commit_date": "2024-08-27 23:38:20",
+        "commit_message": "Add new Voyage AI embedding models (#2193)\n\nnew voyageai embedding models",
+        "commit_date": "2024-08-29 21:11:00",
         "release_date": "2024-08-19 21:08:56",
         "release_message": "## What's Changed\r\n* Slash commands edit bug fix by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2073\r\n* Populate .env file using variable inside userdata script by @saravanan30erd in https://github.com/Mintplex-Labs/anything-llm/pull/2075\r\n* add exp model to v1Beta by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2082\r\n* #2084 Support Go filetype by @leaanthony in https://github.com/Mintplex-Labs/anything-llm/pull/2085\r\n* Update the display to show 95% of the width on small screens, else 635px by @MrSimonC in https://github.com/Mintplex-Labs/anything-llm/pull/2089\r\n* Fix depth handling in bulk link scraper by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2096\r\n* Finetune ui improvements by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2053\r\n* Improve search of document picker by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2097\r\n* Auto URL detection for localai by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2083\r\n* Add prompt window limits for gpt-4o-* models by @mPyKen in https://github.com/Mintplex-Labs/anything-llm/pull/2104\r\n* fix(Dockerfile): remove hardcoded exposed port by @kabaluyot in https://github.com/Mintplex-Labs/anything-llm/pull/2106\r\n* Encryption in JWT for single-user password mode by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2111\r\n* Fix TypeError by replacing this.openai.createChatCompletion with the correct function call by @shaharhi in https://github.com/Mintplex-Labs/anything-llm/pull/2117\r\n* Agent Context window + context window refactor. by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2126\r\n* Fix markdown styling for rendered images by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2125\r\n* Fix tooltip showing on both sides of file picker by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2124\r\n* Omit invalid `response.text` values and `prompts` by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2127\r\n* Fix multi-user setup bug for invalid username/password by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2130\r\n* Allow readable username passed in script widget by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2131\r\n* Support suggestions of messages for empty chat in widget by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2133\r\n* Added Hebrew language by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2143\r\n\r\n## New Contributors\r\n* @saravanan30erd made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2075\r\n* @leaanthony made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2085\r\n* @mPyKen made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2104\r\n* @kabaluyot made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2106\r\n* @shaharhi made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2117\r\n\r\n**Full Changelog**: https://github.com/Mintplex-Labs/anything-llm/compare/v1.2.0...v1.2.1\r\n\r\nDesktop Version Pin: v1.6.4"
     },
@@ -28880,12 +28880,12 @@
         "release_message": "Start-of-month release"
     },
     "https://github.com/wy876/POC": {
-        "commit_message": "08-17更新漏洞",
-        "commit_date": "2024-08-17 03:26:38",
-        "created_at": "2024-08-01 12:05:27",
-        "release_date": "2024-08-01 14:00:37",
-        "release_message": "",
-        "description": "收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，长期更新。"
+        "commit_message": "Merge branch 'main' of https://github.com/wy876/POC",
+        "commit_date": "2024-08-28 15:24:26",
+        "created_at": "2024-08-24 11:09:21",
+        "release_date": "2024-08-26 07:58:41",
+        "release_message": "## What's Changed\r\n* 要不要试试这种格式的呀 by @yiliufeng168 in https://github.com/wy876/POC/pull/14\r\n* Elgg sqli poc by @Kazgangap in https://github.com/wy876/POC/pull/15\r\n\r\n## New Contributors\r\n* @yiliufeng168 made their first contribution in https://github.com/wy876/POC/pull/14\r\n* @Kazgangap made their first contribution in https://github.com/wy876/POC/pull/15\r\n\r\n**Full Changelog**: https://github.com/wy876/POC/compare/POC-8.1...20240826",
+        "description": "收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，长期更新。"
     },
     "https://github.com/enomothem/Whoamifuck": {
         "created_at": "2024-08-03 06:04:17",
