@@ -18956,8 +18956,8 @@
     "https://github.com/NetSPI/PowerUpSQL": {
         "created_at": "2016-06-22 01:22:39",
         "description": "PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server",
-        "commit_date": "2024-05-21 17:04:32",
-        "commit_message": "Update PowerUpSQL.ps1\n\nAdd optional sql link crawl to invoke-sqldumpinfo.",
+        "commit_date": "2024-08-20 17:39:55",
+        "commit_message": "Update Get-Credentials-Hijack.tsql",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.51.114属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.39.19属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
