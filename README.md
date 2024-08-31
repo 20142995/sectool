@@ -781,8 +781,8 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ghauri](https://github.com/r0oth3x49/ghauri) An advanced cross-platform tool that automates the process of detecting and ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap](https://github.com/sqlmapproject/sqlmap) Automatic SQL injection and database takeover tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap-gui](https://github.com/honmashironeko/sqlmap-gui) 基于官版本 SQLMAP 进行人工汉化，并提供GUI界面及多个自动化脚本
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jsql-injection](https://github.com/ron190/jsql-injection) jSQL Injection is a Java application for automatic SQL database inje...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL) PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jsql-injection](https://github.com/ron190/jsql-injection) jSQL Injection is a Java application for automatic SQL database inje...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MSSQL_SQL_BYPASS_WIKI](https://github.com/aleenzz/MSSQL_SQL_BYPASS_WIKI) MSSQL注入提权,bypass的一些总结
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MYSQL_SQL_BYPASS_WIKI](https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI) mysql注入,bypass的一些心得
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [injectbot](https://github.com/tariqhawis/injectbot) GUI SQL Injection scannig tool
@@ -1088,9 +1088,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AngelSword](https://github.com/Lucifer1993/AngelSword) Python3编写的CMS漏洞检测框架
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yasuo](https://github.com/0xsauby/yasuo) A ruby script that scans for vulnerable & exploitable 3rd-party web applicati...
 ##### 漏洞扫描
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vuls](https://github.com/future-architect/vuls) Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Pro...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [retire.js](https://github.com/retirejs/retire.js) scanner detecting the use of JavaScript libraries with known vulnerabilit...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nikto](https://github.com/sullo/nikto) Nikto web server scanner
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vuls](https://github.com/future-architect/vuls) Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Pro...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oss-fuzz](https://github.com/google/oss-fuzz) OSS-Fuzz - continuous fuzzing for open source software.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cli](https://github.com/httpie/cli) 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the API era....
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shcheck](https://github.com/santoru/shcheck) A basic tool to check security headers of a website
@@ -1196,7 +1196,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.183.51.114属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [20.102.46.250属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1276,11 +1276,11 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wxapkg-convertor 1.0.1](https://github.com/ezshine/wxapkg-convertor) 一个反编译微信小程序的工具，仓库也收集各种微信小程序/小游戏.wxapkg文件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pc_wxapkg_decrypt 0.1](https://github.com/BlackTrace/pc_wxapkg_decrypt) windows pc端wxpkg文件解密（非解包）
 #### 指纹识别
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [hfinger](https://github.com/HackAllSec/hfinger) 一个用于web框架、CDN和CMS指纹识别的高性能命令行工具。A high-performance command-line tool for web...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [P1finger](https://github.com/P001water/P1finger) P1finger - 红队行动下的重点资产指纹识别工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FingerprintHub](https://github.com/0x727/FingerprintHub) 侦查守卫(ObserverWard)的指纹库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wappalyzergo v0.0.109](https://github.com/projectdiscovery/wappalyzergo) A high performance go implementation of Wappalyzer Technology...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) Browser fingerprinting library. Accuracy of this version is 40-60%, a...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [hfinger](https://github.com/HackAllSec/hfinger) 一个用于web框架、CDN和CMS指纹识别的高性能命令行工具。A high-performance command-line tool for web...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [P1finger](https://github.com/P001water/P1finger) P1finger - 红队行动下的重点资产指纹识别工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [chunsou](https://github.com/Funsiooo/chunsou) Chunsou（春蒐），Python3编写的多线程Web指纹识别工具,适用于安全测试人员前期的资产识别、风险收敛以及企业互联网资产风险摸查。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ObserverWard](https://github.com/0x727/ObserverWard) 侦查守卫(ObserverWard)指纹识别工具Community web fingerprint identification tool 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xapp](https://github.com/chaitin/xapp) 
@@ -1306,8 +1306,8 @@
 - <img src="https://favicon.qqsuu.cn/www.yunsee.cn" alt="" style="height: 20px;"> [yunsee.cn-2.0](https://www.yunsee.cn/) 
 #### 目录扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [spray v0.9.1](https://github.com/chainreactors/spray) Next Generation HTTP Dir/File Fuzz Tool
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dirsearch](https://github.com/maurosoria/dirsearch) Web path scanner
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gowitness](https://github.com/sensepost/gowitness) 🔍 gowitness - a golang, web screenshot utility using Chrome Headless
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dirsearch](https://github.com/maurosoria/dirsearch) Web path scanner
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RouteCheck-Alpha](https://github.com/ax1sX/RouteCheck-Alpha) A Java Route Collection Tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [feroxbuster](https://github.com/epi052/feroxbuster) A fast, simple, recursive content discovery tool written in Rust.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cansina 1.0.0](https://github.com/deibit/cansina) Web Content Discovery Tool
@@ -1672,8 +1672,8 @@
 #### 域环境靶场
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dragon-lab](https://github.com/0range-x/dragon-lab) 
 #### 字典
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SecDictionary](https://github.com/SexyBeast233/SecDictionary) 实战沉淀字典
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SecLists 2023.2](https://github.com/danielmiessler/SecLists) SecLists is the security tester's companion. It's a collection of m...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SecDictionary](https://github.com/SexyBeast233/SecDictionary) 实战沉淀字典
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [wordlists](https://github.com/drtychai/wordlists) Aggregated wordlist pulled from commonly used tools for discovery, enumer...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Web-Fuzzing-Box](https://github.com/gh0stkey/Web-Fuzzing-Box) Web Fuzzing Box - Web 模糊测试字典与一些Payloads
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [top25-parameter v1.0.7](https://github.com/lutfumertceylan/top25-parameter) For basic researches, top 25 vulnerability parameters that c...
@@ -1985,7 +1985,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [redis-rce](https://github.com/Ridter/redis-rce) Redis 4.x/5.x RCE
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [redis-rogue-server](https://github.com/Dliv3/redis-rogue-server) Redis 4.x/5.x RCE
 ###### 综合
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MDUT-Extend-Release](https://github.com/DeEpinGh0st/MDUT-Extend-Release) MDUT-Extend(扩展版本)发布仓库
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MDUT-Extend-Release](https://github.com/DeEpinGh0st/MDUT-Extend-Release) MDUT-Extend(扩展版本)
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MDUT v2.1.1](https://github.com/SafeGroceryStore/MDUT) MDUT - Multiple Database Utilization Tools
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Databasetools 1.2](https://github.com/Hel10-Web/Databasetools) 一款用Go语言编写的数据库自动化提权工具，支持Mysql、MSSQL、Postgresql、Oracle、Redis数据库提权、命...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PentestDB](https://github.com/safe6Sec/PentestDB) 各种数据库的利用姿势
@@ -2584,7 +2584,7 @@
 - <img src="https://favicon.qqsuu.cn/weaversrc.vulbox.com" alt="" style="height: 20px;"> [漏洞盒子 | 泛微安全应急响应中心（WEAVERSRC）](https://weaversrc.vulbox.com/) 
 - <img src="https://favicon.qqsuu.cn/www.hikvision.com" alt="" style="height: 20px;"> [安全应急响应中心 - 服务支持 - 海康威视 Hikvision](https://www.hikvision.com/cn/support/CybersecurityCenter/) 
 - <img src="https://favicon.qqsuu.cn/www.niwodai.com" alt="" style="height: 20px;"> [首页](https://www.niwodai.com/sec/index.do) 
-- <img src="https://favicon.qqsuu.cn/www.seebug.org" alt="" style="height: 20px;"> [知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！](https://www.seebug.org/) 
+- <img src="https://favicon.qqsuu.cn/www.seebug.org" alt="" style="height: 20px;"> [Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing Fi...](https://www.seebug.org/) 
 - <img src="https://favicon.qqsuu.cn/ysrc.ys7.com" alt="" style="height: 20px;"> [ysrc.ys7.com](https://ysrc.ys7.com/#/home) 
 - <img src="https://favicon.qqsuu.cn/zrsecurity.ziroom.com" alt="" style="height: 20px;"> [首页 | 自如安全应急响应中心](https://zrsecurity.ziroom.com/) 
 ### 相关资源
