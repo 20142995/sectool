@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.84.127.101属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.33.183属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27206,8 +27206,8 @@
         "description": "Voice"
     },
     "https://app.tmp.link/": {
-        "status_code": 403,
-        "description": "Just a moment..."
+        "status_code": 200,
+        "description": "TMPLINK"
     },
     "http://finger.tidesec.net/": {
         "status_code": 200,
