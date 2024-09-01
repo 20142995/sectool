@@ -77,7 +77,7 @@
         "release_message": ""
     },
     "https://github.com/SleepingBag945/IPSearch": {
-        "created_at": "2022-12-29 08:25:55",
+        "created_at": "2022-12-29 08:50:20",
         "description": "离线IP Whois查询工具。可根据IP查询所属IP段信息、根据关键词查询IP段信息",
         "commit_date": "2023-03-25 04:02:31",
         "commit_message": "Merge pull request #2 from SleepingBag945/add-license-1\n\nCreate LICENSE",
@@ -5684,7 +5684,7 @@
         "release_message": ""
     },
     "https://github.com/b1ackc4t/14Finger": {
-        "created_at": "2022-05-09 02:11:03",
+        "created_at": "2022-05-17 00:46:57",
         "description": "功能齐全的Web指纹识别和分享平台,基于vue3+django前后端分离的web架构，并集成了长亭出品的rad爬虫的功能，内置了一万多条互联网开源的指纹信息。",
         "commit_date": "2022-07-17 02:08:28",
         "commit_message": "优化",
@@ -26460,10 +26460,10 @@
     "https://github.com/abc123info/UserNameDictTools": {
         "created_at": "2023-09-06 14:40:24",
         "description": "用户名密码字典生成工具(将中文汉字姓名转成14种格式的拼音、IP地址处理、网络设备密码生成)",
-        "commit_message": "Update README.md",
-        "commit_date": "2023-09-06 14:40:24",
-        "release_date": "2023-12-27 13:26:36",
-        "release_message": "2023.12.27 新增右键菜单复制、粘贴、剪切、撤回等功能。"
+        "commit_message": "Add files via upload",
+        "commit_date": "2024-08-05 15:14:49",
+        "release_date": "2024-07-28 12:11:24",
+        "release_message": "2024.07.28 新增WXZ格式用户名格式，用户名转换规则增至15个。"
     },
     "https://github.com/Xyntax/BingC": {
         "created_at": "2016-06-23 08:56:32",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.33.183属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.77.204属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
