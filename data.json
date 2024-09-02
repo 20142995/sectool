@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.83.1.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.81.159.68属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -29080,5 +29080,13 @@
         "commit_date": "2024-02-28 17:54:18",
         "release_date": "2024-02-22 19:28:49",
         "release_message": ""
+    },
+    "https://github.com/charonlight/xxl-jobExploitGUI": {
+        "created_at": "2023-11-02 13:19:46",
+        "description": "xxl-job最新漏洞利用工具",
+        "commit_message": "Add files via upload",
+        "commit_date": "2023-11-03 02:04:43",
+        "release_date": "2023-11-02 13:20:43",
+        "release_message": "工具实现了XXL-JOB默认accessToken权限绕过漏洞的单个检测、批量检测、一键反弹shell功能，后续会持续更新优化，添加POC检测等。"
     }
 }
