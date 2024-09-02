@@ -22496,8 +22496,8 @@
     "https://github.com/Prepouce/CoercedPotato": {
         "created_at": "2023-09-11 19:04:29",
         "description": "A Windows potato to privesc",
-        "commit_date": "2024-07-02 15:23:32",
-        "commit_message": "Merge pull request #6 from p0dalirius/errors-verbosity-refactoring\n\n[enhancement] Errors verbosity refactoring",
+        "commit_date": "2024-08-26 08:09:00",
+        "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
         "release_message": ""
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.91.48属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.83.1.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -29072,5 +29072,13 @@
         "description": "Nacos 综合利用工具",
         "commit_message": "Update README.md",
         "commit_date": "2024-08-19 09:34:20"
+    },
+    "https://github.com/DosX-dev/UPX-Patcher": {
+        "created_at": "2024-02-22 19:24:22",
+        "description": "Make \"upx -d\" unpacking impossible!",
+        "commit_message": "Update die.jpg",
+        "commit_date": "2024-02-28 17:54:18",
+        "release_date": "2024-02-22 19:28:49",
+        "release_message": ""
     }
 }
