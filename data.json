@@ -195,9 +195,9 @@
     },
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
-        "description": "聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.",
+        "description": "Auto Collect Poc Or Exp from Github by CVE ID. ",
         "commit_message": "update Today.md",
-        "commit_date": "2024-08-28 00:04:12"
+        "commit_date": "2024-09-02 00:04:05"
     },
     "https://github.com/1n7erface/RequestTemplate": {
         "created_at": "",
@@ -3918,8 +3918,8 @@
     "https://github.com/aquasecurity/trivy": {
         "created_at": "2024-07-31 15:52:50",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "feat(misconf): scanning support for YAML and JSON (#7311)\n\nSigned-off-by: nikpivkin <nikita.pivkin@smartforce.io>",
-        "commit_date": "2024-08-20 04:55:45",
+        "commit_message": "fix(misconf): fix infer type for null value (#7424)\n\nSigned-off-by: nikpivkin <nikita.pivkin@smartforce.io>",
+        "commit_date": "2024-08-31 07:06:34",
         "release_date": "2024-07-31 16:45:52",
         "release_message": "## Changelog\n* 854c61d34a550a9fcbab3bc59e55b868c15d1962 release: v0.54.1 [release/v0.54] (#7282)\n* 334a1c293bb3d490af2a6d80732f399efaac22f7 fix(flag): incorrect behavior for deprected flag `--clear-cache` [backport: release/v0.54] (#7285)\n* f61725c28b56d80fb46395479842a2ab0c517c5f fix(java): Return error when trying to find a remote pom to avoid segfault [backport: release/v0.54] (#7283)\n* a7b7117fe2c9608e990b42e702cc83675c48f888 fix(plugin): do not call GitHub content API for releases and tags [backport: release/v0.54] (#7279)\n\n"
     },
@@ -4219,7 +4219,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-08-27 20:23:35"
+        "commit_date": "2024-09-01 20:22:25"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -5186,13 +5186,13 @@
         "release_message": "Issues: https://github.com/alibaba/arthas/milestone/47?closed=1\r\n\r\n要点：\r\n\r\n1. 4.0.0 之后只支持JDK8，支持 JDK 17/21/23\r\n2. 升级 jackson, fastjson2, ognl, netty, spring-boot 等依赖版本\r\n3. profiler 命令优化\r\n\r\n---\r\n\r\n* #2875 使用wisp时，报NPE错误\r\n\r\n* #2572 When Tunnel Server uses a custom port, the jump from the detail-pages to the agent console page fails.\r\n\r\n* #2498 升级到 fastjson2\r\n\r\n* #2659 logger 命令在jdk17的环境下无响应 bug\r\n\r\n\r\n* #2705 Tomcat CVE-2023-42795漏洞有升级计划嘛\r\n\r\n\r\n* #2740 AnsiLog 的 static 初始化可能抛出异常\r\n\r\n\r\n* #2611 升级 ognl 依赖版本\r\n\r\n* #2490 请升级一下依赖 jackson-databind 的版本\r\n\r\n\r\n* #2861 支持 jdk 22/23\r\n\r\n\r\n* #2835 Release netty ByteBuf after use \r\n\r\n\r\n* #2804 update DynamicCompiler add -g option for generate LocalVariableTable \r\n\r\n* #2736 Optimized the compilation speed of the memory compiler \r\n\r\n* #2710  update ognl website url \r\n\r\n* #2680 Bump zt-zip from 1.14 to 1.16 \r\n\r\n\r\n* #2681 Bump spring-boot3 to 3.1.3 and spring-boot to 2.7.15 \r\n\r\n\r\n* #2670 check directory for JadCommand and fix typos \r\n\r\n\r\n* #2658 优化识别重定向 \r\n\r\n\r\n* #2661 Upgrade to JUnit 5 \r\n\r\n\r\n* #2544 fix: agent-attach携带的arthasHome参数未生效 bug\r\n\r\n\r\n* #2663 Adjust time display accuracy to milliseconds \r\n\r\n\r\n* #2669  fix directory check for DumpClassCommand \r\n\r\n\r\n* #2662 Make thread id uniformly displayed in decimal format \r\n\r\n* #2652 feat: sysenv sorted by property key \r\n\r\n\r\n* #2646 jad命令优化 \r\n\r\n\r\n* #2608 Async profiler api upgrade \r\n\r\n\r\n* #2573 Fix the page redirection issue of Arthas tunnel server #2572\r\n\r\n\r\n* #2566  print job output file \r\n\r\n* #2513 JDK17 ArthasAgent.attach Api Provider sun.tools.attach.LinuxAttachProvider not found bug\r\n"
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
-        "created_at": "2024-08-25 00:26:40",
+        "created_at": "2024-09-01 00:30:47",
         "description": "A high performance go implementation of Wappalyzer Technology Detection Library",
-        "commit_date": "2024-08-25 00:26:40",
-        "commit_message": "Weekly fingerprints update [Sun Aug 25 00:26:40 UTC 2024] :robot:",
+        "commit_date": "2024-09-01 00:30:47",
+        "commit_message": "Weekly fingerprints update [Sun Sep  1 00:30:47 UTC 2024] :robot:",
         "release_tag": "v0.0.109",
-        "release_date": "2024-08-25 00:26:57",
-        "release_message": "### [0.1.16](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.15...v0.1.16) (2024-08-25)"
+        "release_date": "2024-09-01 00:31:08",
+        "release_message": "### [0.1.17](https://github.com/projectdiscovery/wappalyzergo/compare/v0.1.16...v0.1.17) (2024-09-01)"
     },
     "https://github.com/cseroad/Webshell_Generate": {
         "created_at": "2023-06-19 03:21:09",
@@ -6111,7 +6111,7 @@
         "release_message": "新增飞书API利用。"
     },
     "https://github.com/RuoJi6/HackerPermKeeper": {
-        "created_at": "2024-03-05 05:39:49",
+        "created_at": "2023-07-19 03:23:21",
         "description": "Linux权限维持",
         "commit_message": "Update README.md",
         "commit_date": "2024-08-27 01:23:23",
@@ -6496,12 +6496,12 @@
         "release_message": "# 更新日志\r\n\r\n- 优化了脚本流程，减少了部分代码\r\n- 增加了校验模块，根据PNG文件头校验是否为PNG图片\r\n- 新增宽高判断，对于宽高正常的PNG图片，做出提示\r\n- 无需再改后缀名，直接导出PNG后缀的文件"
     },
     "https://github.com/ImageMagick/ImageMagick": {
-        "created_at": "2024-07-27 12:02:24",
+        "created_at": "2024-08-24 17:51:32",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "parentheses is the plural of parenthesis",
-        "commit_date": "2024-08-19 12:28:44",
-        "release_date": "2024-07-27 16:08:01",
-        "release_message": "## What's Changed\n* uhdr.c: default initialize range field for hdr/sdr intent inputs to enc by @aayushsoni111 in https://github.com/ImageMagick/ImageMagick/pull/7482\n* Fixed typo in documentation of MagickAdaptiveBlurImage by @JonahEMorgan in https://github.com/ImageMagick/ImageMagick/pull/7500\n* Silence warning when freetype delegate is disabled. by @niclet in https://github.com/ImageMagick/ImageMagick/pull/7515\n\n## New Contributors\n* @JonahEMorgan made their first contribution in https://github.com/ImageMagick/ImageMagick/pull/7500\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-35...7.1.1-36"
+        "commit_message": "eliminate compiler warnings",
+        "commit_date": "2024-09-01 13:07:10",
+        "release_date": "2024-08-25 17:38:54",
+        "release_message": "## What's Changed\n* Silence warning and fix HEIC_COMPUTE_NUMERIC_VERSION definition when heic delegate is disabled. by @niclet in https://github.com/ImageMagick/ImageMagick/pull/7516\n* Bump azure/trusted-signing-action from 0.3.20 to 0.4.0 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7518\n\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-36...7.1.1-37"
     },
     "https://github.com/Ch1ngg/JWTPyCrack": {
         "created_at": "2019-09-05 07:55:21",
@@ -22734,8 +22734,8 @@
     "https://github.com/shufflewzc/faker3": {
         "created_at": "2022-01-31 21:21:40",
         "description": null,
-        "commit_message": "Update jd_clean_coupon.js",
-        "commit_date": "2024-08-28 06:58:15"
+        "commit_message": "Create jd_dplh0830.js",
+        "commit_date": "2024-09-01 07:15:54"
     },
     "https://github.com/harlamism/IdaClu": {
         "created_at": "2024-03-09 03:45:07",
@@ -22781,12 +22781,12 @@
         "release_message": ""
     },
     "https://github.com/qiwentaidi/Slack": {
-        "created_at": "2024-08-15 10:06:17",
+        "created_at": "2024-08-29 08:00:17",
         "description": "安服集成化工具平台，帮助测试人员减少测试脚本多，使用繁琐问题",
-        "commit_message": "测试完毕",
-        "commit_date": "2024-08-20 14:53:40",
-        "release_date": "2024-08-15 10:27:08",
-        "release_message": "### 新增:\r\n\r\n- 目录扫描递归功能\r\n- 子域名暴破更改，具有查询、枚举、混合模式三种功能（查询模式借助Chao、Bevigil等API进行查询子域名）\r\n- 数据处理处增加IP定位识别功能\r\n- 企业信息查询可查询至多3级子公司\r\n- 互联网敏感信息采集，目前只实现github\r\n\r\n### 优化:\r\n\r\n- 数据处理界面优化\r\n- 更改漏扫详情的显示方式\r\n- 首页内容展示\r\n\r\n### 修复:\r\n\r\n- 由于参数判断错误导致，漏扫模块不可被选择\r\n\r\n### 其他\r\n\r\n- Github增加Actions打包实例\r\n"
+        "commit_message": "1",
+        "commit_date": "2024-08-30 00:01:42",
+        "release_date": "2024-08-29 08:10:57",
+        "release_message": "### 新增:\r\n- POC版本升级到0.0.7\r\n- 目录扫描增加字典扫描成功次数记录\r\n\r\n### 优化:\r\n- 互联网信息收集增加终止扫描功能，修复任务重新开启时，进度条与内容不重置的问题\r\n- 更新功能优化，目前不会移除已添加的POC文件，更新过程会出现在右下角\r\n\r\n### 修复:\r\n- Nuclei进程在启动中无法终止\r\n- 网站扫描部分目标无法通过正则匹配\r\n- 网站扫描指纹导出功能异常\r\n"
     },
     "https://github.com/horizon3ai/CVE-2023-27524": {
         "created_at": "2023-04-25 04:59:05",
@@ -26256,8 +26256,8 @@
     "https://github.com/X1r0z/JNDIMap": {
         "created_at": "2023-11-06 12:42:03",
         "description": "JNDI 注入利用工具, 支持 RMI, LDAP 和 LDAPS 协议, 包含多种高版本 JDK 绕过方式 | A JNDI injection exploit tool that supports RMI, LDAP and LDAPS protocols, including a variety of methods to bypass higher-version JDK",
-        "commit_message": "feat: 支持 LDAPS 协议\n\n1. 支持 LDAPS 协议\n2. 将 Custom 路由重命名为 Script",
-        "commit_date": "2024-08-21 11:18:51"
+        "commit_message": "fix: 修复 CommonsCollectionsK1 bug\n\n修复 CommonsCollectionsK1 ReverseShell 的一处 bug",
+        "commit_date": "2024-08-26 08:24:25"
     },
     "https://github.com/dzonerzy/goWAPT": {
         "created_at": "2017-12-05 19:32:43",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.77.204属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.38.35属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28754,8 +28754,8 @@
     "https://github.com/Mintplex-Labs/anything-llm": {
         "created_at": "2024-08-19 19:26:22",
         "description": "The all-in-one Desktop & Docker AI application with full RAG and AI Agent capabilities.",
-        "commit_message": "Add new Voyage AI embedding models (#2193)\n\nnew voyageai embedding models",
-        "commit_date": "2024-08-29 21:11:00",
+        "commit_message": "remove system setting cap on messages (use at own risk)",
+        "commit_date": "2024-08-30 22:21:01",
         "release_date": "2024-08-19 21:08:56",
         "release_message": "## What's Changed\r\n* Slash commands edit bug fix by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2073\r\n* Populate .env file using variable inside userdata script by @saravanan30erd in https://github.com/Mintplex-Labs/anything-llm/pull/2075\r\n* add exp model to v1Beta by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2082\r\n* #2084 Support Go filetype by @leaanthony in https://github.com/Mintplex-Labs/anything-llm/pull/2085\r\n* Update the display to show 95% of the width on small screens, else 635px by @MrSimonC in https://github.com/Mintplex-Labs/anything-llm/pull/2089\r\n* Fix depth handling in bulk link scraper by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2096\r\n* Finetune ui improvements by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2053\r\n* Improve search of document picker by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2097\r\n* Auto URL detection for localai by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2083\r\n* Add prompt window limits for gpt-4o-* models by @mPyKen in https://github.com/Mintplex-Labs/anything-llm/pull/2104\r\n* fix(Dockerfile): remove hardcoded exposed port by @kabaluyot in https://github.com/Mintplex-Labs/anything-llm/pull/2106\r\n* Encryption in JWT for single-user password mode by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2111\r\n* Fix TypeError by replacing this.openai.createChatCompletion with the correct function call by @shaharhi in https://github.com/Mintplex-Labs/anything-llm/pull/2117\r\n* Agent Context window + context window refactor. by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2126\r\n* Fix markdown styling for rendered images by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2125\r\n* Fix tooltip showing on both sides of file picker by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2124\r\n* Omit invalid `response.text` values and `prompts` by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2127\r\n* Fix multi-user setup bug for invalid username/password by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2130\r\n* Allow readable username passed in script widget by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2131\r\n* Support suggestions of messages for empty chat in widget by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2133\r\n* Added Hebrew language by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2143\r\n\r\n## New Contributors\r\n* @saravanan30erd made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2075\r\n* @leaanthony made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2085\r\n* @mPyKen made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2104\r\n* @kabaluyot made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2106\r\n* @shaharhi made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2117\r\n\r\n**Full Changelog**: https://github.com/Mintplex-Labs/anything-llm/compare/v1.2.0...v1.2.1\r\n\r\nDesktop Version Pin: v1.6.4"
     },
