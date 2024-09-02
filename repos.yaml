@@ -434,12 +434,20 @@
                 - https://github.com/AngelKitty/stegosaurus
                 - https://github.com/extremecoders-re/pyinstxtractor
                 - https://github.com/rocky/python-uncompyle6
+            python逆向:
+                - https://github.com/serfend/pydumpck
+            加壳:
+                - https://github.com/DosX-dev/UPX-Patcher
             安卓逆向:
                 - https://github.com/GrowthEase/GameSentry
                 - https://github.com/skylot/jadx
             查壳:
                 - https://github.com/horsicq/DIE-engine
         Web:
+            HASH长度扩展攻击:
+                - https://github.com/JoyChou93/md5-extension-attack
+                - https://github.com/Phantomn/HashPump
+                - https://github.com/iagox86/hash_extender
             定向目录扫描:
                 - https://github.com/OrangeWatermelon/ctf-wscan
         相关资源:
@@ -592,6 +600,8 @@
                     JBoss:
                         - https://github.com/joaomatosf/jexboss
                         - https://github.com/yunxu1/jboss-_CVE-2017-12149
+                    Jeecg:
+                        - https://github.com/K-7H7l/Jeecg_Tools
                     JeecgBoot:
                         - https://github.com/MInggongK/jeecg-
                     Jenkins:
@@ -604,6 +614,7 @@
                         - https://github.com/HKEcho5213/HKEcho_Nacos
                         - https://github.com/c0olw/NacosRce
                         - https://github.com/charonlight/NacosExploitGUI
+                        - https://github.com/h0ny/NacosExploit
                     SmartBI:
                         - https://github.com/yggo/SmartBIAttackTool
                     Spring Boot:
@@ -652,6 +663,8 @@
                         - https://github.com/jas502n/cve-2019-2618
                         - https://github.com/rabbitmask/WeblogicScanLot
                         - https://github.com/sp4zcmd/WeblogicExploit-GUI
+                    XXL-JOB:
+                        - https://github.com/charonlight/xxl-jobExploitGUI
                     YApi:
                         - https://github.com/Tas9er/YApiRCE
                     django:
@@ -803,6 +816,7 @@
                         - https://github.com/swisskyrepo/SSRFmap
                         - https://github.com/teknogeek/ssrf-sheriff
                     SSTI:
+                        - https://github.com/Marven11/Fenjing
                         - https://github.com/VikasVarshney/ssti-payload
                         - https://github.com/epinna/tplmap
                         - https://github.com/vladko312/SSTImap
@@ -1513,6 +1527,7 @@
                 - https://github.com/lcvvvv/kscan
                 - https://github.com/shadow1ng/fscan
             后渗透框架:
+                - https://github.com/Tomiwa-Ot/telegram-c2
                 - https://github.com/TryGOTry/CobaltStrike_Cat_4.5
                 - https://github.com/n1nj4sec/pupy
                 - https://github.com/rapid7/metasploit-framework
@@ -1655,6 +1670,7 @@
                 - https://github.com/kitabisa/mubeng
                 - https://github.com/pingc0y/go_proxy_pool
                 - https://github.com/safe6Sec/proxyServer
+                - https://github.com/thinkoaa/Deadpool
                 - https://github.com/z-bool/Venom-Transponder
             优秀项目集合:
                 - https://github.com/FiveAourThe/RedTeamTools
@@ -1728,6 +1744,7 @@
                         - https://github.com/nccgroup/LoggerPlusPlus
                         - https://github.com/outlaws-bai/Galaxy
                         - https://github.com/portswigger/http-request-smuggler
+                        - https://github.com/shuanx/BurpAPIFinder
                         - https://github.com/silentsignal/burp-requests
                         - https://github.com/smxiazi/NEW_xp_CAPTCHA
                         - https://github.com/smxiazi/xia_Liao
@@ -1943,6 +1960,7 @@
                 - https://github.com/zgjx6/SocialEngineeringDictionaryGenerator
             钓鱼辅助:
                 - https://github.com/A10ha/EmailSender
+                - https://github.com/Push3AX/USBAirborne
                 - https://github.com/gophish/gophish
                 - https://github.com/gyxuehu/EwoMail
                 - https://github.com/taielab/Taie-AutoPhishing
@@ -2123,6 +2141,7 @@
                         - https://github.com/frankthetank-music/Acropalypse-Multi-Tool
                     其他:
                         - https://github.com/ImageMagick/ImageMagick
+                        - https://github.com/x011/SecretPixel
                     盲水印:
                         - https://github.com/chishaxie/BlindWaterMark
                         - https://github.com/guofei9987/blind_watermark

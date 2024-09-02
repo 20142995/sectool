@@ -6,7 +6,7 @@ on:
   #     - main
   workflow_dispatch:
   schedule:
-    - cron: "00 04 * * *"
+    - cron: "00 04 * * 1"
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
