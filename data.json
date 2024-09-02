@@ -581,7 +581,7 @@
         "created_at": "2024-05-11 08:09:14",
         "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
         "commit_message": "update",
-        "commit_date": "2024-08-29 01:50:32",
+        "commit_date": "2024-08-29 07:12:30",
         "release_date": "2024-05-11 08:51:48",
         "release_message": "小更新，优化报错处理。避免部分扫描模块报错后导致的程序退出\r\nlinux(amd64)默认使用fscan\r\nwindows(x64)默认使用fscan.exe即可"
     },
@@ -3060,8 +3060,8 @@
     "https://github.com/projectdiscovery/nuclei": {
         "created_at": "2024-08-16 15:15:35",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
-        "commit_message": "skip dependabot prs (#5575)",
-        "commit_date": "2024-08-26 16:48:45",
+        "commit_message": "chore: fix some function names in comment (#5586)\n\nSigned-off-by: linchizhen <jiayanbing@yeah.net>",
+        "commit_date": "2024-09-01 08:41:01",
         "release_date": "2024-08-16 15:17:03",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### 🎉 New Features\r\n\r\n* Added `team-id` option to upload results to specific team workspace by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5523\r\n\r\n**Option**:\r\n```console\r\n   -tid, -team-id string  upload scan results to given team id (optional) (default \"none\")\r\n```\r\n\r\n**Example**:\r\n\r\n```\r\nnuclei -pt dns -u example.com -cloud-upload -team-id cqlmoalcm2sc73eut1b0\r\n```\r\n\r\n* Added redaction support in output file by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5463\r\n\r\n**Option**:\r\n\r\n```console\r\n   -rd, -redact string[]  redact given list of keys from query parameter, request header and body\r\n```\r\n**Example**:\r\n\r\n```\r\nnuclei -pt dns -u example.com -redact api_key,x-api-key,user-agent\r\n```\r\n\r\n* Added support for multiple auth strategies per target from secret file by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5500\r\n* Added support to generate matcher-status event for javascript protocol by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5450\r\n* Added workflows in SDK example by @alban-stourbe-wmx in https://github.com/projectdiscovery/nuclei/pull/5409\r\n* Added `skip-secret-file` template attribute to disable auth per template by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5522\r\n\r\n### 🐞 Bug Fixes\r\n* Fixed `FileAuthProvider` stores the same strategy for each entry by @mrschyte in https://github.com/projectdiscovery/nuclei/pull/5474\r\n* Fixed circular references in OpenAPI parsing(fuzzing) by @trypa11 in https://github.com/projectdiscovery/nuclei/pull/5491\r\n* Fixed file protocol missing vars in flow & multi-protocol by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5480\r\n* Fixed issue assign `customHeaders` to the map directly by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5445\r\n* Fixed issue with input transformation to multi-protocol templates by @mhmdiaa in https://github.com/projectdiscovery/nuclei/pull/5426\r\n* Fixed missing close statements `file.Close()` & `ticker.Stop()` by @ShuBo6 in https://github.com/projectdiscovery/nuclei/pull/5436\r\n* Fixed nil panic by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5473\r\n* Fixed server URL path for OpenAPI parsing by @trypa11 in https://github.com/projectdiscovery/nuclei/pull/5504\r\n* Fixed unresolved `interactsh-url` variable with fuzzing by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5289\r\n* Fixed unresolved variables error with dast templates by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5443\r\n\r\n### 🔨 Maintenance\r\n* ci: don't clean modules cache by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5519\r\n* ci: use composite actions by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5483\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/61?closed=1\r\n\r\n## New Contributors\r\n* @fudancoder made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5432\r\n* @ShuBo6 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5436\r\n* @Jarnpher553 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5419\r\n* @mhmdiaa made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5426\r\n* @alban-stourbe-wmx made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5409\r\n* @mrschyte made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5474\r\n* @trypa11 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5504\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.3.0...v3.3.1"
     },
@@ -3429,8 +3429,8 @@
     "https://github.com/yogeshojha/rengine": {
         "created_at": "2024-08-18 01:49:14",
         "description": "reNgine is an automated reconnaissance framework for web applications with a focus on highly configurable streamlined recon process via Engines, recon data correlation and organization, continuous monitoring, backed by a database, and simple yet intuitive User Interface. reNgine makes it easy for penetration testers to gather reconnaissance with minimal configuration and with the help of reNgine's correlation, it just makes recon effortless.",
-        "commit_message": "Merge pull request #1390 from SJ029626/celery-reentry-fix\n\nUpdate celery-entrypoint.sh",
-        "commit_date": "2024-08-27 00:12:45",
+        "commit_message": "Merge pull request #1403 from yogeshojha/minor_change\n\nfix author name",
+        "commit_date": "2024-08-31 08:34:39",
         "release_date": "2024-08-18 01:50:26",
         "release_message": "## What's Changed\r\n\r\n### Security Update\r\n\r\n* (Security) CVE-2024-41661 Stored Cross-Site Scripting (XSS) via DNS Record Poisoning reported by @touhidshaikh Advisory https://github.com/yogeshojha/rengine/security/advisories/GHSA-96q4-fj2m-jqf7\r\n\r\n### Bug Fixes\r\n\r\n* remove redundant docker environment variables by @jxdv in https://github.com/yogeshojha/rengine/pull/1353\r\n* fix: reNgine installation issue due to orjson and langchain #1362 by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1363\r\n* #1364 FIx whois lookup and improve performance by executing various modules of whois lookup to run concurrently by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1368\r\n* chores: Add error handling for the curl command by @gitworkflows in https://github.com/yogeshojha/rengine/pull/1367\r\n* Update Github Actions Workflows by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1369\r\n* chores: Fix docker build on master by @yogeshojha in https://github.com/yogeshojha/rengine/pull/1373\r\n\r\n### New Contributors\r\n* @gitworkflows made their first contribution in https://github.com/yogeshojha/rengine/pull/1367\r\n\r\n**Full Changelog**: https://github.com/yogeshojha/rengine/compare/v2.1.2...v2.1.3\r\n"
     },
@@ -4219,7 +4219,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-09-01 20:22:25"
+        "commit_date": "2024-09-02 01:43:31"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -4555,8 +4555,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2024-06-05 10:43:58",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_message": "Merge pull request #487 from pengjianzhang/main\n\nsupport multi processes",
-        "commit_date": "2024-08-23 01:04:46",
+        "commit_message": "Merge pull request #488 from pengjianzhang/main\n\nfix: 8bytes align",
+        "commit_date": "2024-08-29 08:17:32",
         "release_date": "2024-06-05 10:58:44",
         "release_message": "## v1.7.0 - 2024-06-06\r\n\r\nAfter more than six months, the 1.7.0 version has finally been released. [Pengfei Zhang](https://github.com/zhangpengfei-xyz) contributed many features to this version. Thank you, Pengfei Zhang, for making dperf more powerful. We welcome more developers to join us and make dperf even better.\r\n\r\n### Added\r\n\r\n- send http post requests\r\n\r\n- dpdk pdump\r\n\r\n    thanks ZhangPengfei\r\n\r\n- fast_close: use RST to close connections\r\n\r\n- support DPDK-23.11 and DPDK-24\r\n\r\n- enable simd512\r\n\r\n- disable ack\r\n\r\n- configure retransmit timeout\r\n\r\n### Changed\r\n\r\n- config DPDK log level\r\n\r\n- clear_screen: dperf can clear screen output and make the screen cleaner\r\n\r\n- static linking\r\n\r\n    thanks ZhangPengfei\r\n\r\n### Fixed\r\n\r\n- dpdk cleanup\r\n\r\n    thanks ZhangPengfei\r\n\r\n- CFLAGS override\r\n\r\n    thanks ZhangPengfei\r\n\r\n- missspell\r\n\r\n    thanks ZhangPengfei\r\n\r\n- don't clear sequences in time-wait state"
     },
@@ -6463,8 +6463,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: XTranslation 2024-08-25",
-        "commit_date": "2024-08-24 22:56:02",
+        "commit_message": "Update module: Detect-It-Easy 2024-09-02",
+        "commit_date": "2024-09-01 23:21:53",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -24229,11 +24229,11 @@
         "release_message": "🎉🎉🎉"
     },
     "https://github.com/jeremylong/DependencyCheck": {
-        "created_at": "2024-07-16 10:39:46",
+        "created_at": "2024-09-01 11:39:49",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "fix(site): Update Fluido skin to resolve broken fork-me-on-github image (#6914)",
-        "commit_date": "2024-08-24 11:13:11",
-        "release_date": "2024-07-16 11:14:16",
+        "commit_message": "build: release 10.0.4 (#6939)",
+        "commit_date": "2024-09-01 11:52:50",
+        "release_date": "2024-09-01 12:14:16",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
     "https://github.com/mrknow001/API-Explorer": {
@@ -25194,8 +25194,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 200,
-        "description": "Practical Cryptography"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -25832,8 +25832,8 @@
     "https://github.com/securego/gosec": {
         "created_at": "2024-05-14 13:36:59",
         "description": "Go security checker",
-        "commit_message": "Add a build step to measure the scan perfomance\n\nThis step will measure the scan performance difference against the\nmaster version.\n\nChange-Id: I1b9196ef3348350cf818471f55d9024d14064ac6\nSigned-off-by: Cosmin Cojocar <ccojocar@google.com>",
-        "commit_date": "2024-08-26 17:08:32",
+        "commit_message": "Make variable name more clear\n\nChange-Id: I5b863c0da6cc3d01efa527c60c93fdcbc8c5a53c\nSigned-off-by: Cosmin Cojocar <ccojocar@google.com>",
+        "commit_date": "2024-08-30 17:35:07",
         "release_date": "2024-05-14 13:42:29",
         "release_message": "## Changelog\n* 6fbd381 Catch os.ModePerm permissions in os.WriteFile\n* dc5e5a9 Add a unit test to detect the false negative in rule G306 for os.ModePerm permissions\n* 417a44c Add filepath.EvalSymlinks to clean functions in rule G304\n* d34f8b7 chore(deps): update all dependencies\n* 8658b8e Update Go to version 2.22.3 in CI and release\n* d3b2359 chore(deps): update module golang.org/x/text to v0.15.0\n* cf29d54 chore(deps): update all dependencies\n* 09d62bd chore(deps): update module github.com/onsi/gomega to v1.33.0\n* 3b23ec8 Update to go 1.22.2\n* 31009c3 chore(deps): update all dependencies\n* daf6f67 chore(deps): update module github.com/onsi/ginkgo/v2 to v2.17.1\n* e27f442 chore(deps): update all dependencies\n* 5513615 fix(helpers/goversion): get from go.mod\n* 43b8b75 chore: fix function name\n* accd7a1 chore(deps): update all dependencies\n* 48aa72e Format the imports using the gci tool\n* b6df69c Fixup: delete unused variable\n* ccb0a08 Fix test: update test to comply with the spec of generated sources\n* 3a0ea51 Refactor: use standard function to check if a file is generated\n* 11c3252 Fix lint warnings\n* be378e6 Add support for math/rand/v2 added in Go 1.22\n* 36878a9 Skip the G601 tests for Go version 1.22\n* 903c75b Update go version to 1.22.1 and 1.21.8\n* f25ccd9 Ignore 'implicit memory aliasing' rule for Go 1.22+\n* 582e91a chore(deps): update all dependencies\n* 198a40c chore(deps): update module golang.org/x/tools to v0.18.0\n* c824a5d fix(hardcoded): remove duplicated `Stripe API Key`\n* d13d7da Update gosec version to v2.19.0 in the Github action\n\n"
     },
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.109.38.35属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.88.99.132属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27784,8 +27784,8 @@
     "https://github.com/T4y1oR/RingQ": {
         "created_at": "2024-05-11 09:26:22",
         "description": "一款后渗透免杀工具，助力每一位像我这样的脚本小子快速实现免杀，支持bypass AV/EDR 360 火绒 Windows Defender Shellcode Loader",
-        "commit_message": "Update 20240828",
-        "commit_date": "2024-08-28 02:44:03",
+        "commit_message": "Update 20240901",
+        "commit_date": "2024-09-01 06:25:58",
         "release_date": "2024-05-11 09:27:43",
         "release_message": "**具体使用方法 参考README.md**\r\n\r\n**[已开源](https://github.com/T4y1oR/RingQ/tree/main/RingQ)，放心食用，Releases编译后的RingQ.exe是经过bypass QVM202的  ~~帮助懒惰的脚本小子~~**  \r\n\r\n**如不放心可自行编译使用[QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250)即可**"
     },
@@ -28970,12 +28970,12 @@
         "commit_date": "2024-06-13 02:24:03"
     },
     "https://github.com/outlaws-bai/Galaxy": {
-        "created_at": "2024-08-16 08:58:49",
+        "created_at": "2024-08-30 18:17:30",
         "description": "Burp插件，自动解密被加密的报文，让你像测试明文一样简单。A Burp plugin that automatically decrypts encrypted messages, making it as simple as testing plaintext.",
-        "commit_message": "fix bug",
-        "commit_date": "2024-08-27 10:38:05",
-        "release_date": "2024-08-16 09:07:14",
-        "release_message": "## 功能更新\r\n\r\n1. **完成与被动代理扫描器、sqlmap等工具的联动功能**\r\n2. UI优化，部分配置改为可在setting模块管理\r\n3. 增加一些常用的右键\r\n4. 在Repeater请求编辑器右键加解密请求时改为修改当前请求\r\n5. 移除无用的hook request按钮\r\n6. 通过右键加解密失败时改为抛出异常\r\n\r\n## 问题修复\r\n\r\n1. 修复当使用汉化Burp时，Http Hook启动后无法停止的问题\r\n\r\n## 注意事项\r\n\r\n如果你下载或打包后的jar包含 without-jython 字样，请在Burp的Java environment(Settings -> Extensions)配置一个文件夹，并将 jython-standalone-xxx.jar 放在该文件夹。[Download](https://www.jython.org/download)"
+        "commit_message": "fix",
+        "commit_date": "2024-08-30 18:59:26",
+        "release_date": "2024-08-30 18:25:45",
+        "release_message": "## 功能更新\r\n\r\n1. 优化sm2加解密函数，支持传入原始公私钥\r\n2. 加解密工具类增加对C4算法\r\n3. 解除必须使用jdk启动的限制，但如果不用jdk，httphook-js，httphook-java将不能使用\r\n4. 增加一些与sqlmap及被动代理扫描器联动的右键\r\n5. 修改常规情况、联动sqlmap、联动被动代理扫描器时的标记头为不同的\r\n6. UI更新\r\n## 问题修复\r\n\r\n...\r\n## 注意事项\r\n如果你下载或打包后的jar包含 without-jython 字样，请在Burp的Java environment(Settings -> Extensions)配置一个文件夹，并将 jython-standalone-xxx.jar 放在该文件夹。[Download](https://www.jython.org/download)"
     },
     "https://github.com/Fheidt12/Windows_Memory_Search": {
         "created_at": "2024-08-14 07:16:37",
@@ -29036,5 +29036,27 @@
         "commit_date": "2024-04-29 01:00:39",
         "release_date": "2024-04-28 14:44:30",
         "release_message": "## 用法\r\n增加Maximum segment size，时间戳值为：`1460`。\r\n* Kind: Maximum Segment Size (2)\r\n* Length: 4\r\n* MSS Value: 1460\r\n\r\n字节内容即为`020405b4`，其中`02`表示Kind，`04`表示Length，`05b4`表示MSS Value。\r\n\r\n\r\n```shell\r\nsudo ./muou t -b 020405b4\r\n```"
+    },
+    "https://github.com/serfend/pydumpck": {
+        "created_at": "2024-05-19 01:40:13",
+        "description": "a multi-threads tool for decompile exe,elf,pyz,pyc packed by python which is base on pycdc and uncompyle6.",
+        "commit_message": "fix[ver]ver-checker",
+        "commit_date": "2024-05-19 01:40:13",
+        "release_date": "2024-05-19 01:43:28",
+        "release_message": ""
+    },
+    "https://github.com/x011/SecretPixel": {
+        "created_at": "2024-02-04 00:39:18",
+        "description": "SecretPixel is a cutting-edge steganography tool designed to securely conceal sensitive information within images. It stands out in the realm of digital steganography by combining advanced encryption, compression, and a seeded Least Significant Bit (LSB) technique to provide a robust solution for embedding data undetectably.",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-03-04 10:03:20"
+    },
+    "https://github.com/shuanx/BurpAPIFinder": {
+        "created_at": "2024-05-29 10:10:31",
+        "description": "攻防演练过程中，我们通常会用浏览器访问一些资产，但很多未授权/敏感信息/越权隐匿在已访问接口过html、JS文件等，该插件能让我们发现未授权/敏感信息/越权/登陆接口等。",
+        "commit_message": "update",
+        "commit_date": "2024-08-22 03:29:23",
+        "release_date": "2024-05-30 00:16:40",
+        "release_message": "## 说明: jar包二选一下载加载即可\r\nBurpAPIFinder-high-v2.0.2.jar为高性能版本：对大js会提取前500w出来作识别\r\nBurpAPIFinder-lower-v2.0.2.jar为普通性能版本：对大js会提取前50w出来作识别\r\n\r\n## BurpAPIFinder v2.0.1\r\n- [x] 优化从JS中提取url路径，方式一：从单双引号中提取出包含/的路径\r\n- [ ]  优化从JS中提取url路径，方式二：优化提取js中concat的场景，补全父路径\r\n- [x] 优化从JS中提取url路径，方式三：针对404场景，通过匹配已经访问过的路径，来寻找对应的父路径\r\n- [x] 匹配内容标高亮显示，有价值标蓝色，敏感信息标红色\r\n- [x] 前端展示js提取出来的url结果\r\n- [x] 新增右键\"提取url\"功能，支持对某一个具体路径提取出url出来 \r\n- [x] 新建右键\"自定义凭证\"，支持对URL下返回状态码3xx且重要无敏感指纹场景的补充上自定义凭证进行识别\r\n- [x] 新增右键\"自定义路径扫描\", 支持该URL对下面目录进行扫描且支持自定义凭证扫描 \r\n- [x] 新增右键\"用户自定义父路径\"， 支持该URL下返回状态码3xx或4xx且无敏感指纹场景的补充上自定义父路径后进行识别\r\n- [x] 新增右键\"复制\"，快速对PATH复制 \r\n- [x] 优化结果输出，默认输出匹配到末尾40个字符出来 \r\n\r\n\r\n## BurpAPIFinder v1.8\r\n- [x] 优化从JS中提取url路径，方式一：从单双引号中提取出包含/的路径\r\n\r\n## BurpAPIFinder v1.7\r\n- [x] 新增右键“删除”功能\r\n- [x] 新增配置栏白名单后缀、白名单域名、白名单路径功能\r\n- [x] 新增配置文件栏的区分精准度的按钮 \r\n\r\n## BurpAPIFinder v1.6\r\n- [x] 将js爬取放入后台进行\r\n- [x] 优化前端展示\r\n\r\n## BurpAPIFinder v1.5\r\n- [x] 优化BUG\r\n- [x] 添加右键“误报\"功能\r\n\r\n## BurpAPIFinder v1.4\r\n- [x] 使用sqlite存储过程数据，减少内存开销\r\n\r\n## BurpAPIFinder v1.3\r\n- [x] 集成HaE、APIKit、sweetPotato敏感信息指纹库\r\n\r\n## BurpAPIFinder v1.2\r\n- [x] 新增敏感数据识别指纹-身份证、手机号码、密码、用户名、云KEY\r\n\r\n## BurpAPIFinder v1.1\r\n- [x] 支持前段自定义配置重要指纹库\r\n- [x] 支持检索\r\n- [x] 区分快捷检索，支持重点、只看status为200、只看敏感内容、只看敏感路径\r\n- [x] 支持开关按钮\r\n- [x] 新增敏感数据识别指纹\r\n\r\n## BurpAPIFinder v1.0\r\n- [x] 集成从html、JS中提取URL功能\r\n- [x] 美化前端界面\r\n"
     }
 }
