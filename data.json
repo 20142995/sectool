@@ -5960,12 +5960,12 @@
         "release_message": "玩得开心师傅们，有新的需求或者问题请在issue中反馈。"
     },
     "https://github.com/zema1/suo5": {
-        "created_at": "2024-04-28 11:07:36",
+        "created_at": "2024-08-27 15:41:15",
         "description": "一款高性能 HTTP 代理隧道工具 | A high-performance http proxy tunneling tool",
-        "commit_message": "fix: invalid header when ',' is in header value (#64)\n\nissue: #63",
-        "commit_date": "2024-07-17 04:51:40",
-        "release_date": "2024-04-30 12:02:01",
-        "release_message": "Server 端从这里获取 https://github.com/zema1/suo5/tree/v1.2.0/assets ，不同版本的 Server 端请不要混用，否则会有不兼容连不上的问题\r\n\r\n> 带 gui 的版本是界面版，不带 gui 的为命令行版\r\n> 所有编译由 Github Action 自动构建并自动上传，请放心使用\r\n\r\n### 修复\r\n\r\n- 修复部分网站 `TLS` 连接失败的问题  #55 \r\n- 更新部分依赖至最新版"
+        "commit_message": "feat: opt import config",
+        "commit_date": "2024-08-28 05:24:25",
+        "release_date": "2024-08-27 15:52:58",
+        "release_message": "Server 端从这里获取 https://github.com/zema1/suo5/tree/v1.3.0/assets ，不同版本的 Server 端请不要混用，否则会有不兼容连不上的问题\r\n\r\n> 带 gui 的版本是界面版，不带 gui 的为命令行版\r\n> 所有编译由 Github Action 自动构建并自动上传，请放心使用\r\n\r\n### 新增\r\n\r\n- 增加实验性的 PHP 支持，使用之前请务必认真阅读文档\r\n- 增加配置文件支持，支持导入导出配置文件来做配置复用\r\n- 支持配置域名/IP的过滤规则，支持 Glob 通配符, 如 `*.example.com`\r\n- 默认启用 `cookiejar`，如有问题请手动禁用\r\n- 适当调整 GUI 版的界面布局，更加紧凑和聚焦\r\n\r\n### 修复\r\n\r\n- 修复 `weblogic` 等中间件内网转发失败问题\r\n- 修复 Windows7 下客户端无法使用的问题\r\n- 修复 `Suo5WebFlux` 拼写错误\r\n- 去除部分无用的默认 Header\r\n\r\n### 变更\r\n\r\n- 测试失败时，将会直接认为连接不成功，而不是保持监听"
     },
     "https://github.com/baogod404/HikvisionDecode": {
         "created_at": "2023-07-04 10:11:00",
@@ -10488,8 +10488,8 @@
     "https://github.com/BishopFox/sliver": {
         "created_at": "2024-02-28 19:43:18",
         "description": "Adversary Emulation Framework",
-        "commit_message": "Merge pull request #1740 from BishopFox/e942dependabot/go_modules/golang.org/x/crypto-0.25.0\n\nBump golang.org/x/crypto from 0.24.0 to 0.25.0",
-        "commit_date": "2024-07-31 20:21:13",
+        "commit_message": "Merge pull request #1765 from BishopFox/go/v1.22.5\n\nGo 1.22.5, Zig 0.13.0",
+        "commit_date": "2024-08-23 18:47:48",
         "release_date": "2024-02-28 20:00:27",
         "release_message": "Fix for DNS C2, and other small backports. Hoping to have a v1.6 release soon with many more updates!"
     },
@@ -19938,8 +19938,8 @@
         "release_tag": "v1.4.7",
         "release_date": "2024-04-20 18:47:46",
         "release_message": "### Main features\r\n\r\n- Added support for:\r\n  - Scripting, uses Kotlin, check [short guide](https://github.com/skylot/jadx/wiki/Jadx-scripts-guide)\r\n  - External plugins, [guide](https://github.com/skylot/jadx/wiki/Jadx-plugins-guide)\r\n  Both features in preview state, API is stable but limited (especially in UI customizations)\r\n- Jadx GUI:\r\n  - Improved code cache, allow use common directory, view/delete exist caches in preferences\r\n  - jadx-gui configuration moved into plain json files in system config directory\r\n  - Allow to set custom shortcuts\r\n  - Tabs drag and drop reorder support\r\n  - Hex-viewer for binary asset files\r\n  - Add 'go to main activity' action\r\n- Other:\r\n  - Java 11+ is required now\r\n  - Parse and use Kotlin metadata for renames\r\n  - Add support for XApk files\r\n  - Allow to move class to another package\r\n  - Support jsr/ret opcodes (java-input) \r\n- A lot of bug fixes ... and regressions :rofl:\r\n\r\n**Full Changelog**: https://github.com/skylot/jadx/compare/v1.4.7...v1.5.0\r\n\r\n### Download files:\r\n- [jadx-gui-1.5.0-with-jre-win.zip](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-gui-1.5.0-with-jre-win.zip) - jadx-gui with bundled JRE\r\n- [jadx-gui-1.5.0-no-jre-win.exe](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-gui-1.5.0-no-jre-win.exe) - jadx-gui single exe (system JRE must be installed)\r\n- [jadx-1.5.0.zip](https://github.com/skylot/jadx/releases/download/v1.5.0/jadx-1.5.0.zip) - cross-platform cli and gui bundle (system JRE must be installed)\r\n\r\nFor system JRE the latest version is always preferred, Java 11+ is required, download at [oracle.com](https://www.oracle.com/java/technologies/downloads/#jdk21-windows)\r\n",
-        "commit_date": "2024-08-01 20:45:52",
-        "commit_message": "fix: improve checking if methods are inline for FixAccessModifiers (PR #2235)"
+        "commit_date": "2024-09-01 22:02:22",
+        "commit_message": "fix: improve 'continue' insertion for switch in loop (#2249)"
     },
     "https://github.com/bluefrostsecurity/CVE-2019-1215": {
         "created_at": "2020-01-06 22:34:16",
@@ -25194,8 +25194,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.88.99.132属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.91.48属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27864,12 +27864,12 @@
         "release_message": "## 油猴商店安装更新 \r\n\r\nhttps://greasyfork.org/zh-CN/scripts/419781-js-cookie-monitor-debugger-hook\r\n\r\n## What's Changed\r\n* format add setting menu by @codehz in https://github.com/JSREI/js-cookie-monitor-debugger-hook/pull/10 （当前版本为bug修复，这个pr会在下一个大版本时v1.0时发布）\r\n* fix #13 \r\n\r\n## New Contributors\r\n* @codehz made their first contribution in https://github.com/JSREI/js-cookie-monitor-debugger-hook/pull/10\r\n\r\n**Full Changelog**: https://github.com/JSREI/js-cookie-monitor-debugger-hook/compare/v0.10...v0.11"
     },
     "https://github.com/CuriousLearnerDev/Online_tools": {
-        "created_at": "2024-07-19 14:27:39",
+        "created_at": "2024-08-09 08:12:40",
         "description": "该工具是一个集成了非常多渗透测试工具，类似软件商城的工具可以进行工具下载，工具的更新，工具编写了自动化的安装脚本，不用担心工具跑不起来。",
-        "commit_message": "0.7.0",
-        "commit_date": "2024-07-19 15:10:16",
-        "release_date": "2024-07-19 14:39:33",
-        "release_message": "## 1、不在提供破解工具！\r\n\r\n不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载，不在提供破解工具下载\r\n\r\n## 2、右键工具\r\n\r\n之前我是把全部功能都放到了菜单栏上面会很乱\r\n\r\n下载我们可以右键，如下\r\n\r\n**1、放到下载好的工具上右键**\r\n\r\n**2、右键没有下载的工具**\r\n\r\n## 3、服务端自动化监控工具更新\r\n\r\n之前工具更新基本上都是手动更加工具很繁琐很麻烦，在服务器上写了一个自动化更新推荐的功能\r\n\r\n## 4、工具插件下载功能（比如burp插件，目前维护较少）\r\n\r\n## 5、认证下载和自定义链接下载\r\n\r\n因为下载链接滥用问题，后面全部需要购买认证下载才可以下载。如果不认证你也可以自己提供下载链接放上去\r\n\r\n全部的工具下载配置文件在storage/toollist.json文件里面\r\n\r\n## 6、去除打开显示cmd窗口\r\n\r\n之前添加这个启动cmd显示是为了显示日志，下载把日志保存起来了\r\n\r\n## 7、应急工作上传服务器功能\r\n\r\n这个功能是为了linux应急使用的，然后可以右键后面带有linux的字的工具右键\r\n## 8、更新工具列表\r\n\r\n## 9、解压问题系统版本问题\r\n\r\n上个版本有一个大问题就是，解压问题大部分基本上都是这个问题导致安装失败，从代码里面使用的是tar命令，大部分系统是带这个命令的，但是可能有的服务器系统是没有这个命令导致安装失败，这个版本里面叫7z程序放到代码里面了不会出现解压不了安装失败的问题了\r\n"
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-14 07:31:06",
+        "release_date": "2024-08-10 13:25:22",
+        "release_message": "- 增加搜索功能"
     },
     "https://github.com/agienka/blindy": {
         "created_at": "2017-04-10 13:59:25",
@@ -27976,7 +27976,7 @@
         "release_message": ""
     },
     "https://github.com/xnl-h4ck3r/GAP-Burp-Extension": {
-        "created_at": "2021-05-20 21:41:13",
+        "created_at": "2024-07-14 20:37:39",
         "description": "Burp Extension to find potential endpoints, parameters, and generate a custom target wordlist",
         "commit_message": "v5.4 - see CHANGELOG.md",
         "commit_date": "2024-07-14 21:39:17",
@@ -29058,5 +29058,19 @@
         "commit_date": "2024-08-22 03:29:23",
         "release_date": "2024-05-30 00:16:40",
         "release_message": "## 说明: jar包二选一下载加载即可\r\nBurpAPIFinder-high-v2.0.2.jar为高性能版本：对大js会提取前500w出来作识别\r\nBurpAPIFinder-lower-v2.0.2.jar为普通性能版本：对大js会提取前50w出来作识别\r\n\r\n## BurpAPIFinder v2.0.1\r\n- [x] 优化从JS中提取url路径，方式一：从单双引号中提取出包含/的路径\r\n- [ ]  优化从JS中提取url路径，方式二：优化提取js中concat的场景，补全父路径\r\n- [x] 优化从JS中提取url路径，方式三：针对404场景，通过匹配已经访问过的路径，来寻找对应的父路径\r\n- [x] 匹配内容标高亮显示，有价值标蓝色，敏感信息标红色\r\n- [x] 前端展示js提取出来的url结果\r\n- [x] 新增右键\"提取url\"功能，支持对某一个具体路径提取出url出来 \r\n- [x] 新建右键\"自定义凭证\"，支持对URL下返回状态码3xx且重要无敏感指纹场景的补充上自定义凭证进行识别\r\n- [x] 新增右键\"自定义路径扫描\", 支持该URL对下面目录进行扫描且支持自定义凭证扫描 \r\n- [x] 新增右键\"用户自定义父路径\"， 支持该URL下返回状态码3xx或4xx且无敏感指纹场景的补充上自定义父路径后进行识别\r\n- [x] 新增右键\"复制\"，快速对PATH复制 \r\n- [x] 优化结果输出，默认输出匹配到末尾40个字符出来 \r\n\r\n\r\n## BurpAPIFinder v1.8\r\n- [x] 优化从JS中提取url路径，方式一：从单双引号中提取出包含/的路径\r\n\r\n## BurpAPIFinder v1.7\r\n- [x] 新增右键“删除”功能\r\n- [x] 新增配置栏白名单后缀、白名单域名、白名单路径功能\r\n- [x] 新增配置文件栏的区分精准度的按钮 \r\n\r\n## BurpAPIFinder v1.6\r\n- [x] 将js爬取放入后台进行\r\n- [x] 优化前端展示\r\n\r\n## BurpAPIFinder v1.5\r\n- [x] 优化BUG\r\n- [x] 添加右键“误报\"功能\r\n\r\n## BurpAPIFinder v1.4\r\n- [x] 使用sqlite存储过程数据，减少内存开销\r\n\r\n## BurpAPIFinder v1.3\r\n- [x] 集成HaE、APIKit、sweetPotato敏感信息指纹库\r\n\r\n## BurpAPIFinder v1.2\r\n- [x] 新增敏感数据识别指纹-身份证、手机号码、密码、用户名、云KEY\r\n\r\n## BurpAPIFinder v1.1\r\n- [x] 支持前段自定义配置重要指纹库\r\n- [x] 支持检索\r\n- [x] 区分快捷检索，支持重点、只看status为200、只看敏感内容、只看敏感路径\r\n- [x] 支持开关按钮\r\n- [x] 新增敏感数据识别指纹\r\n\r\n## BurpAPIFinder v1.0\r\n- [x] 集成从html、JS中提取URL功能\r\n- [x] 美化前端界面\r\n"
+    },
+    "https://github.com/Tomiwa-Ot/telegram-c2": {
+        "created_at": "2023-11-05 22:20:18",
+        "description": "Control a system remotely via telegram",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-11-11 20:51:05",
+        "release_date": "2023-11-05 22:22:27",
+        "release_message": "### Features\r\n- View files\r\n- List directories\r\n- Download files\r\n- Upload files\r\n- Screenshot\r\n- Webcam\r\n- Video\r\n- List running services\r\n- Execute system commands"
+    },
+    "https://github.com/h0ny/NacosExploit": {
+        "created_at": "2024-02-25 11:58:04",
+        "description": "Nacos 综合利用工具",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-19 09:34:20"
     }
 }
