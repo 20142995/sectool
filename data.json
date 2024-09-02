@@ -2122,7 +2122,7 @@
     "https://github.com/wyzxxz/jndi_tool": {
         "created_at": "2019-09-20 08:22:10",
         "description": "JNDI服务利用工具 RMI/LDAP，支持部分场景回显、内存shell，高版本JDK场景下利用等，fastjson rce命令执行，log4j rce命令执行 漏洞检测辅助工具",
-        "commit_date": "2022-08-17 09:34:47",
+        "commit_date": "2024-05-21 02:56:31",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.81.159.68属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "40.71.163.79属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
