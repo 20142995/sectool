@@ -1869,7 +1869,7 @@
         "release_message": "### Update\r\n\r\n- 增加ElasticSearch数据同步和查询（测试中）\r\n- 更新Minichat前端UI；可配置参数是否允许匿名使用。\r\n- 更新Httpx至1.6.6。"
     },
     "https://github.com/yuyan-sec/RedisEXP": {
-        "created_at": "2024-08-14 01:21:17",
+        "created_at": "2022-03-19 14:41:00",
         "description": "Redis 漏洞利用工具",
         "commit_date": "2024-08-14 01:21:17",
         "commit_message": "update",
@@ -1878,12 +1878,12 @@
         "release_message": "`stop-writes-on-bgsave-error` 默认为 `yes`, 如果 Redis 开启了 RDB 持久化并且最后一次失败了，Redis 默认会停止写入，让用户意识到数据的持久化没有正常工作。临时的解决方案是 `conf set stop-writes-on-bgsave-error` 设置为 no，只是让程序暂时忽略了这个问题，但是数据的持久化的问题并没有。（工具会默认设置为 `no` ，等工具退出的时候再重新设置回原来的值`yes`，不要使用 -m cli 来执行 bgsave 因为cli没设置 `stop-writes-on-bgsave-error` ，直接使用 -m bgsave）\r\n\r\n```\r\nconfig set stop-writes-on-bgsave-error no\r\n```\r\n\r\n"
     },
     "https://github.com/hiroi-sora/Umi-OCR": {
-        "created_at": "2024-07-23 17:38:36",
+        "created_at": "2024-08-31 09:35:46",
         "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-        "commit_message": "update version 2.1.4",
-        "commit_date": "2024-08-28 15:42:37",
-        "release_date": "2024-07-23 17:40:09",
-        "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.3?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.3 主要更新：\r\n\r\n- 新推出 Linux (Debian) 平台版本。\r\n- 支持：[Docker 部署](https://github.com/hiroi-sora/Umi-OCR_runtime_linux/blob/main/README-docker.md) 。\r\n- 新增：HTTP 文档识别接口。👉 [文档](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/http/api_doc.md#/api/doc)\r\n- 修复：文档中宽高为0的异常图片会导致任务卡住。\r\n\r\nbate.1 版本之后的更新：\r\n- 修复：HTTP文档识别接口上传的文件名含非ascii字符时，该字符可被保留。\r\n- 优化：HTTP文档识别接口的 [Python示例](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/http/api_doc_demo.py) 和 [Html示例](https://github.com/hiroi-sora/Umi-OCR/blob/main/docs/http/api_doc_demo.html) 代码。\r\n- 优化：排版解析的 **单栏-单行** 方案，对于间隔较大的两个相邻文本块，会添加空格作为间隔符。\r\n\r\n#### Windows7 和 Linux 用户注意： [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447)\r\n\r\n---\r\n\r\n## Windows 下载\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致，附带多国语言识别库。`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.3.7z.exe** （134MB）\r\nSHA256: `27f5eb5097ba8fe95bf8247cb186c9c8518f6c8268b4f5d828e2e80b9e40be34`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.3.7z.exe** （97MB）\r\nSHA256: `de945941f785b9bbf6c7c5d82a5736c9b14a777d3503966c5ea110ac21ebc816`\r\n\r\n## Linux 下载\r\n\r\n**Umi-OCR_Debian_x64_Paddle_2.1.3.tar.xz** （273MB）\r\nSHA256: `6d9596eaf482d4a37452bf8e960586fc66605d9c96047927270128a0a3a416fd`\r\n\r\n此发行版在 `Ubuntu 22.04` / `Debian 12.5` / `Kali 2023.3` 桌面环境中通过测试。由于 Linux 平台的多样化，发行版不一定能在所有环境中正常运行。如果遇到问题，可参考 [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447) ，或根据报错安装缺失的依赖库。欢迎提 Issue 共同讨论解决方法。有能力的用户可尝试 [从源码部署 Umi-OCR](https://github.com/hiroi-sora/Umi-OCR_runtime_linux) ，以得到最好的兼容性。\r\n\r\n首次运行请在命令行中执行 `./umi-ocr.sh` ，随后可在全局设置中创建桌面/开始菜单快捷方式，便于日常使用。\r\n\r\n## 鸣谢\r\n\r\n- @Gavin1937 为 [PaddleOCR-json引擎](https://github.com/Gavin1937/PaddleOCR-json) 兼容 Linux 做出的大量贡献。\r\n\r\n---\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.3/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr) | [Docker 部署](https://github.com/hiroi-sora/Umi-OCR_runtime_linux/blob/main/README-docker.md)\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.3/)"
+        "commit_message": "Translations update from Hosted Weblate (#645)\n\n* Added translation using Weblate (Russian)\r\n\r\n* Translated using Weblate (Russian)\r\n\r\nCurrently translated at 99.7% (449 of 450 strings)\r\n\r\nTranslation: Umi-OCR/UI\r\nTranslate-URL: https://hosted.weblate.org/projects/umi-ocr/ui/ru/\r\n\r\n* Translated using Weblate (Russian)\r\n\r\nCurrently translated at 99.7% (449 of 450 strings)\r\n\r\nTranslation: Umi-OCR/UI\r\nTranslate-URL: https://hosted.weblate.org/projects/umi-ocr/ui/ru/\r\n\r\n---------\r\n\r\nCo-authored-by: Вячеслав Анатольевич Малышев <ma12@rambler.ru>",
+        "commit_date": "2024-09-02 06:15:32",
+        "release_date": "2024-08-31 09:39:09",
+        "release_message": "[English](https://github-com.translate.goog/hiroi-sora/Umi-OCR/releases/tag/v2.1.4?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)\r\n\r\n## v2.1.4 主要更新：\r\n- 修复：引擎原始输出项的\"text\"为空时，导致文本分析越界的错误。 (#625)\r\n- 新增UI语言：葡萄牙语 `Português` 。译者：[@杨鹏](https://hosted.weblate.org/user/ypf)\r\n- **PaddleOCR 插件相关**：\r\n  - 修复：布尔类型选项不生效的问题。\r\n  - 修复： `繁体中文` 配置文件错误的问题。\r\n  - 优化：调整默认线程/内存限制，默认内存占用不超过系统总内存的一半。\r\n  - 优化：调整识别语言库结构，精简不必要的文件。\r\n- **Linux 版本相关**：\r\n  - 优化：`glibc` 依赖降级至 `2.31` ，兼容 `Debian-11` 等发行版。\r\n  - 修复：Docker 部署 在部分旧系统中报错 `'code': 803` 的问题。(#621)\r\n\r\n---\r\n\r\n## Windows 下载\r\n\r\n不同版本仅OCR引擎插件不同，其它功能完全一致，附带多国语言识别库。`.7z.exe`为自解压包，可以用压缩软件打开，也可以在没有安装压缩软件的电脑上直接双击解压。\r\n\r\n### Paddle 引擎插件版\r\n\r\n（性能好，速度快，占用率高，适合高配机器。**不兼容奔腾、赛扬、凌动CPU**）\r\n\r\n**重要提示：如果执行OCR时报错 `0xc0000142`、`[Error] OCR init fail`，大概率是CPU不兼容Paddle，请换用Rapid版本。**\r\n\r\n**Umi-OCR_Paddle_v2.1.4.7z.exe** （126.5MB）\r\nSHA256: `319edf4d58803ed5482174dcaf8713248cc377a77d9164fcc28796ade591348b`\r\n\r\n### Rapid 引擎插件版\r\n\r\n（速度稍慢，内存占用低，适合低配机器，兼容性好）\r\n\r\n**Umi-OCR_Rapid_v2.1.4.7z.exe** （97MB）\r\nSHA256: `c1e851b172437f383ffb6ec1f3236e1beab23c0d7bfd6ba84ffea8f720126471`\r\n\r\n更多下载途径： [蓝奏云](https://hiroi-sora.lanzoul.com/s/umi-ocr) | [SourceForge](https://sourceforge.net/projects/umi-ocr/files/v2.1.3/) | [Scoop](https://scoop.sh/#/apps?q=umi-ocr)\r\n\r\n## Linux 下载\r\n\r\n**Umi-OCR_Linux_Paddle_2.1.4.tar.xz** （264.5MB）\r\nSHA256: `0dae3a93eb4fc8da23097944f403d143430ec27a91ce3fa563ac5d363b69246e`\r\n\r\n此发行版在 `Ubuntu 22.04` / `Debian 11` / `Debian 12` / `Kali 2023.3` 桌面环境中通过测试。如果遇到问题，可参考 [常见问题及修复方法](https://github.com/hiroi-sora/Umi-OCR/issues/447) ，或根据报错安装缺失的依赖库。欢迎提 Issue 共同讨论解决方法。有能力的用户可尝试 [从源码部署 Umi-OCR](https://github.com/hiroi-sora/Umi-OCR_runtime_linux) ，以得到最好的兼容性。\r\n\r\n首次运行请在命令行中执行 `./umi-ocr.sh` ，随后可在全局设置中创建桌面/开始菜单快捷方式，便于日常使用。\r\n\r\n## Docker 部署\r\n\r\n- 请按文档进行：https://github.com/hiroi-sora/Umi-OCR_runtime_linux/blob/main/README-docker.md\r\n\r\n[![Download Umi-OCR](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/umi-ocr/files/v2.1.4/)"
     },
     "https://github.com/qianxiao996/CTF-Tools": {
         "created_at": "2022-07-21 08:40:01",
@@ -6412,8 +6412,8 @@
     "https://github.com/arch3rPro/PST-Bucket": {
         "created_at": "2023-04-24 06:49:11",
         "description": "Scoop-Buket for Penetration Suite Toolkit  -  Windows渗透测试工具仓库For Scoop",
-        "commit_message": "suo5: Update to version 1.3.0",
-        "commit_date": "2024-08-27 16:33:21"
+        "commit_message": "cudatext-cn: Update to version 1.217.5.0",
+        "commit_date": "2024-09-01 08:31:02"
     },
     "https://github.com/Aiyflowers/JWT_GUI": {
         "created_at": "2023-07-08 05:50:33",
@@ -6496,12 +6496,12 @@
         "release_message": "# 更新日志\r\n\r\n- 优化了脚本流程，减少了部分代码\r\n- 增加了校验模块，根据PNG文件头校验是否为PNG图片\r\n- 新增宽高判断，对于宽高正常的PNG图片，做出提示\r\n- 无需再改后缀名，直接导出PNG后缀的文件"
     },
     "https://github.com/ImageMagick/ImageMagick": {
-        "created_at": "2024-08-24 17:51:32",
+        "created_at": "2024-09-02 00:56:32",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "eliminate compiler warnings",
-        "commit_date": "2024-09-01 13:07:10",
-        "release_date": "2024-08-25 17:38:54",
-        "release_message": "## What's Changed\n* Silence warning and fix HEIC_COMPUTE_NUMERIC_VERSION definition when heic delegate is disabled. by @niclet in https://github.com/ImageMagick/ImageMagick/pull/7516\n* Bump azure/trusted-signing-action from 0.3.20 to 0.4.0 by @dependabot in https://github.com/ImageMagick/ImageMagick/pull/7518\n\n\n**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-36...7.1.1-37"
+        "commit_message": "beta release",
+        "commit_date": "2024-09-02 01:54:59",
+        "release_date": "2024-09-02 05:51:56",
+        "release_message": "**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-37...7.1.1-38"
     },
     "https://github.com/Ch1ngg/JWTPyCrack": {
         "created_at": "2019-09-05 07:55:21",
@@ -8470,8 +8470,8 @@
     "https://github.com/0x727/FingerprintHub": {
         "created_at": "2024-07-09 10:55:18",
         "description": "侦查守卫(ObserverWard)的指纹库",
-        "commit_message": "Auto Update Nuclei [Sun Aug 25 06:24:19 UTC 2024] :robot:",
-        "commit_date": "2024-08-25 06:24:19",
+        "commit_message": "Auto Update Nuclei [Mon Sep  2 18:24:51 UTC 2024] :robot:",
+        "commit_date": "2024-09-02 18:24:51",
         "release_date": "2024-07-09 11:01:10",
         "release_message": ""
     },
@@ -15434,8 +15434,8 @@
     "https://github.com/containerd/containerd": {
         "created_at": "2024-08-26 22:15:51",
         "description": "An open and reliable container runtime",
-        "commit_message": "Merge pull request #10611 from fuweid/getridof-hall-of-shame\n\ncore/mount: use ptrace instead of go:linkname",
-        "commit_date": "2024-08-30 17:07:33",
+        "commit_message": "Merge pull request #10663 from ErikJiang/bump_crun_1.16\n\nBump crun to 1.16.1",
+        "commit_date": "2024-09-02 23:37:33",
         "release_date": "2024-08-26 22:26:11",
         "release_message": "Welcome to the v1.7.21 release of containerd!\n\nThe twenty-first patch release for containerd 1.7 contains various fixes\nand updates.\n\n### Highlights\n\n* Regenerate introspection UUID if state is empty ([#10510](https://github.com/containerd/containerd/pull/10510))\n* Set stderr to empty string when using terminal on Windows ([#10499](https://github.com/containerd/containerd/pull/10499))\n\n#### Build and Release Toolchain\n\n* Move builds to Go 1.22 and add support for testing with 1.23 ([#10596](https://github.com/containerd/containerd/pull/10596))\n\n#### Container Runtime Interface (CRI)\n\n* Borrow latest wsstream from k8s v1.31.x to 1.7 ([#10575](https://github.com/containerd/containerd/pull/10575))\n* Ensure the CRIAPIV1Alpha2 warning's lastOccurrence is accurate ([#10571](https://github.com/containerd/containerd/pull/10571))\n* Make `StopContainer` idempotent ([#10528](https://github.com/containerd/containerd/pull/10528))\n* Make `StopPodSandbox` idempotent ([#10527](https://github.com/containerd/containerd/pull/10527))\n\n#### Go client\n\n* Fix failed force deletion for tasks with PID 0 ([#10523](https://github.com/containerd/containerd/pull/10523))\n\n#### Runtime\n\n* Fix packaged runc reporting incorrect version ([#10559](https://github.com/containerd/containerd/pull/10559))\n* Ensure `/run/containerd` gets created with correct perms ([#10534](https://github.com/containerd/containerd/pull/10534))\n\n#### Deprecations\n\n* Ensure the CRIAPIV1Alpha2 warning's lastOccurrence is accurate ([#10571](https://github.com/containerd/containerd/pull/10571))\n* Update warnings for deprecated CRI config fields ([#10512](https://github.com/containerd/containerd/pull/10512))\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Davanum Srinivas\n* Samuel Karp\n* Sebastiaan van Stijn\n* Phil Estes\n* Maksym Pavlenko\n* Akhil Mohan\n* Chris Henzie\n* Derek McGowan\n* Kazuyoshi Kato\n* Sascha Grunert\n* Akihiro Suda\n* Erikson Tung\n* Iceber Gu\n* Mauri de Souza Meneguzzo\n* Mike Brown\n* Shengjing Zhu\n* TinaMor\n* rongfu.leng\n\n### Changes\n<details><summary>45 commits</summary>\n<p>\n\n* Prepare release notes for v1.7.21 ([#10632](https://github.com/containerd/containerd/pull/10632))\n  * [`975f279ee`](https://github.com/containerd/containerd/commit/975f279eeb3033d05e1b1089b11bd678cc73efd7) Prepare release notes for v1.7.21\n* go.mod: keep minimum go version at go1.21 ([#10633](https://github.com/containerd/containerd/pull/10633))\n  * [`d63bd8464`](https://github.com/containerd/containerd/commit/d63bd846458b7c504dc0efe59f275fee8e29322d) go.mod: keep minimum go version at go1.21\n* Move builds to Go 1.22 and add support for testing with 1.23 ([#10596](https://github.com/containerd/containerd/pull/10596))\n  * [`c76028088`](https://github.com/containerd/containerd/commit/c7602808814d6ca235d37323ff37cde9bdf9d6bb) update golangci-lint to 1.60.1\n  * [`3b263d082`](https://github.com/containerd/containerd/commit/3b263d082cb09a2911150135a760508527557a0e) add go1.23.0, drop go1.21.x\n* Fix TestNewBinaryIOCleanup on Go 1.23 and Linux 5.4 ([#10590](https://github.com/containerd/containerd/pull/10590))\n  * [`09ca004de`](https://github.com/containerd/containerd/commit/09ca004dee1fe7752a652f474661e23d7e3489d4) Fix TestNewBinaryIOCleanup on Go 1.23 and Linux 5.4\n* Borrow latest wsstream from k8s v1.31.x to 1.7 ([#10575](https://github.com/containerd/containerd/pull/10575))\n  * [`9269d97b1`](https://github.com/containerd/containerd/commit/9269d97b1d3c08afba0914028a1ae73220aaa6e4) hide wsstream under internal/ to prevent external use\n  * [`59815fa44`](https://github.com/containerd/containerd/commit/59815fa44be5f20954e4acf02c91590f78c053f6) golangci-lint should only look for problems in new code\n  * [`1c431dc6f`](https://github.com/containerd/containerd/commit/1c431dc6ff7bb928ad3656c318a24548026f560f) Run go mod tidy\n  * [`226f93d92`](https://github.com/containerd/containerd/commit/226f93d928723e1cc14d07d84f774e77d4d1bb61) Add copyright headers\n  * [`6f3252733`](https://github.com/containerd/containerd/commit/6f3252733c4f5dd13048096fdf08799ad5733893) switch over references to the new package\n  * [`0a85d476a`](https://github.com/containerd/containerd/commit/0a85d476a1c2dd9b0ee562a8a3e295744a6f9685) Fix up some constant references\n  * [`82bfa44d0`](https://github.com/containerd/containerd/commit/82bfa44d0fedef27c2b74af49866d74d5317359b) Copy over wsstream from k8s v1.31.0-rc.1 release\n* Ensure the CRIAPIV1Alpha2 warning's lastOccurrence is accurate ([#10571](https://github.com/containerd/containerd/pull/10571))\n  * [`52b79f337`](https://github.com/containerd/containerd/commit/52b79f3377af7c0003abe85e3d93d7d679d8418f) Update CRIAPIV1Alpha2 warning lastOccurrence every call\n* pkg/userns: deprecate and migrate to github.com/moby/sys/userns ([#10564](https://github.com/containerd/containerd/pull/10564))\n  * [`dce0b5a6d`](https://github.com/containerd/containerd/commit/dce0b5a6d338900f33ff44808483ebf63dced65a) migrate to github.com/moby/sys/userns\n  * [`65f7d0740`](https://github.com/containerd/containerd/commit/65f7d07409562252aaab84da481ca4e9334a5810) pkg/userns: deprecate and migrate to github.com/moby/sys/user/userns\n  * [`f21675c27`](https://github.com/containerd/containerd/commit/f21675c2731774c54412b3855a9eb43a757f69c4) vendor: github.com/moby/sys/user v0.2.0\n* update to go1.21.13 / go1.22.6 ([#10570](https://github.com/containerd/containerd/pull/10570))\n  * [`228914a5e`](https://github.com/containerd/containerd/commit/228914a5e533db62f2637267c26b0093b6e8625e) update to go1.21.13 / go1.22.6\n* Fix TestNewBinaryIOCleanup failing with gotip ([#10554](https://github.com/containerd/containerd/pull/10554))\n  * [`3ff82ba0f`](https://github.com/containerd/containerd/commit/3ff82ba0f007e0fb856f7b2b174f5bc1ab1237cd) Fix TestNewBinaryIOCleanup failing with gotip\n* Fix packaged runc reporting incorrect version ([#10559](https://github.com/containerd/containerd/pull/10559))\n  * [`d51143f6f`](https://github.com/containerd/containerd/commit/d51143f6fad370fce2c2f5b0507365fb0a229372) script/setup/install-runc: fix runc using incorrect version\n* update auths code comment ([#10536](https://github.com/containerd/containerd/pull/10536))\n  * [`7bb1455d8`](https://github.com/containerd/containerd/commit/7bb1455d88aef5c558125c8c3b08230dc78fbdcb) update auths code comment\n* Ensure `/run/containerd` gets created with correct perms ([#10534](https://github.com/containerd/containerd/pull/10534))\n  * [`16c5fc768`](https://github.com/containerd/containerd/commit/16c5fc7689d8c9d715b2387c2844b22bb7a8e76e) Ensure /run/containerd is created with correct perms\n* Make `StopContainer` idempotent ([#10528](https://github.com/containerd/containerd/pull/10528))\n  * [`6da4e40b2`](https://github.com/containerd/containerd/commit/6da4e40b22ce2beb3cbb88dcdb8c7ede279e5b14) Make `StopContainer` RPC idempotent\n* Make `StopPodSandbox` idempotent ([#10527](https://github.com/containerd/containerd/pull/10527))\n  * [`b3b6f1507`](https://github.com/containerd/containerd/commit/b3b6f15075e1ecd07ca49d667e6dedd94bf4145a) Make `StopPodSandbox` RPC idempotent\n* Fix failed force deletion for tasks with PID 0 ([#10523](https://github.com/containerd/containerd/pull/10523))\n  * [`0db46f664`](https://github.com/containerd/containerd/commit/0db46f664ab1394add6c813b764121a5f12d6ef3) client: fix tasks with PID 0 cannot be forced to delete\n* Update warnings for deprecated CRI config fields ([#10512](https://github.com/containerd/containerd/pull/10512))\n  * [`9afb8dcdf`](https://github.com/containerd/containerd/commit/9afb8dcdfecfdc37297ab110548214e4954bb2ab) deprecation: update warnings for CRI config fields\n* Regenerate introspection UUID if state is empty ([#10510](https://github.com/containerd/containerd/pull/10510))\n  * [`b140792e4`](https://github.com/containerd/containerd/commit/b140792e46e962d8a5c6aafaf0012cf572bdacb3) introspection: regenerate UUID if state is empty\n* Set stderr to empty string when using terminal on Windows ([#10499](https://github.com/containerd/containerd/pull/10499))\n  * [`f9beac3db`](https://github.com/containerd/containerd/commit/f9beac3db8e9345b9acfc1cbe5126ff0c7e8c9eb) Set stderr to empty string when using terminal on Windows.\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/moby/sys/userns**  v0.1.0 **_new_**\n\nPrevious release can be found at [v1.7.20](https://github.com/containerd/containerd/releases/tag/v1.7.20)\n"
     },
@@ -23695,12 +23695,12 @@
         "release_message": "## What's Changed\r\n* html a-tag unclosed bug fixed by @gorgiaxx in https://github.com/sensepost/gowitness/pull/187\r\n* Fix database file path location parser by @mr-pmillz in https://github.com/sensepost/gowitness/pull/188\r\n* fix: typo by @testwill in https://github.com/sensepost/gowitness/pull/201\r\n* (fix) MarshalJSON spells with one \"l\" by @alexandear in https://github.com/sensepost/gowitness/pull/198\r\n* Fixing the missing port issue with Nessus  by @quentinpraz in https://github.com/sensepost/gowitness/pull/191\r\n\r\n## New Contributors\r\n* @gorgiaxx made their first contribution in https://github.com/sensepost/gowitness/pull/187\r\n* @mr-pmillz made their first contribution in https://github.com/sensepost/gowitness/pull/188\r\n* @testwill made their first contribution in https://github.com/sensepost/gowitness/pull/201\r\n* @alexandear made their first contribution in https://github.com/sensepost/gowitness/pull/198\r\n* @quentinpraz made their first contribution in https://github.com/sensepost/gowitness/pull/191\r\n\r\n**Full Changelog**: https://github.com/sensepost/gowitness/compare/2.5.0...2.5.1\r\n\r\n```\r\n1edfe2209731e68621006b3cc0376d6a4b97e85e  gowitness-2.5.1-darwin-amd64\r\n3c817d57d704a3de1dcb084a59b77e684dddb154  gowitness-2.5.1-darwin-arm64\r\n19c75086ac90ae2891f24fa89d76c84748eb3d06  gowitness-2.5.1-linux-amd64\r\n105ecb560afccd5f29fe1d748c32862848f556df  gowitness-2.5.1-linux-arm64\r\ne893957658f560911864eeecec606c0cd9ea8e05  gowitness-2.5.1-linux-armv7\r\n32315a0b50ccd4e28b941a4b0121200b6625eb9e  gowitness-2.5.1-windows-amd64.exe\r\n```"
     },
     "https://github.com/qi4L/JYso": {
-        "created_at": "2024-07-24 07:38:01",
+        "created_at": "2024-08-26 04:34:42",
         "description": "It can be either a JNDIExploit or a ysoserial.",
-        "commit_message": "base64编码输出Payload",
-        "commit_date": "2024-08-13 10:43:58",
-        "release_date": "2024-07-24 07:43:04",
-        "release_message": "+ 增加CC13 [Issues#47](https://github.com/qi4L/JYso/issues/47)\r\n+ 修复 [Issues#48](https://github.com/qi4L/JYso/issues/48) \r\n+ [PR#50](https://github.com/qi4L/JYso/pull/50)\r\n+ hessian反序列化payload生成 [Issues#51](https://github.com/qi4L/JYso/issues/51)\r\n+ Base64编码输出Payload"
+        "commit_message": "add ldaps++",
+        "commit_date": "2024-09-01 03:21:06",
+        "release_date": "2024-08-26 04:35:20",
+        "release_message": "+ 新增cc 14 15 16 c3p0jndi c3p0jndi2 c3p0JDBC groovy2 [pr57](https://github.com/qi4L/JYso/pull/54)\r\n+ XStream Payload [pr53](https://github.com/qi4L/JYso/pull/53)\r\n+ 新增ldaps协议利用 [参考](https://www.leavesongs.com/PENETRATION/use-tls-proxy-to-exploit-ldaps.html)"
     },
     "https://github.com/cider-security-research/cicd-goat": {
         "created_at": "2024-07-11 13:31:30",
@@ -25298,8 +25298,8 @@
         "description": "md5解密 MD5在线解密 破解md5"
     },
     "https://www.catpasswd.com/": {
-        "status_code": 200,
-        "description": "Catpasswd - Globally renowned encrypt file recovery platform"
+        "status_code": 521,
+        "description": "www.catpasswd.com | 521: Web server is down"
     },
     "https://cmd5.la/": {
         "status_code": 200,
@@ -27024,8 +27024,8 @@
     "https://github.com/leonteale/pentestpackage": {
         "created_at": "2014-04-25 00:29:27",
         "description": "a package of Pentest scripts I have made or  commonly use",
-        "commit_message": "Removed sharelist.sh from dev-mightnotworkyet after moving to Network",
-        "commit_date": "2024-08-28 14:33:06"
+        "commit_message": "update sharefile.sh",
+        "commit_date": "2024-08-29 10:47:02"
     },
     "https://github.com/f4cknet/pyhackme": {
         "created_at": "2023-11-03 13:50:55",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.71.163.79属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.76.232属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27263,7 +27263,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
+        "description": "用户认证 - 云短信 - 短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -28872,11 +28872,11 @@
         "release_message": "Bug：解决\r\n1、解决向日葵和todesk日志分析闪退bug\r\n2、解决计划任务排版报错bug\r\n新增功能：\r\n1、输出日志文件统一放到两个文件中\r\n2、新增进程日志分析功能"
     },
     "https://github.com/stamparm/maltrail": {
-        "created_at": "2014-12-04 21:33:46",
+        "created_at": "2024-08-31 21:47:22",
         "description": "Malicious traffic detection system",
-        "commit_message": "Update fin7.txt",
-        "commit_date": "2024-08-20 18:53:00",
-        "release_date": "2024-07-31 22:11:03",
+        "commit_message": "Update apt_kimsuky.txt",
+        "commit_date": "2024-09-03 00:18:32",
+        "release_date": "2024-08-31 22:11:03",
         "release_message": "Start-of-month release"
     },
     "https://github.com/wy876/POC": {
