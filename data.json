@@ -5348,13 +5348,13 @@
         "release_message": ""
     },
     "https://github.com/ahmedkhlief/APT-Hunter": {
-        "created_at": "2024-02-06 18:29:48",
+        "created_at": "2024-08-27 18:21:24",
         "description": "APT-Hunter is Threat Hunting tool for windows event logs which made by purple team mindset to provide detect APT movements hidden in the sea of windows event logs to decrease the time to uncover suspicious activity",
-        "commit_date": "2024-02-06 18:29:48",
-        "commit_message": "update to 3.2",
+        "commit_date": "2024-08-27 18:21:24",
+        "commit_message": "fixes for windows",
         "release_tag": "V3.0",
-        "release_date": "2024-02-06 18:37:38",
-        "release_message": "Fix reported issues with reports not generated , timezone not used . also added new feature to create directory for profile output"
+        "release_date": "2024-08-27 18:23:27",
+        "release_message": "Added office365 analysis module with hunts and statistics to help you in your threat hunting ."
     },
     "https://github.com/FunnyWolf/pystinger": {
         "created_at": "2021-03-13 02:55:49",
@@ -24831,7 +24831,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
+        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.155.79属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.25.63属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27098,8 +27098,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 502,
-        "description": "www.webscan.cc | 502: Bad gateway"
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
