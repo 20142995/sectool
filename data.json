@@ -1076,7 +1076,7 @@
         "release_message": "> 配置文件有变更，建议备份后重新生成配置文件\r\n\r\n### 💯 新增\r\n- 新增http流生成模板面板，实现智能生成PoC模板（基于大语言模型，配套服务：[nuclei-plus-server](https://github.com/Yong-An-Dang/nuclei-plus-server)）\r\n\r\n### ⭐ 优化\r\n- 优化模板同步接口：默认配置路径拼接 + “/template/sync”\r\n- 优化同步dir的获取\r\n- 模板编辑面板自动补全快捷键：ctrl +i\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.3.5...v7.4.8"
     },
     "https://github.com/Threekiii/Vulnerability-Wiki": {
-        "created_at": "2024-03-07 09:30:14",
+        "created_at": "2022-04-29 05:36:33",
         "description": "基于 docsify 快速部署 Awesome-POC 中的漏洞文档",
         "commit_message": "update",
         "commit_date": "2024-07-18 02:46:44",
@@ -3864,12 +3864,12 @@
         "release_message": "### Added Features\r\n\r\n- Added the SWI Prolog (swipl) ecosystem [[#3076](https://github.com/anchore/syft/pull/3076) @LaurentGoderre]\r\n- Improved java cataloging [[#2769](https://github.com/anchore/syft/pull/2769) @GijsCalis]\r\n\r\n### Bug Fixes\r\n\r\n- Empty version field on some dependencies when reading pom.xml [[#1129](https://github.com/anchore/syft/issues/1129) [#2769](https://github.com/anchore/syft/pull/2769) @GijsCalis]\r\n- Support Maven multi-level configuration file / parent POM [[#2017](https://github.com/anchore/syft/issues/2017) [#2769](https://github.com/anchore/syft/pull/2769) @GijsCalis]\r\n- DependencyManagement ignored in pom.xml [[#1813](https://github.com/anchore/syft/issues/1813) [#2769](https://github.com/anchore/syft/pull/2769) @GijsCalis]\r\n- Version parsing regression for Go binaries [[#3086](https://github.com/anchore/syft/issues/3086) [#3087](https://github.com/anchore/syft/pull/3087) @spiffcs]\r\n\r\n### Additional Changes\r\n\r\n- rather than have a hard max recursive depth - syft should detect parent pom cycles [[#2284](https://github.com/anchore/syft/issues/2284) [#2769](https://github.com/anchore/syft/pull/2769) @GijsCalis]\r\n- increase java purl generation test coverage [[#3110](https://github.com/anchore/syft/pull/3110) @westonsteimel]\r\n- Updated PackageSupplier to type Organization for JAR files [[#3093](https://github.com/anchore/syft/pull/3093) @harippriyas]\r\n- Ensure accurate java main artifact name retrieval for multi-JARs and refine fallback approach [[#3054](https://github.com/anchore/syft/pull/3054) @dor-hayun]\r\n\r\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.10.0...v1.11.0)**\r\n\r\n"
     },
     "https://github.com/chaitin/safeline": {
-        "created_at": "2024-08-01 13:02:57",
+        "created_at": "2024-08-26 13:06:46",
         "description": "serve as a reverse proxy to protect your web services from attacks and exploits.",
-        "commit_message": "feat: add env for 6.4.0",
-        "commit_date": "2024-08-01 13:02:57",
-        "release_date": "2024-08-02 08:01:58",
-        "release_message": "#### Optimized\r\n* UI optimizations"
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-26 13:06:46",
+        "release_date": "2024-08-29 11:34:55",
+        "release_message": "### Improvements\r\n* Change the code of Challenge to 468 to avoid being cached by CDN\r\n* Reduce the probability of deadlock in luigi\r\n\r\n### Fix\r\n* Mistakenly return 504 error when 502 Bad Gateway \r\n* Access log and error log in site detail do not refresh automatically\r\n* Advanced statistics sometimes have data of 0\r\n* Sites Serving as Static Files mistakenly record some rate-limiting logs caused by 127.0.0.1"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
@@ -4624,7 +4624,7 @@
         "release_message": "Compiled for .NET 4.6 on 8/16/18."
     },
     "https://github.com/zksync-sdk/zksync2-python": {
-        "created_at": "2022-05-19 10:19:07",
+        "created_at": "2024-06-07 11:52:49",
         "description": "zksync2 is a web3.py library adapted to work with the ZKsync Era.",
         "commit_date": "2024-07-25 08:00:44",
         "commit_message": "chore: update `README` logo",
@@ -26102,7 +26102,7 @@
         "description": "Open Source Cloud Native Application Protection Platform (CNAPP)",
         "commit_message": "Create cloud scanner log directories on restart\n\n(cherry picked from commit 650a82c3e54a752b0fb29514e4c968184f6ef195)",
         "commit_date": "2024-08-03 09:38:11",
-        "release_date": "2024-08-15 00:16:02",
+        "release_date": "2024-09-03 01:33:34",
         "release_message": ""
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.161.76.232属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.28.178属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -29088,5 +29088,13 @@
         "commit_date": "2023-11-03 02:04:43",
         "release_date": "2023-11-02 13:20:43",
         "release_message": "工具实现了XXL-JOB默认accessToken权限绕过漏洞的单个检测、批量检测、一键反弹shell功能，后续会持续更新优化，添加POC检测等。"
+    },
+    "https://github.com/K-7H7l/Jeecg_Tools": {
+        "created_at": "2024-08-07 16:11:07",
+        "description": "本工具为jeecg框架漏洞利用工具非jeecg-boot！",
+        "commit_message": "Add files via upload",
+        "commit_date": "2024-08-13 06:42:36",
+        "release_date": "2024-08-07 16:14:57",
+        "release_message": "Jeecg_Tools_v1.0\r\n\r\n更新内容：改用java8版本编译"
     }
 }
