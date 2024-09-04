@@ -22557,7 +22557,7 @@
         "release_message": "1、新增自行实现的HTTP请求方法，支持代理模式，方便错误排查\r\n2、重写myjsdati.java类，删除实现接口"
     },
     "https://github.com/10cks/fofaEX": {
-        "created_at": "2023-12-07 13:46:27",
+        "created_at": "2024-06-20 06:52:34",
         "description": "FOFA EX 是一款基于fofa api（也可导入鹰图、夸克文件）实现的红队综合利用工具，可基于模板把工具作为插件进行集成，自动化进行资产探测，目前提供的插件功能如下：探活、 nuclei 模板扫描、IP反查域名、域名反查 ICP 备案、dismap 指纹扫描",
         "commit_message": "Update README.md",
         "commit_date": "2024-07-24 11:18:52",
@@ -24556,8 +24556,8 @@
         "description": "理想安全应急响应中心"
     },
     "https://security.mafengwo.cn/": {
-        "status_code": 522,
-        "description": ""
+        "status_code": 200,
+        "description": "马蜂窝安全应急响应中心"
     },
     "https://security.mcd.cn/": {
         "status_code": 200,
@@ -25194,8 +25194,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 200,
-        "description": "Practical Cryptography"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.154.191属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.15.84属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -29112,5 +29112,11 @@
         "commit_date": "2024-09-03 03:42:42",
         "release_date": "2024-08-28 05:59:01",
         "release_message": "从hunter、quake、fofa等网络空间测绘平台取socks5代理，或本地导入socks5代理，轮询使用代理进行流量转发。\r\n使用时，记得修改配置文件"
+    },
+    "https://github.com/Phantomn/HashPump": {
+        "created_at": "2024-07-17 08:23:22",
+        "description": null,
+        "commit_message": "Update File",
+        "commit_date": "2024-07-17 08:26:03"
     }
 }
