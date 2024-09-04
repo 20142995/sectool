@@ -3016,8 +3016,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2024-08-09 12:29:39",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_message": "add pocs",
-        "commit_date": "2024-08-13 02:48:02",
+        "commit_message": "update ecology sqli",
+        "commit_date": "2024-08-30 02:39:23",
         "release_date": "2024-08-09 12:38:27",
         "release_message": "- 【需求】HTML报告新增 Copy 按钮，一键复制Request请求包。\r\n- 【BUG】修复 afrog 工具中使用 -P 命令指定不存在的YAML文件时，会错误地扫描所有PoC文件的问题。\r\n- ----------------\r\n- Added Copy button to HTML report for one-click Request package copy.\r\n- Resolve the bug where using the '-P' command with a non-existent YAML file for afrog results in scanning all PoCs.\r\n\r\n"
     },
@@ -4494,13 +4494,13 @@
         "release_message": "1. 新增代理源 **FreeProxyList**; (2022-07-21)\r\n2. 新增代理源 **FateZero**; (2022-08-01)\r\n3. 新增代理属性 ``region``; (2022-08-16)"
     },
     "https://github.com/r0oth3x49/ghauri": {
-        "created_at": "2022-10-01 11:21:50",
+        "created_at": "2024-08-25 08:47:45",
         "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws",
         "commit_date": "2024-08-25 08:47:45",
         "commit_message": "fixed #172, bumped version 1.3.7..",
         "release_tag": "",
-        "release_date": "2024-08-24 10:35:45",
-        "release_message": "### Fixes:\r\n - Fixed issue #171 \r\n - updated code quality for HTTP request parsing from file.\r\n\r\n**Full Changelog**: https://github.com/r0oth3x49/ghauri/compare/1.3.5...1.3.6"
+        "release_date": "2024-08-25 08:49:02",
+        "release_message": "### Fixes\r\n - Fixed issue #172 (HTTP Request parsing)"
     },
     "https://github.com/dalinvip/Awesome-ChatGPT": {
         "created_at": "2023-02-06 11:57:37",
@@ -4811,8 +4811,8 @@
     "https://github.com/babysor/MockingBird": {
         "created_at": "2021-10-23 02:25:43",
         "description": "🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time",
-        "commit_date": "2024-08-22 07:06:40",
-        "commit_message": "Update requirements.txt (#747)\n\nUbuntu 20.04.1 CUDA 11.3 缺少依赖，还有依赖冲突\r\n\r\nCo-authored-by: Vega <babysor00@gmail.com>",
+        "commit_date": "2024-08-29 09:52:56",
+        "commit_message": "Update README.md",
         "release_tag": "v0.0.1",
         "release_date": "2021-11-07 13:53:53",
         "release_message": ""
@@ -7731,11 +7731,11 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-08-14 08:22:22",
+        "created_at": "2024-08-29 09:36:06",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "测试关闭 ci 更新文件逻辑 (#1914)",
-        "commit_date": "2024-08-15 03:12:06",
-        "release_date": "2024-08-14 08:46:11",
+        "commit_message": "v1.3.4-0829-ce",
+        "commit_date": "2024-08-29 09:36:06",
+        "release_date": "2024-08-29 10:12:40",
         "release_message": ""
     },
     "https://github.com/bartblaze/Yara-rules": {
@@ -15434,8 +15434,8 @@
     "https://github.com/containerd/containerd": {
         "created_at": "2024-08-26 22:15:51",
         "description": "An open and reliable container runtime",
-        "commit_message": "Merge pull request #10663 from ErikJiang/bump_crun_1.16\n\nBump crun to 1.16.1",
-        "commit_date": "2024-09-02 23:37:33",
+        "commit_message": "Merge pull request #10594 from AkihiroSuda/cri-remove-disableCgroup\n\nCRI: remove `disable_cgroup`",
+        "commit_date": "2024-09-03 18:25:42",
         "release_date": "2024-08-26 22:26:11",
         "release_message": "Welcome to the v1.7.21 release of containerd!\n\nThe twenty-first patch release for containerd 1.7 contains various fixes\nand updates.\n\n### Highlights\n\n* Regenerate introspection UUID if state is empty ([#10510](https://github.com/containerd/containerd/pull/10510))\n* Set stderr to empty string when using terminal on Windows ([#10499](https://github.com/containerd/containerd/pull/10499))\n\n#### Build and Release Toolchain\n\n* Move builds to Go 1.22 and add support for testing with 1.23 ([#10596](https://github.com/containerd/containerd/pull/10596))\n\n#### Container Runtime Interface (CRI)\n\n* Borrow latest wsstream from k8s v1.31.x to 1.7 ([#10575](https://github.com/containerd/containerd/pull/10575))\n* Ensure the CRIAPIV1Alpha2 warning's lastOccurrence is accurate ([#10571](https://github.com/containerd/containerd/pull/10571))\n* Make `StopContainer` idempotent ([#10528](https://github.com/containerd/containerd/pull/10528))\n* Make `StopPodSandbox` idempotent ([#10527](https://github.com/containerd/containerd/pull/10527))\n\n#### Go client\n\n* Fix failed force deletion for tasks with PID 0 ([#10523](https://github.com/containerd/containerd/pull/10523))\n\n#### Runtime\n\n* Fix packaged runc reporting incorrect version ([#10559](https://github.com/containerd/containerd/pull/10559))\n* Ensure `/run/containerd` gets created with correct perms ([#10534](https://github.com/containerd/containerd/pull/10534))\n\n#### Deprecations\n\n* Ensure the CRIAPIV1Alpha2 warning's lastOccurrence is accurate ([#10571](https://github.com/containerd/containerd/pull/10571))\n* Update warnings for deprecated CRI config fields ([#10512](https://github.com/containerd/containerd/pull/10512))\n\nPlease try out the release binaries and report any issues at\nhttps://github.com/containerd/containerd/issues.\n\n### Contributors\n\n* Davanum Srinivas\n* Samuel Karp\n* Sebastiaan van Stijn\n* Phil Estes\n* Maksym Pavlenko\n* Akhil Mohan\n* Chris Henzie\n* Derek McGowan\n* Kazuyoshi Kato\n* Sascha Grunert\n* Akihiro Suda\n* Erikson Tung\n* Iceber Gu\n* Mauri de Souza Meneguzzo\n* Mike Brown\n* Shengjing Zhu\n* TinaMor\n* rongfu.leng\n\n### Changes\n<details><summary>45 commits</summary>\n<p>\n\n* Prepare release notes for v1.7.21 ([#10632](https://github.com/containerd/containerd/pull/10632))\n  * [`975f279ee`](https://github.com/containerd/containerd/commit/975f279eeb3033d05e1b1089b11bd678cc73efd7) Prepare release notes for v1.7.21\n* go.mod: keep minimum go version at go1.21 ([#10633](https://github.com/containerd/containerd/pull/10633))\n  * [`d63bd8464`](https://github.com/containerd/containerd/commit/d63bd846458b7c504dc0efe59f275fee8e29322d) go.mod: keep minimum go version at go1.21\n* Move builds to Go 1.22 and add support for testing with 1.23 ([#10596](https://github.com/containerd/containerd/pull/10596))\n  * [`c76028088`](https://github.com/containerd/containerd/commit/c7602808814d6ca235d37323ff37cde9bdf9d6bb) update golangci-lint to 1.60.1\n  * [`3b263d082`](https://github.com/containerd/containerd/commit/3b263d082cb09a2911150135a760508527557a0e) add go1.23.0, drop go1.21.x\n* Fix TestNewBinaryIOCleanup on Go 1.23 and Linux 5.4 ([#10590](https://github.com/containerd/containerd/pull/10590))\n  * [`09ca004de`](https://github.com/containerd/containerd/commit/09ca004dee1fe7752a652f474661e23d7e3489d4) Fix TestNewBinaryIOCleanup on Go 1.23 and Linux 5.4\n* Borrow latest wsstream from k8s v1.31.x to 1.7 ([#10575](https://github.com/containerd/containerd/pull/10575))\n  * [`9269d97b1`](https://github.com/containerd/containerd/commit/9269d97b1d3c08afba0914028a1ae73220aaa6e4) hide wsstream under internal/ to prevent external use\n  * [`59815fa44`](https://github.com/containerd/containerd/commit/59815fa44be5f20954e4acf02c91590f78c053f6) golangci-lint should only look for problems in new code\n  * [`1c431dc6f`](https://github.com/containerd/containerd/commit/1c431dc6ff7bb928ad3656c318a24548026f560f) Run go mod tidy\n  * [`226f93d92`](https://github.com/containerd/containerd/commit/226f93d928723e1cc14d07d84f774e77d4d1bb61) Add copyright headers\n  * [`6f3252733`](https://github.com/containerd/containerd/commit/6f3252733c4f5dd13048096fdf08799ad5733893) switch over references to the new package\n  * [`0a85d476a`](https://github.com/containerd/containerd/commit/0a85d476a1c2dd9b0ee562a8a3e295744a6f9685) Fix up some constant references\n  * [`82bfa44d0`](https://github.com/containerd/containerd/commit/82bfa44d0fedef27c2b74af49866d74d5317359b) Copy over wsstream from k8s v1.31.0-rc.1 release\n* Ensure the CRIAPIV1Alpha2 warning's lastOccurrence is accurate ([#10571](https://github.com/containerd/containerd/pull/10571))\n  * [`52b79f337`](https://github.com/containerd/containerd/commit/52b79f3377af7c0003abe85e3d93d7d679d8418f) Update CRIAPIV1Alpha2 warning lastOccurrence every call\n* pkg/userns: deprecate and migrate to github.com/moby/sys/userns ([#10564](https://github.com/containerd/containerd/pull/10564))\n  * [`dce0b5a6d`](https://github.com/containerd/containerd/commit/dce0b5a6d338900f33ff44808483ebf63dced65a) migrate to github.com/moby/sys/userns\n  * [`65f7d0740`](https://github.com/containerd/containerd/commit/65f7d07409562252aaab84da481ca4e9334a5810) pkg/userns: deprecate and migrate to github.com/moby/sys/user/userns\n  * [`f21675c27`](https://github.com/containerd/containerd/commit/f21675c2731774c54412b3855a9eb43a757f69c4) vendor: github.com/moby/sys/user v0.2.0\n* update to go1.21.13 / go1.22.6 ([#10570](https://github.com/containerd/containerd/pull/10570))\n  * [`228914a5e`](https://github.com/containerd/containerd/commit/228914a5e533db62f2637267c26b0093b6e8625e) update to go1.21.13 / go1.22.6\n* Fix TestNewBinaryIOCleanup failing with gotip ([#10554](https://github.com/containerd/containerd/pull/10554))\n  * [`3ff82ba0f`](https://github.com/containerd/containerd/commit/3ff82ba0f007e0fb856f7b2b174f5bc1ab1237cd) Fix TestNewBinaryIOCleanup failing with gotip\n* Fix packaged runc reporting incorrect version ([#10559](https://github.com/containerd/containerd/pull/10559))\n  * [`d51143f6f`](https://github.com/containerd/containerd/commit/d51143f6fad370fce2c2f5b0507365fb0a229372) script/setup/install-runc: fix runc using incorrect version\n* update auths code comment ([#10536](https://github.com/containerd/containerd/pull/10536))\n  * [`7bb1455d8`](https://github.com/containerd/containerd/commit/7bb1455d88aef5c558125c8c3b08230dc78fbdcb) update auths code comment\n* Ensure `/run/containerd` gets created with correct perms ([#10534](https://github.com/containerd/containerd/pull/10534))\n  * [`16c5fc768`](https://github.com/containerd/containerd/commit/16c5fc7689d8c9d715b2387c2844b22bb7a8e76e) Ensure /run/containerd is created with correct perms\n* Make `StopContainer` idempotent ([#10528](https://github.com/containerd/containerd/pull/10528))\n  * [`6da4e40b2`](https://github.com/containerd/containerd/commit/6da4e40b22ce2beb3cbb88dcdb8c7ede279e5b14) Make `StopContainer` RPC idempotent\n* Make `StopPodSandbox` idempotent ([#10527](https://github.com/containerd/containerd/pull/10527))\n  * [`b3b6f1507`](https://github.com/containerd/containerd/commit/b3b6f15075e1ecd07ca49d667e6dedd94bf4145a) Make `StopPodSandbox` RPC idempotent\n* Fix failed force deletion for tasks with PID 0 ([#10523](https://github.com/containerd/containerd/pull/10523))\n  * [`0db46f664`](https://github.com/containerd/containerd/commit/0db46f664ab1394add6c813b764121a5f12d6ef3) client: fix tasks with PID 0 cannot be forced to delete\n* Update warnings for deprecated CRI config fields ([#10512](https://github.com/containerd/containerd/pull/10512))\n  * [`9afb8dcdf`](https://github.com/containerd/containerd/commit/9afb8dcdfecfdc37297ab110548214e4954bb2ab) deprecation: update warnings for CRI config fields\n* Regenerate introspection UUID if state is empty ([#10510](https://github.com/containerd/containerd/pull/10510))\n  * [`b140792e4`](https://github.com/containerd/containerd/commit/b140792e46e962d8a5c6aafaf0012cf572bdacb3) introspection: regenerate UUID if state is empty\n* Set stderr to empty string when using terminal on Windows ([#10499](https://github.com/containerd/containerd/pull/10499))\n  * [`f9beac3db`](https://github.com/containerd/containerd/commit/f9beac3db8e9345b9acfc1cbe5126ff0c7e8c9eb) Set stderr to empty string when using terminal on Windows.\n</p>\n</details>\n\n### Dependency Changes\n\n* **github.com/moby/sys/userns**  v0.1.0 **_new_**\n\nPrevious release can be found at [v1.7.20](https://github.com/containerd/containerd/releases/tag/v1.7.20)\n"
     },
@@ -23477,8 +23477,8 @@
     "https://github.com/Mr-xn/Penetration_Testing_POC": {
         "created_at": "2019-07-24 03:37:55",
         "description": "渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms",
-        "commit_message": "add 漏洞分析、挖掘、IOT安全、红蓝攻防等相关文章\n\nCC链再次挖掘\nCVE-2024-36401 GeoServer远程代码执行\nCobaltStrike(4.9.1)的狩猎与反狩猎 · Arui's blog\nDIR-820 CVE-2022-26258漏洞复现\nGeoServer Property evalute 远程代码执行漏洞 (CVE-2024-36401) 分析\nGeoServer property RCE注入内存马\nGeoServer历史漏洞分析-CSDN博客\nICMP_DNS 隧道处置方法 _ Linux 应急响应\nICMP_DNS 隧道处置方法 _ Windows 应急响应\n_.Net ViewState反序列化实现无文件哥斯拉内存马(万户ezEip)\nnginx deny限制路径绕过\n从jhttpd分析到系统命令注入(CVE-2021-46227-D-Link Di-7200G 命令注入漏洞)\n契约锁代码审计分析-CSDN博客\n宏景eHR人力系统的代码审计(权限绕过_downlawbase注入_任意文件删除下载_反序列化RCE)\n帆软channel v5反序列化绕过\n帆软channel反序列化漏洞分析\n某凌 EKP 前台远程命令执行漏洞分析\n某园区系统登录绕过分析(大华智慧园区综合管理平台-登录绕过_ZIP上传目录穿越)\n深入解析PHP CGI Windows平台远程代码执行漏洞（CVE-2024-4577_CVE-2012-1823）\n漏洞挖掘之再探某园区系统(大华智慧园区综合管理平台—未授权用户添加_查看_修改_xstream反序列化RCE)\n记某大学智慧云平台存在弱口令爆破_水平越权信息泄露_Wx_SessionKey篡改 任意用户登录漏洞",
-        "commit_date": "2024-08-16 13:00:47"
+        "commit_message": "add 漏洞复现+代码审计+IOT相关文章合计61篇\n\n(Nday)泛微E-office 10 OfficeServer.php 下载_上传漏洞分析\n2024 RWCTF群晖 BC500摄像头RCE--未授权_栈溢出\nCVE-2024-30188 Apache DolphinScheduler 任意文件读写漏洞分析\nCVE-2024-36412 SuiteCRM未授权sql注入分析\nCVE-2024-38856 Apache OFBiz Authentication Bypass\nCVE-2024-43044 Jenkins Remoting远程代码执行漏洞分析\nDedecms后台RCE的一些方法 – fushulingのblog\nExchange邮服渗透技巧\nH3C-iMC智能管理中心autoDeploy.\nJAVA安全之Velocity模板注入刨析\nLaravel 11.x 反序列化链分析\nNacos 0day（derby_源码）分析 _ 不出网利用\nNacos <=2.4.0.1 任意文件读写删\nSpring Cloud Data Flow 漏洞分析（CVE-2024-22263_CVE-2024-37084）\nUnnamed page.NET恶意软件Dark Crystal RAT的详细样本分析\nZimbra 邮服渗透技巧\nZimbra邮服渗透技巧\njava中js命令执行与绕过 - unam4\njava中js命令执行的攻与防\nwookteam协作平台searchinfo接口SQL注入漏洞分析\n【原创】Xinhu RockOA v2.6.2 SQL注入漏洞 _ 安全团队贡献平台\n【原创】（CVE-2024-7919）安徽德顺智能科技有限公司 JIELINK_ INTELLIGENT TERMINAL OPERATION PLATROFM 未授权访问漏洞 _ 安全团队贡献平台\n【原创】（CVE-2024-7920）安徽德顺智能科技有限公司 JIELINK_ INTELLIGENT TERMINAL OPERATION PLATROFM 信息泄露漏洞 _ 安全团队贡献平台\n【原创】（CVE-2024-7921）安徽德顺智能科技有限公司 JIELINK_ INTELLIGENT TERMINAL OPERATION PLATROFM 信息泄露漏洞 _ 安全团队贡献平台\n万户graph include.jsp sql注入的漏洞分析\n万户oa中receivefile_gd存在SQL注入\n亿赛通新一代电子文档安全管理系统 SecretKeyService SQL注入漏洞\n亿赛通新一代电子文档安全管理系统 logincontroller JNDI注入致远程代码执行漏洞(XVE-2024-8758)\n亿赛通新一代电子文档安全管理系统-LogDownLoadService-mssql-sql注入漏洞分析\n亿赛通电子文档安全管理系统 CDGAuthoriseTempletService1 SecretLevelId SQL注入漏洞代码分析\n亿赛通电子文档安全管理系统 CDGAuthoriseTempletService1 SecretLevelId SQL注入漏洞代码分析2\n亿赛通电子文档安全管理系统DecryptionApp反序列化漏洞RCE\n从seacms12.9教你学会代码审计\n代码审计之nbcio-boot从信息泄露到Getshell\n信呼OA nickName SQL注入漏洞复现(XVE-2024-19304)\n内网活动目录利用方法\n内网渗透横向移动技巧\n域内日志分析\n安卓逆向——Frida的进阶用法\n帆软 FineReport ReportServer SQL注入致RCE漏洞\n悦库企业网盘 userlogin\n护网红队-从apk反编译审计到getshell全过程\n易宝oa软件两处-ExecuteSqlForSingle注入分析与复现\n智慧校园(安校易)管理系统 ReceiveClassVideo.ashx 存在文件上传漏洞\n比较有意思的几个漏洞挖掘记录\n泛微e-cology testConnByBasePassword JDNI注入致远程代码执行漏洞分析(XVE-2024-20913)\n泛微云桥e-Bridge addResume任意文件上传漏洞分析\n浅析通天星CMSV6车载定位监控平台远程代码执行漏洞\n海康威视iSecure Center综合安防管理平台认证绕过分析\n海康威视综合安防管理平台clusters页面文件上传漏洞\n海康威视综合安防管理平台uploadAllPackage任意文件上传漏洞复现分析\n海康威视综合安防系统 detection 接口远程命令执行\n深澜认证计费系统代码审计（登录绕过_前后台RCE_文件读取_信息泄漏_XXS_SSRF）\n用友NC complainbilldetail SQL注入漏洞\n用友致远OA后台RCE constDef.do命令执行漏洞分析\n积木报表AviatorScript代码注入RCE分析\n章管家印章智慧管理平台 listUploadIntelligent接口sql注入漏洞分析与复现\n蓝凌OA WechatLoginHelper.do SQL注入漏洞复现分析\n记一次Spring boot框架代审与思考\n记一次对通天星CMSV6车载视频监控平台的多个漏洞(getImage、delete.do、disable、merge、upload、SESSION伪造、StandardLoginAction_getAllUser、反序列化、xz_center)分析复现\n记一次有趣的通达OA审计过程",
+        "commit_date": "2024-08-31 05:09:31"
     },
     "https://github.com/qianxiao996/R-Knife": {
         "created_at": "2023-06-30 02:53:55",
@@ -24425,7 +24425,7 @@
     },
     "https://sec.wifi.com/": {
         "status_code": 200,
-        "description": "WIFI万能钥匙安全响应中心"
+        "description": "WiFi万能钥匙安全应急响应中心"
     },
     "https://sec.xiaomi.com/": {
         "status_code": 200,
@@ -24556,8 +24556,8 @@
         "description": "理想安全应急响应中心"
     },
     "https://security.mafengwo.cn/": {
-        "status_code": 200,
-        "description": "马蜂窝安全应急响应中心"
+        "status_code": 522,
+        "description": ""
     },
     "https://security.mcd.cn/": {
         "status_code": 200,
@@ -25298,8 +25298,8 @@
         "description": "md5解密 MD5在线解密 破解md5"
     },
     "https://www.catpasswd.com/": {
-        "status_code": 521,
-        "description": "www.catpasswd.com | 521: Web server is down"
+        "status_code": 200,
+        "description": "Catpasswd - Globally renowned encrypt file recovery platform"
     },
     "https://cmd5.la/": {
         "status_code": 200,
@@ -25606,8 +25606,8 @@
     "https://github.com/zaproxy/zaproxy": {
         "created_at": "2024-05-07 17:05:30",
         "description": "The ZAP core project",
-        "commit_message": "Merge pull request #8605 from zapbot/crowdin-update\n\nUpdate localized resources",
-        "commit_date": "2024-08-26 10:42:26",
+        "commit_message": "Merge pull request #8620 from zapbot/crowdin-update\n\nUpdate localized resources",
+        "commit_date": "2024-09-02 08:42:02",
         "release_date": "2024-05-07 17:39:14",
         "release_message": "Release notes: https://www.zaproxy.org/docs/desktop/releases/2.15.0/\r\n\r\n---\r\n| File | Checksum (SHA-256) |\r\n|---|---|\r\n| [ZAP_2.15.0.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0.dmg) | `ae025403e46cdefff013cd0c3b88d8edc5a183a76daa63cb62c7c629005337a5` |\r\n| [ZAP_2.15.0_aarch64.dmg](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_aarch64.dmg) | `4426253f4702bbd5fb4779bcf4d62490b2c10ec851c4ebc94ced8f156d2e5509` |\r\n| [ZAP_2.15.0_Core.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Core.zip) | `e3cf30ad526e4f3fb8a228e1d5e02da0389b2ec7436b989bb28f959703380bf5` |\r\n| [ZAP_2.15.0_Crossplatform.zip](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Crossplatform.zip) | `05d3932a1affb0ab7987664677134709982ca3837a0b0f0e16f9aeb391933341` |\r\n| [ZAP_2.15.0_Linux.tar.gz](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz) | `6410e196baab458a9204e29aafb5745fca003a2a6c0386f2c6e5c04b67621fa7` |\r\n| [ZAP_2_15_0_unix.sh](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_unix.sh) | `3d976a197b7f71c52c8b8b2e9f06b988384845fb854b637ebb8be0e4cb38112f` |\r\n| [ZAP_2_15_0_windows-x32.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows-x32.exe) | `114953f29647a5e4e5774b338f2271d6149711e9222e0b92b11be3a35b812478` |\r\n| [ZAP_2_15_0_windows.exe](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2_15_0_windows.exe) | `28b348dd65116ddabbbbd98b7f84864a0bb0f98d656266f2f08bfd010ae51c57` |\r\n| [bom.json](https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/bom.json) | `04f3e148aaa406cd7f31f2be8d3ef282e16e852233da85de13aacb3a173f4740` |\r\n"
     },
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.106.51属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.154.191属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27263,7 +27263,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "用户认证 - 云短信 - 短信接收"
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -29096,5 +29096,21 @@
         "commit_date": "2024-08-13 06:42:36",
         "release_date": "2024-08-07 16:14:57",
         "release_message": "Jeecg_Tools_v1.0\r\n\r\n更新内容：改用java8版本编译"
+    },
+    "https://github.com/Marven11/Fenjing": {
+        "created_at": "2024-08-25 10:50:10",
+        "description": "专为CTF设计的Jinja2 SSTI全自动绕WAF脚本 | A Jinja2 SSTI cracker for bypassing WAF, designed for CTF",
+        "commit_message": "Update examples.md",
+        "commit_date": "2024-08-25 10:54:59",
+        "release_date": "2024-08-25 10:51:54",
+        "release_message": "New features:\r\n- just more rules adding whitespaces\r\n\r\nBugfix:\r\n- a bug in waf detection"
+    },
+    "https://github.com/thinkoaa/Deadpool": {
+        "created_at": "2024-08-26 07:41:30",
+        "description": "deadpool代理池工具，可从hunter、quake、fofa等网络空间测绘平台取socks5代理，或本地导入socks5代理，轮询使用代理进行流量转发。",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-09-03 03:42:42",
+        "release_date": "2024-08-28 05:59:01",
+        "release_message": "从hunter、quake、fofa等网络空间测绘平台取socks5代理，或本地导入socks5代理，轮询使用代理进行流量转发。\r\n使用时，记得修改配置文件"
     }
 }
