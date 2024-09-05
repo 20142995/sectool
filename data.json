@@ -2668,8 +2668,8 @@
     "https://github.com/madneal/gshark": {
         "created_at": "2024-08-17 01:57:47",
         "description": "Scan for sensitive information easily and effectively.",
-        "commit_message": "fix typo",
-        "commit_date": "2024-08-19 12:17:24",
+        "commit_message": "Merge pull request #217 from madneal/dependabot/npm_and_yarn/web/webpack-5.94.0\n\nBump webpack from 5.76.0 to 5.94.0 in /web",
+        "commit_date": "2024-08-30 11:14:45",
         "release_date": "2024-08-17 02:02:43",
         "release_message": "## Fixed\r\n\r\n* 组件版本升级\r\n* 将后端服务与扫描服务分离\r\n* 改进 Docker 镜像"
     },
@@ -2917,12 +2917,12 @@
         "release_message": ""
     },
     "https://github.com/dbeaver/dbeaver": {
-        "created_at": "2024-08-15 16:11:26",
+        "created_at": "2024-08-30 15:05:16",
         "description": "Free universal database tool and SQL client",
-        "commit_message": "Generate fully qualified table names in the grouping panel according to the SQL dialect (#35314)\n\n* Generate fully qualified table names in the grouping panel according to the SQL dialect\r\n\r\n* fix comments\r\n\r\n* fix comments\r\n\r\n* fix\r\n\r\n* fix\r\n\r\n---------\r\n\r\nCo-authored-by: Diana <31996417+uslss@users.noreply.github.com>",
-        "commit_date": "2024-08-23 13:15:36",
-        "release_date": "2024-08-18 16:20:59",
-        "release_message": "\n                - SQL Editor:\n                    - Added semantic analysis and Outline viewer support for CREATE and ALTER TABLE queries\n                    - Added presentation for warnings in  semantic analysis results\n                    - Data type icons were redesigned\n                    - SQL error presentation was redesigned\n                    - 'Execute SQL Script' option behavior was fixed\n                    - SQL Output for SQL scripts was fixed\n                    - Output panel opening was fixed\n                    - Column aliases can now be copied with Advanced Copy option (thanks to @dstivanov)\n                    - Column validation for UPDATE SET clause was fixed\n                    - Issue with invalid table name was fixed\n                    - If all tabs with query results are pinned, a new tab with a new query result is created\n                - Data Editor: Paste into the table with no foreign key was fixed\n                - Database Navigator:\n                    - Connection visualization was fixed\n                    - Navigator icons were redesigned\n                - Connectivity: Connection page for custom drivers with the URL template was fixed\n                - General:\n                    - Opening links to local files has been restricted due to a security issue discovered by @LuskaBol\n                    - Improved error handling when trying to use not allowed characters in project name\n                - Databases:\n                    - Altibase: Non-schema objects like Job, Database Link, Directory, and Library are now supported (thanks to @zennken)\n                    - BigQuery: Database monitoring dashboards were added\n                    - GaussDB driver was updated to version 4-1.1 (thanks to @GaussDB-Fans)\n                    - MariaDB: Geometry data type is now supported\n                    - Ocient: Incorrect DDL generation was fixed (thanks to @mjsterckx)\n                    - SQLite: Full text search was improved\n                    - SQL Server: Saving changes in procedures was fixed\n            "
+        "commit_message": "CB-5602 add flag to force process event (#35449)\n\nCo-authored-by: kseniaguzeeva <112612526+kseniaguzeeva@users.noreply.github.com>",
+        "commit_date": "2024-09-03 16:10:42",
+        "release_date": "2024-09-01 16:09:18",
+        "release_message": "\n                Changes since 24.1.5:\n                - SQL Editor:\n                    - Fixed highlighting of block $$ for functions and procedures when the semantic analysis option is enabled\n                    - Warning and errors handling and presentation was improved\n                    - Subquery semantic analysis was enhanced\n                    - Improved CREATE and DROP queries handling\n                    - Autocompletion for fully qualified names was fixed\n                    - Duplication of proposals with new completion engine enabled was fixed\n                    - Incorrect suggestions with new completion engine enabled were fixed\n                - AI Assistant:\n                    - Added new model 'gpt-4o-mini'\n                    - Removed deprecated model 'gpt-3.5-turbo-16K'\n                    - Fixed query generation when enabled formatting\n                - Data Editor:\n                    - Some datatypes icons were changed\n                    - Fixed filtering on columns with spaces\n                    - Added an ability to render geometry shapes in their assigned color if a 'color' column is present in the result set\n                    - Improved handling of fully qualified names in Grouping panel according to SQL dialect\n                    - Local links opening was restricted\n                - Datatransfer: Data transfer windows width was fixed\n                - Connectivity: Fixed verification of the 127.0.01 host when connecting via SSH\n                - General:\n                    - Fixed flipping splash screen on macOS Sequoia\n                    - Foreign Data wrappers configurator was fixed\n                    - 'Open auth links in embedded browser' setting was disabled by default\n                    - Search in Preferences was improved: added keywords for reopen, open, Hippie, autosave, and others\n                    - Fixed selection of wrong database when changing connection for database with similar names\n                    - Folder display in Simple view was fixed\n                    - Numeric (DWORD) type parameters in Windows Registry are now supported\n                    - 'Ctrl+Alt+Left / Right' hotkeys for 'Previous Edit Location' and 'Next Edit Location' were fixed\n                - Databases:\n                    - Clickhouse: Filtering by the Date data type was fixed\n                    - MySQL: Error/output log dump was fixed\n                    - PostgreSQL:\n                        - Ordering by interval datatypes in the Data grid was fixed\n                        - Added regexp functions support in SQL Editor (thanks to @anton-erofeev)\n                    - Redshift:\n                        - Connection stability was significantly improved\n                        - DDL presentation was fixed\n                        - Role, User, and Group presentation was fixed\n                    - SQL Server:\n                        - SQL Server driver was updated to version 12.8.0\n                        - Fixed DDL and column display with custom data types\n                - Localization: French localization was updated (thanks to @KawtharAlakri)\n            "
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-30 08:37:42",
@@ -24831,7 +24831,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
+        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -25417,7 +25417,7 @@
         "created_at": "2024-08-13 15:36:33",
         "description": "LLM vulnerability scanner",
         "commit_message": "automatic garak/resources/plugin_cache.json update",
-        "commit_date": "2024-08-23 16:15:47",
+        "commit_date": "2024-09-04 13:08:43",
         "release_date": "2024-08-13 15:51:08",
         "release_message": "## What's Changed\r\n\r\n### New plugins\r\n* probe: assess 🤗 repos for potentially malicious files (`fileformats`) by @leondz in https://github.com/leondz/garak/pull/767\r\n\r\n### New features\r\n* use XDG paths for configuration data and caching by @jmartin-tech in https://github.com/leondz/garak/pull/799\r\n* Report comparative info for detector scores by @leondz in https://github.com/leondz/garak/pull/814\r\n* enable HFDetector model configuration with hf_args by @jmartin-tech in https://github.com/leondz/garak/pull/810\r\n* Flags for varying NIM seed and temperature every call  by @leondz in https://github.com/leondz/garak/pull/808\r\n\r\n### Tuning & fixes\r\n* don't skip listing probes in 100%-pass-rate modules by @leondz in https://github.com/leondz/garak/pull/781\r\n* make default regex `raw` to remove python 3.12 warnings by @jmartin-tech in https://github.com/leondz/garak/pull/809\r\n* suppress HF `warning`s and lower during detector model instantiation by @leondz in https://github.com/leondz/garak/pull/807\r\n* validate cache consistency on first access by @jmartin-tech in https://github.com/leondz/garak/pull/815\r\n* clarify `continuation` probes by @leondz in https://github.com/leondz/garak/pull/813\r\n* print logfile path when invoked from CLI by @leondz in https://github.com/leondz/garak/pull/811\r\n* update slurprompts filename in encoding pkg by @leondz in https://github.com/leondz/garak/pull/818\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.14...v0.9.0.15"
     },
@@ -25882,8 +25882,8 @@
     "https://github.com/retirejs/retire.js": {
         "created_at": "2024-08-20 09:07:12",
         "description": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds.",
-        "commit_message": "Fix range",
-        "commit_date": "2024-08-20 09:06:57",
+        "commit_message": "Update svelte extractor",
+        "commit_date": "2024-09-02 15:01:23",
         "release_date": "2024-08-20 09:07:16",
         "release_message": "## [5.2.2]\n\n### Bugfix\n\n- Encode purls correctly in SBOM\n\n"
     },
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.81.159.199属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.162.196属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27098,8 +27098,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 200,
-        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
+        "status_code": 530,
+        "description": "Argo Tunnel error | www.webscan.cc | Cloudflare"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27506,8 +27506,8 @@
     "https://github.com/google/tsunami-security-scanner": {
         "created_at": "2024-08-20 14:22:01",
         "description": "Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.",
-        "commit_message": "Introduce the `RequiresCallbackServer` annotation that ensures a plugin only gets executed if the callback server is present.\n\nPiperOrigin-RevId: 667556868\nChange-Id: I8641612e85372a89812e2173705da999e640c35e",
-        "commit_date": "2024-08-26 12:59:04",
+        "commit_message": "Do not wait 1 minute on daemon thread on exit. Force explicit exit at the end of the main.\n\nThere should be no reason for the JVM to wait on daemon thread once Tsunami exits.\n\nThis will:\n- Make `ctrl+c` immediate rather than 1 minute delayed;\n- Reduce waiting time once Tsunami reports that it finished;\n\nPiperOrigin-RevId: 670175123\nChange-Id: I44f8998a715c7344a885fbbe674ca326714e2c8f",
+        "commit_date": "2024-09-02 11:50:48",
         "release_date": "2024-08-20 14:53:38",
         "release_message": "- #117: Fix a null exception that was introduced in version 0.0.23\r\n- #110: Add additional payloads for the callback server\r\n- 315dfe1: Change the behavior of `buildWebApplicationRootUrl` so that it can be used generically\r\n- #118: `setTrustAllCertificates` not directly accessible in client and set to true by default\r\n- Misc updates to the documentation"
     },
@@ -28330,8 +28330,8 @@
     "https://github.com/cowrie/cowrie": {
         "created_at": "2023-01-09 15:18:42",
         "description": "Cowrie SSH/Telnet Honeypot https://cowrie.readthedocs.io",
-        "commit_message": "build(deps): bump pyparsing from 3.1.2 to 3.1.4 (#2284)\n\nBumps [pyparsing](https://github.com/pyparsing/pyparsing) from 3.1.2 to 3.1.4.\r\n- [Release notes](https://github.com/pyparsing/pyparsing/releases)\r\n- [Changelog](https://github.com/pyparsing/pyparsing/blob/master/CHANGES)\r\n- [Commits](https://github.com/pyparsing/pyparsing/compare/pyparsing_3.1.2...3.1.4)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: pyparsing\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-08-27 01:46:26",
+        "commit_message": "build(deps): bump setuptools from 74.1.0 to 74.1.1 in /docs (#2299)\n\nBumps [setuptools](https://github.com/pypa/setuptools) from 74.1.0 to 74.1.1.\r\n- [Release notes](https://github.com/pypa/setuptools/releases)\r\n- [Changelog](https://github.com/pypa/setuptools/blob/main/NEWS.rst)\r\n- [Commits](https://github.com/pypa/setuptools/compare/v74.1.0...v74.1.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: setuptools\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-09-04 14:18:57",
         "release_date": "2023-01-09 15:19:22",
         "release_message": "Release 2.5.0\r\n*************\r\n\r\n* Datadog output module (Fred Baguelin <frederic.baguelin@datadoghq.com>)\r\n* General improvements to shell expansion handling\r\n* New version of Twisted supported\r\n* Python 3.11 support\r\n* Pypy 3.9 support\r\n* Add session type to Telegram output"
     },
