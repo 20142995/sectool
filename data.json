@@ -3479,7 +3479,7 @@
         "release_message": ""
     },
     "https://github.com/Ormicron/chatViewTool": {
-        "created_at": "2022-06-16 07:52:19",
+        "created_at": "2022-06-16 07:51:00",
         "description": "基于Java实现的图形化微信聊天记录解密查看器",
         "commit_date": "2024-05-20 06:18:51",
         "commit_message": "Update README.md",
@@ -10976,13 +10976,13 @@
         "release_message": "\n"
     },
     "https://github.com/mstxq17/MoreFind": {
-        "created_at": "2023-12-29 06:04:51",
+        "created_at": "2024-09-02 05:38:37",
         "description": "一款用于快速导出URL、Domain和IP的小工具",
-        "commit_date": "2023-12-29 06:04:51",
-        "commit_message": "ver: publish 1.5.6",
+        "commit_date": "2024-09-02 06:02:18",
+        "commit_message": "chore: update README.md",
         "release_tag": "v1.5.5",
-        "release_date": "2023-12-29 06:07:56",
-        "release_message": "## Changelog\n* aa0e51c feat: support item count with --show\n* 72c43fd fix: diff A-B set bug\n* b42dbfb fix: diff A-B set bug\n* 278f23e ver: publish 1.5.6\n\n"
+        "release_date": "2024-09-02 05:43:43",
+        "release_message": "## Changelog\n* 7738ab9327d10a237304c5ae31a43ddc4f6a952f feat: Match schema://host format from input data\n* f15e015d6a916604914b00940127de195f3fe15f fix: fix bug of schema:host new feature\n\n"
     },
     "https://github.com/Lz1y/impacket-ghostpotato": {
         "created_at": "2019-11-19 12:29:29",
@@ -20786,8 +20786,8 @@
     "https://github.com/ffffffff0x/f8x": {
         "created_at": "2022-09-03 18:18:17",
         "description": "红/蓝队环境自动化部署工具 | Red/Blue team environment automation deployment tool",
-        "commit_message": "add pupy_custom_port(2024/05/31)",
-        "commit_date": "2024-05-31 09:30:41",
+        "commit_message": "update(2024/09/02)",
+        "commit_date": "2024-09-02 07:35:45",
         "release_date": "2022-09-03 18:37:29",
         "release_message": "### [1.6.2] - 2022-9-4\r\n\r\n**兼容性**\r\n* 支持 CentOS 9 Stream\r\n* 支持 Fedora 36\r\n\r\n**功能添加**\r\n* -k 选项添加 iprange/dnsx/MoreFind\r\n* 添加 -wpscan 选项\r\n* 添加 -cs45 选项\r\n* 添加 -interactsh 选项\r\n* 添加 -merlin 选项\r\n* 添加 -msf 选项\r\n* 添加 -pupy 选项\r\n* 添加 -rg 选项\r\n* 添加 -sliver 选项\r\n* 添加 -sliver-client 选项\r\n* 添加 -sps 选项\r\n* 添加 -TerraformGoat 选项\r\n* 添加 -TerraformGoat 选项\r\n* 添加 -upgrade 选项\r\n\r\n**功能修改与优化**\r\n* 优化对docker环境的判断\r\n* 添加了对ruby的检测\r\n* 优化了对keytool工具的判断"
     },
@@ -24204,7 +24204,7 @@
     "https://github.com/outmansec/SelfIPAdressQuery": {
         "created_at": "2023-12-04 04:37:58",
         "description": "一款基于javafx的自有IP地址查询工具(适用于重保、蓝队、攻防演习等场景)",
-        "commit_date": "2023-12-07 16:37:37",
+        "commit_date": "2024-08-08 08:32:10",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "2023-12-04 04:52:57",
@@ -24556,8 +24556,8 @@
         "description": "理想安全应急响应中心"
     },
     "https://security.mafengwo.cn/": {
-        "status_code": 200,
-        "description": "马蜂窝安全应急响应中心"
+        "status_code": 525,
+        "description": ""
     },
     "https://security.mcd.cn/": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "40.79.247.97属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.38.65属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27521,7 +27521,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": "在线RC4加密,RC4解密工具-在线工具箱"
+        "description": ""
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
