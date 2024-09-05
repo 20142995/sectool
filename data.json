@@ -2872,7 +2872,7 @@
         "release_message": "## What's Changed\r\n* cola dnslog v1.1.0 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/1\r\n* 1.2.0 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/2\r\n* 1.2.0 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/4\r\n* cola dnslog v1.2.1 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/5\r\n* cola dnslog v1.2.2 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/6\r\n* cola dnslog v1.2.3 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/8\r\n* cola dnslog v1.3.0 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/9\r\n* cola dnslog v1.3.1 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/10\r\n* cola dnslog v1.3.1 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/11\r\n* update readme by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/12\r\n* 1.3.1 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/13\r\n* change by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/17\r\n* v1.3.2 fix bugs & add new functions by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/24\r\n* 1.3.2 by @AbelChe in https://github.com/AbelChe/cola_dnslog/pull/25\r\n\r\n## New Contributors\r\n* @AbelChe made their first contribution in https://github.com/AbelChe/cola_dnslog/pull/1\r\n\r\n**Full Changelog**: https://github.com/AbelChe/cola_dnslog/commits/v1.3.2### ### ### "
     },
     "https://github.com/0x727/SpringBootExploit": {
-        "created_at": "2022-04-17 13:47:30",
+        "created_at": "2021-10-22 03:11:17",
         "description": "项目是根据LandGrey/SpringBootVulExploit清单编写，目的hvv期间快速利用漏洞、降低漏洞利用门槛。",
         "commit_date": "2022-11-07 02:30:45",
         "commit_message": "Update README.md\n\nupdate image links",
@@ -3514,7 +3514,7 @@
         "release_message": "fix problems running on windows."
     },
     "https://github.com/SafeGroceryStore/MDUT": {
-        "created_at": "2022-05-24 05:04:07",
+        "created_at": "2020-12-30 02:49:31",
         "description": "MDUT - Multiple Database Utilization Tools",
         "commit_date": "2023-09-22 04:28:28",
         "commit_message": "Update ShellUtil.java",
@@ -23322,7 +23322,7 @@
         "release_message": ""
     },
     "https://github.com/broken5/bscan": {
-        "created_at": "2021-02-10 07:25:42",
+        "created_at": "2022-05-27 02:40:23",
         "description": null,
         "commit_date": "2021-02-18 10:42:49",
         "commit_message": "Update README.md",
@@ -24556,8 +24556,8 @@
         "description": "理想安全应急响应中心"
     },
     "https://security.mafengwo.cn/": {
-        "status_code": 525,
-        "description": ""
+        "status_code": 200,
+        "description": "马蜂窝安全应急响应中心"
     },
     "https://security.mcd.cn/": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.38.65属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.200.199.181属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27521,7 +27521,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
