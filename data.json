@@ -2343,8 +2343,8 @@
     "https://github.com/FunnyWolf/Viper": {
         "created_at": "2024-08-05 08:42:44",
         "description": "Attack Surface Management & Red Team Simulation Platform 互联网攻击面管理&红队模拟平台",
-        "commit_message": "update version 2.3.2",
-        "commit_date": "2024-08-05 08:42:44",
+        "commit_message": "update version 2.3.3",
+        "commit_date": "2024-08-21 05:06:39",
         "release_date": "2024-08-05 08:56:31",
         "release_message": "\r\n\r\n### 新功能\r\n\r\n- 新增`SMTP配置`,用于发送邮件\r\n- `数据分析多角色智能体`支持session\\handler相关信息查询分析\r\n- `数据分析多角色智能体`支持meterpreter相关操作(摄像头/截屏/键盘记录/查看文件)\r\n- 新增`邮件生成/发送智能体`,可以根据用户简单描述生成完整的邮件并发送\r\n\r\n### 优化\r\n\r\n- 部分按钮UI调整\r\n- `OpenAI`新增`gpt-4o-mini`模型\r\n- `渗透服务`状态检查新增心跳功能检测\r\n- `互联网攻击面管理`的worker代码合并到主分支\r\n\r\n### Bugfix\r\n\r\n- fix 部分界面抖动问题"
     },
@@ -4006,8 +4006,8 @@
     "https://github.com/WebGoat/WebGoat": {
         "created_at": "2023-12-05 10:21:15",
         "description": "WebGoat is a deliberately insecure application",
-        "commit_message": "chore: bump io.github.bonigarcia:webdrivermanager from 5.9.1 to 5.9.2 (#1866)\n\nBumps [io.github.bonigarcia:webdrivermanager](https://github.com/bonigarcia/webdrivermanager) from 5.9.1 to 5.9.2.\r\n- [Release notes](https://github.com/bonigarcia/webdrivermanager/releases)\r\n- [Changelog](https://github.com/bonigarcia/webdrivermanager/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/bonigarcia/webdrivermanager/compare/webdrivermanager-5.9.1...webdrivermanager-5.9.2)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: io.github.bonigarcia:webdrivermanager\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-08-04 13:57:57",
+        "commit_message": "chore: bump com.google.guava:guava from 33.2.1-jre to 33.3.0-jre (#1879)\n\nBumps [com.google.guava:guava](https://github.com/google/guava) from 33.2.1-jre to 33.3.0-jre.\r\n- [Release notes](https://github.com/google/guava/releases)\r\n- [Commits](https://github.com/google/guava/commits)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: com.google.guava:guava\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-09-04 19:44:38",
         "release_date": "2023-12-05 10:23:50",
         "release_message": "## Version v2023.8 \r\n\r\n### 🚀 New functionality\r\n\r\n- Consistent environment values and url references (#1677)\r\n- Show directly requested file in requests overview\r\n- Show creating time in file upload overview\r\n\r\n ### 🐞 Bug fixes\r\n\r\n- Fix startup message (#1687)\r\n- Fix/state of software supply chain links (#1683)\r\n- Fix WebWolf UI (#1686)\r\n\r\n### 🔄 Technical tasks\r\n\r\n- bump actions/setup-java from 3 to 4 (#1690)\r\n- bump commons-io:commons-io from 2.14.0 to 2.15.1 (#1689)\r\n- bump com.diffplug.spotless:spotless-maven-plugin (#1688)\r\n   \r\n Full change log: https://github.com/WebGoat/WebGoat/compare/v2023.5...v2023.8  \r\n\r\n\r\n Team WebGoat\r\n"
     },
@@ -15189,13 +15189,13 @@
         "release_message": "增加UUID免杀方法"
     },
     "https://github.com/gh0stkey/CaA": {
-        "created_at": "2024-04-23 09:06:06",
+        "created_at": "2024-08-25 08:25:21",
         "description": "CaA - Collector and Analyzer, Insight into information, exploring with intelligence in a thousand ways.",
-        "commit_date": "2024-07-31 00:58:57",
-        "commit_message": "Update",
+        "commit_date": "2024-08-26 06:41:22",
+        "commit_message": "Version: 1.0 Update",
         "release_tag": "0.5",
-        "release_date": "2024-04-23 09:44:42",
-        "release_message": "CaA Beta 0.9 更新内容：\r\n1. 优化SQLite数据库操作性能；\r\n2. 新增Fuzzer - Value - Rename功能。"
+        "release_date": "2024-08-25 08:25:48",
+        "release_message": "## 更新内容\r\n\r\nCaA 1.0更新内容如下。\r\n\r\n### 功能更新\r\n\r\n1. 优化数据库的读取和写入，提高处理速度；\r\n2. 优化Databoard数据查询，采用便捷式查询；\r\n3. Fuzzer模块改为Generator模块，以BurpSuite Intruder作为Fuzzing底座提供Payload；\r\n4. 新增Config配置页面，可以用于作用域的开关以及后缀名、Host、状态码的过滤；\r\n5. 新增右键可以一键复制各种类型的参数值（RAW、JSON、XML）。\r\n\r\n### 问题修复\r\n\r\n修复若干个问题，由于内容过多，这里不一一列出。\r\n\r\n### 致谢信息\r\n\r\n1. 感谢 @JaveleyQAQ 提供的优化建议；\r\n2. 感谢 @Wwon1oung @WasteMaterial @nocultrue @geek4what 等朋友的反馈和等待。"
     },
     "https://github.com/3gstudent/List-RDP-Connections-History": {
         "created_at": "2018-03-15 00:07:16",
@@ -23562,7 +23562,7 @@
         "release_message": ""
     },
     "https://github.com/t3l3machus/Villain": {
-        "created_at": "2024-07-29 12:03:09",
+        "created_at": "2022-10-25 22:02:59",
         "description": "Villain is a high level stage 0/1 C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells, enhance their functionality with additional features (commands, utilities) and share them among connected sibling servers (Villain instances running on different machines).",
         "commit_date": "2024-08-02 10:24:18",
         "commit_message": "Update README.md",
@@ -25432,8 +25432,8 @@
     "https://github.com/google/oss-fuzz": {
         "created_at": "2016-07-20 19:39:50",
         "description": "OSS-Fuzz - continuous fuzzing for open source software.",
-        "commit_message": "llamacpp: free grammar if successful (#12280)\n\nSigned-off-by: David Korczynski <david@adalogics.com>",
-        "commit_date": "2024-07-26 21:38:31"
+        "commit_message": "teleport: Update contacts to remove departed individuals (#12437)\n\n@jentfoo and I have departed @gravitational, so removing ourselves and\r\nmaking @zmb3 the primary contact.",
+        "commit_date": "2024-09-02 17:49:22"
     },
     "https://github.com/nmalcolm/Inventus": {
         "created_at": "2017-08-28 11:48:02",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.162.196属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.29.195属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27098,8 +27098,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 530,
-        "description": "Argo Tunnel error | www.webscan.cc | Cloudflare"
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -29118,5 +29118,11 @@
         "description": null,
         "commit_message": "Update File",
         "commit_date": "2024-07-17 08:26:03"
+    },
+    "https://github.com/iagox86/hash_extender": {
+        "created_at": "2012-08-25 23:59:23",
+        "description": null,
+        "commit_message": "Merge pull request #21 from nanoeve/master\n\nAdd SM3",
+        "commit_date": "2022-07-21 19:15:32"
     }
 }
