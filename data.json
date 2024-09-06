@@ -1657,7 +1657,7 @@
         "release_message": "v1.1\r\n    ★新增存活预判（当目标无法连接3次自动撤销任务）\r\n    ★新增首页爬虫（只抓取首页的目录进行二次扫描）\r\n    ★新增文件存储（可以保存扫描结果到指定文位置）\r\n    ★新增跳过大小（可以设定要忽略的页面大小，min-max）\r\n    ★新增GET模式关键字词组过滤（使用GET模式和关闭自定义404才会生效，可以忽略包含指定关键词的页面）\r\n    ★默认参数和值初始化更加科学合理（不合理的设置会导致目标产生CC或者漏报）\r\n    ★优化扫描速度（比1.0提升速度大概5-10倍，通过maxspeed参数控制速度最大值）\r\n    ★优化内存占用（1000/s内存占用10-30M左右）\r\n\r\nv1.0\r\n    ★支持修改UserAgent\r\n    ★支持开启和关闭自定义404识别\r\n    ★支持控速\r\n    ★支持fuzz和字典扫描模式\r\n    ★支持字典变量"
     },
     "https://github.com/ww23/BlindWatermark": {
-        "created_at": "2019-03-18 12:23:50",
+        "created_at": "2018-07-19 11:59:44",
         "description": "Java 盲水印",
         "commit_date": "2020-04-05 14:08:06",
         "commit_message": "Change to use the API in the org.opencv namespace",
@@ -2863,7 +2863,7 @@
         "release_message": "添加内容是为了支持SpringBootExploit工具，是定制版的服务端。\r\n\r\n1. 启动方式：java -jar  JNDIExploit-1.2-SNAPSHOT.jar 默认绑定127.0.0.1 LDAP 绑定 1389 HTTP Server 绑定3456\r\n2. 根目录下BehinderFilter.class是内存马 /ateam 密码是ateamnb \r\n3. 根目录下Calc.class是但计算器\r\n4. data/behinder3.jar 是为了支持SnakYaml RCE\r\n5. 添加HTTPServer处理更多的请求，为了更好支持SpringBootExploit工具\r\n6. 将文件放在data目录下，通过HTTPServer可以访问文件内容如同python的HTTPServer"
     },
     "https://github.com/AbelChe/cola_dnslog": {
-        "created_at": "2023-02-04 12:23:27",
+        "created_at": "2022-07-30 09:30:31",
         "description": "Cola Dnslog v1.3.2 更加强大的dnslog平台/无回显漏洞探测辅助平台 完全开源 dnslog httplog ldaplog rmilog 支持dns http ldap rmi等协议 提供API调用方式便于与其他工具结合 支持钉钉机器人、Bark等提醒 支持docker一键部署 后端完全使用python实现 前端基于vue-element-admin二开",
         "commit_date": "2023-02-06 04:48:56",
         "commit_message": "Merge pull request #26 from AbelChe/1.3.2\n\nfix webserver 404",
@@ -3705,7 +3705,7 @@
         "release_message": "Last version that works with python 2.7"
     },
     "https://github.com/maaaaz/thc-hydra-windows": {
-        "created_at": "2020-08-01 13:36:59",
+        "created_at": "2014-08-17 12:48:34",
         "description": "The great THC-HYDRA tool compiled for Windows",
         "commit_date": "2023-02-06 09:01:04",
         "commit_message": "MS VC link update",
@@ -6229,8 +6229,8 @@
     "https://github.com/taojy123/KeymouseGo": {
         "created_at": "2023-02-10 15:56:29",
         "description": "类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入 | automate mouse clicks and keyboard input",
-        "commit_date": "2023-09-05 14:34:26",
-        "commit_message": "Merge branch 'master' of https://github.com/taojy123/KeymouseGo",
+        "commit_date": "2024-08-31 04:57:44",
+        "commit_message": "Merge pull request #300 from Klosw/master\n\n启用高 DPI 缩放",
         "release_tag": "v5.1.1",
         "release_date": "2023-02-10 16:28:07",
         "release_message": "## v5.1.1\r\nFixed bugs:\r\n+ 鼠标中键无法触发热键功能 #184 \r\n+ 打包GUI程序报错 #194 \r\n+ 无法在命令行状态下运行 #190 \r\n\r\n可执行程序均通过Github Action打包: [Original-link](https://github.com/taojy123/KeymouseGo/actions/runs/4145514392)\r\napp版本(mac)打包来自:[Original-link](https://github.com/taojy123/KeymouseGo/actions/runs/4319382889)"
@@ -15018,7 +15018,7 @@
         "release_message": ""
     },
     "https://github.com/0671/RabR": {
-        "created_at": "2021-07-19 13:38:45",
+        "created_at": "2021-07-03 12:32:20",
         "description": "Redis-Attack By Replication (通过主从复制攻击Redis)   ",
         "commit_date": "2022-11-25 06:43:58",
         "commit_message": "Update README.md",
@@ -21817,7 +21817,7 @@
         "release_message": ""
     },
     "https://github.com/ffffffff0x/gendict": {
-        "created_at": "2023-09-05 08:15:20",
+        "created_at": "2022-09-20 15:58:22",
         "description": "字典生成工具",
         "release_tag": "v1.0.5",
         "release_date": "2023-09-05 08:17:21",
@@ -23791,7 +23791,7 @@
         "release_message": "更新内容如下：\r\n1. 从版本1.4.1开始，代码开源\r\n2. 修复导入请求包txt时，发送请求仅第一个报文正常其余报文参数被删的问题\r\n3. 修复使用--proxy设置代理时的访问中断问题\r\n4. 默认超时时长修改为10秒\r\n5. 显示发送payload的响应时长（有些时长过长的请求可能不会触发dnslog，需手动修改域名地址信息尝试）\r\n6. 新增fastjson mysql jdbc的默认payload"
     },
     "https://github.com/BeichenDream/CVE-2022-26134-Godzilla-MEMSHELL": {
-        "created_at": "2022-06-07 09:25:40",
+        "created_at": "2022-06-07 09:19:02",
         "description": null,
         "commit_date": "2022-06-07 10:35:18",
         "commit_message": "Update Main.java",
@@ -25194,8 +25194,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 200,
-        "description": "Practical Cryptography"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "74.249.5.109属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.102.46.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
