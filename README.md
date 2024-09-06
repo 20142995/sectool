@@ -448,12 +448,12 @@
 #### HASH长度扩展攻击
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HashPump](https://github.com/Phantomn/HashPump) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [hash_extender](https://github.com/iagox86/hash_extender) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [md5-extension-attack](https://github.com/JoyChou93/md5-extension-attack) 
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [md5-extension-attack](https://github.com/JoyChou93/md5-extension-attack) MD5长度扩展攻击
 #### 定向目录扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-wscan](https://github.com/OrangeWatermelon/ctf-wscan) 在kingkaki的项目上进行了修改，改为单线程，可以在任意目录下执行，对重复的请求进行了过滤
 ### 相关资源
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-archives](https://github.com/sajjadium/ctf-archives)  CTF Archives: Collection of CTF Challenges.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTFd](https://github.com/CTFd/CTFd) CTFs as you need them
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-archives](https://github.com/sajjadium/ctf-archives)  CTF Archives: Collection of CTF Challenges.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-OS](https://github.com/ProbiusOfficial/CTF-OS) 【Hello CTF】专为CTF比赛封装的虚拟机，基于工具集封装多个版本和系统，更多选择，开箱即用。比赛愉快！
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-challenges](https://github.com/ctf-wiki/ctf-challenges) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BerylEnigma 1.15.0](https://github.com/ffffffff0x/BerylEnigma) ffffffff0x team toolset for penetration testing, cryptography re...
@@ -1210,7 +1210,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [40.79.247.97属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [172.183.112.119属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1459,13 +1459,13 @@
 - <img src="https://favicon.qqsuu.cn/souyouxiang.com" alt="" style="height: 20px;"> [搜邮箱 | 搜邮箱](https://souyouxiang.com/) 
 ### 后渗透
 #### 代理转发
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [proxychains-ng v4.16](https://github.com/rofl0r/proxychains-ng) proxychains ng (new generation) - a preloader which hooks call...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Stowaway v2.1](https://github.com/ph4ntonn/Stowaway) 👻Stowaway -- Multi-hop Proxy Tool for pentesters
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [suo5](https://github.com/zema1/suo5) 一款高性能 HTTP 代理隧道工具 | A high-performance http proxy tunneling tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [frp](https://github.com/fatedier/frp) A fast reverse proxy to help you expose a local server behind a NAT or firewall...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pingtunnel](https://github.com/esrrhs/pingtunnel) Pingtunnel is a tool that send TCP/UDP traffic over ICMP
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Stowaway v2.1](https://github.com/ph4ntonn/Stowaway) 👻Stowaway -- Multi-hop Proxy Tool for pentesters
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Neo-reGeorg v5.1.0](https://github.com/L-codes/Neo-reGeorg) Neo-reGeorg is a project that seeks to aggressively refactor reG...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SeaMoon](https://github.com/DVKunion/SeaMoon) 月海 (Sea Moon) 是一款 FaaS/BaaS 实现的 Serverless 网络工具
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [proxychains-ng v4.16](https://github.com/rofl0r/proxychains-ng) proxychains ng (new generation) - a preloader which hooks call...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nps](https://github.com/yisier/nps) 在 0.26.10 版本的基础上修改而来的 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [goproxy v14.1](https://github.com/snail007/goproxy) 🔥  Proxy is a high performance HTTP(S) proxies, SOCKS5 proxies,WEBSOC...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ngrok](https://github.com/inconshreveable/ngrok) Unified ingress for developers
@@ -1923,10 +1923,10 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [h4tools H4V3](https://github.com/H4ckBu7eer-EX/h4tools) 一个安卓渗透工具盒子
 - <img src="https://favicon.qqsuu.cn/www.sqlsec.com" alt="" style="height: 20px;"> [Just a moment...](https://www.sqlsec.com/tools.html) 
 #### 工具集成环境
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [f8x](https://github.com/ffffffff0x/f8x) 红/蓝队环境自动化部署工具 | Red/Blue team environment automation deployment tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PST-Bucket](https://github.com/arch3rPro/PST-Bucket) Scoop-Buket for Penetration Suite Toolkit  -  Windows渗透测试工具仓库For Scoop
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Online_tools](https://github.com/CuriousLearnerDev/Online_tools) 该工具是一个集成了非常多渗透测试工具，类似软件商城的工具可以进行工具下载，工具的更新，工具编写了自动化的安装脚本，不用担心工具跑不起来。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [commando-vm](https://github.com/mandiant/commando-vm) Complete Mandiant Offensive VM (Commando VM), a fully customizable Wind...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [f8x](https://github.com/ffffffff0x/f8x) 红/蓝队环境自动化部署工具 | Red/Blue team environment automation deployment tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Pentest-Windows v2.2](https://github.com/arch3rPro/Pentest-Windows) Windows11 Penetration Suite Toolkit 一个开箱即用的windows渗透测试环境
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [axiom](https://github.com/pry0cc/axiom) The dynamic infrastructure framework for everybody! Distribute the workload o...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [okfafu-pentestVM-public](https://github.com/mrl64/okfafu-pentestVM-public) okfafu渗透虚拟机公开版
@@ -1961,12 +1961,12 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [anew v0.1.1](https://github.com/tomnomnom/anew) A tool for adding new lines to files, skipping duplicates
 #### 钓鱼辅助
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PhishingBook](https://github.com/tib36/PhishingBook) 红蓝对抗：钓鱼演练资源汇总&备忘录
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [USBAirborne](https://github.com/Push3AX/USBAirborne) An Advanced BadUSB
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gophish v0.12.1](https://github.com/gophish/gophish) Open-Source Phishing Toolkit
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [EmailSender](https://github.com/A10ha/EmailSender) 钓鱼邮件便捷发送工具（GUI）
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [goblin v0.4.6](https://github.com/xiecat/goblin) 一款适用于红蓝对抗中的仿真钓鱼系统
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [EwoMail v1.15](https://github.com/gyxuehu/EwoMail) EwoMail是基于Linux的企业邮箱服务器，集成了众多优秀稳定的组件，是一个快速部署、简单高效、多语言、安全稳定的邮件解决方案
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Taie-AutoPhishing](https://github.com/taielab/Taie-AutoPhishing) 剑指钓鱼基建快速部署自动化
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [USBAirborne](https://github.com/Push3AX/USBAirborne) 
 ### 端口服务安全
 #### 服务漏洞
 ##### JDWP
@@ -2489,8 +2489,8 @@
 #### 网络层面
 ##### IP信息
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [china-operator-ip](https://github.com/gaoyifan/china-operator-ip) 中国运营商IPv4/IPv6地址库-每日更新
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) 小巧精悍、准确、实用 GeoIP2 数据库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SelfIPAdressQuery](https://github.com/outmansec/SelfIPAdressQuery) 一款基于javafx的自有IP地址查询工具(适用于重保、蓝队、攻防演习等场景)
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) 小巧精悍、准确、实用 GeoIP2 数据库
 ### 应急响应中心
 - <img src="https://favicon.qqsuu.cn/dhsrc.dhgate.com" alt="" style="height: 20px;"> [DHSRC        安全应急响应中心](http://dhsrc.dhgate.com/) 
 - <img src="https://favicon.qqsuu.cn/sec.didichuxing.com" alt="" style="height: 20px;"> [滴滴出行安全应急响应中心](http://sec.didichuxing.com/) 
