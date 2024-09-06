@@ -1076,7 +1076,7 @@
         "release_message": "> 配置文件有变更，建议备份后重新生成配置文件\r\n\r\n### 💯 新增\r\n- 新增http流生成模板面板，实现智能生成PoC模板（基于大语言模型，配套服务：[nuclei-plus-server](https://github.com/Yong-An-Dang/nuclei-plus-server)）\r\n\r\n### ⭐ 优化\r\n- 优化模板同步接口：默认配置路径拼接 + “/template/sync”\r\n- 优化同步dir的获取\r\n- 模板编辑面板自动补全快捷键：ctrl +i\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.3.5...v7.4.8"
     },
     "https://github.com/Threekiii/Vulnerability-Wiki": {
-        "created_at": "2022-04-29 05:36:33",
+        "created_at": "2024-03-07 09:30:14",
         "description": "基于 docsify 快速部署 Awesome-POC 中的漏洞文档",
         "commit_message": "update",
         "commit_date": "2024-07-18 02:46:44",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.238.27.211属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.26.84属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -29124,5 +29124,19 @@
         "description": null,
         "commit_message": "Merge pull request #21 from nanoeve/master\n\nAdd SM3",
         "commit_date": "2022-07-21 19:15:32"
+    },
+    "https://github.com/JoyChou93/md5-extension-attack": {
+        "created_at": "2016-06-07 14:38:00",
+        "description": "MD5长度扩展攻击",
+        "commit_message": "md5pad",
+        "commit_date": "2016-06-08 05:13:53"
+    },
+    "https://github.com/Push3AX/USBAirborne": {
+        "created_at": "2024-01-03 17:29:12",
+        "description": "An Advanced BadUSB",
+        "commit_message": "docs",
+        "commit_date": "2024-01-15 12:19:32",
+        "release_date": "2024-01-15 12:04:22",
+        "release_message": "1. New BadUSB features\r\n2. Filesystem supports\r\n3. New documentation\r\n4. Bug fixes"
     }
 }
