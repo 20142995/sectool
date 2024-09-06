@@ -15794,8 +15794,8 @@
     "https://github.com/rofl0r/proxychains-ng": {
         "created_at": "2024-01-21 17:28:35",
         "description": "proxychains ng (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. continuation of the unmaintained proxychains project. the sf.net page is currently not updated, use releases from github release page instead.",
-        "commit_date": "2024-06-13 12:21:16",
-        "commit_message": "add new --fat-binary-m2 option\n\nthis enables arm64e in the proxychains4 binary additionally to the\ninjected library, which already did so with the -m1 option.\n\ncloses #569",
+        "commit_date": "2024-08-29 09:31:35",
+        "commit_message": "core: use string instead of compound literal\n\nfixes compilation when memcpy is defined as a function-like macro at\nthe cost of one more byte used for the unused zero terminator.\n\ncloses #578",
         "release_tag": "v4.16",
         "release_date": "2024-01-21 17:38:38",
         "release_message": "- add hook for close_range function, fixing newer versions of openssh\r\n- fat-binary-m1 option for mac\r\n- fix DNS error handling in proxy_dns_old\r\n- simplify init code\r\n- fix openbsd preloading\r\n- fix double-close in multithreaded apps\r\n- various improvements to configure script\r\n\r\nhttp://ftp.barfooze.de/pub/sabotage/tarballs/proxychains-ng-4.17.tar.xz\r\n\r\n```\r\nsha512sum proxychains-ng-4.17.tar.xz \r\naa35ae27305065a7f296cbf99b3308b2ac759287761a5d234ddaa558292467fae88c33a3ced1d71329cf6a7e8f56aa4e2ffd4274d57d87857f13ca8393d5d983  proxychains-ng-4.17.tar.xz\r\n```\r\n\r\n```"
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.26.84属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.112.119属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
