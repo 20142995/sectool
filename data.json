@@ -228,8 +228,8 @@
     "https://github.com/gh0stkey/HaE": {
         "created_at": "2024-08-23 14:03:31",
         "description": "HaE - Highlighter and Extractor, Empower ethical hacker for efficient operations.",
-        "commit_date": "2024-08-23 14:03:31",
-        "commit_message": "Version: 3.3.2 Update",
+        "commit_date": "2024-08-28 08:19:24",
+        "commit_message": "Update README.md",
         "release_tag": "2.4.6",
         "release_date": "2024-08-23 14:17:14",
         "release_message": "## 更新内容\r\n\r\nHaE 3.3.2更新内容如下。\r\n\r\n### 功能更新\r\n\r\n无。\r\n\r\n### 问题修复\r\n\r\n1. 修复假后台线程，正确使用后台线程函数。\r\n2. 修复报错提示，添加对HTTP消息过滤的容错处理。\r\n3. 修复数据错乱展示，新增数据存储边界。\r\n4. 修复配置初始化缺失，新增初始化信息。"
@@ -642,11 +642,11 @@
     "https://github.com/ph4ntonn/Stowaway": {
         "created_at": "2024-03-29 07:21:43",
         "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters",
-        "commit_date": "2024-08-07 18:02:54",
-        "commit_message": "Remove DS_Store",
+        "commit_date": "2024-08-28 14:23:10",
+        "commit_message": "Update README",
         "release_tag": "v2.1",
         "release_date": "2024-03-29 07:36:22",
-        "release_message": "👻 v2.2 is released~ Fix bugs & Add new features\r\n\r\n## BE AWARE\r\n-  If you are trying to use admin on windows,plz make sure you have installed [ansicon](https://github.com/adoxa/ansicon/releases)\r\n- And if you have any problems when using command ```shell```,plz check the [shell.go](https://github.com/ph4ntonn/Stowaway/blob/master/agent/handler/shell.go) and read the annotation first!!! Maybe it can solve ur problems.\r\n\r\n## Update\r\n- 2021.10.1 \r\n    - Switch AES-CBC to AES-GCM.Thanks to @SignorMercurio \r\n    - Fix bugs. Thanks to @SignorMercurio \r\n- 2022.1.23\r\n    - Fix shell&topo bugs.Thanks to @lz520520\r\n- 2022.4.8 \r\n    - Fix data loss bug when closing a short connection.Thanks to @lz520520\r\n    - Add gzip function.Thanks to @lz520520 \r\n    - Optimize the key code\r\n    - Fix some bugs\r\n- 2022.7.19\r\n    - Fix nil pointer bug #41.Thanks to @zyylhn\r\n- 2023.7.20\r\n    - Add http proxy support\r\n- 2023.10.31\r\n    - Replace compressed macos executable file with uncompressed one, since the system version newer than macOS Ventura(13.5) will make upx crash. Users can compress Stowaway themselves if necessary(Target MacOS system version must below 13.0). If you want to learn more, check the details https://github.com/upx/upx/issues/612\r\n- 2024.3.28\r\n    - Allow admin to exit when nothing connected https://github.com/ph4ntonn/Stowaway/commit/2ed667d41eacc5a60e5c0a841f3e16246760fcce\r\n- 2024.3.29\r\n   - Enable TLS feature for the connection between nodes https://github.com/ph4ntonn/Stowaway/commit/af059a7e5987decbc6b426b3ec7f7de326bd82c6. Thanks to @lz520520\r\n   - Socks can listen on specific interface  https://github.com/ph4ntonn/Stowaway/commit/b183e10838b147ed4126448ad44e42b9c5363cb6\r\n- 2024.3.31\r\n   - Update TLS https://github.com/ph4ntonn/Stowaway/commit/de126dbdb3d76111be06daaef2963708bce633e3\r\n- 2024.4.1\r\n   - Enable WS for inter-node traffic https://github.com/ph4ntonn/Stowaway/commit/e4b324dd442eecd61360989c6c73949c06c55407 https://github.com/ph4ntonn/Stowaway/commit/e48c50ba0a0e1a2581608e23fb2601adc5ea5b2d This functionality is still lacking and requires further improvement. For now, it works well within the NGINX environment.\r\n- 2024.4.11\r\n   - Fix nil pointer bug #61\r\n- 2024.8.7\r\n   - Add force quit option under shell/ssh mode https://github.com/ph4ntonn/Stowaway/commit/14a6bd375fcb97f1af41633185b2d4d56bc17620"
+        "release_message": "👻 v2.2 is released~ Fix bugs & Add new features\r\n\r\n## BE AWARE\r\n-  If you are trying to use admin on windows,plz make sure you have installed [ansicon](https://github.com/adoxa/ansicon/releases)\r\n- And if you have any problems when using command ```shell```,plz check the [shell.go](https://github.com/ph4ntonn/Stowaway/blob/master/agent/handler/shell.go) and read the annotation first!!! Maybe it can solve ur problems.\r\n\r\n## Update\r\n- 2021.10.1 \r\n    - Switch AES-CBC to AES-GCM.Thanks to @SignorMercurio \r\n    - Fix bugs. Thanks to @SignorMercurio \r\n- 2022.1.23\r\n    - Fix shell&topo bugs.Thanks to @lz520520\r\n- 2022.4.8 \r\n    - Fix data loss bug when closing a short connection.Thanks to @lz520520\r\n    - Add gzip function.Thanks to @lz520520 \r\n    - Optimize the key code\r\n    - Fix some bugs\r\n- 2022.7.19\r\n    - Fix nil pointer bug #41.Thanks to @zyylhn\r\n- 2023.7.20\r\n    - Add http proxy support\r\n- 2023.10.31\r\n    - Replace compressed macos executable file with uncompressed one, since the system version newer than macOS Ventura(13.5) will make upx crash. Users can compress Stowaway themselves if necessary(Target MacOS system version must below 13.0). If you want to learn more, check the details https://github.com/upx/upx/issues/612\r\n- 2024.3.28\r\n    - Allow admin to exit when nothing connected https://github.com/ph4ntonn/Stowaway/commit/2ed667d41eacc5a60e5c0a841f3e16246760fcce\r\n- 2024.3.29\r\n   - Enable TLS feature for the connection between nodes https://github.com/ph4ntonn/Stowaway/commit/af059a7e5987decbc6b426b3ec7f7de326bd82c6. Thanks to @lz520520\r\n   - Socks can listen on specific interface  https://github.com/ph4ntonn/Stowaway/commit/b183e10838b147ed4126448ad44e42b9c5363cb6\r\n- 2024.3.31\r\n   - Update TLS https://github.com/ph4ntonn/Stowaway/commit/de126dbdb3d76111be06daaef2963708bce633e3\r\n- 2024.4.1\r\n   - Enable WS for inter-node traffic https://github.com/ph4ntonn/Stowaway/commit/e4b324dd442eecd61360989c6c73949c06c55407 https://github.com/ph4ntonn/Stowaway/commit/e48c50ba0a0e1a2581608e23fb2601adc5ea5b2d This functionality is still lacking and requires further improvement. For now, it works well within the NGINX environment.\r\n- 2024.4.11\r\n   - Fix nil pointer bug #61\r\n- 2024.8.7\r\n   - Add force quit option under shell/ssh mode https://github.com/ph4ntonn/Stowaway/commit/14a6bd375fcb97f1af41633185b2d4d56bc17620\r\n- 2024.8.19\r\n   - Fix websocket https://github.com/ph4ntonn/Stowaway/commit/507a2283058222b0b3f648e625510c706cadb428"
     },
     "https://github.com/uknowsec/BurpSuite-Extender-fastjson": {
         "created_at": "2020-03-07 13:17:08",
@@ -6148,8 +6148,8 @@
     "https://github.com/CTFd/CTFd": {
         "created_at": "2024-07-24 16:38:33",
         "description": "CTFs as you need them",
-        "commit_date": "2024-08-08 21:29:31",
-        "commit_message": "Remove warning (#2579)",
+        "commit_date": "2024-09-03 05:28:51",
+        "commit_message": "Merge pull request #2592 from CTFd/update-core-beta\n\nUpdate core beta",
         "release_tag": "",
         "release_date": "2024-07-24 21:00:44",
         "release_message": "# 3.7.3 / 2024-07-24\r\n\r\n**Security**\r\n\r\n- Fix issue where challenge solves and account names could be seen despite accounts not being visible\r\n\r\n**Admin Panel**\r\n\r\n- Add a Localization section in the Config Panel\r\n- Add the Default Language config in the Admin Panel to allow admins to configure a default language\r\n  - Previously CTFd would default to an auto-detected language specified by the user's browser. This setting allows for that default to be set by the admin instead of auto-detected.\r\n\r\n**Translations**\r\n\r\n- Fix issue where Simplified Chinese would be used instead of Traditional Chinese\r\n- Update the language names for Simplified Chinese and Traditional Chinese for clarity\r\n- Update Vietnamese translation\r\n- Add Catalan translation"
@@ -6334,12 +6334,12 @@
         "release_message": "## What’s Changed\r\n\r\n* Updated `__main__` to be smarter (#652) @bee-san\r\n* Added linking & description to Cipheys pywhat (#645) @bee-san\r\n* Add click tests & fix greppable bug with `pywhat` (#654) @bee-san\r\n* Update pywhat requirement from >=0.2.5,<1.1.0 to >=0.2.5,<1.2.0 (#650) @dependabot\r\n* Remove unnecessary newline (#649) @swanandx\r\n* Update pywhat requirement from ^0.2.5 to >=0.2.5,<1.1.0 (#647) @dependabot\r\n* Remove yaspin and replace it with Rich (#638) @bee-san\r\n"
     },
     "https://github.com/audacity/audacity": {
-        "created_at": "2024-07-19 11:25:04",
+        "created_at": "2024-09-01 07:17:23",
         "description": "Audio Editor                                     ",
-        "commit_message": "lighten focus border",
-        "commit_date": "2024-08-20 12:46:36",
-        "release_date": "2024-07-22 08:06:54",
-        "release_message": "This is a hotfix release. It fixes the following bugs:\r\n\r\n   * #6889 Fixed a crash when exporting multichannel audio.\r\n   * #6882 Fixed a crash when pasting mono clips into stereo tracks.\r\n   * #4763 (Accessibility) Made more values available when using the plain UI of plugins. (Thanks, David Bailes!)\r\n   * #6855 Prevented incompatible versions from opening projects created in 3.6.x.\r\n   * #6892 Fixed the dark theme sometimes having white corners in buttons."
+        "commit_message": "[AU4] Clip splitting",
+        "commit_date": "2024-09-05 12:45:44",
+        "release_date": "2024-09-03 16:31:00",
+        "release_message": "This is a patch release. It adds a \"Legacy\" effects section containing the old Limiter, Compressor and Classic Filters.\r\n\r\n It also fixes the following bugs: \r\n   * #6995 Fixed a hang after undoing.\r\n   * #6912 Fixed the zero line going missing.\r\n   * #6927 Fixed envelope appearance for clips offset from 0. \r\n   * #6955 Fixed Audacity turning white on some systems.\r\n   * #6857 Fixed the pitch indicator disappearing on Linux when hitting double digits.\r\n   * #6941 Fixed cutting not putting clips into the clipboard.\r\n   * #6926 Fixed pasting sometimes resetting the clip name.\r\n   * #6751 Fixed the track header UI breaking when resizing channels in a stereo track.\r\n   * #6847, #6846 Fixed LV2 plugin detection on macOS and Windows.\r\n   * #3679 Fixed Labeled Audio operations.\r\n   * #6924, #6989 Fixed Cloud projects sometimes not opening.\r\n   * #7060 Fixed a bug regarding stereo-to-mono splitting.\r\n   * #7055 Fixed a bug causing tracks with master effects sometimes only exporting silence.\r\n   * #7025, #7133 Fixed multi-channel OGG and Wavpack import.\r\n   * #7018 Fixed a crash after recording long sessions.\r\n   * #7126 Fixed a crash when failing to load a cloud project.\r\n   * #7093 Fixed Audacity maxing out the CPU when minimized.\r\n   * #7124 Fixed the \"editing clips can move other clips\" preference desynchronizing multiple tracks.\r\n\r\n Other changes:\r\n \r\n   * #6736 The time track range now is a single dialog.\r\n   * #6929 Reverted the behavior of selection change when importing a clip to the previous behavior."
     },
     "https://github.com/0Chencc/CTFCrackTools": {
         "created_at": "2022-11-16 22:23:09",
@@ -12885,7 +12885,7 @@
         "created_at": "2011-08-30 06:13:20",
         "description": "Metasploit Framework",
         "commit_message": "automatic module_metadata_base.json update",
-        "commit_date": "2024-08-19 08:40:02"
+        "commit_date": "2024-09-05 18:17:29"
     },
     "https://github.com/PowerDNS/pdns": {
         "created_at": "2013-04-26 11:16:49",
@@ -12899,8 +12899,8 @@
     "https://github.com/volatilityfoundation/volatility3": {
         "created_at": "2024-05-29 19:24:06",
         "description": "Volatility 3.0 development",
-        "commit_message": "Merge pull request #1213 from forensicxlab/feature/lsof_inodes\n\nImprovement: Linux/lsof",
-        "commit_date": "2024-08-22 22:45:20",
+        "commit_message": "Merge pull request #1225 from volatilityfoundation/orphan_threads_v2\n\nOrphan threads v2",
+        "commit_date": "2024-09-03 19:50:06",
         "release_date": "2024-05-29 19:45:32",
         "release_message": "* New plugins: \r\n  - `windows.iat`\r\n  - `windows.truecrypt`\r\n  - `linux.library_list`\r\n  - `mac.dmesg`\r\n* Support for configuration files for common CLI options\r\n* `windows.driverirp`: Report IRP entries that point inside a hidden module\r\n* `windows.thrdscan`: Improvements\r\n* `linux.kmsg`: Supports older kernels\r\n* `mac.maps`: Add process dump support\r\n* Support for Python 3.12"
     },
@@ -19791,7 +19791,7 @@
         "release_tag": "2023.2",
         "release_date": "2024-08-12 19:57:57",
         "release_message": "Third release of 2024!\r\n🎉 This release includes [multiple updates](https://github.com/danielmiessler/SecLists/compare/2024.2...2024.3) from the community =)\r\n🥇 Thank you everyone <3\r\n\r\nShout-out to: @ItsIgnacioPortal , @righettod , @PhHitachi, @freyxfi , @nu11pointer , @7h30th3r0n3 , @molangning & @johnjhacking ",
-        "commit_date": "2024-08-30 19:03:18",
+        "commit_date": "2024-09-05 19:03:21",
         "commit_message": "[Github Action] Automated trickest wordlists update."
     },
     "https://github.com/maaaaz/impacket-examples-windows": {
@@ -24231,8 +24231,8 @@
     "https://github.com/jeremylong/DependencyCheck": {
         "created_at": "2024-09-01 11:39:49",
         "description": "OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.",
-        "commit_message": "build: release 10.0.4 (#6939)",
-        "commit_date": "2024-09-01 11:52:50",
+        "commit_message": "feat: Remove the need to specify dbDriver for external databases using JDBCv4 ServiceLoader supporting JDBC drivers (#6938)",
+        "commit_date": "2024-09-05 10:03:31",
         "release_date": "2024-09-01 12:14:16",
         "release_message": "Refer to the [CHANGELOG.md](https://github.com/jeremylong/DependencyCheck/blob/main/CHANGELOG.md#change-log) for information about improvements and upgrade notes."
     },
@@ -25432,8 +25432,8 @@
     "https://github.com/google/oss-fuzz": {
         "created_at": "2016-07-20 19:39:50",
         "description": "OSS-Fuzz - continuous fuzzing for open source software.",
-        "commit_message": "teleport: Update contacts to remove departed individuals (#12437)\n\n@jentfoo and I have departed @gravitational, so removing ourselves and\r\nmaking @zmb3 the primary contact.",
-        "commit_date": "2024-09-02 17:49:22"
+        "commit_message": "infra: bump introspector (#12453)\n\nMakes it possible to extract all files from a given project. This is\r\nparticularly useful for bazel projects where we need a path prior to\r\nbazel build in order to identify harness source.\r\n\r\nRef: https://github.com/google/oss-fuzz-gen/pull/577",
+        "commit_date": "2024-09-05 20:46:19"
     },
     "https://github.com/nmalcolm/Inventus": {
         "created_at": "2017-08-28 11:48:02",
@@ -25578,8 +25578,8 @@
     "https://github.com/AabyssZG/SpringBoot-Scan": {
         "created_at": "2024-08-18 12:40:34",
         "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-08-18 12:40:34",
+        "commit_message": "Update Dir.txt",
+        "commit_date": "2024-09-04 02:05:55",
         "release_date": "2024-08-18 12:42:14",
         "release_message": "# 概述\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **修复了一个工具超时的Bug，在目录爆破 `run.py` /POC探测  `poc.py` /漏洞利用 `vul.py` 这三个核心模块，新增全局变量 `outtime = 10` 可自由调整各模块HTTP访问超时时间**\r\n- **准备对一些 `Issues` 提出的问题进行进一步的处理**"
     },
@@ -25830,12 +25830,12 @@
         "release_message": "This is a bugfix/maintenance release that works around issue #130 related to usage of modules during asynchronous save operations. If you are not using modules there is no need to upgrade."
     },
     "https://github.com/securego/gosec": {
-        "created_at": "2024-05-14 13:36:59",
+        "created_at": "2024-09-04 14:57:12",
         "description": "Go security checker",
-        "commit_message": "Make variable name more clear\n\nChange-Id: I5b863c0da6cc3d01efa527c60c93fdcbc8c5a53c\nSigned-off-by: Cosmin Cojocar <ccojocar@google.com>",
-        "commit_date": "2024-08-30 17:35:07",
-        "release_date": "2024-05-14 13:42:29",
-        "release_message": "## Changelog\n* 6fbd381 Catch os.ModePerm permissions in os.WriteFile\n* dc5e5a9 Add a unit test to detect the false negative in rule G306 for os.ModePerm permissions\n* 417a44c Add filepath.EvalSymlinks to clean functions in rule G304\n* d34f8b7 chore(deps): update all dependencies\n* 8658b8e Update Go to version 2.22.3 in CI and release\n* d3b2359 chore(deps): update module golang.org/x/text to v0.15.0\n* cf29d54 chore(deps): update all dependencies\n* 09d62bd chore(deps): update module github.com/onsi/gomega to v1.33.0\n* 3b23ec8 Update to go 1.22.2\n* 31009c3 chore(deps): update all dependencies\n* daf6f67 chore(deps): update module github.com/onsi/ginkgo/v2 to v2.17.1\n* e27f442 chore(deps): update all dependencies\n* 5513615 fix(helpers/goversion): get from go.mod\n* 43b8b75 chore: fix function name\n* accd7a1 chore(deps): update all dependencies\n* 48aa72e Format the imports using the gci tool\n* b6df69c Fixup: delete unused variable\n* ccb0a08 Fix test: update test to comply with the spec of generated sources\n* 3a0ea51 Refactor: use standard function to check if a file is generated\n* 11c3252 Fix lint warnings\n* be378e6 Add support for math/rand/v2 added in Go 1.22\n* 36878a9 Skip the G601 tests for Go version 1.22\n* 903c75b Update go version to 1.22.1 and 1.21.8\n* f25ccd9 Ignore 'implicit memory aliasing' rule for Go 1.22+\n* 582e91a chore(deps): update all dependencies\n* 198a40c chore(deps): update module golang.org/x/tools to v0.18.0\n* c824a5d fix(hardcoded): remove duplicated `Stripe API Key`\n* d13d7da Update gosec version to v2.19.0 in the Github action\n\n"
+        "commit_message": "Update gosec version to v2.21.1 in github action (#1213)\n\nChange-Id: I0dda98f91eabc1881c55cb886425acf62a000002\r\n\r\nSigned-off-by: Cosmin Cojocar <ccojocar@google.com>",
+        "commit_date": "2024-09-04 15:22:49",
+        "release_date": "2024-09-04 15:01:14",
+        "release_message": "## Changelog\n* 0ce4453ddd8cca1291d2056cf903b545baad95a0 Rollback the SARIF version to 2.1 since github doesn't support 2.2 (#1210)\n* ea26e8431f53a5d229b1c07ffe3529008a01c25e Update gosec in github action to v2.21.0 (#1208)\n\n"
     },
     "https://github.com/Ar3h/putter": {
         "created_at": "2023-09-09 06:56:00",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.200.199.181属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.238.27.211属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28754,8 +28754,8 @@
     "https://github.com/Mintplex-Labs/anything-llm": {
         "created_at": "2024-08-19 19:26:22",
         "description": "The all-in-one Desktop & Docker AI application with full RAG and AI Agent capabilities.",
-        "commit_message": "remove system setting cap on messages (use at own risk)",
-        "commit_date": "2024-08-30 22:21:01",
+        "commit_message": "fixed the typo in LLMs (#2225)\n\n(not a big deal, just to avoid someone pointing it out)",
+        "commit_date": "2024-09-05 18:14:48",
         "release_date": "2024-08-19 21:08:56",
         "release_message": "## What's Changed\r\n* Slash commands edit bug fix by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2073\r\n* Populate .env file using variable inside userdata script by @saravanan30erd in https://github.com/Mintplex-Labs/anything-llm/pull/2075\r\n* add exp model to v1Beta by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2082\r\n* #2084 Support Go filetype by @leaanthony in https://github.com/Mintplex-Labs/anything-llm/pull/2085\r\n* Update the display to show 95% of the width on small screens, else 635px by @MrSimonC in https://github.com/Mintplex-Labs/anything-llm/pull/2089\r\n* Fix depth handling in bulk link scraper by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2096\r\n* Finetune ui improvements by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2053\r\n* Improve search of document picker by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2097\r\n* Auto URL detection for localai by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2083\r\n* Add prompt window limits for gpt-4o-* models by @mPyKen in https://github.com/Mintplex-Labs/anything-llm/pull/2104\r\n* fix(Dockerfile): remove hardcoded exposed port by @kabaluyot in https://github.com/Mintplex-Labs/anything-llm/pull/2106\r\n* Encryption in JWT for single-user password mode by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2111\r\n* Fix TypeError by replacing this.openai.createChatCompletion with the correct function call by @shaharhi in https://github.com/Mintplex-Labs/anything-llm/pull/2117\r\n* Agent Context window + context window refactor. by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2126\r\n* Fix markdown styling for rendered images by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2125\r\n* Fix tooltip showing on both sides of file picker by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2124\r\n* Omit invalid `response.text` values and `prompts` by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2127\r\n* Fix multi-user setup bug for invalid username/password by @shatfield4 in https://github.com/Mintplex-Labs/anything-llm/pull/2130\r\n* Allow readable username passed in script widget by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2131\r\n* Support suggestions of messages for empty chat in widget by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2133\r\n* Added Hebrew language by @timothycarambat in https://github.com/Mintplex-Labs/anything-llm/pull/2143\r\n\r\n## New Contributors\r\n* @saravanan30erd made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2075\r\n* @leaanthony made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2085\r\n* @mPyKen made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2104\r\n* @kabaluyot made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2106\r\n* @shaharhi made their first contribution in https://github.com/Mintplex-Labs/anything-llm/pull/2117\r\n\r\n**Full Changelog**: https://github.com/Mintplex-Labs/anything-llm/compare/v1.2.0...v1.2.1\r\n\r\nDesktop Version Pin: v1.6.4"
     },
@@ -28832,12 +28832,12 @@
         "commit_date": "2024-08-27 03:44:38"
     },
     "https://github.com/wazuh/wazuh": {
-        "created_at": "2024-08-19 16:13:17",
+        "created_at": "2024-08-30 08:30:40",
         "description": "Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.",
-        "commit_message": "Merge pull request #25426 from wazuh/test/25423-upload-integration-test-yaml-to-branch-master\n\nRestore integration tests workflows",
-        "commit_date": "2024-08-27 15:54:12",
-        "release_date": "2024-08-22 09:09:03",
-        "release_message": "## Manager\r\n\r\n### Fixed\r\n\r\n- Fixed memory management in wazuh-remoted that might cause data corruption in incoming messages. ([#25225](https://github.com/wazuh/wazuh/issues/25225))"
+        "commit_message": "Merge pull request #25465 from wazuh/enhancement/25180-expose-vd-endpoint\n\nVD endpoint expose",
+        "commit_date": "2024-09-05 01:56:22",
+        "release_date": "2024-09-05 16:04:09",
+        "release_message": "## Manager\r\n\r\n### Added\r\n\r\n- The manager now supports alert forwarding to Fluentd. ([#17306](https://github.com/wazuh/wazuh/pull/17306))\r\n- Added missing functionality for vulnerability scanner translations. ([#23518](https://github.com/wazuh/wazuh/issues/23518))\r\n- Improved performance for vulnerability scanner translations. ([#23722](https://github.com/wazuh/wazuh/pull/23722))\r\n- Enhanced vulnerability scanner logging to be more expressive. ([#24536](https://github.com/wazuh/wazuh/pull/24536))\r\n- The manager now supports alert forwarding to Fluentd. ([#17306](https://github.com/wazuh/wazuh/pull/17306))\r\n- Added the HAProxy helper to manage load balancer configuration and automatically balance agents. ([#23513](https://github.com/wazuh/wazuh/pull/23513))\r\n- Added a validation to avoid killing processes from external services. ([#23222](https://github.com/wazuh/wazuh/pull/23222))\r\n- Enabled ceritificates validation in the requests to the HAProxy helper using the default CA bundle. ([#23996](https://github.com/wazuh/wazuh/pull/23996))\r\n\r\n### Fixed\r\n\r\n- Fixed compilation issue for local installation. ([#20505](https://github.com/wazuh/wazuh/pull/20505))\r\n- Fixed malformed JSON error in wazuh-analysisd. ([#16666](https://github.com/wazuh/wazuh/pull/16666))\r\n- Fixed a warning when uninstalling the Wazuh manager if the VD feed is missing. ([#24375](https://github.com/wazuh/wazuh/pull/24375))\r\n- Ensured vulnerability detection scanner log messages end with a period. ([#24393](https://github.com/wazuh/wazuh/pull/24393))\r\n\r\n### Changed\r\n\r\n- Changed error messages about `recv()` messages from wazuh-db to debug logs. ([#20285](https://github.com/wazuh/wazuh/pull/20285))\r\n- Sanitized the `integrations` directory code. ([#21195](https://github.com/wazuh/wazuh/pull/21195))\r\n\r\n## Agent\r\n\r\n### Added\r\n\r\n- Added debug logging in FIM to detect invalid report change registry values. Thanks to Zafer Balkan (@zbalkan). ([#21690](https://github.com/wazuh/wazuh/pull/21690))\r\n- Added Amazon Linux 1 and 2023 support for the installation script. ([#21287](https://github.com/wazuh/wazuh/pull/21287))\r\n- Added Journald support in Logcollector. ([#23137](https://github.com/wazuh/wazuh/pull/23137))\r\n- Added support for Amazon Security Hub via AWS SQS. ([#23203](https://github.com/wazuh/wazuh/pull/23203))\r\n\r\n### Fixed\r\n\r\n- Fixed loading of whodata through timeouts and retries. ([#21455](https://github.com/wazuh/wazuh/pull/21455))\r\n- Avoided backup failures during WPK update by adding dependency checking for the tar package. ([#21729](https://github.com/wazuh/wazuh/pull/21729))\r\n- Fixed a crash in the agent due to a library incompatibility. ([#22210](https://github.com/wazuh/wazuh/pull/22210))\r\n- Fixed an error in the osquery integration on Windows that avoided loading osquery.conf. ([#21728](https://github.com/wazuh/wazuh/pull/21728))\r\n- Fixed a crash in the agent's Rootcheck component when using `<ignore>`. ([#22588](https://github.com/wazuh/wazuh/pull/22588))\r\n- Fixed command wodle to support UTF-8 characters on windows agent. ([#19146](https://github.com/wazuh/wazuh/pull/19146))\r\n- Fixed Windows agent to delete wazuh-agent.state file when stopped. ([#20425](https://github.com/wazuh/wazuh/pull/20425))\r\n- Fixed Windows Agent 4.8.0 permission errors on Windows 11 after upgrade. ([#20727](https://github.com/wazuh/wazuh/pull/20727))\r\n- Fixed alerts are created when syscheck diff DB is full. ([#16487](https://github.com/wazuh/wazuh/pull/16487))\r\n- Fixed Wazuh deb uninstallation to remove non-config files. ([#2195](https://github.com/wazuh/wazuh/pull/2195))\r\n- Fixed improper Windows agent ACL on non-default installation directory. ([#23273](https://github.com/wazuh/wazuh/pull/23273))\r\n- Fixed socket configuration of an agent is displayed. ([#17664](https://github.com/wazuh/wazuh/pull/17664))\r\n- Fixed wazuh-modulesd printing child process not found error. ([#18494](https://github.com/wazuh/wazuh/pull/18494))\r\n- Fixed issue with an agent starting automatically without reason. ([#23848](https://github.com/wazuh/wazuh/pull/23848))\r\n- Fixed GET /syscheck to properly report size for files larger than 2GB. ([#17415](https://github.com/wazuh/wazuh/pull/17415))\r\n- Fixed error in packages generation centos 7. ([#24412](https://github.com/wazuh/wazuh/pull/24412))\r\n- Fixed Wazuh deb uninstallation to remove non-config files from the installation directory. ([#2195](https://github.com/wazuh/wazuh/issues/2195))\r\n- Fixed Azure auditLogs/signIns status parsing (thanks to @Jmnis for the contribution). ([#22392](https://github.com/wazuh/wazuh/pull/22392))\r\n- Fixed how the S3 object keys with special characters are handled in the Custom Logs Buckets integration. ([#22621](https://github.com/wazuh/wazuh/pull/22621))\r\n\r\n### Changed\r\n\r\n- The directory /boot has been removed from the default FIM settings for AIX. ([#19753](https://github.com/wazuh/wazuh/pull/19753))\r\n- Refactored and modularized the Azure integration code. ([#20624](https://github.com/wazuh/wazuh/pull/20624))\r\n- Improved logging of errors in Azure and AWS modules. ([#16314](https://github.com/wazuh/wazuh/issues/16314))\r\n\r\n### Removed\r\n\r\n- Dropped support for Python 3.7 in cloud integrations. ([#22583](https://github.com/wazuh/wazuh/pull/22583))\r\n\r\n## RESTful API\r\n\r\n### Added\r\n\r\n- Added support in the Wazuh API to parse `journald` configurations from the `ossec.conf` file. ([#23094](https://github.com/wazuh/wazuh/pull/23094))\r\n- Added user-agent to the CTI service request. ([#24360](https://github.com/wazuh/wazuh/pull/24360))\r\n\r\n### Changed\r\n\r\n- Merged group files endpoints into one (`GET /groups/{group_id}/files/{filename}`) that uses the `raw` parameter to receive plain text data. ([#21653](https://github.com/wazuh/wazuh/pull/21653))\r\n- Removed the hardcoded fields returned by the `GET /agents/outdated` endpoint and added the select parameter to the specification. ([#22388](https://github.com/wazuh/wazuh/pull/22388))\r\n- Updated the regex used to validate CDB lists. ([#22423](https://github.com/wazuh/wazuh/pull/22423))\r\n- Changed the default value for empty fields in the `GET /agents/stats/distinct` endpoint response. ([#22413](https://github.com/wazuh/wazuh/pull/22413))\r\n- Changed the Wazuh API endpoint responses when receiving the `Expect` header. ([#22380](https://github.com/wazuh/wazuh/pull/22380))\r\n- Enhanced Authorization header values decoding errors to avoid showing the stack trace and fail gracefully. ([#22745](https://github.com/wazuh/wazuh/pull/22745))\r\n- Updated the format of the fields that can be N/A in the API specification. ([#22908](https://github.com/wazuh/wazuh/pull/22908))\r\n- Updated the WAZUH API specification to conform with the current endpoint requests and responses. ([#22954](https://github.com/wazuh/wazuh/pull/22954))\r\n- Replaced the used aiohttp server with uvicorn. ([#23199](https://github.com/wazuh/wazuh/pull/23199))\r\n    - Changed the `PUT /groups/{group_id}/configuration` endpoint response error code when uploading an empty file.\r\n    - Changed the `GET, PUT and DELETE /lists/files/{filename}` endpoints response status code when an invalid file is used.\r\n    - Changed the `PUT /manager/configuration` endpoint response status code when uploading a file with invalid content-type.\r\n\r\n### Fixed\r\n\r\n- Improved XML validation to match the Wazuh internal XML validator. ([#20507](https://github.com/wazuh/wazuh/pull/20507))\r\n- Fixed bug in `GET /groups`. ([#22428](https://github.com/wazuh/wazuh/pull/22428))\r\n- Fixed the `GET /agents/outdated` endpoint query. ([#24946](https://github.com/wazuh/wazuh/pull/24946))\r\n\r\n### Removed\r\n\r\n- Removed the `cache` configuration option from the Wazuh API. ([#22416](https://github.com/wazuh/wazuh/pull/22416))\r\n\r\n## Ruleset\r\n\r\n### Changed\r\n\r\n- The solved vulnerability rule has been clarified. ([#19754](https://github.com/wazuh/wazuh/pull/19754))\r\n\r\n### Fixed\r\n\r\n- Fixed audit decoders to parse the new heading field \"node=\". ([#22178](https://github.com/wazuh/wazuh/pull/22178))\r\n\r\n## Other\r\n\r\n### Changed\r\n\r\n- Upgraded external OpenSSL library dependency version to 3.0. ([#20778](https://github.com/wazuh/wazuh/pull/20778))\r\n- Migrated QA framework. ([#17427](https://github.com/wazuh/wazuh/issues/17427))\r\n- Improved WPKs. ([#21152](https://github.com/wazuh/wazuh/issues/21152))\r\n- Migrated and adapted Wazuh subsystem repositories as part of Wazuh packages redesign. ([#23508](https://github.com/wazuh/wazuh/pull/23508))\r\n- Upgraded external connexion library dependency version to 3.0.5 and its related interdependencies. ([#22680](https://github.com/wazuh/wazuh/pull/22680))\r\n\r\n### Fixed\r\n\r\n- Fixed a buffer overflow hazard in HMAC internal library. ([#19794](https://github.com/wazuh/wazuh/pull/19794))"
     },
     "https://github.com/ccc-f/FCDN": {
         "created_at": "2022-12-02 07:54:08",
