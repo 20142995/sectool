@@ -18079,8 +18079,8 @@
     "https://github.com/extremecoders-re/pyinstxtractor": {
         "created_at": "2024-04-14 06:18:14",
         "description": "PyInstaller Extractor",
-        "commit_message": "Mention support for pyinstaller 6.4.0, 6.5.0, 6.6.0",
-        "commit_date": "2024-04-14 06:18:14",
+        "commit_message": "Mention support for 6.7.0, 6.8.0, 6.9.0",
+        "commit_date": "2024-07-21 09:44:42",
         "release_date": "2024-04-14 06:20:02",
         "release_message": "Bump release version"
     },
@@ -22624,9 +22624,9 @@
     },
     "https://github.com/yisier/nps": {
         "created_at": "2024-06-04 07:46:15",
-        "description": "在 0.26.10 版本的基础上修改而来的 ",
-        "commit_message": "配置文件多了空格",
-        "commit_date": "2024-06-04 10:03:02",
+        "description": "基于NPS 0.29.10 版本二开而来，NPS接力项目。公益云NPS：https://natnps.com",
+        "commit_message": "客户端限速单位不统一",
+        "commit_date": "2024-09-03 15:26:43",
         "release_date": "2024-06-04 07:53:42",
         "release_message": "  - golang 版本升级到 1.22.\r\n  - 增加自动https，自动将http 重定向（301）到 https.  \r\n  - 客户端命令行方式启动支持多个隧道ID，使用逗号拼接，示例：`npc -server=xxx:8024 -vkey=ytkpyr0er676m0r7,iwnbjfbvygvzyzzt` .\r\n  - 移除 nps.conf 参数 `https_just_proxy` , 调整 https 处理逻辑，如果上传了 https 证书，则由nps负责SSL (此方式可以获取真实IP)，\r\n      否则走端口转发模式（使用本地证书,nps 获取不到真实IP）， 如下图所示。    \r\n    ![image](image/new/https.png)"
     },
@@ -24747,7 +24747,7 @@
     },
     "https://ctf.bugku.com/tools": {
         "status_code": 200,
-        "description": "在线工具 - Bugku CTF"
+        "description": "跳转提示"
     },
     "https://www.qqxiuzi.cn/bianma/weijiniyamima.php": {
         "status_code": 200,
@@ -24775,7 +24775,7 @@
     },
     "https://ctf.bugku.com/tool/caesar": {
         "status_code": 200,
-        "description": "凯撒(Caesar)加密/解密 - Bugku CTF"
+        "description": "跳转提示"
     },
     "https://www.calormen.com/jslogo/": {
         "status_code": 200,
@@ -24783,7 +24783,7 @@
     },
     "https://ctf.bugku.com/tool/xxencode": {
         "status_code": 200,
-        "description": "XXencode加密/解密 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://serpent.online-domain-tools.com/": {
         "status_code": 200,
@@ -24915,7 +24915,7 @@
     },
     "https://ctf.bugku.com/tool/hill": {
         "status_code": 200,
-        "description": "希尔(Hill Cipher)加密/解密 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://www.hiencode.com/": {
         "status_code": 200,
@@ -24931,7 +24931,7 @@
     },
     "https://ctf.bugku.com/tool/base100": {
         "status_code": 200,
-        "description": "BASE100编码解码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "https://xz.aliyun.com/t/9382": {
         "status_code": 200,
@@ -24943,7 +24943,7 @@
     },
     "https://ctf.bugku.com/tool/tripledes": {
         "status_code": 200,
-        "description": "Triple DES(3DES)加密/解密 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://ctf.ssleye.com/tapcode.html": {
         "status_code": 200,
@@ -25227,7 +25227,7 @@
     },
     "https://ctf.bugku.com/tool/todousharp": {
         "status_code": 200,
-        "description": "与佛论禅密码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://www.hiencode.com/handycode.html": {
         "status_code": 200,
@@ -26549,7 +26549,7 @@
     },
     "https://ctf.bugku.com/tool/base92": {
         "status_code": 200,
-        "description": "BASE92编码解码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://www.hiencode.com/caesar.html": {
         "status_code": 200,
@@ -26593,7 +26593,7 @@
     },
     "https://ctf.bugku.com/tool/railfence": {
         "status_code": 200,
-        "description": "栅栏加密/解密 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://www.hiencode.com/affine.html": {
         "status_code": 200,
@@ -26657,7 +26657,7 @@
     },
     "https://ctf.bugku.com/tool/base85": {
         "status_code": 200,
-        "description": "BASE85编码解码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://tool.chacuo.net/cryptrc2": {
         "status_code": 200,
@@ -26669,7 +26669,7 @@
     },
     "https://ctf.bugku.com/tool/vigenere": {
         "status_code": 200,
-        "description": "维吉尼亚加密/解密 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://www.hiencode.com/pub_asys.html": {
         "status_code": 200,
@@ -26689,7 +26689,7 @@
     },
     "https://ctf.bugku.com/tool/sojson5": {
         "status_code": 200,
-        "description": "Sojson v5 解密 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://tool.chacuo.net/cryptrsapassclear": {
         "status_code": 200,
@@ -26769,7 +26769,7 @@
     },
     "https://ctf.bugku.com/tool/base91": {
         "status_code": 200,
-        "description": "BASE91编码解码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://tool.chacuo.net/cryptrsakeyparse": {
         "status_code": 200,
@@ -26789,7 +26789,7 @@
     },
     "https://ctf.bugku.com/tool/base62": {
         "status_code": 200,
-        "description": "BASE62编码解码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://www.hiencode.com/autokey.html": {
         "status_code": 200,
@@ -26797,7 +26797,7 @@
     },
     "https://ctf.bugku.com/tool/base64": {
         "status_code": 200,
-        "description": "BASE64编码解码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://tool.chacuo.net/crypt3des": {
         "status_code": 200,
@@ -26809,7 +26809,7 @@
     },
     "https://ctf.bugku.com/tool/base16": {
         "status_code": 200,
-        "description": "BASE16编码解码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://www.atoolbox.net/Tool.php?Id=1066": {
         "status_code": 200,
@@ -26817,7 +26817,7 @@
     },
     "https://ctf.bugku.com/tool/adfgx": {
         "status_code": 200,
-        "description": "ADFGX密码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://www.hiencode.com/tapcode.html": {
         "status_code": 200,
@@ -26825,11 +26825,11 @@
     },
     "https://ctf.bugku.com/tool/uuencode": {
         "status_code": 200,
-        "description": "UUencode加密/解密 - Bugku CTF"
+        "description": "跳转提示"
     },
     "https://ctf.bugku.com/tool/sojson4": {
         "status_code": 200,
-        "description": "Sojson v4 解密 - Bugku CTF"
+        "description": "跳转提示"
     },
     "https://c5r.app/tools/jsfuck": {
         "status_code": 200,
@@ -26861,7 +26861,7 @@
     },
     "https://ctf.bugku.com/tool/base58": {
         "status_code": 200,
-        "description": "BASE58编码解码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://www.hiencode.com/web_socket.html": {
         "status_code": 200,
@@ -26873,7 +26873,7 @@
     },
     "https://ctf.bugku.com/tool/cvecode": {
         "status_code": 200,
-        "description": "核心价值观编码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://www.hiencode.com/html_en.html": {
         "status_code": 200,
@@ -26889,7 +26889,7 @@
     },
     "https://ctf.bugku.com/tool/brainfuck": {
         "status_code": 200,
-        "description": "Brainfuck/OoK加密解密 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://tool.chacuo.net/cryptgost": {
         "status_code": 200,
@@ -26965,7 +26965,7 @@
     },
     "https://ctf.bugku.com/tool/base32": {
         "status_code": 200,
-        "description": "BASE32编码解码 - Bugku CTF"
+        "description": "跳转提示"
     },
     "http://www.atoolbox.net/Tool.php?Id=992": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.112.119属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.249.5.109属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
