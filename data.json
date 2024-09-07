@@ -3839,12 +3839,12 @@
         "release_message": "## Changelog\n* 7027b6b Add CIS kubernetes CIS-1.9 for k8s v1.27 - v1.29 (#1617)\n* ed51191 Replace custom k3s etcd script checks with vanilla grep checks (#1601)\n* 0f8dfaf Statically link binaries and remove debug information (#1615)\n* d8fc376 build(deps): bump alpine from 3.19.1 to 3.20.0 (#1621)\n* 2a8615b build(deps): bump golang from 1.22.1 to 1.22.2 (#1596)\n* 8710274 build(deps): bump goreleaser/goreleaser-action from 5 to 6 (#1628)\n\n"
     },
     "https://github.com/neuvector/neuvector": {
-        "created_at": "2024-07-11 06:07:03",
+        "created_at": "2024-08-09 07:12:01",
         "description": null,
-        "commit_message": "Merge pull request #1532 from gfsuse/main_jira1\n\nNVSHAS-9337, send log message when SYN flood is detected",
-        "commit_date": "2024-08-26 22:15:05",
-        "release_date": "2024-07-24 17:15:33",
-        "release_message": "NVSHAS-8980, get host and tunnel interface on node successfully in oc 4.15, exclude 169.254.x.x as host interface IPs\r\nNVSHAS-9177: Reexam host interface afte 1 minute of enforcer startup"
+        "commit_message": "Merge pull request #1552 from jayhuang-suse/one\n\nNV Protect: rule updates",
+        "commit_date": "2024-09-05 18:52:31",
+        "release_date": "2024-08-09 17:34:54",
+        "release_message": ""
     },
     "https://github.com/lijiejie/BBScan": {
         "created_at": "2015-11-13 07:41:10",
@@ -3916,12 +3916,12 @@
         "release_message": "## Network Flight Simulator v2.5.1 (2024-04-04)\r\n\r\nThis release fixes problem with `go install` installing an old version of the tool.\r\n\r\n"
     },
     "https://github.com/aquasecurity/trivy": {
-        "created_at": "2024-07-31 15:52:50",
+        "created_at": "2024-09-03 23:51:23",
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-        "commit_message": "fix(misconf): fix infer type for null value (#7424)\n\nSigned-off-by: nikpivkin <nikita.pivkin@smartforce.io>",
-        "commit_date": "2024-08-31 07:06:34",
-        "release_date": "2024-07-31 16:45:52",
-        "release_message": "## Changelog\n* 854c61d34a550a9fcbab3bc59e55b868c15d1962 release: v0.54.1 [release/v0.54] (#7282)\n* 334a1c293bb3d490af2a6d80732f399efaac22f7 fix(flag): incorrect behavior for deprected flag `--clear-cache` [backport: release/v0.54] (#7285)\n* f61725c28b56d80fb46395479842a2ab0c517c5f fix(java): Return error when trying to find a remote pom to avoid segfault [backport: release/v0.54] (#7283)\n* a7b7117fe2c9608e990b42e702cc83675c48f888 fix(plugin): do not call GitHub content API for releases and tags [backport: release/v0.54] (#7279)\n\n"
+        "commit_message": "chore(deps): bump the common group across 1 directory with 19 updates (#7436)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nSigned-off-by: knqyf263 <knqyf263@gmail.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: knqyf263 <knqyf263@gmail.com>",
+        "commit_date": "2024-09-06 07:44:35",
+        "release_date": "2024-09-04 00:46:22",
+        "release_message": "## ⚡Release highlights and summary⚡\r\n\r\n👉https://github.com/aquasecurity/trivy/discussions/7440\r\n\r\n## Changelog\r\nhttps://github.com/aquasecurity/trivy/blob/main/CHANGELOG.md#0550-2024-09-03"
     },
     "https://github.com/anchore/grype": {
         "created_at": "2024-08-20 17:56:35",
@@ -5644,8 +5644,8 @@
     "https://github.com/fatedier/frp": {
         "created_at": "2024-08-19 05:48:17",
         "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
-        "commit_message": "bump kcp-go to add linux/loong64 support (#4384)",
-        "commit_date": "2024-08-16 14:24:27",
+        "commit_message": "Update README_zh.md (#4421)\n\n修复爱发电链接无法访问问题",
+        "commit_date": "2024-09-06 03:41:11",
         "release_date": "2024-08-19 05:54:34",
         "release_message": "### Features\n\n* Added a new plugin `tls2raw`: Enables TLS termination and forwarding of decrypted raw traffic to local service.\n* Added a default timeout of 30 seconds for the frpc subcommands to prevent commands from being stuck for a long time due to network issues.\n\n### Fixes\n\n* Fixed the issue that when `loginFailExit = false`, the frpc stop command cannot be stopped correctly if the server is not successfully connected after startup.\n\n"
     },
@@ -6022,12 +6022,12 @@
         "release_message": "![文件头检测加载文件后 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/f652ebd2-c329-47d1-a468-cbbd1a33a52a)\r\n![文件头检测面板02 (小)](https://github.com/ffffffff0x/BerylEnigma/assets/16266917/4c58ac56-84b8-4f8e-81e1-01cfeeddee36)\r\n\r\n```\r\n+ 文件头检测模块\r\n\r\n- 时间戳视图文件命名问题\r\n- 对称加密使用错误加密器问题\r\n```\r\n\r\n详情见 [BE工具的文件头检测功能](https://ryuzu.blog.ffffffff0x.com/post/be%E5%B7%A5%E5%85%B7%E7%9A%84%E6%96%87%E4%BB%B6%E5%A4%B4%E6%A3%80%E6%B5%8B%E5%8A%9F%E8%83%BD/)"
     },
     "https://github.com/abc123info/BlueTeamTools": {
-        "created_at": "2024-07-18 10:14:27",
+        "created_at": "2024-08-21 12:39:47",
         "description": "蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。",
         "commit_message": "Update README.md",
-        "commit_date": "2024-08-21 12:39:47",
-        "release_date": "2024-07-24 13:09:49",
-        "release_message": "2024.07.24 更新IP地址查询库为最新版本，查询IP物理归属地更精确。"
+        "commit_date": "2024-08-26 23:06:46",
+        "release_date": "2024-08-26 23:06:10",
+        "release_message": "2024.08.24 添加杀软进程识别功能。\r\n2024.08.23 修正Jar包搜索类名的多处bug，修正软件界面的bug，提升效率。\r\n2024.08.13 修正BCEL关键词错误。\r\n2024.08.03 通过java反射解决Jadx反编译引擎报错问题，此方法会在temp生成临时Jadx的支持库文件，但无任何危害。\r\n2024.07.31 新增Jadx反编译引擎。\r\n2024.07.28 更新Fofa、Hunter、Guake搜索列表，更正API接口返回数据解析bug。"
     },
     "https://github.com/yutianqaq/impacket-gui": {
         "created_at": "2023-09-01 10:27:31",
@@ -21943,12 +21943,12 @@
         "commit_message": "[+] postb.in => requestbin.net"
     },
     "https://github.com/apache/logging-log4j2": {
-        "created_at": "2024-03-10 19:05:47",
+        "created_at": "2024-09-03 16:32:14",
         "description": "Apache Log4j 2 is a versatile, feature-rich, efficient logging API and backend for Java.",
-        "commit_message": "chore: use `computIfAbsent` in `MarkerManager",
-        "commit_date": "2024-08-30 20:12:58",
-        "release_date": "2024-03-10 19:24:14",
-        "release_message": "This release contains several small fixes and some dependency updates.\r\n\r\n### Changed\r\n\r\n* Improve performance of `CloseableThreadContext#closeMap()` (#2296)\r\n\r\n### Fixed\r\n\r\n* Fix handling of `LoggerContextAware` lookups (#2309)\r\n* Fix NPE in `PatternProcessor` for a `UNIX_MILLIS` pattern (#2346)\r\n* Fix that parameterized message formatting doesn't throw an exception when there are insufficient number of parameters (#2343)\r\n* Fix `StatusLogger` log level filtering when debug mode is enabled (#2337)\r\n* Add `log4j2.StatusLogger.dateFormatZone` system property to set the time-zone `StatusLogger` uses to format `java.time.Instant`. Without this, formatting patterns accessing to time-zone-specific fields (e.g., year-of-era) cause failures. (#2322)\r\n* Fix `StatusLogger` to correctly read `log4j2.StatusLogger.properties` resource (#2354)\r\n* Fix stack overflow in `StatusLogger` (#2322)\r\n\r\n### Updated\r\n\r\n* Update `jakarta.activation:jakarta.activation-api` to version `2.1.3` (#2335)\r\n* Update `jakarta.mail:jakarta.mail-api` to version `2.1.3` (#2348)\r\n* Update `org.apache.commons:commons-compress` to version `1.26.0` (#2304)\r\n* Update `org.apache.commons:commons-dbcp2` to version `2.12.0` (#2344)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.7.0` (#2326)\r\n* Update `org.eclipse.angus:angus-activation` to version `2.0.2` (#2336)\r\n* Update `org.eclipse.angus:jakarta.mail` to version `2.0.3` (#2349)\r\n"
+        "commit_message": "Prepare for new development cycle",
+        "commit_date": "2024-09-06 21:05:36",
+        "release_date": "2024-09-06 22:03:51",
+        "release_message": "The `2.24.0` version of Log4j API has been enhanced with changes from the `3.x` branch and will be used by both Log4j 2 Core and Log4j 3 Core releases. The changes include:\r\n\r\n* A faster default `ThreadContextMap`.\r\n* Enhanced GraalVM support: native binaries that use Log4j API will no longer require additional GraalVM configuration.\r\n* The configuration properties subsystem now only accepts the official pre-2.10 property names and the normalized post-2.10 names.\r\nCheck your configuration for typos.\r\n\r\n### Documentation\r\n\r\nThe [Apache Log4j 2 website](https://logging.apache.org/log4j/2.x/index.html) has been almost entirely rewritten to provide improved documentation and faster access to the information you need.\r\n\r\n### Bridges\r\n\r\nThe JUL-to-Log4j API and Log4j 1-to-Log4j API will no longer be able to modify the configuration of Log4j Core by default.\r\nIf such a functionality is required, it must be explicitly enabled.\r\n\r\n### Modules\r\n\r\nThe following Log4j Core additional modules have been removed:\r\n\r\n- `log4j-flume-ng`\r\n  The module is no longer part of the release process and will follow its own release lifecycle.\r\n  Please manage your dependencies using [`log4j-bom`](https://logging.apache.org/log4j/2.x/components.html#log4j-bom) to always use its latest version.\r\n\r\n- `log4j-kubernetes`\r\n  The module has been moved to the [Fabric8.io Kubernetes project](https://github.com/fabric8io/kubernetes-client/blob/main/doc/KubernetesLog4j.md) and follows the Fabric8.io release lifecycle.\r\n\r\n- `log4j-mongodb3`\r\n  The module based on MongoDB Java client version 3.x has been removed.\r\n  Please migrate to [`log4j-mongodb`](https://logging.apache.org/log4j/2.x/components.html#log4j-mongodb) (client version 5.x) or [`log4j-mongodb4`](https://logging.apache.org/log4j/2.x/components.html#log4j-mongodb4) (client version 4.x).\r\n\r\n### JMX changes\r\n\r\nStarting in version 2.24.0, JMX support is disabled by default and can be re-enabled via the `log4j2.disableJmx=false` system property.\r\n\r\n### Added\r\n\r\n- Add a faster `DefaultThreadContextMap` implementation. (#2330)\r\n- Add Logback throwable-consuming semantics as an option in`log4j-slf4j-impl` and `log4j-slf4j2-impl`.\r\n  Users can enable it by setting the property `log4j2.messageFactory` to `org.apache.logging.slf4j.message.ThrowableConsumingMessageFactory`. (#2363)\r\n* Add trace context fields to `GcpLayout.json` (#2498)\r\n* Add _\"Plugin Reference\"_ to the website. It is a Javadoc-on-steroids focusing on Log4j plugins. (#1954)\r\n* Automate website deployment using the new CI infrastructure shipped with `org.apache.logging:logging-parent:11.0.0`\r\n\r\n=== Changed\r\n\r\n* Fix usage of `log4j-api` in GraalVM without additional reachability data. (#1539)\r\n* Ignore exceptions thrown by PropertySources. ([Spirng-33450](https://github.com/spring-projects/spring-boot/issues/33450))\r\n* Add logging to `PropertiesUtil` and fix `Duration` parser. (#1936)\r\n* Disable level modification via JUL by default. (#2353)\r\n* Centralize initialization in the `Provider` class and deprecate `log4j2.loggerContextFactory` property. (#2374)\r\n* Remove `log4j-kubernetes` lookup. User should migrate to [`io.fabric8:kubernetes-log4j`](https://github.com/fabric8io/kubernetes-client/blob/main/doc/KubernetesLog4j.md). (#2412)\r\n* Disable JMX support by default. Require `log4j2.disableJmx` to be set to `false` to enable JMX support. (#2462)\r\n* Replace some usages of `DateTimeFormatter#toString()` with `DateTimeFormatter#formatTo(StringBuilder)` to cut down on allocations\r\n(#2515)\r\n* Disable programmatic configuration in Log4j 1 Bridge if `log4j1.compatibility` is `false`. (#2778)\r\n* Improve missing plugin descriptor warnings. (#2835)\r\n* Remove configuration properties caching and (undocumented) fuzzy property name matching. (#2849)\r\n* Fixes property source ordering to account for different sources with the same priority. ([LOG4J2-3618](https://issues.apache.org/jira/browse/LOG4J2-3618))\r\n* Prioritize user-defined values of `log4j2.enableThreadLocals`,`log4j2.garbagefreeThreadContextMap` and `log4j2.shutdownHookEnabled`\r\nover the value of `log4j.isWebapp`. (#2517)\r\n* Disallow duplicate keys in JSON Template Layout templates\r\n* Deprecate `log4j2.defaultStatusLevel` property in Log4j Core in favor of `log4j2.statusLoggerLevel` (#2481)\r\n* Add module log4j-mongodb to track the current MongoDB driver (currently version 5). (#2486)\r\n* Remove module log4j-mongodb3, use log4j-mongodb instead, log4j-mongodb4 is deprecated for removal. (#2486)\r\n\r\n### Deprecated\r\n\r\n* Deprecate `Message#getFormat()` due to unclear semantics andinconsistent implementations (#2773)\r\n* Deprecate `org.apache.logging.log4j.EventLogger` for removal (#2665)\r\n* Deprecate `org.apache.logging.log4j.core.appender.rolling.action.Duration` class for removal (#2425)\r\n* Deprecate the `log4j-mongodb4` module in favor of `log4j-mongodb` (#2486)\r\n\r\n### Fixed\r\n\r\n* Use FQDN in RFC5424 Layout. (#1740)\r\n* Fix custom thread-context data provider handling in lookups and filters. (#2331)\r\n* Fix handling of `log4j2.messageFactory` and `log4j2.flowMessageFactory` properties (#2505)\r\n* Discard blank keys in `PropertiesUtil` (#2414)\r\n* Fix handling of `log4j2.debug`. (#2703)\r\n* Fix location requirement for the `%F` and `%file` keys in Pattern Layout (#2781)\r\n* Fix `JsonLayout` failure under JPMS. (#2814)\r\n* Fix empty string handling for `TruncatingBufferedWriter` (#2609)\r\n* Fix that parameterized message formatting throws an exception when there are insufficient number of parameters. It previously simply\r\ndidn't replace the '{}' sequence. The behavior changed in 2.21.0 and should be restored for backward compatibility. (#2380)\r\n* Fix `ClassCastException` in LMAX Disruptor 3 initialization (#2768)\r\n* Fix requirement on the `java.management` module when JMX is disabled, which is the default (#2775)\r\n* Website is migrated to Antora with several formatting and link fixes (#2427)\r\n\r\n### Removed\r\n\r\n* Move Flume Appender to its own release lifecycle. (#2902)\r\n\r\n### Updated\r\n\r\n* Update `com.fasterxml.jackson:jackson-bom` to version `2.17.2` (#2719)\r\n* Update `com.github.luben:zstd-jni` to version `1.5.6-5` (#2901)\r\n* Update `commons-codec:commons-codec` to version `1.17.1` (#2741)\r\n* Update `commons-logging:commons-logging` to version `1.3.4` (#2864)\r\n* Update `github/codeql-action` to version `3.25.1` (#2483)\r\n* Update `io.fabric8:docker-maven-plugin` to version `0.45.0` (#2776)\r\n* Update `org.apache.cassandra:cassandra-all` to version `3.11.17` (#2479)\r\n* Update `org.apache.commons:commons-compress` to version `1.27.1` (#2869)\r\n* Update `org.apache.commons:commons-csv` to version `1.11.0` (#2565)\r\n* Update `org.apache.commons:commons-lang3` to version `3.17.0` (#2907)\r\n* Update `org.apache.kafka:kafka-clients` to version `3.8.0` (#2777)\r\n* Update `org.apache.logging:logging-parent` to version `11.2.0`\r\n* Update `org.eclipse.jetty:jetty-bom` to version `9.4.55.v20240627` (#2709)\r\n* Update `org.jctools:jctools-core` to version `4.0.5` (#2637)\r\n* Update log4j-mongodb4 `org.mongodb:*` from `4.11.1` to `4.11.2` (#2409)\r\n* Update `org.mongodb:bson` to version `5.1.3` (#2823)\r\n* Update `org.slf4j:slf4j-api` to version `2.0.16` (#2829)\r\n* Update `org.springframework:spring-framework-bom` to version `5.3.39` (#2840)"
     },
     "https://github.com/phpmyadmin/phpmyadmin": {
         "created_at": "2012-01-19 13:21:52",
@@ -23206,8 +23206,8 @@
     "https://github.com/RVC-Boss/GPT-SoVITS": {
         "created_at": "2024-08-21 14:53:32",
         "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
-        "commit_message": "优化tts_config代码逻辑 (#1538)\n\n* 优化tts_config\r\n\r\n* fix\r\n\r\n* 优化报错提示\r\n\r\n* 优化报错提示",
-        "commit_date": "2024-08-28 16:33:07",
+        "commit_message": "Fix typo (#1568)\n\n* typo\r\n\r\n* typo\r\n\r\n* Update README.md\r\n\r\n* Update README.md\r\n\r\n* typo",
+        "commit_date": "2024-09-03 03:17:42",
         "release_date": "2024-08-21 15:50:40",
         "release_message": " [windows 7z package download](https://huggingface.co/lj1995/GPT-SoVITS-windows-package/resolve/main/GPT-SoVITS-v2-240821.7z)\r\n\r\n中国用户可使用以下2个源加速下载整合包\r\n1、[需登录，免费满速下载链接](https://www.123pan.cn/s/5tIqVv-GVRcv.html)\r\n2、[有度盘超级会员的可以用度盘](https://pan.baidu.com/s/1OE5qL0KreO-ASHwm6Zl9gA?pwd=mqpi)\r\n\r\n[教程持续更新](www.yuque.com/baicaigongchang1145haoyuangong/ib3g1e) [user guide](https://rentry.co/GPT-SoVITS-guide#/)\r\n\r\nupdated to v2，[更新内容详情(v2 new features)](https://github.com/RVC-Boss/GPT-SoVITS/wiki/GPT%E2%80%90SoVITS%E2%80%90v2%E2%80%90features-(%E6%96%B0%E7%89%B9%E6%80%A7))\r\n\r\n[一些其他资料（some other documents）](https://github.com/RVC-Boss/GPT-SoVITS/wiki)\r\n\r\n[Changelog](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/docs/en/Changelog_EN.md) [更新日志](https://github.com/RVC-Boss/GPT-SoVITS/blob/main/docs/cn/Changelog_CN.md)\r\n\r\n[云端镜像（国内）](https://www.codewithgpu.com/i/RVC-Boss/GPT-SoVITS/GPT-SoVITS-Official )"
     },
@@ -24747,7 +24747,7 @@
     },
     "https://ctf.bugku.com/tools": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "在线工具 - Bugku CTF"
     },
     "https://www.qqxiuzi.cn/bianma/weijiniyamima.php": {
         "status_code": 200,
@@ -24775,7 +24775,7 @@
     },
     "https://ctf.bugku.com/tool/caesar": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "凯撒(Caesar)加密/解密 - Bugku CTF"
     },
     "https://www.calormen.com/jslogo/": {
         "status_code": 200,
@@ -24783,7 +24783,7 @@
     },
     "https://ctf.bugku.com/tool/xxencode": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "XXencode加密/解密 - Bugku CTF"
     },
     "http://serpent.online-domain-tools.com/": {
         "status_code": 200,
@@ -24915,7 +24915,7 @@
     },
     "https://ctf.bugku.com/tool/hill": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "希尔(Hill Cipher)加密/解密 - Bugku CTF"
     },
     "http://www.hiencode.com/": {
         "status_code": 200,
@@ -24931,7 +24931,7 @@
     },
     "https://ctf.bugku.com/tool/base100": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "BASE100编码解码 - Bugku CTF"
     },
     "https://xz.aliyun.com/t/9382": {
         "status_code": 200,
@@ -24943,7 +24943,7 @@
     },
     "https://ctf.bugku.com/tool/tripledes": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "Triple DES(3DES)加密/解密 - Bugku CTF"
     },
     "http://ctf.ssleye.com/tapcode.html": {
         "status_code": 200,
@@ -25194,8 +25194,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -25227,7 +25227,7 @@
     },
     "https://ctf.bugku.com/tool/todousharp": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "与佛论禅密码 - Bugku CTF"
     },
     "http://www.hiencode.com/handycode.html": {
         "status_code": 200,
@@ -26549,7 +26549,7 @@
     },
     "https://ctf.bugku.com/tool/base92": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "BASE92编码解码 - Bugku CTF"
     },
     "http://www.hiencode.com/caesar.html": {
         "status_code": 200,
@@ -26593,7 +26593,7 @@
     },
     "https://ctf.bugku.com/tool/railfence": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "栅栏加密/解密 - Bugku CTF"
     },
     "http://www.hiencode.com/affine.html": {
         "status_code": 200,
@@ -26657,7 +26657,7 @@
     },
     "https://ctf.bugku.com/tool/base85": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "BASE85编码解码 - Bugku CTF"
     },
     "http://tool.chacuo.net/cryptrc2": {
         "status_code": 200,
@@ -26669,7 +26669,7 @@
     },
     "https://ctf.bugku.com/tool/vigenere": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "维吉尼亚加密/解密 - Bugku CTF"
     },
     "http://www.hiencode.com/pub_asys.html": {
         "status_code": 200,
@@ -26689,7 +26689,7 @@
     },
     "https://ctf.bugku.com/tool/sojson5": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "Sojson v5 解密 - Bugku CTF"
     },
     "http://tool.chacuo.net/cryptrsapassclear": {
         "status_code": 200,
@@ -26769,7 +26769,7 @@
     },
     "https://ctf.bugku.com/tool/base91": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "BASE91编码解码 - Bugku CTF"
     },
     "http://tool.chacuo.net/cryptrsakeyparse": {
         "status_code": 200,
@@ -26789,7 +26789,7 @@
     },
     "https://ctf.bugku.com/tool/base62": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "BASE62编码解码 - Bugku CTF"
     },
     "http://www.hiencode.com/autokey.html": {
         "status_code": 200,
@@ -26797,7 +26797,7 @@
     },
     "https://ctf.bugku.com/tool/base64": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "BASE64编码解码 - Bugku CTF"
     },
     "http://tool.chacuo.net/crypt3des": {
         "status_code": 200,
@@ -26809,7 +26809,7 @@
     },
     "https://ctf.bugku.com/tool/base16": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "BASE16编码解码 - Bugku CTF"
     },
     "http://www.atoolbox.net/Tool.php?Id=1066": {
         "status_code": 200,
@@ -26817,7 +26817,7 @@
     },
     "https://ctf.bugku.com/tool/adfgx": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "ADFGX密码 - Bugku CTF"
     },
     "http://www.hiencode.com/tapcode.html": {
         "status_code": 200,
@@ -26825,11 +26825,11 @@
     },
     "https://ctf.bugku.com/tool/uuencode": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "UUencode加密/解密 - Bugku CTF"
     },
     "https://ctf.bugku.com/tool/sojson4": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "Sojson v4 解密 - Bugku CTF"
     },
     "https://c5r.app/tools/jsfuck": {
         "status_code": 200,
@@ -26861,7 +26861,7 @@
     },
     "https://ctf.bugku.com/tool/base58": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "BASE58编码解码 - Bugku CTF"
     },
     "http://www.hiencode.com/web_socket.html": {
         "status_code": 200,
@@ -26873,7 +26873,7 @@
     },
     "https://ctf.bugku.com/tool/cvecode": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "核心价值观编码 - Bugku CTF"
     },
     "http://www.hiencode.com/html_en.html": {
         "status_code": 200,
@@ -26889,7 +26889,7 @@
     },
     "https://ctf.bugku.com/tool/brainfuck": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "Brainfuck/OoK加密解密 - Bugku CTF"
     },
     "http://tool.chacuo.net/cryptgost": {
         "status_code": 200,
@@ -26965,7 +26965,7 @@
     },
     "https://ctf.bugku.com/tool/base32": {
         "status_code": 200,
-        "description": "跳转提示"
+        "description": "BASE32编码解码 - Bugku CTF"
     },
     "http://www.atoolbox.net/Tool.php?Id=992": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.102.46.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.75.94.41属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27406,8 +27406,8 @@
     "https://github.com/sullo/nikto": {
         "created_at": "2023-12-03 16:16:14",
         "description": "Nikto web server scanner",
-        "commit_message": "A little more efficient",
-        "commit_date": "2024-08-16 13:49:06",
+        "commit_message": "Fix WordPress capitalization",
+        "commit_date": "2024-08-28 13:45:50",
         "release_date": "2023-12-03 19:00:51",
         "release_message": "Nikto 2.5.0 has now been promoted to release and the master branch!\r\n\r\n**Note: [Breaking changes](https://github.com/sullo/nikto/wiki/2.5.0-Potentially-Breaking-Changes) to JSON and XML output may have occurred. If you rely on these formats please test before upgrading.**\r\n\r\nThis version contains hundreds of updates over several years, including the highlights below. \r\n- IPv6 support (thanks to @richardleach)\r\n- Updated `db_checks` format uses multiple reference\r\n- Hundreds of OSVDB and BID references replaced\r\n- Removal of some very old and false-positive prone tests\r\n- Decode Netscaler cookies (thanks to @canberkpolat)\r\n- Add `-usecookies` flag to send received cookies with subsequent requests\r\n- Add `-followredirects` flag to signal 3xx responses should be fetched and tested\r\n- Add `-noslash` to remove trailing slash from directories\r\n- Check for indexing on redirect paths\r\n- Alert on `alt-svc` header\r\n- Hundreds of bug fixes, test updates and enhancements, and other optimization changes\r\n\r\nYou can start using Nikto 2.5.0 by performing a `git pull` from the master branch, cloning the repository again, or [downloading the zip file](https://github.com/sullo/nikto/archive/refs/heads/master.zip).\r\n\r\nAs always, if you encounter bugs or problems, please [open an issue](https://github.com/sullo/nikto/issues/new/choose).\r\n\r\n![image](https://github.com/sullo/nikto/assets/1474884/796062af-7cb1-404c-9c0c-720d110d62c7 )\r\n"
     },
@@ -28874,8 +28874,8 @@
     "https://github.com/stamparm/maltrail": {
         "created_at": "2024-08-31 21:47:22",
         "description": "Malicious traffic detection system",
-        "commit_message": "Update apt_kimsuky.txt",
-        "commit_date": "2024-09-03 00:18:32",
+        "commit_message": "Update mythic.txt",
+        "commit_date": "2024-09-06 23:41:55",
         "release_date": "2024-08-31 22:11:03",
         "release_message": "Start-of-month release"
     },
@@ -29055,7 +29055,7 @@
         "created_at": "2024-05-29 10:10:31",
         "description": "攻防演练过程中，我们通常会用浏览器访问一些资产，但很多未授权/敏感信息/越权隐匿在已访问接口过html、JS文件等，该插件能让我们发现未授权/敏感信息/越权/登陆接口等。",
         "commit_message": "update",
-        "commit_date": "2024-08-22 03:29:23",
+        "commit_date": "2024-09-05 00:42:56",
         "release_date": "2024-05-30 00:16:40",
         "release_message": "## 说明: jar包二选一下载加载即可\r\nBurpAPIFinder-high-v2.0.2.jar为高性能版本：对大js会提取前500w出来作识别\r\nBurpAPIFinder-lower-v2.0.2.jar为普通性能版本：对大js会提取前50w出来作识别\r\n\r\n## BurpAPIFinder v2.0.1\r\n- [x] 优化从JS中提取url路径，方式一：从单双引号中提取出包含/的路径\r\n- [ ]  优化从JS中提取url路径，方式二：优化提取js中concat的场景，补全父路径\r\n- [x] 优化从JS中提取url路径，方式三：针对404场景，通过匹配已经访问过的路径，来寻找对应的父路径\r\n- [x] 匹配内容标高亮显示，有价值标蓝色，敏感信息标红色\r\n- [x] 前端展示js提取出来的url结果\r\n- [x] 新增右键\"提取url\"功能，支持对某一个具体路径提取出url出来 \r\n- [x] 新建右键\"自定义凭证\"，支持对URL下返回状态码3xx且重要无敏感指纹场景的补充上自定义凭证进行识别\r\n- [x] 新增右键\"自定义路径扫描\", 支持该URL对下面目录进行扫描且支持自定义凭证扫描 \r\n- [x] 新增右键\"用户自定义父路径\"， 支持该URL下返回状态码3xx或4xx且无敏感指纹场景的补充上自定义父路径后进行识别\r\n- [x] 新增右键\"复制\"，快速对PATH复制 \r\n- [x] 优化结果输出，默认输出匹配到末尾40个字符出来 \r\n\r\n\r\n## BurpAPIFinder v1.8\r\n- [x] 优化从JS中提取url路径，方式一：从单双引号中提取出包含/的路径\r\n\r\n## BurpAPIFinder v1.7\r\n- [x] 新增右键“删除”功能\r\n- [x] 新增配置栏白名单后缀、白名单域名、白名单路径功能\r\n- [x] 新增配置文件栏的区分精准度的按钮 \r\n\r\n## BurpAPIFinder v1.6\r\n- [x] 将js爬取放入后台进行\r\n- [x] 优化前端展示\r\n\r\n## BurpAPIFinder v1.5\r\n- [x] 优化BUG\r\n- [x] 添加右键“误报\"功能\r\n\r\n## BurpAPIFinder v1.4\r\n- [x] 使用sqlite存储过程数据，减少内存开销\r\n\r\n## BurpAPIFinder v1.3\r\n- [x] 集成HaE、APIKit、sweetPotato敏感信息指纹库\r\n\r\n## BurpAPIFinder v1.2\r\n- [x] 新增敏感数据识别指纹-身份证、手机号码、密码、用户名、云KEY\r\n\r\n## BurpAPIFinder v1.1\r\n- [x] 支持前段自定义配置重要指纹库\r\n- [x] 支持检索\r\n- [x] 区分快捷检索，支持重点、只看status为200、只看敏感内容、只看敏感路径\r\n- [x] 支持开关按钮\r\n- [x] 新增敏感数据识别指纹\r\n\r\n## BurpAPIFinder v1.0\r\n- [x] 集成从html、JS中提取URL功能\r\n- [x] 美化前端界面\r\n"
     },
