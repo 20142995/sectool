@@ -23980,7 +23980,7 @@
         "release_message": ""
     },
     "https://github.com/MvsCode/frps-onekey": {
-        "created_at": "2024-06-26 06:20:34",
+        "created_at": "2019-01-17 15:37:09",
         "description": "Frp server one-click configuration script. The script obtains the latest Frp version by default",
         "commit_date": "2024-07-27 14:56:15",
         "commit_message": "Add files via upload",
@@ -25194,8 +25194,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 200,
-        "description": "Practical Cryptography"
+        "status_code": 500,
+        "description": "500 Internal Server Error"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.75.94.41属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.234.33.250属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
