@@ -3066,7 +3066,7 @@
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### 🎉 New Features\r\n\r\n* Added `team-id` option to upload results to specific team workspace by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5523\r\n\r\n**Option**:\r\n```console\r\n   -tid, -team-id string  upload scan results to given team id (optional) (default \"none\")\r\n```\r\n\r\n**Example**:\r\n\r\n```\r\nnuclei -pt dns -u example.com -cloud-upload -team-id cqlmoalcm2sc73eut1b0\r\n```\r\n\r\n* Added redaction support in output file by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5463\r\n\r\n**Option**:\r\n\r\n```console\r\n   -rd, -redact string[]  redact given list of keys from query parameter, request header and body\r\n```\r\n**Example**:\r\n\r\n```\r\nnuclei -pt dns -u example.com -redact api_key,x-api-key,user-agent\r\n```\r\n\r\n* Added support for multiple auth strategies per target from secret file by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5500\r\n* Added support to generate matcher-status event for javascript protocol by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5450\r\n* Added workflows in SDK example by @alban-stourbe-wmx in https://github.com/projectdiscovery/nuclei/pull/5409\r\n* Added `skip-secret-file` template attribute to disable auth per template by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5522\r\n\r\n### 🐞 Bug Fixes\r\n* Fixed `FileAuthProvider` stores the same strategy for each entry by @mrschyte in https://github.com/projectdiscovery/nuclei/pull/5474\r\n* Fixed circular references in OpenAPI parsing(fuzzing) by @trypa11 in https://github.com/projectdiscovery/nuclei/pull/5491\r\n* Fixed file protocol missing vars in flow & multi-protocol by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5480\r\n* Fixed issue assign `customHeaders` to the map directly by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5445\r\n* Fixed issue with input transformation to multi-protocol templates by @mhmdiaa in https://github.com/projectdiscovery/nuclei/pull/5426\r\n* Fixed missing close statements `file.Close()` & `ticker.Stop()` by @ShuBo6 in https://github.com/projectdiscovery/nuclei/pull/5436\r\n* Fixed nil panic by @tarunKoyalwar in https://github.com/projectdiscovery/nuclei/pull/5473\r\n* Fixed server URL path for OpenAPI parsing by @trypa11 in https://github.com/projectdiscovery/nuclei/pull/5504\r\n* Fixed unresolved `interactsh-url` variable with fuzzing by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5289\r\n* Fixed unresolved variables error with dast templates by @RamanaReddy0M in https://github.com/projectdiscovery/nuclei/pull/5443\r\n\r\n### 🔨 Maintenance\r\n* ci: don't clean modules cache by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5519\r\n* ci: use composite actions by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5483\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/61?closed=1\r\n\r\n## New Contributors\r\n* @fudancoder made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5432\r\n* @ShuBo6 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5436\r\n* @Jarnpher553 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5419\r\n* @mhmdiaa made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5426\r\n* @alban-stourbe-wmx made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5409\r\n* @mrschyte made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5474\r\n* @trypa11 made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5504\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.3.0...v3.3.1"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
-        "created_at": "2024-05-01 22:28:19",
+        "created_at": "2022-01-24 00:30:26",
         "description": "Burp extension to evade TLS fingerprinting. Bypass WAF, spoof any browser.",
         "commit_date": "2024-05-01 22:28:19",
         "commit_message": "Merge pull request #70 from sleeyax/chore/update-dependencies",
@@ -25194,8 +25194,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.114.149属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.161.78.226属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
