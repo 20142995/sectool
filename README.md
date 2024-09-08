@@ -42,7 +42,7 @@
 - <img src="https://favicon.qqsuu.cn/www.atoolbox.net" alt="" style="height: 20px;"> [ADFGX Cipher - A.Tools](http://www.atoolbox.net/Tool.php?Id=918) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线ADFGVX密码加密|在线ADFGVX密码解密|ADFGVX密码算法|ADFGVX Cipher](http://www.hiencode.com/adfgvx.html) 
 - <img src="https://favicon.qqsuu.cn/www.hiencode.com" alt="" style="height: 20px;"> [CTF在线工具-在线ADFGX密码加密|在线ADFGX密码解密|ADFGX密码算法|ADFGX Cipher](http://www.hiencode.com/adfgx.html) 
-- <img src="https://favicon.qqsuu.cn/www.practicalcryptography.com" alt="" style="height: 20px;"> [500 Internal Server Error](http://www.practicalcryptography.com/ciphers/adfgx-cipher/) 
+- <img src="https://favicon.qqsuu.cn/www.practicalcryptography.com" alt="" style="height: 20px;"> [Practical Cryptography](http://www.practicalcryptography.com/ciphers/adfgx-cipher/) 
 - <img src="https://favicon.qqsuu.cn/ctf.bugku.com" alt="" style="height: 20px;"> [ADFGX密码 - Bugku CTF](https://ctf.bugku.com/tool/adfgx) 
 #### AES加解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线AES加密解密、AES在线加密解密、AES encryption and decryption--查错网](http://tool.chacuo.net/cryptaes) 
@@ -145,7 +145,7 @@
 - <img src="https://favicon.qqsuu.cn/ctfever.uniiem.com" alt="" style="height: 20px;"> [CTFever Toolkit by uniiem](https://ctfever.uniiem.com/tools/jsfuck) 
 - <img src="https://favicon.qqsuu.cn/www.bugku.com" alt="" style="height: 20px;"> [JSFuck - 在线加解密](https://www.bugku.com/tools/jsfuck/) 
 #### MD5解密
-- <img src="https://favicon.qqsuu.cn/cmd5.la" alt="" style="height: 20px;"> [md5解密_cmd5在线解密_加密工具 - 查md5啦[cmd5.la]](https://cmd5.la/) 
+- <img src="https://favicon.qqsuu.cn/cmd5.la" alt="" style="height: 20px;"> [Just a moment...](https://cmd5.la/) 
 - <img src="https://favicon.qqsuu.cn/pmd5.com" alt="" style="height: 20px;"> [md5解密 MD5在线解密 破解md5](https://pmd5.com/) 
 - <img src="https://favicon.qqsuu.cn/www.chamd5.org" alt="" style="height: 20px;"> [运行时错误](https://www.chamd5.org/) 
 - <img src="https://favicon.qqsuu.cn/www.cmd5.com" alt="" style="height: 20px;"> [md5在线解密破解,md5解密加密](https://www.cmd5.com/) 
@@ -1210,7 +1210,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reverseip_py](https://github.com/yuyudhn/reverseip_py) Domain Parser for IPAddress.com Reverse IP Lookup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [iplookup v1.1](https://github.com/Lengso/iplookup) IP反查域名
 - <img src="https://favicon.qqsuu.cn/s.tool.chinaz.com" alt="" style="height: 20px;"> [网站IP查询_IP反查域名_同IP网站查询 - 站长工具](http://s.tool.chinaz.com/same) 
-- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [4.227.114.149属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
+- <img src="https://favicon.qqsuu.cn/dns.aizhan.com" alt="" style="height: 20px;"> [52.234.33.118属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网](https://dns.aizhan.com/) 
 - <img src="https://favicon.qqsuu.cn/dnslytics.com" alt="" style="height: 20px;"> [Reverse IP - Find websites hosted on the same IP address, server or subnet](https://dnslytics.com/reverse-ip) 
 - <img src="https://favicon.qqsuu.cn/hackertarget.com" alt="" style="height: 20px;"> [Reverse IP Lookup, Find Hosts Sharing an IP | HackerTarget.com](https://hackertarget.com/reverse-ip-lookup/) 
 - <img src="https://favicon.qqsuu.cn/rapiddns.io" alt="" style="height: 20px;"> [Subdomain - RapidDNS Rapid DNS Information Collection](https://rapiddns.io/sameip) 
@@ -1724,8 +1724,8 @@
 ###### 其他
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [burp-api-drops](https://github.com/bit4woo/burp-api-drops) burp插件开发指南
 ###### 功能拓展
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Galaxy](https://github.com/outlaws-bai/Galaxy) Burp插件，通过自定义hook脚本自动解密报文，让你像测试明文一样简单。A Burp plugin that automatically decryp...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpAPIFinder](https://github.com/shuanx/BurpAPIFinder) 攻防演练过程中，我们通常会用浏览器访问一些资产，但很多未授权/敏感信息/越权隐匿在已访问接口过html、JS文件等，该插件能让我们发现未授...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Galaxy](https://github.com/outlaws-bai/Galaxy) Burp插件，自动解密被加密的报文，让你像测试明文一样简单。A Burp plugin that automatically decrypts encr...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HaE 2.4.6](https://github.com/gh0stkey/HaE) HaE - Highlighter and Extractor, Empower ethical hacker for efficient ope...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [burp-requests v0.2.4](https://github.com/silentsignal/burp-requests) Copy as requests plugin for Burp Suite
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [NEW_xp_CAPTCHA 4.2](https://github.com/smxiazi/NEW_xp_CAPTCHA) xp_CAPTCHA(瞎跑 白嫖版) burp 验证码 识别 burp插件
@@ -2428,12 +2428,12 @@
 ##### DLL劫持
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DLLSpy V1](https://github.com/cyberark/DLLSpy) DLL Hijacking Detection Tool
 ##### Linux应急工具
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yingji](https://github.com/tide-emergency/yingji) 应急相关内容积累
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Whoamifuck](https://github.com/enomothem/Whoamifuck) 用于Linux应急响应，快速排查异常用户登录情况和入侵信息排查，准确定位溯源时间线，高效辅助还原攻击链。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [malwoverview v5.4.2](https://github.com/alexandreborges/malwoverview) Malwoverview is a first response tool used for threat hunting a...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Ashro_linux](https://github.com/Ashro-one/Ashro_linux) Linux通用应急响应脚本，适用大多数情况
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LinuxCheck V2.3](https://github.com/al0ne/LinuxCheck) Linux应急处置/信息搜集/漏洞检测工具，支持基础配置/网络流量/任务计划/环境变量/用户信息/Services/bash/恶意文件...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [whohk](https://github.com/wgpsec/whohk) whohk，linux下一款强大的应急响应工具  在linux下的应急响应往往需要通过繁琐的命令行来查看各个点的情况，有的时候还需要做一些格式处理，这对于...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yingji](https://github.com/tide-emergency/yingji) 应急相关内容积累
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [uroboros](https://github.com/evilsocket/uroboros) A GNU/Linux monitoring and profiling tool focused on single processes.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GScan](https://github.com/grayddq/GScan) 本程序旨在为安全应急响应人员对Linux主机排查时提供便利，实现主机侧Checklist的自动全面化检测，根据检测结果自动数据聚合，进行黑客攻击路径溯源。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Emergency](https://github.com/P4ck/Emergency) 应急响应脚本
