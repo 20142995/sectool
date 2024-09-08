@@ -2341,12 +2341,12 @@
         "release_message": ""
     },
     "https://github.com/FunnyWolf/Viper": {
-        "created_at": "2024-08-05 08:42:44",
+        "created_at": "2024-09-05 03:42:30",
         "description": "Attack Surface Management & Red Team Simulation Platform 互联网攻击面管理&红队模拟平台",
-        "commit_message": "update version 2.3.3",
-        "commit_date": "2024-08-21 05:06:39",
-        "release_date": "2024-08-05 08:56:31",
-        "release_message": "\r\n\r\n### 新功能\r\n\r\n- 新增`SMTP配置`,用于发送邮件\r\n- `数据分析多角色智能体`支持session\\handler相关信息查询分析\r\n- `数据分析多角色智能体`支持meterpreter相关操作(摄像头/截屏/键盘记录/查看文件)\r\n- 新增`邮件生成/发送智能体`,可以根据用户简单描述生成完整的邮件并发送\r\n\r\n### 优化\r\n\r\n- 部分按钮UI调整\r\n- `OpenAI`新增`gpt-4o-mini`模型\r\n- `渗透服务`状态检查新增心跳功能检测\r\n- `互联网攻击面管理`的worker代码合并到主分支\r\n\r\n### Bugfix\r\n\r\n- fix 部分界面抖动问题"
+        "commit_message": "update readme",
+        "commit_date": "2024-09-06 05:11:39",
+        "release_date": "2024-09-06 02:12:16",
+        "release_message": "## v2.3.4 2024-09-04-16-59-30\r\n### 新功能\r\n- 新增`多用户`功能,支持多人协作\r\n\r\n### 优化\r\n- `智能助手`支持Markdown格式输出及展示"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
@@ -2919,8 +2919,8 @@
     "https://github.com/dbeaver/dbeaver": {
         "created_at": "2024-08-30 15:05:16",
         "description": "Free universal database tool and SQL client",
-        "commit_message": "CB-5602 add flag to force process event (#35449)\n\nCo-authored-by: kseniaguzeeva <112612526+kseniaguzeeva@users.noreply.github.com>",
-        "commit_date": "2024-09-03 16:10:42",
+        "commit_message": "dbeaver/pro#3300 Pick the default router if chosen one is not available (#35452)\n\nCo-authored-by: MashaKorax <84867187+MashaKorax@users.noreply.github.com>",
+        "commit_date": "2024-09-05 15:39:49",
         "release_date": "2024-09-01 16:09:18",
         "release_message": "\n                Changes since 24.1.5:\n                - SQL Editor:\n                    - Fixed highlighting of block $$ for functions and procedures when the semantic analysis option is enabled\n                    - Warning and errors handling and presentation was improved\n                    - Subquery semantic analysis was enhanced\n                    - Improved CREATE and DROP queries handling\n                    - Autocompletion for fully qualified names was fixed\n                    - Duplication of proposals with new completion engine enabled was fixed\n                    - Incorrect suggestions with new completion engine enabled were fixed\n                - AI Assistant:\n                    - Added new model 'gpt-4o-mini'\n                    - Removed deprecated model 'gpt-3.5-turbo-16K'\n                    - Fixed query generation when enabled formatting\n                - Data Editor:\n                    - Some datatypes icons were changed\n                    - Fixed filtering on columns with spaces\n                    - Added an ability to render geometry shapes in their assigned color if a 'color' column is present in the result set\n                    - Improved handling of fully qualified names in Grouping panel according to SQL dialect\n                    - Local links opening was restricted\n                - Datatransfer: Data transfer windows width was fixed\n                - Connectivity: Fixed verification of the 127.0.01 host when connecting via SSH\n                - General:\n                    - Fixed flipping splash screen on macOS Sequoia\n                    - Foreign Data wrappers configurator was fixed\n                    - 'Open auth links in embedded browser' setting was disabled by default\n                    - Search in Preferences was improved: added keywords for reopen, open, Hippie, autosave, and others\n                    - Fixed selection of wrong database when changing connection for database with similar names\n                    - Folder display in Simple view was fixed\n                    - Numeric (DWORD) type parameters in Windows Registry are now supported\n                    - 'Ctrl+Alt+Left / Right' hotkeys for 'Previous Edit Location' and 'Next Edit Location' were fixed\n                - Databases:\n                    - Clickhouse: Filtering by the Date data type was fixed\n                    - MySQL: Error/output log dump was fixed\n                    - PostgreSQL:\n                        - Ordering by interval datatypes in the Data grid was fixed\n                        - Added regexp functions support in SQL Editor (thanks to @anton-erofeev)\n                    - Redshift:\n                        - Connection stability was significantly improved\n                        - DDL presentation was fixed\n                        - Role, User, and Group presentation was fixed\n                    - SQL Server:\n                        - SQL Server driver was updated to version 12.8.0\n                        - Fixed DDL and column display with custom data types\n                - Localization: French localization was updated (thanks to @KawtharAlakri)\n            "
     },
@@ -4555,8 +4555,8 @@
     "https://github.com/baidu/dperf": {
         "created_at": "2024-06-05 10:43:58",
         "description": "dperf is a 100Gbps network load tester.",
-        "commit_message": "Merge pull request #488 from pengjianzhang/main\n\nfix: 8bytes align",
-        "commit_date": "2024-08-29 08:17:32",
+        "commit_message": "Merge pull request #492 from pengjianzhang/main\n\nthe accurate number of concurrent connections for rss",
+        "commit_date": "2024-09-07 08:05:57",
         "release_date": "2024-06-05 10:58:44",
         "release_message": "## v1.7.0 - 2024-06-06\r\n\r\nAfter more than six months, the 1.7.0 version has finally been released. [Pengfei Zhang](https://github.com/zhangpengfei-xyz) contributed many features to this version. Thank you, Pengfei Zhang, for making dperf more powerful. We welcome more developers to join us and make dperf even better.\r\n\r\n### Added\r\n\r\n- send http post requests\r\n\r\n- dpdk pdump\r\n\r\n    thanks ZhangPengfei\r\n\r\n- fast_close: use RST to close connections\r\n\r\n- support DPDK-23.11 and DPDK-24\r\n\r\n- enable simd512\r\n\r\n- disable ack\r\n\r\n- configure retransmit timeout\r\n\r\n### Changed\r\n\r\n- config DPDK log level\r\n\r\n- clear_screen: dperf can clear screen output and make the screen cleaner\r\n\r\n- static linking\r\n\r\n    thanks ZhangPengfei\r\n\r\n### Fixed\r\n\r\n- dpdk cleanup\r\n\r\n    thanks ZhangPengfei\r\n\r\n- CFLAGS override\r\n\r\n    thanks ZhangPengfei\r\n\r\n- missspell\r\n\r\n    thanks ZhangPengfei\r\n\r\n- don't clear sequences in time-wait state"
     },
@@ -22642,8 +22642,8 @@
     "https://github.com/whyour/qinglong": {
         "created_at": "2021-03-13 15:21:04",
         "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
-        "commit_message": "更新版本 v2.17.10",
-        "commit_date": "2024-08-30 14:00:12"
+        "commit_message": "更新 readme",
+        "commit_date": "2024-09-05 14:35:14"
     },
     "https://github.com/nelenkov/android-backup-extractor": {
         "created_at": "2022-08-09 06:34:28",
@@ -22781,12 +22781,12 @@
         "release_message": ""
     },
     "https://github.com/qiwentaidi/Slack": {
-        "created_at": "2024-08-29 08:00:17",
+        "created_at": "2024-09-07 08:05:31",
         "description": "安服集成化工具平台，帮助测试人员减少测试脚本多，使用繁琐问题",
         "commit_message": "1",
-        "commit_date": "2024-08-30 00:01:42",
-        "release_date": "2024-08-29 08:10:57",
-        "release_message": "### 新增:\r\n- POC版本升级到0.0.7\r\n- 目录扫描增加字典扫描成功次数记录\r\n\r\n### 优化:\r\n- 互联网信息收集增加终止扫描功能，修复任务重新开启时，进度条与内容不重置的问题\r\n- 更新功能优化，目前不会移除已添加的POC文件，更新过程会出现在右下角\r\n\r\n### 修复:\r\n- Nuclei进程在启动中无法终止\r\n- 网站扫描部分目标无法通过正则匹配\r\n- 网站扫描指纹导出功能异常\r\n"
+        "commit_date": "2024-09-07 15:49:27",
+        "release_date": "2024-09-07 08:19:03",
+        "release_message": "### 新增:\r\n- 增加公司信息收集模块可联动子域名收集模块\r\n- 网站扫描指纹规则新增icon_mdhash，由于golang在计算mmh3时，少数情况下与正常的值有偏差，可以使用icon_mdhash作为icon_hash指纹的替代，鹰图计算的icon值可以直接使用\r\n- 网站扫描链接可以批量打开\r\n- 左上角增加刷新功能，可以用于热重载指纹列表等其他默认初始化数据\r\n- FOFA、Hunter等功能同样增加具备C段查询\r\n\r\n### 优化:\r\n- 重做暴破与未授权访问模块的页面，并增加退出扫描的功能\r\n- 网站扫描指纹显示改为右键列出现操作菜单\r\n\r\n### 修复:\r\n- 端口扫描线程等number类型数值绑定时未加修饰符，导致修改数据时会数据类型错误无法执行任务\r\n- FOFA查询到资产为空时一直为加载状态\r\n- 数据库传入类型固定，导致类型接受错误无法写入内容\r\n- 空间引擎收藏语法无法点击问题\r\n- 企业信息查询并发写入map导致程序退出\r\n- 公司信息查询出增加校验，现在需要填入Cookie字段"
     },
     "https://github.com/horizon3ai/CVE-2023-27524": {
         "created_at": "2023-04-25 04:59:05",
@@ -23755,13 +23755,13 @@
         "release_message": ""
     },
     "https://github.com/chainreactors/spray": {
-        "created_at": "2024-08-20 08:42:32",
+        "created_at": "2024-08-29 06:04:56",
         "description": "Next Generation HTTP Dir/File Fuzz Tool",
-        "commit_date": "2024-08-27 06:30:40",
-        "commit_message": "Merge pull request #65 from chainreactors/dev\n\nmerge v1.1.0",
+        "commit_date": "2024-08-29 06:38:18",
+        "commit_message": "Merge pull request #67 from chainreactors/dev\n\nmerge v1.1.1",
         "release_tag": "v0.9.1",
-        "release_date": "2024-08-20 08:49:34",
-        "release_message": "## Changelog\r\n* [fix] 修复v1.0.1 中check模式挂死的bug\r\n* [fix] 修复自动http/https判断中相互递归导致的死锁bug\r\n* [fix] brute plugin 开启后不会自动切换到brute模式的bug \r\n\r\n**Full Changelog**: https://github.com/chainreactors/spray/compare/v1.0.1...v1.0.2"
+        "release_date": "2024-08-29 06:10:44",
+        "release_message": "## Changelog\r\n* [enhance] 支持csv格式输出, 新增类似gogo的独立控制文件输出的选型,  `-O csv`, #62\r\n* [fix] `-m host` 无法正常工作的bug, https://github.com/chainreactors/spray/issues/63\r\n* [fix] 修复fuzzy的结果不合时宜的出现的bug\r\n* [fix] 修复潜在的fasthttp socket超时不生效的bug, 可能会导致程序挂死, https://github.com/chainreactors/spray/issues/58\r\n\r\n"
     },
     "https://github.com/TD0U/WeaverScan": {
         "created_at": "2022-12-30 12:45:33",
@@ -25194,8 +25194,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -25302,8 +25302,8 @@
         "description": "Catpasswd - Globally renowned encrypt file recovery platform"
     },
     "https://cmd5.la/": {
-        "status_code": 200,
-        "description": "md5解密_cmd5在线解密_加密工具 - 查md5啦[cmd5.la]"
+        "status_code": 403,
+        "description": "Just a moment..."
     },
     "https://www.onlinehashcrack.com/": {
         "status_code": 200,
@@ -25414,12 +25414,12 @@
         "commit_date": "2016-07-08 02:42:50"
     },
     "https://github.com/leondz/garak": {
-        "created_at": "2024-08-13 15:36:33",
+        "created_at": "2024-09-06 13:52:31",
         "description": "LLM vulnerability scanner",
-        "commit_message": "automatic garak/resources/plugin_cache.json update",
-        "commit_date": "2024-09-04 13:08:43",
-        "release_date": "2024-08-13 15:51:08",
-        "release_message": "## What's Changed\r\n\r\n### New plugins\r\n* probe: assess 🤗 repos for potentially malicious files (`fileformats`) by @leondz in https://github.com/leondz/garak/pull/767\r\n\r\n### New features\r\n* use XDG paths for configuration data and caching by @jmartin-tech in https://github.com/leondz/garak/pull/799\r\n* Report comparative info for detector scores by @leondz in https://github.com/leondz/garak/pull/814\r\n* enable HFDetector model configuration with hf_args by @jmartin-tech in https://github.com/leondz/garak/pull/810\r\n* Flags for varying NIM seed and temperature every call  by @leondz in https://github.com/leondz/garak/pull/808\r\n\r\n### Tuning & fixes\r\n* don't skip listing probes in 100%-pass-rate modules by @leondz in https://github.com/leondz/garak/pull/781\r\n* make default regex `raw` to remove python 3.12 warnings by @jmartin-tech in https://github.com/leondz/garak/pull/809\r\n* suppress HF `warning`s and lower during detector model instantiation by @leondz in https://github.com/leondz/garak/pull/807\r\n* validate cache consistency on first access by @jmartin-tech in https://github.com/leondz/garak/pull/815\r\n* clarify `continuation` probes by @leondz in https://github.com/leondz/garak/pull/813\r\n* print logfile path when invoked from CLI by @leondz in https://github.com/leondz/garak/pull/811\r\n* update slurprompts filename in encoding pkg by @leondz in https://github.com/leondz/garak/pull/818\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.14...v0.9.0.15"
+        "commit_message": "postrel version bump",
+        "commit_date": "2024-09-06 15:33:03",
+        "release_date": "2024-09-06 15:28:03",
+        "release_message": "## What's Changed\r\n\r\n### New plugins\r\n\r\n* probe: topic pushing by @leondz in https://github.com/leondz/garak/pull/764\r\n* probe: ruby package hallucination by @arjun-krishna1 in https://github.com/leondz/garak/pull/851\r\n* probe: Latent prompt injection by @leondz in https://github.com/leondz/garak/pull/877\r\n* probe: npm package hallucination by @arjun-krishna1 in https://github.com/leondz/garak/pull/861\r\n* probe: rust crate hallucination by @arjun-krishna1 in https://github.com/leondz/garak/pull/873\r\n* generator: Groq API by @mmilenkovic-groq in https://github.com/leondz/garak/pull/896\r\n\r\n### New features\r\n\r\n* extract `generations` param to be set on probes instead of generators by @jmartin-tech in https://github.com/leondz/garak/pull/837\r\n* secure garak HF assets by @leondz in https://github.com/leondz/garak/pull/854\r\n* Rename `knownbadsignatures` to `av_spam_scanning` by @leondz in https://github.com/leondz/garak/pull/850\r\n* enable tokenizer customization in HFDetector by @jmartin-tech in https://github.com/leondz/garak/pull/855\r\n* refactor calibration / z-score code, so z-scores can be shown in CLI at run time by @leondz in https://github.com/leondz/garak/pull/847\r\n\r\n### Tuning & fixes\r\n\r\n* add automation action for plugin_cache.json by @jmartin-tech in https://github.com/leondz/garak/pull/819\r\n* add automation action for plugin_cache.json by @jmartin-tech in https://github.com/leondz/garak/pull/819\r\n* Docs/readmefaqdc32 by @leondz in https://github.com/leondz/garak/pull/828\r\n* fix initialization bug for kwargs in function by @soumilinandi in https://github.com/leondz/garak/pull/827\r\n* suppress LiteLLM logging during import by @jmartin-tech in https://github.com/leondz/garak/pull/834\r\n* relax `--probe_tags` as supported when other probe options are passed by @jmartin-tech in https://github.com/leondz/garak/pull/836\r\n* rename harness test module by @leondz in https://github.com/leondz/garak/pull/848\r\n* Surface underlying exception msg at plugin load by @leondz in https://github.com/leondz/garak/pull/846\r\n* relax litellm provider constraint by @arjun-krishna1 in https://github.com/leondz/garak/pull/820\r\n* plugin metadata tests by @leondz in https://github.com/leondz/garak/pull/849\r\n* Add explanation of how we treat the word \"vulnerability\" by @leondz in https://github.com/leondz/garak/pull/852\r\n* add faq items by @leondz in https://github.com/leondz/garak/pull/857\r\n* test buff transform() methods, to get them to load and run by @leondz in https://github.com/leondz/garak/pull/856\r\n* expand doc string that fails test requirements for verbosity by @jmartin-tech in https://github.com/leondz/garak/pull/859\r\n* refresh tutorial on contributing a generator by @leondz in https://github.com/leondz/garak/pull/858\r\n* avoid lambda in `_config` module level code by @jmartin-tech in https://github.com/leondz/garak/pull/860\r\n* add logging dir, new generator questions to FAQ by @leondz in https://github.com/leondz/garak/pull/866\r\n* revise default generations value to 5 by @leondz in https://github.com/leondz/garak/pull/868\r\n* validate detector doc_uri by @leondz in https://github.com/leondz/garak/pull/865\r\n* fix output error when parallel_requests > 1 and supports_multiple_generations is False by @arjun-krishna1 in https://github.com/leondz/garak/pull/864\r\n* improved messaging & error handling around NIM names by @leondz in https://github.com/leondz/garak/pull/867\r\n* look at the right var for NIM name checking by @leondz in https://github.com/leondz/garak/pull/871\r\n* filter detector template in tests by @jmartin-tech in https://github.com/leondz/garak/pull/874\r\n* have CLI UI render 100% w/o using scientific notation by @leondz in https://github.com/leondz/garak/pull/882\r\n* Generator docs are now tested for as intended by @leondz in https://github.com/leondz/garak/pull/897\r\n* reporting tweaks by @leondz in https://github.com/leondz/garak/pull/901\r\n\r\n## New Contributors\r\n* @soumilinandi made their first contribution in https://github.com/leondz/garak/pull/827\r\n* @arjun-krishna1 made their first contribution in https://github.com/leondz/garak/pull/820\r\n* @mmilenkovic-groq made their first contribution in https://github.com/leondz/garak/pull/896\r\n* @greshake made their first contribution in https://github.com/leondz/garak/pull/877\r\n\r\n**Full Changelog**: https://github.com/leondz/garak/compare/v0.9.0.15...v0.9.0.0.16"
     },
     "https://github.com/Ekultek/WhatWaf": {
         "created_at": "2019-12-01 09:42:24",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.81.159.87属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.157.14.82属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27660,8 +27660,8 @@
     "https://github.com/Leon406/ToolsFx": {
         "created_at": "2024-04-29 03:16:29",
         "description": "基于kotlin+tornadoFx的跨平台密码学工具箱.包含编解码,编码转换,加解密, 哈希,MAC,签名,大数运算,压缩,二维码功能,ctf等实用功能,支持插件",
-        "commit_message": "fix(deps): update kotlin monorepo to v2.0.20",
-        "commit_date": "2024-08-23 00:34:31",
+        "commit_message": "feat(app): 支持windows 离线ocr(微信引擎)",
+        "commit_date": "2024-09-06 06:31:24",
         "release_date": "2024-04-29 12:06:21",
         "release_message": "已开通打赏渠道,入口不会嵌入软件中\r\n想支持作者,可在README或者个人github主页打赏\r\n\r\n再次感谢 naonaonao 师傅支持！\r\n\r\n## What's Changed\r\n* v1.17.0 by @Leon406 in https://github.com/Leon406/ToolsFx/pull/163\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.13.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/165\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-6 by @renovate in https://github.com/Leon406/ToolsFx/pull/166\r\n* fix(deps): update dependency androidx.collection:collection-ktx to v1.3.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/167\r\n* chore(deps): update dependency gradle to v8.4 by @renovate in https://github.com/Leon406/ToolsFx/pull/168\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.6.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/169\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.14.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/170\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.14.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/171\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/172\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/173\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.16.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/174\r\n* fix(deps): update dependency org.jetbrains.kotlin:kotlin-reflect to v1.9.20 by @renovate in https://github.com/Leon406/ToolsFx/pull/177\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/176\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-7 by @renovate in https://github.com/Leon406/ToolsFx/pull/175\r\n* chore(deps): update detektver to v1.23.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/178\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-9 by @renovate in https://github.com/Leon406/ToolsFx/pull/179\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-10 by @renovate in https://github.com/Leon406/ToolsFx/pull/180\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.15.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/181\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.7.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/182\r\n* fix(deps): update dependency dnsjava:dnsjava to v3.5.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/183\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.23 by @renovate in https://github.com/Leon406/ToolsFx/pull/184\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.44.0.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/185\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.77 by @renovate in https://github.com/Leon406/ToolsFx/pull/186\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/187\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.25.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/188\r\n* fix(deps): update kotlin monorepo to v1.9.21 by @renovate in https://github.com/Leon406/ToolsFx/pull/189\r\n* chore(deps): update detektver to v1.23.4 by @renovate in https://github.com/Leon406/ToolsFx/pull/190\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.44.1.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/191\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.17.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/192\r\n* chore(deps): update actions/setup-java action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/194\r\n* chore(deps): update dependency gradle to v8.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/193\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/195\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-11 by @renovate in https://github.com/Leon406/ToolsFx/pull/196\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.8.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/197\r\n* chore(deps): update dependency com.diffplug.spotless to v6.23.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/198\r\n* chore(deps): update dependency com.diffplug.spotless to v6.23.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/199\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.16.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/200\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.16.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/201\r\n* fix(deps): update dependency net.java.dev.jna:jna-platform to v5.14.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/202\r\n* chore(deps): update github/codeql-action action to v3 by @renovate in https://github.com/Leon406/ToolsFx/pull/203\r\n* chore(deps): update actions/upload-artifact action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/204\r\n* fix(deps): update dependency org.javassist:javassist to v3.30.1-ga by @renovate in https://github.com/Leon406/ToolsFx/pull/205\r\n* fix(deps): update dependency org.java-websocket:java-websocket to v1.5.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/206\r\n* fix(deps): update kotlin monorepo to v1.9.22 by @renovate in https://github.com/Leon406/ToolsFx/pull/207\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.24 by @renovate in https://github.com/Leon406/ToolsFx/pull/208\r\n* fix(deps): update dependency org.javassist:javassist to v3.30.2-ga by @renovate in https://github.com/Leon406/ToolsFx/pull/209\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.17.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/210\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.25 by @renovate in https://github.com/Leon406/ToolsFx/pull/211\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.9.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/212\r\n* chore(deps): update dependency com.diffplug.spotless to v6.24.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/213\r\n* chore(deps): update actions/cache action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/214\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.0.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/215\r\n* chore(deps): update dependency com.diffplug.spotless to v6.25.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/216\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.17.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/217\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.10.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/219\r\n* fix(deps): update dependency androidx.collection:collection-ktx to v1.4.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/218\r\n* fix(deps): update dependency com.google.zxing:javase to v3.5.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/223\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.1.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/224\r\n* chore(deps): update detektver to v1.23.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/225\r\n* chore(deps): update dependency gradle to v8.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/226\r\n* fix(deps): update dependency org.java-websocket:java-websocket to v1.5.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/227\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.26 by @renovate in https://github.com/Leon406/ToolsFx/pull/228\r\n* fix(deps): update coroutinever to v1.8.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/229\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/230\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.26.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/231\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.18.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/232\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.18.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/233\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.11.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/234\r\n* fix(deps): update kotlin monorepo to v1.9.23 by @renovate in https://github.com/Leon406/ToolsFx/pull/235\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.26.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/236\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.2.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/237\r\n* chore(deps): update dependency gradle to v8.7 by @renovate in https://github.com/Leon406/ToolsFx/pull/238\r\n* chore(deps): update detektver to v1.23.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/239\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-1 by @renovate in https://github.com/Leon406/ToolsFx/pull/241\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.19.0 - autoclosed by @renovate in https://github.com/Leon406/ToolsFx/pull/240\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.27 by @renovate in https://github.com/Leon406/ToolsFx/pull/242\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.19.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/243\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-2 by @renovate in https://github.com/Leon406/ToolsFx/pull/244\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.78 by @renovate in https://github.com/Leon406/ToolsFx/pull/245\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.3.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/247\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.78.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/249\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-3 by @renovate in https://github.com/Leon406/ToolsFx/pull/250\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.20.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/251\r\n\r\n\r\n**Full Changelog**: https://github.com/Leon406/ToolsFx/compare/v1.17.0...v1.18.0"
     },
@@ -27851,7 +27851,7 @@
         "created_at": "2024-07-07 02:12:03",
         "description": "一个基于✨HOOK机制的微信机器人，支持🌱安全新闻定时推送【FreeBuf，先知，安全客，奇安信攻防社区】，👯Kfc文案，⚡备案查询，⚡手机号归属地查询，⚡WHOIS信息查询，🎉星座查询，⚡天气查询，🌱摸鱼日历，⚡微步威胁情报查询， 🐛美女视频，⚡美女图片，👯帮助菜单。📫 支持积分功能，⚡支持自动拉人，⚡检测广告，🌱自动群发，👯Ai回复，😄自定义程度丰富，小白也可轻松上手！",
         "commit_message": "Update README.md",
-        "commit_date": "2024-08-15 06:43:07",
+        "commit_date": "2024-09-05 01:39:38",
         "release_date": "2024-07-15 08:33:08",
         "release_message": "### 程序版本：NGCBot V2.1\r\n### 兼容微信：\r\n请查看当前 `wcferry` 包的版本\r\n-  `wcferry==39.0.12.0`：[WeChatSetup-3.9.2.23.exe](https://github.com/ngc660sec/NGCBot/releases/download/V2.0-%E9%BE%99%E5%B9%B4%E8%B4%BA%E5%B2%81%E7%89%88/WeChatSetup-3.9.2.23.exe)\r\n- `wcferry==39.2.4.0`：[WeChatSetup-3.9.10.27.exe](https://github.com/lich0821/WeChatFerry/releases/download/v39.2.4/WeChatSetup-3.9.10.27.exe)\r\n\r\n### 这里不提供代码，请直接Git使用！"
     },
@@ -28971,11 +28971,11 @@
     },
     "https://github.com/outlaws-bai/Galaxy": {
         "created_at": "2024-08-30 18:17:30",
-        "description": "Burp插件，自动解密被加密的报文，让你像测试明文一样简单。A Burp plugin that automatically decrypts encrypted messages, making it as simple as testing plaintext.",
-        "commit_message": "fix",
-        "commit_date": "2024-08-30 18:59:26",
+        "description": "Burp插件，通过自定义hook脚本自动解密报文，让你像测试明文一样简单。A Burp plugin that automatically decrypts messages by custom hook scirpt, making it as simple as testing plaintext.",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-09-05 15:17:58",
         "release_date": "2024-08-30 18:25:45",
-        "release_message": "## 功能更新\r\n\r\n1. 优化sm2加解密函数，支持传入原始公私钥\r\n2. 加解密工具类增加对C4算法\r\n3. 解除必须使用jdk启动的限制，但如果不用jdk，httphook-js，httphook-java将不能使用\r\n4. 增加一些与sqlmap及被动代理扫描器联动的右键\r\n5. 修改常规情况、联动sqlmap、联动被动代理扫描器时的标记头为不同的\r\n6. UI更新\r\n## 问题修复\r\n\r\n...\r\n## 注意事项\r\n如果你下载或打包后的jar包含 without-jython 字样，请在Burp的Java environment(Settings -> Extensions)配置一个文件夹，并将 jython-standalone-xxx.jar 放在该文件夹。[Download](https://www.jython.org/download)"
+        "release_message": "## 功能更新\r\n\r\n1. 优化sm2加解密函数，支持传入原始公私钥\r\n2. 加解密工具类增加RC4算法\r\n3. 解除必须使用jdk启动的限制，但如果不用jdk，httphook-js，httphook-java将不能使用\r\n4. 增加一些与sqlmap及被动代理扫描器联动的右键\r\n5. 修改常规情况、联动sqlmap、联动被动代理扫描器时的标记头为不同的\r\n6. UI更新\r\n## 问题修复\r\n\r\n...\r\n## 注意事项\r\n如果你下载或打包后的jar包含 without-jython 字样，请在Burp的Java environment(Settings -> Extensions)配置一个文件夹，并将 jython-standalone-xxx.jar 放在该文件夹。[Download](https://www.jython.org/download)"
     },
     "https://github.com/Fheidt12/Windows_Memory_Search": {
         "created_at": "2024-08-14 07:16:37",
@@ -29068,10 +29068,12 @@
         "release_message": "### Features\r\n- View files\r\n- List directories\r\n- Download files\r\n- Upload files\r\n- Screenshot\r\n- Webcam\r\n- Video\r\n- List running services\r\n- Execute system commands"
     },
     "https://github.com/h0ny/NacosExploit": {
-        "created_at": "2024-02-25 11:58:04",
+        "created_at": "2024-02-25 15:21:01",
         "description": "Nacos 综合利用工具",
         "commit_message": "Update README.md",
-        "commit_date": "2024-08-19 09:34:20"
+        "commit_date": "2024-08-19 09:34:20",
+        "release_date": "2024-08-19 08:21:15",
+        "release_message": ""
     },
     "https://github.com/DosX-dev/UPX-Patcher": {
         "created_at": "2024-02-22 19:24:22",
