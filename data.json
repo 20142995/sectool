@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.51.159.38属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.81.159.27属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27521,7 +27521,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": "在线RC4加密,RC4解密工具-在线工具箱"
+        "description": ""
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27537,7 +27537,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
+        "description": ""
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27549,7 +27549,7 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
@@ -27557,7 +27557,7 @@
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
+        "description": ""
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
@@ -27934,7 +27934,7 @@
         "release_message": "CloudSploit version 3.5.0 introduces the most latest version on 2024-05-28. The update includes  new plugins for  Azure, AWS with the hotfixes and enhancements in the existing plugins. The details are as follows.\r\n______________________________\r\n\r\n## New Plugins\r\n### [AWS](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/aws)\r\n**Bedrock**\r\n\r\n- AWS Bedrock In Use\r\n\r\n**Neptune**\r\n- Neptune Database IAM Authentication Enabled\r\n- Neptune Database Deletion Protection Enabled\r\n- Neptune Database Multiple AZ\r\n- Neptune Database Instance Backup Retention\r\n\r\n**DocumentDB**\r\n- DocumentDB Has Tags\r\n- DocumentDB Cluster Deletion Protection\r\n\r\n**SQS**\r\n- SQS Has Tags\r\n\r\n**WAFV2**\r\n\r\n- Web ACL Logging Enabled\r\n\r\n\r\n### [Azure](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/azure)\r\n\r\n**Batch Account**\r\n- Batch Account CMK Encrypted\r\n\r\n**App Configuration**\r\n- App Configuration Access Key Authentication Disabled\r\n\r\n\r\n**Container App**\r\n- Container Apps Volume Mount Configured\r\n- Container Apps Has Tags\r\n\r\n**Cosmos DB**\r\n- Cosmos DB Local Authentication Disabled\r\n\r\n**DataBricks**\r\n- Databricks Workspace Managed Disk CMK Encrypted\r\n- Databricks Workspace Has Tags\r\n\r\n**Event Hub**\r\n- Event Hubs Namespace Has Tags\r\n- Event Hubs Namespace Diagnostic Logs\r\n- Event Hub Namespace Local Auth Disabled\r\n- Event Hubs Namespace Managed Identity\r\n\r\n**Front Door**\r\n- Front Door Managed Identity Enabled\r\n\r\n**Machine Learning**\r\n- Machine Learning Workspace Has Tags\r\n- Machine Learning Workspace Public Access Disabled\r\n- Machine Learning Workspace Diagnostic Logs\r\n\r\n**Log Alerts**\r\n- PostgreSQL Flexible Server Logging Enabled\r\n\r\n**PostgreSQL Server**\r\n- PostgreSQL FLexible Server Log Duration Enabled\r\n\r\n\r\n\r\n\r\n## Hot fixes and enhancements\r\n### Aws\r\n **KMS Key Rotation** \r\n     Key rotation feature is only available on key type SYMMETRIC_DEFAULT , updated the plugin to produce passing results for the key \r\n     type that does not have key rotation feature available.\r\n\r\n\r\n2. **ELBv2 TLS Version and Cipher Header Enabled**\r\n        Updated the plugin logic to check that TLS version and Cipher should be disabled in headers. Enabling these headers may leak \r\n        sensitive information, so updating the plugin to check the TLS version and Cipher header should not be enabled. Updated the title, \r\n        description and output message . The plugin title is renamed to ELBv2 TLS Version and Cipher Header Disabled.\r\n\r\n3. **EKS Kubernetes Version**\r\n       Modified the depreciation date for EKS versions. For list of updated EKS versions, refer \r\n       https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html \r\n\r\n4. **EKS Latest Platform Version**\r\n        Modified the depreciation date and latest platform version for EKS versions. For list of updated latest platform, refer to \r\n        https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html\r\n\r\n5. **Lambda Old Runtimes**\r\n        Modified the end of life dates for lambda runtimes versions. For list of updated end of life dates for lambda runtimes versions, \r\n        refer , https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html#runtime-support-policy\r\n\r\n\r\n### Azure \r\n1. **Load Balancer Public IP**\r\n      Revised title, description, more info, recommended actions, and output message of the plugin to ensure that Azure Load Balancers \r\n      are public to meet your organization's security compliance and availability needs. The plugin title is renamed to **Public Load \r\n      Balancer**.\r\n\r\n2. **PostgreSQL Flexible Server Version**\r\n        Earlier, the plugin was checking for the latest version, which was 13. Modified the latest version of the flexible server from 13 to 16.\r\n\r\n3. **Microsoft Support Operations Auditing Enabled**\r\n        Updated the plugin to produce unknown results if it’s unable to get audit policies, previously it was producing failed results if there \r\n        were no audit policies in data.\r\n\r\n\r\n4.    Previously, the following plugins were responsible for checking the diagnostic logs of blob, queue, and table for both V1 and V2 \r\n        storage account types. But as in V1 (premium) type the diagnostic logs can only be enabled for that specific storage account kind \r\n        service, so updated the plugins to produce pass results if the storage account type is premium.\r\n\r\n**Storage Account Blob Service Logging Enabled\r\nStorage Account Queue Service Logging Enabled\r\nStorage Account Table Service Logging Enabled**\r\n\r\n\r\n\r\n### Google\r\n1. **PostgreSQL Latest Version**\r\n       Earlier, the plugin checking for the latest version, which was 14. Modified the latest version of PostgreSQL server from 14 to 15."
     },
     "https://github.com/m8sec/enumdb": {
-        "created_at": "2020-01-10 18:38:12",
+        "created_at": "2018-01-19 19:00:25",
         "description": "Relational database brute force and post exploitation tool for MySQL and MSSQL",
         "commit_message": "Update FUNDING.yml",
         "commit_date": "2024-06-19 14:31:02",
