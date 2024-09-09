@@ -1869,7 +1869,7 @@
         "release_message": "### Update\r\n\r\n- 增加ElasticSearch数据同步和查询（测试中）\r\n- 更新Minichat前端UI；可配置参数是否允许匿名使用。\r\n- 更新Httpx至1.6.6。"
     },
     "https://github.com/yuyan-sec/RedisEXP": {
-        "created_at": "2022-03-19 14:41:00",
+        "created_at": "2024-08-14 01:21:17",
         "description": "Redis 漏洞利用工具",
         "commit_date": "2024-08-14 01:21:17",
         "commit_message": "update",
@@ -3016,8 +3016,8 @@
     "https://github.com/zan8in/afrog": {
         "created_at": "2024-08-09 12:29:39",
         "description": "A Security Tool for Bug Bounty, Pentest and Red Teaming.",
-        "commit_message": "update ecology sqli",
-        "commit_date": "2024-08-30 02:39:23",
+        "commit_message": "update poc",
+        "commit_date": "2024-09-05 11:39:15",
         "release_date": "2024-08-09 12:38:27",
         "release_message": "- 【需求】HTML报告新增 Copy 按钮，一键复制Request请求包。\r\n- 【BUG】修复 afrog 工具中使用 -P 命令指定不存在的YAML文件时，会错误地扫描所有PoC文件的问题。\r\n- ----------------\r\n- Added Copy button to HTML report for one-click Request package copy.\r\n- Resolve the bug where using the '-P' command with a non-existent YAML file for afrog results in scanning all PoCs.\r\n\r\n"
     },
@@ -4529,8 +4529,8 @@
     "https://github.com/rockbenben/ChatGPT-Shortcut": {
         "created_at": "2024-08-11 20:28:07",
         "description": "🚀💪Maximize your efficiency and productivity, support for English,中文,Español,العربية. 让生产力加倍的AI快捷指令。更有效地定制、保存和分享自己的提示词。在提示词分享社区中，轻松找到适用于不同场景的指令。",
-        "commit_message": "chore(deps): bump micromatch from 4.0.7 to 4.0.8 (#55)\n\nBumps [micromatch](https://github.com/micromatch/micromatch) from 4.0.7 to 4.0.8.\r\n- [Release notes](https://github.com/micromatch/micromatch/releases)\r\n- [Changelog](https://github.com/micromatch/micromatch/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/micromatch/micromatch/compare/4.0.7...4.0.8)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: micromatch\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "commit_date": "2024-08-31 23:45:31",
+        "commit_message": "i18n: sync page",
+        "commit_date": "2024-09-05 08:15:05",
         "release_date": "2024-08-12 01:05:18",
         "release_message": "**Full Changelog**: https://github.com/rockbenben/ChatGPT-Shortcut/compare/v3.2.3...v3.2.4"
     },
@@ -6463,8 +6463,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: Detect-It-Easy 2024-09-02",
-        "commit_date": "2024-09-01 23:21:53",
+        "commit_message": "Update module: FormatWidgets 2024-09-09",
+        "commit_date": "2024-09-09 00:45:23",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -6498,8 +6498,8 @@
     "https://github.com/ImageMagick/ImageMagick": {
         "created_at": "2024-09-02 00:56:32",
         "description": "🧙‍♂️ ImageMagick 7",
-        "commit_message": "beta release",
-        "commit_date": "2024-09-02 01:54:59",
+        "commit_message": "revert INSTALL_BASE PerlMagick patch",
+        "commit_date": "2024-09-08 23:18:51",
         "release_date": "2024-09-02 05:51:56",
         "release_message": "**Full Changelog**: https://github.com/ImageMagick/ImageMagick/compare/7.1.1-37...7.1.1-38"
     },
@@ -7731,11 +7731,11 @@
         "release_message": ""
     },
     "https://github.com/yaklang/yakit": {
-        "created_at": "2024-08-29 09:36:06",
+        "created_at": "2024-09-06 09:09:38",
         "description": "Cyber Security ALL-IN-ONE Platform",
-        "commit_message": "v1.3.4-0829-ce",
-        "commit_date": "2024-08-29 09:36:06",
-        "release_date": "2024-08-29 10:12:40",
+        "commit_message": "v1.3.6-0906-ce",
+        "commit_date": "2024-09-06 09:09:38",
+        "release_date": "2024-09-06 09:41:24",
         "release_message": ""
     },
     "https://github.com/bartblaze/Yara-rules": {
@@ -10158,7 +10158,7 @@
         "created_at": "2020-02-04 09:30:48",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
         "commit_message": "Auto renew the anti-AD list.",
-        "commit_date": "2024-08-16 18:38:41",
+        "commit_date": "2024-09-07 18:38:16",
         "release_date": "2020-02-04 09:32:25",
         "release_message": "- 引入无效域名、无效hosts剔除机制，大幅提升各过滤列表命中率\r\n- 为了更好的支持pi-hole，加入一个新的全域名列表 - `anti-ad-domains.txt`\r\n- 根据网友 [@xlighting2017](https://github.com/privacy-protection-tools/anti-AD/issues/29) 建议，更新surge到新的格式\r\n- 引入数个新的配置参数，对输出结果精确控制\r\n- 若干bug和逻辑修复"
     },
@@ -24556,8 +24556,8 @@
         "description": "理想安全应急响应中心"
     },
     "https://security.mafengwo.cn/": {
-        "status_code": 200,
-        "description": "马蜂窝安全应急响应中心"
+        "status_code": 522,
+        "description": ""
     },
     "https://security.mcd.cn/": {
         "status_code": 200,
@@ -26236,8 +26236,8 @@
     "https://github.com/cliffe/secgen": {
         "created_at": "2015-01-29 16:33:04",
         "description": "Create randomly insecure VMs",
-        "commit_message": "Lab update hosts",
-        "commit_date": "2024-08-14 23:16:06"
+        "commit_message": "AES lab update: changed the path to create encrypted file in from /etc/ to users home dir",
+        "commit_date": "2024-09-05 16:33:23"
     },
     "https://github.com/shengqi158/weak_password_detect": {
         "created_at": "2013-01-24 09:30:06",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.234.33.118属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "4.227.115.97属于美国 亚利桑那 凤凰城 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27660,8 +27660,8 @@
     "https://github.com/Leon406/ToolsFx": {
         "created_at": "2024-04-29 03:16:29",
         "description": "基于kotlin+tornadoFx的跨平台密码学工具箱.包含编解码,编码转换,加解密, 哈希,MAC,签名,大数运算,压缩,二维码功能,ctf等实用功能,支持插件",
-        "commit_message": "feat(app): 支持windows 离线ocr(微信引擎)",
-        "commit_date": "2024-09-06 06:31:24",
+        "commit_message": "chore(deps): update detektver to v1.23.7",
+        "commit_date": "2024-09-09 00:33:55",
         "release_date": "2024-04-29 12:06:21",
         "release_message": "已开通打赏渠道,入口不会嵌入软件中\r\n想支持作者,可在README或者个人github主页打赏\r\n\r\n再次感谢 naonaonao 师傅支持！\r\n\r\n## What's Changed\r\n* v1.17.0 by @Leon406 in https://github.com/Leon406/ToolsFx/pull/163\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.13.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/165\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-6 by @renovate in https://github.com/Leon406/ToolsFx/pull/166\r\n* fix(deps): update dependency androidx.collection:collection-ktx to v1.3.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/167\r\n* chore(deps): update dependency gradle to v8.4 by @renovate in https://github.com/Leon406/ToolsFx/pull/168\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.6.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/169\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.14.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/170\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.14.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/171\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/172\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/173\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.16.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/174\r\n* fix(deps): update dependency org.jetbrains.kotlin:kotlin-reflect to v1.9.20 by @renovate in https://github.com/Leon406/ToolsFx/pull/177\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.43.2.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/176\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-7 by @renovate in https://github.com/Leon406/ToolsFx/pull/175\r\n* chore(deps): update detektver to v1.23.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/178\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-9 by @renovate in https://github.com/Leon406/ToolsFx/pull/179\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-10 by @renovate in https://github.com/Leon406/ToolsFx/pull/180\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.15.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/181\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.7.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/182\r\n* fix(deps): update dependency dnsjava:dnsjava to v3.5.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/183\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.23 by @renovate in https://github.com/Leon406/ToolsFx/pull/184\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.44.0.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/185\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.77 by @renovate in https://github.com/Leon406/ToolsFx/pull/186\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/187\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.25.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/188\r\n* fix(deps): update kotlin monorepo to v1.9.21 by @renovate in https://github.com/Leon406/ToolsFx/pull/189\r\n* chore(deps): update detektver to v1.23.4 by @renovate in https://github.com/Leon406/ToolsFx/pull/190\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.44.1.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/191\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.17.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/192\r\n* chore(deps): update actions/setup-java action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/194\r\n* chore(deps): update dependency gradle to v8.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/193\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/195\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.5-11 by @renovate in https://github.com/Leon406/ToolsFx/pull/196\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.8.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/197\r\n* chore(deps): update dependency com.diffplug.spotless to v6.23.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/198\r\n* chore(deps): update dependency com.diffplug.spotless to v6.23.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/199\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.16.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/200\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.16.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/201\r\n* fix(deps): update dependency net.java.dev.jna:jna-platform to v5.14.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/202\r\n* chore(deps): update github/codeql-action action to v3 by @renovate in https://github.com/Leon406/ToolsFx/pull/203\r\n* chore(deps): update actions/upload-artifact action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/204\r\n* fix(deps): update dependency org.javassist:javassist to v3.30.1-ga by @renovate in https://github.com/Leon406/ToolsFx/pull/205\r\n* fix(deps): update dependency org.java-websocket:java-websocket to v1.5.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/206\r\n* fix(deps): update kotlin monorepo to v1.9.22 by @renovate in https://github.com/Leon406/ToolsFx/pull/207\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.24 by @renovate in https://github.com/Leon406/ToolsFx/pull/208\r\n* fix(deps): update dependency org.javassist:javassist to v3.30.2-ga by @renovate in https://github.com/Leon406/ToolsFx/pull/209\r\n* fix(deps): update dependency org.jsoup:jsoup to v1.17.2 by @renovate in https://github.com/Leon406/ToolsFx/pull/210\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.25 by @renovate in https://github.com/Leon406/ToolsFx/pull/211\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.9.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/212\r\n* chore(deps): update dependency com.diffplug.spotless to v6.24.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/213\r\n* chore(deps): update actions/cache action to v4 by @renovate in https://github.com/Leon406/ToolsFx/pull/214\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.0.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/215\r\n* chore(deps): update dependency com.diffplug.spotless to v6.25.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/216\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.17.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/217\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.10.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/219\r\n* fix(deps): update dependency androidx.collection:collection-ktx to v1.4.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/218\r\n* fix(deps): update dependency com.google.zxing:javase to v3.5.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/223\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.1.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/224\r\n* chore(deps): update detektver to v1.23.5 by @renovate in https://github.com/Leon406/ToolsFx/pull/225\r\n* chore(deps): update dependency gradle to v8.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/226\r\n* fix(deps): update dependency org.java-websocket:java-websocket to v1.5.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/227\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.26 by @renovate in https://github.com/Leon406/ToolsFx/pull/228\r\n* fix(deps): update coroutinever to v1.8.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/229\r\n* fix(deps): update dependency org.jetbrains.kotlinx:kotlinx-serialization-json to v1.6.3 by @renovate in https://github.com/Leon406/ToolsFx/pull/230\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.26.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/231\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.18.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/232\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.18.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/233\r\n* fix(deps): update dependency org.mockito:mockito-core to v5.11.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/234\r\n* fix(deps): update kotlin monorepo to v1.9.23 by @renovate in https://github.com/Leon406/ToolsFx/pull/235\r\n* fix(deps): update dependency org.apache.commons:commons-compress to v1.26.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/236\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.2.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/237\r\n* chore(deps): update dependency gradle to v8.7 by @renovate in https://github.com/Leon406/ToolsFx/pull/238\r\n* chore(deps): update detektver to v1.23.6 by @renovate in https://github.com/Leon406/ToolsFx/pull/239\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-1 by @renovate in https://github.com/Leon406/ToolsFx/pull/241\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.19.0 - autoclosed by @renovate in https://github.com/Leon406/ToolsFx/pull/240\r\n* fix(deps): update dependency cn.hutool:hutool-all to v5.8.27 by @renovate in https://github.com/Leon406/ToolsFx/pull/242\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.19.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/243\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-2 by @renovate in https://github.com/Leon406/ToolsFx/pull/244\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.78 by @renovate in https://github.com/Leon406/ToolsFx/pull/245\r\n* fix(deps): update dependency org.xerial:sqlite-jdbc to v3.45.3.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/247\r\n* fix(deps): update dependency org.bouncycastle:bcprov-jdk18on to v1.78.1 by @renovate in https://github.com/Leon406/ToolsFx/pull/249\r\n* fix(deps): update dependency com.github.luben:zstd-jni to v1.5.6-3 by @renovate in https://github.com/Leon406/ToolsFx/pull/250\r\n* fix(deps): update dependency org.seleniumhq.selenium:selenium-java to v4.20.0 by @renovate in https://github.com/Leon406/ToolsFx/pull/251\r\n\r\n\r\n**Full Changelog**: https://github.com/Leon406/ToolsFx/compare/v1.17.0...v1.18.0"
     },
@@ -28958,8 +28958,8 @@
     "https://github.com/P001water/P1finger": {
         "created_at": "2024-08-27 11:30:17",
         "description": "P1finger - 红队行动下的重点资产指纹识别工具",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-08-27 11:30:17",
+        "commit_message": "Create main.go",
+        "commit_date": "2024-09-02 11:00:03",
         "release_date": "2024-08-27 11:34:23",
         "release_message": "1. 部分指纹更新\r\n2. [功能添加] 添加指定自定义指纹目录功能"
     },
@@ -29052,7 +29052,7 @@
         "commit_date": "2024-03-04 10:03:20"
     },
     "https://github.com/shuanx/BurpAPIFinder": {
-        "created_at": "2024-05-29 10:10:31",
+        "created_at": "2024-04-04 02:52:42",
         "description": "攻防演练过程中，我们通常会用浏览器访问一些资产，但很多未授权/敏感信息/越权隐匿在已访问接口过html、JS文件等，该插件能让我们发现未授权/敏感信息/越权/登陆接口等。",
         "commit_message": "update",
         "commit_date": "2024-09-05 00:42:56",
