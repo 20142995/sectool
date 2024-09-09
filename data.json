@@ -569,7 +569,7 @@
         "release_message": "v1.2 打包"
     },
     "https://github.com/Ppsoft1991/CodeReviewTools": {
-        "created_at": "2021-12-06 16:48:04",
+        "created_at": "2021-01-06 08:04:15",
         "description": "通过正则搜索、批量反编译特定Jar包中的class名称",
         "commit_date": "2021-12-06 16:48:04",
         "commit_message": "修复fernflower引擎复制文件的bug",
@@ -2457,7 +2457,7 @@
         "release_message": "## 支持检测漏洞\r\n\r\n- [x] Spring Core RCE (**CVE-2022-22965**)\r\n- [x] Spring Cloud Function SpEL RCE (**CVE-2022-22963**)\r\n- [x] Spring Cloud GateWay SPEL RCE (**CVE-2022-22947**)\r\n\r\n## 回连平台\r\n\r\n- [x] Dnglog (默认)\r\n- [x] BurpCollaboratorClient\r\n- [x] Ceye\r\n- [ ] Digpm\r\n- [ ] 支持自定义回连平台\r\n\r\n## 插件情况\r\n\r\n|             **回显检测**             |             **回连检测**              |\r\n|:--------------------------------:|:---------------------------------:|\r\n| Spring Core RCE (CVE-2022-22965) | Spring Core RCE (CVE-2022-22965)  |\r\n| Spring Cloud GateWay SPEL RCE (CVE-2022-22947) | Spring Cloud Function SpEL RCE （CVE-2022-22963） |\r\n\r\n## 更新细节\r\n[+] 优化漏洞检测逻辑减少无效发包，从而防止了请求过多导致被回连平台ban\r\n[+] 优化CVE-2022-22963准确率\r\n[+] 解决扫描结果一直显示等待的问题\r\n[+] 支持显示多个漏洞结果\r\n[-] 暂时删除Digdm平台的支持"
     },
     "https://github.com/woodpecker-appstore/weblogic-infodetector": {
-        "created_at": "2022-03-23 08:33:43",
+        "created_at": "2021-04-01 04:32:50",
         "description": "woodpecker框架weblogic信息探测插件",
         "commit_date": "2022-03-23 08:33:43",
         "commit_message": "添加对iiop协议是否被过滤的检测",
@@ -23895,7 +23895,7 @@
         "release_message": ""
     },
     "https://github.com/Kento-Sec/chatGPT-CodeReview": {
-        "created_at": "2023-03-27 14:19:52",
+        "created_at": "2023-03-27 14:37:15",
         "description": "这是一个调用chatGPT进行代码审计的工具",
         "commit_date": "2023-06-01 00:57:37",
         "commit_message": "Update README.md",
@@ -26480,7 +26480,7 @@
         "release_message": "## What's Changed\r\n* Add improved state merging by @norhh in https://github.com/Consensys/mythril/pull/1843\r\n* Remove a partial feature  by @norhh in https://github.com/Consensys/mythril/pull/1844\r\n* chore: remove repetitive words by @suchsoon in https://github.com/Consensys/mythril/pull/1845\r\n* fix typos by @xiaoxianBoy in https://github.com/Consensys/mythril/pull/1846\r\n* Fix a bug due to issues with balance by @norhh in https://github.com/Consensys/mythril/pull/1848\r\n* chore: fix some comments by @sellskin in https://github.com/Consensys/mythril/pull/1849\r\n\r\n## New Contributors\r\n* @suchsoon made their first contribution in https://github.com/Consensys/mythril/pull/1845\r\n* @xiaoxianBoy made their first contribution in https://github.com/Consensys/mythril/pull/1846\r\n* @sellskin made their first contribution in https://github.com/Consensys/mythril/pull/1849\r\n\r\n**Full Changelog**: https://github.com/Consensys/mythril/compare/v0.24.7...v0.24.8"
     },
     "https://github.com/niloofarkheirkhah/nili": {
-        "created_at": "2017-09-22 06:05:49",
+        "created_at": "2017-07-26 18:02:16",
         "description": "Nili is a Tool for Network Scan, Man in the Middle, Protocol Reverse Engineering and Fuzzing.",
         "commit_message": "Update README.md",
         "commit_date": "2018-10-06 10:06:07",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.157.3.105属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.55.46.196属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27521,7 +27521,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": "在线RC4加密,RC4解密工具-在线工具箱"
+        "description": ""
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27537,7 +27537,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
+        "description": ""
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27549,15 +27549,15 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": "在线DES加密,DES解密工具-在线工具箱"
+        "description": ""
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
+        "description": ""
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
