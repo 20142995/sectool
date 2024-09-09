@@ -1863,8 +1863,8 @@
     "https://github.com/hanc00l/nemo_go": {
         "created_at": "2024-07-19 06:10:46",
         "description": "Nemo是用来进行自动化信息收集的一个简单平台，通过集成常用的信息收集工具和技术，实现对内网及互联网资产信息的自动收集，提高隐患排查和渗透测试的工作效率。",
-        "commit_message": "Update: 对worker同步阻塞的检测",
-        "commit_date": "2024-07-24 03:20:51",
+        "commit_message": "Update：指纹采集使用chainreactors大佬开源的fingers仓库（致敬！）；将原代码迁移到v2目录，v3版本开始计划中",
+        "commit_date": "2024-09-05 08:55:23",
         "release_date": "2024-07-19 06:25:03",
         "release_message": "### Update\r\n\r\n- 增加ElasticSearch数据同步和查询（测试中）\r\n- 更新Minichat前端UI；可配置参数是否允许匿名使用。\r\n- 更新Httpx至1.6.6。"
     },
@@ -4113,8 +4113,8 @@
     "https://github.com/vulhub/vulhub": {
         "created_at": "2017-04-09 10:13:13",
         "description": "Pre-Built Vulnerable Environments Based on Docker-Compose",
-        "commit_message": "Merge pull request #542 from trganda/master\n\nOptimize The poc.py in CVE-2021-29442",
-        "commit_date": "2024-08-09 11:06:13"
+        "commit_message": "Merge pull request #550 from vulhub/ofbiz-cve-2024-45195\n\nAdded Apache Ofbiz CVE-2024-45195",
+        "commit_date": "2024-09-08 12:36:50"
     },
     "https://github.com/zhuifengshaonianhanlu/pikachu": {
         "created_at": "2018-07-24 08:21:19",
@@ -23562,10 +23562,10 @@
         "release_message": ""
     },
     "https://github.com/t3l3machus/Villain": {
-        "created_at": "2022-10-25 22:02:59",
+        "created_at": "2024-07-29 12:03:09",
         "description": "Villain is a high level stage 0/1 C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells, enhance their functionality with additional features (commands, utilities) and share them among connected sibling servers (Villain instances running on different machines).",
-        "commit_date": "2024-08-02 10:24:18",
-        "commit_message": "Update README.md",
+        "commit_date": "2024-09-05 06:04:35",
+        "commit_message": "Merge pull request #170 from t3l3machus/dev\n\nAdded --version  arg",
         "release_tag": "",
         "release_date": "2024-07-29 12:08:43",
         "release_message": "## 🪲 Bug Fixes \r\n- Fixed Python v3.12 invalid escape warning message in regex patterns (by D3vil0p3r, #149) and payload templates (by t3l3machus).\r\n- Fixed exception for non-existent destination path in 'upload' command (by x4v1l0k, #141).\r\n- Fixed session id alias interpretation for the 'exec' command (#159).\r\n- Fixed various tab autocomplete issues.\r\n- Fixed an unhandled exception for the update process (#129).\r\n- Fixed a mistake in payload template `windows/netcat/python3_reverse_tcp`.\r\n\r\n## ⚙️ Improvements\r\n- Improved the LHOST argument parsing in payload generation (supports IP, interface, or hostname with DNS resolution check).\r\n- Instead of checking for updates automatically on startup, the update process was adjusted to fetch the latest commits from the main branch on GitHub if the user supplies the -u option. "
@@ -24556,8 +24556,8 @@
         "description": "理想安全应急响应中心"
     },
     "https://security.mafengwo.cn/": {
-        "status_code": 522,
-        "description": ""
+        "status_code": 200,
+        "description": "马蜂窝安全应急响应中心"
     },
     "https://security.mcd.cn/": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.115.97属于美国 亚利桑那 凤凰城 微软云 数据中心_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.51.159.38属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28768,12 +28768,12 @@
         "release_message": "1、新增mac版本，仅支持M系列芯片\r\n2、修复windows下工具无法调整大小的bug\r\n3、修复第一次编辑POC时无法正常新增的bug"
     },
     "https://github.com/MInggongK/Hikvision-": {
-        "created_at": "2024-07-28 01:56:27",
+        "created_at": "2024-09-02 06:03:53",
         "description": "Hikvision综合漏洞利用工具",
         "commit_message": "Update README.md",
-        "commit_date": "2024-07-28 01:56:27",
-        "release_date": "2024-07-28 02:12:49",
-        "release_message": "增加了Hikvision综合安防管理平台detection模块检测\r\n增加了自定义detection利用模块\r\n优化了Hikvision applyAutoLoginTicket命令执行漏洞"
+        "commit_date": "2024-09-05 02:24:39",
+        "release_date": "2024-09-02 06:17:03",
+        "release_message": "增加了Hikvision综合安防管理平台productFile远程命令执行漏洞\r\n增加了Hikvision综合安防管理平台licenseExpire远程命令执行漏洞\r\n增加了Hikvision综合安防管理平台installation远程命令执行漏洞"
     },
     "https://hello-ctf.com/": {
         "status_code": 200,
