@@ -1976,10 +1976,10 @@
         "release_message": "Penetration Suite Toolkit v5.0：\r\n链接：https://pan.baidu.com/s/1NuMveYWy3BOGBUsu5Ztlbg?pwd=8tje\r\n注：由于部分用户反馈 ova 文件导入失败，现重新上传压缩包版本，解压后打开 vmx 文件即用。\r\n\r\n全套虚拟机镜像：\r\n链接：https://pan.xunlei.com/s/VN2xlbB9pxTo0bWdgdg5vXUtA1?pwd=fvp3"
     },
     "https://github.com/bit4woo/knife": {
-        "created_at": "2018-06-12 14:25:18",
+        "created_at": "2024-05-06 10:51:08",
         "description": "A burp extension that add some useful function to  Context Menu 添加一些右键菜单让burp用起来更顺畅",
-        "commit_date": "2024-08-13 08:14:10",
-        "commit_message": "update",
+        "commit_date": "2024-08-14 10:36:36",
+        "commit_message": "cookie操作相关逻辑更新",
         "release_tag": "v2.2",
         "release_date": "2024-05-06 10:55:56",
         "release_message": "FindUrlAndRequest菜单功能更新\r\n新增2个菜单：CopyJsOfThisSite、ChangeToUploadRequest\r\n代码优化，修复多个bug\r\n将SQLMap和Nmap等执行命令的功能合并为 “run cmd”功能，支持添加自定义命令\r\nChineseTab重写，支持语法高亮和自动换行，方便阅读\r\n支持配置项搜索和多选操作"
@@ -3926,8 +3926,8 @@
     "https://github.com/anchore/grype": {
         "created_at": "2024-08-20 17:56:35",
         "description": "A vulnerability scanner for container images and filesystems",
-        "commit_message": "chore(deps): update tools to latest versions (#2080)",
-        "commit_date": "2024-08-23 13:08:35",
+        "commit_message": "chore(deps): bump github.com/opencontainers/runc from 1.1.13 to 1.1.14 (#2098)\n\nBumps [github.com/opencontainers/runc](https://github.com/opencontainers/runc) from 1.1.13 to 1.1.14.\r\n- [Release notes](https://github.com/opencontainers/runc/releases)\r\n- [Changelog](https://github.com/opencontainers/runc/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/opencontainers/runc/compare/v1.1.13...v1.1.14)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/opencontainers/runc\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "commit_date": "2024-09-05 17:32:17",
         "release_date": "2024-08-20 18:05:33",
         "release_message": "### Added Features\n\n- Add info subcommand in order to query grype db vulnerabilities [[#1629](https://github.com/anchore/grype/issues/1629) [#2031](https://github.com/anchore/grype/pull/2031) @tomersein]\n\n### Bug Fixes\n\n- correctly close the db file in v4/v5 stores [[#2066](https://github.com/anchore/grype/pull/2066) @AndreiStefanie]\n- Grype panics with a nil pointer dereference error when given an empty string argument [[#2063](https://github.com/anchore/grype/issues/2063) [#2064](https://github.com/anchore/grype/pull/2064) @lucasrod16]\n- Ignoring search results when CPE is not set in the SBOM [[#2039](https://github.com/anchore/grype/issues/2039) [#2040](https://github.com/anchore/grype/pull/2040) @aeg]\n- \"No vulnerability database update available\" when actually the check for an update was unsuccessful [[#310](https://github.com/anchore/grype/issues/310) [#1247](https://github.com/anchore/grype/pull/1247) @shanedell]\n- CycloneDX output `metadata.properties` set to `null` instead of empty array or omitted [[#1759](https://github.com/anchore/grype/issues/1759)]\n\n### Additional Changes\n\n- update Syft to v1.11.1 [[#2071](https://github.com/anchore/grype/pull/2071) @anchore-actions-token-generator]\n- add grype version to db network operations [[#2062](https://github.com/anchore/grype/pull/2062) @kzantow]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.79.6...v0.80.0)**\n\n"
     },
@@ -4219,7 +4219,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-09-02 01:43:31"
+        "commit_date": "2024-09-09 20:23:30"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -5180,10 +5180,10 @@
     "https://github.com/alibaba/arthas": {
         "created_at": "2024-08-12 07:40:18",
         "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
-        "commit_message": "Update CONTRIBUTING.md",
-        "commit_date": "2024-08-12 12:01:54",
+        "commit_message": "fix typo (#2894)",
+        "commit_date": "2024-09-09 07:44:17",
         "release_date": "2024-08-12 08:39:13",
-        "release_message": "Issues: https://github.com/alibaba/arthas/milestone/47?closed=1\r\n\r\n要点：\r\n\r\n1. 4.0.0 之后只支持JDK8，支持 JDK 17/21/23\r\n2. 升级 jackson, fastjson2, ognl, netty, spring-boot 等依赖版本\r\n3. profiler 命令优化\r\n\r\n---\r\n\r\n* #2875 使用wisp时，报NPE错误\r\n\r\n* #2572 When Tunnel Server uses a custom port, the jump from the detail-pages to the agent console page fails.\r\n\r\n* #2498 升级到 fastjson2\r\n\r\n* #2659 logger 命令在jdk17的环境下无响应 bug\r\n\r\n\r\n* #2705 Tomcat CVE-2023-42795漏洞有升级计划嘛\r\n\r\n\r\n* #2740 AnsiLog 的 static 初始化可能抛出异常\r\n\r\n\r\n* #2611 升级 ognl 依赖版本\r\n\r\n* #2490 请升级一下依赖 jackson-databind 的版本\r\n\r\n\r\n* #2861 支持 jdk 22/23\r\n\r\n\r\n* #2835 Release netty ByteBuf after use \r\n\r\n\r\n* #2804 update DynamicCompiler add -g option for generate LocalVariableTable \r\n\r\n* #2736 Optimized the compilation speed of the memory compiler \r\n\r\n* #2710  update ognl website url \r\n\r\n* #2680 Bump zt-zip from 1.14 to 1.16 \r\n\r\n\r\n* #2681 Bump spring-boot3 to 3.1.3 and spring-boot to 2.7.15 \r\n\r\n\r\n* #2670 check directory for JadCommand and fix typos \r\n\r\n\r\n* #2658 优化识别重定向 \r\n\r\n\r\n* #2661 Upgrade to JUnit 5 \r\n\r\n\r\n* #2544 fix: agent-attach携带的arthasHome参数未生效 bug\r\n\r\n\r\n* #2663 Adjust time display accuracy to milliseconds \r\n\r\n\r\n* #2669  fix directory check for DumpClassCommand \r\n\r\n\r\n* #2662 Make thread id uniformly displayed in decimal format \r\n\r\n* #2652 feat: sysenv sorted by property key \r\n\r\n\r\n* #2646 jad命令优化 \r\n\r\n\r\n* #2608 Async profiler api upgrade \r\n\r\n\r\n* #2573 Fix the page redirection issue of Arthas tunnel server #2572\r\n\r\n\r\n* #2566  print job output file \r\n\r\n* #2513 JDK17 ArthasAgent.attach Api Provider sun.tools.attach.LinuxAttachProvider not found bug\r\n"
+        "release_message": "Issues: https://github.com/alibaba/arthas/milestone/47?closed=1\r\n\r\n要点：\r\n\r\n1. 4.0.0 之后只支持JDK8+，已支持 JDK 17/21/23\r\n2. 升级 jackson, fastjson2, ognl, netty, spring-boot 等依赖版本\r\n3. profiler 命令优化\r\n\r\n---\r\n\r\n* #2875 使用wisp时，报NPE错误\r\n\r\n* #2572 When Tunnel Server uses a custom port, the jump from the detail-pages to the agent console page fails.\r\n\r\n* #2498 升级到 fastjson2\r\n\r\n* #2659 logger 命令在jdk17的环境下无响应 bug\r\n\r\n\r\n* #2705 Tomcat CVE-2023-42795漏洞有升级计划嘛\r\n\r\n\r\n* #2740 AnsiLog 的 static 初始化可能抛出异常\r\n\r\n\r\n* #2611 升级 ognl 依赖版本\r\n\r\n* #2490 请升级一下依赖 jackson-databind 的版本\r\n\r\n\r\n* #2861 支持 jdk 22/23\r\n\r\n\r\n* #2835 Release netty ByteBuf after use \r\n\r\n\r\n* #2804 update DynamicCompiler add -g option for generate LocalVariableTable \r\n\r\n* #2736 Optimized the compilation speed of the memory compiler \r\n\r\n* #2710  update ognl website url \r\n\r\n* #2680 Bump zt-zip from 1.14 to 1.16 \r\n\r\n\r\n* #2681 Bump spring-boot3 to 3.1.3 and spring-boot to 2.7.15 \r\n\r\n\r\n* #2670 check directory for JadCommand and fix typos \r\n\r\n\r\n* #2658 优化识别重定向 \r\n\r\n\r\n* #2661 Upgrade to JUnit 5 \r\n\r\n\r\n* #2544 fix: agent-attach携带的arthasHome参数未生效 bug\r\n\r\n\r\n* #2663 Adjust time display accuracy to milliseconds \r\n\r\n\r\n* #2669  fix directory check for DumpClassCommand \r\n\r\n\r\n* #2662 Make thread id uniformly displayed in decimal format \r\n\r\n* #2652 feat: sysenv sorted by property key \r\n\r\n\r\n* #2646 jad命令优化 \r\n\r\n\r\n* #2608 Async profiler api upgrade \r\n\r\n\r\n* #2573 Fix the page redirection issue of Arthas tunnel server #2572\r\n\r\n\r\n* #2566  print job output file \r\n\r\n* #2513 JDK17 ArthasAgent.attach Api Provider sun.tools.attach.LinuxAttachProvider not found bug\r\n"
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
         "created_at": "2024-09-01 00:30:47",
@@ -6463,8 +6463,8 @@
     "https://github.com/horsicq/DIE-engine": {
         "created_at": "2023-12-28 19:55:00",
         "description": "DIE engine",
-        "commit_message": "Update module: FormatWidgets 2024-09-09",
-        "commit_date": "2024-09-09 00:45:23",
+        "commit_message": "Update module: SpecAbstract 2024-09-09",
+        "commit_date": "2024-09-09 17:21:56",
         "release_date": "2023-12-28 21:22:21",
         "release_message": "Please see the file [CHANGELOG](https://github.com/horsicq/Detect-It-Easy/blob/master/changelog.txt) for a detailed list of changes.\r\n\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_sourcecode_3.09.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_sourcecode_3.09.tar.gz) | Source code tarball |\r\n| [Detect_It_Easy-3.09-x86_64.AppImage](https://github.com/horsicq/DIE-engine/releases/download/3.09/Detect_It_Easy-3.09-x86_64.AppImage) | Portable version for Linux [How to run](https://github.com/horsicq/Detect-It-Easy/blob/master/docs/RUN.md) |\r\n| [die_3.09_Debian_10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_10_amd64.deb) | Installer for Debian 10 |\r\n| [die_3.09_Debian_11_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_11_amd64.deb) | Installer for Debian 11 |\r\n| [die_3.09_Debian_12_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Debian_12_amd64.deb) | Installer for Debian 12 |\r\n| [die_3.09_Ubuntu_14.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_14.04_amd64.deb) | Installer for Ubuntu 14.04 |\r\n| [die_3.09_Ubuntu_16.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_16.04_amd64.deb) | Installer for Ubuntu 16.04 |\r\n| [die_3.09_Ubuntu_18.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_18.04_amd64.deb) | Installer for Ubuntu 18.04 |\r\n| [die_3.09_Ubuntu_20.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_20.04_amd64.deb) | Installer for Ubuntu 20.04 |\r\n| [die_3.09_Ubuntu_22.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.04_amd64.deb) | Installer for Ubuntu 22.04 |\r\n| [die_3.09_Ubuntu_22.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_22.10_amd64.deb) | Installer for Ubuntu 22.10 |\r\n| [die_3.09_Ubuntu_23.04_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.04_amd64.deb) | Installer for Ubuntu 23.04 |\r\n| [die_3.09_Ubuntu_23.10_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Ubuntu_23.10_amd64.deb) | Installer for Ubuntu 23.10 |\r\n| [die_3.09_Kali_2023.4_amd64](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Kali_2023.4_amd64) | Installer for Kali 2023.4 |\r\n| [die_3.09_Parrot_5.3_amd64.deb](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_Parrot_5.3_amd64.deb) | Installer for Parrot 5.3 |\r\n| [die_3.09_portable_Ubuntu_20.04_amd64.tar.gz](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_3.09_portable_Ubuntu_20.04_amd64.tar.gz) | Portable version for Ubuntu 20.04 |\r\n| [detect-it-easy-3.09-1-x86_64.pkg.tar.zst](https://github.com/horsicq/DIE-engine/releases/download/3.09/detect-it-easy-3.09-1-x86_64.pkg.tar.zst) | Installer for Arch Linux |\r\n| [die_mac_3.09_x86_64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_3.09_x86_64.pkg) | Installer for macOS |\r\n| [die_mac_qt6_3.09_arm64.pkg](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_qt6_3.09_arm64.pkg) | Installer for macOS Qt6 M1 processor|\r\n| [die_mac_portable_3.09_x86_64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_mac_portable_3.09_x86_64.zip) | Portable version for macOS |\r\n| [die_win32_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win32_portable_3.09_x86.zip) | Portable version for x86 Win32 (Win7-Win11)|\r\n| [die_win64_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip) | Portable version for x64 Win64 (Win7-Win11) |\r\n| [die_winxp_portable_3.09_x86.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_winxp_portable_3.09_x86.zip) | Portable version for Windows XP (WinXP-Win11) |\r\n\r\n\r\nExperimental versions - There may be bugs in the GUI\r\n\r\n| Asset / File | Description / Host OS |\r\n| ----------- | ----------- |\r\n| [die_win64_qt6_portable_3.09_x64.zip](https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_qt6_portable_3.09_x64.zip) | Portable version for x64 Win64 Qt6 (Win10-Win11)|\r\n"
     },
@@ -18783,8 +18783,8 @@
     "https://github.com/sajjadium/ctf-archives": {
         "created_at": "2021-06-10 16:53:52",
         "description": " CTF Archives: Collection of CTF Challenges.",
-        "commit_message": "idekCTF challs",
-        "commit_date": "2024-08-18 19:36:59"
+        "commit_message": "UCTF challs",
+        "commit_date": "2024-09-09 09:51:15"
     },
     "https://github.com/KaLendsi/CVE-2022-21882": {
         "created_at": "2022-01-27 03:44:10",
@@ -24464,8 +24464,8 @@
         "description": "哔哩哔哩安全应急响应中心"
     },
     "https://security.bytedance.com/": {
-        "status_code": 200,
-        "description": "字节跳动安全中心"
+        "status_code": 504,
+        "description": "504 Gateway Time-out"
     },
     "https://security.creditease.cn/": {
         "status_code": 200,
@@ -25576,10 +25576,10 @@
         "commit_date": "2016-10-06 14:49:45"
     },
     "https://github.com/AabyssZG/SpringBoot-Scan": {
-        "created_at": "2024-08-18 12:40:34",
+        "created_at": "2023-01-29 01:11:21",
         "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
-        "commit_message": "Update Dir.txt",
-        "commit_date": "2024-09-04 02:05:55",
+        "commit_message": "Update requirements.txt",
+        "commit_date": "2024-09-08 06:35:26",
         "release_date": "2024-08-18 12:42:14",
         "release_message": "# 概述\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **修复了一个工具超时的Bug，在目录爆破 `run.py` /POC探测  `poc.py` /漏洞利用 `vul.py` 这三个核心模块，新增全局变量 `outtime = 10` 可自由调整各模块HTTP访问超时时间**\r\n- **准备对一些 `Issues` 提出的问题进行进一步的处理**"
     },
@@ -26256,8 +26256,8 @@
     "https://github.com/X1r0z/JNDIMap": {
         "created_at": "2023-11-06 12:42:03",
         "description": "JNDI 注入利用工具, 支持 RMI, LDAP 和 LDAPS 协议, 包含多种高版本 JDK 绕过方式 | A JNDI injection exploit tool that supports RMI, LDAP and LDAPS protocols, including a variety of methods to bypass higher-version JDK",
-        "commit_message": "fix: 修复 CommonsCollectionsK1 bug\n\n修复 CommonsCollectionsK1 ReverseShell 的一处 bug",
-        "commit_date": "2024-08-26 08:24:25"
+        "commit_message": "refactor: 增加 PayloadUtil 工具类\n\n增加 PayloadUtil 工具类, 优化 JavaScript payload 获取逻辑",
+        "commit_date": "2024-09-05 03:06:31"
     },
     "https://github.com/dzonerzy/goWAPT": {
         "created_at": "2017-12-05 19:32:43",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.55.46.196属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "52.225.76.31属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27406,8 +27406,8 @@
     "https://github.com/sullo/nikto": {
         "created_at": "2023-12-03 16:16:14",
         "description": "Nikto web server scanner",
-        "commit_message": "Fix WordPress capitalization",
-        "commit_date": "2024-08-28 13:45:50",
+        "commit_message": "Identify Cockpit web admin",
+        "commit_date": "2024-09-08 19:40:14",
         "release_date": "2023-12-03 19:00:51",
         "release_message": "Nikto 2.5.0 has now been promoted to release and the master branch!\r\n\r\n**Note: [Breaking changes](https://github.com/sullo/nikto/wiki/2.5.0-Potentially-Breaking-Changes) to JSON and XML output may have occurred. If you rely on these formats please test before upgrading.**\r\n\r\nThis version contains hundreds of updates over several years, including the highlights below. \r\n- IPv6 support (thanks to @richardleach)\r\n- Updated `db_checks` format uses multiple reference\r\n- Hundreds of OSVDB and BID references replaced\r\n- Removal of some very old and false-positive prone tests\r\n- Decode Netscaler cookies (thanks to @canberkpolat)\r\n- Add `-usecookies` flag to send received cookies with subsequent requests\r\n- Add `-followredirects` flag to signal 3xx responses should be fetched and tested\r\n- Add `-noslash` to remove trailing slash from directories\r\n- Check for indexing on redirect paths\r\n- Alert on `alt-svc` header\r\n- Hundreds of bug fixes, test updates and enhancements, and other optimization changes\r\n\r\nYou can start using Nikto 2.5.0 by performing a `git pull` from the master branch, cloning the repository again, or [downloading the zip file](https://github.com/sullo/nikto/archive/refs/heads/master.zip).\r\n\r\nAs always, if you encounter bugs or problems, please [open an issue](https://github.com/sullo/nikto/issues/new/choose).\r\n\r\n![image](https://github.com/sullo/nikto/assets/1474884/796062af-7cb1-404c-9c0c-720d110d62c7 )\r\n"
     },
@@ -27521,7 +27521,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27537,7 +27537,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27549,15 +27549,15 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线DES加密,DES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
@@ -28186,12 +28186,12 @@
         "description": "中远麒麟堡垒机_堡垒机_一键安装支持多云及动态口令数据库审计的堡垒机_官网"
     },
     "https://github.com/DefectDojo/django-DefectDojo": {
-        "created_at": "2024-08-26 16:48:51",
+        "created_at": "2024-09-09 15:50:37",
         "description": " DevSecOps, ASPM, Vulnerability Management. All on one platform.",
-        "commit_message": "Merge pull request #10782 from DefectDojo/release/2.37.2\n\nRelease: Merge release into master from: release/2.37.2",
-        "commit_date": "2024-08-19 16:16:30",
-        "release_date": "2024-08-26 17:01:33",
-        "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.37.2\r\n- Fixed extraEnv in Chart Values after upgrade @DevSecOps-Isotrol (#10731)\r\n- Appcheck null byte fix @dogboat (#10804)\r\n- Finding hash/dedupe changes @dogboat (#10386)\r\n- Pinning Chrome version @cneill (#10805)\r\n\r\n## 🚩 Changes to `settings.dist.py` / `local_settings.py`\r\n\r\n- feat(api-token): Add ability to use API tokens but not disable \"api-token-auth\" @kiblik (#10786)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- feat(api-token): Add ability to use API tokens but not disable \"api-token-auth\" @kiblik (#10786)\r\n"
+        "commit_message": "Merge pull request #10885 from DefectDojo/release/2.38.1\n\nRelease: Merge release into master from: release/2.38.1",
+        "commit_date": "2024-09-09 15:49:45",
+        "release_date": "2024-09-09 16:02:34",
+        "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.38.0\r\n- :sparkles: add epss for aqua parser #10849 @manuel-sommer (#10855)\r\n- fix(edit-prod): Add assigned PT to queryset @kiblik (#10843)\r\n\r\n## 🚩 Changes to `settings.dist.py` / `local_settings.py`\r\n\r\n- fix: dojo.JIRA_Instance.default_issue_type: (fields.E005) 'choices' @kiblik (#10864)\r\n- Add new parser - Threat Composer @arivra (#10795)\r\n- Add new parser - Legitify @damianpr (#10797)\r\n\r\n## 🚩 Database migration\r\n\r\n- Dynamic Parsing: Add flag to indicate new test types @Maffooch (#10871)\r\n\r\n## 🚀 API features and enhancements\r\n\r\n- Dynamic Parsing: Add flag to indicate new test types @Maffooch (#10871)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Reimport: Set Vulnerability ID from incoming finding @Maffooch (#10870)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- feat(ui): Make ProdType clickable (in Prod detail) @kiblik (#10840)\r\n\r\n## 🧰 Maintenance\r\n\r\n- Bump cryptography from 43.0.0 to 43.0.1 @dependabot (#10858)\r\n"
     },
     "https://gitee.com/gy071089/SecurityManageFramwork": {
         "status_code": 200,
@@ -29102,8 +29102,8 @@
     "https://github.com/Marven11/Fenjing": {
         "created_at": "2024-08-25 10:50:10",
         "description": "专为CTF设计的Jinja2 SSTI全自动绕WAF脚本 | A Jinja2 SSTI cracker for bypassing WAF, designed for CTF",
-        "commit_message": "Update examples.md",
-        "commit_date": "2024-08-25 10:54:59",
+        "commit_message": "v0.6.10: optimize rules",
+        "commit_date": "2024-09-09 03:05:52",
         "release_date": "2024-08-25 10:51:54",
         "release_message": "New features:\r\n- just more rules adding whitespaces\r\n\r\nBugfix:\r\n- a bug in waf detection"
     },
