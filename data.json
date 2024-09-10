@@ -2719,7 +2719,7 @@
         "release_message": ""
     },
     "https://github.com/handbye/base64encode": {
-        "created_at": "2021-04-01 06:36:50",
+        "created_at": "2021-04-01 07:18:38",
         "description": "burpsuite POST数据包base64编码插件",
         "commit_date": "2021-07-02 08:35:12",
         "commit_message": "update readme",
@@ -17454,7 +17454,7 @@
         "release_message": "Update SppExtComObjHook.dll to give the generated KMS ePID accurate CSVLK date\r\nAdd support for Office 2021\r\nAdd new fix for Office C2R non-genuine banner\r\nImplement vNextDiag.ps1 functions for Check Activation Status [wmic]\r\nEnhance Office C2R detection for vNext subscriptions\r\nEnhance Office C2R-R2V conversion\r\nDifferentiate activated C2R, failed C2R-R2V or Retail MSI\r\nFix issue where mixed Office 2016 with 2019/2021 can lead to skip C2R-R2V conversion\r\nFix issue where if older AutoRenewal is installed, activation could fail\r\nAdd support for Windows 10/11 CloudEdition / N\r\nFix External mode activation\r\nFix: Office C2R 'Get genuine' banner\r\nAdd support for Windows 10 ARM64\r\ndetect WOW64 process and relaunch from native x64 cmd.exe\r\nchanged default local KMS_IP to 0.0.0.0\r\nupdated SppExtComObjHook.dll to support Server 2021 CSVLK\r\nadded Server 2021 GVLKs\r\nadded partial support for Office 2021 Preview\r\nadded NoAcquireGT registry policy for Win10 build 14393\r\nstart sppsvc/osppsvc manually before running wmic query\r\nenhanced Win10 EditionID detection for non-Volume capable editions\r\nAdd: proper detection for Windows 7 ESU KMS licenses, activation is disabled/skipped for now\r\nAdd: verify SppExtComObjHook.dll/registry if activation fails\r\nAdd: WS 2019 ServerTurbine gVLK\r\nAdd: new faster color method for Windows 10 v1511 and later\r\nFix: KMS-not-supported message will not be shown for supported editions in case of errors\r\nRemove: KMS DnsPublishing/HostCaching commands\r\nUpdate: faster reg.exe commands to set/clear KMS IP/Port\r\nUpdate: better detection for Windows evaluation editions\r\nUpdate: enhanced detection and differentiate info for non supported Office\r\nUpdate: Read Me with detailed supported Windows editions\r\nUpdate: few other code improvements and fixes\r\nfixed typo in C2R-R2V procedure\r\nEnhanced Auto C2R-R2V\r\nShow specific message for error 0xC004F035 on Windows 7\r\nAdd: call RefreshLicenseStatus after installing key\r\nUpdate: auto C2R-R2V, check status [wmic]\r\nUpdate: ReadMe to show characters limitations in batch scripts paths\r\nUpdate: handle paths with special or non-ascii characters\r\nUpdate: auto elevation code to prevent loop\r\nUpdate: cmd switches relation with manual options\r\nUpdate: check status [vbs] to avoid duplication\r\nUpdate: check status [wmic] to show expiration date"
     },
     "https://github.com/shack2/Struts2VulsTools": {
-        "created_at": "2019-09-24 17:17:50",
+        "created_at": "2019-08-01 06:16:35",
         "description": "Struts2系列漏洞检查工具",
         "commit_date": "2019-09-24 17:17:50",
         "commit_message": "Create README.md",
@@ -22583,7 +22583,7 @@
         "release_message": ""
     },
     "https://github.com/zha0gongz1/Three-EyedRaven": {
-        "created_at": "2023-07-04 10:08:41",
+        "created_at": "2023-06-24 08:26:28",
         "description": "内网探测工具(Internal network detection tool that not contain any exploit code)",
         "commit_date": "2023-08-07 10:20:27",
         "commit_message": "SMB服务识别时异常处理",
@@ -24831,7 +24831,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
+        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -25194,8 +25194,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.115.105属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.83.123.127属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27553,7 +27553,7 @@
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线DES加密,DES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
@@ -27742,7 +27742,7 @@
         "commit_date": "2018-05-04 23:24:58"
     },
     "https://github.com/FeeiCN/Cobra": {
-        "created_at": "2016-04-15 08:41:15",
+        "created_at": "2018-04-02 03:32:29",
         "description": "Source Code Security Audit (源代码安全审计)",
         "commit_message": "Update README.md",
         "commit_date": "2021-06-09 23:53:17",
