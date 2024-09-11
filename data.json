@@ -4219,7 +4219,7 @@
         "created_at": "2021-10-13 11:34:53",
         "description": "v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费ss/v2ray/trojan节点、freefq ",
         "commit_message": "update",
-        "commit_date": "2024-09-09 20:23:30"
+        "commit_date": "2024-09-10 20:23:33"
     },
     "https://github.com/QAX-A-Team/sharpwmi": {
         "created_at": "2020-04-08 05:50:21",
@@ -6111,7 +6111,7 @@
         "release_message": "新增飞书API利用。"
     },
     "https://github.com/RuoJi6/HackerPermKeeper": {
-        "created_at": "2023-07-19 03:23:21",
+        "created_at": "2024-03-05 05:39:49",
         "description": "Linux权限维持",
         "commit_message": "Update README.md",
         "commit_date": "2024-08-27 01:23:23",
@@ -18478,7 +18478,7 @@
         "release_message": ""
     },
     "https://github.com/wikiZ/RedGuard": {
-        "created_at": "2024-06-18 12:33:35",
+        "created_at": "2022-05-08 04:02:33",
         "description": "RedGuard is a C2 front flow control tool,Can avoid Blue Teams,AVs,EDRs check.",
         "commit_date": "2024-08-20 17:43:35",
         "commit_message": "Update README_CN.md",
@@ -23574,7 +23574,7 @@
         "created_at": "2020-04-04 14:54:04",
         "description": "⚔️ Web Hacker's Weapons / A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting",
         "commit_message": "Deploy README.md and Categorize Docs",
-        "commit_date": "2024-08-19 13:31:46"
+        "commit_date": "2024-08-26 13:41:54"
     },
     "https://github.com/charonlight/NacosExploitGUI": {
         "created_at": "2024-07-19 04:09:36",
@@ -25576,7 +25576,7 @@
         "commit_date": "2016-10-06 14:49:45"
     },
     "https://github.com/AabyssZG/SpringBoot-Scan": {
-        "created_at": "2023-01-29 01:11:21",
+        "created_at": "2024-08-18 12:40:34",
         "description": "针对SpringBoot的开源渗透框架，以及Spring相关高危漏洞利用工具",
         "commit_message": "Update requirements.txt",
         "commit_date": "2024-09-08 06:35:26",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.83.123.127属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.109.39.17属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28880,11 +28880,11 @@
         "release_message": "Start-of-month release"
     },
     "https://github.com/wy876/POC": {
-        "commit_message": "Merge branch 'main' of https://github.com/wy876/POC",
-        "commit_date": "2024-08-28 15:24:26",
-        "created_at": "2024-08-24 11:09:21",
-        "release_date": "2024-08-26 07:58:41",
-        "release_message": "## What's Changed\r\n* 要不要试试这种格式的呀 by @yiliufeng168 in https://github.com/wy876/POC/pull/14\r\n* Elgg sqli poc by @Kazgangap in https://github.com/wy876/POC/pull/15\r\n\r\n## New Contributors\r\n* @yiliufeng168 made their first contribution in https://github.com/wy876/POC/pull/14\r\n* @Kazgangap made their first contribution in https://github.com/wy876/POC/pull/15\r\n\r\n**Full Changelog**: https://github.com/wy876/POC/compare/POC-8.1...20240826",
+        "commit_message": "240908更新漏洞",
+        "commit_date": "2024-09-08 12:02:32",
+        "created_at": "2024-09-02 02:54:47",
+        "release_date": "2024-09-02 03:05:27",
+        "release_message": "## What's Changed\r\n* VvvebJs < 1.7.5 Arbitrary File Upload - RCE (CVE-2024-29272) by @Kazgangap in https://github.com/wy876/POC/pull/16\r\n\r\n\r\n**Full Changelog**: https://github.com/wy876/POC/compare/20240826...20240902",
         "description": "收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，长期更新。"
     },
     "https://github.com/enomothem/Whoamifuck": {
@@ -28986,12 +28986,12 @@
         "release_message": "当前版本实现功能：\r\n1、检索当前主机所有正在运行进程内存，将匹配到指定字符串的表格形式输出，包括PID、进程名、进程文件路径\r\n2、指定进程进行检索字符串，打印字符串前后50个长度的字符；\r\n3、将检索的结果输出到工具所有目录的指定文件中；"
     },
     "https://github.com/HackAllSec/hfinger": {
-        "created_at": "2024-08-22 13:14:23",
+        "created_at": "2024-09-08 10:00:44",
         "description": "一个用于web框架、CDN和CMS指纹识别的高性能命令行工具。A high-performance command-line tool for web framework, CDN and CMS fingerprinting.",
-        "commit_message": "Create FUNDING.yml",
-        "commit_date": "2024-08-30 08:11:18",
-        "release_date": "2024-08-22 13:26:00",
-        "release_message": "# hfinger\r\n\r\nA high-performance command-line tool for web framework, CDN and CMS fingerprinting.\r\nhfinger 是一个高性能、准确的命令行指纹识别工具，用于红队打点时快速准确识别指定目标的 Web 框架、CDN 和 CMS 等信息。\r\n\r\n- 增加并优化指纹\r\n- 优化代码，显著提升性能\r\n- 修复同一目标无法匹配多个指纹的bug\r\n- 修复自动跟随跳转导致漏报和被动模式异常的bug"
+        "commit_message": "Add files via upload",
+        "commit_date": "2024-09-08 10:18:19",
+        "release_date": "2024-09-08 10:15:13",
+        "release_message": "# hfinger\r\n\r\nA high-performance command-line tool for web framework, CDN and CMS fingerprinting.\r\nhfinger 是一个高性能、准确的命令行指纹识别工具，用于红队打点时快速准确识别指定目标的 Web 框架、CDN 和 CMS 等信息。\r\n\r\n- 增加xlsx输出结果，根据指纹生成sheet功能\r\n- 增加部分指纹"
     },
     "https://github.com/chaitin/blazehttp": {
         "created_at": "2024-07-01 02:49:20",
