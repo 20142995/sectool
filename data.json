@@ -23011,8 +23011,8 @@
     "https://github.com/six2dez/reconftw": {
         "created_at": "2024-06-04 09:30:29",
         "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
-        "commit_message": "Merge pull request #884 from six2dez/dev\n\nUpdated amass v3 config.ini",
-        "commit_date": "2024-06-06 08:21:11",
+        "commit_message": "Merge pull request #898 from six2dez/dev\n\nDev",
+        "commit_date": "2024-09-05 13:36:30",
         "release_date": "2024-06-04 09:38:24",
         "release_message": "## Highlights\r\n- API leak checks SwaggerSpy and porch-pirate\r\n- 3rd parties misconfigs with misconfig-mapper\r\n- JS sourcemaps check with sourcemapper and jsluice\r\n- IP geolocation info\r\n- oshi.at for sending huge results zip files\r\n- Improved trufflehog detection\r\n- Updated mind map\r\n- IIS short names added\r\n- Password leaks with LeakSearch\r\n- PPfuzz replaced by ppmap\r\n- Brutespray and nomore403 updated\r\n- Nucleus fuzzing parameters\r\n- Added p1radup\r\n\r\n## What's Changed\r\n* fix apileaks by @six2dez in https://github.com/six2dez/reconftw/pull/813\r\n* swaggerspy fix by @six2dez in https://github.com/six2dez/reconftw/pull/814\r\n* swaggerspy output by @six2dez in https://github.com/six2dez/reconftw/pull/816\r\n* Fix capitalization Mantra -> mantra by @kleozzy in https://github.com/six2dez/reconftw/pull/820\r\n* Fix Apileak paths by @kleozzy in https://github.com/six2dez/reconftw/pull/822\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/823\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/825\r\n* trufflehog arguments fix by @six2dez in https://github.com/six2dez/reconftw/pull/826\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/830\r\n* fix geoinfo - git update - web mode by @six2dez in https://github.com/six2dez/reconftw/pull/832\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/834\r\n* comment by @six2dez in https://github.com/six2dez/reconftw/pull/835\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/840\r\n* Merge 20240227 by @rt-bast in https://github.com/six2dez/reconftw/pull/838\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/841\r\n* Fix installer by @six2dez in https://github.com/six2dez/reconftw/pull/843\r\n* push wapiti installer by @six2dez in https://github.com/six2dez/reconftw/pull/844\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/847\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/848\r\n* final fix? maybe by @six2dez in https://github.com/six2dez/reconftw/pull/849\r\n* Tool installation fixes mainly by @kleozzy in https://github.com/six2dez/reconftw/pull/853\r\n* Fix brutespray Calling by @kleozzy in https://github.com/six2dez/reconftw/pull/860\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/861\r\n* Fix nuclei fuzzing by @kleozzy in https://github.com/six2dez/reconftw/pull/862\r\n* fix iis shortname scanner dir creations by @kleozzy in https://github.com/six2dez/reconftw/pull/864\r\n* Optimize vuln scan speed and efficiency by @kleozzy in https://github.com/six2dez/reconftw/pull/866\r\n* fix the fuzzparams function with the -fuzz flag by @j0hnZ3RA in https://github.com/six2dez/reconftw/pull/865\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/867\r\n* Alot of fixes + ffufpostprocessing by @kleozzy in https://github.com/six2dez/reconftw/pull/868\r\n* Add soft flag for p1radup to allow same host different path by @kleozzy in https://github.com/six2dez/reconftw/pull/869\r\n* Detecting arm systems that are not RPIs by @Marmeus in https://github.com/six2dez/reconftw/pull/870\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/872\r\n* fix 3rd parties var by @six2dez in https://github.com/six2dez/reconftw/pull/874\r\n* transfer.sh replaced with oshi.at by @six2dez in https://github.com/six2dez/reconftw/pull/875\r\n* Fix filename for oshi by @six2dez in https://github.com/six2dez/reconftw/pull/876\r\n* Dev by @six2dez in https://github.com/six2dez/reconftw/pull/882\r\n\r\n## New Contributors\r\n* @rt-bast made their first contribution in https://github.com/six2dez/reconftw/pull/838\r\n* @j0hnZ3RA made their first contribution in https://github.com/six2dez/reconftw/pull/865\r\n* @Marmeus made their first contribution in https://github.com/six2dez/reconftw/pull/870\r\n\r\n**Full Changelog**: https://github.com/six2dez/reconftw/compare/v2.8.1...v2.9"
     },
@@ -24067,13 +24067,13 @@
         "release_message": ""
     },
     "https://github.com/Naturehi666/searchall": {
-        "created_at": "2024-03-31 02:21:05",
+        "created_at": "2024-09-04 14:11:49",
         "description": "强大的敏感信息搜索工具",
-        "commit_date": "2024-03-31 02:21:05",
-        "commit_message": "Update 使用说明.md",
+        "commit_date": "2024-09-04 14:19:32",
+        "commit_message": "Update README.md",
         "release_tag": "search3.5.8",
         "release_date": "2023-09-23 12:30:46",
-        "release_message": "1.解决已知bug\r\n2.增加-e 参数拓展自定义扩展名功能，例如.java , .log 都可以\r\n3.增加-n 参数可以只扫描指定拓展名的功能\r\n4.解决浏览器功能的已知bug"
+        "release_message": "1.增加行数和文件大小自定义功能"
     },
     "https://github.com/TebbaaX/GRecon": {
         "created_at": "2020-12-17 18:29:04",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.109.39.31属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.81.46.182属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27521,7 +27521,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27537,7 +27537,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27549,15 +27549,15 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线DES加密,DES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
