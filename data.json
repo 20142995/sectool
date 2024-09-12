@@ -1720,8 +1720,8 @@
     "https://github.com/cdk-team/CDK": {
         "created_at": "2024-05-19 09:32:53",
         "description": "📦  Make security testing of K8s, Docker, and Containerd easier.",
-        "commit_date": "2024-05-19 09:32:53",
-        "commit_message": "Merge pull request #99 from cdk-team/neargle-dev\n\nFeat(tool): add netstat，Like \"netstat -antup\" command.",
+        "commit_date": "2024-08-26 02:36:13",
+        "commit_message": "Merge pull request #103 from cdk-team/main-dev\n\n[Exploit] Many commit from CDK Plus, for a better list of exploit",
         "release_tag": "v1.5.2",
         "release_date": "2024-05-19 09:35:00",
         "release_message": "Release Date: 2024-05-19\n\n## :scroll: Changelog\n\n### :bomb: Exploits \n\n* Feat(exp): adapt docker devicemapper file system when get docker rootfs\n\n\n\n### :toolbox: Tools\n\n* 增加查看网络连接信息\n* Fix(eva): long standing timeout in discovery k8s apiserver with sa, error msg: GET, ...connection timed out\n\n### :sparkles: Others\n\n* Feat(tool docs): add netstat document\n* Fix(cgroup): latter part slice len error (#87)\n* Chore: os.SEEK_END has been deprecated since Go 1.7\n* Feat(exp): adapt docker devicemapper file system when get docker rootfs\n\n## :key: Hash Table\n\n|SHA256|EXECTUE FILE|\n|---|---|\n|64b40a70b232b7e23a187a11c52ef8d8b7f3e16a5b869af16b390cbbe4aab935|cdk_darwin_amd64\n4c7260ac051907d12896054145fe103f9ea06de3bb2f04f0aab953dff32028de|cdk_linux_386\n2c757f0065c167e633318ff8d43cb85cf936eae2db224f4e066098f4a8cb324a|cdk_linux_386_thin\n197c42343c75fbbb7d77f3aaa92e04e43ddec927887e889197db72fcff5e9df4|cdk_linux_386_thin_upx\n17b096ff5df1b612abc12887e65fae97280533bfe058ce6becb9c0920f4d4c42|cdk_linux_386_upx\nd7f0690e41786270f345ff4851fd4b239631d4c1e7a6b9f74ad139565cbdb2ed|cdk_linux_amd64\n13f42e004a25be9ba99aee3396a1d810026d7750d1e199774c5ba8410b15ae30|cdk_linux_amd64_thin\ncdac5cd3d0ff424315da3e233a79f72663c26e53fc4ac2e5031ea08154630514|cdk_linux_amd64_thin_upx\nccbc5c84af4045835e6b001cdf845d63802e081cbb97d9625c12d8d0f9b6f852|cdk_linux_amd64_upx\n896b8d804debd233200375a5b7c1218d5b8bf5f53aaaa685b9d411c0770e27d4|cdk_linux_arm\n381448682cb5ea5ff1bc8bfd3462e637da0445fc74fdb60e0de5e11d8c2dc90d|cdk_linux_arm64\n2b92652d4909d39e12fc9320188f9e834b82f80d3aba92dea4267608f3543861|cdk_linux_arm64_thin|\n"
@@ -22548,7 +22548,7 @@
         "release_message": ""
     },
     "https://github.com/bit4woo/reCAPTCHA": {
-        "created_at": "2017-11-01 06:28:09",
+        "created_at": "2020-06-13 09:33:13",
         "description": "reCAPTCHA = REcognize CAPTCHA: A Burp Suite Extender that recognize CAPTCHA and use for intruder payload 自动识别图形验证码并用于burp intruder爆破模块的插件",
         "commit_date": "2023-11-23 07:25:00",
         "commit_message": "Update .gitignore",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "52.190.140.16属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.108.55属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27378,7 +27378,7 @@
         "release_message": "OWASP JoomScan 0.0.7\r\n"
     },
     "https://github.com/jetmore/swaks": {
-        "created_at": "2017-02-16 01:29:57",
+        "created_at": "2024-01-03 21:57:02",
         "description": "Swaks - Swiss Army Knife for SMTP",
         "commit_message": "Merge pull request #95 from jetmore/94-support-login-initial-response\n\nimplement LOGIN-INITIAL auth type #94",
         "commit_date": "2024-02-10 22:05:33",
