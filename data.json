@@ -385,12 +385,12 @@
         "release_message": ""
     },
     "https://github.com/boy-hack/ksubdomain": {
-        "created_at": "2024-07-23 14:37:02",
+        "created_at": "2024-08-31 15:57:56",
         "description": "Subdomain enumeration tool, asynchronous dns packets, use pcap to scan 1600,000 subdomains in 1 second",
-        "commit_date": "2024-07-23 14:37:02",
-        "commit_message": "update action build",
+        "commit_date": "2024-08-31 15:57:56",
+        "commit_message": "update version 1.9.9",
         "release_tag": "v1.9.5",
-        "release_date": "2024-07-23 14:43:41",
+        "release_date": "2024-08-31 15:58:48",
         "release_message": ""
     },
     "https://github.com/TideSec/Tide": {
@@ -3154,12 +3154,12 @@
         "release_message": ""
     },
     "https://github.com/joke2k/faker": {
-        "created_at": "2024-08-12 16:25:14",
+        "created_at": "2024-09-04 14:38:18",
         "description": "Faker is a Python package that generates fake data for you.",
-        "commit_message": "Fix rst syntax",
-        "commit_date": "2024-08-12 17:30:26",
-        "release_date": "2024-08-12 16:25:55",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v27.0.0/CHANGELOG.md)."
+        "commit_message": "Bump version: 28.4.0 → 28.4.1",
+        "commit_date": "2024-09-04 14:38:18",
+        "release_date": "2024-09-04 14:41:08",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v28.4.1/CHANGELOG.md)."
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2023-04-24 06:48:58",
@@ -3367,8 +3367,8 @@
     "https://github.com/bit4woo/domain_hunter_pro": {
         "created_at": "2024-06-29 03:16:31",
         "description": "domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等",
-        "commit_message": "update",
-        "commit_date": "2024-08-09 04:59:10",
+        "commit_message": "Update TextAreaMenu.java",
+        "commit_date": "2024-09-03 08:57:23",
         "release_date": "2024-06-29 03:49:14",
         "release_message": "全局：\r\n基础依赖包更新，包括URL、域名、邮箱、等基础函数\r\n多个bug修复，功能优化\r\n数据加载和保存逻辑优化更新\r\n\r\ntitle面板\r\n**1、【重点】显示favicon，更容易判断资产类型，方便进行同类资产搜索**\r\n2、搜索功能增强，新增部分应用特征\r\n3、获取cert信息逻辑增强\r\n4、重复记录标记功能\r\n5、“删除非目标记录”逻辑更新\r\n6、网段汇算逻辑排除CDN IP\r\n7、逻辑优化+DNS查询加强\r\n\r\ntool面板\r\n1、智能识别SuperJTextArea的内容是否为文件\r\n2、工具面板多个功能新增或更新\r\n3、使用BackGroundButton改造按钮功能实现，避免UI卡死\r\n\r\nSearch面板\r\n**1、【重点】新增Search面板，集成fofa、hunter等资产搜索引擎**\r\n\r\nconfig面板\r\n1、更新配置数据结果，方便添加删除配置项"
     },
@@ -5537,8 +5537,8 @@
     "https://github.com/L-codes/Neo-reGeorg": {
         "created_at": "2024-01-16 06:37:36",
         "description": "Neo-reGeorg is a project that seeks to aggressively refactor reGeorg",
-        "commit_date": "2024-08-05 05:40:53",
-        "commit_message": "fix",
+        "commit_date": "2024-09-10 05:28:18",
+        "commit_message": "fix readme.txt",
         "release_tag": "v5.1.0",
         "release_date": "2024-01-16 06:39:11",
         "release_message": "```python\r\n* 新特征\r\n    1. 新增 `--php` 参数，默认根据 --url 设置的 URL 判断是否 .php 后缀使用 PHP 连接方式，特殊情况下可手工使用 --php 指定为 PHP 的连接方式\r\n```"
@@ -24831,7 +24831,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
+        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.107.200属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.81.159.110属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27792,8 +27792,8 @@
     "https://github.com/digininja/DVWA": {
         "created_at": "2023-06-11 11:35:15",
         "description": "Damn Vulnerable Web Application (DVWA)",
-        "commit_message": "MariaDB not mysql",
-        "commit_date": "2024-08-02 13:39:38",
+        "commit_message": "Merge pull request #652 from HUNG-rushb/master\n\nUpdate Vietnamese translation",
+        "commit_date": "2024-09-02 12:43:42",
         "release_date": "2023-06-11 11:39:10",
         "release_message": "Easy built in support for containers by @hoang-himself ."
     },
