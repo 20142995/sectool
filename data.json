@@ -2167,8 +2167,8 @@
     "https://github.com/shmilylty/OneForAll": {
         "created_at": "2022-07-10 10:14:49",
         "description": "OneForAll是一款功能强大的子域收集工具",
-        "commit_date": "2024-04-19 06:10:40",
-        "commit_message": "Merge pull request #367 from ywgdjryf/patch-1\n\nUpdate mx.py",
+        "commit_date": "2024-08-29 06:30:12",
+        "commit_message": "Create .dockerignore",
         "release_tag": "v0.4.5",
         "release_date": "2022-07-10 10:16:29",
         "release_message": "## [0.4.5](https://github.com/shmilylty/oneforall/releases/tag/v0.4.5) - 2022-07-10\r\n- 修复了#254"
@@ -23214,8 +23214,8 @@
     "https://github.com/djytmdj/Network-security-study-notes": {
         "created_at": "2023-07-25 06:13:25",
         "description": "主要记录网络安全学习笔记，包含WEB安全、提权、APP渗透、内网渗透、横向移动、红队、工具学习等",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-05-13 07:23:29"
+        "commit_message": "Delete python开发安全工具/assets/1.txt",
+        "commit_date": "2024-09-06 04:23:11"
     },
     "https://github.com/gyxuehu/EwoMail": {
         "created_at": "2021-08-31 13:32:49",
@@ -25194,8 +25194,8 @@
         "description": "首页"
     },
     "http://www.practicalcryptography.com/ciphers/adfgx-cipher/": {
-        "status_code": 500,
-        "description": "500 Internal Server Error"
+        "status_code": 200,
+        "description": "Practical Cryptography"
     },
     "https://www.guballa.de/vigenere-solver": {
         "status_code": 200,
@@ -25775,7 +25775,7 @@
         "created_at": "2024-03-09 07:22:13",
         "description": "本程序为美国NSA的方程式工具包图形界面版，由ABC_123于2017年开始编写，仅用来扫描和验证MS17-010、MS09-050、MS08-067漏洞，并可协助管理员修复系统漏洞。",
         "commit_message": "Update README.md",
-        "commit_date": "2024-03-12 06:49:52",
+        "commit_date": "2024-09-06 10:02:39",
         "release_date": "2024-03-09 07:26:31",
         "release_message": "原版方程式工具包，杀软会报毒，建议放在虚拟机环境下运行。解压密码123456\r\n\r\n2024.03.09 优化图形界面，修复bug，重新编译。\r\n2017.12.12 完成永恒浪漫、永恒冠军的编写。\r\n2017.11.20 完成永恒之蓝Eternalblue的编写。\r\n"
     },
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "172.183.82.159属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.172.25.79属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27298,8 +27298,8 @@
         "description": "Detect which CMS a site is using - What CMS?"
     },
     "http://eyes.sh": {
-        "status_code": 200,
-        "description": "登录"
+        "status_code": 504,
+        "description": "504 Gateway Time-out"
     },
     "https://www.lingfengyun.com/": {
         "status_code": 200,
@@ -27521,7 +27521,7 @@
     },
     "http://www.66zan.cn/rc4encrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线RC4加密,RC4解密工具-在线工具箱"
     },
     "https://330k.github.io/misc_tools/unicode_steganography.html": {
         "status_code": 200,
@@ -27537,7 +27537,7 @@
     },
     "http://www.66zan.cn/aesencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "AES加解密工具,AES加密解密在线工具-在线工具箱"
     },
     "https://www.sojson.com/encrypt_des.html": {
         "status_code": 200,
@@ -27549,15 +27549,15 @@
     },
     "http://www.66zan.cn/tripledes/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线TripleDES加密,TripleDES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/desencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线DES加密,DES解密工具-在线工具箱"
     },
     "http://www.66zan.cn/rabbitencrypt/": {
         "status_code": 200,
-        "description": ""
+        "description": "在线Rabbit加密,Rabbit解密工具-在线工具箱"
     },
     "https://yuanfux.github.io/zero-width-web/": {
         "status_code": 200,
