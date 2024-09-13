@@ -6334,12 +6334,12 @@
         "release_message": "## What’s Changed\r\n\r\n* Updated `__main__` to be smarter (#652) @bee-san\r\n* Added linking & description to Cipheys pywhat (#645) @bee-san\r\n* Add click tests & fix greppable bug with `pywhat` (#654) @bee-san\r\n* Update pywhat requirement from >=0.2.5,<1.1.0 to >=0.2.5,<1.2.0 (#650) @dependabot\r\n* Remove unnecessary newline (#649) @swanandx\r\n* Update pywhat requirement from ^0.2.5 to >=0.2.5,<1.1.0 (#647) @dependabot\r\n* Remove yaspin and replace it with Rich (#638) @bee-san\r\n"
     },
     "https://github.com/audacity/audacity": {
-        "created_at": "2024-09-01 07:17:23",
+        "created_at": "2024-09-09 13:08:04",
         "description": "Audio Editor                                     ",
-        "commit_message": "[AU4] Clip splitting",
-        "commit_date": "2024-09-05 12:45:44",
-        "release_date": "2024-09-03 16:31:00",
-        "release_message": "This is a patch release. It adds a \"Legacy\" effects section containing the old Limiter, Compressor and Classic Filters.\r\n\r\n It also fixes the following bugs: \r\n   * #6995 Fixed a hang after undoing.\r\n   * #6912 Fixed the zero line going missing.\r\n   * #6927 Fixed envelope appearance for clips offset from 0. \r\n   * #6955 Fixed Audacity turning white on some systems.\r\n   * #6857 Fixed the pitch indicator disappearing on Linux when hitting double digits.\r\n   * #6941 Fixed cutting not putting clips into the clipboard.\r\n   * #6926 Fixed pasting sometimes resetting the clip name.\r\n   * #6751 Fixed the track header UI breaking when resizing channels in a stereo track.\r\n   * #6847, #6846 Fixed LV2 plugin detection on macOS and Windows.\r\n   * #3679 Fixed Labeled Audio operations.\r\n   * #6924, #6989 Fixed Cloud projects sometimes not opening.\r\n   * #7060 Fixed a bug regarding stereo-to-mono splitting.\r\n   * #7055 Fixed a bug causing tracks with master effects sometimes only exporting silence.\r\n   * #7025, #7133 Fixed multi-channel OGG and Wavpack import.\r\n   * #7018 Fixed a crash after recording long sessions.\r\n   * #7126 Fixed a crash when failing to load a cloud project.\r\n   * #7093 Fixed Audacity maxing out the CPU when minimized.\r\n   * #7124 Fixed the \"editing clips can move other clips\" preference desynchronizing multiple tracks.\r\n\r\n Other changes:\r\n \r\n   * #6736 The time track range now is a single dialog.\r\n   * #6929 Reverted the behavior of selection change when importing a clip to the previous behavior."
+        "commit_message": "[AU4] Fixed recording",
+        "commit_date": "2024-09-12 19:20:15",
+        "release_date": "2024-09-09 15:50:44",
+        "release_message": "This is a patch release. It fixes the following bug: \r\n   * #7266 Fixed a crash when exiting Audacity. (Thanks, Joe Souza!)"
     },
     "https://github.com/0Chencc/CTFCrackTools": {
         "created_at": "2022-11-16 22:23:09",
@@ -6362,8 +6362,8 @@
     "https://github.com/ufrisk/MemProcFS": {
         "created_at": "2024-07-29 20:44:07",
         "description": "MemProcFS",
-        "commit_message": "Version 5.11.4",
-        "commit_date": "2024-09-08 09:27:16",
+        "commit_message": "Version 5.11.5",
+        "commit_date": "2024-09-10 20:31:03",
         "release_date": "2024-07-29 20:44:56",
         "release_message": "* Bug fixes.\r\n* [New Vmmsharp C# API](https://github.com/ufrisk/MemProcFS/wiki/API_CSharp).\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive)."
     },
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.109.39.25属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "74.249.5.108属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -27098,8 +27098,8 @@
         "description": "Reverse IP Lookup - All Names Hosted at an IP - DomainTools"
     },
     "https://www.webscan.cc/": {
-        "status_code": 502,
-        "description": "www.webscan.cc | 502: Bad gateway"
+        "status_code": 200,
+        "description": "同IP网站查询,C段查询,IP反查域名,在线C段,旁站工具 - WebScan"
     },
     "https://gofile.io/": {
         "status_code": 200,
@@ -27263,7 +27263,7 @@
     },
     "https://www.storytrain.info/": {
         "status_code": 200,
-        "description": "用户认证 - 云短信 - 短信接收"
+        "description": "短信接收 - 云短信 - 第1页 - 在线短信接收"
     },
     "https://sms-activate.org/": {
         "status_code": 403,
@@ -29052,7 +29052,7 @@
         "commit_date": "2024-03-04 10:03:20"
     },
     "https://github.com/shuanx/BurpAPIFinder": {
-        "created_at": "2024-04-04 02:52:42",
+        "created_at": "2024-05-29 10:10:31",
         "description": "攻防演练过程中，我们通常会用浏览器访问一些资产，但很多未授权/敏感信息/越权隐匿在已访问接口过html、JS文件等，该插件能让我们发现未授权/敏感信息/越权/登陆接口等。",
         "commit_message": "update",
         "commit_date": "2024-09-05 00:42:56",
