@@ -848,8 +848,8 @@
     "https://github.com/vaycore/OneScan": {
         "created_at": "2024-08-02 08:05:48",
         "description": "OneScan是递归目录扫描的BurpSuite插件",
-        "commit_date": "2024-08-02 09:56:29",
-        "commit_message": "修复：过滤规则为空时，临时过滤不生效的问题",
+        "commit_date": "2024-09-03 09:38:18",
+        "commit_message": "修复：扫描过程中 SwingWorker 无法加载请求响应数据包的问题（使用线程池代替）",
         "release_tag": "v1.4.0",
         "release_date": "2024-08-02 08:25:30",
         "release_message": "1.6.11 版本发布，版本更新内容如下\r\n\r\n### 新增\r\n\r\n- 新增 `临时过滤选中数据`、`清空临时过滤规则` 菜单项，用于临时过滤数据\r\n- 新增 `Clear` 按钮，用于清空所有记录\r\n- 新增配置项：限制请求、响应包最大显示长度\r\n\r\n### 修复\r\n\r\n- 修复：请求行不包含 `HTTP/` 字符串时，导致处理出现异常、扫描任务被丢弃的问题\r\n- 修复：请求包的 URL 开头不是斜杠时，从请求行获取 URL 位置不正确导致 `Payload Processing` 处理结果异常的问题\r\n- 修复：加载 `Payload Processing` 配置时因未检测 `merge` 变量导致安装插件报错的问题\r\n"
@@ -1069,8 +1069,8 @@
     "https://github.com/Yong-An-Dang/nuclei-plus": {
         "created_at": "2024-08-07 14:11:07",
         "description": "Functional enhancement based on nuclei",
-        "commit_date": "2024-08-08 13:10:37",
-        "commit_message": "新增模板刷新等待进度条",
+        "commit_date": "2024-09-12 09:35:51",
+        "commit_message": "update",
         "release_tag": "v7.0.0",
         "release_date": "2024-08-07 14:11:26",
         "release_message": "> 配置文件有变更，建议备份后重新生成配置文件\r\n\r\n### 💯 新增\r\n- 新增http流生成模板面板，实现智能生成PoC模板（基于大语言模型，配套服务：[nuclei-plus-server](https://github.com/Yong-An-Dang/nuclei-plus-server)）\r\n\r\n### ⭐ 优化\r\n- 优化模板同步接口：默认配置路径拼接 + “/template/sync”\r\n- 优化同步dir的获取\r\n- 模板编辑面板自动补全快捷键：ctrl +i\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.3.5...v7.4.8"
@@ -1329,8 +1329,8 @@
     "https://github.com/projectdiscovery/subfinder": {
         "created_at": "2024-03-27 21:55:17",
         "description": "Fast passive subdomain enumeration tool.",
-        "commit_message": "Merge pull request #1342 from projectdiscovery/dependabot/go_modules/v2/dev/github.com/projectdiscovery/retryablehttp-go-1.0.73\n\nchore(deps): bump github.com/projectdiscovery/retryablehttp-go from 1.0.71 to 1.0.73 in /v2",
-        "commit_date": "2024-08-13 11:49:57",
+        "commit_message": "allow comments in input file (#1346)\n\n* allow comments in input file\r\n\r\n* use str util func\r\n\r\n* fix lint\r\n\r\n* lint fix",
+        "commit_date": "2024-09-11 19:11:05",
         "release_date": "2024-03-27 22:00:39",
         "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### Other Changes\r\n\r\n* Added context to crtsh database query by @UFeindschiff in https://github.com/projectdiscovery/subfinder/pull/1190\r\n* Fixed SDK log config issue by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1200\r\n* Fixed issue of url scheme being added in output by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1166\r\n* Fixed issue with pagination by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1177\r\n* Fixed flaky tests by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1202\r\n* Updated go version in Dockerfile by @tarunKoyalwar in https://github.com/projectdiscovery/subfinder/pull/1159\r\n* Updated log level by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1167\r\n* Updated alpine to 3.18.6 for security fixes by @alizademhdi in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* Removed` time.sleep` from sources by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1175\r\n\r\n## New Contributors\r\n* @alizademhdi made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* @UFeindschiff made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1190\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.5...v2.6.6"
     },
@@ -25394,12 +25394,12 @@
         "commit_date": "2016-03-10 20:42:27"
     },
     "https://github.com/deepfence/SecretScanner": {
-        "created_at": "2024-07-25 13:43:03",
+        "created_at": "2024-09-11 13:07:20",
         "description": ":unlock: :unlock: Find secrets and passwords in container images and file systems :unlock: :unlock:",
         "commit_message": "Update docs",
-        "commit_date": "2024-07-25 13:43:03",
-        "release_date": "2024-07-26 16:25:17",
-        "release_message": "## What's Changed\r\n* update vessel to v0.12.3 by @gnmahanth in https://github.com/deepfence/SecretScanner/pull/119\r\n* Create listing.json by @ibreakthecloud in https://github.com/deepfence/SecretScanner/pull/123\r\n* Generic lib by @noboruma in https://github.com/deepfence/SecretScanner/pull/121\r\n* add multi match support by @noboruma in https://github.com/deepfence/SecretScanner/pull/125\r\n* add multi match support by @noboruma in https://github.com/deepfence/SecretScanner/pull/126\r\n* update config and remove dead code by @ibreakthecloud in https://github.com/deepfence/SecretScanner/pull/127\r\n* fix import by @ibreakthecloud in https://github.com/deepfence/SecretScanner/pull/128\r\n\r\n\r\n**Full Changelog**: https://github.com/deepfence/SecretScanner/compare/v2.2.0...v2.3.0"
+        "commit_date": "2024-09-11 13:07:20",
+        "release_date": "2024-09-11 17:00:05",
+        "release_message": "**Full Changelog**: https://github.com/deepfence/SecretScanner/compare/v2.3.0...v2.3.1"
     },
     "https://github.com/n4xh4ck5/CMSsc4n": {
         "created_at": "2017-06-19 18:29:16",
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "20.75.95.241属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "172.183.132.109属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
