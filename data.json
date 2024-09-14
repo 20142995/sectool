@@ -965,8 +965,8 @@
     "https://github.com/sqlmapproject/sqlmap": {
         "created_at": "2024-01-03 22:18:35",
         "description": "Automatic SQL injection and database takeover tool",
-        "commit_message": "Trivial update",
-        "commit_date": "2024-08-23 12:59:00",
+        "commit_message": "Dummy commit",
+        "commit_date": "2024-09-10 12:05:14",
         "release_date": "2024-01-03 22:20:06",
         "release_message": "Stable version 1.8 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.7...1.8))"
     },
@@ -7647,8 +7647,8 @@
     "https://github.com/openwall/john": {
         "created_at": "2011-12-16 19:43:47",
         "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
-        "commit_message": "docs: add a LICENSE on the main GitHub page\n\nFix #4467\n\nSigned-off-by: Claudio André <dev@claudioandre.slmail.me>",
-        "commit_date": "2024-08-25 16:31:39"
+        "commit_message": "PDF format: Bug fixes for R3 with RC4-40\n\nThe 50x MD5 loop was hardcoded for 128 bits, which is not always correct.",
+        "commit_date": "2024-09-13 16:57:07"
     },
     "https://github.com/shimmeris/SCFProxy": {
         "created_at": "2021-04-18 11:21:43",
@@ -23564,8 +23564,8 @@
     "https://github.com/t3l3machus/Villain": {
         "created_at": "2024-07-29 12:03:09",
         "description": "Villain is a high level stage 0/1 C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells, enhance their functionality with additional features (commands, utilities) and share them among connected sibling servers (Villain instances running on different machines).",
-        "commit_date": "2024-09-05 06:04:35",
-        "commit_message": "Merge pull request #170 from t3l3machus/dev\n\nAdded --version  arg",
+        "commit_date": "2024-09-13 07:30:35",
+        "commit_message": "Merge pull request #171 from t3l3machus/dev-templates\n\nImproved hoaxshell Win templates",
         "release_tag": "",
         "release_date": "2024-07-29 12:08:43",
         "release_message": "## 🪲 Bug Fixes \r\n- Fixed Python v3.12 invalid escape warning message in regex patterns (by D3vil0p3r, #149) and payload templates (by t3l3machus).\r\n- Fixed exception for non-existent destination path in 'upload' command (by x4v1l0k, #141).\r\n- Fixed session id alias interpretation for the 'exec' command (#159).\r\n- Fixed various tab autocomplete issues.\r\n- Fixed an unhandled exception for the update process (#129).\r\n- Fixed a mistake in payload template `windows/netcat/python3_reverse_tcp`.\r\n\r\n## ⚙️ Improvements\r\n- Improved the LHOST argument parsing in payload generation (supports IP, interface, or hostname with DNS resolution check).\r\n- Instead of checking for updates automatically on startup, the update process was adjusted to fetch the latest commits from the main branch on GitHub if the user supplies the -u option. "
@@ -24754,8 +24754,8 @@
         "description": "维吉尼亚密码在线加密解密 - 千千秀字"
     },
     "https://www.shodan.io/": {
-        "status_code": 200,
-        "description": "Shodan Search Engine"
+        "status_code": 403,
+        "description": "Attention Required! | Cloudflare"
     },
     "https://www.qqxiuzi.cn/bianma/dianbao.php": {
         "status_code": 200,
@@ -25138,8 +25138,8 @@
         "description": "与佛论禅"
     },
     "http://www.factordb.com/index.php": {
-        "status_code": 502,
-        "description": "502 Proxy Error"
+        "status_code": 200,
+        "description": "factordb.com"
     },
     "https://www.sojson.com/encrypt_rabbit.html": {
         "status_code": 200,
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "13.91.68.213属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "20.75.95.241属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28094,8 +28094,8 @@
     "https://github.com/wy876/wiki": {
         "created_at": "2023-12-31 07:18:18",
         "description": "漏洞文库 wiki.wy876.cn",
-        "commit_message": "README.md",
-        "commit_date": "2024-08-26 07:25:49"
+        "commit_message": "20240909更新",
+        "commit_date": "2024-09-09 07:00:43"
     },
     "https://github.com/R0A1NG/Botgate_bypass": {
         "created_at": "2024-04-12 03:09:12",
@@ -28828,8 +28828,8 @@
     "https://github.com/testnet0/testnet": {
         "created_at": "2024-06-14 11:29:17",
         "description": null,
-        "commit_message": "update",
-        "commit_date": "2024-08-27 03:44:38"
+        "commit_message": "Update README.md",
+        "commit_date": "2024-09-10 07:16:07"
     },
     "https://github.com/wazuh/wazuh": {
         "created_at": "2024-08-30 08:30:40",
