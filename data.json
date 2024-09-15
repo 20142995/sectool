@@ -1044,8 +1044,8 @@
     "https://github.com/ninoseki/mitaka": {
         "created_at": "2024-07-28 10:24:08",
         "description": "A browser extension for OSINT search",
-        "commit_message": "fix: update package-lock.json",
-        "commit_date": "2024-07-28 10:25:21",
+        "commit_message": "docs: update README",
+        "commit_date": "2024-09-12 22:18:36",
         "release_date": "2024-07-28 10:24:26",
         "release_message": "## What's Changed\r\n* feat: support urlscan.io submit/scan visibility by @ninoseki in https://github.com/ninoseki/mitaka/pull/823\r\n* refactor: use valibot to convert Proxy object into vanilla object by @ninoseki in https://github.com/ninoseki/mitaka/pull/824\r\n* fix: fix type error by @ninoseki in https://github.com/ninoseki/mitaka/pull/826\r\n* refactor: use CommandSchema/Type by @ninoseki in https://github.com/ninoseki/mitaka/pull/827\r\n* fix: fix truncate issue (#825) by @ninoseki in https://github.com/ninoseki/mitaka/pull/828\r\n* v2.2.0 by @ninoseki in https://github.com/ninoseki/mitaka/pull/829\r\n\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.1.3...v2.2.0"
     },
@@ -22364,12 +22364,12 @@
         "release_message": ""
     },
     "https://github.com/xaoyaoo/PyWxDump": {
-        "created_at": "2024-08-13 05:22:06",
-        "description": "获取微信账号信息(昵称/账号/手机/邮箱/数据库密钥/wxid)；PC微信数据库读取、解密脚本；聊天记录查看工具；聊天记录导出为html(包含语音图片)。支持多账户信息获取，支持所有微信版本。",
-        "commit_message": "add export html",
-        "commit_date": "2024-08-13 15:54:21",
-        "release_date": "2024-08-13 05:27:14",
-        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.1.18\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
+        "created_at": "2024-09-11 04:16:11",
+        "description": "获取微信信息；读取数据库，本地查看聊天记录并导出为csv、html等格式用于AI训练，自动回复等。支持多账户信息获取，支持所有微信版本。",
+        "commit_message": "UPDATE CHANGELOG.md",
+        "commit_date": "2024-09-11 04:16:32",
+        "release_date": "2024-09-11 04:19:14",
+        "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.1.33\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n"
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-11-15 03:33:53",
@@ -24831,7 +24831,7 @@
     },
     "https://www.seebug.org/": {
         "status_code": 200,
-        "description": "Knownsec Seebug Vulnerability Platform - Discovering Vulnerabilities & Providing First Hand Intelligence!"
+        "description": "知道创宇 Seebug 漏洞平台 - 洞悉漏洞，让你掌握前沿漏洞情报！"
     },
     "https://www.bugku.com/tools/jsfuck/": {
         "status_code": 200,
@@ -26098,11 +26098,11 @@
         "commit_date": "2016-01-02 11:04:22"
     },
     "https://github.com/deepfence/ThreatMapper": {
-        "created_at": "2024-08-03 09:38:11",
+        "created_at": "2024-09-13 18:19:26",
         "description": "Open Source Cloud Native Application Protection Platform (CNAPP)",
-        "commit_message": "Create cloud scanner log directories on restart\n\n(cherry picked from commit 650a82c3e54a752b0fb29514e4c968184f6ef195)",
-        "commit_date": "2024-08-03 09:38:11",
-        "release_date": "2024-09-10 01:33:53",
+        "commit_message": "Update docs\n\n(cherry picked from commit 5c5482a333e30b7663a36bd1714acb114246e508)",
+        "commit_date": "2024-09-13 18:19:26",
+        "release_date": "2024-09-15 01:33:51",
         "release_message": ""
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
@@ -27079,7 +27079,7 @@
     },
     "https://dns.aizhan.com/": {
         "status_code": 200,
-        "description": "4.227.114.101属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
+        "description": "13.83.123.181属于美国_IP反查域名_同IP站点查询_同ip网站查询_爱站网"
     },
     "https://search.chongbuluo.com/": {
         "status_code": 200,
@@ -28864,7 +28864,7 @@
         "commit_date": "2022-03-10 13:12:25"
     },
     "https://github.com/Fheidt12/Windows_Log": {
-        "created_at": "2024-08-05 02:41:18",
+        "created_at": "2024-07-18 15:24:37",
         "description": "基于Go编写的windows日志分析工具",
         "commit_message": "Update README.md",
         "commit_date": "2024-08-05 03:06:54",
