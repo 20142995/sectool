@@ -1,16 +1,12 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: update_readme
+name: update change
 
 on:
-  repository_dispatch:
-  # push:
-  #   branches:
-  #     - main
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 1 * * *'
 permissions:
   contents: write
 jobs:
@@ -27,15 +23,17 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
-    - name: update_readme
+    - name: update change
       env: 
          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
-        python update.py readme 
+        python update.py change | tee /tmp/update_change.log
     - name: Commit and push if changed
       run: |
         git config --global user.email "test"
         git config --global user.name "test"
         git add .
-        git diff-index --quiet HEAD || git commit -m "Auto Updated"
+        MESSAGE=$(cat /tmp/update_change.log)
+        COMMIT_MESSAGE="Auto Updated:\n$MESSAGE"
+        git diff-index --quiet HEAD || git commit -m "$(echo -e "$COMMIT_MESSAGE")"
         git push
