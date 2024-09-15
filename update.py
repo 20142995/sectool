@@ -104,11 +104,13 @@ def yaml2json(path, encoding="utf8"):
         data = yaml.load(stream=f, Loader=yaml.FullLoader)
     return data
 
+
 def list_cmp(lst_1, lst_2):
     """
     对比两个列表 减少 遗留 新增
     """
     return [_ for _ in lst_1 if _ not in lst_2], [_ for _ in lst_1 if _ in lst_2], [_ for _ in lst_2 if _ not in lst_1]
+
 
 def gen_githun_api_url(urls, desc=True, commit=True, release=True):
     new_urls = []
@@ -151,6 +153,7 @@ def update_release():
     # 写入data
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+
 
 def update_readme():
     '''更新README.md'''
@@ -205,6 +208,7 @@ def update_readme():
     with open("README.md", "w", encoding="utf8") as fd:
         fd.write(total_md)  # 将Markdown格式字符串写入README.md文件
 
+
 def update_change():
     '''检查链接新增和删除'''
     data = json.loads(open("data.json", "r", encoding="utf8").read())
@@ -244,17 +248,20 @@ def update_change():
                 url = item['url']
                 if url in data:
                     data[url].update(item)
-                    data[url]['updated_at'] = time.strftime("%Y-%m-%d %H:%M:%S")
+                    data[url]['updated_at'] = time.strftime(
+                        "%Y-%m-%d %H:%M:%S")
                     del data[url]['url']
                 else:
                     data[url] = {}
                     data[url].update(item)
-                    data[url]['updated_at'] = time.strftime("%Y-%m-%d %H:%M:%S")
+                    data[url]['updated_at'] = time.strftime(
+                        "%Y-%m-%d %H:%M:%S")
                     del data[url]['url']
         print(f'新增: {len(c)}个,{c}')
     # 写入data
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+
 
 def clone_repo(url):
     temp_dir = tempfile.TemporaryDirectory().name
@@ -263,6 +270,7 @@ def clone_repo(url):
     os.chdir(temp_dir)
     os.system('git clone {}'.format(url))
     return os.path.join(temp_dir, url[19:].split('/', 1)[1])
+
 
 def update_bucket():
     root_path = os.path.dirname(os.path.abspath(__file__))
@@ -294,6 +302,7 @@ def update_bucket():
     # 写入data
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
