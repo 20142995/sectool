@@ -198,8 +198,9 @@ def update_readme():
                             m = f'[{repo}]({url}) {description}'
                     else:
                         m = f'[{repo[:83]}...]({url}) '
+                    bucket = '<img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">'
                     msg.append(
-                        f'- <img src="https://favicon.qqsuu.cn/{urlparse(url).netloc}" alt="" style="height: 20px;"> {m}')
+                        f'- {bucket + "|" if data.get(url, {}).get("bucket") else ""}<img src="https://favicon.qqsuu.cn/{urlparse(url).netloc}" alt="" style="height: 20px;"> {m}')
             else:
                 parse_tree(v, path=path + 1)  # 递归调用处理嵌套的数据结构
 

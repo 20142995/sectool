@@ -16029,5 +16029,92 @@
     },
     "https://www.phishingfrenzy.com/": {
         "created_at": "2024-09-15 11:51:17"
+    },
+    "https://hashes.com/zh/decrypt/hash": {
+        "created_at": "2024-09-15 15:24:41",
+        "updated_at": "2024-09-15 15:24:41",
+        "status_code": 200,
+        "title": "MD5 在線免費解密 MD5、SHA1、MySQL、NTLM、SHA256、SHA512、Wordpress、Bcrypt 的雜湊"
+    },
+    "https://roar.iiilab.com/": {
+        "created_at": "2024-09-15 15:24:41",
+        "updated_at": "2024-09-15 15:24:41",
+        "status_code": 200,
+        "title": "兽音译者在线编码解码 - 兽音翻译咆哮体加密解密"
+    },
+    "https://github.com/eid3t1c/Hash_Extender": {
+        "created_at": "2023-10-06 14:24:17",
+        "description": "Automated tool implementing Hash Length Extension  Attack in MD4,MD5,SHA1,SHA256,SHA512 along with an example",
+        "updated_at": "2024-09-15 15:24:42",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-10-23 15:03:55"
+    },
+    "https://github.com/shellfeel/hash-ext-attack": {
+        "created_at": "2023-03-10 08:20:17",
+        "description": "哈希长度扩展攻击利用脚本，免去了hashpump需要编译的烦恼",
+        "updated_at": "2024-09-15 15:24:42",
+        "commit_message": "Merge pull request #1 from b3nguang/master\n\n代码格式化",
+        "commit_date": "2024-03-17 08:34:53"
+    },
+    "https://github.com/wh1t3zer/SpringBootVul-GUI": {
+        "created_at": "2024-09-13 15:34:38",
+        "description": "一个半自动化springboot打点工具，内置目前springboot所有漏洞",
+        "updated_at": "2024-09-15 15:24:42",
+        "commit_message": "Merge branch 'develop'",
+        "commit_date": "2024-09-13 17:39:22",
+        "release_date": "2024-09-13 15:38:02",
+        "release_message": "1、加入随机fake UserAgent\r\n2、新建MainSourceGroovyRCE\r\n3、优化代码结构\r\n4、修改heapdump文件下载为分块下载，可大文件\r\n5、临时添加了进度条，可查看下载情况，以后优化GUI",
+        "release_tag": "v0.0.7"
+    },
+    "https://github.com/mcw0/DahuaConsole": {
+        "created_at": "2021-09-27 18:37:53",
+        "description": "Dahua Console, access internal debug console and/or other researched functions in Dahua devices. Feel free to contribute in this project.",
+        "updated_at": "2024-09-15 15:24:42",
+        "commit_message": "Merge pull request #31 from jorhelp/master\n\nUpdate relay.py",
+        "commit_date": "2022-07-23 17:42:41"
+    },
+    "https://github.com/onewinner/VulToolsKit": {
+        "created_at": "2024-09-03 12:45:20",
+        "description": "红队武器库漏洞利用工具合集整理",
+        "updated_at": "2024-09-15 15:24:42",
+        "commit_message": "Add files via upload",
+        "commit_date": "2024-09-03 12:45:20",
+        "release_date": "2024-09-03 12:48:21",
+        "release_message": "获取链接见README，文件太大了传上来不方便",
+        "release_tag": "V1.1"
+    },
+    "https://github.com/XiaoTouMingyo/PentesterTools": {
+        "created_at": "2024-09-06 02:59:16",
+        "description": "渗透测试工具集",
+        "updated_at": "2024-09-15 15:24:42",
+        "commit_message": "wmiExec可视化利用工具",
+        "commit_date": "2024-09-11 06:41:23"
+    },
+    "https://github.com/S-ixpence/Pkeep": {
+        "created_at": "2024-08-03 08:02:22",
+        "description": "linux权限维持脚本",
+        "updated_at": "2024-09-15 15:24:42",
+        "commit_message": "Update Pkeep.py",
+        "commit_date": "2024-09-02 06:48:51"
+    },
+    "https://github.com/honmashironeko/ProxyCat": {
+        "created_at": "2024-09-10 07:40:15",
+        "description": "一款部署于云端或本地的代理池中间件，可将静态代理IP灵活运用成隧道IP，提供固定请求地址，一次部署终身使用",
+        "updated_at": "2024-09-15 15:24:42",
+        "commit_message": "Update",
+        "commit_date": "2024-09-14 14:31:46",
+        "release_date": "2024-09-10 07:42:57",
+        "release_message": "**2024/09/10**\r\n\r\n- 优化并发效率，支持在未收到响应包的情况下提前进行下一个请求，从而提高效率\r\n- 增加负载均衡模式，该模式下将随机向代理地址进行请求，并利用并发代理的方式，提高请求效率\r\n- 代理有效性检测修改为异步，从而提高效率",
+        "release_tag": "ProxyCat-V1.7"
+    },
+    "https://github.com/twowb/znpool": {
+        "created_at": "2024-09-02 06:49:54",
+        "description": "一个又快又好的全球免费代理轮询工具",
+        "updated_at": "2024-09-15 15:24:42",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-09-02 06:49:54",
+        "release_date": "2024-09-02 06:53:46",
+        "release_message": "啦啦啦~~~一个又快又好的全球免费代理轮询工具\r\nby:zngeek\r\n欢迎关注蓝极战队公众号",
+        "release_tag": "znpool"
     }
 }
