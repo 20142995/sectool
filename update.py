@@ -304,6 +304,26 @@ def update_bucket():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
+def update_test():
+    data = json.loads(open("data.json", "r", encoding="utf8").read())
+
+    data_github = {url: data[url] for url in data if url.startswith('https://github.com') and not data[url].get('description')}
+
+    api_github_urls = gen_githun_api_url(
+        data_github.keys(), desc=True, commit=False, release=False)
+    for item in get_urls_info(api_github_urls):
+        url = item['url']
+        if url in data:
+            if data[url].get('description', '') != item.get('description', ''):
+                print(url[19:].split(
+                    "/")[:2][1], data[url].get('description', ''), '->', item.get('description', ''))
+                data[url].update(item)
+                del data[url]['url']
+                data[url]['updated_at'] = time.strftime("%Y-%m-%d %H:%M:%S")
+    # 写入data
+    with open("data.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
 
 if __name__ == '__main__':
     if len(sys.argv) == 2:
@@ -315,3 +335,5 @@ if __name__ == '__main__':
             update_change()
         elif sys.argv[1] == 'bucket':
             update_bucket()
+        elif sys.argv[1] == 'test':
+            update_test()

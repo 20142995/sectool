@@ -541,12 +541,13 @@
     },
     "https://github.com/pandasec888/taowu-cobalt-strike": {
         "created_at": "2020-07-05 10:13:00",
-        "description": "",
+        "description": null,
         "commit_date": "2022-06-13 08:56:55",
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "updated_at": "2024-09-15 15:50:32"
     },
     "https://github.com/Dliv3/redis-rogue-server": {
         "created_at": "2019-07-08 08:54:11",
@@ -1435,13 +1436,14 @@
         "release_message": "MySQLMonitor Java版本"
     },
     "https://github.com/summitt/Burp-Non-HTTP-Extension": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2016-05-23 20:30:34",
+        "description": "TCP/UDP Non-HTTP Proxy Extension (NoPE)  for  Burp Suite.",
         "commit_date": "2023-10-04 07:41:43",
         "commit_message": "Update version",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "updated_at": "2024-09-15 15:50:32"
     },
     "https://github.com/SiJiDo/H": {
         "created_at": "2021-09-10 06:49:28",
@@ -5253,11 +5255,12 @@
         "release_message": " 20220724更新记录\r\n  1、新增导航栏中的主机上线提醒地址；\r\n  2、新增导航栏中的payload免杀专区（部分优秀项目）；\r\n  3、新增内网穿透工具frp（原版当前最新版）；\r\n  4、新增内网穿透工具Venom；\r\n  5、新增内网扫描工具F-vuln最新英文版；\r\n  6、新增内网扫描工具RequestTemplate；"
     },
     "https://github.com/heikanet/whohk": {
-        "created_at": "",
-        "description": "",
+        "created_at": "2020-09-21 05:26:07",
+        "description": "whohk，linux下一款强大的应急响应工具  在linux下的应急响应往往需要通过繁琐的命令行来查看各个点的情况，有的时候还需要做一些格式处理，这对于linux下命令不是很熟悉的人比较不友好。本工具将linux下应急响应中常用的一些操作给集合了起来，并处理成了较为友好的格式，只需要通过一个参数就能代替繁琐复杂的命令来实现对各个点的检查。",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "updated_at": "2024-09-15 15:50:32"
     },
     "https://github.com/r00t4dm/aLIEz": {
         "created_at": "2021-03-30 07:51:03",
@@ -15498,7 +15501,10 @@
     },
     "https://github.com/ysrc/yulong-hids": {
         "commit_message": "fix file name check keyerror in map resultdata, thx @zhujiahao",
-        "commit_date": "2020-06-29 15:38:15"
+        "commit_date": "2020-06-29 15:38:15",
+        "created_at": "2018-01-18 10:02:46",
+        "description": "[archived] 一款实验性质的主机入侵检测系统",
+        "updated_at": "2024-09-15 15:50:32"
     },
     "https://github.com/netease-youdao/QAnything": {
         "created_at": "2024-08-30 09:21:51",
@@ -15998,10 +16004,14 @@
         "created_at": "2024-09-15 11:51:17"
     },
     "https://github.com/neal1991/gshark": {
-        "created_at": "2024-09-15 11:51:17"
+        "created_at": "2018-03-09 14:16:55",
+        "description": "Scan for sensitive information easily and effectively.",
+        "updated_at": "2024-09-15 15:50:32"
     },
     "https://github.com/DianrongSecurity/AgentSmith-HIDS": {
-        "created_at": "2024-09-15 11:51:17"
+        "created_at": "2018-12-25 16:03:59",
+        "description": "By Kprobe technology Open Source Host-based Intrusion Detection System(HIDS), from E_Bwill.",
+        "updated_at": "2024-09-15 15:50:32"
     },
     "https://github.com/filebrowser/filebrowser/releases/latest": {
         "created_at": "2024-09-15 11:51:17"
@@ -16010,13 +16020,19 @@
         "created_at": "2024-09-15 11:51:17"
     },
     "https://github.com/jeffzh3ng/Fuxi-Scanner": {
-        "created_at": "2024-09-15 11:51:17"
+        "created_at": "2018-06-13 07:32:07",
+        "description": "Penetration Testing Platform",
+        "updated_at": "2024-09-15 15:50:32"
     },
     "https://github.com/WhaleShark-Team/cobra": {
-        "created_at": "2024-09-15 11:51:17"
+        "created_at": "2016-04-15 08:41:15",
+        "description": "Source Code Security Audit (源代码安全审计)",
+        "updated_at": "2024-09-15 15:50:32"
     },
     "https://github.com/dtag-dev-sec/tpotce": {
-        "created_at": "2024-09-15 11:51:17"
+        "created_at": "2014-11-28 16:57:47",
+        "description": "🍯 T-Pot - The All In One Multi Honeypot Platform 🐝",
+        "updated_at": "2024-09-15 15:50:32"
     },
     "https://github.com/threatstream/shockpot": {
         "created_at": "2024-09-15 11:51:17"
@@ -16025,7 +16041,9 @@
         "created_at": "2024-09-15 11:51:17"
     },
     "https://github.com/Tencent/bk-cmdb": {
-        "created_at": "2024-09-15 11:51:17"
+        "created_at": "2016-12-12 04:29:08",
+        "description": "蓝鲸智云配置平台(BlueKing CMDB)",
+        "updated_at": "2024-09-15 15:50:32"
     },
     "https://www.phishingfrenzy.com/": {
         "created_at": "2024-09-15 11:51:17"
