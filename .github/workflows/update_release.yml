@@ -6,7 +6,7 @@ name: update_release
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 */3 * * *'
 permissions:
   contents: write
 jobs:
@@ -34,6 +34,6 @@ jobs:
         git config --global user.name "test"
         git add .
         MESSAGE=$(cat /tmp/update_release.log)
-        COMMIT_MESSAGE="Auto Updated:\n$MESSAGE"
+        COMMIT_MESSAGE="$MESSAGE"
         git diff-index --quiet HEAD || git commit -m "$(echo -e "$COMMIT_MESSAGE")"
         git push
