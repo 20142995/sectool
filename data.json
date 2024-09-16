@@ -15627,7 +15627,8 @@
         "release_date": "2024-08-23 07:31:35",
         "release_message": "- 修复了SM2部分解密问题，加密结果附加了04标识。\r\n- 美化了用户界面。\r\n- 增加了操作日志模块，可以查看历史加解密记录。\r\n- 增加了JSON格式化功能，方便阅读。",
         "release_tag": "v2.0",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/chasingboy/Xtools": {
         "created_at": "2023-07-12 05:42:55",
