@@ -584,7 +584,8 @@
         "commit_message": "修复fernflower引擎复制文件的bug",
         "release_tag": "v1.31",
         "release_date": "2021-12-09 05:45:27",
-        "release_message": "修复fernflow引擎的一些bug"
+        "release_message": "修复fernflow引擎的一些bug",
+        "bucket": true
     },
     "https://github.com/shadow1ng/fscan": {
         "created_at": "2024-05-11 08:09:14",
@@ -2671,7 +2672,8 @@
         "commit_message": "Update README.md",
         "release_tag": "1.0.20190715",
         "release_date": "2019-07-15 16:30:54",
-        "release_message": "2019-07-15：\r\n修复计数器部分情况错误问题。\r\n优化部分服务错误提示信息。\r\n修复端口扫描未关闭会话问题，部分系统可能导致程序崩溃问题。\r\n优化日志路径。"
+        "release_message": "2019-07-15：\r\n修复计数器部分情况错误问题。\r\n优化部分服务错误提示信息。\r\n修复端口扫描未关闭会话问题，部分系统可能导致程序崩溃问题。\r\n优化日志路径。",
+        "bucket": true
     },
     "https://github.com/lijiaxing1997/Gr33k": {
         "created_at": "2020-03-16 02:51:08",
@@ -3387,7 +3389,8 @@
         "commit_message": "Merge branch 'dev'",
         "commit_date": "2024-05-09 14:47:43",
         "release_date": "2024-05-09 15:25:41",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🐞 Bugs Fixes\r\n* Fixed issue with `-exclude-ports` option with `-passive` by @dogancanbakir in https://github.com/projectdiscovery/naabu/pull/1004\r\n* Added connect fallback on routing error by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1027\r\n* Disalbed pcap handler with connect scan by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1058\r\n* Fixed struct initialization by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1063\r\n* Fixed issue with `-source-ip` option by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1005\r\n\r\n### 🔨 Maintenance\r\n* Automatically skip redundant host discovery by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1061\r\n\r\n### Other Changes\r\n* Added port number range check by @lu4nx in https://github.com/projectdiscovery/naabu/pull/1043\r\n\r\n## New Contributors\r\n* @alizademhdi made their first contribution in https://github.com/projectdiscovery/naabu/pull/996\r\n* @lu4nx made their first contribution in https://github.com/projectdiscovery/naabu/pull/1043\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.3.0...v2.3.1"
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🐞 Bugs Fixes\r\n* Fixed issue with `-exclude-ports` option with `-passive` by @dogancanbakir in https://github.com/projectdiscovery/naabu/pull/1004\r\n* Added connect fallback on routing error by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1027\r\n* Disalbed pcap handler with connect scan by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1058\r\n* Fixed struct initialization by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1063\r\n* Fixed issue with `-source-ip` option by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1005\r\n\r\n### 🔨 Maintenance\r\n* Automatically skip redundant host discovery by @Mzack9999 in https://github.com/projectdiscovery/naabu/pull/1061\r\n\r\n### Other Changes\r\n* Added port number range check by @lu4nx in https://github.com/projectdiscovery/naabu/pull/1043\r\n\r\n## New Contributors\r\n* @alizademhdi made their first contribution in https://github.com/projectdiscovery/naabu/pull/996\r\n* @lu4nx made their first contribution in https://github.com/projectdiscovery/naabu/pull/1043\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/naabu/compare/v2.3.0...v2.3.1",
+        "bucket": true
     },
     "https://github.com/Threekiii/Awesome-Exploit": {
         "created_at": "2022-04-22 02:08:08",
@@ -3664,7 +3667,8 @@
         "commit_message": "Add files via upload",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/foryujian/yujianportscan": {
         "created_at": "2019-03-27 18:40:15",
@@ -3692,7 +3696,8 @@
         "commit_message": "Update README.md",
         "release_tag": "5.0.2018.08.21",
         "release_date": "2018-08-25 19:45:56",
-        "release_message": "程序使用需要安装.NET Framework 4.0\r\n\r\n快速扫描：\r\n\t直接读取整\r\n\r\n个响应头的全部数据，速度比较快，缺点是无法对付404错误页面状态码也是200的情况。\r\n关键字扫描：\r\n\t直接读取整个响应头和响应主体的全部数据，因为404页面可能很长，所以读文档内容会浪费时间，\r\n\t相对来说速度较慢，优点是可以对付404错误页面状态码是200的情况，但需要设置合理的404页面的标志关键词或者200页面的标志关键词。\r\n\t建议设置一段英文字符的关键词，不要设置中文，因为编码如果未正确解析就会导致设置的关键字无效。\r\n\r\n排除响应长度大于小于或者等于某个长度的情况，默认值是-2，就是排除响应长度小于-2的情况，如果某个404页面时固定长度，就可以设置排除这个长度。\r\n\r\n文档类型限制，如果只需要提示某种文档类型，可以设置类型为指定的开头的字符，例如扫描压缩包，同都是application/xxx，所以可以设置文档类型为application，不是application开头的响内容都不会提示。\r\n\r\n程序下面dic目录为默认的字典文件，默认字典较多，特别是dir、php、asp都是几十万的字典，min目录为小字典目录，字典相对较少，便于快速扫描。\r\n\t\r\n\t\r\n更新记录：\r\n20180821\r\n优化字典，增加小目录，界面可选择小目录或大目录。\r\n\r\n20180816\r\n优化字典，增加小目录，采集了一批新的程序文件路径加入，增加响应长度和响应文档类型过滤，修复几个bug。\r\n\r\n20180814\r\n重新优化字典，优化程序发包效率，修复几个bug。\r\n\r\n20180813\r\n优化程序发包效率，发包速度大量提高，修复几个bug。\r\n\r\n20180810\r\n优化程序，重构界面。"
+        "release_message": "程序使用需要安装.NET Framework 4.0\r\n\r\n快速扫描：\r\n\t直接读取整\r\n\r\n个响应头的全部数据，速度比较快，缺点是无法对付404错误页面状态码也是200的情况。\r\n关键字扫描：\r\n\t直接读取整个响应头和响应主体的全部数据，因为404页面可能很长，所以读文档内容会浪费时间，\r\n\t相对来说速度较慢，优点是可以对付404错误页面状态码是200的情况，但需要设置合理的404页面的标志关键词或者200页面的标志关键词。\r\n\t建议设置一段英文字符的关键词，不要设置中文，因为编码如果未正确解析就会导致设置的关键字无效。\r\n\r\n排除响应长度大于小于或者等于某个长度的情况，默认值是-2，就是排除响应长度小于-2的情况，如果某个404页面时固定长度，就可以设置排除这个长度。\r\n\r\n文档类型限制，如果只需要提示某种文档类型，可以设置类型为指定的开头的字符，例如扫描压缩包，同都是application/xxx，所以可以设置文档类型为application，不是application开头的响内容都不会提示。\r\n\r\n程序下面dic目录为默认的字典文件，默认字典较多，特别是dir、php、asp都是几十万的字典，min目录为小字典目录，字典相对较少，便于快速扫描。\r\n\t\r\n\t\r\n更新记录：\r\n20180821\r\n优化字典，增加小目录，界面可选择小目录或大目录。\r\n\r\n20180816\r\n优化字典，增加小目录，采集了一批新的程序文件路径加入，增加响应长度和响应文档类型过滤，修复几个bug。\r\n\r\n20180814\r\n重新优化字典，优化程序发包效率，修复几个bug。\r\n\r\n20180813\r\n优化程序发包效率，发包速度大量提高，修复几个bug。\r\n\r\n20180810\r\n优化程序，重构界面。",
+        "bucket": true
     },
     "https://github.com/A-D-Team/attackRmi": {
         "created_at": "2021-12-03 03:23:24",
