@@ -2126,7 +2126,8 @@
         "commit_message": "添加clr_badpotato\n\n  - 添加clr_badpotato\n  - 修改原来的clr_potato为clr_efspotato",
         "release_tag": "41",
         "release_date": "2021-08-05 12:40:46",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/wafinfo/Sunflower_get_Password": {
         "created_at": "2021-03-11 13:59:12",
@@ -13095,7 +13096,8 @@
         "release_date": "2024-06-05 08:14:27",
         "release_message": "## 1.8.9 更新记录\r\n1. 修复webscan主动扫描没结束就提前退出的问题\r\n2. ez-helper新增漏洞等级多选过滤\r\n3. ez-helper新增自定义漏洞等级通知\r\n4. ez web优化某些情况下httpinfo超时问题\r\n5. ez web资产分拣新增C段统计功能\r\n6. ez web创建任务提交参数优化",
         "release_tag": "1.8.9",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/kvesta/vesta": {
         "created_at": "2024-04-03 12:43:11",
@@ -17047,288 +17049,336 @@
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "小米范工具系列之六：小米范 web查找器2.x版本发布 - 范世强 - 博客园"
+        "title": "小米范工具系列之六：小米范 web查找器2.x版本发布 - 范世强 - 博客园",
+        "bucket": true
     },
     "http://www.everauto.net/cn/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "zTasker-定时|热键|计划|自动化任务"
+        "title": "zTasker-定时|热键|计划|自动化任务",
+        "bucket": true
     },
     "https://apifox.com": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Apifox - API 文档、调试、Mock、测试一体化协作平台。拥有接口文档管理、接口调试、Mock、自动化测试等功能，接口开发、测试、联调效率，提升 10 倍。最好用的接口文档管理工具，接口自动化测试工具。"
+        "title": "Apifox - API 文档、调试、Mock、测试一体化协作平台。拥有接口文档管理、接口调试、Mock、自动化测试等功能，接口开发、测试、联调效率，提升 10 倍。最好用的接口文档管理工具，接口自动化测试工具。",
+        "bucket": true
     },
     "https://app.interactsh.com": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Interactsh | Web Client"
+        "title": "Interactsh | Web Client",
+        "bucket": true
     },
     "https://b3log.org/siyuan": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接"
+        "title": "思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接",
+        "bucket": true
     },
     "https://blog.arae.cc/post/25830.html": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Maye 一个简洁小巧的快速启动工具 &#8211; N25H&#039;s Blog"
+        "title": "Maye 一个简洁小巧的快速启动工具 &#8211; N25H&#039;s Blog",
+        "bucket": true
     },
     "https://bluepointlilac.github.io/ContextMenuManager": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "ContextMenuManager | Windows右键菜单管理程序"
+        "title": "ContextMenuManager | Windows右键菜单管理程序",
+        "bucket": true
     },
     "https://dotnet.microsoft.com/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 403,
-        "title": "Service unavailable"
+        "title": "Service unavailable",
+        "bucket": true
     },
     "https://gitee.com/oschina/git-repo-clean": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "git-repo-clean: 对Git仓库大文件进行扫描、清理，并重写提交历史的Git拓展工具。"
+        "title": "git-repo-clean: 对Git仓库大文件进行扫描、清理，并重写提交历史的Git拓展工具。",
+        "bucket": true
     },
     "https://gobysec.net/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Goby— 资产绘测及实战化漏洞扫描工具"
+        "title": "Goby— 资产绘测及实战化漏洞扫描工具",
+        "bucket": true
     },
     "https://hetty.xyz": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": ""
+        "title": "",
+        "bucket": true
     },
     "https://laragon.org/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Laragon - portable, isolated, fast & powerful universal development environment for PHP, Node.js, Python."
+        "title": "Laragon - portable, isolated, fast & powerful universal development environment for PHP, Node.js, Python.",
+        "bucket": true
     },
     "https://mkaring.github.io/ConfuserEx/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "ConfuserEx 2"
+        "title": "ConfuserEx 2",
+        "bucket": true
     },
     "https://npcap.com/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Npcap: Windows Packet Capture Library &amp; Driver"
+        "title": "Npcap: Windows Packet Capture Library &amp; Driver",
+        "bucket": true
     },
     "https://pixpinapp.com/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "PixPin 截图/贴图/长截图/文字识别/标注 | PixPin 截图/贴图/长截图/文字识别/标注"
+        "title": "PixPin 截图/贴图/长截图/文字识别/标注 | PixPin 截图/贴图/长截图/文字识别/标注",
+        "bucket": true
     },
     "https://pot-app.com": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Pot | 跨平台划词翻译和OCR"
+        "title": "Pot | 跨平台划词翻译和OCR",
+        "bucket": true
     },
     "https://rubickcenter.github.io": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 404,
-        "title": "Site not found &middot; GitHub Pages"
+        "title": "Site not found &middot; GitHub Pages",
+        "bucket": true
     },
     "https://sourceforge.net/projects/cudatext": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "CudaText download | SourceForge.net"
+        "title": "CudaText download | SourceForge.net",
+        "bucket": true
     },
     "https://twitter.com/charles_gan1": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "x.com"
+        "title": "x.com",
+        "bucket": true
     },
     "https://verycapture.com/cn/download.html": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "下载"
+        "title": "下载",
+        "bucket": true
     },
     "https://winscp.net": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "WinSCP :: Official Site :: Free SFTP and FTP client for Windows"
+        "title": "WinSCP :: Official Site :: Free SFTP and FTP client for Windows",
+        "bucket": true
     },
     "https://www.cpuid.com/softwares/cpu-z.html": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "CPU-Z | Softwares | CPUID"
+        "title": "CPU-Z | Softwares | CPUID",
+        "bucket": true
     },
     "https://www.ed-x.cc/index.html": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "EDX可扩展编辑器"
+        "title": "EDX可扩展编辑器",
+        "bucket": true
     },
     "https://www.emeditor.com/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "EmEditor (Text Editor) &#8211; Best Text Editor, Code Editor, CSV Editor, Large File Viewer for Windows (Free versions available)"
+        "title": "EmEditor (Text Editor) &#8211; Best Text Editor, Code Editor, CSV Editor, Large File Viewer for Windows (Free versions available)",
+        "bucket": true
     },
     "https://www.hostbuf.com/t/988.html": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "FinalShell SSH工具,服务器管理,远程桌面加速软件,支持Windows,macOS,Linux,版本4.5.6,更新日期2024.8.27 - FinalShell官网"
+        "title": "FinalShell SSH工具,服务器管理,远程桌面加速软件,支持Windows,macOS,Linux,版本4.5.6,更新日期2024.8.27 - FinalShell官网",
+        "bucket": true
     },
     "https://www.invicti.com/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Invicti (formerly Netsparker) | Web Application and API Security for Enterprise"
+        "title": "Invicti (formerly Netsparker) | Web Application and API Security for Enterprise",
+        "bucket": true
     },
     "https://www.isc.org/bind/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": ""
+        "title": "",
+        "bucket": true
     },
     "https://www.jam-software.com/treesize": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "TreeSize - Overview and tidy up your storage | JAM Software"
+        "title": "TreeSize - Overview and tidy up your storage | JAM Software",
+        "bucket": true
     },
     "https://www.phpenv.cn/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": ""
+        "title": "",
+        "bucket": true
     },
     "https://www.postcat.com": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 504,
-        "title": "ERROR: The request could not be satisfied"
+        "title": "ERROR: The request could not be satisfied",
+        "bucket": true
     },
     "https://www.screentogif.com/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "ScreenToGif"
+        "title": "ScreenToGif",
+        "bucket": true
     },
     "https://www.shellterproject.com": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Shellter | AV Evasion Artware"
+        "title": "Shellter | AV Evasion Artware",
+        "bucket": true
     },
     "https://www.sordum.org/11081/hide-from-uninstall-list-v1-1/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Hide From Uninstall List v1.1"
+        "title": "Hide From Uninstall List v1.1",
+        "bucket": true
     },
     "https://www.sordum.org/7615/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Easy Context menu v1.6"
+        "title": "Easy Context menu v1.6",
+        "bucket": true
     },
     "https://www.sordum.org/8266/bluelifehosts-editor-v1-5/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "BlueLife Hosts Editor v1.5"
+        "title": "BlueLife Hosts Editor v1.5",
+        "bucket": true
     },
     "https://www.sordum.org/9182/window-topmost-control-v1-3/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Window TopMost Control v1.3"
+        "title": "Window TopMost Control v1.3",
+        "bucket": true
     },
     "https://www.sordum.org/bluelife-keyfreeze": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "BlueLife KeyFreeze"
+        "title": "BlueLife KeyFreeze",
+        "bucket": true
     },
     "https://www.sordum.org/downloads/?firewall-app-blocker": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Download Firewall App Blocker v1.9"
+        "title": "Download Firewall App Blocker v1.9",
+        "bucket": true
     },
     "https://www.sordum.org/downloads/?power-run": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Download PowerRun v1.7"
+        "title": "Download PowerRun v1.7",
+        "bucket": true
     },
     "https://www.sordum.org/downloads/?reg-converter": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Download Reg Converter v1.2"
+        "title": "Download Reg Converter v1.2",
+        "bucket": true
     },
     "https://www.sordum.org/downloads/?st-sordum-monitor-off": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Download Sordum Monitor Off v1.1"
+        "title": "Download Sordum Monitor Off v1.1",
+        "bucket": true
     },
     "https://www.sordum.org/downloads/?st-windows-update-blocker": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Download Windows Update Blocker v1.8"
+        "title": "Download Windows Update Blocker v1.8",
+        "bucket": true
     },
     "https://www.terminal.icu/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Xterminal - 更好用的开发工具，但不止于(SSH&#x2F;控制台&#x2F;More)"
+        "title": "Xterminal - 更好用的开发工具，但不止于(SSH&#x2F;控制台&#x2F;More)",
+        "bucket": true
     },
     "https://www.win.tue.nl/hashclash/": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "HashClash"
+        "title": "HashClash",
+        "bucket": true
     },
     "https://gitlab.com/exploit-database/exploitdb": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "Exploit-DB / Exploits + Shellcode + GHDB · GitLab"
+        "title": "Exploit-DB / Exploits + Shellcode + GHDB · GitLab",
+        "bucket": true
     },
     "https://projectdiscovery.io": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": "ProjectDiscovery - Vulnerability management"
+        "title": "ProjectDiscovery - Vulnerability management",
+        "bucket": true
     },
     "https://scan4all.51pwn.com": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 403,
-        "title": "Just a moment..."
+        "title": "Just a moment...",
+        "bucket": true
     },
     "https://openwall.info/wiki/john/johnny": {
         "created_at": "2024-09-17 06:15:05",
         "updated_at": "2024-09-17 06:15:05",
         "status_code": 200,
-        "title": ""
+        "title": "",
+        "bucket": true
     }
 }
