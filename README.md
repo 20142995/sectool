@@ -1009,7 +1009,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [EquationToolsGUI V0.3](https://github.com/abc123info/EquationToolsGUI) 本程序为美国NSA的方程式工具包图形界面版，由ABC_123于2017年开始编写，仅用来扫描和验证MS17-010、MS0...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [I-Wanna-Get-All I-Wanna-Get-All-v1.3](https://github.com/R4gd0ll/I-Wanna-Get-All) OA漏洞利用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Goby Beta2.2.0](https://github.com/gobysec/Goby) Attack surface mapping
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zpscan v1.8.39](https://github.com/niudaii/zpscan) 一个有点好用的信息收集工具。A somewhat useful information gathering tool.
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zpscan v1.8.39](https://github.com/niudaii/zpscan) 一个有点好用的信息收集工具。A somewhat useful information gathering tool.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [railgun v1.5.5](https://github.com/lz520520/railgun) 
 ### 在线辅助
 #### DNSLOG平台
@@ -1141,7 +1141,7 @@
 ##### Nginx
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nginxpwner](https://github.com/stark0de/nginxpwner) Nginxpwner is a simple tool to look for common Nginx misconfigurations a...
 ### 漏洞利用框架
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [miscan v1.3.1](https://github.com/mifine666/miscan) 一款简单好用的漏洞管理工具，支持本地和协作两种模式。
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [miscan v1.3.1](https://github.com/mifine666/miscan) 一款简单好用的漏洞管理工具，支持本地和协作两种模式。
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [woodpecker-framework-release 1.3.5](https://github.com/woodpecker-framework/woodpecker-framework-release) 高危漏洞精准检测与深度利用框架
 ### 漏洞利用辅助
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JNDIMap](https://github.com/X1r0z/JNDIMap) JNDI 注入利用工具, 支持 RMI, LDAP 和 LDAPS 协议, 包含多种高版本 JDK 绕过方式 | A JNDI injection e...
@@ -1219,7 +1219,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CVE-2015-7547](https://github.com/fjserna/CVE-2015-7547) Proof of concept for CVE-2015-7547
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [hacking-team-windows-kernel-lpe](https://github.com/vlad902/hacking-team-windows-kernel-lpe) Previously-0day exploit from the Hacking Team leak,...
 ### 综合
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Rookie](https://github.com/P1nganD/Rookie) 漏洞扫描
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Rookie](https://github.com/P1nganD/Rookie) 漏洞扫描
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Hyacinth hyacinth-v1.4](https://github.com/pureqh/Hyacinth) 一款java漏洞集合工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LiqunKit_](https://github.com/Liqunkit/LiqunKit_) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JavaTools](https://github.com/fupinglee/JavaTools) 
@@ -1323,7 +1323,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [EasyPen](https://github.com/lijiejie/EasyPen) EasyPen is a GUI program which helps pentesters do target discovery, vulner...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [w13scan](https://github.com/w-digital-scanner/w13scan) Passive Security Scanner (被动式安全扫描器)
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vulnx](https://github.com/anouarbensaad/vulnx) vulnx 🕷️ an intelligent Bot, Shell can achieve automatic injection, and help ...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vulmap v0.9](https://github.com/zhzyker/vulmap) Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vulmap v0.9](https://github.com/zhzyker/vulmap) Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vajra 1.0.1](https://github.com/r3curs1v3-pr0xy/vajra) Vajra is a highly customizable target and scope based automated web hac...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WSSAT](https://github.com/YalcinYolalan/WSSAT) WEB SERVICE SECURITY ASSESSMENT TOOL
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [luna](https://github.com/toyakula/luna) luna webscanner
@@ -1681,7 +1681,7 @@
 - <img src="https://favicon.qqsuu.cn/coolaf.com" alt="" style="height: 20px;"> [在线端口检测,端口扫描,端口开放检查-在线工具-postjson](http://coolaf.com/tool/port) 
 - <img src="https://favicon.qqsuu.cn/tool.cc" alt="" style="height: 20px;"> [在线端口扫描,IP/服务器端口在线扫描 - TooL.cc](http://tool.cc/port/) 
 ### 综合
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Slack Slack1.6.3](https://github.com/qiwentaidi/Slack) 安服集成化工具平台，帮助测试人员减少测试脚本多，使用繁琐问题
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Slack Slack1.6.3](https://github.com/qiwentaidi/Slack) 安服集成化工具平台，帮助测试人员减少测试脚本多，使用繁琐问题
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [0x7eTeamTools 1.2](https://github.com/0x7eTeam/0x7eTeamTools) javafx练习,JS接口提取,漏洞检测
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dismap v0.4](https://github.com/zhzyker/dismap) Asset discovery and identification tools 快速识别 Web 指纹信息，定位资产类型。辅助红队快速定位目...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AssetsHunter](https://github.com/rabbitmask/AssetsHunter) 资产狩猎框架-AssetsHunter，信息收集是一项艺术~
@@ -1712,7 +1712,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [X-Marshal 1.0](https://github.com/XTeam-Wing/X-Marshal) Marshal-EASM 攻击面管理系统-社区版
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sec-Tools](https://github.com/jwt1399/Sec-Tools) 🍉一款基于Python-Django的多功能Web安全渗透测试工具，包含漏洞扫描，端口扫描，指纹识别，目录扫描，旁站扫描，域名扫描等功能。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Autoscanner v1.2.1](https://github.com/zongdeiqianxing/Autoscanner) 输入域名>爆破子域名>扫描子域名端口>发现扫描web服务>集成报告的全流程全自动扫描器。集成oneforall、masscan、...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [heartsk_community LOWBUG@Latest](https://github.com/yqcs/heartsk_community) Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏洞扫描
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [heartsk_community LOWBUG@Latest](https://github.com/yqcs/heartsk_community) Hearts K-企业资产发现与脆弱性检查工具，自动化资产信息收集与漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vulcat v2.0.0](https://github.com/CLincat/vulcat) vulcat可用于扫描Web端常见的CVE、CNVD等编号的漏洞，发现漏洞时会返回Payload信息。部分漏洞还支持命令行交互模式，可以持...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Komo](https://github.com/komomon/Komo) 🚀Komo, a comprehensive asset collection and vulnerability scanning tool. Komo ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GOSINT](https://github.com/ciscocsirt/GOSINT) The GOSINT framework is a project used for collecting, processing, and expor...
