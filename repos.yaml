@@ -194,6 +194,8 @@ CTF:
             - https://ctfever.uniiem.com/tools/rot-series
         Rsa公私钥解析:
             - http://tool.chacuo.net/cryptrsakeyparse
+        SNOW隐写:
+            - https://darkside.com.au/snow/
         Serpent（蛇）加解密:
             - http://serpent.online-domain-tools.com/
             - http://tool.chacuo.net/cryptserpent
@@ -251,6 +253,8 @@ CTF:
             - https://quipqiup.com
         rsa私钥加解密:
             - http://tool.chacuo.net/cryptrsaprikey
+        snow隐写:
+            - https://darkside.com.au/snow
         tupper:
             - https://tuppers-formula.ovh/
         与佛论禅加解密:
@@ -425,7 +429,9 @@ CTF:
         自动拼图:
             - https://github.com/JamesHoi/PuzzleSolver
         隐写:
+            - http://www.zasi.org/DeEgger-Embedder.php
             - https://achorein.github.io/silenteye/
+            - https://github.com/TajangSec/silenteye
     Reverse:
         IDA插件:
             - https://github.com/harlamism/IdaClu
@@ -837,6 +843,7 @@ CTF:
             Druid:
                 - https://github.com/yuyan-sec/druid_sessions
             Fastjson:
+                - https://github.com/20142995/file/releases/download/FastJson_JackSon.zip
                 - https://github.com/Lonely-night/fastjsonVul
                 - https://github.com/W1one/FastJsonAttack
                 - https://github.com/a1phaboy/FastjsonScan
@@ -985,6 +992,7 @@ CTF:
                 - https://github.com/dark-kingA/cloudTools
                 - https://github.com/jdr2021/OSSFileBrowse
                 - https://github.com/kohlersbtuh15/accesskey_tools
+                - https://github.com/libaibaia/cloudSec
                 - https://github.com/mrknow001/API-Explorer
                 - https://github.com/mrknow001/aliyun-accesskey-Tools
                 - https://github.com/pykiller/API-T00L
@@ -1471,6 +1479,7 @@ CTF:
             - https://github.com/yaklang/yakit
             - https://github.com/yangbh/Hammer
             - https://github.com/zaproxy/zaproxy
+            - https://github.com/zhensuibianwan/pppscan
             - https://nuclei.projectdiscovery.io
     云K8S基线核查:
         - https://github.com/aquasecurity/kube-bench
@@ -2479,6 +2488,7 @@ CTF:
                     - https://ctfever.uniiem.com/tools/pseudo-encrypted-zip-check
                     - https://github.com/442048209as/ZipCenOp
                     - https://github.com/asaotomo/ZipCracker
+                    - https://github.com/wwxiaoqi/ZipCenOp
                 ZIP明文攻击:
                     - https://github.com/keyunluo/pkcrack
                     - https://github.com/kimci86/bkcrack
@@ -2510,9 +2520,13 @@ CTF:
                     - https://github.com/Giotino/stegsolve
                     - https://github.com/zR00t1/ImageStrike
             音频:
+                - https://github.com/Jpinsoft/DeepSound
+                - https://github.com/MIUIEI/MP3Steno
+                - https://github.com/Moxin1044/DTMF2NUM
                 - https://github.com/ON4QZ/QSSTV
                 - https://github.com/audacity/audacity
                 - https://github.com/ribt/dtmf-decoder
+                - https://www.qsl.net/on6mu/rxsstv.htm
         相关资源:
             - https://github.com/XDforensics-wiki/XDforensics-wiki
         网络取证:
@@ -2742,6 +2756,7 @@ CTF:
         Web层面:
             webshell后门:
                 - http://www.shelldetector.com/
+                - https://github.com/20142995/file/releases/download/DecodertoWebshell_1.2.jar
                 - https://github.com/c0ny1/java-memshell-scanner
                 - https://github.com/chiruom/Webshell_finder
                 - https://github.com/cys3c/BackdoorMan
