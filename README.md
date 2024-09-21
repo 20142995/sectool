@@ -196,7 +196,7 @@
 ### Rsa公私钥解析
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [RSA公私钥分解 Exponent、Modulus，Rsa公私钥指数、系数(模数)分解--查错网](http://tool.chacuo.net/cryptrsakeyparse) 
 ### SNOW隐写
-- <img src="https://favicon.qqsuu.cn/darkside.com.au" alt="" style="height: 20px;"> [darkside.com.au](https://darkside.com.au/snow/) 
+- <img src="https://favicon.qqsuu.cn/darkside.com.au" alt="" style="height: 20px;"> [The SNOW Home Page](https://darkside.com.au/snow/) 
 ### Serpent（蛇）加解密
 - <img src="https://favicon.qqsuu.cn/serpent.online-domain-tools.com" alt="" style="height: 20px;"> [Serpent Encryption – Easily encrypt or decrypt strings or files](http://serpent.online-domain-tools.com/) 
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线Serpent加密解密、Serpent在线加密解密、Serpent encryption and decryption--查错网](http://tool.chacuo.net/cryptserpent) 
@@ -255,7 +255,7 @@
 ### rsa私钥加解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RSA私钥加密解密、RSA private key encryption and decryption--查错网](http://tool.chacuo.net/cryptrsaprikey) 
 ### snow隐写
-- <img src="https://favicon.qqsuu.cn/darkside.com.au" alt="" style="height: 20px;"> [darkside.com.au](https://darkside.com.au/snow) 
+- <img src="https://favicon.qqsuu.cn/darkside.com.au" alt="" style="height: 20px;"> [The SNOW Home Page](https://darkside.com.au/snow) 
 ### tupper
 - <img src="https://favicon.qqsuu.cn/tuppers-formula.ovh" alt="" style="height: 20px;"> [Tupper's Formula Tools](https://tuppers-formula.ovh/) 
 ### 与佛论禅加解密
@@ -2527,7 +2527,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DeepSound](https://github.com/Jpinsoft/DeepSound) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MP3Steno](https://github.com/MIUIEI/MP3Steno) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DTMF2NUM](https://github.com/Moxin1044/DTMF2NUM) 
-- <img src="https://favicon.qqsuu.cn/www.qsl.net" alt="" style="height: 20px;"> [www.qsl.net](https://www.qsl.net/on6mu/rxsstv.htm) 
+- <img src="https://favicon.qqsuu.cn/www.qsl.net" alt="" style="height: 20px;"> [RX-SSTV: Freeware SSTV Software and SSTV Decoder](https://www.qsl.net/on6mu/rxsstv.htm) 
 ### 相关资源
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [XDforensics-wiki](https://github.com/XDforensics-wiki/XDforensics-wiki) XDU forensics wiki
 ### 网络取证
