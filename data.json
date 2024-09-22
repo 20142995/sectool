@@ -17559,16 +17559,6 @@
         "release_tag": "2.8",
         "bucket": true
     },
-    "https://github.com/Lymphatus/caesium-image-compressor": {
-        "created_at": "2024-06-02 13:10:37",
-        "description": "Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG, WebP and TIFF formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.",
-        "updated_at": "2024-09-22 11:21:04",
-        "commit_message": "Recompress failed images #282",
-        "commit_date": "2024-08-23 17:14:09",
-        "release_date": "2024-06-02 13:25:37",
-        "release_message": "## What's New\r\n* Drag and drop on advanced import dialog list (#277)\r\n\r\n## What's Changed\r\n* Improvements for advanced import dialog (#277, #275)\r\n* Improved zh_CN translation (#276)\r\n* Fixed viewport on smaller screens (#274)\r\n\r\n**Full Changelog**: https://github.com/Lymphatus/caesium-image-compressor/compare/v2.7.0...v2.7.1",
-        "release_tag": "v2.7.1"
-    },
     "https://github.com/Mikubill/transfer": {
         "created_at": "2022-04-17 13:47:14",
         "description": "🍭 集合多个API的大文件传输工具.",
@@ -17765,16 +17755,6 @@
         "release_message": "作为一个年更软件，随着 QQ9(QQNT) 的彻底推送，也不得不更新下了。\r\n\r\n## 微信\r\n\r\n从微信 3.9.9.43 开始又可以带撤回提示了（从2024年02月25日开始支持的，当前微信最新版本为 3.9.11.17），安装时选择防撤回(新)即可。\r\n\r\n## QQNT\r\n\r\n![image](https://github.com/huiyadanli/RevokeMsgPatcher/assets/15783049/fb8b4316-658c-4289-b0a0-f32153687069)\r\n\r\n通过直接集成 [LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT) ，并使用其中防撤回插件的方式来实现防撤回。\r\n参考并直接使用了 [LiteLoaderQQNT-PatcherNFixer](https://github.com/xh321/LiteLoaderQQNT-PatcherNFixer) 的修补方式。\r\n\r\n自带了以下 LiteLoaderQQNT 插件\r\n\r\n* [插件列表查看 LL-plugin-list-viewer](https://github.com/ltxhhz/LL-plugin-list-viewer)\r\n* [防撤回 LiteLoaderQQNT-Anti-Recall](https://github.com/xh321/LiteLoaderQQNT-Anti-Recall)\r\n\r\n也可以直接把 RevokeMsgPatcher 看作为 LiteLoaderQQNT 的一个安装器。\r\n\r\n暂时把支持版本配置到了 9.9.10 以上，建议直接使用最新的版本的 QQNT。\r\n\r\n由于QQNT需要加载软件目录下的 LiteLoaderQQNT，所以**请不要在压缩包内直接双击运行本软件！安装完毕以后也请不要移动 RevokeMsgPatcher 的目录**",
         "release_tag": "1.8",
         "bucket": true
-    },
-    "https://github.com/igdmapps/igdm": {
-        "created_at": "2022-04-18 09:25:06",
-        "description": "Desktop application for Instagram DMs",
-        "updated_at": "2024-09-22 11:21:04",
-        "commit_message": "blog: update followers export article to mention csv download option",
-        "commit_date": "2024-07-13 13:43:04",
-        "release_date": "2022-04-18 10:22:07",
-        "release_message": "* Fix login flow from returning 404 errors\r\n* Fix broken media messages",
-        "release_tag": "v3.0.4"
     },
     "https://github.com/instantsc/SimpleDnsCrypt": {
         "created_at": "2023-11-17 23:33:04",
@@ -18182,16 +18162,6 @@
         "release_date": "2024-09-06 02:24:29",
         "release_message": "支持漏洞：\r\n1、CNVD-2020-10487（AJP 协议本地文件包含）漏洞检测，支持灵活配置目标文件路径与判断条件。\r\n2、CVE-2017-12615文件上传漏洞的不同利用方式的检测\r\n3、弱口令爆破成功后自动配置war进行getshell\r\n\r\n其他功能：\r\n1、引入配置文件，使得调整参数更加灵活\r\n2、增加处理登录时无法访问URL的情况，并在重试次数达到顶点时（默认3次）将URL从待检测列表中排除\r\n3、在上传成功或失败后删除WAR文件与JSP文件，磁盘空间浪费\r\n4、增加上传失败时重试机制（默认3次），避免网络问题或服务器偶尔响应慢可能会导致上传失败问题\r\n5、使用随机生成的文件名增加脚本的灵活和隐蔽性\r\n6、自定义webshel​​l默认Godzilla马，连接密码pass\r\n7、动态调整线程池大小：根据用户名和密码的组合队列计算调整线程池大小",
         "release_tag": "TomcatScanPro"
-    },
-    "https://github.com/20142995/file": {
-        "created_at": "2023-05-12 10:48:26",
-        "description": null,
-        "updated_at": "2024-09-22 11:21:04",
-        "commit_message": "commit message",
-        "commit_date": "2023-05-12 10:48:26",
-        "release_date": "2024-09-21 08:19:18",
-        "release_message": "",
-        "release_tag": "steghideui"
     },
     "https://github.com/wafinfo/Hikvision": {
         "created_at": "2023-06-29 06:02:54",
