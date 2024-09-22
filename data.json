@@ -911,7 +911,8 @@
         "release_tag": "2.3",
         "release_date": "2023-11-10 02:43:50",
         "release_message": "# 更新日志\r\n## 更新内容\r\n\r\n- 优化了单脚本整合版的工作流程，大大缩短CRC爆破的时间\r\n- 对异常退出和报错做出优化处理\r\n\r\n## 使用方法\r\n单脚本整合版即本项目的CRC32-Tools.py，将多个功能整合到一个Python脚本中，脚本参数如下：\r\n```\r\n>python3 CRC32-Tools.py -h\r\nusage: CRC32-Tools.py [-h] [-z READZIP] [-1 ONEBYTE] [-2 TWOBYTE] [-3 THREEBYTE] [-4 FOURBYTE]\r\n\r\noptional arguments:\r\n  -h, --help    show this help message and exit\r\n  -z READZIP    读取对应压缩包，输出各个文件CRC值列表\r\n  -1 ONEBYTE    对1Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n  -2 TWOBYTE    对2Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n  -3 THREEBYTE  对3Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n  -4 FOURBYTE   对4Byte的压缩包自动进行CRC碰撞并输出文件内容\r\n```\r\n",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/Tsojan/TsojanScan": {
         "created_at": "2023-09-13 08:21:48",
@@ -2330,7 +2331,8 @@
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/tyB-or/FreeGui": {
         "created_at": "2023-01-10 06:48:55",
@@ -6464,7 +6466,8 @@
         "commit_message": "added Docker instructions to README.md",
         "release_tag": "v1.0.0",
         "release_date": "2023-05-30 14:29:19",
-        "release_message": "Initial Release of the Acropalypse Multi Tool:\r\n\r\nEasily restore PNG and GIF files that have fallen victim to the Acropalypse CVE from 2023. This all-in-one solution effectively recovers image data accidentially stored in cropped screenshots by Google Pixel phones or Windows Snipping Tool, and can search and detect vulnerable images within local folders.\r\n\r\nCVE-2023-28303 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28303\r\nCVE-2023-21036 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21036"
+        "release_message": "Initial Release of the Acropalypse Multi Tool:\r\n\r\nEasily restore PNG and GIF files that have fallen victim to the Acropalypse CVE from 2023. This all-in-one solution effectively recovers image data accidentially stored in cropped screenshots by Google Pixel phones or Windows Snipping Tool, and can search and detect vulnerable images within local folders.\r\n\r\nCVE-2023-28303 https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28303\r\nCVE-2023-21036 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21036",
+        "bucket": true
     },
     "https://github.com/sorabug/ChangeTimestamp": {
         "created_at": "2023-01-02 09:43:57",
@@ -17398,12 +17401,14 @@
         "created_at": "2024-09-21 12:17:44",
         "updated_at": "2024-09-21 12:17:44",
         "status_code": 200,
-        "title": "The SNOW Home Page"
+        "title": "The SNOW Home Page",
+        "bucket": true
     },
     "https://www.qsl.net/on6mu/rxsstv.htm": {
         "created_at": "2024-09-21 12:17:44",
         "updated_at": "2024-09-21 12:17:44",
         "status_code": 200,
-        "title": "RX-SSTV: Freeware SSTV Software and SSTV Decoder"
+        "title": "RX-SSTV: Freeware SSTV Software and SSTV Decoder",
+        "bucket": true
     }
 }
