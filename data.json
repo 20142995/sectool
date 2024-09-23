@@ -575,7 +575,8 @@
         "release_tag": "v1.2",
         "release_date": "2022-02-12 02:41:09",
         "release_message": "v1.2 打包",
-        "updated_at": "2024-09-15 14:32:22"
+        "updated_at": "2024-09-15 14:32:22",
+        "bucket": true
     },
     "https://github.com/Ppsoft1991/CodeReviewTools": {
         "created_at": "2021-01-06 08:04:15",
@@ -2019,7 +2020,8 @@
         "release_tag": "v1.2.4",
         "release_date": "2023-11-27 16:15:04",
         "release_message": "- 新增2023 JeeSpringCloud 任意文件上传漏洞\r\n- 新增2021 SnakeYAML_RCE 漏洞\r\n- 新增2020 Jolokia配置不当导致RCE漏洞\r\n- 新增CVE-2021-21234 (任意文件读取漏洞)\r\n- 支持配合BurpSuite进行抓包测试\r\n- 支持批量验证代理节点，自动检测节点状态，并保存清洗后的文件\r\n- 集成Fofa资产测绘功能\r\n- 完全随机的User-Agent请求头\r\n- 解决了不同操作系统下的路径问题，程序不再开发对应的操作系统版本",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/s7ckTeam/Glass": {
         "created_at": "2021-01-06 10:14:30",
@@ -2259,7 +2261,8 @@
         "commit_message": "Merge pull request #2 from b1tg/master",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/mlq574/nucleix": {
         "created_at": "2022-04-08 06:29:44",
@@ -3092,7 +3095,8 @@
         "commit_message": "Update ReadMe.md",
         "release_tag": "V1.0",
         "release_date": "2022-04-06 07:26:10",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/jayus0821/swagger-hack": {
         "created_at": "2021-02-01 11:49:51",
@@ -3706,7 +3710,8 @@
         "commit_message": "set working dir",
         "release_tag": "v1.4",
         "release_date": "2022-06-05 06:36:58",
-        "release_message": "Last version that works with python 2.7"
+        "release_message": "Last version that works with python 2.7",
+        "bucket": true
     },
     "https://github.com/maaaaz/thc-hydra-windows": {
         "created_at": "2014-08-17 12:48:34",
@@ -4653,7 +4658,8 @@
         "commit_message": "Update README.md\n\n添加登录状态下的解密",
         "release_tag": "v0.1",
         "release_date": "2020-12-01 07:23:37",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/zhengjim/camille": {
         "created_at": "2021-10-28 02:32:51",
@@ -4949,7 +4955,8 @@
         "release_tag": "v1.2.0",
         "release_date": "2024-05-21 15:01:06",
         "release_message": "## Changelog\r\n* 252aef4 Update go.yml\r\n* f11f27c Update go.mod dependencies\r\n* 8c8db1e Update docker-publish.yml\r\n* 25dce8c Update docker-publish.yml\r\n* 77b785e Update README.md\r\n* e3a2d67 Update README.md\r\n* 69f14ae Update\r\n* 32e486b Update\r\n* 335a7e8 Support Windows ARM64\r\n* 3673d5e Migrate jwt-go to golang-jwt\r\n* 06674f0 Merge pull request #37 from hahwul/bump-to-go-packages\r\n* 814d1ea Merge pull request #34 from isacaya/test\r\n* 6b6c920 Merge pull request #33 from hahwul/bump-to-cosign\r\n* 501b241 Merge pull request #32 from hahwul/dependabot/go_modules/golang.org/x/sys-0.1.0\r\n* ec8cad1 Merge pull request #31 from ScriptIdiot/patch-1\r\n* cea10a3 Create docker-publish.yml\r\n* 6955ce1 Bump to go min go version (1.17 to 1.21)\r\n* c83c10a Bump golang.org/x/sys from 0.0.0-20220114195835-da31bd327af9 to 0.1.0\r\n* b13c58b Add logic related to 'max' flag by @isacaya \r\n* 06fb757 Add arm64 docker image builder\r\n\r\n",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/hahwul/dalfox": {
         "created_at": "2024-09-03 15:13:50",
@@ -5309,7 +5316,8 @@
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/evilsocket/uroboros": {
         "created_at": "2020-12-28 16:21:56",
@@ -5402,7 +5410,8 @@
         "commit_message": "Update Program.cs",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/boy-hack/WebshellManager": {
         "created_at": "2016-10-31 14:04:57",
@@ -5890,7 +5899,8 @@
         "commit_message": "Merge pull request #1 from NS-Sp4ce/add-license-1\n\nCreate LICENSE",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/4ra1n/code-inspector": {
         "created_at": "2023-01-06 14:05:36",
@@ -5974,7 +5984,8 @@
         "commit_message": "新增用户管理、数据源管理表格筛选功能",
         "release_tag": "v1.0",
         "release_date": "2023-08-08 12:53:48",
-        "release_message": "玩得开心师傅们，有新的需求或者问题请在issue中反馈。"
+        "release_message": "玩得开心师傅们，有新的需求或者问题请在issue中反馈。",
+        "bucket": true
     },
     "https://github.com/zema1/suo5": {
         "created_at": "2024-08-27 15:41:15",
@@ -6233,7 +6244,8 @@
         "commit_message": "Merge pull request #4 from itsrishub/master\n\nchanged readme type in spelling of certain",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/lijiejie/WIFIpass": {
         "created_at": "2013-12-16 03:49:45",
@@ -6287,7 +6299,8 @@
         "commit_message": "bug fix",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/lijiejie/idea_exploit": {
         "created_at": "2019-05-29 12:21:46",
@@ -6296,7 +6309,8 @@
         "commit_message": "python3 support",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/Lz1y/jdwp-shellifier": {
         "created_at": "2020-02-27 11:35:15",
@@ -7038,7 +7052,8 @@
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/c0ny1/jsEncrypter": {
         "created_at": "2019-11-22 14:00:47",
@@ -7284,7 +7299,8 @@
         "commit_message": "Update GetMailGUI.py",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/Ebryx/AES-Killer": {
         "created_at": "2021-04-18 15:12:15",
@@ -7672,7 +7688,8 @@
         "commit_message": "Merge pull request #2 from mateuszmalek/master\n\nFixed issue with arguments length check",
         "release_tag": "1.0",
         "release_date": "2014-03-13 16:05:01",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/CodeXTF2/Burp2Malleable": {
         "created_at": "2022-08-14 18:05:39",
@@ -7779,7 +7796,8 @@
         "commit_message": "Update README.md",
         "release_tag": "v2.0",
         "release_date": "2023-08-17 09:26:13",
-        "release_message": "【exe】windows直接执行，采用javapackager打包\r\n注：本工具安全无毒，并已开源。为方便用户使用打包成exe，部分杀毒软件会报毒，将其加入白名单即可。"
+        "release_message": "【exe】windows直接执行，采用javapackager打包\r\n注：本工具安全无毒，并已开源。为方便用户使用打包成exe，部分杀毒软件会报毒，将其加入白名单即可。",
+        "bucket": true
     },
     "https://github.com/SentineLabs/AlphaGolang": {
         "created_at": "2021-10-05 13:31:13",
@@ -7861,7 +7879,8 @@
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/theLSA/emergency-response-checklist": {
         "created_at": "2020-01-31 14:02:36",
@@ -8051,7 +8070,8 @@
         "commit_message": "Merge pull request #3 from palmerc/master\n\nFix implicit declaration of memset and exit",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/wendell1224/ide-honeypot": {
         "created_at": "2022-07-11 13:57:55",
@@ -9297,7 +9317,8 @@
         "release_date": "2023-03-29 23:41:39",
         "release_message": "This is the first release in a while and it's a relatively minor one. It's mainly bug fixes and updating the version detection for Chrome versions that have come out since the last release. I hope to have time to work on a more substantial update in the future, but for now, here's **v2023.03**!\r\n\r\n## What's Changed\r\n### 🛠️ Minor Changes & Fixes\r\n* Add Session Storage records to SQLite output by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/119\r\n* Update built list of HSTS `host` hashes to include domains from cookies by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/121\r\n* Fix some packaging issues (line endings, including lib files, other small fixes) by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/122\r\n* Fix bug where when a version rollback occurs more than once, it doesn… by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/138\r\n* Fixes issue 125, where failing to decode an extension manifest caused… by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/139\r\n### Other Changes\r\n* Account for relocated files in newer Chrome versions (97-100) by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/124\r\n* Update README.md by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/132\r\n* Update version detection to include Chrome 101-111 by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/140\r\n* Update Hindsight version prior to release and remove Unfurl plugin (u… by @obsidianforensics in https://github.com/obsidianforensics/hindsight/pull/142\r\n\r\n\r\n**Full Changelog**: https://github.com/obsidianforensics/hindsight/compare/v2021.12...v2023.03\r\n\r\n## Both the GUI and command line versions of this release are available as:\r\n* compiled exes attached to this release or in the dist/ folder\r\n* .py versions are available by `pip install pyhindsight` or by downloading/cloning the GitHub repo.",
         "commit_date": "2024-05-09 22:22:17",
-        "commit_message": "Merge pull request #175 from ryneeverett/sqlite-view-v0.2.0\n\nsqlite-view: 0.1.8 -> 0.2.0"
+        "commit_message": "Merge pull request #175 from ryneeverett/sqlite-view-v0.2.0\n\nsqlite-view: 0.1.8 -> 0.2.0",
+        "bucket": true
     },
     "https://github.com/ryanohoro/csbruter": {
         "created_at": "2017-10-16 03:59:08",
@@ -9582,7 +9603,8 @@
         "release_date": "",
         "release_message": "",
         "commit_date": "2020-12-19 23:47:26",
-        "commit_message": "Update README.md"
+        "commit_message": "Update README.md",
+        "bucket": true
     },
     "https://github.com/nccgroup/LoggerPlusPlus": {
         "created_at": "2023-12-05 12:57:20",
@@ -9676,7 +9698,8 @@
         "release_date": "2024-09-07 15:37:57",
         "release_message": "",
         "release_tag": "AutoBuild",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/veo/vagent": {
         "created_at": "2023-10-08 05:21:38",
@@ -9952,7 +9975,8 @@
         "release_tag": "latest",
         "release_date": "2024-09-11 06:58:48",
         "release_message": "## Chores\n- **deps**: update github/codeql-action action to v3 [#122](https://github.com/nelenkov/android-backup-extractor/pull/122) ([renovate[bot]](https://github.com/nelenkov/android-backup-extractor/commit/ea50fddbf54a81e3d83d50155078ef3b0ba39ced))",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/LiangXiaoWei1024/net-penetrate-http-and-https-simple": {
         "created_at": "2023-11-14 19:24:02",
@@ -10344,7 +10368,8 @@
         "commit_message": "Update README.md",
         "release_tag": "v2.5.2",
         "release_date": "2022-08-16 18:21:20",
-        "release_message": "### New arguments:\r\n* `--delay`\r\n* `--stable`\r\n* `--headers`\r\n* `-oN`\r\n* `-oJ`\r\n* `--resume`\r\n* `--silent`\r\n* `-sH`\r\n* `-cL`\r\n\r\n### New features:\r\n\r\n* Json & Text ouput supported\r\n\r\n* Multiple headers supported\r\n\r\n* Verbose output supported\r\n\r\n* Scan can be resumed after CTRL^C is pressed\r\n\r\n* Added heuristic (basic) scanner\r\n\r\n* Compatibility with windows\r\n\r\n### Enhancement\r\n\r\n* Enhanced payload generator\r\n* Enhanced exporter.py\r\n* Enhanced scanner.py\r\n* Enhanced WAF detector\r\n* Enhanced __main__.py"
+        "release_message": "### New arguments:\r\n* `--delay`\r\n* `--stable`\r\n* `--headers`\r\n* `-oN`\r\n* `-oJ`\r\n* `--resume`\r\n* `--silent`\r\n* `-sH`\r\n* `-cL`\r\n\r\n### New features:\r\n\r\n* Json & Text ouput supported\r\n\r\n* Multiple headers supported\r\n\r\n* Verbose output supported\r\n\r\n* Scan can be resumed after CTRL^C is pressed\r\n\r\n* Added heuristic (basic) scanner\r\n\r\n* Compatibility with windows\r\n\r\n### Enhancement\r\n\r\n* Enhanced payload generator\r\n* Enhanced exporter.py\r\n* Enhanced scanner.py\r\n* Enhanced WAF detector\r\n* Enhanced __main__.py",
+        "bucket": true
     },
     "https://github.com/Getshell/CobaltStrike": {
         "created_at": "2021-08-03 03:46:33",
@@ -10896,7 +10921,8 @@
         "commit_message": "Code By:Tas9er",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/t3l3machus/Villain": {
         "created_at": "2024-09-16 13:00:26",
@@ -11422,7 +11448,8 @@
         "release_tag": "search3.5.10",
         "release_date": "2023-09-23 12:30:46",
         "release_message": "1.增加行数和文件大小自定义功能",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/TebbaaX/GRecon": {
         "created_at": "2020-12-17 18:29:04",
@@ -12927,7 +12954,8 @@
         "release_date": "2024-08-18 12:42:14",
         "release_message": "# 概述\r\n\r\n```\r\n工具用法如下：\r\n        对单一URL进行信息泄露扫描:         python3 SpringBoot-Scan.py -u http://example.com/\r\n        读取目标TXT进行批量信息泄露扫描:    python3 SpringBoot-Scan.py -uf url.txt\r\n        对单一URL进行漏洞扫描:             python3 SpringBoot-Scan.py -v http://example.com/\r\n        读取目标TXT进行批量漏洞扫描：      python3 SpringBoot-Scan.py -vf url.txt\r\n        扫描并下载SpringBoot敏感文件:      python3 SpringBoot-Scan.py -d http://example.com/\r\n        使用HTTP代理并自动进行连通性测试:    python3 SpringBoot-Scan.py -p <代理IP:端口>\r\n        从TXT文件中导入自定义HTTP头部:       python3 SpringBoot-Scan.py -t header.txt\r\n        通过ZoomEye密钥进行API下载数据:      python3 SpringBoot-Scan.py -z <ZoomEye的API-KEY>\r\n        通过Fofa密钥进行API下载数据:         python3 SpringBoot-Scan.py -f <Fofa的API-KEY>\r\n        通过Hunter密钥进行API下载数据:       python3 SpringBoot-Scan.py -y <Hunter的API-KEY>\r\n```\r\n\r\n# 更新日志\r\n\r\n- **修复了一个工具超时的Bug，在目录爆破 `run.py` /POC探测  `poc.py` /漏洞利用 `vul.py` 这三个核心模块，新增全局变量 `outtime = 10` 可自由调整各模块HTTP访问超时时间**\r\n- **准备对一些 `Issues` 提出的问题进行进一步的处理**",
         "release_tag": "2.56",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/abc123info/Struts2VulsScanTools": {
         "created_at": "2024-05-23 07:16:14",
@@ -14809,7 +14837,8 @@
         "release_date": "2018-09-24 16:44:52",
         "release_message": "OWASP JoomScan 0.0.7\r\n",
         "release_tag": "0.0.7",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/jetmore/swaks": {
         "created_at": "2024-01-03 21:57:02",
@@ -15014,7 +15043,8 @@
         "created_at": "2024-04-14 01:20:26",
         "description": "mRemoteNG自动化解密工具",
         "commit_message": "整理",
-        "commit_date": "2024-04-14 01:40:16"
+        "commit_date": "2024-04-14 01:40:16",
+        "bucket": true
     },
     "https://tuppers-formula.ovh/": {
         "status_code": 200,
@@ -15940,7 +15970,8 @@
         "release_date": "2023-10-27 12:52:59",
         "release_message": "- 添加版本识别\r\n- 漏洞版本验证\r\n- 添加代理",
         "release_tag": "AMQ",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/Tencent/secguide": {
         "created_at": "2021-05-18 12:42:49",
@@ -15994,7 +16025,8 @@
         "release_date": "2023-10-17 09:43:05",
         "release_message": "解密哥斯拉所有类型流量",
         "release_tag": "v1.0",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/liftoff/GateOne": {
         "created_at": "2011-10-12 19:17:25",
@@ -16607,7 +16639,8 @@
         "release_date": "2024-07-01 08:29:37",
         "release_message": "## What's Changed\r\n* feat: add some test case by @xiaomakuaiz in https://github.com/chaitin/blazehttp/pull/30\r\n\r\n\r\n**Full Changelog**: https://github.com/chaitin/blazehttp/compare/v0.2.0...v0.3.0",
         "release_tag": "v0.3.0",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/DeEpinGh0st/MDUT-Extend-Release": {
         "created_at": "2024-08-20 03:03:04",
@@ -16624,7 +16657,8 @@
         "created_at": "2019-07-29 17:10:05",
         "description": "Huawei backup decryptor",
         "commit_message": "EOL\n\nAdded EOL",
-        "commit_date": "2020-12-28 22:42:16"
+        "commit_date": "2020-12-28 22:42:16",
+        "bucket": true
     },
     "https://github.com/S2eTo/Pocsuite3Gui": {
         "created_at": "2022-12-13 07:44:58",
@@ -16740,7 +16774,8 @@
         "release_date": "2024-08-25 10:51:54",
         "release_message": "New features:\r\n- just more rules adding whitespaces\r\n\r\nBugfix:\r\n- a bug in waf detection",
         "release_tag": "v0.6.9",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/thinkoaa/Deadpool": {
         "created_at": "2024-09-14 11:15:03",
@@ -18161,7 +18196,8 @@
         "commit_date": "2024-09-09 07:42:24",
         "release_date": "2024-09-06 02:24:29",
         "release_message": "支持漏洞：\r\n1、CNVD-2020-10487（AJP 协议本地文件包含）漏洞检测，支持灵活配置目标文件路径与判断条件。\r\n2、CVE-2017-12615文件上传漏洞的不同利用方式的检测\r\n3、弱口令爆破成功后自动配置war进行getshell\r\n\r\n其他功能：\r\n1、引入配置文件，使得调整参数更加灵活\r\n2、增加处理登录时无法访问URL的情况，并在重试次数达到顶点时（默认3次）将URL从待检测列表中排除\r\n3、在上传成功或失败后删除WAR文件与JSP文件，磁盘空间浪费\r\n4、增加上传失败时重试机制（默认3次），避免网络问题或服务器偶尔响应慢可能会导致上传失败问题\r\n5、使用随机生成的文件名增加脚本的灵活和隐蔽性\r\n6、自定义webshel​​l默认Godzilla马，连接密码pass\r\n7、动态调整线程池大小：根据用户名和密码的组合队列计算调整线程池大小",
-        "release_tag": "TomcatScanPro"
+        "release_tag": "TomcatScanPro",
+        "bucket": true
     },
     "https://github.com/wafinfo/Hikvision": {
         "created_at": "2023-06-29 06:02:54",
