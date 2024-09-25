@@ -331,7 +331,8 @@
         "commit_message": "Merge pull request #9 from WangYihang/dependabot/pip/pillow-10.3.0\n\nBump pillow from 10.2.0 to 10.3.0",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/guchangan1/All-Defense-Tool": {
         "created_at": "2022-04-25 11:45:06",
@@ -1837,7 +1838,8 @@
         "commit_message": "Update Config.java",
         "release_tag": "1.1",
         "release_date": "2021-09-24 08:14:31",
-        "release_message": "fix bug。"
+        "release_message": "fix bug。",
+        "bucket": true
     },
     "https://github.com/bit4woo/domain_hunter": {
         "created_at": "2020-08-28 02:48:23",
@@ -6263,7 +6265,8 @@
         "commit_message": "Update UsbKbCracker.py",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/taojy123/KeymouseGo": {
         "created_at": "2023-02-10 15:56:29",
@@ -9913,7 +9916,8 @@
         "commit_message": "Update UsbKeyboardExtract.py",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/DeEpinGh0st/WindowsBaselineAssistant": {
         "created_at": "2024-05-12 14:14:27",
@@ -13766,7 +13770,8 @@
         "created_at": "2017-04-04 21:00:40",
         "description": "USB mouse traffic packet forensic tool, mainly used to draw mouse movements and dragging trajectories",
         "commit_message": "Merge pull request #9 from WangYihang/dependabot/pip/tqdm-4.66.3\n\nbuild(deps): bump tqdm from 4.66.2 to 4.66.3",
-        "commit_date": "2024-05-04 03:03:51"
+        "commit_date": "2024-05-04 03:03:51",
+        "bucket": true
     },
     "https://github.com/AabyssZG/Web-SurvivalScan": {
         "created_at": "2024-09-21 04:37:37",
@@ -15168,7 +15173,8 @@
         "release_date": "2024-08-30 03:22:33",
         "release_message": "PS：由于有人公开号召逆向我软件的所有代码，所以本人目前停止后续版本的分享！\r\n\r\n🆕2024.5.3终止 `Lv60` 免费入群\r\n🆕[免费版本和Pro版本的差异](https://github.com/Byxs20/PuzzleSolver/wiki/%E5%85%8D%E8%B4%B9%E7%89%88%E6%9C%AC%E5%92%8CPro%E7%89%88%E6%9C%AC%E7%9A%84%E5%B7%AE%E5%BC%82)\r\n🐧交流群：`761594154` ，群等级 `Lv60` 以上（包括`Lv60`）可以免费拿软件；如果不想要活跃群去获得软件，当然可以走捷径，捐赠 `50` ，后续本人有时间软件会继续更新。\r\n\r\n```\r\nVersion 2.1.5 更新日志：\r\n1）新增：\r\n  新增 `config.yaml` 中添加 `wordlists_path` 用来自定义字典的路径\r\n  新增 `config.yaml` 中添加 `debug_mode` 用来打印日志和输出日志文件\r\n\r\n2）修复：\r\n  修复 Win7用户 无法使用 `HTTP流量分析器` (PySide6.1.3没有setMenu方法)\r\n  修复 `HTTP流量分析器` 的热键失效问题 两个控件不能同时设置热键 设置仅在此控件具有焦点时触发热键\r\n\r\n3）优化：\r\n  优化 `HTTP流量分析器` 右键菜单跳转窗口最小化也能跳转\r\n  优化 `BruteForce` 功能提取抽象类、方便继承继续使用\r\n```\r\n",
         "release_tag": "v2.1.5",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://ctfever.uniiem.com/tools/pseudo-encrypted-zip-check": {
         "status_code": 200,
@@ -15271,7 +15277,8 @@
         "created_at": "2023-10-19 04:30:59",
         "description": null,
         "commit_message": "Update USBFlow_Soer.py",
-        "commit_date": "2024-04-15 14:35:18"
+        "commit_date": "2024-04-15 14:35:18",
+        "bucket": true
     },
     "https://github.com/T4y1oR/RingQ": {
         "created_at": "2024-05-11 09:26:22",
