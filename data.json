@@ -19070,39 +19070,6 @@
         "title": "RX-SSTV: Freeware SSTV Software and SSTV Decoder",
         "bucket": true
     },
-    "https://github.com/Lymphatus/caesium-image-compressor": {
-        "created_at": "2024-06-02 13:10:37",
-        "description": "Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG, WebP and TIFF formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.",
-        "updated_at": "2024-09-25 21:02:53",
-        "commit_message": "Recompress failed images #282",
-        "commit_date": "2024-08-23 17:14:09",
-        "release_date": "2024-06-02 13:25:37",
-        "release_message": "## What's New\r\n* Drag and drop on advanced import dialog list (#277)\r\n\r\n## What's Changed\r\n* Improvements for advanced import dialog (#277, #275)\r\n* Improved zh_CN translation (#276)\r\n* Fixed viewport on smaller screens (#274)\r\n\r\n**Full Changelog**: https://github.com/Lymphatus/caesium-image-compressor/compare/v2.7.0...v2.7.1",
-        "release_tag": "v2.7.1",
-        "bucket": true
-    },
-    "https://github.com/igdmapps/igdm": {
-        "created_at": "2022-04-18 09:25:06",
-        "description": "Desktop application for Instagram DMs",
-        "updated_at": "2024-09-25 21:02:53",
-        "commit_message": "blog: update followers export article to mention csv download option",
-        "commit_date": "2024-07-13 13:43:04",
-        "release_date": "2022-04-18 10:22:07",
-        "release_message": "* Fix login flow from returning 404 errors\r\n* Fix broken media messages",
-        "release_tag": "v3.0.4",
-        "bucket": true
-    },
-    "https://github.com/20142995/file": {
-        "created_at": "2023-05-12 10:48:26",
-        "description": null,
-        "updated_at": "2024-09-25 21:02:53",
-        "commit_message": "commit message",
-        "commit_date": "2023-05-12 10:48:26",
-        "release_date": "2024-09-24 11:46:12",
-        "release_message": "",
-        "release_tag": "PuzzleSolver.7z",
-        "bucket": true
-    },
     "https://github.com/20142995/JavaJboss": {
         "created_at": "2024-09-12 06:52:08",
         "description": null,
@@ -19187,5 +19154,17 @@
         "release_message": "在这下载哦",
         "release_tag": "0.4.1",
         "bucket": true
+    },
+    "https://darkside.com.au/snow": {
+        "created_at": "2024-09-25 15:11:16",
+        "updated_at": "2024-09-25 15:11:16",
+        "status_code": 200,
+        "title": "The SNOW Home Page"
+    },
+    "https://darkside.com.au/gifshuffle": {
+        "created_at": "2024-09-25 15:11:16",
+        "updated_at": "2024-09-25 15:11:16",
+        "status_code": 200,
+        "title": "The Gifshuffle Home Page"
     }
 }
