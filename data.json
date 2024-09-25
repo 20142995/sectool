@@ -829,7 +829,8 @@
         "release_tag": "v2.0.8-push",
         "release_date": "2024-02-20 07:23:05",
         "release_message": "",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-25 21:02:53",
+        "bucket": true
     },
     "https://github.com/murphysecurity/murphysec": {
         "created_at": "2023-05-15 12:21:31",
@@ -2928,14 +2929,14 @@
         "release_message": ""
     },
     "https://github.com/dbeaver/dbeaver": {
-        "created_at": "2024-08-30 15:05:16",
+        "created_at": "2024-09-17 18:35:34",
         "description": "Free universal database tool and SQL client",
         "commit_message": "#35145 Add sanity check (#35556)",
         "commit_date": "2024-09-11 15:48:15",
-        "release_date": "2024-09-01 16:09:18",
-        "release_message": "\n                Changes since 24.1.5:\n                - SQL Editor:\n                    - Fixed highlighting of block $$ for functions and procedures when the semantic analysis option is enabled\n                    - Warning and errors handling and presentation was improved\n                    - Subquery semantic analysis was enhanced\n                    - Improved CREATE and DROP queries handling\n                    - Autocompletion for fully qualified names was fixed\n                    - Duplication of proposals with new completion engine enabled was fixed\n                    - Incorrect suggestions with new completion engine enabled were fixed\n                - AI Assistant:\n                    - Added new model 'gpt-4o-mini'\n                    - Removed deprecated model 'gpt-3.5-turbo-16K'\n                    - Fixed query generation when enabled formatting\n                - Data Editor:\n                    - Some datatypes icons were changed\n                    - Fixed filtering on columns with spaces\n                    - Added an ability to render geometry shapes in their assigned color if a 'color' column is present in the result set\n                    - Improved handling of fully qualified names in Grouping panel according to SQL dialect\n                    - Local links opening was restricted\n                - Datatransfer: Data transfer windows width was fixed\n                - Connectivity: Fixed verification of the 127.0.01 host when connecting via SSH\n                - General:\n                    - Fixed flipping splash screen on macOS Sequoia\n                    - Foreign Data wrappers configurator was fixed\n                    - 'Open auth links in embedded browser' setting was disabled by default\n                    - Search in Preferences was improved: added keywords for reopen, open, Hippie, autosave, and others\n                    - Fixed selection of wrong database when changing connection for database with similar names\n                    - Folder display in Simple view was fixed\n                    - Numeric (DWORD) type parameters in Windows Registry are now supported\n                    - 'Ctrl+Alt+Left / Right' hotkeys for 'Previous Edit Location' and 'Next Edit Location' were fixed\n                - Databases:\n                    - Clickhouse: Filtering by the Date data type was fixed\n                    - MySQL: Error/output log dump was fixed\n                    - PostgreSQL:\n                        - Ordering by interval datatypes in the Data grid was fixed\n                        - Added regexp functions support in SQL Editor (thanks to @anton-erofeev)\n                    - Redshift:\n                        - Connection stability was significantly improved\n                        - DDL presentation was fixed\n                        - Role, User, and Group presentation was fixed\n                    - SQL Server:\n                        - SQL Server driver was updated to version 12.8.0\n                        - Fixed DDL and column display with custom data types\n                - Localization: French localization was updated (thanks to @KawtharAlakri)\n            ",
-        "release_tag": "24.2.0",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-09-22 17:43:51",
+        "release_message": "\n                - SQL Editor:\n                    - Smart syntax highlighting was significantly improved\n                    - Pseudo columns highlighting was improved\n                    - Table aliases were fixed in smart completion\n                    - Issue with pinned tabs was resolved\n                    - Syntax highlighting fixed for single quoted strings (thanks to @tlm365)\n                    - SQL console save was redesigned (it now asks for confirmation)\n                - Data editor:\n                    - Commit/rollback buttons now enabled only when transactions are applicable\n                    - Column description rendering was improved for dark theme\n                - Database navigator: horizontal scrolling was fixed, now action icons are always visible\n                - Object editor: bottom toolbar layout was unified for all tabs\n                - Data transfer:\n                    - CSV parameters documentation was added\n                    - Database backup/restore dialog layout ws fixed\n                - General:\n                    - Snapcraft image now includes additional fonts\n                    - Embedded browser support was added for Linux/GTK\n                    - App command line parameters logging was was disabled because of security concerns\n                    - Issue with splash screen and error message overlapping was resolved\n                    - Resource leak detection logging was added by default\n                    - We migrated to Eclipse 2024-09 platform\n                - Databases:\n                    - Altibase: database replication metadata was supported (thaks to @zennken)\n                    - Azure SQL: \"show all databases\" option was removed\n                    - CUBRID:\n                        - Index drop command generation wad fixed (thanks to @longhaseng52)\n                        - Procedure create dialog was added (thanks to @longhaseng52)\n                        - List of reserved keywords was updated (thanks to @rathana-pvs)\n                    - DolphinDB driver was added (thanks to @peeyee)\n                    - MySQL: NULL geometry values handle was fixed (thanks to @EastLord)\n                    - Salesforce CDP: connection dialog layout was fixed\n                    - SAP HANA:\n                        - Connection dialog was improved for HANA Cloud (thanks to @kai-morich)\n                        - Expired password change feature was added (thanks to @kai-morich)\n                    - Trino: issue with long cursor reading was fixed (thanks to @schaffino)\n                - Localization:\n                    - Arabic localization was added (thanks to @AliElamir)\n                    - Brazilian Portuguese localization was updated (thanks to @brlarini)\n            ",
+        "release_tag": "24.2.1",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-30 08:37:42",
@@ -3578,14 +3579,14 @@
         "release_message": "# 更新日志\r\n## version1.6\r\n### 新增\r\n1. 已识别组件的目录扫描优化（使用特定字典且会进行关键字验证，例如识别到是WebLogic会自动去访问/console，并进行关键字验证）\r\n\r\n### 优化\r\n1. 脆弱性分析增加过滤，不会对所有类型进行分析（例如jpg）\r\n2. 优化和增加部份指纹\r\n3. 默认开启已识别组件的目录扫描"
     },
     "https://github.com/f0ng/autoDecoder": {
-        "created_at": "2024-05-17 02:40:33",
+        "created_at": "2024-09-24 15:16:05",
         "description": "Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加解密的基础上，不影响APP、网站加解密正常逻辑等。",
         "commit_message": "Update FAQ.md",
         "commit_date": "2024-07-05 01:58:03",
-        "release_date": "2024-06-15 09:47:53",
-        "release_message": "## 2024.6.15 更新0.40\r\n1. sm2密文编码为base64不生效\r\n2. 修复iv置空导致报错问题\r\n感谢微信群师傅@.: :.  @NLEG 师傅反馈",
-        "release_tag": "0.41",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-09-24 15:20:02",
+        "release_message": "## 2024.9.24  更新0.50\r\n1. 修复sm4加解密错误",
+        "release_tag": "0.50",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/bewhale/thinkphp_gui_tools": {
         "created_at": "2021-08-30 03:55:26",
@@ -3658,15 +3659,15 @@
         "release_message": ""
     },
     "https://github.com/carlospolop/PEASS-ng": {
-        "created_at": "2024-09-19 09:57:19",
+        "created_at": "2024-09-24 09:49:57",
         "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
         "commit_message": "Update 3_cloud.sh",
         "commit_date": "2024-02-26 19:40:36",
-        "release_date": "2024-09-19 10:12:57",
+        "release_date": "2024-09-24 10:06:17",
         "release_message": "",
         "bucket": true,
-        "release_tag": "20240919-31659910",
-        "updated_at": "2024-09-22 11:23:45"
+        "release_tag": "20240924-c0ef888d",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/waderwu/attackRmi": {
         "created_at": "2020-10-14 08:07:36",
@@ -3877,14 +3878,14 @@
         "updated_at": "2024-09-16 14:44:13"
     },
     "https://github.com/anchore/syft": {
-        "created_at": "2024-09-11 14:12:05",
+        "created_at": "2024-09-24 13:28:54",
         "description": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems",
         "commit_message": "chore: make ci-check.sh an executable file (#3220)\n\nSigned-off-by: Ryuichi Okumura <okuryu@okuryu.com>",
         "commit_date": "2024-09-11 14:02:37",
-        "release_date": "2024-09-11 14:20:08",
-        "release_message": "### Added Features\n\n- Detect curl binaries [[#3146](https://github.com/anchore/syft/pull/3146) @krysgor]\n- Add haskell binaries cataloger [[#3078](https://github.com/anchore/syft/pull/3078) @LaurentGoderre]\n- add the Ocaml ecosystem [[#3112](https://github.com/anchore/syft/pull/3112) @LaurentGoderre]\n- Support HAProxy dev [[#3134](https://github.com/anchore/syft/issues/3134) [#3180](https://github.com/anchore/syft/pull/3180) @witchcraze]\n\n### Bug Fixes\n\n- Fix improper decoding of SPDX license expressions in the CycloneDX format [[#3175](https://github.com/anchore/syft/pull/3175) @NyanKiyoshi]\n- improve generated cpes for binaries with existing classifiers [[#3169](https://github.com/anchore/syft/pull/3169) @westonsteimel]\n- improve known CPEs and set NVD as source for all current binary classifiers [[#3167](https://github.com/anchore/syft/pull/3167) @westonsteimel]\n- Respond to authoratative CPEs from catalogers [[#3166](https://github.com/anchore/syft/pull/3166) @wagoodman]\n- Set cataloger names within package cataloger task [[#3165](https://github.com/anchore/syft/pull/3165) @wagoodman]\n- use official CPE for curl binary cataloger [[#3164](https://github.com/anchore/syft/pull/3164) @westonsteimel]\n- Fix ELF package correlations [[#3151](https://github.com/anchore/syft/pull/3151) @wagoodman]\n- no space left and Could not retrieve mirrorlist in test [[#3181](https://github.com/anchore/syft/issues/3181) [#3190](https://github.com/anchore/syft/pull/3190) @wagoodman]\n- Multiple versions of libssl3 and libcrypto3 present in SBOM while only one version is installed [[#3195](https://github.com/anchore/syft/issues/3195)]\n- CycloneDX convertion into Syft improperly handles SPDX licenses [[#3172](https://github.com/anchore/syft/issues/3172)]\n- Syft Cause stack overflow [goroutine stack exceeds 1000000000-byte limit] [[#3163](https://github.com/anchore/syft/issues/3163) [#3170](https://github.com/anchore/syft/pull/3170) @kzantow]\n- Mysql binary detection version incorrect for 8.0.x [[#3141](https://github.com/anchore/syft/issues/3141) [#3142](https://github.com/anchore/syft/pull/3142) @kzantow]\n\n### Additional Changes\n\n- Less verbose java logging when non-fatal issues arise [[#3208](https://github.com/anchore/syft/pull/3208) @wagoodman]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.11.1...v1.12.2)**\n\n",
-        "release_tag": "v1.12.2",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-09-24 13:35:48",
+        "release_message": "### Added Features\n\n- --enrich flag for data enrichment feature enablement [[#3182](https://github.com/anchore/syft/pull/3182) @kzantow]\n- Add classifier for Dart lang [[#3265](https://github.com/anchore/syft/pull/3265) @LaurentGoderre]\n- add binary classifiers for lighttp, proftpd, zstd, xz, gzip, jq, and sqlcipher [[#3252](https://github.com/anchore/syft/pull/3252) @krysgor]\n- Catalog JDKs more completely [[#3188](https://github.com/anchore/syft/issues/3188) [#3217](https://github.com/anchore/syft/pull/3217) @wagoodman]\n- Show richer information for JVM installations [[#1426](https://github.com/anchore/syft/issues/1426) [#3217](https://github.com/anchore/syft/pull/3217) @wagoodman]\n- Allow for stubbing unknown versions over dropping packages [[#2652](https://github.com/anchore/syft/issues/2652) [#3257](https://github.com/anchore/syft/pull/3257) @wagoodman]\n- Name and Version empty for Java package when scanning provided image [[#2132](https://github.com/anchore/syft/issues/2132) [#3257](https://github.com/anchore/syft/pull/3257) @wagoodman]\n- Support bitnami/mysql:8.x [[#3025](https://github.com/anchore/syft/issues/3025)]\n\n### Bug Fixes\n\n- OpenJDK CPEs [[#2422](https://github.com/anchore/syft/issues/2422) [#3217](https://github.com/anchore/syft/pull/3217) @wagoodman]\n- SBOM generated from poetry lock file contains no license information on any dependencies [[#3204](https://github.com/anchore/syft/issues/3204)]\n- Scanning a folder with a jar archive with no metadata creates a SPDX package without versionInfo (Non-NTIA compliant) [[#2039](https://github.com/anchore/syft/issues/2039) [#3257](https://github.com/anchore/syft/pull/3257) @wagoodman]\n- Using replace in a go.mod creates a SPDX package without versionInfo (Non-NTIA compliant) [[#2038](https://github.com/anchore/syft/issues/2038) [#3257](https://github.com/anchore/syft/pull/3257) @wagoodman]\n- Command `make add-snippet` can fail in some cases [[#3249](https://github.com/anchore/syft/issues/3249)]\n\n**[(Full Changelog)](https://github.com/anchore/syft/compare/v1.12.2...v1.13.0)**\n\n",
+        "release_tag": "v1.13.0",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/chaitin/safeline": {
         "created_at": "2024-09-12 11:09:15",
@@ -3955,14 +3956,14 @@
         "updated_at": "2024-09-22 11:23:45"
     },
     "https://github.com/anchore/grype": {
-        "created_at": "2024-09-11 17:30:25",
+        "created_at": "2024-09-24 15:08:08",
         "description": "A vulnerability scanner for container images and filesystems",
         "commit_message": "chore(deps): bump github.com/opencontainers/runc from 1.1.13 to 1.1.14 (#2098)\n\nBumps [github.com/opencontainers/runc](https://github.com/opencontainers/runc) from 1.1.13 to 1.1.14.\r\n- [Release notes](https://github.com/opencontainers/runc/releases)\r\n- [Changelog](https://github.com/opencontainers/runc/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/opencontainers/runc/compare/v1.1.13...v1.1.14)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github.com/opencontainers/runc\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "commit_date": "2024-09-05 17:32:17",
-        "release_date": "2024-09-11 17:38:24",
-        "release_message": "### Bug Fixes\r\n\r\n- CVE-2024-3154 found with latest version [[#1834](https://github.com/anchore/grype/issues/1834) [#2091](https://github.com/anchore/grype/pull/2091) @spiffcs]\r\n\r\n### Additional Changes\r\n\r\n- Update Syft to 1.12.2 [[#2108](https://github.com/anchore/grype/pull/2108)]\r\n\r\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.80.0...v0.80.1)**\r\n\r\n",
-        "release_tag": "v0.80.1",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-09-24 15:16:23",
+        "release_message": "### Bug Fixes\n\n- find secdb entries for origin packages [[#1602](https://github.com/anchore/grype/pull/1602) @luhring]\n- Matching java binary packages with NVD records is problematic [[#1718](https://github.com/anchore/grype/issues/1718) [#2114](https://github.com/anchore/grype/pull/2114) @wagoodman]\n- LoadVulnerabilityDB could be faster with ValidateByHashOnGet [[#1502](https://github.com/anchore/grype/issues/1502) [#2054](https://github.com/anchore/grype/pull/2054) @lucasrod16]\n\n### Additional Changes\n\n- update Syft to v1.13.0 [[#2140](https://github.com/anchore/grype/pull/2140) @anchore-actions-token-generator]\n- include file specifier in help [[#2121](https://github.com/anchore/grype/pull/2121) @willmurphyscode]\n\n**[(Full Changelog)](https://github.com/anchore/grype/compare/v0.80.1...v0.80.2)**\n\n",
+        "release_tag": "v0.80.2",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/Metarget/metarget": {
         "created_at": "2021-12-31 07:57:37",
@@ -6911,14 +6912,14 @@
         "commit_date": "2024-08-28 00:29:21"
     },
     "https://github.com/PyCQA/bandit": {
-        "created_at": "2024-06-12 22:17:21",
+        "created_at": "2024-09-23 04:34:58",
         "description": "Bandit is a tool designed to find common security issues in Python code.",
         "commit_date": "2024-08-26 22:30:15",
         "commit_message": "Use consistent file naming of docs (#1170)\n\nThe current pattern within the docs for plugins is to prefix\r\nthe RST doc with the bandit ID followed by an underscore and\r\nthe plugin name.\r\n\r\nThis change will apply the consistency to the trojansource\r\nplugin doc.\r\n\r\nSigned-off-by: Eric Brown <eric_wade_brown@yahoo.com>",
-        "release_tag": "1.7.9",
-        "release_date": "2024-06-12 22:19:26",
-        "release_message": "## What's Changed\r\n* Bump docker/build-push-action from 5.1.0 to 5.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1117\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1119\r\n* New logo for Bandit based on raccoon by @ericwb in https://github.com/PyCQA/bandit/pull/1121\r\n* Start testing on Python 3.13 by @ericwb in https://github.com/PyCQA/bandit/pull/1122\r\n* Bump docker/build-push-action from 5.2.0 to 5.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1123\r\n* Bump docker/setup-buildx-action from 3.1.0 to 3.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1124\r\n* Bump docker/login-action from 3.0.0 to 3.1.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1125\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1126\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1127\r\n* Bump docker/setup-buildx-action from 3.2.0 to 3.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1130\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1131\r\n* Bump sigstore/cosign-installer from 3.4.0 to 3.5.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1132\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1133\r\n* Updates banner logo so it renders well in dark mode by @ericwb in https://github.com/PyCQA/bandit/pull/1134\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1135\r\n* Add a sponsor section to README by @ericwb in https://github.com/PyCQA/bandit/pull/1137\r\n* Ensure sarif extra is included as part of doc build by @ericwb in https://github.com/PyCQA/bandit/pull/1139\r\n* Bump docker/login-action from 3.1.0 to 3.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1142\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1143\r\n* [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci in https://github.com/PyCQA/bandit/pull/1145\r\n* Guard against empty call argument list by @ericwb in https://github.com/PyCQA/bandit/pull/1146\r\n* Bump docker/build-push-action from 5.3.0 to 5.4.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1144\r\n* Support `configfile` in `.bandit` file by @bersbersbers in https://github.com/PyCQA/bandit/pull/1052\r\n\r\n## New Contributors\r\n* @pre-commit-ci made their first contribution in https://github.com/PyCQA/bandit/pull/1119\r\n* @bersbersbers made their first contribution in https://github.com/PyCQA/bandit/pull/1052\r\n\r\n**Full Changelog**: https://github.com/PyCQA/bandit/compare/1.7.8...1.7.9",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_tag": "1.7.10",
+        "release_date": "2024-09-23 17:28:18",
+        "release_message": "## What's Changed\r\n* Bump docker/build-push-action from 5.4.0 to 6.0.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1147\r\n* Suggested small refactors in assignments by @ericwb in https://github.com/PyCQA/bandit/pull/1150\r\n* Performance improvement in blacklist function by @ericwb in https://github.com/PyCQA/bandit/pull/1148\r\n* Add test for usage of FTP_TLS by @ericwb in https://github.com/PyCQA/bandit/pull/1149\r\n* New check: B113: TrojanSource - Bidirectional control characters by @Lucas-C in https://github.com/PyCQA/bandit/pull/757\r\n* Bump docker/build-push-action from 6.0.0 to 6.1.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1152\r\n* feat(plugins): add support for `httpx` in `B113` by @mkniewallner in https://github.com/PyCQA/bandit/pull/1060\r\n* Nit: remove unused variable by @ericwb in https://github.com/PyCQA/bandit/pull/1153\r\n* Add recent releases to version choice in bug report by @ericwb in https://github.com/PyCQA/bandit/pull/1151\r\n* Bump docker/build-push-action from 6.1.0 to 6.2.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1155\r\n* Bump docker/build-push-action from 6.2.0 to 6.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1157\r\n* Bump docker/setup-buildx-action from 3.3.0 to 3.4.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1156\r\n* Bump docker/setup-buildx-action from 3.4.0 to 3.5.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1158\r\n* Bump docker/login-action from 3.2.0 to 3.3.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1159\r\n* Bump docker/build-push-action from 6.3.0 to 6.5.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1160\r\n* Bump docker/setup-buildx-action from 3.5.0 to 3.6.1 by @dependabot in https://github.com/PyCQA/bandit/pull/1163\r\n* Bump docker/build-push-action from 6.5.0 to 6.6.1 by @dependabot in https://github.com/PyCQA/bandit/pull/1166\r\n* Bump sigstore/cosign-installer from 3.5.0 to 3.6.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1165\r\n* Bump docker/build-push-action from 6.6.1 to 6.7.0 by @dependabot in https://github.com/PyCQA/bandit/pull/1168\r\n* Use consistent file naming of docs by @ericwb in https://github.com/PyCQA/bandit/pull/1170\r\n* Pytorch Load / Save Plugin by @lukehinds in https://github.com/PyCQA/bandit/pull/1114\r\n\r\n## New Contributors\r\n* @Lucas-C made their first contribution in https://github.com/PyCQA/bandit/pull/757\r\n\r\n**Full Changelog**: https://github.com/PyCQA/bandit/compare/1.7.9...1.7.10",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/whirlwind110/tphack": {
         "created_at": "2018-02-04 17:48:48",
@@ -9751,14 +9752,14 @@
         "bucket": true
     },
     "https://github.com/GZTimeWalker/GZCTF": {
-        "created_at": "2024-09-08 03:25:23",
+        "created_at": "2024-09-24 10:18:07",
         "description": "The GZ::CTF project, an open source CTF platform.",
         "commit_message": "refactor: rename tag into category",
         "commit_date": "2024-09-13 08:24:34",
-        "release_date": "2024-09-08 03:33:42",
-        "release_message": "## [0.24.1](https://github.com/GZTimeWalker/GZCTF/compare/v0.24.0...v0.24.1) - 2024-09-08\r\n\r\n### ⛰️ Features\r\n\r\n- **(cache)** single flight cache update - ([484aa0](https://github.com/GZTimeWalker/GZCTF/commit/484aa0)) by **GZTime**\r\n- **(k8s)** use ServiceAccount if in cluster and no config provided (#328) - ([4e4947](https://github.com/GZTimeWalker/GZCTF/commit/4e4947)) by **Light**\r\n- log cache request time - ([7db780](https://github.com/GZTimeWalker/GZCTF/commit/7db780)) by **GZTime**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(style)** unexpected font weight - ([b0e171](https://github.com/GZTimeWalker/GZCTF/commit/b0e171)) by **GZTime**\r\n- **(mail)** cannot use sender name - ([d5dcef](https://github.com/GZTimeWalker/GZCTF/commit/d5dcef)) by **GZTime**\r\n\r\n### 🎨 Styling\r\n\r\n- **(admin)** nowrap for challenge edit page - ([e92d8c](https://github.com/GZTimeWalker/GZCTF/commit/e92d8c)) by **GZTime**\r\n- **(font)** fix missing weight for IBM Plex Sans - ([5b23a7](https://github.com/GZTimeWalker/GZCTF/commit/5b23a7)) by **GZTime**\r\n- **(font)** use variable font SUSE - ([83d028](https://github.com/GZTimeWalker/GZCTF/commit/83d028)) by **GZTime**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.24.0...v0.24.1\r\n",
-        "release_tag": "v0.24.1",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-09-24 10:19:57",
+        "release_message": "## [0.24.2](https://github.com/GZTimeWalker/GZCTF/compare/v0.24.1-patch.1..v0.24.2) - 2024-09-24\r\n\r\n### ⛰️ Features\r\n\r\n- **(timeline)** show all when finished - ([010653](https://github.com/GZTimeWalker/GZCTF/commit/010653)) by **GZTime**\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- **(i18n)** wrong key for post page - ([f0a736](https://github.com/GZTimeWalker/GZCTF/commit/f0a736)) by **GZTime**\r\n- **(team create)** only create one team (#330) - ([81b1e1](https://github.com/GZTimeWalker/GZCTF/commit/81b1e1)) by **Kood**\r\n- **(captcha)** cache not flush - ([3dffb0](https://github.com/GZTimeWalker/GZCTF/commit/3dffb0)) by **GZTime**\r\n\r\n### 🔨 Refactor\r\n\r\n- rename tag into category - ([4238c5](https://github.com/GZTimeWalker/GZCTF/commit/4238c5)) by **GZTime**\r\n\r\n---\r\n\r\n**Changelog**: https://github.com/GZTimeWalker/GZCTF/blob/HEAD/CHANGELOG.md\r\n**Commits**: https://github.com/GZTimeWalker/GZCTF/compare/v0.24.2...v0.24.2\r\n",
+        "release_tag": "v0.24.2",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/savior-only/Spring_All_Reachable": {
         "created_at": "2023-06-01 09:12:40",
@@ -10118,14 +10119,14 @@
         "release_message": ""
     },
     "https://github.com/qiwentaidi/Slack": {
-        "created_at": "2024-09-07 08:05:31",
+        "created_at": "2024-09-24 13:45:20",
         "description": "安服集成化工具平台，帮助测试人员减少测试脚本多，使用繁琐问题",
         "commit_message": "新增漏洞扫描任务历史管理",
         "commit_date": "2024-09-09 13:19:14",
-        "release_date": "2024-09-07 08:19:03",
-        "release_message": "### 新增:\r\n- 增加公司信息收集模块可联动子域名收集模块\r\n- 网站扫描指纹规则新增icon_mdhash，由于golang在计算mmh3时，少数情况下与正常的值有偏差，可以使用icon_mdhash作为icon_hash指纹的替代，鹰图计算的icon值可以直接使用\r\n- 网站扫描链接可以批量打开\r\n- 左上角增加刷新功能，可以用于热重载指纹列表等其他默认初始化数据\r\n- FOFA、Hunter等功能同样增加具备C段查询\r\n\r\n### 优化:\r\n- 重做暴破与未授权访问模块的页面，并增加退出扫描的功能\r\n- 网站扫描指纹显示改为右键列出现操作菜单\r\n\r\n### 修复:\r\n- 端口扫描线程等number类型数值绑定时未加修饰符，导致修改数据时会数据类型错误无法执行任务\r\n- FOFA查询到资产为空时一直为加载状态\r\n- 数据库传入类型固定，导致类型接受错误无法写入内容\r\n- 空间引擎收藏语法无法点击问题\r\n- 企业信息查询并发写入map导致程序退出\r\n- 公司信息查询出增加校验，现在需要填入Cookie字段",
-        "release_tag": "Slack1.6.3",
-        "updated_at": "2024-09-16 14:44:13",
+        "release_date": "2024-09-24 14:03:16",
+        "release_message": "### 新增:\r\n- 公网IP可在端口扫描处联动shodan拉取端口开放数据\r\n\r\n### 优化:\r\n- 将Nuclei引擎改为内置，扫描流程以及结果读取更为流畅\r\n- 部分页面内容存在微小改动，端口扫描存活探测以及线程移入设置界面中\r\n- 增加主动指纹扫描进度条\r\n- 天眼查Token可存储\r\n- 修改了全漏洞扫描模块，改为专项漏洞扫描，只扫描指纹以及选中的1-10个POC\r\n\r\n修复:\r\n- 网站扫描输入多个不带协议的地址会无法识别目标\r\n",
+        "release_tag": "Slack1.6.4",
+        "updated_at": "2024-09-25 21:04:24",
         "bucket": true
     },
     "https://github.com/horizon3ai/CVE-2023-27524": {
@@ -11057,15 +11058,15 @@
         "release_message": ""
     },
     "https://github.com/sensepost/gowitness": {
-        "created_at": "2024-09-19 13:25:03",
+        "created_at": "2024-09-22 16:19:17",
         "description": "🔍 gowitness - a golang, web screenshot utility using Chrome Headless",
         "commit_date": "2024-08-22 11:55:16",
         "commit_message": "add skip port option for nmap (#227)",
-        "release_tag": "3.0.2",
-        "release_date": "2024-09-19 13:34:36",
-        "release_message": "# fixed\r\n- Allow file parser to parse `<host>:<port>` targets (https://github.com/sensepost/gowitness/commit/66eec626ab3bdb90c670eb1b63ac85f0302ccdb0)\r\n\r\n**Full Changelog**: https://github.com/sensepost/gowitness/compare/3.0.1...3.0.2\r\n\r\n```\r\n9e13af78bda5322f9f55270fd47b827bdb5f7c2c  gowitness-3.0.2-darwin-amd64\r\n3aeb745f9d8844c221bcba18a10fc6711390b596  gowitness-3.0.2-darwin-arm64\r\n694a150209f71aaa37827be735152689f8d61e8d  gowitness-3.0.2-linux-amd64\r\n155e13bb93aa22f9de8808046b7e2f3c3e8cf9c6  gowitness-3.0.2-linux-arm\r\n5239ec4810b0eeff5ee2b49356e06aabd1eed2ba  gowitness-3.0.2-linux-arm64\r\nc7a93e49fa442301b80ae6cf0ef0f181d4c764da  gowitness-3.0.2-windows-amd64.exe\r\n18de5172ed5ac779e22b613afdb4f89205c72249  gowitness-3.0.2-windows-arm64.exe\r\n```",
+        "release_tag": "3.0.3",
+        "release_date": "2024-09-22 16:34:18",
+        "release_message": "# new\r\n- Add the `delay` option to the `/submit` and `/submit/single` API endpoints. This adds a delay between when the page is considered loading and when a screenshot should be taken. The command line already adds a delay, but this adds it to the API as well (see Swagger docs) (https://github.com/sensepost/gowitness/commit/1db81b3b4f3cf66b9806be4aa9d2bd4c0264f8e6)\r\n- Add new web UI for probing using immediate mode. Immediate mode does not record data to the database but instead shows a modal with the results (see screenshots below) (https://github.com/sensepost/gowitness/commit/bb5cf4fc2c3e11ff8255d9bb40ac9500aeba7303)\r\n\r\n# fixed\r\n- Fix API documentation for `/submit/single` to show the full return object (https://github.com/sensepost/gowitness/commit/a9e254d3f95afcd8c49bc0fa4ee95eacef1c6dc3)\r\n- Trim spaces for file targets to help improve reliability of the reader (https://github.com/sensepost/gowitness/commit/fd9f55f13d347839f79996ad44d6cf324589c8f0)\r\n\r\n<img width=\"1383\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ccc0b116-9be9-4fe6-a59a-ae7b9029c200\">\r\n\r\n<img width=\"1464\" alt=\"image\" src=\"https://github.com/user-attachments/assets/17244598-4452-4bec-9d7a-22535a190527\">\r\n\r\n**Full Changelog**: https://github.com/sensepost/gowitness/compare/3.0.2...3.0.3\r\n\r\n```text\r\nba104c2f84fcebd3f9a6d42417d44afbdfa3baf5  gowitness-3.0.3-darwin-amd64\r\n05a1abce98df0fe5747aceeed91d6253d8e2db93  gowitness-3.0.3-darwin-arm64\r\nc32914a24b777178ed5068d6d10b15dc4e410a5c  gowitness-3.0.3-linux-amd64\r\nd1317177f94c9823b7c948c3a358e7ddbe7ea497  gowitness-3.0.3-linux-arm\r\nc5813ef4fbe4417563c28e24ccf0e4c1b222b8c8  gowitness-3.0.3-linux-arm64\r\n9c1b4d193d3d217446458fb2abc667f812be37a8  gowitness-3.0.3-windows-amd64.exe\r\nff6078602f02f89b48b3a875404d575f7874e4d3  gowitness-3.0.3-windows-arm64.exe\r\n```",
         "bucket": true,
-        "updated_at": "2024-09-22 11:23:45"
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/qi4L/JYso": {
         "created_at": "2024-09-16 09:24:03",
@@ -11135,14 +11136,14 @@
         "release_message": ""
     },
     "https://github.com/chainreactors/spray": {
-        "created_at": "2024-09-10 09:59:38",
+        "created_at": "2024-09-23 08:47:25",
         "description": "Next Generation HTTP Dir/File Fuzz Tool",
         "commit_date": "2024-09-10 10:03:59",
         "commit_message": "Merge pull request #74 from chainreactors/dev\n\nmerge v1.1.2",
-        "release_tag": "v1.1.2",
-        "release_date": "2024-09-10 10:03:36",
-        "release_message": "## Changelog\r\n* 29db70274463befe1711e3be7da211f9598742fb fix init timeout not work, https://github.com/chainreactors/spray/issues/58\r\n* 5cf02cbbcbc5265d6a96e0d5108ace044fc43fd8 fix init panic when request failed https://github.com/chainreactors/spray/issues/73 https://github.com/chainreactors/spray/issues/72 https://github.com/chainreactors/spray/issues/71\r\n* 2de8822b01a5f926220e8e23bea24b4f32e3f5f6 fix %EXT% not work in plugin , https://github.com/chainreactors/spray/issues/63\r\n* a942bac337e4f09a4350d24883afad1aeef93f4c add config panel\r\n\r\n![image](https://github.com/user-attachments/assets/428f2a58-684e-4a85-befd-21b54122072b)\r\n\r\n\r\n",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_tag": "v1.1.3",
+        "release_date": "2024-09-23 09:40:30",
+        "release_message": "## Changelog\r\n* **[fix] timeout 不生效, 导致扫描在较多失败下几乎停滞的bug.**\r\n* **[fix] brutepool baseurl解析错误**\r\n* [fix] 统计时 found 字段不准确的bug\r\n* [fix] --no-stat not work\r\n* [fix] fallback 日志多次输出的bug\r\n* [enhance] clean fallback print \r\n* [enhance] -q  对初始的config print生效\r\n\r\n感谢使用中提出的bug用户\r\n",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/TD0U/WeaverScan": {
         "created_at": "2022-12-30 12:45:33",
@@ -13133,10 +13134,10 @@
         "description": "EZ是一款集信息收集、端口扫描、服务暴破、URL爬虫、指纹识别、被动扫描为一体的跨平台漏洞扫描器。",
         "commit_message": "Update README.md",
         "commit_date": "2024-04-10 02:45:51",
-        "release_date": "2024-06-05 08:14:27",
-        "release_message": "## 1.8.9 更新记录\r\n1. 修复webscan主动扫描没结束就提前退出的问题\r\n2. ez-helper新增漏洞等级多选过滤\r\n3. ez-helper新增自定义漏洞等级通知\r\n4. ez web优化某些情况下httpinfo超时问题\r\n5. ez web资产分拣新增C段统计功能\r\n6. ez web创建任务提交参数优化",
-        "release_tag": "1.8.9",
-        "updated_at": "2024-09-16 14:44:13",
+        "release_date": "2024-09-25 08:17:59",
+        "release_message": "# 1.9.0 更新记录\r\n\r\n1. ez web新增webscan扫描进度\r\n2. ez 爬虫修复url-file模式下输出文件被清空的问题\r\n3. ez 登录表单暴破插件修复有效用户名检测失败bug。\r\n4. ez 新增主动指纹定义，在内置主动指纹的基础上追加。自定义语法参考文档。\r\n5. ez config.yaml支持自定义fofa api地址。\r\n6. fofa新增配置fofa_size,解决非会员返回条数问题\r\n7. 精简了布尔、报错和时间盲注payload，大幅减少发包量。\r\n8. 优化布尔盲注判断逻辑和相似度算法，降低误报率，提高准确度。\r\n9. 优化时间盲注算法。\r\n10. 内置指纹更新。",
+        "release_tag": "1.9.0",
+        "updated_at": "2024-09-25 21:04:24",
         "bucket": true
     },
     "https://github.com/kvesta/vesta": {
@@ -13296,14 +13297,14 @@
         "commit_date": "2017-07-21 18:33:08"
     },
     "https://github.com/retirejs/retire.js": {
-        "created_at": "2024-08-20 09:07:12",
+        "created_at": "2024-09-23 16:00:07",
         "description": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds.",
         "commit_message": "Update svelte extractor",
         "commit_date": "2024-09-02 15:01:23",
-        "release_date": "2024-08-20 09:07:16",
-        "release_message": "## [5.2.2]\n\n### Bugfix\n\n- Encode purls correctly in SBOM\n\n",
-        "release_tag": "5.2.2",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-09-23 16:00:10",
+        "release_message": "## [5.2.3]\n\n### Bugfix\n\n- Fix license handling for complex licenses\n\n",
+        "release_tag": "5.2.3",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/1N3/XSSTracer": {
         "created_at": "2015-03-17 19:33:55",
@@ -13522,14 +13523,14 @@
         "commit_date": "2016-01-02 11:04:22"
     },
     "https://github.com/deepfence/ThreatMapper": {
-        "created_at": "2024-09-19 14:22:19",
+        "created_at": "2024-09-24 18:24:57",
         "description": "Open Source Cloud Native Application Protection Platform (CNAPP)",
         "commit_message": "Update docs\n\n(cherry picked from commit 5c5482a333e30b7663a36bd1714acb114246e508)",
         "commit_date": "2024-09-13 18:19:26",
-        "release_date": "2024-09-22 01:33:50",
+        "release_date": "2024-09-25 01:33:53",
         "release_message": "",
-        "release_tag": "threatintel-vuln-v5-2024-09-22_01-29-50",
-        "updated_at": "2024-09-22 11:23:45"
+        "release_tag": "threatintel-vuln-v5-2024-09-25_01-29-53",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/BlackHole1/autoFindXssAndCsrf": {
         "created_at": "2016-07-27 14:46:33",
@@ -15170,10 +15171,10 @@
         "description": "一款针对CTF竞赛MISC的工具~",
         "commit_message": "更新: README.md",
         "commit_date": "2024-02-11 11:04:42",
-        "release_date": "2024-08-30 03:22:33",
-        "release_message": "PS：由于有人公开号召逆向我软件的所有代码，所以本人目前停止后续版本的分享！\r\n\r\n🆕2024.5.3终止 `Lv60` 免费入群\r\n🆕[免费版本和Pro版本的差异](https://github.com/Byxs20/PuzzleSolver/wiki/%E5%85%8D%E8%B4%B9%E7%89%88%E6%9C%AC%E5%92%8CPro%E7%89%88%E6%9C%AC%E7%9A%84%E5%B7%AE%E5%BC%82)\r\n🐧交流群：`761594154` ，群等级 `Lv60` 以上（包括`Lv60`）可以免费拿软件；如果不想要活跃群去获得软件，当然可以走捷径，捐赠 `50` ，后续本人有时间软件会继续更新。\r\n\r\n```\r\nVersion 2.1.5 更新日志：\r\n1）新增：\r\n  新增 `config.yaml` 中添加 `wordlists_path` 用来自定义字典的路径\r\n  新增 `config.yaml` 中添加 `debug_mode` 用来打印日志和输出日志文件\r\n\r\n2）修复：\r\n  修复 Win7用户 无法使用 `HTTP流量分析器` (PySide6.1.3没有setMenu方法)\r\n  修复 `HTTP流量分析器` 的热键失效问题 两个控件不能同时设置热键 设置仅在此控件具有焦点时触发热键\r\n\r\n3）优化：\r\n  优化 `HTTP流量分析器` 右键菜单跳转窗口最小化也能跳转\r\n  优化 `BruteForce` 功能提取抽象类、方便继承继续使用\r\n```\r\n",
-        "release_tag": "v2.1.5",
-        "updated_at": "2024-09-16 14:44:13",
+        "release_date": "2024-09-22 08:11:37",
+        "release_message": "PS：由于有人公开号召逆向我软件的所有代码，所以本人目前停止后续版本的分享！\r\n\r\n🆕2024.5.3终止 `Lv60` 免费入群\r\n🆕[免费版本和Pro版本的差异](https://github.com/Byxs20/PuzzleSolver/wiki/%E5%85%8D%E8%B4%B9%E7%89%88%E6%9C%AC%E5%92%8CPro%E7%89%88%E6%9C%AC%E7%9A%84%E5%B7%AE%E5%BC%82)\r\n🐧交流群：`761594154` ，群等级 `Lv60` 以上（包括`Lv60`）可以免费拿软件；如果不想要活跃群去获得软件，当然可以走捷径，捐赠 `50` ，后续本人有时间软件会继续更新。\r\n\r\n```\r\nVersion 2.1.6 更新日志：\r\n1）新增：\r\n  `图像处理` -> `图像宽高` 添加 `FIX_JPG`\r\n  `图像处理` -> `隐写工具` 添加 `stegpy`, `ImageMask`\r\n\r\n2）修复：\r\n  修复 Win7用户 无法打开软件报错: TypeError: Shiboken.ObjectType.__new__(_ResolverMeta) is not safe, use type.__new__()  (PySide6.1.3)\r\n  修复 `HTTP流量分析器` CTRL+S 保存文件失效\r\n  修复 `HTTP流量分析器` tshark新版本(v4.4.0) 无法使用问题\r\n\r\n3）优化： \r\n  `图像处理` -> `ImageTools` 重新分类功能\r\n```\r\n",
+        "release_tag": "v2.1.6",
+        "updated_at": "2024-09-25 21:04:24",
         "bucket": true
     },
     "https://ctfever.uniiem.com/tools/pseudo-encrypted-zip-check": {
@@ -15446,14 +15447,14 @@
         "updated_at": "2024-09-16 14:44:13"
     },
     "https://github.com/aquasecurity/cloudsploit": {
-        "created_at": "2024-05-28 15:05:15",
+        "created_at": "2024-09-18 11:43:28",
         "description": "Cloud Security Posture Management (CSPM)",
         "commit_message": "Merge pull request #2056 from AkhtarAmir/M/Aws/Api-gateway-v2-access-logging\n\nM/aws/api gateway v2 access logging",
         "commit_date": "2024-06-20 10:23:26",
-        "release_date": "2024-06-05 17:26:10",
-        "release_message": "CloudSploit version 3.5.0 introduces the most latest version on 2024-05-28. The update includes  new plugins for  Azure, AWS with the hotfixes and enhancements in the existing plugins. The details are as follows.\r\n______________________________\r\n\r\n## New Plugins\r\n### [AWS](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/aws)\r\n**Bedrock**\r\n\r\n- AWS Bedrock In Use\r\n\r\n**Neptune**\r\n- Neptune Database IAM Authentication Enabled\r\n- Neptune Database Deletion Protection Enabled\r\n- Neptune Database Multiple AZ\r\n- Neptune Database Instance Backup Retention\r\n\r\n**DocumentDB**\r\n- DocumentDB Has Tags\r\n- DocumentDB Cluster Deletion Protection\r\n\r\n**SQS**\r\n- SQS Has Tags\r\n\r\n**WAFV2**\r\n\r\n- Web ACL Logging Enabled\r\n\r\n\r\n### [Azure](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/azure)\r\n\r\n**Batch Account**\r\n- Batch Account CMK Encrypted\r\n\r\n**App Configuration**\r\n- App Configuration Access Key Authentication Disabled\r\n\r\n\r\n**Container App**\r\n- Container Apps Volume Mount Configured\r\n- Container Apps Has Tags\r\n\r\n**Cosmos DB**\r\n- Cosmos DB Local Authentication Disabled\r\n\r\n**DataBricks**\r\n- Databricks Workspace Managed Disk CMK Encrypted\r\n- Databricks Workspace Has Tags\r\n\r\n**Event Hub**\r\n- Event Hubs Namespace Has Tags\r\n- Event Hubs Namespace Diagnostic Logs\r\n- Event Hub Namespace Local Auth Disabled\r\n- Event Hubs Namespace Managed Identity\r\n\r\n**Front Door**\r\n- Front Door Managed Identity Enabled\r\n\r\n**Machine Learning**\r\n- Machine Learning Workspace Has Tags\r\n- Machine Learning Workspace Public Access Disabled\r\n- Machine Learning Workspace Diagnostic Logs\r\n\r\n**Log Alerts**\r\n- PostgreSQL Flexible Server Logging Enabled\r\n\r\n**PostgreSQL Server**\r\n- PostgreSQL FLexible Server Log Duration Enabled\r\n\r\n\r\n\r\n\r\n## Hot fixes and enhancements\r\n### Aws\r\n **KMS Key Rotation** \r\n     Key rotation feature is only available on key type SYMMETRIC_DEFAULT , updated the plugin to produce passing results for the key \r\n     type that does not have key rotation feature available.\r\n\r\n\r\n2. **ELBv2 TLS Version and Cipher Header Enabled**\r\n        Updated the plugin logic to check that TLS version and Cipher should be disabled in headers. Enabling these headers may leak \r\n        sensitive information, so updating the plugin to check the TLS version and Cipher header should not be enabled. Updated the title, \r\n        description and output message . The plugin title is renamed to ELBv2 TLS Version and Cipher Header Disabled.\r\n\r\n3. **EKS Kubernetes Version**\r\n       Modified the depreciation date for EKS versions. For list of updated EKS versions, refer \r\n       https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html \r\n\r\n4. **EKS Latest Platform Version**\r\n        Modified the depreciation date and latest platform version for EKS versions. For list of updated latest platform, refer to \r\n        https://docs.aws.amazon.com/eks/latest/userguide/platform-versions.html\r\n\r\n5. **Lambda Old Runtimes**\r\n        Modified the end of life dates for lambda runtimes versions. For list of updated end of life dates for lambda runtimes versions, \r\n        refer , https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html#runtime-support-policy\r\n\r\n\r\n### Azure \r\n1. **Load Balancer Public IP**\r\n      Revised title, description, more info, recommended actions, and output message of the plugin to ensure that Azure Load Balancers \r\n      are public to meet your organization's security compliance and availability needs. The plugin title is renamed to **Public Load \r\n      Balancer**.\r\n\r\n2. **PostgreSQL Flexible Server Version**\r\n        Earlier, the plugin was checking for the latest version, which was 13. Modified the latest version of the flexible server from 13 to 16.\r\n\r\n3. **Microsoft Support Operations Auditing Enabled**\r\n        Updated the plugin to produce unknown results if it’s unable to get audit policies, previously it was producing failed results if there \r\n        were no audit policies in data.\r\n\r\n\r\n4.    Previously, the following plugins were responsible for checking the diagnostic logs of blob, queue, and table for both V1 and V2 \r\n        storage account types. But as in V1 (premium) type the diagnostic logs can only be enabled for that specific storage account kind \r\n        service, so updated the plugins to produce pass results if the storage account type is premium.\r\n\r\n**Storage Account Blob Service Logging Enabled\r\nStorage Account Queue Service Logging Enabled\r\nStorage Account Table Service Logging Enabled**\r\n\r\n\r\n\r\n### Google\r\n1. **PostgreSQL Latest Version**\r\n       Earlier, the plugin checking for the latest version, which was 14. Modified the latest version of PostgreSQL server from 14 to 15.",
-        "release_tag": "v3.5.0",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-09-24 09:03:17",
+        "release_message": "CloudSploit version 3.9.0 introduces the most latest version on 2024-09-18. The update includes  new plugins for  Azure, AWS with the hotfixes and enhancements in the existing plugins. The details are as follows.\r\n______________________________\r\n\r\n## New Plugins\r\n### [AWS](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/aws)\r\n**EKS**\r\n\r\n- EKS GuardDuty Enabled\r\n\r\n**QLDB**\r\n\r\n- Ledger Deletion Protection\r\n- Ledger Has Tags\r\n\r\n**Managed Blockchain**\r\n\r\n- Managed Blockchain Network Member CloudWatch Logs\r\n\r\n### [Azure](https://github.com/aquasecurity/cloudsploit/tree/master/plugins/azure)\r\n**Batch Account**\r\n\r\n- Batch Account Managed Identity\r\n\r\n**Container Apps**\r\n\r\n- Container Apps IP Restriction Configured\r\n\r\n**Machine Learning**\r\n\r\n- Machine Learning Registry Has Tags\r\n- Machine Learning Registry Public Access Disabled\r\n- Machine Learning Workspace Data CMK Encrypted\r\n- Machine Learning Workspace High Business Impact Enabled\r\n\r\n**MySQL**\r\n\r\n- MySQL Flexible Server CMK Encrypted\r\n- MySQL Flexible Server Logging Enabled\r\n\r\n**Synapse**\r\n\r\n- Synapse Workspace Diagnostic Logging Enabled\r\n- Synapse Workspace Double Encryption Enabled\r\n- Synapse Workspace Has Tags\r\n\r\n\r\n## Hot fixes and enhancements\r\n### AWS\r\n**Encryption Level Setting**\r\n     Updated the default value of the encryption level setting to awskms for all AWS encryption plugins that have a desired encryption \r\n     level setting. This ensures that resources are checked to verify that they meet the required encryption level of awskms by default.\r\n\r\n**Domain Transfer Lock**\r\n     The plugin logic has been updated to verify supported domains.\r\n\r\n**EBS Snapshot Collection Limitation**\r\n     Starting next month, EBS snapshot collection will be limited to 30,000 snapshots from the most recent month. No snapshots older \r\n     than one month will be collected.\r\n\r\n**ELBv2 WAF Enabled**\r\n     Updated the plugin logic to check WAF status explicitly for Application Load Balancers only, rather than for all load balancers.\r\n\r\n**ELBv2 Unhealthy Instances**\r\n     Previously, the plugin did not show the resource ARN in the result. The plugin logic has been updated to correctly populate the \r\n     resource and provide accurate results.\r\n\r\n### Azure\r\n**App Service Plugins**\r\n        Updated to include new whitelist settings, ensuring that specific resources are exempt from checks. This update applies to the f                                \r\n       following plugins:\r\n\r\n- Authentication Enabled\r\n- HTTPS Only Enabled\r\n- Guest Level Diagnostics Enabled\r\n- Permissions Update\r\n\r\n\r\nAzure has renamed Security Center to Defender for Cloud. As a result, the following Azure plugins have been refactored to support Defender for Cloud:\r\n\r\n- Application Whitelisting Enabled\r\n- Auto Provisioning Enabled\r\n- High Severity Alerts Enabled\r\n- Monitor Endpoint Protection\r\n- Monitor External Accounts with Write Permissions\r\n- Monitor IP Forwarding\r\n- Monitor JIT Network Access\r\n- Monitor Next Generation Firewall\r\n- Monitor System Updates\r\n- Monitor Total Number of Subscription Owners\r\n- Security Configuration Monitoring\r\n- Security Contact Additional Email\r\n- Security Contact Enabled for Subscription Owner\r\n- Security Contacts Enabled\r\n- Standard Pricing Enabled",
+        "release_tag": "v3.9.0",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/m8sec/enumdb": {
         "created_at": "2020-01-10 18:38:12",
@@ -15744,14 +15745,14 @@
         "description": "中远麒麟堡垒机_堡垒机_一键安装支持多云及动态口令数据库审计的堡垒机_官网"
     },
     "https://github.com/DefectDojo/django-DefectDojo": {
-        "created_at": "2024-09-16 18:55:17",
+        "created_at": "2024-09-23 17:17:49",
         "description": " DevSecOps, ASPM, Vulnerability Management. All on one platform.",
         "commit_message": "Merge pull request #10885 from DefectDojo/release/2.38.1\n\nRelease: Merge release into master from: release/2.38.1",
         "commit_date": "2024-09-09 15:49:45",
-        "release_date": "2024-09-16 19:11:49",
-        "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.38.1\r\n- appcheck-severity-determination-fix Use v4, v3, v2 cvss vectors for severity @dogboat (#10918)\r\n- Fix metrics aggregation @dogboat (#10917)\r\n- [Helm] Fix typo in ingress netpol @C4tWithShell (#10898)\r\n- Manage not defined metadata in mitigations and add assumptions comments @arivra (#10897)\r\n- Fortify Parser: Fortification of the the FPR parsing @Maffooch (#10901)\r\n\r\n## 🚩 Changes to `settings.dist.py` / `local_settings.py`\r\n\r\n- Wiz Parser: Add SCA parser and fortify old format @Maffooch (#10905)\r\n- Add support for Invicti parser through Netsparker @Maffooch (#10894)\r\n\r\n## 🚀 API features and enhancements\r\n\r\n- JSON Parsing Errors: Make errors less verbose @Maffooch (#10891)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Product API scan config: Display view scan configs button for all products @Maffooch (#10889)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Product API scan config: Display view scan configs button for all products @Maffooch (#10889)\r\n",
-        "release_tag": "2.38.2",
-        "updated_at": "2024-09-22 11:23:45"
+        "release_date": "2024-09-23 17:24:39",
+        "release_message": "Please consult the [Upgrade notes in the documentation ](https://documentation.defectdojo.com/getting_started/upgrading/) for specific instructions for this release, and general upgrade instructions. Below is an automatically generated list of all PRs merged since the previous release.\r\n\r\n## Changes since 2.38.2\r\n- Parsers: Specify lists rather than `dict.values()` @Maffooch (#10945)\r\n- New Parser: Qualys Hacker Guardian @Maffooch (#10937)\r\n- fix(docker compose): Use 'docker compose' everywhere @kiblik (#10916)\r\n\r\n## 🚩 Changes to `settings.dist.py` / `local_settings.py`\r\n\r\n- Hacker One Parser: Add support for Bug Bounty Program reports @Maffooch (#10939)\r\n- :sparkles: implement krakend audit parser @manuel-sommer (#10924)\r\n\r\n## 🚀 General features and enhancements\r\n\r\n- Risk Exceptions: Add/Remove notes when finding is added/removed from risk exception @Maffooch (#10934)\r\n- User: Make email required at all times, password required for new users @Maffooch (#10938)\r\n\r\n## 🚀 API features and enhancements\r\n\r\n- Risk Exceptions: Add/Remove notes when finding is added/removed from risk exception @Maffooch (#10934)\r\n- User: Make email required at all times, password required for new users @Maffooch (#10938)\r\n- Prefetching: Add swagger docs for models already supporting prefetching @Maffooch (#10931)\r\n- Prefetch Serialization: Add a preference during mapping @Maffooch (#10933)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- Semgrep Parser: Add new severities @Maffooch (#10936)\r\n- Prefetching: Add swagger docs for models already supporting prefetching @Maffooch (#10931)\r\n- Manage Images: Do not display thumbnail for PDF @Maffooch (#10932)\r\n- Prefetch Serialization: Add a preference during mapping @Maffooch (#10933)\r\n\r\n## 🖌 Updates in UI\r\n\r\n- Manage Images: Do not display thumbnail for PDF @Maffooch (#10932)\r\n- Metrics findings tests @dogboat (#10930)\r\n- feat(members): List global role members in Prod and ProdType @kiblik (#10850)\r\n\r\n## 🧰 Maintenance\r\n\r\n- GHA: Remove Docker Caches @Maffooch (#10928)\r\n- GHA Release: Update settings SHA when creating PR from master @Maffooch (#10927)\r\n",
+        "release_tag": "2.38.3",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://gitee.com/gy071089/SecurityManageFramwork": {
         "status_code": 200,
@@ -16591,15 +16592,15 @@
         "commit_date": "2024-07-01 13:23:19"
     },
     "https://github.com/P001water/P1finger": {
-        "created_at": "2024-08-27 11:30:17",
+        "created_at": "2024-09-25 03:38:23",
         "description": "P1finger - 红队行动下的重点资产指纹识别工具",
         "commit_message": "Create main.go",
         "commit_date": "2024-09-02 11:00:03",
-        "release_date": "2024-08-27 11:34:23",
-        "release_message": "1. 部分指纹更新\r\n2. [功能添加] 添加指定自定义指纹目录功能",
+        "release_date": "2024-09-25 03:43:01",
+        "release_message": "1. 添加输出到excel表功能\r\n2. 添加部分指纹",
         "bucket": true,
-        "release_tag": "P1finger_0.0.2",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_tag": "P1finger_0.0.3",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/httpwaf/httpwaf2.0": {
         "created_at": "2021-12-02 02:27:57",
@@ -16608,14 +16609,14 @@
         "commit_date": "2024-06-13 02:24:03"
     },
     "https://github.com/outlaws-bai/Galaxy": {
-        "created_at": "2024-08-30 18:17:30",
+        "created_at": "2024-09-22 11:56:51",
         "description": "Burp插件，通过自定义hook脚本自动解密报文，让你像测试明文一样简单。A Burp plugin that automatically decrypts messages by custom hook scirpt, making it as simple as testing plaintext.",
         "commit_message": "Update README.md",
         "commit_date": "2024-09-05 15:17:58",
-        "release_date": "2024-08-30 18:25:45",
-        "release_message": "## 功能更新\r\n\r\n1. 优化sm2加解密函数，支持传入原始公私钥\r\n2. 加解密工具类增加RC4算法\r\n3. 解除必须使用jdk启动的限制，但如果不用jdk，httphook-js，httphook-java将不能使用\r\n4. 增加一些与sqlmap及被动代理扫描器联动的右键\r\n5. 修改常规情况、联动sqlmap、联动被动代理扫描器时的标记头为不同的\r\n6. UI更新\r\n## 问题修复\r\n\r\n...\r\n## 注意事项\r\n如果你下载或打包后的jar包含 without-jython 字样，请在Burp的Java environment(Settings -> Extensions)配置一个文件夹，并将 jython-standalone-xxx.jar 放在该文件夹。[Download](https://www.jython.org/download)",
-        "release_tag": "3.1.0",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-09-22 12:16:40",
+        "release_message": "## 功能更新\r\n\r\n1. request对象增加FormData的getter，setter，以支持form-data格式的请求\r\n2. 增加名为 http 的hook方式\r\n3. 使用graaljs替换原使用nashorn来执行js，以支持更多的js语法\r\n4. 引入graalpy来支持python3\r\n5. 新增密文在get-query、post-form、post-formdata中，对其进行修改的示例\r\n\r\n## 问题修复\r\n\r\n1. 修复没有通过表达式检查，但仍然输出请求日志的问题\r\n2. 修复如果某次启动httphook失败，下一次必然报错的问题\r\n\r\n## 注意事项\r\n\r\n**不同jar包支持的hook方式**：\r\n- Galaxy-x.x.x-graalpy.jar ：graalpy、http、java（满足条件1开启）、jython（满足条件2开启)\r\n- Galaxy-x.x.x-js.jar ：js、http、java（满足条件1开启）、jython（满足条件2开启)\r\n- Galaxy-x.x.x-grpc.jar ：grpc、http、java（满足条件1开启）、jython（满足条件2开启)\r\n\r\n> graalpy 语法为 python3.11，jython 语法为 python2.7\r\n\r\n条件1：启动Burp的是JDK，而不是JRE。[Modify](https://github.com/outlaws-bai/Galaxy/blob/main/docs/ToJDK.md)\r\n条件2：在Burp的Java environment(Settings -> Extensions)配置一个文件夹，并将 jython-standalone-xxx.jar 放在该文件夹。[Download](https://www.jython.org/download)\r\n",
+        "release_tag": "3.2.0",
+        "updated_at": "2024-09-25 21:04:24"
     },
     "https://github.com/Fheidt12/Windows_Memory_Search": {
         "created_at": "2024-08-14 07:16:37",
@@ -17433,26 +17434,6 @@
         "title": "",
         "bucket": true
     },
-    "https://darkside.com.au/snow/": {
-        "created_at": "2024-09-21 12:17:44",
-        "updated_at": "2024-09-21 12:17:44",
-        "status_code": 200,
-        "title": "The SNOW Home Page"
-    },
-    "https://darkside.com.au/snow": {
-        "created_at": "2024-09-21 12:17:44",
-        "updated_at": "2024-09-21 12:17:44",
-        "status_code": 200,
-        "title": "The SNOW Home Page",
-        "bucket": true
-    },
-    "https://www.qsl.net/on6mu/rxsstv.htm": {
-        "created_at": "2024-09-21 12:17:44",
-        "updated_at": "2024-09-21 12:17:44",
-        "status_code": 200,
-        "title": "RX-SSTV: Freeware SSTV Software and SSTV Decoder",
-        "bucket": true
-    },
     "https://github.com/qianxiao996/ctf-knife": {
         "created_at": "2023-11-07 07:04:38",
         "description": "编码解码工具",
@@ -17473,17 +17454,6 @@
         "release_date": "2022-01-18 08:03:21",
         "release_message": "CaptfEncoder-3.1.2",
         "release_tag": "3.1.2",
-        "bucket": true
-    },
-    "https://github.com/TajangSec/silenteye": {
-        "created_at": "2024-08-16 08:36:08",
-        "description": "silenteye-便携版，silenteye-0.4.1-Portable",
-        "updated_at": "2024-09-22 11:21:04",
-        "commit_message": "Update README.md",
-        "commit_date": "2024-08-16 08:44:31",
-        "release_date": "2024-08-16 08:43:33",
-        "release_message": "在这下载哦",
-        "release_tag": "0.4.1",
         "bucket": true
     },
     "https://github.com/jar-analyzer/jar-analyzer": {
@@ -17777,14 +17747,14 @@
         "bucket": true
     },
     "https://github.com/hrpzcf/HashCalculator": {
-        "created_at": "2024-07-21 14:35:43",
+        "created_at": "2024-09-22 07:00:05",
         "description": "一个哈希值计算工具，批量计算/批量校验/查找重复文件/改变哈希值等，支持集成到系统右键菜单",
-        "updated_at": "2024-09-22 11:21:04",
+        "updated_at": "2024-09-25 21:04:24",
         "commit_message": "计算文件哈希值时暂停的时长不再计入“计算耗时”中",
         "commit_date": "2024-09-18 14:41:27",
-        "release_date": "2024-07-21 14:44:52",
-        "release_message": "1. 【界面设置选项】页增加用于控制是否显示主窗口工具按钮的设置项【显示主窗口工具按钮】\r\n\r\n附件哈希值：\r\n`#SHA-256 *89098e00a83a099eef48d765a82dea8cf86cf218417ae3e476215f100925deff *HashCalculator-5.26.0.zip`\r\n",
-        "release_tag": "5.26.0",
+        "release_date": "2024-09-22 07:30:26",
+        "release_message": "1. 在【常规设置选项】页增加【通过命令行、系统右键菜单、关联的文件启动计算前先将表格现有的内容清空】并实现其功能\r\n2. 删除主窗口顶部的【关于】按钮，原【关于】窗口的内容移到【设置】窗口的【关于软件】页\r\n3. 在【界面设置】页增加单独控制主窗口各个工具按钮是否显示的设置项\r\n4. 增加两个校验依据解析方案（通用五）和（通用六）\r\n    - 想要看到新增的解析方案，需要重置解析方案。如果有自定义的解析方案，请先把它们复制到其他位置保存，重置方案后再重新添加，否则自定义方案将丢失！\r\n5. 当无法从校验依据文件获知算法类型时，将默认依据的算法与启动校验时用户指定的算法相同\r\n    - 当“校验依据文件内记录的哈希值长度”与“启动校验时指定的算法的结果应有的长度”不匹配时，或者启动校验时未指定算法，则行为仍然与旧版相同\r\n6. 修复不清空表格的情况下选择校验依据手动进行校验时，如果校验依据内是文件相对路径而不是文件名，会导致校验结果是“无关联”的问题\r\n7. 修复当使用命令行参数启动 HashCalculator 时，如果传入的哈希算法参数是算法别名，HashCalculator 不能识别别名的问题\r\n8. 为【配置文件保存位置】增加【公用用户目录】和【程序数据目录】选项\r\n9. 计算文件哈希值时暂停的时长不再计入“计算耗时”中\r\n10. 【完整路径】列、【操作目标】列、【任务耗时】列改为可点击表头排序\r\n11. 新增设置项【所有计算任务完成后清除所有行的被选中状态】并实现功能\r\n\r\n附件哈希值：\r\n`#SHA-256 *b56d164d518f954cbe73a9020c7377f7e3b15be41c29e6c237add157cf335fdc *HashCalculator-5.27.0.zip`\r\n",
+        "release_tag": "5.27.0",
         "bucket": true
     },
     "https://github.com/huiyadanli/RevokeMsgPatcher": {
@@ -18015,14 +17985,14 @@
         "bucket": true
     },
     "https://github.com/siyuan-note/siyuan": {
-        "created_at": "2024-09-10 02:24:51",
+        "created_at": "2024-09-24 01:46:43",
         "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
-        "updated_at": "2024-09-22 11:21:04",
+        "updated_at": "2024-09-25 21:04:24",
         "commit_message": ":bookmark: Release v3.1.6",
         "commit_date": "2024-09-10 02:24:51",
-        "release_date": "2024-09-10 06:05:06",
-        "release_message": "## Overview\r\n\r\nThis version improves many details and enhances performance and stability.\r\n\r\n## Changelogs\r\n\r\nBelow are the detailed changes in this version.\r\n\r\n### Enhancement\r\n\r\n* [Improve dynamic anchor text and ref count auto-refresh stability](https://github.com/siyuan-note/siyuan/issues/8234)\r\n* [Catch SEND intents to import text on Android](https://github.com/siyuan-note/siyuan/issues/11187)\r\n* [The interface will no longer be refreshed after find-replace](https://github.com/siyuan-note/siyuan/issues/11844)\r\n* [The font size can be prompted when quickly adjusting the font size](https://github.com/siyuan-note/siyuan/issues/12007)\r\n* [Improve database primary key field binding blocks](https://github.com/siyuan-note/siyuan/issues/12020)\r\n* [iOS will display a white screen when clicking on a link without a protocol](https://github.com/siyuan-note/siyuan/issues/12038)\r\n* [Improve database attribute panel asset field editing](https://github.com/siyuan-note/siyuan/issues/12044)\r\n* [`Convert to blockquote` supports config keymaps](https://github.com/siyuan-note/siyuan/issues/12069)\r\n* [Improve /menu editing](https://github.com/siyuan-note/siyuan/issues/12072)\r\n* [Automatically refresh database views after deleting/rolling back documents](https://github.com/siyuan-note/siyuan/issues/12081)\r\n* [Improve code block Ctrl+A copying](https://github.com/siyuan-note/siyuan/issues/12129)\r\n* [De-duplication of backlinks after referencing multiple blocks in the same block](https://github.com/siyuan-note/siyuan/issues/12147)\r\n* [Improve folding the heading](https://github.com/siyuan-note/siyuan/issues/12205)\r\n* [Improve result msg tip for `Remove unreferenced assets`](https://github.com/siyuan-note/siyuan/issues/12226)\r\n* [Search results should remain unchanged after downloading or deleting the marketplace package](https://github.com/siyuan-note/siyuan/issues/12252)\r\n* [Improve reference relationship update after moving blocks](https://github.com/siyuan-note/siyuan/issues/12324)\r\n* [Add default alignment to tables](https://github.com/siyuan-note/siyuan/issues/12360)\r\n* [Improve code block line number calculation](https://github.com/siyuan-note/siyuan/issues/12382)\r\n* [Refresh the editor after rolling back the document](https://github.com/siyuan-note/siyuan/issues/12397)\r\n* [Improve list item convert to doc](https://github.com/siyuan-note/siyuan/issues/12411)\r\n* [Creating a dailynote template supports the doc icon](https://github.com/siyuan-note/siyuan/issues/12416)\r\n* [Improve document tree expansion and database loading performance](https://github.com/siyuan-note/siyuan/issues/12428)\r\n\r\n### Bugfix\r\n\r\n* [The sorting of fields in the database attribute panel is unstable](https://github.com/siyuan-note/siyuan/issues/12043)\r\n* [Right-clicking a formula block may bring up the wrong menu](https://github.com/siyuan-note/siyuan/issues/12292)\r\n* [Modifications to the link column in the database attribute panel do not take effect immediately](https://github.com/siyuan-note/siyuan/issues/12386)\r\n\r\n### Refactor\r\n\r\n* [Refactor Yoda style conditions in Go code](https://github.com/siyuan-note/siyuan/pull/12385)\r\n* [Implement some delayed kernel events using task queues](https://github.com/siyuan-note/siyuan/issues/12393)\r\n\r\n### Development\r\n\r\n* [Kernel serve WebDAV service on path `/webdav/`](https://github.com/siyuan-note/siyuan/pull/12412)\r\n\r\n## Download\r\n\r\n* [B3log](https://b3log.org/siyuan/en/download.html)\r\n* [GitHub](https://github.com/siyuan-note/siyuan/releases)\r\n",
-        "release_tag": "v3.1.6",
+        "release_date": "2024-09-24 06:10:56",
+        "release_message": "## Overview\r\n\r\nThis version improves many details and enhances performance and stability.\r\n\r\n## Changelogs\r\n\r\nBelow are the detailed changes in this version.\r\n\r\n### Enhancement\r\n\r\n* [Persistent document tree expansion state](https://github.com/siyuan-note/siyuan/issues/10652)\r\n* [Improve visual flickering in database drag & drop](https://github.com/siyuan-note/siyuan/issues/10730)\r\n* [Browser clipping extension supports configuring document tags](https://github.com/siyuan-note/siyuan/issues/10797)\r\n* [Parsing YAML Front Matter as document custom attributes when importing Markdown files](https://github.com/siyuan-note/siyuan/issues/10878)\r\n* [Highlight regular expression search results](https://github.com/siyuan-note/siyuan/issues/11112)\r\n* [Supports disabling Markdown `*` and `_` syntax input](https://github.com/siyuan-note/siyuan/issues/11206)\r\n* [Browser clipping extension supports path selection](https://github.com/siyuan-note/siyuan/issues/11467)\r\n* [Add a template function `getHPathByID`](https://github.com/siyuan-note/siyuan/issues/11734)\r\n* [Improve the interactive effect of dragging blocks](https://github.com/siyuan-note/siyuan/issues/11751)\r\n* [Improve code block chart paste-rendering](https://github.com/siyuan-note/siyuan/issues/11972)\r\n* [Improve database date field pasting](https://github.com/siyuan-note/siyuan/issues/11973)\r\n* [Improve database relation and rollup field exporting](https://github.com/siyuan-note/siyuan/issues/12003)\r\n* [Automatically refresh the outline after redoing the heading](https://github.com/siyuan-note/siyuan/issues/12030)\r\n* [Support converting single heading and list into blockquote](https://github.com/siyuan-note/siyuan/issues/12073)\r\n* [Improve export of heading levels in embedded blocks](https://github.com/siyuan-note/siyuan/issues/12233)\r\n* [Improve inline element editing](https://github.com/siyuan-note/siyuan/issues/12234)\r\n* [Support setting height for images](https://github.com/siyuan-note/siyuan/issues/12423)\r\n* [Refresh result list after find-replace](https://github.com/siyuan-note/siyuan/issues/12437)\r\n* [After rolling back doc refresh other associated blocks](https://github.com/siyuan-note/siyuan/issues/12438)\r\n* [After find-replacing block refresh other associated blocks](https://github.com/siyuan-note/siyuan/issues/12439)\r\n* [Authorization is no longer required when exporting compressed packages in formats such as markdown](https://github.com/siyuan-note/siyuan/issues/12442)\r\n* [Improve database block/text/asset/template/relation/rollup field sorting](https://github.com/siyuan-note/siyuan/issues/12454)\r\n* [When rolling back a snapshot, a snapshot is created for the current data by default](https://github.com/siyuan-note/siyuan/issues/12470)\r\n* [Loading screen popup messages no longer block UI loading](https://github.com/siyuan-note/siyuan/issues/12476)\r\n* [Automatically refresh reference counts after adding or removing embed blocks](https://github.com/siyuan-note/siyuan/issues/12480)\r\n* [Improve database url and asset field exporting](https://github.com/siyuan-note/siyuan/issues/12484)\r\n* [Improve cloud data synchronization stability](https://github.com/siyuan-note/siyuan/issues/12543)\r\n* [Data snapshot support pagination navigation](https://github.com/siyuan-note/siyuan/pull/12548)\r\n* [Internationalization supports Italian language](https://github.com/siyuan-note/siyuan/pull/12562)\r\n* [File history support pagination navigation](https://github.com/siyuan-note/siyuan/pull/12563)\r\n\r\n### Bugfix\r\n\r\n* [Replace fails when search results contain mixed case in text elements](https://github.com/siyuan-note/siyuan/issues/9171)\r\n* [Split-screen content blocks are out of sync after focusing](https://github.com/siyuan-note/siyuan/issues/12132)\r\n* [After the image is set to center, the width cannot be adjusted through the menu](https://github.com/siyuan-note/siyuan/issues/12217)\r\n* [An exception occurs after changing the text element in the table cell](https://github.com/siyuan-note/siyuan/issues/12300)\r\n* [Unable to set Flashcard FSRS Weights](https://github.com/siyuan-note/siyuan/issues/12453)\r\n* [Subdocument path not updated after moving parent document](https://github.com/siyuan-note/siyuan/issues/12493)\r\n* [Some PDF assets are not content searchable](https://github.com/siyuan-note/siyuan/issues/12536)\r\n* [Clicking the document tag in the graph reports an error](https://github.com/siyuan-note/siyuan/issues/12556)\r\n\r\n### Refactor\r\n\r\n* [Upgrade to Electron v30.5.1](https://github.com/siyuan-note/siyuan/issues/12457)\r\n\r\n### Development\r\n\r\n* [Add plugin event `opened-notebook` & `closed-notebook`](https://github.com/siyuan-note/siyuan/issues/11974)\r\n* [Add `data-id` attribute to the button of the block menu](https://github.com/siyuan-note/siyuan/pull/12525)\r\n* [Improve /menu](https://github.com/siyuan-note/siyuan/pull/12547)\r\n\r\n## Download\r\n\r\n* [B3log](https://b3log.org/siyuan/en/download.html)\r\n* [GitHub](https://github.com/siyuan-note/siyuan/releases)\r\n",
+        "release_tag": "v3.1.7",
         "bucket": true
     },
     "https://github.com/stefankueng/BowPad": {
@@ -18329,17 +18299,6 @@
         "release_tag": "v1.1",
         "bucket": true
     },
-    "https://github.com/libaibaia/cloudSec": {
-        "created_at": "2024-07-01 07:13:06",
-        "description": "云安全利用工具-云平台AK/SK-WEB利用工具，添加AK/SK自动检测资源，无需手动执行，支持云服务器、存储桶、数据库操作",
-        "updated_at": "2024-09-22 11:21:04",
-        "commit_message": "修复印度区域关闭问题",
-        "commit_date": "2024-08-12 11:49:59",
-        "release_date": "2024-08-12 11:23:14",
-        "release_message": "- 更新印度区域关停导致ecs获取卡死的问题。\r\n- 修改超时时间为60秒。",
-        "release_tag": "v1.2.2",
-        "bucket": true
-    },
     "https://github.com/f0ng/poc2jar": {
         "created_at": "2024-02-25 11:47:56",
         "description": "Java编写，Python作为辅助依赖的漏洞验证、利用工具，添加了进程查找模块、编码模块、命令模块、常见漏洞利用GUI模块、shiro rememberMe解密模块，加快测试效率",
@@ -18504,17 +18463,6 @@
         "release_date": "2024-07-19 11:10:48",
         "release_message": "## 更新日志\r\n\r\n**注意**：本次升级涉及较大配置文件变动。推荐在备份好原配置文件后删除旧文件，并根据新的 example 配置文件重新编写配置。如果未进行变更，系统会将配置文件进行备份，使用默认配置进行扫描。\r\n\r\n---\r\n\r\n### 修复问题\r\n\r\n1. **修复 Ctrl-C 无法中断扫描的问题**：\r\n    - 修复了在扫描过程中按 Ctrl-C 无法中断操作的问题，提升用户体验。\r\n\r\n### 优化改进\r\n\r\n1. **优化 debug 输出内容**：\r\n    - 改进了调试信息的输出格式，使信息更加明确和美观，便于调试和排查问题。\r\n\r\n2. **提高扫描性能，降低内存占用**：\r\n    - 修复 go html 库的 maxbuf 配置未导出导致的可能存在的内存溢出问题。\r\n    - 为响应数据的图标和标题增加了缓存机制，提升处理效率。\r\n    - 增加 HTML 解析的最大长度限制，防止解析过长数据导致的问题。\r\n    - 修复上游正则库中的垃圾回收（GC）问题，提升系统稳定性。\r\n    - 优化插件执行效率，使扫描过程更为高效。\r\n    - 优化缓存机制，减少内存使用量。\r\n\r\n### 新增功能\r\n\r\n1. **新增 example 配置文件，减少非常用配置变更带来的冲突问题**：\r\n    - 新版本 xray 2.0 系列工具会创建一个 example 文件，不再创建默认配置文件。用户可以复制 example 文件并去掉 example 后缀，然后修改其中内容。\r\n\r\n2. **YAML 插件变化**：\r\n    - 新增 `print` 函数：方便在调试场景下打印信息。\r\n    - 新增 `uuid` 函数：支持生成随机的 UUID。\r\n    - 新增 `format` 函数：支持格式化字符串，可以通过指定对齐字符、前缀和步进参数来调整字符串的显示样式。\r\n    - 新增 `bload` 函数：支持将字符串数据按照特定编码规则转换为字节序列。\r\n    - 新增 `gzip` 函数：支持对字符串或字节序列数据进行 GZIP 压缩。\r\n    - 新增 `decToHex` 函数：支持将十进制转换为十六进制。\r\n    - 在 YAML 插件中，定义变量时，下划线开头的变量将不会输出：\r\n        - 这样在输出时，JSON 中不会包含某些不希望输出的变量值。\r\n    - 增强 YAML 插件的鲁棒性，支持在函数中填写不同数据类型。所有只能填写字符串或字节的数据项，两者都可以填写，不再报错。\r\n    - 支持函数调用和方法调用两种方式，即 `func(v1,v2)` 和 `v1.func(v2)` 均可，不再报错。\r\n    - 修复 `icon` 函数，使其行为逻辑与 `getIconContent` 函数保持一致。\r\n    - udp/tcp的request支持获取addrType类型的参数\r\n\r\n3. **支持在未配置的情况下调用 dnslog.cn 进行漏洞检测**：\r\n    - 新增对 dnslog.cn 的支持，即使未进行相关配置也能使用该服务进行漏洞检测。\r\n\r\n### 其他改进\r\n\r\n1. **修复缓存和不合理的超时配置导致的扫描结果不稳定问题**：\r\n    - 改进缓存机制和超时配置，解决因配置不当导致的扫描结果不稳定问题。\r\n\r\n2. **为 group 命令添加 path 约定**：\r\n    - 为 `group` 命令添加路径约定，以便使用 `group` 文件的相对路径。在 `group` 中使用 `{{path}}` 将用 `group` 文件本身的路径替换该内容。\r\n\r\n3. **新特性：多目标输入支持多个 -t 参数**：\r\n    - 取消多目标输入时使用逗号分隔的方式，改为支持以多个 `-t` 输入多个目标，因为 URL 中可能存在逗号，避免冲突。",
         "release_tag": "0.1.0",
-        "bucket": true
-    },
-    "https://github.com/zhensuibianwan/pppscan": {
-        "created_at": "2024-06-02 08:57:16",
-        "description": null,
-        "updated_at": "2024-09-22 11:21:04",
-        "commit_message": "first",
-        "commit_date": "2024-06-02 08:57:16",
-        "release_date": "2024-06-11 01:59:03",
-        "release_message": "# pppscan V1.1.2\r\n更新内容：\r\n1、取消本地mysql，改为内置sqlite\r\n2、支持更低的tls协议\r\n3、sqlite数据库内置约2000条指纹",
-        "release_tag": "v1.1.2",
         "bucket": true
     },
     "https://github.com/7kbstorm/7kbscan-WebPathBrute": {
@@ -18858,17 +18806,6 @@
         "commit_date": "2024-09-05 05:16:54",
         "bucket": true
     },
-    "https://github.com/wwxiaoqi/ZipCenOp": {
-        "created_at": "2024-05-30 06:09:01",
-        "description": null,
-        "updated_at": "2024-09-22 11:21:04",
-        "commit_message": "feat: first submission",
-        "commit_date": "2024-05-30 06:09:01",
-        "release_date": "2024-05-30 06:11:55",
-        "release_message": "md5:\r\nB3FA4007E1882F20ECB5D83C74905420\r\n\r\nsha256:\r\nCA66C2CA3127350FE28CFEDD6A562FF847A231BB5844BA673A6FFADDBD05907C\r\n\r\n",
-        "release_tag": "v1.0.0",
-        "bucket": true
-    },
     "https://github.com/kimci86/bkcrack": {
         "created_at": "2024-05-26 12:42:57",
         "description": "Crack legacy zip encryption with Biham and Kocher's known plaintext attack.",
@@ -18889,36 +18826,6 @@
         "release_date": "2023-06-15 05:32:33",
         "release_message": "1.5",
         "release_tag": "v1.5",
-        "bucket": true
-    },
-    "https://github.com/Jpinsoft/DeepSound": {
-        "created_at": "2024-01-27 12:21:11",
-        "description": "Official DeepSound repository migrated from jpinsoft.net. DeepSound is a freeware steganography tool and audio converter that hides secret data into audio files. The application also enables you to extract secret files directly from audio files or audio CD tracks. ",
-        "updated_at": "2024-09-22 11:21:04",
-        "commit_message": "Readme upgrade v2.2",
-        "commit_date": "2024-04-15 18:11:56",
-        "release_date": "2024-04-04 16:57:39",
-        "release_message": " What's new in DeepSound 2.2\r\n\r\n- FIXED BUG: application crash during processing read-only file\r\n- ENHANCEMENT: Converter module error handling\r\n- FIXED BUG: incorrect cancellation of reading audio CD\r\n \r\nSystem requirements:\r\n - Windows 10/11\r\n - Microsoft .NET Framework 4.8",
-        "release_tag": "v2.2.2404.04",
-        "bucket": true
-    },
-    "https://github.com/MIUIEI/MP3Steno": {
-        "created_at": "2021-12-31 14:52:43",
-        "description": null,
-        "updated_at": "2024-09-22 11:21:04",
-        "commit_message": "Create README.md",
-        "commit_date": "2021-12-31 14:54:41",
-        "bucket": true
-    },
-    "https://github.com/Moxin1044/DTMF2NUM": {
-        "created_at": "2023-02-27 16:27:29",
-        "description": "DTMF2NUM",
-        "updated_at": "2024-09-22 11:21:04",
-        "commit_message": "New",
-        "commit_date": "2023-02-27 16:27:29",
-        "release_date": "2023-02-27 16:40:36",
-        "release_message": "http://aluigi.altervista.org/mytoolz.htm#dtmf2num中得到的Dtmf2num 0.2",
-        "release_tag": "new",
         "bucket": true
     },
     "https://github.com/2740908911/Pilot-Web": {
@@ -18967,6 +18874,318 @@
         "updated_at": "2024-09-22 11:21:04",
         "commit_message": "update",
         "commit_date": "2020-04-12 03:41:03",
+        "bucket": true
+    },
+    "http://www.compression.ru/video": {
+        "created_at": "2024-09-25 20:51:02",
+        "updated_at": "2024-09-25 20:51:02",
+        "status_code": 200,
+        "title": "MSU Video Group / Video data filtering and compression",
+        "bucket": true
+    },
+    "https://www.google.com/chrome": {
+        "created_at": "2024-09-25 20:51:02",
+        "updated_at": "2024-09-25 20:51:02",
+        "status_code": 200,
+        "title": "Google Chrome Web Browser",
+        "bucket": true
+    },
+    "https://www.mozilla.org/firefox/": {
+        "created_at": "2024-09-25 20:51:02",
+        "updated_at": "2024-09-25 20:51:02",
+        "status_code": 200,
+        "title": "Get Firefox browser — Mozilla (US)",
+        "bucket": true
+    },
+    "https://pilotfiber.dl.sourceforge.net/project/steghideui": {
+        "created_at": "2024-09-25 20:51:02",
+        "updated_at": "2024-09-25 20:51:02",
+        "status_code": 403,
+        "title": "Just a moment...",
+        "bucket": true
+    },
+    "https://mkvtoolnix.download/": {
+        "created_at": "2024-09-25 20:51:02",
+        "updated_at": "2024-09-25 20:51:02",
+        "status_code": 200,
+        "title": "MKVToolNix news – Matroska tools for Linux/Unix and Windows",
+        "bucket": true
+    },
+    "https://github.com/alexbers/substitution_cipher_solver": {
+        "created_at": "2012-12-25 17:59:31",
+        "description": "Simple substitution cipher solver.",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Merge pull request #2 from m-muzafarov/patch-1\n\nlogging to a file",
+        "commit_date": "2013-05-21 13:00:05",
+        "bucket": true
+    },
+    "https://github.com/20142995/vigenere-solver": {
+        "created_at": "2024-09-21 05:29:17",
+        "description": "维吉尼亚密码加密解密程序，包含自动猜测密钥功能",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "O(∩_∩)O",
+        "commit_date": "2024-09-21 05:29:17",
+        "release_date": "2024-09-21 05:35:18",
+        "release_message": "",
+        "release_tag": "1.0",
+        "bucket": true
+    },
+    "https://github.com/20142995/bo_ctfcode": {
+        "created_at": "2024-09-24 11:17:53",
+        "description": null,
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-09-24 11:26:51",
+        "release_date": "2024-09-24 11:20:47",
+        "release_message": "",
+        "release_tag": "6.2",
+        "bucket": true
+    },
+    "https://github.com/cxasm/notepad--": {
+        "created_at": "2024-07-23 09:13:29",
+        "description": "一个支持windows/linux/mac的文本编辑器，目标是做中国人自己的编辑器，来自中国。",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-07-23 09:13:29",
+        "release_date": "2024-09-24 09:09:09",
+        "release_message": "常见问题还请先看手册,见ndd-v2.19说明书。\r\n\r\n**windows**\r\n\r\nNotepad--v2.19.0-plugin-Installer.exe 是win10下面的插件版安装包，会关联右键菜单等。\r\n\r\nNotepad--v2.19.0-win10-portable.zip 是绿色免安装版本，解压即用，不会关联右键菜单注册表。\r\n\r\n**windows-qt6 测试版本**\r\n\r\nNotepad--v2.19.0-qt6-portable.zip 是windwos下qt6的版本，qt6对高清屏幕适应更好。目前还是测试预览版，暂时不放在gitee。网盘位置：[https://www.123pan.com/s/DkxzVv-BwJVh.html](https://gitee.com/link?target=https%3A%2F%2Fwww.123pan.com%2Fs%2FDkxzVv-BwJVh.html)\r\n如果您使用高清大屏，愿意帮助内测ndd qt6版本，还请在网盘自取。\r\n\r\n**MacOS 版本**\r\n\r\nNotepad--v2.19.0-mac_x64_12.3.dmg 是macos 12.x 及以后的版本。\r\n\r\nNotepad--v2.19.0-mac_arm64_12.3.dmg 是macos 12.x 及以后 arm64 m1/m2芯片 的版本。第一次安装时，需要在设置偏好里面，放开苹果的安装限制，才能正常识别，请自行放开设置一下。\r\n\r\n如果还是有问题，参考帖子：[#I8JTJN:macOS Sonoma 14.1.1安装提示已损坏](https://gitee.com/cxasm/notepad--/issues/I8JTJN):macOS Sonoma 14.1.1安装提示已损坏:macOS Sonoma 14.1.1安装提示已损坏\r\n\r\ngithub提交不了，统一到sourceforget下载。\r\n\r\n**2.19 修改说明：**\r\n\r\n修复一些列bug或完善细节；\r\n\r\n增加万能文本处理工具\r\n\r\n[![Download Notepad--](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/notepad-dd/files/notepad-v2.19/)",
+        "release_tag": "notepad-v2.19",
+        "bucket": true
+    },
+    "https://github.com/yhy0/ExpDemo-JavaFX": {
+        "created_at": "2021-03-27 11:51:24",
+        "description": "图形化漏洞利用Demo-JavaFX版",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Update README.md",
+        "commit_date": "2021-08-31 04:46:24",
+        "bucket": true
+    },
+    "https://github.com/BBD-YZZ/week-passwd": {
+        "created_at": "2024-09-14 08:28:01",
+        "description": "FTP,SSH,MYSQL,MSSQL等弱口令爆破工具！",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-09-24 09:14:20",
+        "release_date": "2024-09-24 09:06:30",
+        "release_message": "缝缝补补又一春！",
+        "release_tag": "v1.0.2",
+        "bucket": true
+    },
+    "https://github.com/thinkoaa/Dlam": {
+        "created_at": "2024-09-07 16:13:19",
+        "description": "反连助手：发现可以映射本地端口的互联网IP，本工具可从hunter、quake、fofa等网络空间测绘平台，收集、探测互联网IP，并通过配置文件中的端口映射关系，把本地端口映射到互联网IP指定的端口，已便反弹shell等场景下使用。",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-09-11 16:36:23",
+        "release_date": "2024-09-07 16:21:30",
+        "release_message": "1、可从hunter、quake、fofa查找、检测可以连接映射本地端口的互联网IP\r\n2、通过配置文件，把本地端口映射到互联网IP指定端口，以供通过互联网IP访问本地端口\r\n\r\n",
+        "release_tag": "reboundShell"
+    },
+    "https://github.com/sairson/Yasso": {
+        "created_at": "2022-01-28 13:44:26",
+        "description": "强大的内网渗透辅助工具集-让Yasso像风一样 支持rdp，ssh，redis，postgres，mongodb，mssql，mysql，winrm等服务爆破，快速的端口扫描，强大的web指纹识别，各种内置服务的一键利用（包括ssh完全交互式登陆，mssql提权，redis一键利用，mysql数据库查询，winrm横向利用，多种服务利用支持socks5代理执行）",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Merge pull request #18 from yihuaxiang/patch-1\n\nfeat(README.md): 修复错别字",
+        "commit_date": "2022-07-27 00:57:00",
+        "release_date": "2022-01-29 00:02:07",
+        "release_message": "修复一些bug，改进字典输入方式，支持 --ud \"user,administrator\" --pd \"kali,123456,admin@123\"格式的字典",
+        "release_tag": "v0.06-main",
+        "bucket": true
+    },
+    "https://github.com/yutianqaq/AVEvasionCraftOnline": {
+        "created_at": "2024-03-04 12:35:08",
+        "description": "An online AV evasion platform written in Springboot (Golang, Nim, C) supports embedded, local and remote loading of Shellocde methods.",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Update Templates",
+        "commit_date": "2024-05-05 05:33:49",
+        "release_date": "2024-03-10 09:24:59",
+        "release_message": "## 更新\r\n- 确保安装对应的编译器（go、nim、c），java 17 后即可开箱即用。\r\n解压后输入\r\n```\r\njava -jar -Dspring.config.location=application.yaml AVEvasionCraftOnline.jar --server.port=80\r\n```\r\n生成的压缩包密码为 yutian\r\n支持编译 nim、go、c 语言\r\n支持 3 种 shellcode 存储方式（内嵌、本地、远程）\r\n\r\nv1.3 \r\n新增 golang 版本的 8 种载入方式\r\n```sh\r\ngo_CertEnumSystemStore  go_EnumFontsW            go_FiberContextEdit  go_SetTimer          go_VirtualAlloc\r\ngo_EnumChildWindows     go_EnumResourceTypesExW  go_FlsAlloc          go_SymEnumProcesses\r\n``` \r\n```sh\r\nsha256sum AVEvasionCraftOnline.jar AVEvasionCraftOnline-v1.2.zip\r\n\r\nd0260f77967adbc56a892c735b126f049091b279a02f1997f37dd652dc2b4eab  AVEvasionCraftOnline.jar\r\n604bffa385991bc7a567c037755804ab64eef61767027025c320b978576f6c0a  AVEvasionCraftOnline-v1.2.zip\r\n                                                                                               \r\n```",
+        "release_tag": "v1.2"
+    },
+    "https://github.com/laziok/UsbMiceDataHacker2021": {
+        "created_at": "2021-07-11 02:57:44",
+        "description": "在WangYiHang代码的基础上，修复不能显示鼠标轨迹的问题。",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Add files via upload",
+        "commit_date": "2021-07-11 02:59:22",
+        "bucket": true
+    },
+    "https://github.com/agourlay/zip-password-finder": {
+        "created_at": "2024-09-21 19:25:45",
+        "description": "Find the password of protected ZIP files.",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Merge pull request #191 from agourlay/dependabot/cargo/thiserror-1.0.64\n\nBump thiserror from 1.0.63 to 1.0.64",
+        "commit_date": "2024-09-23 16:58:25",
+        "release_date": "2024-09-21 19:34:35",
+        "release_message": "- avoid false positive by validating file size when testing potential candidates (#185 )\r\n- fix count of possibilities based on min size (https://github.com/agourlay/zip-password-finder/issues/181)\r\n- display elapsed time (https://github.com/agourlay/zip-password-finder/issues/183)\r\n- fix imprecise error message (https://github.com/agourlay/zip-password-finder/issues/182)",
+        "release_tag": "v0.9.1",
+        "bucket": true
+    },
+    "https://github.com/Cliffordwr/cloacked-pixel-python3": {
+        "created_at": "2023-11-28 02:20:04",
+        "description": "cloacked-pixel-python3优化版本，带有是否有隐写判断，密码错误判断等",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "first commit",
+        "commit_date": "2023-09-23 12:26:44",
+        "bucket": true
+    },
+    "https://github.com/RobinDavid/LSB-Steganography": {
+        "created_at": "2012-07-27 19:47:29",
+        "description": "Python program to steganography files into images using the Least Significant Bit.",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Merge pull request #22 from samhilmw/master\n\nHandling Lossy formats for OutFile during encode",
+        "commit_date": "2020-06-12 17:03:02",
+        "bucket": true
+    },
+    "https://github.com/fire-keeper/BlindWatermark": {
+        "created_at": "2020-12-07 06:54:38",
+        "description": "使用盲水印保护创作者的知识产权using invisible watermark to protect creator's intellectual property",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "Merge pull request #27 from fire-keeper/dependabot/pip/opencv-python-4.2.0.32\n\nBump opencv-python from 4.1.0.25 to 4.2.0.32",
+        "commit_date": "2022-03-10 10:05:31",
+        "release_date": "2020-12-07 08:43:47",
+        "release_message": "感谢各位对本项目的支持",
+        "release_tag": "1.2",
+        "bucket": true
+    },
+    "https://github.com/20142995/traffic_extraction": {
+        "created_at": "2023-10-28 09:02:29",
+        "description": "基于tshark的流量提取，支持http流提取、tcp可见字符串提取",
+        "updated_at": "2024-09-25 20:51:05",
+        "commit_message": "1",
+        "commit_date": "2023-10-28 09:04:31",
+        "bucket": true
+    },
+    "https://www.bailer.at/wbstego": {
+        "created_at": "2024-09-25 21:02:50",
+        "updated_at": "2024-09-25 21:02:50",
+        "status_code": 200,
+        "title": "wbStego Steganography Tool",
+        "bucket": true
+    },
+    "https://www.qsl.net/on6mu/rxsstv.htm": {
+        "created_at": "2024-09-25 21:02:50",
+        "updated_at": "2024-09-25 21:02:50",
+        "status_code": 200,
+        "title": "RX-SSTV: Freeware SSTV Software and SSTV Decoder",
+        "bucket": true
+    },
+    "https://github.com/Lymphatus/caesium-image-compressor": {
+        "created_at": "2024-06-02 13:10:37",
+        "description": "Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG, WebP and TIFF formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.",
+        "updated_at": "2024-09-25 21:02:53",
+        "commit_message": "Recompress failed images #282",
+        "commit_date": "2024-08-23 17:14:09",
+        "release_date": "2024-06-02 13:25:37",
+        "release_message": "## What's New\r\n* Drag and drop on advanced import dialog list (#277)\r\n\r\n## What's Changed\r\n* Improvements for advanced import dialog (#277, #275)\r\n* Improved zh_CN translation (#276)\r\n* Fixed viewport on smaller screens (#274)\r\n\r\n**Full Changelog**: https://github.com/Lymphatus/caesium-image-compressor/compare/v2.7.0...v2.7.1",
+        "release_tag": "v2.7.1",
+        "bucket": true
+    },
+    "https://github.com/igdmapps/igdm": {
+        "created_at": "2022-04-18 09:25:06",
+        "description": "Desktop application for Instagram DMs",
+        "updated_at": "2024-09-25 21:02:53",
+        "commit_message": "blog: update followers export article to mention csv download option",
+        "commit_date": "2024-07-13 13:43:04",
+        "release_date": "2022-04-18 10:22:07",
+        "release_message": "* Fix login flow from returning 404 errors\r\n* Fix broken media messages",
+        "release_tag": "v3.0.4",
+        "bucket": true
+    },
+    "https://github.com/20142995/file": {
+        "created_at": "2023-05-12 10:48:26",
+        "description": null,
+        "updated_at": "2024-09-25 21:02:53",
+        "commit_message": "commit message",
+        "commit_date": "2023-05-12 10:48:26",
+        "release_date": "2024-09-24 11:46:12",
+        "release_message": "",
+        "release_tag": "PuzzleSolver.7z",
+        "bucket": true
+    },
+    "https://github.com/20142995/JavaJboss": {
+        "created_at": "2024-09-12 06:52:08",
+        "description": null,
+        "updated_at": "2024-09-25 21:02:53",
+        "commit_message": "Initial commit",
+        "commit_date": "2024-09-12 06:52:08",
+        "release_date": "2024-09-12 06:52:40",
+        "release_message": "",
+        "release_tag": "v1.0",
+        "bucket": true
+    },
+    "https://github.com/libaibaia/cloudSec": {
+        "created_at": "2024-07-01 07:13:06",
+        "description": "云安全利用工具-云平台AK/SK-WEB利用工具，添加AK/SK自动检测资源，无需手动执行，支持云服务器、存储桶、数据库操作",
+        "updated_at": "2024-09-25 21:02:53",
+        "commit_message": "修复印度区域关闭问题",
+        "commit_date": "2024-08-12 11:49:59",
+        "release_date": "2024-08-12 11:23:14",
+        "release_message": "- 更新印度区域关停导致ecs获取卡死的问题。\r\n- 修改超时时间为60秒。",
+        "release_tag": "v1.2.2",
+        "bucket": true
+    },
+    "https://github.com/zhensuibianwan/pppscan": {
+        "created_at": "2024-06-02 08:57:16",
+        "description": null,
+        "updated_at": "2024-09-25 21:02:53",
+        "commit_message": "first",
+        "commit_date": "2024-06-02 08:57:16",
+        "release_date": "2024-06-11 01:59:03",
+        "release_message": "# pppscan V1.1.2\r\n更新内容：\r\n1、取消本地mysql，改为内置sqlite\r\n2、支持更低的tls协议\r\n3、sqlite数据库内置约2000条指纹",
+        "release_tag": "v1.1.2",
+        "bucket": true
+    },
+    "https://github.com/wwxiaoqi/ZipCenOp": {
+        "created_at": "2024-05-30 06:09:01",
+        "description": null,
+        "updated_at": "2024-09-25 21:02:53",
+        "commit_message": "feat: first submission",
+        "commit_date": "2024-05-30 06:09:01",
+        "release_date": "2024-05-30 06:11:55",
+        "release_message": "md5:\r\nB3FA4007E1882F20ECB5D83C74905420\r\n\r\nsha256:\r\nCA66C2CA3127350FE28CFEDD6A562FF847A231BB5844BA673A6FFADDBD05907C\r\n\r\n",
+        "release_tag": "v1.0.0",
+        "bucket": true
+    },
+    "https://github.com/Jpinsoft/DeepSound": {
+        "created_at": "2024-01-27 12:21:11",
+        "description": "Official DeepSound repository migrated from jpinsoft.net. DeepSound is a freeware steganography tool and audio converter that hides secret data into audio files. The application also enables you to extract secret files directly from audio files or audio CD tracks. ",
+        "updated_at": "2024-09-25 21:02:53",
+        "commit_message": "Readme upgrade v2.2",
+        "commit_date": "2024-04-15 18:11:56",
+        "release_date": "2024-04-04 16:57:39",
+        "release_message": " What's new in DeepSound 2.2\r\n\r\n- FIXED BUG: application crash during processing read-only file\r\n- ENHANCEMENT: Converter module error handling\r\n- FIXED BUG: incorrect cancellation of reading audio CD\r\n \r\nSystem requirements:\r\n - Windows 10/11\r\n - Microsoft .NET Framework 4.8",
+        "release_tag": "v2.2.2404.04",
+        "bucket": true
+    },
+    "https://github.com/MIUIEI/MP3Steno": {
+        "created_at": "2021-12-31 14:52:43",
+        "description": null,
+        "updated_at": "2024-09-25 21:02:53",
+        "commit_message": "Create README.md",
+        "commit_date": "2021-12-31 14:54:41",
+        "bucket": true
+    },
+    "https://github.com/Moxin1044/DTMF2NUM": {
+        "created_at": "2023-02-27 16:27:29",
+        "description": "DTMF2NUM",
+        "updated_at": "2024-09-25 21:02:53",
+        "commit_message": "New",
+        "commit_date": "2023-02-27 16:27:29",
+        "release_date": "2023-02-27 16:40:36",
+        "release_message": "http://aluigi.altervista.org/mytoolz.htm#dtmf2num中得到的Dtmf2num 0.2",
+        "release_tag": "new",
+        "bucket": true
+    },
+    "https://github.com/TajangSec/silenteye": {
+        "created_at": "2024-08-16 08:36:08",
+        "description": "silenteye-便携版，silenteye-0.4.1-Portable",
+        "updated_at": "2024-09-25 21:02:53",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-16 08:44:31",
+        "release_date": "2024-08-16 08:43:33",
+        "release_message": "在这下载哦",
+        "release_tag": "0.4.1",
         "bucket": true
     }
 }

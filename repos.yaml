@@ -194,8 +194,6 @@ CTF:
             - https://ctfever.uniiem.com/tools/rot-series
         Rsa公私钥解析:
             - http://tool.chacuo.net/cryptrsakeyparse
-        SNOW隐写:
-            - https://darkside.com.au/snow/
         Serpent（蛇）加解密:
             - http://serpent.online-domain-tools.com/
             - http://tool.chacuo.net/cryptserpent
@@ -325,6 +323,8 @@ CTF:
             - https://github.com/guofei9987/text_blind_watermark
         普莱菲尔密码:
             - http://www.hiencode.com/playfair.html
+        替换密码:
+            - https://github.com/alexbers/substitution_cipher_solver
         栅栏密码(RailFence):
             - http://www.hiencode.com/railfence.html
             - https://ctf.bugku.com/tool/railfence
@@ -364,10 +364,12 @@ CTF:
             - http://www.hiencode.com/vigenere.html
             - https://ctf.bugku.com/tool/vigenere
             - https://ctfever.uniiem.com/tools/vigenereCipher
+            - https://github.com/20142995/vigenere-solver
             - https://www.guballa.de/vigenere-solver
             - https://www.mygeocachingprofile.com/codebreaker.vigenerecipher.aspx
             - https://www.qqxiuzi.cn/bianma/weijiniyamima.php
         编解码综合:
+            - https://github.com/20142995/bo_ctfcode
             - https://github.com/guyoung/CaptfEncoder
         编解码综合网站:
             - http://fbcs.bplaced.net/multi_encoder_decoder.html
@@ -429,9 +431,7 @@ CTF:
         自动拼图:
             - https://github.com/JamesHoi/PuzzleSolver
         隐写:
-            - http://www.zasi.org/DeEgger-Embedder.php
             - https://achorein.github.io/silenteye/
-            - https://github.com/TajangSec/silenteye
     Reverse:
         IDA插件:
             - https://github.com/harlamism/IdaClu
@@ -549,6 +549,7 @@ CTF:
         - https://github.com/whyour/qinglong
     待分类:
         - http://www.cnblogs.com/SEC-fsq/p/5610981.html
+        - http://www.compression.ru/video
         - http://www.everauto.net/cn/
         - https://apifox.com
         - https://app.interactsh.com
@@ -577,6 +578,7 @@ CTF:
         - https://github.com/chaitin/xray-plugins
         - https://github.com/chat2db/Chat2DB
         - https://github.com/cobbr/Covenant
+        - https://github.com/cxasm/notepad--
         - https://github.com/depler/curl-impersonate-win
         - https://github.com/docmirror/dev-sidecar
         - https://github.com/elddy/NimScan
@@ -637,10 +639,12 @@ CTF:
         - https://www.cpuid.com/softwares/cpu-z.html
         - https://www.ed-x.cc/index.html
         - https://www.emeditor.com/
+        - https://www.google.com/chrome
         - https://www.hostbuf.com/t/988.html
         - https://www.invicti.com/
         - https://www.isc.org/bind/
         - https://www.jam-software.com/treesize
+        - https://www.mozilla.org/firefox/
         - https://www.phpenv.cn/
         - https://www.postcat.com
         - https://www.screentogif.com/
@@ -866,6 +870,7 @@ CTF:
                 - https://github.com/irsdl/IIS-ShortName-Scanner
                 - https://github.com/lijiejie/IIS_shortname_Scanner
             JBoss:
+                - https://github.com/20142995/JavaJboss
                 - https://github.com/joaomatosf/jexboss
                 - https://github.com/yunxu1/jboss-_CVE-2017-12149
             Jeecg:
@@ -1232,6 +1237,7 @@ CTF:
             - https://github.com/nicolas-carolo/houndsploit
             - https://github.com/pureqh/Hyacinth
             - https://github.com/vulnersCom/getsploit
+            - https://github.com/yhy0/ExpDemo-JavaFX
             - https://gitlab.com/exploit-database/exploitdb
             - https://projectdiscovery.io
         编辑器漏洞:
@@ -1289,6 +1295,7 @@ CTF:
                 - https://www.sonarqube.org
             php:
                 - http://rips-scanner.sourceforge.net
+                - http://www.cnseay.com
                 - https://github.com/OneSourceCat/phpvulhunter
                 - https://github.com/Qihoo360/phptrace
                 - https://github.com/emanuil/php-reaper
@@ -1354,6 +1361,7 @@ CTF:
             - https://github.com/0-sec/zero-crack
             - https://github.com/22XploiterCrew-Team/WpCrack
             - https://github.com/7kbstorm/7kbscan-RDP-Sniper
+            - https://github.com/BBD-YZZ/week-passwd
             - https://github.com/Fly-Playgroud/Boom
             - https://github.com/Mebus/cupp
             - https://github.com/TideSec/web_pwd_common_crack
@@ -1465,6 +1473,7 @@ CTF:
             - https://github.com/jweny/pocassist
             - https://github.com/knownsec/Pocsuite
             - https://github.com/knownsec/pocsuite3
+            - https://github.com/knownsec/pocsuite3/
             - https://github.com/leonteale/pentestpackage
             - https://github.com/lijiaxing1997/Gr33k
             - https://github.com/m4n3dw0lf/PytheM
@@ -1479,7 +1488,6 @@ CTF:
             - https://github.com/yaklang/yakit
             - https://github.com/yangbh/Hammer
             - https://github.com/zaproxy/zaproxy
-            - https://github.com/zhensuibianwan/pppscan
             - https://nuclei.projectdiscovery.io
     云K8S基线核查:
         - https://github.com/aquasecurity/kube-bench
@@ -1699,6 +1707,7 @@ CTF:
             - https://github.com/qiwentaidi/Slack
             - https://github.com/rabbitmask/AssetsHunter
             - https://github.com/veo/vscan
+            - https://github.com/zhensuibianwan/pppscan
             - https://github.com/zhzyker/dismap
         网盘搜索:
             - http://www.soupan.info/
@@ -1805,6 +1814,7 @@ CTF:
             - https://github.com/sechelper/slcx
             - https://github.com/sensepost/reGeorg
             - https://github.com/snail007/goproxy
+            - https://github.com/thinkoaa/Dlam
             - https://github.com/yisier/nps
             - https://github.com/zema1/suo5
             - https://www.proxifier.com/
@@ -1852,6 +1862,7 @@ CTF:
             - https://github.com/inbug-team/SweetBabyScan
             - https://github.com/k8gege/LadonGo
             - https://github.com/lcvvvv/kscan
+            - https://github.com/sairson/Yasso
             - https://github.com/shadow1ng/fscan
         后渗透框架:
             - https://github.com/DeimosC2/DeimosC2
@@ -1956,6 +1967,7 @@ CTF:
                 - https://github.com/xiao-zhu-zhu/noterce
                 - https://github.com/yhy0/AVByPass
                 - https://github.com/yqcs/ZheTian
+                - https://github.com/yutianqaq/AVEvasionCraftOnline
             免杀相关:
                 图标提取:
                     - https://github.com/INotGreen/SharpThief
@@ -2380,6 +2392,7 @@ CTF:
             鼠标流量:
                 - https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer
                 - https://github.com/WangYihang/UsbMiceDataHacker
+                - https://github.com/laziok/UsbMiceDataHacker2021
         内存取证:
             - https://github.com/KDPryor/LinuxVolProfiles
             - https://github.com/Tokeii0/LovelyMem
@@ -2492,6 +2505,8 @@ CTF:
                 ZIP明文攻击:
                     - https://github.com/keyunluo/pkcrack
                     - https://github.com/kimci86/bkcrack
+                ZIP爆破:
+                    - https://github.com/agourlay/zip-password-finder
             图片:
                 png_LSB隐写:
                     - https://github.com/7thSamurai/steganography
@@ -2506,12 +2521,19 @@ CTF:
                 png_截图漏洞:
                     - https://github.com/frankthetank-music/Acropalypse-Multi-Tool
                 其他:
+                    - https://darkside.com.au/gifshuffle
                     - https://github.com/ImageMagick/ImageMagick
                     - https://github.com/x011/SecretPixel
                 图片分析:
                     - https://github.com/souno-io/Stegsolve
+                图片隐写:
+                    - http://www.zasi.org/DeEgger-Embedder.php
+                    - https://github.com/Cliffordwr/cloacked-pixel-python3
+                    - https://github.com/RobinDavid/LSB-Steganography
+                    - https://pilotfiber.dl.sourceforge.net/project/steghideui
                 盲水印:
                     - https://github.com/chishaxie/BlindWaterMark
+                    - https://github.com/fire-keeper/BlindWatermark
                     - https://github.com/guofei9987/blind_watermark
                     - https://github.com/linyacool/blind-watermark
                     - https://github.com/ww23/BlindWatermark
@@ -2524,8 +2546,11 @@ CTF:
                 - https://github.com/MIUIEI/MP3Steno
                 - https://github.com/Moxin1044/DTMF2NUM
                 - https://github.com/ON4QZ/QSSTV
+                - https://github.com/TajangSec/silenteye
                 - https://github.com/audacity/audacity
                 - https://github.com/ribt/dtmf-decoder
+                - https://mkvtoolnix.download/
+                - https://www.bailer.at/wbstego
                 - https://www.qsl.net/on6mu/rxsstv.htm
         相关资源:
             - https://github.com/XDforensics-wiki/XDforensics-wiki
@@ -2533,6 +2558,7 @@ CTF:
             Shiro流量取证:
                 - https://github.com/r00tuser111/SerializationDumper-Shiro
             冰蝎(Behinder)流量取证:
+                - https://github.com/20142995/file/releases/download/DecodertoWebshell_1.2.jar
                 - https://github.com/minhangxiaohui/DecodeSomeJSPWebshell
                 - https://github.com/webraybtl/webshell_detect
             哥斯拉(Godzilla)流量取证:
@@ -2700,6 +2726,7 @@ CTF:
         网络安全大模型:
             - https://github.com/Clouditera/secgpt
         网络流量分析:
+            - https://github.com/20142995/traffic_extraction
             - https://github.com/stamparm/maltrail
             - https://www.kismetwireless.net/
             - https://www.zeek.org
@@ -2756,7 +2783,6 @@ CTF:
         Web层面:
             webshell后门:
                 - http://www.shelldetector.com/
-                - https://github.com/20142995/file/releases/download/DecodertoWebshell_1.2.jar
                 - https://github.com/c0ny1/java-memshell-scanner
                 - https://github.com/chiruom/Webshell_finder
                 - https://github.com/cys3c/BackdoorMan
