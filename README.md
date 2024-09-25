@@ -417,7 +417,7 @@
 ### 综合
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ToolsFx v1.18.0](https://github.com/Leon406/ToolsFx) 基于kotlin+tornadoFx的跨平台密码学工具箱.包含编解码,编码转换,加解密, 哈希,MAC,签名,大数运算,压缩,二维码功...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-NetA CTF-NetA-V1.8.3](https://github.com/Arinue/CTF-NetA) CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析，快速自动获取flag。
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PuzzleSolver v2.1.5](https://github.com/Byxs20/PuzzleSolver) 一款针对CTF竞赛MISC的工具~
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PuzzleSolver v2.1.5](https://github.com/Byxs20/PuzzleSolver) 一款针对CTF竞赛MISC的工具~
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [qsnctf-python 0.0.8.10](https://github.com/Moxin1044/qsnctf-python) 青少年CTF的Python包，方便大家调用一些CTF常用功能。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [binwalk v2.3.4](https://github.com/ReFirmLabs/binwalk) Firmware Analysis Tool
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-Tools v1.3.7](https://github.com/qianxiao996/CTF-Tools) 一款Python+Pyqt写的CTF编码、解码、加密、解密工具。
@@ -2122,7 +2122,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SpringVulScan SpringVulScan-1.1](https://github.com/tpt11fb/SpringVulScan) burpsuite 的Spring漏洞扫描插件。SpringVulScan：支持检测：路由泄露|CVE...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [collaborator-everywhere](https://github.com/PortSwigger/collaborator-everywhere) A Burp Suite Pro extension which augments your proxy traffi...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [taborator](https://github.com/hackvertor/taborator) A Burp extension to show the Collaborator client in a tab
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [burpFakeIP 1.1](https://github.com/TheKingOfDuck/burpFakeIP) 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [burpFakeIP 1.1](https://github.com/TheKingOfDuck/burpFakeIP) 服务端配置错误情况下用于伪造ip地址进行测试的Burp Suite插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [upload-scanner](https://github.com/PortSwigger/upload-scanner) HTTP file upload scanner for Burp Proxy
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JustC2file v1.0.2](https://github.com/Peithon/JustC2file) Burp插件，Malleable C2 Profiles生成器；可以通过Burp代理选中请求，生成Cobalt Strike的pr...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [burp-bounty](https://github.com/Sy3Omda/burp-bounty) Burp Bounty profiles
@@ -2374,12 +2374,12 @@
 ## 取证
 ### USB取证
 #### 键盘流量
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbKbCracker](https://github.com/P001water/UsbKbCracker) CTF中常见键盘流量解密脚本
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [USBFlow_Soer](https://github.com/y1shiny1shin/USBFlow_Soer) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbKeyboardDataHacker](https://github.com/WangYihang/UsbKeyboardDataHacker) USB键盘流量包取证工具 , 用于恢复用户的击键信息
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbKeyboard_Mouse_Hacker_Gui](https://github.com/Mumuzi7179/UsbKeyboard_Mouse_Hacker_Gui) 自带GUI的一键解鼠标流量/键盘流量小工具
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbKbCracker](https://github.com/P001water/UsbKbCracker) CTF中常见键盘流量解密脚本
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [USBFlow_Soer](https://github.com/y1shiny1shin/USBFlow_Soer) 
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbKeyboardDataHacker](https://github.com/WangYihang/UsbKeyboardDataHacker) USB键盘流量包取证工具 , 用于恢复用户的击键信息
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbKeyboard_Mouse_Hacker_Gui](https://github.com/Mumuzi7179/UsbKeyboard_Mouse_Hacker_Gui) 自带GUI的一键解鼠标流量/键盘流量小工具
 #### 鼠标流量
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [USB-Mouse-Pcap-Visualizer](https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer) USB mouse traffic packet forensic tool, mainly used to dr...
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [USB-Mouse-Pcap-Visualizer](https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer) USB mouse traffic packet forensic tool, mainly used to dr...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UsbMiceDataHacker](https://github.com/WangYihang/UsbMiceDataHacker) USB鼠标流量包取证工具 , 主要用于绘制鼠标移动以及拖动轨迹
 ### 内存取证
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MemProcFS v5.11](https://github.com/ufrisk/MemProcFS) MemProcFS
