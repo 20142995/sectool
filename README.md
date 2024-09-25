@@ -253,7 +253,7 @@
 ### rsa私钥加解密
 - <img src="https://favicon.qqsuu.cn/tool.chacuo.net" alt="" style="height: 20px;"> [在线RSA私钥加密解密、RSA private key encryption and decryption--查错网](http://tool.chacuo.net/cryptrsaprikey) 
 ### snow隐写
-- <img src="https://favicon.qqsuu.cn/darkside.com.au" alt="" style="height: 20px;"> [darkside.com.au](https://darkside.com.au/snow) 
+- <img src="https://favicon.qqsuu.cn/darkside.com.au" alt="" style="height: 20px;"> [The SNOW Home Page](https://darkside.com.au/snow) 
 ### tupper
 - <img src="https://favicon.qqsuu.cn/tuppers-formula.ovh" alt="" style="height: 20px;"> [Tupper's Formula Tools](https://tuppers-formula.ovh/) 
 ### 与佛论禅加解密
@@ -2524,7 +2524,7 @@
 ##### 其他
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ImageMagick 7.1.1-38](https://github.com/ImageMagick/ImageMagick) 🧙‍♂️ ImageMagick 7
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SecretPixel](https://github.com/x011/SecretPixel) SecretPixel is a cutting-edge steganography tool designed to securely c...
-- <img src="https://favicon.qqsuu.cn/darkside.com.au" alt="" style="height: 20px;"> [darkside.com.au](https://darkside.com.au/gifshuffle) 
+- <img src="https://favicon.qqsuu.cn/darkside.com.au" alt="" style="height: 20px;"> [The Gifshuffle Home Page](https://darkside.com.au/gifshuffle) 
 ##### 图片分析
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Stegsolve v1.5](https://github.com/souno-io/Stegsolve) Stegsolve 从1.4修复版
 ##### 图片隐写
