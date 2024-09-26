@@ -19159,12 +19159,14 @@
         "created_at": "2024-09-25 15:11:16",
         "updated_at": "2024-09-25 15:11:16",
         "status_code": 200,
-        "title": "The SNOW Home Page"
+        "title": "The SNOW Home Page",
+        "bucket": true
     },
     "https://darkside.com.au/gifshuffle": {
         "created_at": "2024-09-25 15:11:16",
         "updated_at": "2024-09-25 15:11:16",
         "status_code": 200,
-        "title": "The Gifshuffle Home Page"
+        "title": "The Gifshuffle Home Page",
+        "bucket": true
     }
 }
