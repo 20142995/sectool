@@ -244,7 +244,8 @@
         "release_tag": "3.3.3",
         "release_date": "2024-09-19 09:14:46",
         "release_message": "## 更新内容\r\n\r\nHaE 3.3.3更新内容如下。\r\n\r\n### 功能更新\r\n\r\n1. 新增二次检索功能，可用于对数据进行二次搜索。\r\n2. 新增`Limit size`配置项，可用于`Databoard`中限制响应包返回（以`MB`为单位，默认为0不限制）。\r\n\r\n### 问题修复\r\n\r\n1. 修复`Config`页面中配置项添加逻辑错误。\r\n2. 修复`Databoard`查看数据条目逻辑错误。\r\n\r\n### 致谢信息\r\n\r\n1. 感谢 @vaycore 反馈的问题，并提供解决方案。",
-        "updated_at": "2024-09-22 11:23:45"
+        "updated_at": "2024-09-22 11:23:45",
+        "bucket": true
     },
     "https://github.com/kelvinBen/AppInfoScanner": {
         "created_at": "2022-10-23 08:30:23",
@@ -522,7 +523,8 @@
         "commit_message": "2.0.0版本上线,key可自定义,上线多线程,代码优化",
         "release_tag": "BurpShiroPassiveScan-2.0.0",
         "release_date": "2022-06-30 02:52:30",
-        "release_message": "1. 默认多线程,解决扫描过慢的问题\r\n2. key可在config.yml自定义,解决有些用户觉得key太少的问题\r\n3. 性能优化,代码优化\r\n4. 添加各种配置项在config.yml自定义\r\n\r\n这个版本建议更新,对比旧版本性能更好!!!!\r\n\r\n最后面感谢大佬们一直以来的厚爱"
+        "release_message": "1. 默认多线程,解决扫描过慢的问题\r\n2. key可在config.yml自定义,解决有些用户觉得key太少的问题\r\n3. 性能优化,代码优化\r\n4. 添加各种配置项在config.yml自定义\r\n\r\n这个版本建议更新,对比旧版本性能更好!!!!\r\n\r\n最后面感谢大佬们一直以来的厚爱",
+        "bucket": true
     },
     "https://github.com/knownsec/404StarLink": {
         "created_at": "2020-11-17 08:10:18",
@@ -721,7 +723,8 @@
         "commit_message": "删除无用文件,修改.gitignore一处错误",
         "release_tag": "BurpFastJsonScan-2.2.2",
         "release_date": "2022-06-22 15:57:09",
-        "release_message": "修复了一处dnslog.cn超时过短,导致使用者网卡时老是显示dnslog超时的错误\r\n\r\n建议更新!!!!"
+        "release_message": "修复了一处dnslog.cn超时过短,导致使用者网卡时老是显示dnslog超时的错误\r\n\r\n建议更新!!!!",
+        "bucket": true
     },
     "https://github.com/AngelKitty/stegosaurus": {
         "created_at": "2019-10-07 13:15:43",
@@ -925,7 +928,8 @@
         "release_tag": "v1.4.6",
         "release_date": "2024-09-12 09:46:48",
         "release_message": "1. 新增XyzDnsLog平台，删除不可用的DnsLog，由于国内政策问题，建议使用Ceye dnslog平台;\r\n2. 修复适配Burp Suite Pro 2024年度版本报错问题;\r\n3. 优化发包代码逻辑，更新插件稳定性。",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/zhzyker/exphub": {
         "created_at": "2020-04-01 09:33:35",
@@ -1298,7 +1302,8 @@
         "commit_message": "恢复默认端口和整理代码符合低版本语法糖",
         "release_tag": "0.3.1",
         "release_date": "2023-02-03 10:17:50",
-        "release_message": "1. 添加url黑明单\r\n2. 添加右键`Send to Passive Scan Client`手动转发\r\n\r\nthx @i11us0ry "
+        "release_message": "1. 添加url黑明单\r\n2. 添加右键`Send to Passive Scan Client`手动转发\r\n\r\nthx @i11us0ry ",
+        "bucket": true
     },
     "https://github.com/c0ny1/sqlmap4burp-plus-plus": {
         "created_at": "2019-11-07 05:50:04",
@@ -1531,7 +1536,8 @@
         "commit_message": "Update HostAttackScanner.java",
         "release_tag": "0.1.1",
         "release_date": "2022-02-23 14:14:01",
-        "release_message": "优化一下有时候出现双host"
+        "release_message": "优化一下有时候出现双host",
+        "bucket": true
     },
     "https://github.com/theSecHunter/Hades": {
         "created_at": "2022-08-21 08:44:50",
@@ -1859,7 +1865,8 @@
         "release_date": "2024-05-07 13:13:22",
         "release_message": "【2024-5-7】 0.24.6\r\n1.增加多个接口，建议和最新服务端codereg.py一起使用，接口类型如下：\r\n纯整数0-9\r\n纯小写英文a-z\r\n纯大写英文A-Z\r\n小写英文a-z + 大写英文A-Z\r\n小写英文a-z + 整数0-9\r\n大写英文A-Z + 整数0-9\r\n小写英文a-z + 大写英文A-Z + 整数0-9\r\n自定义字符串库(ranges传参)\r\n",
         "release_tag": "0.24.6",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/xfiftyone/STS2G": {
         "created_at": "2020-01-17 02:17:24",
@@ -2004,7 +2011,8 @@
         "release_tag": "v2.3",
         "release_date": "2024-05-06 10:55:56",
         "release_message": "FindUrlAndRequest菜单功能更新\r\n新增2个菜单：CopyJsOfThisSite、ChangeToUploadRequest\r\n代码优化，修复多个bug\r\n将SQLMap和Nmap等执行命令的功能合并为 “run cmd”功能，支持添加自定义命令\r\nChineseTab重写，支持语法高亮和自动换行，方便阅读\r\n支持配置项搜索和多选操作",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/Giotino/stegsolve": {
         "created_at": "2018-12-10 21:48:21",
@@ -2043,7 +2051,8 @@
         "release_tag": "v0.2.6",
         "release_date": "2024-08-22 19:44:07",
         "release_message": "Improved the handling of invalid `Cookie:` headers without an equals sign (`'='`) with graceful degradation (#4)",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/EASY233/BpScan": {
         "created_at": "2022-11-23 03:56:16",
@@ -2097,7 +2106,8 @@
         "commit_message": "Update compile.yml",
         "release_tag": "dev-20230804T025448",
         "release_date": "2023-08-04 02:54:50",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/awake1t/linglong": {
         "created_at": "2020-09-08 16:56:37",
@@ -2115,7 +2125,8 @@
         "commit_message": "添加在发送dns payload时会进行报错检测",
         "release_tag": "v1.0",
         "release_date": "2022-09-16 06:38:24",
-        "release_message": "FastjsonScan 移植 burp 插件"
+        "release_message": "FastjsonScan 移植 burp 插件",
+        "bucket": true
     },
     "https://github.com/wwl012345/Vuln-List": {
         "created_at": "2022-03-01 03:07:52",
@@ -2481,7 +2492,8 @@
         "release_tag": "V1.8.2",
         "release_date": "2023-11-13 16:05:16",
         "release_message": "## 支持检测漏洞\r\n\r\n- [x] Spring Core RCE (**CVE-2022-22965**)\r\n- [x] Spring Cloud Function SpEL RCE (**CVE-2022-22963**)\r\n- [x] Spring Cloud GateWay SPEL RCE (**CVE-2022-22947**)\r\n\r\n## 回连平台\r\n\r\n- [x] Dnglog (默认)\r\n- [x] BurpCollaboratorClient\r\n- [x] Ceye\r\n- [ ] Digpm\r\n- [ ] 支持自定义回连平台\r\n\r\n## 插件情况\r\n\r\n|             **回显检测**             |             **回连检测**              |\r\n|:--------------------------------:|:---------------------------------:|\r\n| Spring Core RCE (CVE-2022-22965) | Spring Core RCE (CVE-2022-22965)  |\r\n| Spring Cloud GateWay SPEL RCE (CVE-2022-22947) | Spring Cloud Function SpEL RCE （CVE-2022-22963） |\r\n\r\n## 更新细节\r\n[+] 优化漏洞检测逻辑减少无效发包，从而防止了请求过多导致被回连平台ban\r\n[+] 优化CVE-2022-22963准确率\r\n[+] 解决扫描结果一直显示等待的问题\r\n[+] 支持显示多个漏洞结果\r\n[-] 暂时删除Digdm平台的支持",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/woodpecker-appstore/weblogic-infodetector": {
         "created_at": "2021-04-01 04:32:50",
@@ -2964,7 +2976,8 @@
         "commit_message": "Update compile.yml",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/SummerSec/SpringExploit": {
         "created_at": "2022-06-14 12:19:44",
@@ -3239,7 +3252,8 @@
         "release_tag": "RouteVulScan1.5.4",
         "release_date": "2024-06-14 14:55:28",
         "release_message": "2024-06-14 修复了一个路径分割的小bug\r\n2024-06-14 修复1.5.3增加自定义head头后原主动递归扫描失效的问题",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/komomon/Komo": {
         "created_at": "2022-09-27 07:23:05",
@@ -3406,7 +3420,8 @@
         "commit_message": "Update README.md",
         "release_tag": "2.0",
         "release_date": "2021-04-13 16:43:04",
-        "release_message": "- Shifted to gradle from NetBeans\r\n- Bug Fix"
+        "release_message": "- Shifted to gradle from NetBeans\r\n- Bug Fix",
+        "bucket": true
     },
     "https://github.com/zilong3033/fastjsonScan": {
         "created_at": "2021-01-18 09:35:18",
@@ -3586,7 +3601,8 @@
         "release_date": "2024-09-24 15:20:02",
         "release_message": "## 2024.9.24  更新0.50\r\n1. 修复sm4加解密错误",
         "release_tag": "0.50",
-        "updated_at": "2024-09-25 21:04:24"
+        "updated_at": "2024-09-25 21:04:24",
+        "bucket": true
     },
     "https://github.com/bewhale/thinkphp_gui_tools": {
         "created_at": "2021-08-30 03:55:26",
@@ -8665,7 +8681,8 @@
         "commit_message": "增加add X-Forwarded-Host功能",
         "release_tag": "v0.1",
         "release_date": "2018-10-10 15:52:06",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/commixproject/commix": {
         "created_at": "2024-01-19 06:40:42",
@@ -16616,7 +16633,8 @@
         "release_date": "2024-09-22 12:16:40",
         "release_message": "## 功能更新\r\n\r\n1. request对象增加FormData的getter，setter，以支持form-data格式的请求\r\n2. 增加名为 http 的hook方式\r\n3. 使用graaljs替换原使用nashorn来执行js，以支持更多的js语法\r\n4. 引入graalpy来支持python3\r\n5. 新增密文在get-query、post-form、post-formdata中，对其进行修改的示例\r\n\r\n## 问题修复\r\n\r\n1. 修复没有通过表达式检查，但仍然输出请求日志的问题\r\n2. 修复如果某次启动httphook失败，下一次必然报错的问题\r\n\r\n## 注意事项\r\n\r\n**不同jar包支持的hook方式**：\r\n- Galaxy-x.x.x-graalpy.jar ：graalpy、http、java（满足条件1开启）、jython（满足条件2开启)\r\n- Galaxy-x.x.x-js.jar ：js、http、java（满足条件1开启）、jython（满足条件2开启)\r\n- Galaxy-x.x.x-grpc.jar ：grpc、http、java（满足条件1开启）、jython（满足条件2开启)\r\n\r\n> graalpy 语法为 python3.11，jython 语法为 python2.7\r\n\r\n条件1：启动Burp的是JDK，而不是JRE。[Modify](https://github.com/outlaws-bai/Galaxy/blob/main/docs/ToJDK.md)\r\n条件2：在Burp的Java environment(Settings -> Extensions)配置一个文件夹，并将 jython-standalone-xxx.jar 放在该文件夹。[Download](https://www.jython.org/download)\r\n",
         "release_tag": "3.2.0",
-        "updated_at": "2024-09-25 21:04:24"
+        "updated_at": "2024-09-25 21:04:24",
+        "bucket": true
     },
     "https://github.com/Fheidt12/Windows_Memory_Search": {
         "created_at": "2024-08-14 07:16:37",
@@ -16719,7 +16737,8 @@
         "release_date": "2024-05-30 00:16:40",
         "release_message": "## 说明: jar包二选一下载加载即可\r\nBurpAPIFinder-high-v2.0.2.jar为高性能版本：对大js会提取前500w出来作识别\r\nBurpAPIFinder-lower-v2.0.2.jar为普通性能版本：对大js会提取前50w出来作识别\r\n\r\n## BurpAPIFinder v2.0.1\r\n- [x] 优化从JS中提取url路径，方式一：从单双引号中提取出包含/的路径\r\n- [ ]  优化从JS中提取url路径，方式二：优化提取js中concat的场景，补全父路径\r\n- [x] 优化从JS中提取url路径，方式三：针对404场景，通过匹配已经访问过的路径，来寻找对应的父路径\r\n- [x] 匹配内容标高亮显示，有价值标蓝色，敏感信息标红色\r\n- [x] 前端展示js提取出来的url结果\r\n- [x] 新增右键\"提取url\"功能，支持对某一个具体路径提取出url出来 \r\n- [x] 新建右键\"自定义凭证\"，支持对URL下返回状态码3xx且重要无敏感指纹场景的补充上自定义凭证进行识别\r\n- [x] 新增右键\"自定义路径扫描\", 支持该URL对下面目录进行扫描且支持自定义凭证扫描 \r\n- [x] 新增右键\"用户自定义父路径\"， 支持该URL下返回状态码3xx或4xx且无敏感指纹场景的补充上自定义父路径后进行识别\r\n- [x] 新增右键\"复制\"，快速对PATH复制 \r\n- [x] 优化结果输出，默认输出匹配到末尾40个字符出来 \r\n\r\n\r\n## BurpAPIFinder v1.8\r\n- [x] 优化从JS中提取url路径，方式一：从单双引号中提取出包含/的路径\r\n\r\n## BurpAPIFinder v1.7\r\n- [x] 新增右键“删除”功能\r\n- [x] 新增配置栏白名单后缀、白名单域名、白名单路径功能\r\n- [x] 新增配置文件栏的区分精准度的按钮 \r\n\r\n## BurpAPIFinder v1.6\r\n- [x] 将js爬取放入后台进行\r\n- [x] 优化前端展示\r\n\r\n## BurpAPIFinder v1.5\r\n- [x] 优化BUG\r\n- [x] 添加右键“误报\"功能\r\n\r\n## BurpAPIFinder v1.4\r\n- [x] 使用sqlite存储过程数据，减少内存开销\r\n\r\n## BurpAPIFinder v1.3\r\n- [x] 集成HaE、APIKit、sweetPotato敏感信息指纹库\r\n\r\n## BurpAPIFinder v1.2\r\n- [x] 新增敏感数据识别指纹-身份证、手机号码、密码、用户名、云KEY\r\n\r\n## BurpAPIFinder v1.1\r\n- [x] 支持前段自定义配置重要指纹库\r\n- [x] 支持检索\r\n- [x] 区分快捷检索，支持重点、只看status为200、只看敏感内容、只看敏感路径\r\n- [x] 支持开关按钮\r\n- [x] 新增敏感数据识别指纹\r\n\r\n## BurpAPIFinder v1.0\r\n- [x] 集成从html、JS中提取URL功能\r\n- [x] 美化前端界面\r\n",
         "release_tag": "v2.0",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/Tomiwa-Ot/telegram-c2": {
         "created_at": "2023-11-05 22:20:18",
