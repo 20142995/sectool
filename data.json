@@ -3176,7 +3176,8 @@
         "commit_message": "Update README.md",
         "release_tag": "v1.5.5",
         "release_date": "2023-05-26 18:04:16",
-        "release_message": "解压密码 railgun\r\n\r\n\r\n1. 编码转换\r\n  a. 修复AES算法bug\r\n  b. 更新ascii编码，可更好处理各种进制格式的字节码\r\n  c. 增加digital编码，纯数字进制转换\r\n  d. 增加RSA算法，以及GenerateRSA\r\n  e. 增加国密算法，SM2/SM3/SM4"
+        "release_message": "解压密码 railgun\r\n\r\n\r\n1. 编码转换\r\n  a. 修复AES算法bug\r\n  b. 更新ascii编码，可更好处理各种进制格式的字节码\r\n  c. 增加digital编码，纯数字进制转换\r\n  d. 增加RSA算法，以及GenerateRSA\r\n  e. 增加国密算法，SM2/SM3/SM4",
+        "bucket": true
     },
     "https://github.com/joke2k/faker": {
         "created_at": "2024-09-19 15:56:05",
@@ -5819,7 +5820,8 @@
         "commit_message": "Merge branch 'master' of git@github.com:Chora10/Cknife.git",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/fofapro/vulfocus": {
         "created_at": "2021-11-05 12:27:05",
