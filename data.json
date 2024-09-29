@@ -668,7 +668,8 @@
         "release_tag": "v2.2",
         "release_date": "2024-03-29 07:36:22",
         "release_message": "👻 v2.2 is released~ Fix bugs & Add new features\r\n\r\n## BE AWARE\r\n-  If you are trying to use admin on windows,plz make sure you have installed [ansicon](https://github.com/adoxa/ansicon/releases)\r\n- And if you have any problems when using command ```shell```,plz check the [shell.go](https://github.com/ph4ntonn/Stowaway/blob/master/agent/handler/shell.go) and read the annotation first!!! Maybe it can solve ur problems.\r\n\r\n## Update\r\n- 2021.10.1 \r\n    - Switch AES-CBC to AES-GCM.Thanks to @SignorMercurio \r\n    - Fix bugs. Thanks to @SignorMercurio \r\n- 2022.1.23\r\n    - Fix shell&topo bugs.Thanks to @lz520520\r\n- 2022.4.8 \r\n    - Fix data loss bug when closing a short connection.Thanks to @lz520520\r\n    - Add gzip function.Thanks to @lz520520 \r\n    - Optimize the key code\r\n    - Fix some bugs\r\n- 2022.7.19\r\n    - Fix nil pointer bug #41.Thanks to @zyylhn\r\n- 2023.7.20\r\n    - Add http proxy support\r\n- 2023.10.31\r\n    - Replace compressed macos executable file with uncompressed one, since the system version newer than macOS Ventura(13.5) will make upx crash. Users can compress Stowaway themselves if necessary(Target MacOS system version must below 13.0). If you want to learn more, check the details https://github.com/upx/upx/issues/612\r\n- 2024.3.28\r\n    - Allow admin to exit when nothing connected https://github.com/ph4ntonn/Stowaway/commit/2ed667d41eacc5a60e5c0a841f3e16246760fcce\r\n- 2024.3.29\r\n   - Enable TLS feature for the connection between nodes https://github.com/ph4ntonn/Stowaway/commit/af059a7e5987decbc6b426b3ec7f7de326bd82c6. Thanks to @lz520520\r\n   - Socks can listen on specific interface  https://github.com/ph4ntonn/Stowaway/commit/b183e10838b147ed4126448ad44e42b9c5363cb6\r\n- 2024.3.31\r\n   - Update TLS https://github.com/ph4ntonn/Stowaway/commit/de126dbdb3d76111be06daaef2963708bce633e3\r\n- 2024.4.1\r\n   - Enable WS for inter-node traffic https://github.com/ph4ntonn/Stowaway/commit/e4b324dd442eecd61360989c6c73949c06c55407 https://github.com/ph4ntonn/Stowaway/commit/e48c50ba0a0e1a2581608e23fb2601adc5ea5b2d This functionality is still lacking and requires further improvement. For now, it works well within the NGINX environment.\r\n- 2024.4.11\r\n   - Fix nil pointer bug #61\r\n- 2024.8.7\r\n   - Add force quit option under shell/ssh mode https://github.com/ph4ntonn/Stowaway/commit/14a6bd375fcb97f1af41633185b2d4d56bc17620\r\n- 2024.8.19\r\n   - Fix websocket https://github.com/ph4ntonn/Stowaway/commit/507a2283058222b0b3f648e625510c706cadb428",
-        "updated_at": "2024-09-15 14:32:22"
+        "updated_at": "2024-09-15 14:32:22",
+        "bucket": true
     },
     "https://github.com/uknowsec/BurpSuite-Extender-fastjson": {
         "created_at": "2020-03-07 13:17:08",
@@ -1906,7 +1907,8 @@
         "release_tag": "0.0.9",
         "release_date": "2024-08-14 01:23:22",
         "release_message": "`stop-writes-on-bgsave-error` 默认为 `yes`, 如果 Redis 开启了 RDB 持久化并且最后一次失败了，Redis 默认会停止写入，让用户意识到数据的持久化没有正常工作。临时的解决方案是 `conf set stop-writes-on-bgsave-error` 设置为 no，只是让程序暂时忽略了这个问题，但是数据的持久化的问题并没有。（工具会默认设置为 `no` ，等工具退出的时候再重新设置回原来的值`yes`，不要使用 -m cli 来执行 bgsave 因为cli没设置 `stop-writes-on-bgsave-error` ，直接使用 -m bgsave）\r\n\r\n```\r\nconfig set stop-writes-on-bgsave-error no\r\n```\r\n\r\n",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/hiroi-sora/Umi-OCR": {
         "created_at": "2024-08-31 09:35:46",
@@ -2464,7 +2466,8 @@
         "commit_message": "Add information about 404 starlink",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/n0b0dyCN/redis-rogue-server": {
         "created_at": "2019-07-07 17:39:37",
@@ -2473,7 +2476,8 @@
         "commit_message": "Merge pull request #8 from julioxus/feature/include-password\n\nincluding optional password authentication",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/zyylhn/redis_rce": {
         "created_at": "2022-03-16 15:13:40",
@@ -3338,7 +3342,8 @@
         "commit_message": "add orclcdb SID",
         "release_tag": "5.1.1",
         "release_date": "2022-04-27 09:46:14",
-        "release_message": "Version 5.1.1 of ODAT: Python 3.6 used. Oracle client version __12.2__ used.\r\nOracle client 12.2 fixes some secure connection problems to Oracle databases."
+        "release_message": "Version 5.1.1 of ODAT: Python 3.6 used. Oracle client version __12.2__ used.\r\nOracle client 12.2 fixes some secure connection problems to Oracle databases.",
+        "bucket": true
     },
     "https://github.com/4dogs-cn/TXPortMap": {
         "created_at": "2021-12-10 11:35:55",
@@ -3825,7 +3830,8 @@
         "commit_message": "update readme",
         "release_tag": "v2.0",
         "release_date": "2021-12-30 08:03:30",
-        "release_message": "1、解决了Hostname为内网IP时连接失败问题\r\n2、解决了因为目标JDK版本原因利用失败问题"
+        "release_message": "1、解决了Hostname为内网IP时连接失败问题\r\n2、解决了因为目标JDK版本原因利用失败问题",
+        "bucket": true
     },
     "https://github.com/BishopFox/rmiscout": {
         "created_at": "2020-12-08 12:51:04",
@@ -6350,7 +6356,8 @@
         "commit_message": "Merge pull request #137 from Keycatowo/master\n\nFix logical error in image size check",
         "release_tag": "0.2.1",
         "release_date": "2022-01-11 12:32:05",
-        "release_message": "- highly enhanced the performance against attacks"
+        "release_message": "- highly enhanced the performance against attacks",
+        "bucket": true
     },
     "https://github.com/linyacool/blind-watermark": {
         "created_at": "2016-11-26 05:30:42",
@@ -7683,7 +7690,8 @@
         "release_date": "2024-07-21 23:13:53",
         "release_message": "- track `xdis` API changes\r\n- Bug fixes and lint\r\n\r\n",
         "release_tag": "3.9.2",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/r00tSe7en/JNDIMonitor": {
         "created_at": "2021-12-11 10:20:53",
@@ -8751,7 +8759,8 @@
         "release_date": "2024-04-14 06:20:02",
         "release_message": "Bump release version",
         "release_tag": "2024.04",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/webanalyzer/rules": {
         "created_at": "2019-08-13 13:40:20",
@@ -18745,7 +18754,8 @@
         "commit_date": "2024-09-13 09:07:25",
         "release_date": "2024-09-13 07:30:03",
         "release_message": "1、修复size硬编码的致命bug  \r\n2、完善Mutex",
-        "release_tag": "v0.1"
+        "release_tag": "v0.1",
+        "bucket": true
     },
     "https://github.com/ViCrack/scoop-bucket": {
         "created_at": "2021-12-23 16:31:13",
