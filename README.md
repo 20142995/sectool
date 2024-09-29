@@ -442,8 +442,8 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CodeReviewTools v1.31](https://github.com/Ppsoft1991/CodeReviewTools) 通过正则搜索、批量反编译特定Jar包中的class名称
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JavaDecompileTool-GUI V1.2](https://github.com/MountCloud/JavaDecompileTool-GUI) Java Decompile Tool GUI-JAVA反编译工具（界面版）
 ### pyc逆向
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [python-uncompyle6 3.9.2](https://github.com/rocky/python-uncompyle6) A cross-version Python bytecode decompiler
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyinstxtractor 2024.04](https://github.com/extremecoders-re/pyinstxtractor) PyInstaller Extractor
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [python-uncompyle6 3.9.2](https://github.com/rocky/python-uncompyle6) A cross-version Python bytecode decompiler
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyinstxtractor 2024.04](https://github.com/extremecoders-re/pyinstxtractor) PyInstaller Extractor
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [stegosaurus 1.0](https://github.com/AngelKitty/stegosaurus) A steganography tool for embedding payloads within Python bytecode.
 - <img src="https://favicon.qqsuu.cn/c5r.app" alt="" style="height: 20px;"> [CTFever Toolkit by uniiem](https://c5r.app/tools/pyc-decompiler) 
 - <img src="https://favicon.qqsuu.cn/ctfever.uniiem.com" alt="" style="height: 20px;"> [CTFever Toolkit by uniiem](https://ctfever.uniiem.com/tools/pyc-decompiler) 
@@ -1796,7 +1796,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nps v0.26.19](https://github.com/yisier/nps) 基于NPS 0.29.10 版本二开而来，NPS接力项目。公益云NPS：https://natnps.com
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [goproxy v14.6](https://github.com/snail007/goproxy) 🔥  Proxy is a high performance HTTP(S) proxies, SOCKS5 proxies,WEBSOC...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [proxychains-ng v4.17](https://github.com/rofl0r/proxychains-ng) proxychains ng (new generation) - a preloader which hooks call...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Stowaway v2.2](https://github.com/ph4ntonn/Stowaway) 👻Stowaway -- Multi-hop Proxy Tool for pentesters
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Stowaway v2.2](https://github.com/ph4ntonn/Stowaway) 👻Stowaway -- Multi-hop Proxy Tool for pentesters
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [suo5 v1.3.0](https://github.com/zema1/suo5) 一款高性能 HTTP 代理隧道工具 | A high-performance http proxy tunneling tool
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tls_proxy v1.0](https://github.com/phith0n/tls_proxy) A lightweight reverse proxy server that converts TLS traffic to TCP,...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pingtunnel 2.8](https://github.com/esrrhs/pingtunnel) Pingtunnel is a tool that send TCP/UDP traffic over ICMP
@@ -2016,7 +2016,7 @@
 ## 相关资源
 ### 代理池
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ProxyCat ProxyCat-V1.7](https://github.com/honmashironeko/ProxyCat) 一款部署于云端或本地的代理池中间件，可将静态代理IP灵活运用成隧道IP，提供固定请求地址，一次部署终身使用
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SocksHunter v0.1](https://github.com/Seven1an/SocksHunter) 一款高效的 Socks5 代理采集与使用工具
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SocksHunter v0.1](https://github.com/Seven1an/SocksHunter) 一款高效的 Socks5 代理采集与使用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [proxy_pool 2.4.1](https://github.com/jhao104/proxy_pool) Python ProxyPool for web spider
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Deadpool proxypool1.5](https://github.com/thinkoaa/Deadpool) deadpool代理池工具，可从hunter、quake、fofa等网络空间测绘平台取socks5代理，或本地导入sock...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [znpool znpool](https://github.com/twowb/znpool) 一个又快又好的全球免费代理轮询工具
@@ -2332,7 +2332,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jdwp-shellifier](https://github.com/Lz1y/jdwp-shellifier) 修改利用方式为通过对Sleeping的线程发送单步执行事件，达成断点，从而可以直接获取上下文、执行命令，而不用等待断点被击中。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jdwp-shellifier](https://github.com/IOActive/jdwp-shellifier) 
 ### RMI
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [attackRmi v2.0](https://github.com/A-D-Team/attackRmi) 
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [attackRmi v2.0](https://github.com/A-D-Team/attackRmi) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [rmiscout v1.4](https://github.com/BishopFox/rmiscout) RMIScout uses wordlist and bruteforce strategies to enumerate Java RM...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [attackRmi v0.1](https://github.com/waderwu/attackRmi) attackRmi
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BaRMIe v1.01](https://github.com/NickstaDB/BaRMIe) Java RMI enumeration and attack tool.
@@ -2343,7 +2343,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [swaks v20240103.0](https://github.com/jetmore/swaks) Swaks - Swiss Army Knife for SMTP
 ### 数据库利用
 #### Oracle
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [odat 5.1.1](https://github.com/quentinhardy/odat) ODAT: Oracle Database Attacking Tool
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [odat 5.1.1](https://github.com/quentinhardy/odat) ODAT: Oracle Database Attacking Tool
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oracleShell](https://github.com/jas502n/oracleShell) oracle 数据库命令执行
 #### mssql
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PySQLTools](https://github.com/Ridter/PySQLTools) Mssql利用工具
@@ -2354,10 +2354,10 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [postgreUtil v1.0](https://github.com/20142995/postgreUtil) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [postgresql_udf_help](https://github.com/No-Github/postgresql_udf_help) PostgreSQL 提权辅助脚本
 #### redis
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedisEXP 0.0.9](https://github.com/yuyan-sec/RedisEXP) Redis 漏洞利用工具
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedisEXP 0.0.9](https://github.com/yuyan-sec/RedisEXP) Redis 漏洞利用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedisModules-ExecuteCommand-for-Windows](https://github.com/0671/RedisModules-ExecuteCommand-for-Windows) 可在Windows下执行系统命令的Redis模块，可用于Redis主从复制攻击。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RabR 0.6.2](https://github.com/0671/RabR) Redis-Attack By Replication (通过主从复制攻击Redis)   
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [redis-rogue-server](https://github.com/n0b0dyCN/redis-rogue-server) Redis(<=5.0.5) RCE
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [redis-rogue-server](https://github.com/n0b0dyCN/redis-rogue-server) Redis(<=5.0.5) RCE
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [redis_rce v0.1.0](https://github.com/zyylhn/redis_rce) Redis primary/secondary replication RCE
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [redis-rce](https://github.com/Ridter/redis-rce) Redis 4.x/5.x RCE
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [redis-rogue-server](https://github.com/Dliv3/redis-rogue-server) Redis 4.x/5.x RCE
@@ -2533,7 +2533,7 @@
 - <img src="https://favicon.qqsuu.cn/www.zasi.org" alt="" style="height: 20px;"> [www.zasi.org](http://www.zasi.org/DeEgger-Embedder.php) 
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/pilotfiber.dl.sourceforge.net" alt="" style="height: 20px;"> [Just a moment...](https://pilotfiber.dl.sourceforge.net/project/steghideui) 
 ##### 盲水印
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blind_watermark 0.2.1](https://github.com/guofei9987/blind_watermark) Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blind_watermark 0.2.1](https://github.com/guofei9987/blind_watermark) Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlindWaterMark](https://github.com/chishaxie/BlindWaterMark) 盲水印 by python
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlindWatermark 1.2](https://github.com/fire-keeper/BlindWatermark) 使用盲水印保护创作者的知识产权using invisible watermark to protect creator's in...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlindWatermark v0.0.3](https://github.com/ww23/BlindWatermark) Java 盲水印
@@ -2703,7 +2703,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CS_fakesubmit](https://github.com/LiAoRJ/CS_fakesubmit) 一个可以伪装上线Cobaltstrike的脚本
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ide-honeypot](https://github.com/wendell1224/ide-honeypot) 一款针对于IDE的反制蜜罐 IDE-honeypot
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MysqlT v1.0](https://github.com/BeichenDream/MysqlT) 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击者
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MySQL_Fake_Server](https://github.com/fnmsd/MySQL_Fake_Server) MySQL Fake Server use to help MySQL Client File Reading and JDBC ...
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MySQL_Fake_Server](https://github.com/fnmsd/MySQL_Fake_Server) MySQL Fake Server use to help MySQL Client File Reading and JDBC ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MoAn_Honey_Pot_Urls](https://github.com/NS-Sp4ce/MoAn_Honey_Pot_Urls) X安蜜罐用的一些存在JSonp劫持的API
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WhetherMysqlSham v1.0](https://github.com/BeichenDream/WhetherMysqlSham) 检测目标Mysql数据库是不是蜜罐
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Juggler](https://github.com/C4o/Juggler) A system that may trick hackers.  针对黑客的拟态欺骗系统。
