@@ -2783,7 +2783,7 @@
 ## 应急
 ### Web层面
 #### webshell后门
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kunwu 0.1.0](https://github.com/kunwu2023/kunwu) kunwu是新一代webshell检测引擎，使用了内置了模糊规则、污点分析模拟执行、机器学习三种高效的检测策略
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kunwu 0.1.0](https://github.com/kunwu2023/kunwu) kunwu是新一代webshell检测引擎，使用了内置了模糊规则、污点分析模拟执行、机器学习三种高效的检测策略
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlueHound](https://github.com/10000Tigers/BlueHound) BlueHound is a GUI based scanner program for hunting threats on host.It s...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [java-memshell-scanner](https://github.com/c0ny1/java-memshell-scanner) 通过jsp脚本扫描java web Filter/Servlet型内存马
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [as_scanwebshell](https://github.com/virink/as_scanwebshell) An AntSword's plugin to scan webshell
