@@ -120,7 +120,8 @@
         "release_tag": "v1.0.12",
         "release_date": "2023-06-15 03:50:43",
         "release_message": "#22 ",
-        "updated_at": "2024-09-15 14:32:22"
+        "updated_at": "2024-09-15 14:32:22",
+        "bucket": true
     },
     "https://github.com/Moxin1044/qsnctf-python": {
         "created_at": "2023-08-26 02:35:55",
@@ -899,7 +900,8 @@
         "commit_message": "Update README.md",
         "release_tag": "1",
         "release_date": "2021-12-08 04:50:43",
-        "release_message": "编译版本"
+        "release_message": "编译版本",
+        "bucket": true
     },
     "https://github.com/God-Ok/SeeyonExploit-GUI": {
         "created_at": "2021-07-20 14:42:05",
@@ -1481,7 +1483,8 @@
         "commit_message": "Update DubboProtocol.java\n\n支持命令参数dubbo-response配置",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/TheKingOfDuck/MySQLMonitor": {
         "created_at": "2020-10-08 15:20:16",
@@ -1650,7 +1653,8 @@
         "commit_message": "add 404 starlink",
         "release_tag": "v0.4.0",
         "release_date": "2022-07-16 07:40:34",
-        "release_message": "- 新增\r\n1. TenCentCloud Cos Scan\r\n2. HuaweiCloud OBS Scan\r\n\r\n- 修复\r\n1、部分代码逻辑问题"
+        "release_message": "- 新增\r\n1. TenCentCloud Cos Scan\r\n2. HuaweiCloud OBS Scan\r\n\r\n- 修复\r\n1、部分代码逻辑问题",
+        "bucket": true
     },
     "https://github.com/Weik1/Artillery": {
         "created_at": "2022-05-17 10:36:25",
@@ -1697,7 +1701,8 @@
         "commit_message": "Merge pull request #23 from electron-shaders/patch-1\n\nUpdate README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/gobysec/Goby": {
         "created_at": "2021-11-22 11:19:16",
@@ -1817,7 +1822,8 @@
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/deibit/cansina": {
         "created_at": "2023-09-23 22:39:48",
@@ -2332,7 +2338,8 @@
         "commit_message": "Update w13scan.py",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/amcai/myscan": {
         "created_at": "2020-03-16 03:50:28",
@@ -2599,7 +2606,8 @@
         "commit_message": "* Added DNS gadget (to check for bugs in app with simple dns lookup). Usage: --gadget dns --dns test.yourdomain.com\n* Fixed bug when running with python3",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/BeichenDream/BadPotato": {
         "created_at": "2020-05-10 10:01:20",
@@ -2635,7 +2643,8 @@
         "commit_message": "Update README.md",
         "release_tag": "1.0",
         "release_date": "2021-07-14 07:20:58",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/maurosoria/dirsearch": {
         "created_at": "2022-10-04 05:43:00",
@@ -3522,7 +3531,8 @@
         "commit_message": "Update README.md",
         "release_tag": "BEAT",
         "release_date": "2022-06-16 07:55:24",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/f0ng/log4j2burpscanner": {
         "created_at": "2023-04-26 14:29:38",
@@ -4755,7 +4765,8 @@
         "commit_message": "Merge pull request #4 from qiluoluo/Ki1ro\n\n解决Sessions下存在文件夹导致部分存在于文件夹的xsh文件无法识别的问题 by qiluoluo",
         "release_tag": "v0.1.4",
         "release_date": "2022-03-02 06:57:43",
-        "release_message": "处理UserDataPath获取失败后程序异常终止问题。"
+        "release_message": "处理UserDataPath获取失败后程序异常终止问题。",
+        "bucket": true
     },
     "https://github.com/QAX-A-Team/BrowserGhost": {
         "created_at": "2020-06-12 12:25:20",
@@ -5220,7 +5231,8 @@
         "release_date": "2024-09-14 09:21:06",
         "release_message": "",
         "release_tag": "arthas-all-4.0.1",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/projectdiscovery/wappalyzergo": {
         "created_at": "2024-09-22 00:28:58",
@@ -5455,7 +5467,8 @@
         "commit_message": "修正判断链子的bug",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/backlion/webshell": {
         "created_at": "2017-08-10 05:53:53",
@@ -5660,7 +5673,8 @@
         "commit_message": "first commit",
         "release_tag": "v0.1",
         "release_date": "2021-07-29 08:55:12",
-        "release_message": "- 支持致远数据库密码解密\r\n- 支持帆软密码解密"
+        "release_message": "- 支持致远数据库密码解密\r\n- 支持帆软密码解密",
+        "bucket": true
     },
     "https://github.com/huoji120/DuckMemoryScan": {
         "created_at": "2021-02-24 08:02:11",
@@ -5873,7 +5887,8 @@
         "commit_message": "Add files via upload",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/Yamato-Security/WELA": {
         "created_at": "2021-12-24 23:41:16",
@@ -6206,7 +6221,8 @@
         "commit_message": "Update README.md",
         "release_tag": "v1.5.0",
         "release_date": "2023-06-26 13:59:13",
-        "release_message": "## Changelog\n### Features\n* c185df8 feat: implemented JavaScript code beautification for HTML files\n* 6ce2b40 feat: allows disabling of code beautification with global flag '--disable-beautify'\n### Bug fixes\n* 7e273d6 fix: fix flag '--disable-beautify'\n\n"
+        "release_message": "## Changelog\n### Features\n* c185df8 feat: implemented JavaScript code beautification for HTML files\n* 6ce2b40 feat: allows disabling of code beautification with global flag '--disable-beautify'\n### Bug fixes\n* 7e273d6 fix: fix flag '--disable-beautify'\n\n",
+        "bucket": true
     },
     "https://github.com/CTFd/CTFd": {
         "created_at": "2024-07-24 16:38:33",
@@ -6367,7 +6383,8 @@
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/WerWolv/ImHex": {
         "created_at": "2024-07-09 06:09:55",
@@ -6501,7 +6518,8 @@
         "commit_message": "补充使用方法",
         "release_tag": "replace_brute_error",
         "release_date": "2023-07-24 04:05:14",
-        "release_message": "修改上一版本无法爆破key有概率失败问题，原因是pyjwt库的特性headers头部无法默认顺序无法修改，需要修改pyjwt源码一部分内容。参考链接：https://blog.csdn.net/m0_46261074/article/details/104165261"
+        "release_message": "修改上一版本无法爆破key有概率失败问题，原因是pyjwt库的特性headers头部无法默认顺序无法修改，需要修改pyjwt源码一部分内容。参考链接：https://blog.csdn.net/m0_46261074/article/details/104165261",
+        "bucket": true
     },
     "https://github.com/frankthetank-music/Acropalypse-Multi-Tool": {
         "created_at": "2023-05-30 14:27:31",
@@ -6587,7 +6605,8 @@
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/hotzzzzy/breakautokey": {
         "created_at": "2021-10-05 10:10:44",
@@ -6708,7 +6727,8 @@
         "commit_message": "Merge pull request #4 from leon0625/master\n\n[修复不支持组群递归下载问题]",
         "release_tag": "0.0.2",
         "release_date": "2020-05-15 02:02:51",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/hvqzao/burp-wildcard": {
         "created_at": "2020-12-28 18:33:35",
@@ -7101,7 +7121,8 @@
         "commit_message": "source",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/Henry4E36/Solr-SSRF": {
         "created_at": "2021-04-21 09:27:21",
@@ -7635,7 +7656,8 @@
         "release_tag": "v1.4",
         "release_date": "2024-07-12 14:17:28",
         "release_message": "修复 sqlite3 报错： Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work.\r\n改用：\r\n``` \r\n\"github.com/glebarez/sqlite\"\r\n\"gorm.io/gorm\"\r\n```",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/pyn3rd/CVE-2019-0232": {
         "created_at": "2019-04-15 07:54:25",
@@ -9268,7 +9290,8 @@
         "release_date": "2023-02-19 14:29:56",
         "release_message": "使用 swing 应该支持所有jdk版本，使用idea的gui画的，所以文件有点大",
         "commit_date": "2023-02-19 14:37:57",
-        "commit_message": "Update README.md"
+        "commit_message": "Update README.md",
+        "bucket": true
     },
     "https://github.com/NetSPI/Wsdler": {
         "created_at": "2016-10-27 02:38:00",
@@ -9536,7 +9559,8 @@
         "release_date": "2021-05-11 10:14:01",
         "release_message": "Shiro550 无Commons-collections依赖利用工具：\r\n\r\n1. 使用Shiro自身利用链，不依赖Commons-collections库\r\n2. 命令回显，依赖tomcat，支持tomcat7\r\n3. 无限制命令执行，去除java命令执行不能使用管道和重定向符号的限制\r\n",
         "commit_date": "2022-07-18 06:22:34",
-        "commit_message": "Update README.md"
+        "commit_message": "Update README.md",
+        "bucket": true
     },
     "https://github.com/Ch1ngg/WebLogicPasswordDecryptorUi": {
         "created_at": "2020-12-03 04:26:51",
@@ -9702,7 +9726,8 @@
         "release_date": "2024-09-11 04:19:14",
         "release_message": "[Auto Release] Update PyWxDump to refs/tags/v3.1.33\n详细更新日志请查看 [CHANGELOG.md](https://github.com/xaoyaoo/PyWxDump/blob/master/doc/CHANGELOG.md)\n",
         "release_tag": "v3.1.33",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/Pizz33/Qianji": {
         "created_at": "2023-11-15 03:33:53",
@@ -9759,7 +9784,8 @@
         "commit_message": "Update README.md",
         "release_tag": "1.0",
         "release_date": "2023-08-19 10:25:40",
-        "release_message": "第一个版本"
+        "release_message": "第一个版本",
+        "bucket": true
     },
     "https://github.com/yuyudhn/reverseip_py": {
         "created_at": "2023-01-02 05:34:52",
@@ -9817,7 +9843,8 @@
         "release_tag": "v1.3.0",
         "release_date": "2024-07-12 05:35:40",
         "release_message": "1. 修复本地扫描panic问题\r\n2. 优化扫描速度\r\n3. de fs 增加-e选项用以排除路径\r\n\r\n## 已知问题\r\nWindows系统下，输入路径相关参数时需要区分大小写，否则会造成误报，建议输入路径时直接复制粘贴， 或使用拖拽对应的文件夹到终端的方式来输入\r\n\r\n",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/LC044/WeChatMsg": {
         "created_at": "2024-07-06 09:51:39",
@@ -10271,7 +10298,8 @@
         "commit_message": "Update use.md",
         "release_tag": "v1.0.1",
         "release_date": "2023-08-08 15:45:23",
-        "release_message": "修复多个bug"
+        "release_message": "修复多个bug",
+        "bucket": true
     },
     "https://github.com/D4Vinci/Cr3dOv3r": {
         "created_at": "2017-11-13 20:49:57",
@@ -10506,7 +10534,8 @@
         "commit_message": "Add files via upload",
         "release_tag": "Log4j_RCE_Tool",
         "release_date": "2021-12-11 02:06:28",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/lcvvvv/gonmap": {
         "created_at": "2022-11-04 06:05:55",
@@ -10553,7 +10582,8 @@
         "commit_message": "Update README.md",
         "release_tag": "v0.2",
         "release_date": "2021-12-29 03:26:05",
-        "release_message": "- 修复已知Bug\r\n- 新增从文件中读取HTTP请求"
+        "release_message": "- 修复已知Bug\r\n- 新增从文件中读取HTTP请求",
+        "bucket": true
     },
     "https://github.com/M4DM0e/DirDar": {
         "created_at": "2021-02-16 22:17:54",
@@ -11352,7 +11382,8 @@
         "created_at": "2021-02-26 04:11:33",
         "description": "Local File Inclusion discovery and exploitation tool",
         "commit_message": "Trivial fix",
-        "commit_date": "2024-08-07 12:37:06"
+        "commit_date": "2024-08-07 12:37:06",
+        "bucket": true
     },
     "https://github.com/MaskCyberSecurityTeam/BurpHttpHelper": {
         "created_at": "2023-01-22 05:16:24",
@@ -13213,7 +13244,8 @@
         "release_date": "2024-03-09 07:26:31",
         "release_message": "原版方程式工具包，杀软会报毒，建议放在虚拟机环境下运行。解压密码123456\r\n\r\n2024.03.09 优化图形界面，修复bug，重新编译。\r\n2017.12.12 完成永恒浪漫、永恒冠军的编写。\r\n2017.11.20 完成永恒之蓝Eternalblue的编写。\r\n",
         "release_tag": "V0.3",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/le4f/dnsmaper": {
         "created_at": "2014-07-17 09:07:19",
@@ -15609,7 +15641,8 @@
         "release_date": "2024-03-06 08:03:16",
         "release_message": "# Feature\r\n- macOS GUI client support\r\n- Added multi-language functionality\r\n- Added dark mode\r\n\r\n# 新功能\r\n- 支持macOS GUI 的客户端\r\n- 增加多语言功能\r\n- 增加暗黑模式\r\n",
         "release_tag": "v1.4.0",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/hi-unc1e/POC-T": {
         "created_at": "2020-07-08 16:00:13",
@@ -16179,7 +16212,8 @@
         "commit_message": "update readme",
         "commit_date": "2022-06-24 08:01:47",
         "release_date": "2022-07-07 11:17:29",
-        "release_message": "BlueHound 是一款GUI版本主机威胁狩猎工具。支持上机/离线扫描webshell、CobaltStrike的beacon程序扫描以及内存扫描，基于.NET 4.6编译"
+        "release_message": "BlueHound 是一款GUI版本主机威胁狩猎工具。支持上机/离线扫描webshell、CobaltStrike的beacon程序扫描以及内存扫描，基于.NET 4.6编译",
+        "bucket": true
     },
     "https://github.com/momosecurity/rhizobia_P": {
         "created_at": "2019-05-21 10:39:10",
@@ -16514,7 +16548,8 @@
         "release_date": "2024-08-05 02:59:18",
         "release_message": "Bug：解决\r\n1、解决向日葵和todesk日志分析闪退bug\r\n2、解决计划任务排版报错bug\r\n新增功能：\r\n1、输出日志文件统一放到两个文件中\r\n2、新增进程日志分析功能",
         "release_tag": "WinLog_Check_V3.2",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/stamparm/maltrail": {
         "created_at": "2024-08-31 21:47:22",
@@ -16656,7 +16691,8 @@
         "release_date": "2024-08-14 07:22:38",
         "release_message": "当前版本实现功能：\r\n1、检索当前主机所有正在运行进程内存，将匹配到指定字符串的表格形式输出，包括PID、进程名、进程文件路径\r\n2、指定进程进行检索字符串，打印字符串前后50个长度的字符；\r\n3、将检索的结果输出到工具所有目录的指定文件中；",
         "release_tag": "V1.1",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/HackAllSec/hfinger": {
         "created_at": "2024-09-08 10:00:44",
