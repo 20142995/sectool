@@ -1751,7 +1751,8 @@
         "release_tag": "v1.5.3",
         "release_date": "2024-05-19 09:35:00",
         "release_message": "Release Date: 2024-05-19\n\n## :scroll: Changelog\n\n### :bomb: Exploits \n\n* Feat(exp): adapt docker devicemapper file system when get docker rootfs\n\n\n\n### :toolbox: Tools\n\n* 增加查看网络连接信息\n* Fix(eva): long standing timeout in discovery k8s apiserver with sa, error msg: GET, ...connection timed out\n\n### :sparkles: Others\n\n* Feat(tool docs): add netstat document\n* Fix(cgroup): latter part slice len error (#87)\n* Chore: os.SEEK_END has been deprecated since Go 1.7\n* Feat(exp): adapt docker devicemapper file system when get docker rootfs\n\n## :key: Hash Table\n\n|SHA256|EXECTUE FILE|\n|---|---|\n|64b40a70b232b7e23a187a11c52ef8d8b7f3e16a5b869af16b390cbbe4aab935|cdk_darwin_amd64\n4c7260ac051907d12896054145fe103f9ea06de3bb2f04f0aab953dff32028de|cdk_linux_386\n2c757f0065c167e633318ff8d43cb85cf936eae2db224f4e066098f4a8cb324a|cdk_linux_386_thin\n197c42343c75fbbb7d77f3aaa92e04e43ddec927887e889197db72fcff5e9df4|cdk_linux_386_thin_upx\n17b096ff5df1b612abc12887e65fae97280533bfe058ce6becb9c0920f4d4c42|cdk_linux_386_upx\nd7f0690e41786270f345ff4851fd4b239631d4c1e7a6b9f74ad139565cbdb2ed|cdk_linux_amd64\n13f42e004a25be9ba99aee3396a1d810026d7750d1e199774c5ba8410b15ae30|cdk_linux_amd64_thin\ncdac5cd3d0ff424315da3e233a79f72663c26e53fc4ac2e5031ea08154630514|cdk_linux_amd64_thin_upx\nccbc5c84af4045835e6b001cdf845d63802e081cbb97d9625c12d8d0f9b6f852|cdk_linux_amd64_upx\n896b8d804debd233200375a5b7c1218d5b8bf5f53aaaa685b9d411c0770e27d4|cdk_linux_arm\n381448682cb5ea5ff1bc8bfd3462e637da0445fc74fdb60e0de5e11d8c2dc90d|cdk_linux_arm64\n2b92652d4909d39e12fc9320188f9e834b82f80d3aba92dea4267608f3543861|cdk_linux_arm64_thin|\n",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/hack2fun/Gscan": {
         "created_at": "2020-01-11 15:58:49",
@@ -2001,7 +2002,8 @@
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/makoto56/penetration-suite-toolkit": {
         "created_at": "2022-12-11 11:22:06",
@@ -2703,7 +2705,8 @@
         "release_date": "2024-08-17 02:02:43",
         "release_message": "## Fixed\r\n\r\n* 组件版本升级\r\n* 将后端服务与扫描服务分离\r\n* 改进 Docker 镜像",
         "release_tag": "v1.5.0",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/kozmer/log4j-shell-poc": {
         "created_at": "2021-12-10 23:19:28",
@@ -6463,7 +6466,8 @@
         "release_date": "2024-07-29 20:44:56",
         "release_message": "* Bug fixes.\r\n* [New Vmmsharp C# API](https://github.com/ufrisk/MemProcFS/wiki/API_CSharp).\r\n\r\nFor previous release builds see the [release archive](https://github.com/ufrisk/MemProcFS/releases/tag/v5_archive).",
         "release_tag": "v5.11",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/ProbiusOfficial/Pentools-wiki": {
         "created_at": "2023-06-23 20:11:28",
