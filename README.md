@@ -466,7 +466,7 @@
 ### 命令注入
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bashFuck](https://github.com/ProbiusOfficial/bashFuck) exec BashCommand with only ! # $ ' ( ) < \ { } just 10 charset used in Byp...
 ### 定向目录扫描
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-wscan](https://github.com/OrangeWatermelon/ctf-wscan) 在kingkaki的项目上进行了修改，改为单线程，可以在任意目录下执行，对重复的请求进行了过滤
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-wscan](https://github.com/OrangeWatermelon/ctf-wscan) 在kingkaki的项目上进行了修改，改为单线程，可以在任意目录下执行，对重复的请求进行了过滤
 ## 相关资源
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ctf-archives](https://github.com/sajjadium/ctf-archives)  CTF Archives: Collection of CTF Challenges.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTFd 3.7.3](https://github.com/CTFd/CTFd) CTFs as you need them
@@ -2223,7 +2223,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fofaEX 3.3.1](https://github.com/10cks/fofaEX) FOFA EX 是一款基于fofa api（也可导入鹰图、夸克文件）实现的红队综合利用工具，可基于模板把工具作为插件进行集成，自动化进行资产...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fofax v0.1.47](https://github.com/xiecat/fofax) FOFAX是一个基于fofa.info的API命令行查询工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fofa_viewer 1.1.15](https://github.com/wgpsec/fofa_viewer) A simple FOFA client written in JavaFX.  Made by WgpSec, Maintai...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fofa_GUI v2.0.0](https://github.com/20142995/fofa_GUI) 
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [fofa_GUI v2.0.0](https://github.com/20142995/fofa_GUI) 
 #### frida
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [frida-skeleton v2.0.0](https://github.com/Margular/frida-skeleton) 基于frida的安卓hook框架，提供了很多frida自身不支持的功能，将hook安卓变成简单便捷，人人都会的事情
 #### frp
@@ -2258,7 +2258,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tool-for-CTF](https://github.com/ruokeqx/tool-for-CTF) Virtual machine configuration for CTF
 #### xray
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [super-xray 1.7](https://github.com/4ra1n/super-xray) Web漏洞扫描工具XRAY的GUI启动器
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Xray_Cracked v1.9.11](https://github.com/NHPT/Xray_Cracked) Update Xray1.9.11 Cracked for Windows,Linux and Mac OS.
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Xray_Cracked v1.9.11](https://github.com/NHPT/Xray_Cracked) Update Xray1.9.11 Cracked for Windows,Linux and Mac OS.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [yarx v0.2.0](https://github.com/zema1/yarx) An awesome reverse engine for xray poc. | 一个自动化根据 xray poc 生成对应靶站的工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xray-poc-generation](https://github.com/phith0n/xray-poc-generation) 🧬 辅助生成 XRay YAML POC
 #### 浏览器扩展
@@ -2328,7 +2328,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Taie-AutoPhishing](https://github.com/taielab/Taie-AutoPhishing) 剑指钓鱼基建快速部署自动化
 ## 端口服务服务漏洞
 ### JDWP
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jdwp-codeifier](https://github.com/l3yx/jdwp-codeifier) 基于 jdwp-shellifier 的进阶JDWP漏洞利用脚本（动态执行Java/Js代码并获得回显）
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jdwp-codeifier](https://github.com/l3yx/jdwp-codeifier) 基于 jdwp-shellifier 的进阶JDWP漏洞利用脚本（动态执行Java/Js代码并获得回显）
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jdwp-shellifier](https://github.com/Lz1y/jdwp-shellifier) 修改利用方式为通过对Sleeping的线程发送单步执行事件，达成断点，从而可以直接获取上下文、执行命令，而不用等待断点被击中。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jdwp-shellifier](https://github.com/IOActive/jdwp-shellifier) 
 ### RMI
@@ -2418,7 +2418,7 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [VcenterKit v0.0.3](https://github.com/W01fh4cker/VcenterKit) Vcenter综合渗透利用工具包 | Vcenter Comprehensive Penetration and Exploita...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [vhost_password_decrypt](https://github.com/shmilylty/vhost_password_decrypt) vhost password decrypt
 #### vmx加密破解
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyvmx-cracker](https://github.com/axcheron/pyvmx-cracker) Simple tool to crack VMware VMX encryption passwords
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyvmx-cracker](https://github.com/axcheron/pyvmx-cracker) Simple tool to crack VMware VMX encryption passwords
 #### 主机账号
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LaZagne v2.4.6](https://github.com/AlessandroZ/LaZagne) Credentials recovery project
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mimikatz 2.2.0-20220919](https://github.com/gentilkiwi/mimikatz) A little tool to play with Windows security
