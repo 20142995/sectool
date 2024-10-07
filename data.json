@@ -352,7 +352,8 @@
         "commit_message": "Create README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/xinyu2428/TDOA_RCE": {
         "created_at": "2021-03-01 08:07:31",
@@ -1269,7 +1270,8 @@
         "commit_message": "fix",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/awake1t/HackReport": {
         "created_at": "2021-06-25 12:43:20",
@@ -3214,7 +3216,8 @@
         "commit_message": "Update README.md",
         "release_tag": "v1.9.11",
         "release_date": "2023-05-29 08:53:41",
-        "release_message": "## Xray 1.9.11 COMMUNITY-ADVANCED\r\n\r\n前段时间太忙了，今天第一时间更新下\r\n\r\n### 版本介绍  \r\n\r\n该版本为 用友NC NCMessageServlet反序列化漏洞 注入漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容  \r\n想要检测该漏洞的师傅，可以使用\r\n\r\n./xray ws --poc poc-yaml-yongyou-nc-ncmessageservlet-rce --url http://example.com\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=92)"
+        "release_message": "## Xray 1.9.11 COMMUNITY-ADVANCED\r\n\r\n前段时间太忙了，今天第一时间更新下\r\n\r\n### 版本介绍  \r\n\r\n该版本为 用友NC NCMessageServlet反序列化漏洞 注入漏洞 的应急版本，相较上个版本，除了添加了一个POC外，未改动其他内容。\r\n\r\n### 更新内容  \r\n想要检测该漏洞的师傅，可以使用\r\n\r\n./xray ws --poc poc-yaml-yongyou-nc-ncmessageservlet-rce --url http://example.com\r\n\r\n进行检测。\r\n\r\n相关参考链接：[CT stack](https://stack.chaitin.com/techblog/detail?id=92)",
+        "bucket": true
     },
     "https://github.com/sensepost/reGeorg": {
         "created_at": "2014-08-08 00:58:12",
@@ -3826,7 +3829,8 @@
         "release_tag": "v2.0.0",
         "release_date": "2024-03-26 13:01:38",
         "release_message": "",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/shack2/SWebScan": {
         "created_at": "2018-08-25 19:44:16",
@@ -9887,7 +9891,8 @@
         "commit_message": "Update README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/HKEcho5213/HKEcho_Nacos": {
         "created_at": "2023-12-07 07:55:27",
