@@ -2072,8 +2072,8 @@
 ### 工具周边
 #### Burpsuite
 ##### 信息收集
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [domain_hunter_pro v2.0](https://github.com/bit4woo/domain_hunter_pro) domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder) Burp Extension for a passive scanning JS files for endpoint links.
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [domain_hunter_pro v2.0](https://github.com/bit4woo/domain_hunter_pro) domain_hunter的高级版本，SRC挖洞、HW打点之必备！自动化资产收集；快速Title获取；外部工具联动；等等
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder) Burp Extension for a passive scanning JS files for endpoint links.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [god_param](https://github.com/goddemondemongod/god_param) god_param
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sylas 1.1.1](https://github.com/Acmesec/Sylas) 新一代子域名主/被动收集工具 - Subdomain automatic/passive collection tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpExtractor v1.3.4](https://github.com/NetSPI/BurpExtractor) A Burp extension for generic extraction and reuse of data with...
@@ -2090,7 +2090,7 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [knife v2.3](https://github.com/bit4woo/knife) A burp extension that add some useful function to  Context Menu 添加一些右键菜单...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [captcha-killer-modified 0.24.6](https://github.com/f0ng/captcha-killer-modified) captcha-killer的修改版，支持关键词识别base64编码的图片，添加免费ocr库，用于验证码...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GAP-Burp-Extension v5.4](https://github.com/xnl-h4ck3r/GAP-Burp-Extension) Burp Extension to find potential endpoints, parameters, and...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xia_Liao 1.7](https://github.com/smxiazi/xia_Liao) xia Liao（瞎料）burp插件 用于Windows在线进程/杀软识别 与 web渗透注册时，快速生成需要的资料用来填写，资料包含：姓名...
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xia_Liao 1.7](https://github.com/smxiazi/xia_Liao) xia Liao（瞎料）burp插件 用于Windows在线进程/杀软识别 与 web渗透注册时，快速生成需要的资料用来填写，资料包含：姓名...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [autoDecoder 0.50](https://github.com/f0ng/autoDecoder) Burp插件，根据自定义来达到对数据包的处理（适用于加解密、爆破等），类似mitmproxy，不同点在于经过了burp中转，在自动加...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LoggerPlusPlus v3.20.1](https://github.com/nccgroup/LoggerPlusPlus) Advanced Burp Suite Logging Extension
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reCAPTCHA v1.0](https://github.com/bit4woo/reCAPTCHA) reCAPTCHA = REcognize CAPTCHA: A Burp Suite Extender that recognize ...
@@ -2188,7 +2188,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FastjsonScan 1.0](https://github.com/Maskhe/FastjsonScan) 一个简单的Fastjson反序列化检测burp插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GadgetProbe v1.0](https://github.com/BishopFox/GadgetProbe) Probe endpoints consuming Java serialized objects to identify clas...
 ##### 绕过指纹检测
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [burp-awesome-tls v1.2.2](https://github.com/sleeyax/burp-awesome-tls) Burp extension to evade TLS fingerprinting. Bypass WAF, spo...
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [burp-awesome-tls v1.2.2](https://github.com/sleeyax/burp-awesome-tls) Burp extension to evade TLS fingerprinting. Bypass WAF, spo...
 #### IDA
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AlphaGolang](https://github.com/SentineLabs/AlphaGolang) IDApython Scripts for Analyzing Golang Binaries
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [IDA-Pro-tips](https://github.com/VulnTotal-Team/IDA-Pro-tips) IDA Pro每周小技巧
@@ -2315,7 +2315,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sreg](https://github.com/n0tr00t/Sreg) Sreg可对使用者通过输入email、phone、username的返回用户注册的所有互联网护照信息。
 ### 字典生成
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CeWL 6.2.1](https://github.com/digininja/CeWL) CeWL is a Custom Word List Generator
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UserNameDictTools 用户名密码字典生成工具V0.36](https://github.com/abc123info/UserNameDictTools) 用户名密码字典生成工具(将中文汉字姓名转成14种格式的拼音、IP地址处理、网络设备密码生成)
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UserNameDictTools 用户名密码字典生成工具V0.36](https://github.com/abc123info/UserNameDictTools) 用户名密码字典生成工具(将中文汉字姓名转成14种格式的拼音、IP地址处理、网络设备密码生成)
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SocialEngineeringDictionaryGenerator](https://github.com/zgjx6/SocialEngineeringDictionaryGenerator) 社会工程学密码生成器，是一个利用个人信息生成密码的工具
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [anew v0.1.1](https://github.com/tomnomnom/anew) A tool for adding new lines to files, skipping duplicates
 ### 钓鱼辅助
@@ -2346,8 +2346,8 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [odat 5.1.1](https://github.com/quentinhardy/odat) ODAT: Oracle Database Attacking Tool
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [oracleShell](https://github.com/jas502n/oracleShell) oracle 数据库命令执行
 #### mssql
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PySQLTools](https://github.com/Ridter/PySQLTools) Mssql利用工具
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SqlKnife_0x727 1.2](https://github.com/0x727/SqlKnife_0x727) 适合在命令行中使用的轻巧的SQL Server数据库安全检测工具
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PySQLTools](https://github.com/Ridter/PySQLTools) Mssql利用工具
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SqlKnife_0x727 1.2](https://github.com/0x727/SqlKnife_0x727) 适合在命令行中使用的轻巧的SQL Server数据库安全检测工具
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SharpSQLTools 41](https://github.com/uknowsec/SharpSQLTools) SharpSQLTools 和@Rcoil一起写的小工具，可上传下载文件，xp_cmdshell与sp_oacreate执行命令回显...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [mssqlproxy 0.1](https://github.com/blackarrowsec/mssqlproxy) mssqlproxy is a toolkit aimed to perform lateral movement in restric...
 #### postgresql
@@ -2364,7 +2364,7 @@
 #### 综合
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MDUT-Extend-Release v1.1.0](https://github.com/DeEpinGh0st/MDUT-Extend-Release) MDUT-Extend(扩展版本)
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MDUT v2.1.1](https://github.com/SafeGroceryStore/MDUT) MDUT - Multiple Database Utilization Tools
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Databasetools 1.2](https://github.com/Hel10-Web/Databasetools) 一款用Go语言编写的数据库自动化提权工具，支持Mysql、MSSQL、Postgresql、Oracle、Redis数据库提权、命...
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Databasetools 1.2](https://github.com/Hel10-Web/Databasetools) 一款用Go语言编写的数据库自动化提权工具，支持Mysql、MSSQL、Postgresql、Oracle、Redis数据库提权、命...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PentestDB](https://github.com/safe6Sec/PentestDB) 各种数据库的利用姿势
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Sylas beta](https://github.com/Ryze-T/Sylas) 数据库综合利用工具
 # 综合
@@ -2536,7 +2536,7 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blind_watermark 0.2.1](https://github.com/guofei9987/blind_watermark) Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlindWaterMark](https://github.com/chishaxie/BlindWaterMark) 盲水印 by python
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlindWatermark 1.2](https://github.com/fire-keeper/BlindWatermark) 使用盲水印保护创作者的知识产权using invisible watermark to protect creator's in...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlindWatermark v0.0.3](https://github.com/ww23/BlindWatermark) Java 盲水印
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlindWatermark v0.0.3](https://github.com/ww23/BlindWatermark) Java 盲水印
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blind-watermark](https://github.com/linyacool/blind-watermark) Watermark added to the frequency domain by Fourier transform
 ##### 综合
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ImageStrike V0.2](https://github.com/zR00t1/ImageStrike) ImageStrike是一款用于CTF中图片隐写的综合利用工具
