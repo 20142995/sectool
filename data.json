@@ -371,7 +371,8 @@
         "commit_message": "Merge pull request #11 from InitRoot/InitRoot-patch-1\n\nUpdate README.md",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/wyzxxz/heapdump_tool": {
         "created_at": "2021-08-06 02:48:31",
@@ -1188,7 +1189,8 @@
         "release_tag": "1.7",
         "release_date": "2024-07-09 21:19:09",
         "release_message": "* 修复 Windows在线进程/杀软识别 在线接口问题\r\n* 新增命令bypass\r\n* 新增反弹shell生成\r\n* 新增格式转换",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/WhiteHSBG/JNDIExploit": {
         "created_at": "2021-12-30 09:00:16",
@@ -1696,7 +1698,8 @@
         "commit_message": "Change to use the API in the org.opencv namespace",
         "release_tag": "v0.0.3",
         "release_date": "2019-03-18 12:46:34",
-        "release_message": "* 图片水印解码不再需要原图"
+        "release_message": "* 图片水印解码不再需要原图",
+        "bucket": true
     },
     "https://github.com/chishaxie/BlindWaterMark": {
         "created_at": "2016-09-30 16:27:58",
@@ -2670,7 +2673,8 @@
         "commit_message": "Update ssh.txt",
         "release_tag": "1.2",
         "release_date": "2023-02-19 10:47:57",
-        "release_message": "更新部分错误处理，增加mac版本"
+        "release_message": "更新部分错误处理，增加mac版本",
+        "bucket": true
     },
     "https://github.com/C4o/Juggler": {
         "created_at": "2020-07-03 09:30:03",
@@ -3122,7 +3126,8 @@
         "release_tag": "v1.2.2",
         "release_date": "2024-05-01 22:50:24",
         "release_message": "## Fixed\r\n* Updated go dependencies (most importantly UTLS) to fix #69 by @sleeyax in https://github.com/sleeyax/burp-awesome-tls/pull/70\r\n\r\n**Full Changelog**: https://github.com/sleeyax/burp-awesome-tls/compare/v1.2.1...v1.2.2",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/passer-W/FinalShell-Decoder": {
         "created_at": "2022-04-06 07:21:53",
@@ -3425,7 +3430,8 @@
         "release_date": "2024-06-29 03:49:14",
         "release_message": "全局：\r\n基础依赖包更新，包括URL、域名、邮箱、等基础函数\r\n多个bug修复，功能优化\r\n数据加载和保存逻辑优化更新\r\n\r\ntitle面板\r\n**1、【重点】显示favicon，更容易判断资产类型，方便进行同类资产搜索**\r\n2、搜索功能增强，新增部分应用特征\r\n3、获取cert信息逻辑增强\r\n4、重复记录标记功能\r\n5、“删除非目标记录”逻辑更新\r\n6、网段汇算逻辑排除CDN IP\r\n7、逻辑优化+DNS查询加强\r\n\r\ntool面板\r\n1、智能识别SuperJTextArea的内容是否为文件\r\n2、工具面板多个功能新增或更新\r\n3、使用BackGroundButton改造按钮功能实现，避免UI卡死\r\n\r\nSearch面板\r\n**1、【重点】新增Search面板，集成fofa、hunter等资产搜索引擎**\r\n\r\nconfig面板\r\n1、更新配置数据结果，方便添加删除配置项",
         "release_tag": "v2.0",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/RoomaSec/RmEye": {
         "created_at": "2022-09-21 07:28:07",
@@ -6766,7 +6772,8 @@
         "commit_message": "修复了下载执行功能的bug",
         "release_tag": "1.2",
         "release_date": "2021-10-23 02:33:50",
-        "release_message": "修复了下载执行功能的bug"
+        "release_message": "修复了下载执行功能的bug",
+        "bucket": true
     },
     "https://github.com/cyberark/DLLSpy": {
         "created_at": "2019-03-14 14:58:36",
@@ -9197,7 +9204,8 @@
         "release_date": "",
         "release_message": "",
         "commit_date": "2023-08-07 05:03:28",
-        "commit_message": "update readme"
+        "commit_message": "update readme",
+        "bucket": true
     },
     "https://github.com/s045pd/DarkNet_ChineseTrading": {
         "created_at": "2018-12-21 12:14:26",
@@ -13994,7 +14002,8 @@
         "release_date": "2024-07-28 12:11:24",
         "release_message": "2024.07.28 新增WXZ格式用户名格式，用户名转换规则增至15个。",
         "release_tag": "用户名密码字典生成工具V0.36",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/Xyntax/BingC": {
         "created_at": "2016-06-23 08:56:32",
