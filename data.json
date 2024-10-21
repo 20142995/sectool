@@ -19244,42 +19244,49 @@
         "created_at": "2024-10-21 09:52:06",
         "updated_at": "2024-10-21 09:52:06",
         "status_code": 200,
-        "title": "字符串 - Sysinternals | Microsoft Learn"
+        "title": "字符串 - Sysinternals | Microsoft Learn",
+        "bucket": true
     },
     "https://www.petitcolas.net/steganography/mp3stego/": {
         "created_at": "2024-10-21 09:52:06",
         "updated_at": "2024-10-21 09:52:06",
         "status_code": 200,
-        "title": "MP3Stego"
+        "title": "MP3Stego",
+        "bucket": true
     },
     "https://sourceforge.net/projects/easypythondecompiler": {
         "created_at": "2024-10-21 09:52:06",
         "updated_at": "2024-10-21 09:52:06",
         "status_code": 403,
-        "title": "Just a moment..."
+        "title": "Just a moment...",
+        "bucket": true
     },
     "https://sourceforge.net/projects/sevenzcracker/": {
         "created_at": "2024-10-21 09:52:06",
         "updated_at": "2024-10-21 09:52:06",
         "status_code": 403,
-        "title": "Just a moment..."
+        "title": "Just a moment...",
+        "bucket": true
     },
     "http://www.libpng.org/pub/png/apps/pngcheck.html": {
         "created_at": "2024-10-21 09:52:06",
         "updated_at": "2024-10-21 09:52:06",
         "status_code": 200,
-        "title": "pngcheck Home Page"
+        "title": "pngcheck Home Page",
+        "bucket": true
     },
     "http://www.uzzf.com/soft/68820.html": {
         "created_at": "2024-10-21 09:52:06",
         "updated_at": "2024-10-21 09:52:06",
         "status_code": 200,
-        "title": "ļ-ĵܹ(Our Secret)v2.5.5.0 ɫ-"
+        "title": "ļ-ĵܹ(Our Secret)v2.5.5.0 ɫ-",
+        "bucket": true
     },
     "https://www.d99net.net": {
         "created_at": "2024-10-21 09:52:06",
         "updated_at": "2024-10-21 09:52:06",
         "status_code": 200,
-        "title": ""
+        "title": "",
+        "bucket": true
     }
 }
