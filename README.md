@@ -419,7 +419,7 @@
 - <img src="https://favicon.qqsuu.cn/zh.flightaware.com" alt="" style="height: 20px;"> [History ✈ B-7631 - FlightAware](https://zh.flightaware.com/live/flight/B7631/history/320) 
 ### 文件分析
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [foremost](https://github.com/jin-stuff/foremost) 
-- <img src="https://favicon.qqsuu.cn/learn.microsoft.com" alt="" style="height: 20px;"> [字符串 - Sysinternals | Microsoft Learn](https://learn.microsoft.com/zh-cn/sysinternals/downloads/strings) 
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/learn.microsoft.com" alt="" style="height: 20px;"> [字符串 - Sysinternals | Microsoft Learn](https://learn.microsoft.com/zh-cn/sysinternals/downloads/strings) 
 ### 综合
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ToolsFx v1.18.0](https://github.com/Leon406/ToolsFx) 基于kotlin+tornadoFx的跨平台密码学工具箱.包含编解码,编码转换,加解密, 哈希,MAC,签名,大数运算,压缩,二维码功...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CTF-NetA CTF-NetA-V1.8.3](https://github.com/Arinue/CTF-NetA) CTF-NetA是一款专门针对CTF比赛的网络流量分析工具，可以对常见的网络流量进行分析，快速自动获取flag。
@@ -437,7 +437,7 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PuzzleSolver v1.0.1-beta](https://github.com/JamesHoi/PuzzleSolver) 一款专门为CTF比赛设计的拼图工具
 ### 隐写
 - <img src="https://favicon.qqsuu.cn/achorein.github.io" alt="" style="height: 20px;"> [SilentEye - Steganography is yours](https://achorein.github.io/silenteye/) 
-- <img src="https://favicon.qqsuu.cn/www.petitcolas.net" alt="" style="height: 20px;"> [MP3Stego](https://www.petitcolas.net/steganography/mp3stego/) 
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/www.petitcolas.net" alt="" style="height: 20px;"> [MP3Stego](https://www.petitcolas.net/steganography/mp3stego/) 
 ## Reverse
 ### IDA插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [IdaClu v1.1](https://github.com/harlamism/IdaClu) IdaClu is a version agnostic IDA Pro plugin for grouping similar functi...
@@ -458,7 +458,7 @@
 ### python逆向
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pydumpck 1.20.1](https://github.com/serfend/pydumpck) a multi-threads tool for decompile exe,elf,pyz,pyc packed by python...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [unpy2exe](https://github.com/matiasb/unpy2exe) 
-- <img src="https://favicon.qqsuu.cn/sourceforge.net" alt="" style="height: 20px;"> [Just a moment...](https://sourceforge.net/projects/easypythondecompiler) 
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/sourceforge.net" alt="" style="height: 20px;"> [Just a moment...](https://sourceforge.net/projects/easypythondecompiler) 
 ### 加壳
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [UPX-Patcher Latest](https://github.com/DosX-dev/UPX-Patcher) Make "upx -d" unpacking impossible!
 ### 安卓逆向
@@ -1416,7 +1416,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [crack_ssh](https://github.com/netxfly/crack_ssh) go写的协程版的ssh\redis\mongodb弱口令破解工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [weak_password_detect](https://github.com/shengqi158/weak_password_detect) 多线程探测弱密码程序
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/openwall.info" alt="" style="height: 20px;"> [openwall.info](https://openwall.info/wiki/john/johnny) 
-- <img src="https://favicon.qqsuu.cn/sourceforge.net" alt="" style="height: 20px;"> [Just a moment...](https://sourceforge.net/projects/sevenzcracker/) 
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/sourceforge.net" alt="" style="height: 20px;"> [Just a moment...](https://sourceforge.net/projects/sevenzcracker/) 
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/www.openwall.com" alt="" style="height: 20px;"> [John the Ripper password cracker](https://www.openwall.com/john/) 
 ### 大模型安全
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [garak v0.9.0.0.16](https://github.com/leondz/garak) LLM vulnerability scanner
@@ -2553,7 +2553,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [stegpy](https://github.com/izcoser/stegpy) Simple steganography program based on the LSB method.
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cloacked-pixel](https://github.com/livz/cloacked-pixel) LSB steganography and detection
 ##### png_图片分析
-- <img src="https://favicon.qqsuu.cn/www.libpng.org" alt="" style="height: 20px;"> [pngcheck Home Page](http://www.libpng.org/pub/png/apps/pngcheck.html) 
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/www.libpng.org" alt="" style="height: 20px;"> [pngcheck Home Page](http://www.libpng.org/pub/png/apps/pngcheck.html) 
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/entropymine.com" alt="" style="height: 20px;"> [TweakPNG](https://entropymine.com/jason/tweakpng/) 
 ##### png_宽高修复
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Deformed-Image-Restorer V1.02](https://github.com/AabyssZG/Deformed-Image-Restorer) 自动爆破PNG图片宽高并一键修复工具
@@ -2570,7 +2570,7 @@
 ##### 图片隐写
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cloacked-pixel-python3](https://github.com/Cliffordwr/cloacked-pixel-python3) cloacked-pixel-python3优化版本，带有是否有隐写判断，密码错误判断等
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [LSB-Steganography](https://github.com/RobinDavid/LSB-Steganography) Python program to steganography files into images using the Least...
-- <img src="https://favicon.qqsuu.cn/www.uzzf.com" alt="" style="height: 20px;"> [ļ-ĵܹ(Our Secret)v2.5.5.0 ɫ-](http://www.uzzf.com/soft/68820.html) 
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/www.uzzf.com" alt="" style="height: 20px;"> [ļ-ĵܹ(Our Secret)v2.5.5.0 ɫ-](http://www.uzzf.com/soft/68820.html) 
 - <img src="https://favicon.qqsuu.cn/www.zasi.org" alt="" style="height: 20px;"> [www.zasi.org](http://www.zasi.org/DeEgger-Embedder.php) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [stegdetect](https://github.com/abeluck/stegdetect) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jphs](https://github.com/h3xx/jphs) 
@@ -2852,7 +2852,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Webshell_finder](https://github.com/chiruom/Webshell_finder) 网站木马检测
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [webshell-find-tools](https://github.com/mornone/webshell-find-tools) 分析web访问日志以及web目录文件属性，用于根据查找可疑后门文件的相关脚本。
 - <img src="https://favicon.qqsuu.cn/www.shelldetector.com" alt="" style="height: 20px;"> [Web Shell Detector](http://www.shelldetector.com/) 
-- <img src="https://favicon.qqsuu.cn/www.d99net.net" alt="" style="height: 20px;"> [www.d99net.net](https://www.d99net.net) 
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/www.d99net.net" alt="" style="height: 20px;"> [www.d99net.net](https://www.d99net.net) 
 - <img src="https://favicon.qqsuu.cn/www.shellpub.com" alt="" style="height: 20px;"> [SHELLPUB.COM](https://www.shellpub.com/) 
 #### 内存马查杀
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [arthas arthas-all-4.0.1](https://github.com/alibaba/arthas) Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas
