@@ -370,6 +370,7 @@ CTF:
             - https://www.qqxiuzi.cn/bianma/weijiniyamima.php
         编解码综合:
             - https://github.com/20142995/bo_ctfcode
+            - https://github.com/Raka-loah/SRK-Toolbox
             - https://github.com/guyoung/CaptfEncoder
         编解码综合网站:
             - http://fbcs.bplaced.net/multi_encoder_decoder.html
@@ -415,6 +416,9 @@ CTF:
             航线图:
                 - https://map.variflight.com
                 - https://zh.flightaware.com/live/flight/B7631/history/320
+        文件分析:
+            - https://github.com/jin-stuff/foremost
+            - https://learn.microsoft.com/zh-cn/sysinternals/downloads/strings
         综合:
             - http://www.1o1o.xyz/bo_ctfcode.html
             - https://github.com/Arinue/CTF-NetA
@@ -432,9 +436,13 @@ CTF:
             - https://github.com/JamesHoi/PuzzleSolver
         隐写:
             - https://achorein.github.io/silenteye/
+            - https://www.petitcolas.net/steganography/mp3stego/
     Reverse:
         IDA插件:
+            - https://github.com/cha512/rust-reversing-helper
             - https://github.com/harlamism/IdaClu
+            - https://github.com/sibears/IDAGolangHelper
+            - https://github.com/strazzere/golang_loader_assist
         Java反编译:
             - https://github.com/MountCloud/JavaDecompileTool-GUI
             - https://github.com/Ppsoft1991/CodeReviewTools
@@ -447,7 +455,9 @@ CTF:
             - https://github.com/extremecoders-re/pyinstxtractor
             - https://github.com/rocky/python-uncompyle6
         python逆向:
+            - https://github.com/matiasb/unpy2exe
             - https://github.com/serfend/pydumpck
+            - https://sourceforge.net/projects/easypythondecompiler
         加壳:
             - https://github.com/DosX-dev/UPX-Patcher
         安卓逆向:
@@ -458,6 +468,7 @@ CTF:
     Web:
         HASH长度扩展攻击:
             - https://github.com/JoyChou93/md5-extension-attack
+            - https://github.com/LJY-21/Length_Extension_Attack_for_SM3.py
             - https://github.com/Phantomn/HashPump
             - https://github.com/eid3t1c/Hash_Extender
             - https://github.com/iagox86/hash_extender
@@ -466,6 +477,8 @@ CTF:
             - https://github.com/ProbiusOfficial/bashFuck
         定向目录扫描:
             - https://github.com/OrangeWatermelon/ctf-wscan
+        笔记:
+            - https://github.com/w181496/Web-CTF-Cheatsheet
     相关资源:
         - http://www.ctftools.com/
         - https://github.com/Aabyss-Team/CTF-Tools
@@ -518,6 +531,8 @@ CTF:
         - https://github.com/dotnetcore/FastGithub
     pppoe拦截:
         - https://github.com/akkuman/pppoe-intercept
+    代理抓包:
+        - https://github.com/wanghongenpin/network_proxy_flutter
     代理订阅管理:
         - https://github.com/2dust/clashN
         - https://github.com/mzz2017/gg
@@ -558,7 +573,6 @@ CTF:
         - https://bluepointlilac.github.io/ContextMenuManager
         - https://dotnet.microsoft.com/
         - https://gitee.com/oschina/git-repo-clean
-        - https://github.com/3v4Si0N/HTTP-revshell
         - https://github.com/7wkajk/Frchannel
         - https://github.com/864381832/xJavaFxTool
         - https://github.com/AlessandroZ/BeRoot
@@ -698,6 +712,8 @@ CTF:
         - https://github.com/linshaoSec/WaterExp
     漏洞信息采集与推送:
         - https://github.com/zema1/watchvuln
+    激活工具:
+        - https://github.com/massgravel/Microsoft-Activation-Scripts
     生成虚假数据:
         - https://github.com/joke2k/faker
     短信转发器:
@@ -862,7 +878,9 @@ CTF:
             Grafana:
                 - https://github.com/A-D-Team/grafanaExp
             Hikvision:
+                - https://github.com/Conan924/PostHikvision
                 - https://github.com/MInggongK/Hikvision-
+                - https://github.com/WormChickenWizard/hikvision-decrypter
                 - https://github.com/baogod404/HikvisionDecode
                 - https://github.com/wafinfo/Hikvision
             IIS:
@@ -897,6 +915,8 @@ CTF:
                 - https://github.com/0x727/SpringBootExploit
                 - https://github.com/13exp/SpringBoot-Scan-GUI
                 - https://github.com/AabyssZG/SpringBoot-Scan
+                - https://github.com/CllmsyK/YYBaby-Spring_Scan
+                - https://github.com/Muhansrc/springboot_scan
                 - https://github.com/SummerSec/SpringExploit
                 - https://github.com/charonlight/SpringExploitGUI
                 - https://github.com/savior-only/Spring_All_Reachable
@@ -904,6 +924,7 @@ CTF:
             ThinkCMF:
                 - https://github.com/jas502n/ThinkCMF_getshell
             Thinkphp:
+                - https://github.com/AgonySec/ThinkPHPGUI
                 - https://github.com/Lotus6/ThinkphpGUI
                 - https://github.com/Lucifer1993/TPscan
                 - https://github.com/Mochazz/ThinkPHP-Vuln
@@ -949,6 +970,8 @@ CTF:
                 - https://github.com/Tas9er/YApiRCE
             django:
                 - https://github.com/jimywork/djangohunter
+            docker:
+                - https://github.com/0xchang/DockerApiRCE
             joom:
                 - https://github.com/OWASP/joomscan
             vmware:
@@ -968,6 +991,9 @@ CTF:
             若依:
                 - https://github.com/20142995/ruoyiVuln
                 - https://github.com/charonlight/RuoYiExploitGUI
+                - https://github.com/passer-W/Ruoyi-All
+            赛蓝企业管理系统:
+                - https://github.com/Seven1an/CailsoftVulCheck
         信息泄露漏洞:
             .DS_Store泄露:
                 - https://github.com/lijiejie/ds_store_exp
@@ -1033,6 +1059,7 @@ CTF:
                 - https://app.interactsh.com/#/
                 - https://dig.pm
                 - https://dig.pm/
+                - https://github.com/0x584A/Plumb
                 - https://www.callback.red
                 - https://www.t00ls.com/dnslog.html
             匿名短信:
@@ -1164,7 +1191,6 @@ CTF:
             - https://github.com/BugScanTeam/DNSLog
             - https://github.com/Li4n0/revsuit
             - https://github.com/Mr-xn/JNDIExploit-1
-            - https://github.com/WhiteHSBG/JNDIExploit
             - https://github.com/X1r0z/JNDIMap
             - https://github.com/Y4er/ysoserial
             - https://github.com/cckuailong/JNDI-Injection-Exploit-Plus
@@ -1243,6 +1269,10 @@ CTF:
         编辑器漏洞:
             UEditor:
                 - https://github.com/Tas9er/UEditorGetShell
+        辅助:
+            反弹shell:
+                - https://github.com/0dayCTF/reverse-shell-generator
+                - https://github.com/3v4Si0N/HTTP-revshell
         重点CMS利用:
             - https://github.com/CHYbeta/cmsPoc
             - https://github.com/Dionach/CMSmap
@@ -1385,6 +1415,7 @@ CTF:
             - https://github.com/vanhauser-thc/thc-hydra
             - https://github.com/yzddmr6/WebCrack
             - https://openwall.info/wiki/john/johnny
+            - https://sourceforge.net/projects/sevenzcracker/
             - https://www.openwall.com/john/
         大模型安全:
             - https://github.com/leondz/garak
@@ -1937,6 +1968,7 @@ CTF:
                 - https://github.com/pen4uin/java-echo-generator-release
                 - https://github.com/pen4uin/java-memshell-generator
                 - https://github.com/shack2/skyscorpion
+                - https://github.com/suizhibo/MemShellGene
                 - https://github.com/tennc/webshell
                 - https://github.com/unix-ninja/shellfire
                 - https://github.com/veo/vagent
@@ -2077,8 +2109,10 @@ CTF:
                     - https://github.com/bit4woo/domain_hunter
                     - https://github.com/bit4woo/domain_hunter_pro
                     - https://github.com/goddemondemongod/god_param
+                    - https://github.com/shuanx/BurpFingerPrint
                 其他:
                     - https://github.com/bit4woo/burp-api-drops
+                    - https://github.com/jython/jython
                     - https://portswigger.net/
                 功能拓展:
                     - https://github.com/Lotus6/AutoRepeater
@@ -2093,6 +2127,7 @@ CTF:
                     - https://github.com/d3vilbug/HackBar
                     - https://github.com/elespike/burp-cph
                     - https://github.com/f0ng/autoDecoder
+                    - https://github.com/f0ng/autoDecoder-usages
                     - https://github.com/f0ng/captcha-killer-modified
                     - https://github.com/gh0stkey/HaE
                     - https://github.com/handbye/base64encode
@@ -2170,6 +2205,7 @@ CTF:
                 漏洞扫描:
                     - https://github.com/0x727/BypassPro
                     - https://github.com/A0WaQ4/BurpCRLFScan
+                    - https://github.com/API-Security/APIKit
                     - https://github.com/BishopFox/GadgetProbe
                     - https://github.com/EASY233/BpScan
                     - https://github.com/F6JO/RouteVulScan
@@ -2181,6 +2217,7 @@ CTF:
                     - https://github.com/gand3lf/semgrepper
                     - https://github.com/ggg4566/BurpBountyPlus
                     - https://github.com/hy0jer/HostScan
+                    - https://github.com/kN6jq/gatherBurp
                     - https://github.com/metaStor/SpringScan
                     - https://github.com/pmiaowu/BurpFastJsonScan
                     - https://github.com/pmiaowu/BurpShiroPassiveScan
@@ -2515,11 +2552,14 @@ CTF:
                     - https://github.com/izcoser/stegpy
                     - https://github.com/livz/cloacked-pixel
                 png_图片分析:
+                    - http://www.libpng.org/pub/png/apps/pngcheck.html
                     - https://entropymine.com/jason/tweakpng/
                 png_宽高修复:
                     - https://github.com/AabyssZG/Deformed-Image-Restorer
                 png_截图漏洞:
                     - https://github.com/frankthetank-music/Acropalypse-Multi-Tool
+                二维码扫描:
+                    - https://github.com/Tokeii0/LoveLy-QRCode-Scanner
                 其他:
                     - https://darkside.com.au/gifshuffle
                     - https://github.com/ImageMagick/ImageMagick
@@ -2527,9 +2567,14 @@ CTF:
                 图片分析:
                     - https://github.com/souno-io/Stegsolve
                 图片隐写:
+                    - http://www.uzzf.com/soft/68820.html
                     - http://www.zasi.org/DeEgger-Embedder.php
                     - https://github.com/Cliffordwr/cloacked-pixel-python3
                     - https://github.com/RobinDavid/LSB-Steganography
+                    - https://github.com/abeluck/stegdetect
+                    - https://github.com/h3xx/jphs
+                    - https://github.com/jackfengji/f5-steganography
+                    - https://github.com/lukechampine/jsteg
                     - https://pilotfiber.dl.sourceforge.net/project/steghideui
                 盲水印:
                     - https://github.com/chishaxie/BlindWaterMark
@@ -2554,9 +2599,14 @@ CTF:
                 - https://www.qsl.net/on6mu/rxsstv.htm
         相关资源:
             - https://github.com/XDforensics-wiki/XDforensics-wiki
+        磁盘分析:
+            磁盘加解密:
+                - https://github.com/veracrypt/VeraCrypt
         网络取证:
             Shiro流量取证:
                 - https://github.com/r00tuser111/SerializationDumper-Shiro
+            cs:
+                - https://github.com/5ime/CS_Decrypt
             冰蝎(Behinder)流量取证:
                 - https://github.com/20142995/file/releases/download/DecodertoWebshell_1.2.jar
                 - https://github.com/minhangxiaohui/DecodeSomeJSPWebshell
@@ -2616,44 +2666,17 @@ CTF:
             - https://github.com/chaitin/safeline
             - https://github.com/starjun/openstar
         web靶场:
-            - https://dvwa.co.uk/
-            - https://github.com/0verSp4ce/DoraBox
             - https://github.com/2740908911/Pilot-Web
-            - https://github.com/710leo/ZVulDrill
             - https://github.com/API-Security/APISandbox
-            - https://github.com/Audi-1/sqli-labs
             - https://github.com/HXSecurity/TerraformGoat
-            - https://github.com/Hackademic/hackademic
-            - https://github.com/LandGrey/SpringBootVulExploit
-            - https://github.com/Medicean/VulApps
             - https://github.com/SpiderLabs/MCIR
-            - https://github.com/WebGoat/WebGoat
-            - https://github.com/WebGoat/WebGoat-Legacy
-            - https://github.com/adamdoupe/WackoPicko
-            - https://github.com/aj00200/xssed
             - https://github.com/ax1sX/MemShell
-            - https://github.com/bugku/BWVS
-            - https://github.com/c0ny1/upload-labs
-            - https://github.com/c0ny1/vulstudy
-            - https://github.com/c0ny1/xxe-lab
-            - https://github.com/cider-security-research/cicd-goat
-            - https://github.com/cliffe/secgen
-            - https://github.com/cr0hn/vulnerable-node
-            - https://github.com/deadPix3l/CryptSky
-            - https://github.com/digininja/DVWA
             - https://github.com/en0th/ElectricRat
-            - https://github.com/f4cknet/pyhackme
-            - https://github.com/fofapro/vulfocus
-            - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
-            - https://github.com/j3ers3/Hello-Java-Sec
             - https://github.com/lemono0/FastJsonParty
             - https://github.com/liqzz/vultrap
             - https://github.com/psiinon/bodgeit
-            - https://github.com/stamparm/DSVW
             - https://github.com/tangxiaofeng7/SecExample
-            - https://github.com/vulhub/vulhub
             - https://github.com/wangai3176/webug4.0
-            - https://github.com/zhuifengshaonianhanlu/pikachu
             - https://hackmyvm.eu/anon/
             - https://www.pentesterlab.com/exercises/web_for_pentester/course
         主机入侵检测:
@@ -2700,6 +2723,7 @@ CTF:
             - https://github.com/LiAoRJ/CS_fakesubmit
             - https://github.com/NS-Sp4ce/MoAn_Honey_Pot_Urls
             - https://github.com/decoymini/DecoyMini
+            - https://github.com/dushixiang/evil-mysql-server
             - https://github.com/fnmsd/MySQL_Fake_Server
             - https://github.com/hacklcx/HFish
             - https://github.com/handbye/potmanager
@@ -2716,6 +2740,9 @@ CTF:
             - https://github.com/jeffzh3ng/Fuxi-Scanner
             - https://github.com/martinzhou2015/SRCMS
             - https://github.com/ysrc/xunfeng
+        演练:
+            勒索:
+                - https://github.com/deadPix3l/CryptSky
         相关资源:
             - https://github.com/AnyeDuke/Enterprise-Security-Skill
             - https://github.com/Bypass007/Safety-Project-Collection
@@ -2723,6 +2750,7 @@ CTF:
             - https://github.com/birdhan/SecurityProduct
         网站监测:
             - https://github.com/mangenotwork/website-monitor
+            - https://github.com/msgbyte/tianji
         网络安全大模型:
             - https://github.com/Clouditera/secgpt
         网络流量分析:
@@ -2764,6 +2792,38 @@ CTF:
             - https://github.com/rsmusllp/king-phisher
             - https://github.com/thelinuxchoice/blackeye
             - https://www.phishingfrenzy.com/
+        靶场:
+            IOT漏洞:
+                - https://github.com/firmianay/IoT-vulhub
+            web基础:
+                - https://github.com/WebGoat/WebGoat
+                - https://github.com/WebGoat/WebGoat-Legacy
+                - https://github.com/cr0hn/vulnerable-node
+                - https://github.com/digininja/DVWA
+                - https://github.com/incredibleindishell/SSRF_Vulnerable_Lab
+                - https://github.com/stamparm/DSVW
+                - https://github.com/zhuifengshaonianhanlu/pikachu
+            web基础+部分业务:
+                - https://github.com/f4cknet/pyhackme
+            web基础漏洞:
+                - https://dvwa.co.uk/
+                - https://github.com/0verSp4ce/DoraBox
+                - https://github.com/710leo/ZVulDrill
+                - https://github.com/Audi-1/sqli-labs
+                - https://github.com/adamdoupe/WackoPicko
+                - https://github.com/aj00200/xssed
+                - https://github.com/bugku/BWVS
+                - https://github.com/c0ny1/upload-labs
+                - https://github.com/c0ny1/vulstudy
+                - https://github.com/c0ny1/xxe-lab
+            应用漏洞:
+                - https://github.com/Hackademic/hackademic
+                - https://github.com/Medicean/VulApps
+                - https://github.com/cider-security-research/cicd-goat
+                - https://github.com/cliffe/secgen
+                - https://github.com/fofapro/vulfocus
+                - https://github.com/j3ers3/Hello-Java-Sec
+                - https://github.com/vulhub/vulhub
         风控系统:
             - https://gitee.com/freshday/radar
             - https://github.com/momosecurity/aswan
@@ -2790,6 +2850,7 @@ CTF:
                 - https://github.com/kunwu2023/kunwu
                 - https://github.com/mornone/webshell-find-tools
                 - https://github.com/virink/as_scanwebshell
+                - https://www.d99net.net
                 - https://www.shellpub.com/
                 - https://github.com/10000Tigers/BlueHound
             内存马查杀:

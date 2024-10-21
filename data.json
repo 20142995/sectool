@@ -1192,15 +1192,6 @@
         "updated_at": "2024-09-16 14:44:13",
         "bucket": true
     },
-    "https://github.com/WhiteHSBG/JNDIExploit": {
-        "created_at": "2021-12-30 09:00:16",
-        "description": "对原版https://github.com/feihong-cs/JNDIExploit 进行了实用化修改",
-        "commit_date": "2022-10-16 17:13:30",
-        "commit_message": "no message",
-        "release_tag": "v1.4",
-        "release_date": "2022-04-19 08:51:58",
-        "release_message": "依赖/data/Meterpreter.class"
-    },
     "https://github.com/Kento-Sec/AsamF": {
         "created_at": "2023-06-02 06:01:14",
         "description": "AsamF是集成Fofa、Quake、Hunter、Shodan、Zoomeye、Chinaz、0.zone及爱企查的一站式企业信息资产收集、网络资产测绘工具。",
@@ -5522,15 +5513,6 @@
         "release_tag": "v1.2.5",
         "release_date": "2023-09-16 16:46:31",
         "release_message": "2023.9.17\r\n1.更新了爆破模块多个底层库的版本，可能会有些兼容问题，可以提bug.\r\n2.修改了一些隐藏的bug，增加了一些指纹.\r\n3.其他的优化～\r\n因为工作调整原因,此后的项目可能更新缓慢,朋友可以联系我微信要最新版.\r\n留在最后:\r\n本项目是我在探索内网之路的一些理解,比如极致并发(数据原子化)、指纹识别、网段探测算法、启发式扫描、生产者消费者模型、RPC远程调用.\r\n市场上的同款竞品很多,但希望各位还是能从本项目中有所启发、有所收获.\r\n用心去感受需求,在产品中注入心血.\r\n需要压缩版本的各位可以自己使用upx压缩,也方便逆向的大佬来检测是否存在后门."
-    },
-    "https://github.com/LandGrey/SpringBootVulExploit": {
-        "created_at": "2020-05-20 09:18:44",
-        "description": "SpringBoot 相关漏洞学习资料，利用方法和技巧合集，黑盒安全评估 check list",
-        "commit_date": "2021-03-10 13:03:17",
-        "commit_message": "remove useless string",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
     },
     "https://github.com/BloodHoundAD/BloodHound": {
         "created_at": "2023-05-23 14:32:44",
@@ -19257,5 +19239,47 @@
         "status_code": 200,
         "title": "The Gifshuffle Home Page",
         "bucket": true
+    },
+    "https://learn.microsoft.com/zh-cn/sysinternals/downloads/strings": {
+        "created_at": "2024-10-21 09:52:06",
+        "updated_at": "2024-10-21 09:52:06",
+        "status_code": 200,
+        "title": "字符串 - Sysinternals | Microsoft Learn"
+    },
+    "https://www.petitcolas.net/steganography/mp3stego/": {
+        "created_at": "2024-10-21 09:52:06",
+        "updated_at": "2024-10-21 09:52:06",
+        "status_code": 200,
+        "title": "MP3Stego"
+    },
+    "https://sourceforge.net/projects/easypythondecompiler": {
+        "created_at": "2024-10-21 09:52:06",
+        "updated_at": "2024-10-21 09:52:06",
+        "status_code": 403,
+        "title": "Just a moment..."
+    },
+    "https://sourceforge.net/projects/sevenzcracker/": {
+        "created_at": "2024-10-21 09:52:06",
+        "updated_at": "2024-10-21 09:52:06",
+        "status_code": 403,
+        "title": "Just a moment..."
+    },
+    "http://www.libpng.org/pub/png/apps/pngcheck.html": {
+        "created_at": "2024-10-21 09:52:06",
+        "updated_at": "2024-10-21 09:52:06",
+        "status_code": 200,
+        "title": "pngcheck Home Page"
+    },
+    "http://www.uzzf.com/soft/68820.html": {
+        "created_at": "2024-10-21 09:52:06",
+        "updated_at": "2024-10-21 09:52:06",
+        "status_code": 200,
+        "title": "ļ-ĵܹ(Our Secret)v2.5.5.0 ɫ-"
+    },
+    "https://www.d99net.net": {
+        "created_at": "2024-10-21 09:52:06",
+        "updated_at": "2024-10-21 09:52:06",
+        "status_code": 200,
+        "title": ""
     }
 }
