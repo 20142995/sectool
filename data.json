@@ -19288,5 +19288,26 @@
         "status_code": 200,
         "title": "",
         "bucket": true
+    },
+    "https://www.disktool.cn": {
+        "created_at": "2024-11-05 10:50:16",
+        "updated_at": "2024-11-05 10:50:16",
+        "status_code": 200,
+        "title": "傲梅分区助手、轻松备份、数据恢复(恢复之星)、远程控制（AnyViewer）等软件免费下载官网",
+        "bucket": true
+    },
+    "https://mofang.ruanmei.com": {
+        "created_at": "2024-11-05 10:50:16",
+        "updated_at": "2024-11-05 10:50:16",
+        "status_code": 200,
+        "title": "软媒魔方",
+        "bucket": true
+    },
+    "https://www.oracle.com/java/": {
+        "created_at": "2024-11-05 10:50:16",
+        "updated_at": "2024-11-05 10:50:16",
+        "status_code": 403,
+        "title": "fw_error_www",
+        "bucket": true
     }
 }
