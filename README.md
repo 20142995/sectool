@@ -453,7 +453,7 @@
 ### pyc逆向
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [python-uncompyle6 3.9.2](https://github.com/rocky/python-uncompyle6) A cross-version Python bytecode decompiler
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyinstxtractor 2024.04](https://github.com/extremecoders-re/pyinstxtractor) PyInstaller Extractor
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [stegosaurus 1.0](https://github.com/AngelKitty/stegosaurus) A steganography tool for embedding payloads within Python bytecode.
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [stegosaurus 1.0](https://github.com/AngelKitty/stegosaurus) A steganography tool for embedding payloads within Python bytecode.
 - <img src="https://favicon.qqsuu.cn/c5r.app" alt="" style="height: 20px;"> [CTFever Toolkit by uniiem](https://c5r.app/tools/pyc-decompiler) 
 - <img src="https://favicon.qqsuu.cn/ctfever.uniiem.com" alt="" style="height: 20px;"> [CTFever Toolkit by uniiem](https://ctfever.uniiem.com/tools/pyc-decompiler) 
 ### python逆向
