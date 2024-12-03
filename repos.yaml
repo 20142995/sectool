@@ -1225,6 +1225,7 @@ CTF:
             - https://github.com/lanyi1998/DNSlog-GO
             - https://github.com/mbechler/marshalsec
             - https://github.com/pimps/JNDI-Exploit-Kit
+            - https://github.com/pwntester/ysoserial.net
             - https://github.com/qi4L/JYso
             - https://github.com/qianxiao996/R-Knife
             - https://github.com/r00tSe7en/JNDIMonitor
@@ -2865,6 +2866,7 @@ CTF:
                 - https://github.com/cliffe/secgen
                 - https://github.com/fofapro/vulfocus
                 - https://github.com/j3ers3/Hello-Java-Sec
+                - https://github.com/lokerxx/JavaVul
                 - https://github.com/vulhub/vulhub
         风控系统:
             - https://gitee.com/freshday/radar
@@ -3129,6 +3131,8 @@ CTF:
             - https://github.com/JSREI/js-cookie-monitor-debugger-hook
         webpack:
             - https://gitcode.net/zjq592767809/webpack_ast
+        靶场:
+            - https://github.com/SwagXz/encrypt-labs
         验证码:
             极验:
                 - https://github.com/daisixuan/Geetest-AST-
