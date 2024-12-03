@@ -723,7 +723,7 @@
 ## 歌声转换
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) SoftVC VITS Singing Voice Conversion
 ## 渗透测试报告辅助
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [APTRS](https://github.com/Anof-cyber/APTRS) Automated Penetration Testing Reporting System
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [APTRS 1.0](https://github.com/Anof-cyber/APTRS) Automated Penetration Testing Reporting System
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pentest_report v1.0.0](https://github.com/dbgee/pentest_report) A pentest reporter generator
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BugRepoter_0x727](https://github.com/0x727/BugRepoter_0x727) BugRepoter_0x727(自动化编写报告平台)根据安全团队定制化协同管理项目安全，可快速查找历史漏洞，批量导出报告。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WaterExp](https://github.com/linshaoSec/WaterExp) WaterExp:面向安服仔的 水报告模板和工具
