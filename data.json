@@ -19319,14 +19319,16 @@
         "commit_date": "2024-07-04 02:47:15",
         "release_date": "2024-07-04 02:54:18",
         "release_message": "详情请参考[SRK Toolbox CHANGELOG](https://github.com/Raka-loah/SRK-Toolbox/blob/master/CHANGELOG_SRKTOOLBOX.md)和CyberChef原版[CHANGELOG](https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md)以及[commit messages](https://github.com/gchq/CyberChef/commits/master)。",
-        "release_tag": "v10.19.0"
+        "release_tag": "v10.19.0",
+        "bucket": true
     },
     "https://github.com/jin-stuff/foremost": {
         "created_at": "2016-02-05 01:20:05",
         "description": "Compile foremost for windows so it can run without cygwin. Check README for instruction to compile for windows.",
         "updated_at": "2024-12-03 11:08:16",
         "commit_message": "added binaries for mac, linux, windows",
-        "commit_date": "2016-02-05 03:13:42"
+        "commit_date": "2016-02-05 03:13:42",
+        "bucket": true
     },
     "https://github.com/cha512/rust-reversing-helper": {
         "created_at": "2018-02-14 03:23:08",
@@ -19356,12 +19358,14 @@
         "updated_at": "2024-12-03 11:08:16",
         "release_date": "2023-12-18 08:07:25",
         "release_message": "# Notable Changes\r\n* [Detect language from computer wide language settings](https://github.com/Konloch/bytecode-viewer/commit/141ea98548b74ed1bf4ac6247960e462656e8515) - @Konloch\r\n* [New Window Theme Default: Dark Theme](https://github.com/Konloch/bytecode-viewer/commit/cbeb990d3fe995505792d49b7a7069c391f49ecd) - @Konloch \r\n* [Add Auto Open Search Option](https://github.com/Konloch/bytecode-viewer/commit/4f65ffdea17219c86422f61ec8f7d7886a86a18b) - @Konloch \r\n* [Add Looping Search For Non-Exact](https://github.com/Konloch/bytecode-viewer/commit/d96aa2b63aa6564ff10be0d77f459877b665b0ed) - @Konloch \r\n* [Update dependencies again](https://github.com/Konloch/bytecode-viewer/commit/1f782399add6ff786cf6e81e069d2424a168e18b) - @ThexXTURBOXx \r\n* [Update dependencies](https://github.com/Konloch/bytecode-viewer/commit/cdc8dc85812ffb043e8ee930083dee345c54f322) - @ThexXTURBOXx \r\n* [Add Popup Menu for close Tabs](https://github.com/Konloch/bytecode-viewer/commit/622598acf1eda22e87383950c79dcf68501a9478) - @sinyear \r\n* [Update dependencies](https://github.com/Konloch/bytecode-viewer/commit/9447f4ee2f921ff891a7c234ae2cd2e1eb8815cc) - @ThexXTURBOXx \r\n* [Add dex2jar exception handler](https://github.com/Konloch/bytecode-viewer/commit/ebdf3897248a986f53c682258b29b00e75f61fd2) - @ThexXTURBOXx \r\n* [Removed last version of dnd. Added dnd support from weisJ theme. Also…](https://github.com/Konloch/bytecode-viewer/commit/e6cdd92baec6282b352a42de1d4c1f952caf0fff) - @Bl3nd \r\n* [Fix many DnD errors related to](https://github.com/Konloch/bytecode-viewer/commit/f006a3a0e64fe8661be764e473b73136c5ba02be) https://github.com/Konloch/bytecode-viewer/pull/462 @ThexXTURBOXx \r\n* [Swap to SafeYAML](https://github.com/Konloch/bytecode-viewer/commit/91858a74b5ccf74bb8a6744b91b79f0370f6a9e8) - @Konloch \r\n* [Update HTTPRequest Library](https://github.com/Konloch/bytecode-viewer/commit/425772555e599f274c84db1f57f4da5d4e30c23e) - @Konloch \r\n* [Fixed exception when clicking a class that's already open.](https://github.com/Konloch/bytecode-viewer/commit/aa9b4bacf42bd7d8e758d8d08050005f6f808c75) - @Bl3nd \r\n* [Enabled tabs to be rearranged. Did not add functionality for a tab to…](https://github.com/Konloch/bytecode-viewer/commit/218de052e0693a8b857f13c816b410467fafd838) - @Bl3nd \r\n* [Update dependencies as of this commit date](https://github.com/Konloch/bytecode-viewer/commit/8a3fbcf86a8045dded63814385fdafd06823fcd5) - @nick-botticelli \r\n* [Fix FernFlower \"Rename ambiguous classes and class elements\".](https://github.com/Konloch/bytecode-viewer/commit/e4e511bf3d60cb64b361078914b8c9df5ec8561f) - @Bl3nd \r\n* [Fix dex2jar issues](https://github.com/Konloch/bytecode-viewer/commit/c3d94e42351b381e784ec46d9b04aa99edd6132a) - @ThexXTURBOXx \r\n* [Optimized resource tree building](https://github.com/Konloch/bytecode-viewer/commit/eaec4235148b2458869e573008d446b57c771643) - @majonez\r\n* [Update dependencies](https://github.com/Konloch/bytecode-viewer/commit/0c85b2bb23671339e7190f84e9e5db7e421297bd) @ThexXTURBOXx \r\n* [Malicious Code Scanner Fix](https://github.com/Konloch/bytecode-viewer/commit/55eaafd2d18fc469cad0d8c4c58ac8e54979c882) - @Konloch \r\n* [Add ASMifier support](https://github.com/Konloch/bytecode-viewer/commit/0d221dbca59908036b05d1a4b0064821a161e61c) - @nick-botticelli \r\n* [Change reference to -decompiler-list to -list](https://github.com/Konloch/bytecode-viewer/commit/56b3a72c25d4892090cb8544a2d5d03f54d8901a) - @nick-botticelli \r\n* [Replace icons with more modern svg variants](https://github.com/Konloch/bytecode-viewer/commit/2cb9b80815e420a83c3682753b12e2c8466bed79) - @weisJ\r\n* [Update dependencies](https://github.com/Konloch/bytecode-viewer/commit/d75cda371d1af11febf3d055266f4d209b449823) - @ThexXTURBOXx \r\n* [Update darklaf to version 3.0.0](https://github.com/Konloch/bytecode-viewer/commit/a19be490f712094f947e3870f97b99e6175257a4) - @weisJ \r\n* [Fixed a lot of issues related to the GUI](https://github.com/Konloch/bytecode-viewer/commit/eded177040b531492eeca9de1157b22909a7784a) - @GraxCode \r\n* [Better looking tab close button.](https://github.com/Konloch/bytecode-viewer/commit/fb4a15f0c3fb00191404551de68975b3ea201ac3) - @GraxCode \r\n* Dex2Jar is now pulled from Maven Central - @ThexXTURBOXx \r\n* And more! Thank you to everyone who has contributed to this patch. @ThexXTURBOXx / @Konloch / @GraxCode / @weisJ / @nick-botticelli / @majonez / @Bl3nd / @sinyear \r\n\r\n# Note\r\nIf you encounter any issues, try an older version: [v2.11.2](https://github.com/Konloch/bytecode-viewer/releases/tag/v2.11.2), [v2.10.16](https://github.com/Konloch/bytecode-viewer/releases/tag/v2.10.16)\r\n\r\nIf you find any bugs just [open up a GitHub issue](https://github.com/Konloch/bytecode-viewer/issues/new) or email me at Konloch@gmail.com",
-        "release_tag": "v2.12"
+        "release_tag": "v2.12",
+        "bucket": true
     },
     "https://github.com/matiasb/unpy2exe": {
         "created_at": "2011-06-04 19:49:01",
         "description": "Extract .pyc files from executables created with py2exe",
-        "updated_at": "2024-12-03 11:08:16"
+        "updated_at": "2024-12-03 11:08:16",
+        "bucket": true
     },
     "https://github.com/pyinstxtractor/pyinstxtractor-ng": {
         "created_at": "2024-08-25 09:20:34",
@@ -19371,7 +19375,8 @@
         "commit_date": "2024-08-25 09:20:34",
         "release_date": "2024-08-25 09:22:53",
         "release_message": "",
-        "release_tag": "2024.08.25"
+        "release_tag": "2024.08.25",
+        "bucket": true
     },
     "https://github.com/LJY-21/Length_Extension_Attack_for_SM3.py": {
         "commit_message": "Initial commit",
@@ -19383,14 +19388,16 @@
         "description": "Web CTF CheatSheet 🐈",
         "updated_at": "2024-12-03 11:08:16",
         "commit_message": "update",
-        "commit_date": "2024-09-10 06:45:26"
+        "commit_date": "2024-09-10 06:45:26",
+        "bucket": true
     },
     "https://github.com/igdmapps/igdm": {
         "created_at": "2022-04-18 09:25:06",
         "release_date": "2022-04-18 10:22:07",
         "release_message": "* Fix login flow from returning 404 errors\r\n* Fix broken media messages",
         "release_tag": "v3.0.4",
-        "updated_at": "2024-12-03 11:08:16"
+        "updated_at": "2024-12-03 11:08:16",
+        "bucket": true
     },
     "https://github.com/Lymphatus/caesium-image-compressor": {
         "created_at": "2024-10-27 15:15:26",
@@ -19400,7 +19407,8 @@
         "commit_date": "2024-10-27 15:15:26",
         "release_date": "2024-10-27 15:38:07",
         "release_message": "## Bugfixes\r\n- Hotfix on dialog prompts #314\r\n\r\n**Full Changelog**: https://github.com/Lymphatus/caesium-image-compressor/compare/v2.8.1...v2.8.2",
-        "release_tag": "v2.8.2"
+        "release_tag": "v2.8.2",
+        "bucket": true
     },
     "https://github.com/25H/Maya": {
         "commit_message": "Update README.md",
@@ -19409,7 +19417,8 @@
         "created_at": "2023-05-25 00:36:53",
         "release_date": "2023-05-28 03:06:11",
         "release_message": "- 启用 全新的版本号(主.次.修正.构建)\r\n- 优化 搜索执行方式\r\n- 优化 相应速度\r\n- 修复 部分已知Bug",
-        "release_tag": "13.6.0.230528"
+        "release_tag": "13.6.0.230528",
+        "bucket": true
     },
     "https://github.com/Chuyu-Team/Dism-Multi-language": {
         "created_at": "2023-03-26 08:30:21",
@@ -19419,7 +19428,8 @@
         "commit_date": "2024-03-17 01:11:15",
         "release_date": "2023-03-26 08:38:36",
         "release_message": "## 更新日志\r\n1. 解决清理规则误杀wegane账号问题（感谢 Tsubasa）\r\n2. 添加新清理规则“NuGet包缓存”\r\n\r\n> 重要提示：此更新仅仅是在Dism++ 10.1.1002.1的基础上解决了清理规则的一些问题！！！不要太惊喜。\r\n> 由于一直在沉迷与UI库开发，Dism++暂时不会拥有重量级更新。相关新功能以及Bug修复未来计划解决。\r\n\r\n## 后记\r\n* 由于不可抗力因素 Dism++ E 群也被封，但是Dism++ B 群任然可用，群号为 469732645\r\n* 如果不希望在 QQ 群内进行讨论，也可以加入 Telegram 频道了解相关信息，链接为 https://t.me/dismplus",
-        "release_tag": "v10.1.1002.2"
+        "release_tag": "v10.1.1002.2",
+        "bucket": true
     },
     "https://github.com/cinience/RedisStudio": {
         "created_at": "2015-04-15 02:34:57",
@@ -19429,7 +19439,8 @@
         "commit_date": "2017-04-17 10:27:46",
         "release_date": "2015-04-15 02:49:18",
         "release_message": "- Fix list model\n",
-        "release_tag": "0.1.5"
+        "release_tag": "0.1.5",
+        "bucket": true
     },
     "https://github.com/TongchengOpenSource/AppScan": {
         "created_at": "2024-05-26 11:24:39",
@@ -19437,7 +19448,8 @@
         "updated_at": "2024-12-03 11:08:16",
         "release_date": "2024-05-26 11:29:26",
         "release_message": "> release版本更新说明包括以往的pre版本更新日志\r\n## 🆕新功能\r\n- 修复AndroidID误报\r\n- SDK名单新增quickGame匹配\r\n## 💯优化\r\n- 丰富安卓ID触发场景\r\n- 丰富获取安装app信息触发场景\r\n## 🐛修复\r\n- 打标信息缺失 https://github.com/TongchengOpenSource/AppScan/issues/64",
-        "release_tag": "2.1.5"
+        "release_tag": "2.1.5",
+        "bucket": true
     },
     "https://github.com/Conan924/PostHikvision": {
         "created_at": "2024-10-08 07:48:33",
@@ -19447,7 +19459,8 @@
         "commit_date": "2024-10-08 07:48:33",
         "release_date": "2024-10-08 07:50:40",
         "release_message": "",
-        "release_tag": "V1.0"
+        "release_tag": "V1.0",
+        "bucket": true
     },
     "https://github.com/WormChickenWizard/hikvision-decrypter": {
         "created_at": "2020-05-30 02:42:24",
@@ -19455,7 +19468,8 @@
         "updated_at": "2024-12-03 11:08:16",
         "release_date": "2020-05-30 03:04:47",
         "release_message": "The initial release of the hikvision decrypter application. As of now, it includes only the basic functionality of opening, saving, encrypting, and decrypting. **Warning:** So far, it has not been tested on actual hardware so if you were going to modify an unencrypted database with a hex editor, re-encrypt it, and upload it to a camera, it could brick your camera.",
-        "release_tag": "v1.0"
+        "release_tag": "v1.0",
+        "bucket": true
     },
     "https://github.com/CllmsyK/YYBaby-Spring_Scan": {
         "created_at": "2024-09-02 05:10:46",
@@ -19463,7 +19477,8 @@
         "updated_at": "2024-12-03 11:08:16",
         "release_date": "2024-09-02 05:17:45",
         "release_message": "1. 新增heapdump内存分析内置,添加文件读取利用方式;修复文件读取bug;增添bypass_pyload,bypass_dir;\r\n2. 修复路由扫描bug,新增YAML_RCE,H2_Database_JNDI;新增CVE-2024-22243和CVE-2024-22257;\r\n\r\nTools By：Cllmsy_K;\r\n该工具仅检测网站是否存在安全漏洞，仅用作授权测试;严禁用于非法途径，严禁用于商业目的，否则后果自负;",
-        "release_tag": "YYBaby_v0.9"
+        "release_tag": "YYBaby_v0.9",
+        "bucket": true
     },
     "https://github.com/AgonySec/ThinkPHPGUI": {
         "created_at": "2024-09-22 13:39:41",
@@ -19473,7 +19488,8 @@
         "commit_date": "2024-11-12 03:27:17",
         "release_date": "2024-09-22 13:43:36",
         "release_message": "- Java8执行jar包\r\n- java -jar ThinkPHPGUI.jar",
-        "release_tag": "ThinkPHPGUI_V1"
+        "release_tag": "ThinkPHPGUI_V1",
+        "bucket": true
     },
     "https://github.com/0xchang/DockerApiRCE": {
         "created_at": "2024-10-22 17:31:46",
@@ -19481,7 +19497,8 @@
         "updated_at": "2024-12-03 11:08:16",
         "release_date": "2024-10-22 17:33:11",
         "release_message": "新增查询所有特权模式容器\r\n新增添加特权模式容器\r\n修复使用代理时https证书问题",
-        "release_tag": "v0.4"
+        "release_tag": "v0.4",
+        "bucket": true
     },
     "https://github.com/Seven1an/CailsoftVulCheck": {
         "created_at": "2024-10-02 10:44:37",
@@ -19491,7 +19508,8 @@
         "commit_date": "2024-10-02 11:24:05",
         "release_date": "2024-10-02 11:11:37",
         "release_message": "1、禁用证书验证，完善了不能检测https协议的情况",
-        "release_tag": "v0.2"
+        "release_tag": "v0.2",
+        "bucket": true
     },
     "https://github.com/0x584A/Plumb": {
         "created_at": "2024-09-26 16:17:42",
