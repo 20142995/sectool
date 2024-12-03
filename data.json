@@ -238,14 +238,14 @@
         "updated_at": "2024-09-15 14:32:22"
     },
     "https://github.com/gh0stkey/HaE": {
-        "created_at": "2024-09-19 09:11:55",
+        "created_at": "2024-11-16 11:48:50",
         "description": "HaE - Highlighter and Extractor, Empower ethical hacker for efficient operations.",
         "commit_date": "2024-08-28 08:19:24",
         "commit_message": "Update README.md",
-        "release_tag": "3.3.3",
-        "release_date": "2024-09-19 09:14:46",
-        "release_message": "## 更新内容\r\n\r\nHaE 3.3.3更新内容如下。\r\n\r\n### 功能更新\r\n\r\n1. 新增二次检索功能，可用于对数据进行二次搜索。\r\n2. 新增`Limit size`配置项，可用于`Databoard`中限制响应包返回（以`MB`为单位，默认为0不限制）。\r\n\r\n### 问题修复\r\n\r\n1. 修复`Config`页面中配置项添加逻辑错误。\r\n2. 修复`Databoard`查看数据条目逻辑错误。\r\n\r\n### 致谢信息\r\n\r\n1. 感谢 @vaycore 反馈的问题，并提供解决方案。",
-        "updated_at": "2024-09-22 11:23:45",
+        "release_tag": "3.4",
+        "release_date": "2024-11-16 11:50:12",
+        "release_message": "## 更新内容\r\n\r\nHaE 3.4更新内容如下。\r\n\r\n### 功能更新\r\n\r\n1. 优化HaE官方规则库规则。\r\n2. 优化UI显示界面和布局，对用户可视化操作更友好。\r\n3. 新增`Mode`开关，开启则支持高亮和备注，关闭则提高性能。\r\n\r\n### 问题修复\r\n\r\n1. 修复汉化补丁下搜索功能失效问题。\r\n\r\n### 致谢信息\r\n\r\n1. 感谢 @AabyssZG 积极配合解决用户问题并提交PR。\r\n2. 感谢 @ZhangHaiShen 反应问题并积极配合测试。\r\n3. 感谢 “柯林斯-民间新秀” 对项目的宣传和大力支持。",
+        "updated_at": "2024-12-03 03:32:55",
         "bucket": true
     },
     "https://github.com/kelvinBen/AppInfoScanner": {
@@ -878,14 +878,14 @@
         "release_message": ""
     },
     "https://github.com/vaycore/OneScan": {
-        "created_at": "2024-08-02 08:05:48",
+        "created_at": "2024-11-26 05:29:41",
         "description": "OneScan是递归目录扫描的BurpSuite插件",
         "commit_date": "2024-09-03 09:38:18",
         "commit_message": "修复：扫描过程中 SwingWorker 无法加载请求响应数据包的问题（使用线程池代替）",
-        "release_tag": "v1.6.11",
-        "release_date": "2024-08-02 08:25:30",
-        "release_message": "1.6.11 版本发布，版本更新内容如下\r\n\r\n### 新增\r\n\r\n- 新增 `临时过滤选中数据`、`清空临时过滤规则` 菜单项，用于临时过滤数据\r\n- 新增 `Clear` 按钮，用于清空所有记录\r\n- 新增配置项：限制请求、响应包最大显示长度\r\n\r\n### 修复\r\n\r\n- 修复：请求行不包含 `HTTP/` 字符串时，导致处理出现异常、扫描任务被丢弃的问题\r\n- 修复：请求包的 URL 开头不是斜杠时，从请求行获取 URL 位置不正确导致 `Payload Processing` 处理结果异常的问题\r\n- 修复：加载 `Payload Processing` 配置时因未检测 `merge` 变量导致安装插件报错的问题\r\n",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_tag": "v1.6.20",
+        "release_date": "2024-11-26 05:33:31",
+        "release_message": "1.6.20 版本发布，版本更新内容如下\r\n\r\n### 修复\r\n\r\n- 修复：主动扫描因任务处理过程耗时导致 UI 卡死的问题\r\n- 修复：因处理 `IHttpService` 实例不当，导致的 `java.lang.IllegalArgumentException: Invalid service` 异常",
+        "updated_at": "2024-12-03 03:32:55"
     },
     "https://github.com/ianxtianxt/SharpDecryptPwd": {
         "created_at": "2019-10-12 11:43:26",
@@ -1078,24 +1078,24 @@
         "release_message": "- 增加`list-network`参数用于查看网卡ID\r\n- 增加`-csv`参数 用于保存文件到excel\r\n- 增加`-api`参数用于从网络api获取目标\r\n- 增加`-full`参数，用(api+内置字典)进行完整的一次扫描\r\n![WX20210112-175029](https://user-images.githubusercontent.com/18695984/104303212-c5b2ed80-5504-11eb-9d4a-fe8c7a2a1fe9.png)\r\n"
     },
     "https://github.com/ninoseki/mitaka": {
-        "created_at": "2024-07-28 10:24:08",
+        "created_at": "2024-11-23 02:01:10",
         "description": "A browser extension for OSINT search",
         "commit_message": "docs: update README",
         "commit_date": "2024-09-12 22:18:36",
-        "release_date": "2024-07-28 10:24:26",
-        "release_message": "## What's Changed\r\n* feat: support urlscan.io submit/scan visibility by @ninoseki in https://github.com/ninoseki/mitaka/pull/823\r\n* refactor: use valibot to convert Proxy object into vanilla object by @ninoseki in https://github.com/ninoseki/mitaka/pull/824\r\n* fix: fix type error by @ninoseki in https://github.com/ninoseki/mitaka/pull/826\r\n* refactor: use CommandSchema/Type by @ninoseki in https://github.com/ninoseki/mitaka/pull/827\r\n* fix: fix truncate issue (#825) by @ninoseki in https://github.com/ninoseki/mitaka/pull/828\r\n* v2.2.0 by @ninoseki in https://github.com/ninoseki/mitaka/pull/829\r\n\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.1.3...v2.2.0",
-        "release_tag": "v2.2.0",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-11-23 02:02:08",
+        "release_message": "## What's Changed\r\n* fix: set vitest/globals as a type by @ninoseki in https://github.com/ninoseki/mitaka/pull/850\r\n* v2.3.2 by @ninoseki in https://github.com/ninoseki/mitaka/pull/851\r\n\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.3.1...v2.3.2",
+        "release_tag": "v2.3.2",
+        "updated_at": "2024-12-03 03:32:55"
     },
     "https://github.com/v2rayA/v2rayA": {
-        "created_at": "2024-07-16 02:52:08",
+        "created_at": "2024-11-24 11:41:37",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
         "commit_message": "Add Support for QUIC Protocol in VLESS (#1473)",
         "commit_date": "2024-08-18 13:57:40",
-        "release_date": "2024-07-16 02:56:35",
-        "release_message": "## What's Changed\n* aur: remove armv6 of v2raya-bin by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1447\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.5.7...v2.2.5.8",
-        "release_tag": "v2.2.5.8",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-11-24 11:49:39",
+        "release_message": "## What's Changed\n* change trojan ws path url param name from \"serviceName\" to \"path\" to fit v2rayN's export format. by @hatrd in https://github.com/v2rayA/v2rayA/pull/1553\n* chore(deps): bump http-proxy-middleware from 2.0.6 to 2.0.7 in /gui by @dependabot in https://github.com/v2rayA/v2rayA/pull/1545\n* chore(docker,ci): add riscv64 to docker build by @ngc7331 in https://github.com/v2rayA/v2rayA/pull/1563\n\n## New Contributors\n* @hatrd made their first contribution in https://github.com/v2rayA/v2rayA/pull/1553\n* @ngc7331 made their first contribution in https://github.com/v2rayA/v2rayA/pull/1563\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.6.2...v2.2.6.3",
+        "release_tag": "v2.2.6.3",
+        "updated_at": "2024-12-03 03:32:55"
     },
     "https://github.com/silentsignal/burp-text4shell": {
         "created_at": "2022-10-18 15:08:41",
@@ -1107,14 +1107,14 @@
         "release_message": "Initial release"
     },
     "https://github.com/Yong-An-Dang/nuclei-plus": {
-        "created_at": "2024-08-07 14:11:07",
+        "created_at": "2024-11-22 10:49:28",
         "description": "Functional enhancement based on nuclei",
         "commit_date": "2024-09-12 09:35:51",
         "commit_message": "update",
-        "release_tag": "v7.4.8",
-        "release_date": "2024-08-07 14:11:26",
-        "release_message": "> 配置文件有变更，建议备份后重新生成配置文件\r\n\r\n### 💯 新增\r\n- 新增http流生成模板面板，实现智能生成PoC模板（基于大语言模型，配套服务：[nuclei-plus-server](https://github.com/Yong-An-Dang/nuclei-plus-server)）\r\n\r\n### ⭐ 优化\r\n- 优化模板同步接口：默认配置路径拼接 + “/template/sync”\r\n- 优化同步dir的获取\r\n- 模板编辑面板自动补全快捷键：ctrl +i\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.3.5...v7.4.8",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_tag": "v7.5.11",
+        "release_date": "2024-11-30 02:30:28",
+        "release_message": "### 🐛 修复\r\n-  #36 修复模板列表序号排序错乱问题。\r\n-  #37 修复配置保存读取编码可能不一致的问题。\r\n\r\n**Full Changelog**: https://github.com/Yong-An-Dang/nuclei-plus/compare/v7.5.9...v7.5.11",
+        "updated_at": "2024-12-03 03:32:55"
     },
     "https://github.com/Threekiii/Vulnerability-Wiki": {
         "created_at": "2024-03-07 09:30:14",
@@ -1163,15 +1163,15 @@
         "release_message": "## [6.3.0](https://github.com/mdp/rotp/compare/v6.2.2...v6.3.0) (2023-08-30)\n\n\n### Features\n\n* Allow for non-standard provisioning URI params, eg. image/icon ([#91](https://github.com/mdp/rotp/issues/91)) ([45d8aac](https://github.com/mdp/rotp/commit/45d8aac8356424897faf3a0dbda59f88b22df775))"
     },
     "https://github.com/gchq/CyberChef": {
-        "created_at": "2024-08-14 14:35:17",
+        "created_at": "2024-10-23 15:10:45",
         "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
         "commit_date": "2024-08-14 14:35:17",
         "commit_message": "10.19.2",
-        "release_tag": "v10.19.2",
-        "release_date": "2024-08-14 17:34:54",
+        "release_tag": "v10.19.4",
+        "release_date": "2024-10-23 15:19:30",
         "release_message": "See the [CHANGELOG](https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md) and [commit messages](https://github.com/gchq/CyberChef/commits/master) for details.",
         "bucket": true,
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-12-03 03:32:55"
     },
     "https://github.com/NeoTheCapt/PowerScanner": {
         "created_at": "2021-12-16 07:53:45",
@@ -1372,14 +1372,14 @@
         "bucket": true
     },
     "https://github.com/projectdiscovery/subfinder": {
-        "created_at": "2024-03-27 21:55:17",
+        "created_at": "2024-10-25 15:46:39",
         "description": "Fast passive subdomain enumeration tool.",
         "commit_message": "allow comments in input file (#1346)\n\n* allow comments in input file\r\n\r\n* use str util func\r\n\r\n* fix lint\r\n\r\n* lint fix",
         "commit_date": "2024-09-11 19:11:05",
-        "release_date": "2024-03-27 22:00:39",
-        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n### Other Changes\r\n\r\n* Added context to crtsh database query by @UFeindschiff in https://github.com/projectdiscovery/subfinder/pull/1190\r\n* Fixed SDK log config issue by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1200\r\n* Fixed issue of url scheme being added in output by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1166\r\n* Fixed issue with pagination by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1177\r\n* Fixed flaky tests by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1202\r\n* Updated go version in Dockerfile by @tarunKoyalwar in https://github.com/projectdiscovery/subfinder/pull/1159\r\n* Updated log level by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1167\r\n* Updated alpine to 3.18.6 for security fixes by @alizademhdi in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* Removed` time.sleep` from sources by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1175\r\n\r\n## New Contributors\r\n* @alizademhdi made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1192\r\n* @UFeindschiff made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1190\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.5...v2.6.6",
-        "release_tag": "v2.6.6",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-10-25 19:54:49",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n### 🎉 New Sources\r\n* Added subdomaincenter integration by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1315\r\n\r\n### Other Changes\r\n* Improved rapiddns integration by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1332\r\n* Improved Netlas integration to use download API by @ilya3254 in https://github.com/projectdiscovery/subfinder/pull/1301\r\n* Added support to add comments in input file by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1346\r\n* Added `GetStatistics` function by @meme-lord in https://github.com/projectdiscovery/subfinder/pull/1238\r\n* Fixed close resp body by @testwill in https://github.com/projectdiscovery/subfinder/pull/1239\r\n* Fixed negative stats by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1367\r\n* Fixed nil deref in source init by @dogancanbakir in https://github.com/projectdiscovery/subfinder/pull/1391\r\n* Fixed incorrect subdomains concatenate (shodan) by @dwisiswant0 in https://github.com/projectdiscovery/subfinder/pull/1392\r\n\r\n## New Contributors\r\n* @rustfix made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1221\r\n* @meme-lord made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1238\r\n* @testwill made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1239\r\n* @yourpwnguy made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1288\r\n* @ilya3254 made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1301\r\n* @RedYetiDev made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1214\r\n* @SharokhAtaie made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1339\r\n* @dwisiswant0 made their first contribution in https://github.com/projectdiscovery/subfinder/pull/1392\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/subfinder/compare/v2.6.6...v2.6.7",
+        "release_tag": "v2.6.7",
+        "updated_at": "2024-12-03 03:32:55"
     },
     "https://github.com/webraybtl/CodeQLpy": {
         "created_at": "2022-12-22 12:54:03",
