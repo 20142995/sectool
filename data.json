@@ -837,7 +837,7 @@
         "release_tag": "v2.0.8-push",
         "release_date": "2024-02-20 07:23:05",
         "release_message": "",
-        "updated_at": "2024-12-03 03:31:21",
+        "updated_at": "2024-12-03 06:17:22",
         "bucket": true
     },
     "https://github.com/murphysecurity/murphysec": {
@@ -19396,7 +19396,7 @@
         "release_date": "2022-04-18 10:22:07",
         "release_message": "* Fix login flow from returning 404 errors\r\n* Fix broken media messages",
         "release_tag": "v3.0.4",
-        "updated_at": "2024-12-03 03:31:21",
+        "updated_at": "2024-12-03 06:17:22",
         "bucket": true,
         "description": "Desktop application for Instagram DMs",
         "commit_message": "Delete CNAME",
@@ -19405,7 +19405,7 @@
     "https://github.com/Lymphatus/caesium-image-compressor": {
         "created_at": "2024-10-27 15:15:26",
         "description": "Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG, WebP and TIFF formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.",
-        "updated_at": "2024-12-03 03:31:21",
+        "updated_at": "2024-12-03 06:17:22",
         "commit_message": "2.8.2 bump",
         "commit_date": "2024-10-27 15:15:26",
         "release_date": "2024-10-27 15:38:07",
@@ -19538,16 +19538,6 @@
         "release_date": "2024-09-22 14:19:55",
         "release_message": "调整了输出的显示,代码微调",
         "release_tag": "v1.1"
-    },
-    "https://github.com/20142995/file": {
-        "created_at": "2023-05-12 10:48:26",
-        "description": null,
-        "updated_at": "2024-12-03 03:31:21",
-        "commit_message": "commit message",
-        "commit_date": "2023-05-12 10:48:26",
-        "release_date": "2024-11-22 02:12:26",
-        "release_message": "单图盲水印(频域隐写)工具 ",
-        "release_tag": "WaterMarkH"
     },
     "https://github.com/ambionics/phpggc": {
         "created_at": "2017-07-03 08:54:25",
@@ -19742,5 +19732,134 @@
         "created_at": "2013-04-09 09:32:34",
         "description": "UNMAINTAINED. USE AT OWN RISK. Stegdetect is an automated tool for detecting steganographic content in images.",
         "updated_at": "2024-12-03 03:31:21"
+    },
+    "https://github.com/wanghongenpin/network_proxy_flutter": {
+        "created_at": "2024-11-11 10:45:14",
+        "release_date": "2024-11-11 11:27:19",
+        "release_message": "iOS App Store：https://apps.apple.com/app/proxypin/id6450932949\r\n\r\nGoogle Play：https://play.google.com/store/apps/details?id=com.network.proxy\r\n\r\nV1.1.6\r\n  1. 新增Hosts设置, 支持域名映射\r\n  2. 工具箱新增时间戳转换\r\n  3. 编辑请求发送快捷键和发送loading\r\n  4. 修复脚本编辑键盘弹出安全模式问题\r\n  5. 修复脚本URL编码问题\r\n  6. 修复请求屏蔽编辑多出空格问题\r\n  7. 修复ipad分享点击无效问题\r\n  8. 修复高级重放次数过多不执行问题\r\n  9. 修复请求重写bug\r\n  10. 应用黑白名单增加清除无效应用，添加过滤已存在应用\r\n\r\nEnglish:\r\n  1. Added Hosts settings to support domain name mapping\r\n  2. Toolbox adds timestamp conversion\r\n  3. Edit request to send shortcut keys and send loading\r\n  4. Fixed script editing keyboard pop-up safe mode issue\r\n  5. Fixed script URL encoding issue\r\n  6. Fixed the issue of extra spaces in request mask editing\r\n  7. Fixed the issue that iPad share clicks are invalid\r\n  8. Fixed the issue that the advanced replay would not execute if there were too many times\r\n  9. Fixed the request rewrite bug\r\n  10. Add and remove invalid applications in the application blacklist and whitelist\r\n\r\n",
+        "release_tag": "v1.1.6",
+        "updated_at": "2024-12-03 06:17:22"
+    },
+    "https://github.com/20142995/file": {
+        "created_at": "2023-05-12 10:48:26",
+        "description": null,
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "commit message",
+        "commit_date": "2023-05-12 10:48:26",
+        "release_date": "2024-11-22 02:12:26",
+        "release_message": "单图盲水印(频域隐写)工具 ",
+        "release_tag": "WaterMarkH"
+    },
+    "https://github.com/Muhansrc/springboot_scan": {
+        "commit_message": "Update tools.py\n\n新增url预检查，进度条刷新",
+        "commit_date": "2024-09-26 14:38:36",
+        "updated_at": "2024-12-03 06:17:22"
+    },
+    "https://github.com/h3xx/jphs": {
+        "created_at": "2012-02-03 17:42:35",
+        "description": "jphide & seek steganography tools",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "Merge pull request #3 from Morozov-5F/macos-compile\n\n[macos-compile] Fixed compilation errors on Apple computers",
+        "commit_date": "2017-11-22 02:40:32"
+    },
+    "https://github.com/jackfengji/f5-steganography": {
+        "created_at": "2012-03-23 07:48:52",
+        "description": "a python implement of f5 steganography",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "change dpi to 96",
+        "commit_date": "2012-03-30 06:51:29"
+    },
+    "https://github.com/lukechampine/jsteg": {
+        "created_at": "2018-06-23 18:13:24",
+        "description": "JPEG steganography",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "add Capacity function",
+        "commit_date": "2023-05-11 03:28:35",
+        "release_date": "2018-08-06 21:59:46",
+        "release_message": "This release cleans up some output of the `jsteg` command. Functionality is unchanged.\r\n\r\nNOTE: To run `jsteg` and `slink` on macOS, you must first mark them as executable with `chmod +x`.",
+        "release_tag": "v0.3.0"
+    },
+    "https://github.com/anthwlock/untrunc": {
+        "created_at": "2018-06-05 09:59:46",
+        "description": "Restore a truncated mp4/mov. Improved version of ponchio/untrunc",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "Dockerfile: use ubuntu 22.04",
+        "commit_date": "2024-08-14 16:26:55"
+    },
+    "https://github.com/veracrypt/VeraCrypt": {
+        "created_at": "2024-09-03 19:00:14",
+        "description": "Disk encryption with strong security based on TrueCrypt",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "Windows: Increment version to 1.26.17.2. Update signed drivers.",
+        "commit_date": "2024-11-27 00:05:55",
+        "release_date": "2024-09-03 19:07:28",
+        "release_message": "Binaries for supported operating systems are also available at [Sourceforge](https://sourceforge.net/projects/veracrypt/files/VeraCrypt%201.26.15/).\r\n\r\n##### Changes between 1.26.14 and 1.26.15 (2 September 2024):\r\n\r\n- Windows:\r\n  * Fix MSI install/uninstall issues:\r\n    - Fixed error 1603 returned by MSI silent install when REBOOT=ReallySuppress is specified and a reboot is required.\r\n    - Fixed missing documentation and language files from the MSI package.\r\n    - Fixed MSI not installing new documentation and language files when upgrading from an EXE-based installation.\r\n    - Fixed installation folder not being removed after MSI uninstall in some cases.\r\n  * Fix regression during UEFI system decryption that caused the bootloader to persist.\r\n\r\n**Full Changelog**: https://github.com/veracrypt/VeraCrypt/compare/VeraCrypt_1.26.14...VeraCrypt_1.26.15",
+        "release_tag": "VeraCrypt_1.26.15"
+    },
+    "https://github.com/5ime/CS_Decrypt": {
+        "created_at": "2023-10-02 04:29:03",
+        "description": "CobaltStrike流量解密脚本",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "Add",
+        "commit_date": "2023-10-02 05:01:43"
+    },
+    "https://github.com/20142995/tshark_extraction": {
+        "created_at": "2023-10-28 09:04:31",
+        "description": "基于tshark的流量提取，支持http流提取、tcp可见字符串提取",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "Add files via upload",
+        "commit_date": "2024-10-16 13:31:43",
+        "release_date": "2024-10-16 13:23:45",
+        "release_message": "",
+        "release_tag": "0.1"
+    },
+    "https://github.com/dushixiang/evil-mysql-server": {
+        "created_at": "2022-10-23 06:20:49",
+        "description": "evil-mysql-server is a malicious database written to target jdbc deserialization vulnerabilities and requires ysoserial.",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "release v0.0.2",
+        "commit_date": "2022-10-23 06:20:49",
+        "release_date": "2022-10-23 06:21:34",
+        "release_message": "- support ysuserial",
+        "release_tag": "v0.0.2"
+    },
+    "https://github.com/msgbyte/tianji": {
+        "created_at": "2024-11-29 18:41:45",
+        "description": "Tianji: Insight into everything, Website Analytics + Uptime Monitor + Server Status. not only another GA alternatives",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "docs: add cloud link",
+        "commit_date": "2024-11-30 17:57:23",
+        "release_date": "2024-11-29 18:41:56",
+        "release_message": "## [1.17.4](https://github.com/msgbyte/tianji/compare/v1.17.3...v1.17.4) (2024-11-29)\r\n\r\n### Document\r\n\r\n* update npm config ([ed591e2](https://github.com/msgbyte/tianji/commit/ed591e207d00d86b08989407d22ace1400bd0fd3))\r\n* update openapi document [#130](https://github.com/msgbyte/tianji/issues/130) ([0f3168e](https://github.com/msgbyte/tianji/commit/0f3168e340ab292cbf905b9d89dc666da809b96f))\r\n* update roadmap ([c7bd2e6](https://github.com/msgbyte/tianji/commit/c7bd2e6fb960996111cca091fa8dac1307457980))\r\n\r\n### Others\r\n\r\n* change init state of global config ([e0da48f](https://github.com/msgbyte/tianji/commit/e0da48f4d438676ea094b39ea87e0d04248d83ca))\r\n* update code style ([99db3d0](https://github.com/msgbyte/tianji/commit/99db3d02e370b9d252919d216ad0e1b36540d199))",
+        "release_tag": "v1.17.4"
+    },
+    "https://github.com/firmianay/IoT-vulhub": {
+        "created_at": "2020-08-27 03:11:03",
+        "description": "IoT固件漏洞复现环境",
+        "updated_at": "2024-12-03 06:17:22"
+    },
+    "https://github.com/lokerxx/JavaVul": {
+        "created_at": "2024-01-31 13:28:49",
+        "description": "JAVA  安全靶场，IAST 测试用例，JAVA漏洞复现，代码审计，SAST测试用例，安全扫描（主动和被动），JAVA漏洞靶场，RASP测试用例  ； Java Security Testbed, IAST Test Cases, Java Vulnerability Reproduction, Code Auditing, SAST Test Cases, Security Scanning (Active and Passive), Java Vulnerability Testbed, RASP Test Cases",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "更新",
+        "commit_date": "2024-09-06 14:40:51"
+    },
+    "https://github.com/wjlin0/riverPass": {
+        "created_at": "2024-10-18 02:48:51",
+        "description": "riverPass 是一个用Go编写的瑞数WAF绕过工具。它利用了WebSocket协议，将请求发送的自身浏览器中，从而绕过了瑞数WAF的检测。",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "🎉 v1.0.2 -> fix window not found",
+        "commit_date": "2024-10-18 02:48:51",
+        "release_date": "2024-10-18 02:58:10",
+        "release_message": "## Changelog\n* cc9f7117feb3ef35cd1b934d27496dc236157fe1 🎉 v1.0.2 -> fix window not found\n\n",
+        "release_tag": "v1.0.2"
+    },
+    "https://github.com/SwagXz/encrypt-labs": {
+        "created_at": "2024-11-12 06:08:02",
+        "description": "前端加密对抗练习靶场，包含非对称加密、对称加密、加签以及禁止重放的测试场景，比如AES、DES、RSA，用于渗透测试练习",
+        "updated_at": "2024-12-03 06:17:22",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-11-25 11:19:58"
     }
 }
