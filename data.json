@@ -869,13 +869,14 @@
         "release_message": "1. 添加了多目标 fuzz  菜单功能\r\n2. fix 修补占用cpu %100的bug\r\n<img width=\"1200\" alt=\"image\" src=\"https://user-images.githubusercontent.com/7532477/159223555-f238dd62-5476-4f02-9f92-3ef1b3223c09.png\">\r\n"
     },
     "https://github.com/Anof-cyber/APTRS": {
-        "created_at": "2022-10-28 16:15:37",
+        "created_at": "2024-11-24 10:09:12",
         "description": "Automated Penetration Testing Reporting System",
         "commit_date": "2023-05-06 09:52:47",
         "commit_message": "Update README.md",
-        "release_tag": "",
-        "release_date": "",
-        "release_message": ""
+        "release_tag": "1.0",
+        "release_date": "2024-11-24 11:01:12",
+        "release_message": "# APTRS v1.0 - First Stable Release\r\n\r\nWe are excited to announce the first stable release of APTRS, version 1.0! This release introduces significant updates, including a brand-new REST API built with Django Rest Framework and a fresh frontend powered by ViteJS. Below is a list of key changes, new features, and bug fixes:\r\n\r\n### Special Thanks\r\n- A big Thanks to @djscruggs for Creating the new frontend from scratch using ViteJS and implementing the Rest API into the frontend.\r\n\r\n### Sponsors\r\n- A big Thanks to @digitalocean for supporting the APTRS Project \r\n\r\n### New Features\r\n- Added Rest APIs [#16](https://github.com/APTRS/APTRS/issues/16) and new Frontend \r\n- Added support for Customers to be part of the User (Customer login, APIs, and Dashboard not supported yet)\r\n- Support for Retest\r\n- Updated PDF report template\r\n- Support for DOCX report template\r\n- Support for EXCEL report\r\n- Added Option to select Project owners\r\n- Added Project Status option\r\n- Added Option to Add multiple Scopes\r\n- Ability to select Project Service type with Ability to add custom service types\r\n- Ability to select report standards with Ability to add custom report standards\r\n- Vulnerability Instances can now have its status\r\n- Support for Digital Ocean and AWS S3 cloud bucket for media files including vulnerability POC and company logo\r\n- Added User Permissions\r\n- Added Password change and edit profile for users\r\n- Support Nessus CSV report parser\r\n- Added docker support\r\n- Updated Report Generation Library \r\n\r\n### Security Bug Fix\r\n- Fixed Remote Code execution via File upload vulnerability\r\n- Fixed SSRF Vulnerability\r\n- Fixed HTML Injection Vulnerability\r\n\r\n### Features Removed\r\n- Partial Windows support removed\r\n\r\n### Bug Fixed\r\n- Installation Errors added support for Docker for easy setup [#6](https://github.com/APTRS/APTRS/issues/6), [#13](https://github.com/APTRS/APTRS/issues/13), [#18](https://github.com/APTRS/APTRS/issues/18)\r\n- Fixed PDF report generation 500 Status Code error [#8](https://github.com/APTRS/APTRS/issues/8)\r\n- Project Vulnerability unable to fetch data from Vulnerability DB [#12](https://github.com/APTRS/APTRS/issues/12), [#15](https://github.com/APTRS/APTRS/issues/15), [#32](https://github.com/APTRS/APTRS/issues/32)\r\n- Updated PDF generation to add all issues within Project [#24](https://github.com/APTRS/APTRS/issues/24)\r\n- Fixed Company Logo is not saved [#25](https://github.com/APTRS/APTRS/issues/25)\r\n- Removed Margin from PDF and added support for margin from HTML and CSS [#29](https://github.com/APTRS/APTRS/issues/29)\r\n",
+        "updated_at": "2024-12-03 15:15:15"
     },
     "https://github.com/vaycore/OneScan": {
         "created_at": "2024-11-26 05:29:41",
