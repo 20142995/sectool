@@ -31,7 +31,7 @@ async def get_other_url_status(session, url):
 async def get_github_url_status(session, url):
     token = os.getenv("GH_TOKEN", "")
     headers = {
-        "Authorization": f"token {token}",
+        "Authorization": f"{token}",
         "Connection": "close",
         "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36",
     }
