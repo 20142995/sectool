@@ -832,12 +832,12 @@
     "https://github.com/knownsec/pocsuite3": {
         "created_at": "2024-02-20 07:11:01",
         "description": "pocsuite3 is an open-sourced remote vulnerability testing framework developed by the Knownsec 404 Team.",
-        "commit_date": "2024-04-30 05:56:11",
-        "commit_message": "feat:During batch scanning, too many targets cause the output results to exceed the display range.",
+        "commit_date": "2024-11-26 09:08:15",
+        "commit_message": "fix: no moudel telnetlib in py3.13",
         "release_tag": "v2.0.8-push",
         "release_date": "2024-02-20 07:23:05",
         "release_message": "",
-        "updated_at": "2024-09-25 21:02:53",
+        "updated_at": "2024-12-03 03:31:21",
         "bucket": true
     },
     "https://github.com/murphysecurity/murphysec": {
@@ -19396,13 +19396,16 @@
         "release_date": "2022-04-18 10:22:07",
         "release_message": "* Fix login flow from returning 404 errors\r\n* Fix broken media messages",
         "release_tag": "v3.0.4",
-        "updated_at": "2024-12-03 11:08:16",
-        "bucket": true
+        "updated_at": "2024-12-03 03:31:21",
+        "bucket": true,
+        "description": "Desktop application for Instagram DMs",
+        "commit_message": "Delete CNAME",
+        "commit_date": "2024-09-28 05:32:01"
     },
     "https://github.com/Lymphatus/caesium-image-compressor": {
         "created_at": "2024-10-27 15:15:26",
         "description": "Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG, WebP and TIFF formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.",
-        "updated_at": "2024-12-03 11:08:16",
+        "updated_at": "2024-12-03 03:31:21",
         "commit_message": "2.8.2 bump",
         "commit_date": "2024-10-27 15:15:26",
         "release_date": "2024-10-27 15:38:07",
@@ -19515,5 +19518,229 @@
         "created_at": "2024-09-26 16:17:42",
         "description": "一个轮子，用于渗透测试优化的 DNS/HTTP 日志工具，简洁、轻便、更易于使用。",
         "updated_at": "2024-12-03 11:08:16"
+    },
+    "https://github.com/massgravel/Microsoft-Activation-Scripts": {
+        "created_at": "2024-11-09 16:20:23",
+        "description": "Open-source Windows and Office activator featuring HWID, Ohook, KMS38, and Online KMS activation methods, along with advanced troubleshooting.",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Update link in read me",
+        "commit_date": "2024-11-11 08:58:28",
+        "release_date": "2024-11-09 16:22:01",
+        "release_message": "## Changelog: 2.8\r\n\r\n- Added support for UWP Office activation in Online KMS\r\n- Added an option to Add/Remove apps in change Office edition script\r\n- Replaced generated GVLK with official GVLK for Office 2024 ProPlus, ProjectPro, and VisioPro\r\n- Fixed an issue where the script would crash on Windows 10 ARM64 (because only x86 Powershell is available)\r\n- Fixed an issue in fetching useraccounts SID list\r\n- Fixed an issue where the excluded apps option wouldn't work in change Office edition script if the Office build is old. Thanks to @abbodi1406\r\n- Fixed an issue where change Windows edition script wouldn't show the correct list if Windows is activated with a subscription license\r\n- Various other minor fixes and improvements\r\n\r\n----\r\n\r\n## Download / How to use it?\r\n\r\nhttps://github.com/massgravel/Microsoft-Activation-Scripts?tab=readme-ov-file#download--how-to-use-it\r\n\r\n## Don't download from the below Source code (zip) link. Check the above link for the info.",
+        "release_tag": "2.8"
+    },
+    "https://github.com/3xsh0re/FastAdmin-exp": {
+        "created_at": "2024-09-22 14:17:10",
+        "description": "快速测试是否存在FastAdmin框架相关漏洞",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-10-14 05:16:44",
+        "release_date": "2024-09-22 14:19:55",
+        "release_message": "调整了输出的显示,代码微调",
+        "release_tag": "v1.1"
+    },
+    "https://github.com/20142995/file": {
+        "created_at": "2023-05-12 10:48:26",
+        "description": null,
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "commit message",
+        "commit_date": "2023-05-12 10:48:26",
+        "release_date": "2024-11-22 02:12:26",
+        "release_message": "单图盲水印(频域隐写)工具 ",
+        "release_tag": "WaterMarkH"
+    },
+    "https://github.com/ambionics/phpggc": {
+        "created_at": "2017-07-03 08:54:25",
+        "description": "PHPGGC is a library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically. ",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Merge pull request #196 from mcdruid/public_attributes\n\nPublicProperties enhancement",
+        "commit_date": "2024-11-25 08:44:08"
+    },
+    "https://github.com/doimet/AuxTools": {
+        "created_at": "2024-11-10 05:30:01",
+        "description": "图形化渗透测试辅助工具",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-11-10 05:30:01",
+        "release_date": "2024-12-01 14:12:54",
+        "release_message": "- 修复了多项已知问题",
+        "release_tag": "5.0.10"
+    },
+    "https://github.com/pwntester/ysoserial.net": {
+        "created_at": "2023-10-17 12:13:01",
+        "description": "Deserialization payload generator for a variety of .NET formatters",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Merge pull request #168 from gogo2464/document-build-from-source",
+        "commit_date": "2024-06-20 12:26:49",
+        "release_date": "2023-10-17 12:27:23",
+        "release_message": "You can get the latest build from https://github.com/pwntester/ysoserial.net/actions even before releases here!\r\n\r\nPlease see the closed PRs at https://github.com/pwntester/ysoserial.net/pulls?q=is%3Apr+is%3Aclosed for more information on what has been fixed or updated so far.\r\n\r\n## What's Changed\r\n* Update README.md by @irsdl in https://github.com/pwntester/ysoserial.net/pull/126\r\n* Fixing the Mono gadget by @irsdl in https://github.com/pwntester/ysoserial.net/pull/127\r\n* Update README.md by @irsdl in https://github.com/pwntester/ysoserial.net/pull/128\r\n* serializer helper update + testing arena by @irsdl in https://github.com/pwntester/ysoserial.net/pull/129\r\n* code clean-up by @irsdl in https://github.com/pwntester/ysoserial.net/pull/130\r\n* Hex output stdin fixes by @Bort-Millipede in https://github.com/pwntester/ysoserial.net/pull/131\r\n* project file update by @irsdl in https://github.com/pwntester/ysoserial.net/pull/132\r\n* project update by @irsdl in https://github.com/pwntester/ysoserial.net/pull/133\r\n* project update by @irsdl in https://github.com/pwntester/ysoserial.net/pull/134\r\n* Fixing the single quote escaping issue in JSON messages by @irsdl in https://github.com/pwntester/ysoserial.net/pull/136\r\n* Fixing bugs in cmd payloads' JavaScript escaping by @irsdl in https://github.com/pwntester/ysoserial.net/pull/137\r\n* Readme update, code content update by @irsdl in https://github.com/pwntester/ysoserial.net/pull/138\r\n* Update README.md by @irsdl in https://github.com/pwntester/ysoserial.net/pull/139\r\n* adding a feature & general updates by @irsdl in https://github.com/pwntester/ysoserial.net/pull/140\r\n* Adding new gadgets & improvements by @irsdl in https://github.com/pwntester/ysoserial.net/pull/141\r\n* fixing descriptions, refactoring some names by @irsdl in https://github.com/pwntester/ysoserial.net/pull/142\r\n* stdin Encoding Fix by @Bort-Millipede in https://github.com/pwntester/ysoserial.net/pull/144\r\n* added --stdin feature to ViewStatePlugin.cs by @Ramzeth in https://github.com/pwntester/ysoserial.net/pull/145\r\n* Added ObjectDataProvider gadget generation for MessagePack (Typeless) by @NinesPsygnosis in https://github.com/pwntester/ysoserial.net/pull/146\r\n* Reduced the necessary code to achieve gadget generation for MessagePackTypeless by @NinesPsygnosis in https://github.com/pwntester/ysoserial.net/pull/147\r\n* Added link to blog article for MessagePack Typeless gadget generation by @NinesPsygnosis in https://github.com/pwntester/ysoserial.net/pull/149\r\n* Added a generator for XAML that does Assembly.Load with compression by @russtone in https://github.com/pwntester/ysoserial.net/pull/151\r\n* Correcting options for DotNetNuke plugin by @idealphase in https://github.com/pwntester/ysoserial.net/pull/154\r\n* Post hexacon by @chudyPB in https://github.com/pwntester/ysoserial.net/pull/156\r\n\r\n## New Contributors\r\n* @Bort-Millipede made their first contribution in https://github.com/pwntester/ysoserial.net/pull/131\r\n* @Ramzeth made their first contribution in https://github.com/pwntester/ysoserial.net/pull/145\r\n* @russtone made their first contribution in https://github.com/pwntester/ysoserial.net/pull/151\r\n* @idealphase made their first contribution in https://github.com/pwntester/ysoserial.net/pull/154\r\n* @chudyPB made their first contribution in https://github.com/pwntester/ysoserial.net/pull/156\r\n\r\n**Full Changelog**: https://github.com/pwntester/ysoserial.net/compare/v1.35...v1.36",
+        "release_tag": "v1.36"
+    },
+    "https://github.com/MKID1412/MoonLight": {
+        "created_at": "2024-09-30 14:13:03",
+        "description": "备案查询、空间测绘、漏洞测试、编码及加解密....",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "fix bug",
+        "commit_date": "2024-09-30 14:13:03",
+        "release_date": "2024-09-30 14:28:46",
+        "release_message": "",
+        "release_tag": "v1.0"
+    },
+    "https://github.com/0dayCTF/reverse-shell-generator": {
+        "created_at": "2021-02-27 00:53:13",
+        "description": "Hosted Reverse Shell generator with a ton of functionality. -- (Great for CTFs)",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Merge pull request #173 from AlanFoster/fix-NaN-port-number-error\n\nFix NaN port number error",
+        "commit_date": "2024-10-31 22:38:04"
+    },
+    "https://github.com/pascal-lab/Tai-e": {
+        "created_at": "2023-09-23 12:16:29",
+        "description": "An easy-to-learn/use static analysis framework for Java",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Fix incorrect result when an empty bitset intersects with itself",
+        "commit_date": "2024-09-21 09:17:23",
+        "release_date": "2023-09-23 12:36:54",
+        "release_message": "### New Features\r\n\r\n- Add option `--app-class-path`.\r\n- Add option `--keep-results`.\r\n- Add option `--output-dir`.\r\n- Add option `-wc, --world-cache-mode`.\r\n- Add def-use analysis.\r\n- Add dominator-finding algorithm.\r\n- Add generics signature information for Class, Method, and Field.\r\n- Include documentation source in the repository.\r\n- Taint analysis\r\n  - Support taint source for arguments of method calls and method parameters.\r\n  - Support taint source for field loads.\r\n  - Support taint sanitization for method parameters.\r\n  - Dump taint flow graph.\r\n  - Support loading multiple taint configuration files.\r\n  - Support taint transfer between variables and instance fields/array elements.\r\n  - Support call-site mode.\r\n- Pointer analysis\r\n  - Support adding entry points of the program to analyze.\r\n  - Support analysis time limit.\r\n  - Support propagation for values of primitive types.\r\n  - Support hybrid inference-based and log-based reflection analysis.\r\n  - Add Solar reflection analysis (TOSEM'19).\r\n  - Support annotation-based invoke handler registration.\r\n  - Support dumping points-to set in YAML format.\r\n\r\n### Breaking Changes\r\n\r\n- Option and configuration changes\r\n  - Change All `dump` related options. Previously, most `dump` options require users to specify a path to dump file; now, Tai-e uses fixed path for dump file (the file name is fully fixed, and users can still change dump directory via option `--output-dir`), so that users only need to specify `true` or `false` for all `dump` options.\r\n  - Rename analysis `class-dumper` to `ir-dumper`.\r\n  - Pointer analysis\r\n    - Replace `merge-string-constants` by `distinguish-string-constants`.\r\n    - Replace `action` by `dump` and `expected-file`.\r\n  - Taint analysis\r\n    - Require to add `kind` to *source* configurations. Previously, the taint analysis only supports one kind of sources, i.e., result of method call. Now, we support more kinds of sources, including argument or result of method call (`kind: call`), and method parameter (`kind: param`) , so users need to specify kind of each source. Please see [an example](src/test/resources/pta/taint/taint-config-instance-source-sink.yml).\r\n- API changes\r\n  - Change `pascal.taie.analysis.pta.core.heap.HeapModel.getMockObj(String,...)` to `HeapModel.getMockObj(Descriptor,...)`.\r\n  - Change APIs of `pascal.util.graph.Edge` and its subclasses.\r\n  - Change return type of `Exp.getUses()` to `Set<RValue>`.\r\n  - Change return type of `Stmt.getUses()` to `Set<RValue>`.",
+        "release_tag": "v0.2.2"
+    },
+    "https://github.com/baihengaead/wifi-crack-tool": {
+        "created_at": "2024-10-30 09:21:36",
+        "description": "WiFi密码暴力破解工具-图形界面，支持WPA/WPA2/WPA3、多开并发、自动破解、自定义密码本、自动生成密码字典",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "[更新] v1.2.5",
+        "commit_date": "2024-10-30 09:21:36",
+        "release_date": "2024-10-30 09:24:34",
+        "release_message": "- **[新增]** 支持在破解过程中**暂停**。([#26](https://github.com/baihengaead/wifi-crack-tool/issues/26))\r\n- **[修复]** 在设备的**WLAN功能关闭**时，**扫描WiFi会抛出意外错误**的问题。([#28](https://github.com/baihengaead/wifi-crack-tool/issues/28))\r\n- **[修复]** 在自动破解全部WiFi的情况下，连接完成一个WiFi后，所有**按钮的状态会被重置**的问题。",
+        "release_tag": "v1.2.5"
+    },
+    "https://github.com/iamunixtz/ParamWizard": {
+        "created_at": "2024-08-16 08:32:09",
+        "description": "ParamWizard is a powerful Python-based tool designed for extracting and identifying URLs with parameters from a specified website. It provides a comprehensive way to discover hidden parameters within a web application by crawling and analyzing the URLs of the domain. ",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Update paramwizard.py\n\nupdate and fix some ssl and network issues again",
+        "commit_date": "2024-09-02 10:35:33"
+    },
+    "https://github.com/BeichenDream/PrintNotifyPotato": {
+        "created_at": "2022-12-02 08:26:28",
+        "description": "PrintNotifyPotato",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Create README.md",
+        "commit_date": "2022-12-02 08:26:28",
+        "release_date": "2022-12-02 08:29:14",
+        "release_message": "![image](https://user-images.githubusercontent.com/43266206/205249610-c2ba2a5d-c041-4aba-ab96-380af3597bd8.png)\r\n",
+        "release_tag": "v1.00"
+    },
+    "https://github.com/Marven11/EtherGhost": {
+        "created_at": "2024-11-16 16:44:29",
+        "description": "新一代Webshell管理器，兼容蚁剑与冰蝎的PHP webshell",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Update README again, providing other ways to install since M$ keep saying the exe is a virus.",
+        "commit_date": "2024-11-16 17:06:41",
+        "release_date": "2024-11-16 16:49:33",
+        "release_message": "v0.1.3: [开发中]游魂PHP Webshell, 功能小改进，bug修复\r\n    \r\n游魂PHP Webshell: 在流量混淆方面比蚁剑和冰蝎更好的Webshell\r\n\r\n功能升级:\r\n - 改进XOR性能，不使用python原生代码计算\r\n- Linux命令Webshell支持GET传参和Header传参\r\n- XML和XHTML语法高亮\r\n- 文件下载进度\r\n    \r\nBug fixes:\r\n- LiteSpeed兼容性改进\r\n- Linux命令Webshell判断文件类型错误\r\n- 改进前端CSS\r\n\r\n注：\r\nexe版本应该还是会被微软报毒，建议自己打包exe版本或者换用Linux，又或者直接运行源码",
+        "release_tag": "v0.1.3"
+    },
+    "https://github.com/suizhibo/MemShellGene": {
+        "created_at": "2024-07-04 07:03:28",
+        "description": "一款Java内存马生成、测试工具，搭配@ax1sX的MemShell食用。",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "update:tongwebmemshell",
+        "commit_date": "2024-07-04 07:03:28",
+        "release_date": "2024-07-04 07:46:16",
+        "release_message": "update tongweb memshell",
+        "release_tag": "v0.1.1-alpha"
+    },
+    "https://github.com/swisskyrepo/PayloadsAllTheThings": {
+        "created_at": "2024-04-25 15:37:16",
+        "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Books update",
+        "commit_date": "2024-12-01 11:52:11",
+        "release_date": "2024-04-26 14:50:44",
+        "release_message": "2 years after the latest release, it is time for a new one 🥳\r\nMany pages have been updated with new payloads and descriptions. \r\nEvery pages under \"Methodology and Resources\" have been moved in their own repository (InternalAllTheThings)\r\n\r\nThis repository is now available as a website with nice features such as a \"complete search bar\", \"dark/light mode\", and buttons to share a specific page on your favorite social networks.\r\n\r\nThe \"AllTheThings\" family is expanding, check out the other projects\r\n- [InternalAllTheThings](https://github.com/swisskyrepo/InternalAllTheThings)\r\n- [HardwareAllTheThings](https://github.com/swisskyrepo/HardwareAllTheThings)",
+        "release_tag": "4.0"
+    },
+    "https://github.com/shuanx/BurpFingerPrint": {
+        "created_at": "2024-05-05 02:55:28",
+        "description": "BurpSuite插件集成Ehole指纹库并进行常见OA弱口令爆破插件",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "update",
+        "commit_date": "2024-09-05 00:44:08",
+        "release_date": "2024-05-05 02:57:26",
+        "release_message": "## BurpFingerPrint v1.5\r\n- [x] 开启弱口令爆破模块，目前支持Apache-Tomcat\r\n\r\n## BurpFingerPrint v1.4\r\n- [x] 使用sqlite存储扫描结果，防止因BurpSuite意外退出而导致数据丢失\r\n- [x] 优化算法，提升性能、减少内存开销\r\n\r\n## BurpFingerPrint v1.3\r\n- [x] 优化已有指纹库，区分重点指纹和常见指纹，补充部分实战热门漏洞的指纹，方便直接一键getshell\r\n\r\n## BurpFingerPrint v1.2\r\n- [x] 开界面进行指纹库修改，可导入、导出、重置\r\n\r\n## BurpFingerPrint v1.1\r\n- [x] 浏览器被动指纹识别，已集成Ehole指纹识别库\r\n- [x] 提取网站的URL链接和解析JS文件中的URL链接后进行指纹识别\r\n",
+        "release_tag": "v1.5"
+    },
+    "https://github.com/jython/jython": {
+        "created_at": "2020-07-25 16:17:43",
+        "description": " Python for the Java Platform",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Update README.md (#357)",
+        "commit_date": "2024-09-21 11:34:36"
+    },
+    "https://github.com/f0ng/autoDecoder-usages": {
+        "created_at": "2023-02-21 13:05:16",
+        "description": "autoDecoder的用法及案例，包含加解密方法、绕waf、替换参数等操作。",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-07-28 05:17:59"
+    },
+    "https://github.com/API-Security/APIKit": {
+        "created_at": "2023-05-19 03:55:41",
+        "description": "APIKit：Discovery, Scan and Audit APIs Toolkit All In One.",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "新增Do Target API Scan用法。",
+        "commit_date": "2023-05-19 03:55:41",
+        "release_date": "2024-04-02 09:29:56",
+        "release_message": "APIKit 1.5.4(修复版)\r\n1. 修复了soap文档404但是文档确实存在的bug。\r\n2. 增加spring低版本跨目录fuzz功能。\r\n3. url编码、静态文件后缀绕过waf。\r\n4. 修复扫描API文档时不带原始请求header进行访问的bug。\r\n5. 修复API路径重复的bug。",
+        "release_tag": "v1.5.4"
+    },
+    "https://github.com/kN6jq/gatherBurp": {
+        "created_at": "2024-11-14 03:22:51",
+        "description": "一款强大的 burp 安全测试插件，集成多种安全测试功能，支持自动化扫描和手动测试。",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "优化url缓存清空",
+        "commit_date": "2024-12-03 02:47:53",
+        "release_date": "2024-11-14 06:12:31",
+        "release_message": "大版本优化，如之前使用过请删除用户目录下的.gather文件夹后使用",
+        "release_tag": "V1.2.0"
+    },
+    "https://github.com/SpringKill-team/SecurityInspector": {
+        "created_at": "2024-10-23 10:57:44",
+        "description": "一款代码审计辅助插件",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "ci: Update build.gradle.kts README.md",
+        "commit_date": "2024-11-28 02:45:52"
+    },
+    "https://github.com/rbsec/sslscan": {
+        "created_at": "2024-09-21 18:58:27",
+        "description": "sslscan tests SSL/TLS enabled services to discover supported cipher suites",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Mark CCM8 ciphers as weak and manually override their display bit strength",
+        "commit_date": "2024-12-02 17:12:26",
+        "release_date": "2024-09-21 19:15:50",
+        "release_message": "Makefile improvements",
+        "release_tag": "2.1.5"
+    },
+    "https://github.com/Tokeii0/LoveLy-QRCode-Scanner": {
+        "created_at": "2024-06-26 01:28:47",
+        "description": "A script to brute force decode QR codes, mainly for decoding blurred or AI-generated QR codes that can't be scanned by WeChat.",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-07-07 01:19:41"
+    },
+    "https://github.com/AabyssZG/Raster-Terminator": {
+        "created_at": "2023-11-15 18:57:45",
+        "description": "CTF之光栅图秒杀器",
+        "updated_at": "2024-12-03 03:31:21",
+        "commit_message": "Merge pull request #2 from DakoWang/fix-branch\n\n添加灰度和彩色图像处理逻辑，添加 del_file 函数用于递归删除文件夹内容",
+        "commit_date": "2024-11-19 06:08:46",
+        "release_date": "2023-11-15 18:59:05",
+        "release_message": "# 更新日志\r\n## 概述\r\n在我们日常的CTF比赛中，有时候会碰到光栅图的相关隐写（对，我就碰到了）\r\n\r\n对于光栅图的提取和爆破，比较麻烦，比赛的时候还要一个一个尝试，我就萌生了一个碰撞脚本的想法\r\n\r\n**目前，该项目已经更新至 `1.1` 版本，脚本参数如下：**\r\n\r\n```\r\n>python3 Raster-Terminator.py -h\r\nusage: Raster-Terminator.py [-h] [-x XCOORDINATE] [-y YCOORDINATE] [-i IMAGEOUT]\r\n\r\nRaster Terminator V1.1\r\n\r\noptional arguments:\r\n  -h, --help      show this help message and exit\r\n  -x XCOORDINATE  自动读取图片并尝试爆破横向光栅图\r\n  -y YCOORDINATE  自动读取图片并尝试爆破纵向光栅图\r\n  -i IMAGEOUT     自定义爆破光栅图\r\n\r\n自动读取图片并尝试爆破光栅，诸如：python3 Raster-Terminator.py -x demo.png\r\n```",
+        "release_tag": "1.1"
+    },
+    "https://github.com/abeluck/stegdetect": {
+        "created_at": "2013-04-09 09:32:34",
+        "description": "UNMAINTAINED. USE AT OWN RISK. Stegdetect is an automated tool for detecting steganographic content in images.",
+        "updated_at": "2024-12-03 03:31:21"
     }
 }
