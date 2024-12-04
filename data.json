@@ -6849,7 +6849,8 @@
         "release_tag": "v1.071",
         "release_date": "2024-05-27 07:49:56",
         "release_message": "ssl证书小问题修复\r\n\r\n其他版本可自行编译一下~\r\n\r\n\r\n😁",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/theLSA/CS-checklist": {
         "created_at": "2020-08-09 09:02:00",
@@ -19538,14 +19539,16 @@
         "commit_date": "2024-10-14 05:16:44",
         "release_date": "2024-09-22 14:19:55",
         "release_message": "调整了输出的显示,代码微调",
-        "release_tag": "v1.1"
+        "release_tag": "v1.1",
+        "bucket": true
     },
     "https://github.com/ambionics/phpggc": {
         "created_at": "2017-07-03 08:54:25",
         "description": "PHPGGC is a library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically. ",
         "updated_at": "2024-12-03 03:31:21",
         "commit_message": "Merge pull request #196 from mcdruid/public_attributes\n\nPublicProperties enhancement",
-        "commit_date": "2024-11-25 08:44:08"
+        "commit_date": "2024-11-25 08:44:08",
+        "bucket": true
     },
     "https://github.com/doimet/AuxTools": {
         "created_at": "2024-11-10 05:30:01",
@@ -19555,7 +19558,8 @@
         "commit_date": "2024-11-10 05:30:01",
         "release_date": "2024-12-01 14:12:54",
         "release_message": "- 修复了多项已知问题",
-        "release_tag": "5.0.10"
+        "release_tag": "5.0.10",
+        "bucket": true
     },
     "https://github.com/pwntester/ysoserial.net": {
         "created_at": "2023-10-17 12:13:01",
@@ -19575,14 +19579,16 @@
         "commit_date": "2024-09-30 14:13:03",
         "release_date": "2024-09-30 14:28:46",
         "release_message": "",
-        "release_tag": "v1.0"
+        "release_tag": "v1.0",
+        "bucket": true
     },
     "https://github.com/0dayCTF/reverse-shell-generator": {
         "created_at": "2021-02-27 00:53:13",
         "description": "Hosted Reverse Shell generator with a ton of functionality. -- (Great for CTFs)",
         "updated_at": "2024-12-03 03:31:21",
         "commit_message": "Merge pull request #173 from AlanFoster/fix-NaN-port-number-error\n\nFix NaN port number error",
-        "commit_date": "2024-10-31 22:38:04"
+        "commit_date": "2024-10-31 22:38:04",
+        "bucket": true
     },
     "https://github.com/pascal-lab/Tai-e": {
         "created_at": "2023-09-23 12:16:29",
@@ -19592,7 +19598,8 @@
         "commit_date": "2024-09-21 09:17:23",
         "release_date": "2023-09-23 12:36:54",
         "release_message": "### New Features\r\n\r\n- Add option `--app-class-path`.\r\n- Add option `--keep-results`.\r\n- Add option `--output-dir`.\r\n- Add option `-wc, --world-cache-mode`.\r\n- Add def-use analysis.\r\n- Add dominator-finding algorithm.\r\n- Add generics signature information for Class, Method, and Field.\r\n- Include documentation source in the repository.\r\n- Taint analysis\r\n  - Support taint source for arguments of method calls and method parameters.\r\n  - Support taint source for field loads.\r\n  - Support taint sanitization for method parameters.\r\n  - Dump taint flow graph.\r\n  - Support loading multiple taint configuration files.\r\n  - Support taint transfer between variables and instance fields/array elements.\r\n  - Support call-site mode.\r\n- Pointer analysis\r\n  - Support adding entry points of the program to analyze.\r\n  - Support analysis time limit.\r\n  - Support propagation for values of primitive types.\r\n  - Support hybrid inference-based and log-based reflection analysis.\r\n  - Add Solar reflection analysis (TOSEM'19).\r\n  - Support annotation-based invoke handler registration.\r\n  - Support dumping points-to set in YAML format.\r\n\r\n### Breaking Changes\r\n\r\n- Option and configuration changes\r\n  - Change All `dump` related options. Previously, most `dump` options require users to specify a path to dump file; now, Tai-e uses fixed path for dump file (the file name is fully fixed, and users can still change dump directory via option `--output-dir`), so that users only need to specify `true` or `false` for all `dump` options.\r\n  - Rename analysis `class-dumper` to `ir-dumper`.\r\n  - Pointer analysis\r\n    - Replace `merge-string-constants` by `distinguish-string-constants`.\r\n    - Replace `action` by `dump` and `expected-file`.\r\n  - Taint analysis\r\n    - Require to add `kind` to *source* configurations. Previously, the taint analysis only supports one kind of sources, i.e., result of method call. Now, we support more kinds of sources, including argument or result of method call (`kind: call`), and method parameter (`kind: param`) , so users need to specify kind of each source. Please see [an example](src/test/resources/pta/taint/taint-config-instance-source-sink.yml).\r\n- API changes\r\n  - Change `pascal.taie.analysis.pta.core.heap.HeapModel.getMockObj(String,...)` to `HeapModel.getMockObj(Descriptor,...)`.\r\n  - Change APIs of `pascal.util.graph.Edge` and its subclasses.\r\n  - Change return type of `Exp.getUses()` to `Set<RValue>`.\r\n  - Change return type of `Stmt.getUses()` to `Set<RValue>`.",
-        "release_tag": "v0.2.2"
+        "release_tag": "v0.2.2",
+        "bucket": true
     },
     "https://github.com/baihengaead/wifi-crack-tool": {
         "created_at": "2024-10-30 09:21:36",
@@ -19609,7 +19616,8 @@
         "description": "ParamWizard is a powerful Python-based tool designed for extracting and identifying URLs with parameters from a specified website. It provides a comprehensive way to discover hidden parameters within a web application by crawling and analyzing the URLs of the domain. ",
         "updated_at": "2024-12-03 03:31:21",
         "commit_message": "Update paramwizard.py\n\nupdate and fix some ssl and network issues again",
-        "commit_date": "2024-09-02 10:35:33"
+        "commit_date": "2024-09-02 10:35:33",
+        "bucket": true
     },
     "https://github.com/BeichenDream/PrintNotifyPotato": {
         "created_at": "2022-12-02 08:26:28",
@@ -19619,7 +19627,8 @@
         "commit_date": "2022-12-02 08:26:28",
         "release_date": "2022-12-02 08:29:14",
         "release_message": "![image](https://user-images.githubusercontent.com/43266206/205249610-c2ba2a5d-c041-4aba-ab96-380af3597bd8.png)\r\n",
-        "release_tag": "v1.00"
+        "release_tag": "v1.00",
+        "bucket": true
     },
     "https://github.com/Marven11/EtherGhost": {
         "created_at": "2024-11-16 16:44:29",
@@ -19629,7 +19638,8 @@
         "commit_date": "2024-11-16 17:06:41",
         "release_date": "2024-11-16 16:49:33",
         "release_message": "v0.1.3: [开发中]游魂PHP Webshell, 功能小改进，bug修复\r\n    \r\n游魂PHP Webshell: 在流量混淆方面比蚁剑和冰蝎更好的Webshell\r\n\r\n功能升级:\r\n - 改进XOR性能，不使用python原生代码计算\r\n- Linux命令Webshell支持GET传参和Header传参\r\n- XML和XHTML语法高亮\r\n- 文件下载进度\r\n    \r\nBug fixes:\r\n- LiteSpeed兼容性改进\r\n- Linux命令Webshell判断文件类型错误\r\n- 改进前端CSS\r\n\r\n注：\r\nexe版本应该还是会被微软报毒，建议自己打包exe版本或者换用Linux，又或者直接运行源码",
-        "release_tag": "v0.1.3"
+        "release_tag": "v0.1.3",
+        "bucket": true
     },
     "https://github.com/suizhibo/MemShellGene": {
         "created_at": "2024-07-04 07:03:28",
@@ -19639,7 +19649,8 @@
         "commit_date": "2024-07-04 07:03:28",
         "release_date": "2024-07-04 07:46:16",
         "release_message": "update tongweb memshell",
-        "release_tag": "v0.1.1-alpha"
+        "release_tag": "v0.1.1-alpha",
+        "bucket": true
     },
     "https://github.com/swisskyrepo/PayloadsAllTheThings": {
         "created_at": "2024-04-25 15:37:16",
@@ -19649,7 +19660,8 @@
         "commit_date": "2024-12-01 11:52:11",
         "release_date": "2024-04-26 14:50:44",
         "release_message": "2 years after the latest release, it is time for a new one 🥳\r\nMany pages have been updated with new payloads and descriptions. \r\nEvery pages under \"Methodology and Resources\" have been moved in their own repository (InternalAllTheThings)\r\n\r\nThis repository is now available as a website with nice features such as a \"complete search bar\", \"dark/light mode\", and buttons to share a specific page on your favorite social networks.\r\n\r\nThe \"AllTheThings\" family is expanding, check out the other projects\r\n- [InternalAllTheThings](https://github.com/swisskyrepo/InternalAllTheThings)\r\n- [HardwareAllTheThings](https://github.com/swisskyrepo/HardwareAllTheThings)",
-        "release_tag": "4.0"
+        "release_tag": "4.0",
+        "bucket": true
     },
     "https://github.com/shuanx/BurpFingerPrint": {
         "created_at": "2024-05-05 02:55:28",
@@ -19659,21 +19671,24 @@
         "commit_date": "2024-09-05 00:44:08",
         "release_date": "2024-05-05 02:57:26",
         "release_message": "## BurpFingerPrint v1.5\r\n- [x] 开启弱口令爆破模块，目前支持Apache-Tomcat\r\n\r\n## BurpFingerPrint v1.4\r\n- [x] 使用sqlite存储扫描结果，防止因BurpSuite意外退出而导致数据丢失\r\n- [x] 优化算法，提升性能、减少内存开销\r\n\r\n## BurpFingerPrint v1.3\r\n- [x] 优化已有指纹库，区分重点指纹和常见指纹，补充部分实战热门漏洞的指纹，方便直接一键getshell\r\n\r\n## BurpFingerPrint v1.2\r\n- [x] 开界面进行指纹库修改，可导入、导出、重置\r\n\r\n## BurpFingerPrint v1.1\r\n- [x] 浏览器被动指纹识别，已集成Ehole指纹识别库\r\n- [x] 提取网站的URL链接和解析JS文件中的URL链接后进行指纹识别\r\n",
-        "release_tag": "v1.5"
+        "release_tag": "v1.5",
+        "bucket": true
     },
     "https://github.com/jython/jython": {
         "created_at": "2020-07-25 16:17:43",
         "description": " Python for the Java Platform",
         "updated_at": "2024-12-03 03:31:21",
         "commit_message": "Update README.md (#357)",
-        "commit_date": "2024-09-21 11:34:36"
+        "commit_date": "2024-09-21 11:34:36",
+        "bucket": true
     },
     "https://github.com/f0ng/autoDecoder-usages": {
         "created_at": "2023-02-21 13:05:16",
         "description": "autoDecoder的用法及案例，包含加解密方法、绕waf、替换参数等操作。",
         "updated_at": "2024-12-03 03:31:21",
         "commit_message": "Update README.md",
-        "commit_date": "2024-07-28 05:17:59"
+        "commit_date": "2024-07-28 05:17:59",
+        "bucket": true
     },
     "https://github.com/API-Security/APIKit": {
         "created_at": "2023-05-19 03:55:41",
@@ -19683,7 +19698,8 @@
         "commit_date": "2023-05-19 03:55:41",
         "release_date": "2024-04-02 09:29:56",
         "release_message": "APIKit 1.5.4(修复版)\r\n1. 修复了soap文档404但是文档确实存在的bug。\r\n2. 增加spring低版本跨目录fuzz功能。\r\n3. url编码、静态文件后缀绕过waf。\r\n4. 修复扫描API文档时不带原始请求header进行访问的bug。\r\n5. 修复API路径重复的bug。",
-        "release_tag": "v1.5.4"
+        "release_tag": "v1.5.4",
+        "bucket": true
     },
     "https://github.com/kN6jq/gatherBurp": {
         "created_at": "2024-11-14 03:22:51",
@@ -19710,14 +19726,16 @@
         "commit_date": "2024-12-02 17:12:26",
         "release_date": "2024-09-21 19:15:50",
         "release_message": "Makefile improvements",
-        "release_tag": "2.1.5"
+        "release_tag": "2.1.5",
+        "bucket": true
     },
     "https://github.com/Tokeii0/LoveLy-QRCode-Scanner": {
         "created_at": "2024-06-26 01:28:47",
         "description": "A script to brute force decode QR codes, mainly for decoding blurred or AI-generated QR codes that can't be scanned by WeChat.",
         "updated_at": "2024-12-03 03:31:21",
         "commit_message": "Update README.md",
-        "commit_date": "2024-07-07 01:19:41"
+        "commit_date": "2024-07-07 01:19:41",
+        "bucket": true
     },
     "https://github.com/AabyssZG/Raster-Terminator": {
         "created_at": "2023-11-15 18:57:45",
@@ -19727,12 +19745,14 @@
         "commit_date": "2024-11-19 06:08:46",
         "release_date": "2023-11-15 18:59:05",
         "release_message": "# 更新日志\r\n## 概述\r\n在我们日常的CTF比赛中，有时候会碰到光栅图的相关隐写（对，我就碰到了）\r\n\r\n对于光栅图的提取和爆破，比较麻烦，比赛的时候还要一个一个尝试，我就萌生了一个碰撞脚本的想法\r\n\r\n**目前，该项目已经更新至 `1.1` 版本，脚本参数如下：**\r\n\r\n```\r\n>python3 Raster-Terminator.py -h\r\nusage: Raster-Terminator.py [-h] [-x XCOORDINATE] [-y YCOORDINATE] [-i IMAGEOUT]\r\n\r\nRaster Terminator V1.1\r\n\r\noptional arguments:\r\n  -h, --help      show this help message and exit\r\n  -x XCOORDINATE  自动读取图片并尝试爆破横向光栅图\r\n  -y YCOORDINATE  自动读取图片并尝试爆破纵向光栅图\r\n  -i IMAGEOUT     自定义爆破光栅图\r\n\r\n自动读取图片并尝试爆破光栅，诸如：python3 Raster-Terminator.py -x demo.png\r\n```",
-        "release_tag": "1.1"
+        "release_tag": "1.1",
+        "bucket": true
     },
     "https://github.com/abeluck/stegdetect": {
         "created_at": "2013-04-09 09:32:34",
         "description": "UNMAINTAINED. USE AT OWN RISK. Stegdetect is an automated tool for detecting steganographic content in images.",
-        "updated_at": "2024-12-03 03:31:21"
+        "updated_at": "2024-12-03 03:31:21",
+        "bucket": true
     },
     "https://github.com/wanghongenpin/network_proxy_flutter": {
         "created_at": "2024-11-11 10:45:14",
@@ -19744,21 +19764,24 @@
     "https://github.com/Muhansrc/springboot_scan": {
         "commit_message": "Update tools.py\n\n新增url预检查，进度条刷新",
         "commit_date": "2024-09-26 14:38:36",
-        "updated_at": "2024-12-03 06:17:22"
+        "updated_at": "2024-12-03 06:17:22",
+        "bucket": true
     },
     "https://github.com/h3xx/jphs": {
         "created_at": "2012-02-03 17:42:35",
         "description": "jphide & seek steganography tools",
         "updated_at": "2024-12-03 06:17:22",
         "commit_message": "Merge pull request #3 from Morozov-5F/macos-compile\n\n[macos-compile] Fixed compilation errors on Apple computers",
-        "commit_date": "2017-11-22 02:40:32"
+        "commit_date": "2017-11-22 02:40:32",
+        "bucket": true
     },
     "https://github.com/jackfengji/f5-steganography": {
         "created_at": "2012-03-23 07:48:52",
         "description": "a python implement of f5 steganography",
         "updated_at": "2024-12-03 06:17:22",
         "commit_message": "change dpi to 96",
-        "commit_date": "2012-03-30 06:51:29"
+        "commit_date": "2012-03-30 06:51:29",
+        "bucket": true
     },
     "https://github.com/lukechampine/jsteg": {
         "created_at": "2018-06-23 18:13:24",
@@ -19768,14 +19791,16 @@
         "commit_date": "2023-05-11 03:28:35",
         "release_date": "2018-08-06 21:59:46",
         "release_message": "This release cleans up some output of the `jsteg` command. Functionality is unchanged.\r\n\r\nNOTE: To run `jsteg` and `slink` on macOS, you must first mark them as executable with `chmod +x`.",
-        "release_tag": "v0.3.0"
+        "release_tag": "v0.3.0",
+        "bucket": true
     },
     "https://github.com/anthwlock/untrunc": {
         "created_at": "2018-06-05 09:59:46",
         "description": "Restore a truncated mp4/mov. Improved version of ponchio/untrunc",
         "updated_at": "2024-12-03 06:17:22",
         "commit_message": "Dockerfile: use ubuntu 22.04",
-        "commit_date": "2024-08-14 16:26:55"
+        "commit_date": "2024-08-14 16:26:55",
+        "bucket": true
     },
     "https://github.com/veracrypt/VeraCrypt": {
         "created_at": "2024-09-03 19:00:14",
@@ -19785,14 +19810,16 @@
         "commit_date": "2024-11-27 00:05:55",
         "release_date": "2024-09-03 19:07:28",
         "release_message": "Binaries for supported operating systems are also available at [Sourceforge](https://sourceforge.net/projects/veracrypt/files/VeraCrypt%201.26.15/).\r\n\r\n##### Changes between 1.26.14 and 1.26.15 (2 September 2024):\r\n\r\n- Windows:\r\n  * Fix MSI install/uninstall issues:\r\n    - Fixed error 1603 returned by MSI silent install when REBOOT=ReallySuppress is specified and a reboot is required.\r\n    - Fixed missing documentation and language files from the MSI package.\r\n    - Fixed MSI not installing new documentation and language files when upgrading from an EXE-based installation.\r\n    - Fixed installation folder not being removed after MSI uninstall in some cases.\r\n  * Fix regression during UEFI system decryption that caused the bootloader to persist.\r\n\r\n**Full Changelog**: https://github.com/veracrypt/VeraCrypt/compare/VeraCrypt_1.26.14...VeraCrypt_1.26.15",
-        "release_tag": "VeraCrypt_1.26.15"
+        "release_tag": "VeraCrypt_1.26.15",
+        "bucket": true
     },
     "https://github.com/5ime/CS_Decrypt": {
         "created_at": "2023-10-02 04:29:03",
         "description": "CobaltStrike流量解密脚本",
         "updated_at": "2024-12-03 06:17:22",
         "commit_message": "Add",
-        "commit_date": "2023-10-02 05:01:43"
+        "commit_date": "2023-10-02 05:01:43",
+        "bucket": true
     },
     "https://github.com/20142995/tshark_extraction": {
         "created_at": "2023-10-28 09:04:31",
@@ -19802,7 +19829,8 @@
         "commit_date": "2024-10-16 13:31:43",
         "release_date": "2024-10-16 13:23:45",
         "release_message": "",
-        "release_tag": "0.1"
+        "release_tag": "0.1",
+        "bucket": true
     },
     "https://github.com/dushixiang/evil-mysql-server": {
         "created_at": "2022-10-23 06:20:49",
@@ -19812,7 +19840,8 @@
         "commit_date": "2022-10-23 06:20:49",
         "release_date": "2022-10-23 06:21:34",
         "release_message": "- support ysuserial",
-        "release_tag": "v0.0.2"
+        "release_tag": "v0.0.2",
+        "bucket": true
     },
     "https://github.com/msgbyte/tianji": {
         "created_at": "2024-11-29 18:41:45",
@@ -19844,7 +19873,8 @@
         "commit_date": "2024-10-18 02:48:51",
         "release_date": "2024-10-18 02:58:10",
         "release_message": "## Changelog\n* cc9f7117feb3ef35cd1b934d27496dc236157fe1 🎉 v1.0.2 -> fix window not found\n\n",
-        "release_tag": "v1.0.2"
+        "release_tag": "v1.0.2",
+        "bucket": true
     },
     "https://github.com/SwagXz/encrypt-labs": {
         "created_at": "2024-11-12 06:08:02",
@@ -19861,6 +19891,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2024-11-22 02:12:26",
         "release_message": "单图盲水印(频域隐写)工具 ",
-        "release_tag": "WaterMarkH"
+        "release_tag": "WaterMarkH",
+        "bucket": true
     }
 }
