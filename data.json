@@ -163,14 +163,14 @@
         "release_message": ""
     },
     "https://github.com/whwlsfb/JDumpSpider": {
-        "created_at": "2024-03-08 05:32:04",
+        "created_at": "2024-12-12 06:14:57",
         "description": "HeapDump敏感信息提取工具",
         "commit_date": "2024-03-08 05:32:04",
         "commit_message": "update.",
-        "release_tag": "dev-20240308T053242",
-        "release_date": "2024-03-08 05:32:44",
+        "release_tag": "dev-20241212T061532",
+        "release_date": "2024-12-12 06:15:34",
         "release_message": "",
-        "updated_at": "2024-09-15 14:32:22",
+        "updated_at": "2024-12-12 06:20:32",
         "bucket": true
     },
     "https://github.com/XTeam-Wing/Vulcan": {
