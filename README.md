@@ -1036,7 +1036,7 @@
 #### heapdump泄露
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [heapdump_tool v1.0](https://github.com/20142995/heapdump_tool) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [heapdump_tool](https://github.com/wyzxxz/heapdump_tool) heapdump敏感信息查询工具，例如查找 spring heapdump中的密码明文，AK,SK等
-- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JDumpSpider dev-20240308T053242](https://github.com/whwlsfb/JDumpSpider) HeapDump敏感信息提取工具
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JDumpSpider dev-20241212T061532](https://github.com/whwlsfb/JDumpSpider) HeapDump敏感信息提取工具
 #### idea
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [idea_exploit](https://github.com/lijiejie/idea_exploit) Gather sensitive information from (.idea) folder for pentesters
 #### key泄露
