@@ -1081,7 +1081,7 @@
 - <img src="https://favicon.qqsuu.cn/app.interactsh.com" alt="" style="height: 20px;"> [Interactsh | Web Client](https://app.interactsh.com/#/) 
 - <img src="https://favicon.qqsuu.cn/dig.pm" alt="" style="height: 20px;"> [Just a moment...](https://dig.pm) 
 - <img src="https://favicon.qqsuu.cn/dig.pm" alt="" style="height: 20px;"> [Just a moment...](https://dig.pm/) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Plumb](https://github.com/0x584A/Plumb) 一个轮子，用于渗透测试优化的 DNS/HTTP 日志工具，简洁、轻便、更易于使用。
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Plumb v1.0.2](https://github.com/0x584A/Plumb) 一个轮子，用于渗透测试优化的 DNS/HTTP 日志工具，简洁、轻便、更易于使用。
 - <img src="https://favicon.qqsuu.cn/www.callback.red" alt="" style="height: 20px;"> [CallBack.Red Dns、Http、Rmi、Ldap Log、CmdtoDNSLog](https://www.callback.red) 
 - <img src="https://favicon.qqsuu.cn/www.t00ls.com" alt="" style="height: 20px;"> [T00ls  | 低调求发展 - 潜心习安全](https://www.t00ls.com/dnslog.html) 
 #### 匿名短信
@@ -2826,7 +2826,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OpsManage](https://github.com/bongmu/OpsManage) 自动化运维平台: 代码及应用部署CI/CD、资产管理CMDB、计划任务管理平台、SQL审核|回滚、任务调度
 - <img src="https://favicon.qqsuu.cn/docs.saltstack.com" alt="" style="height: 20px;"> [docs.saltstack.com](https://docs.saltstack.com/en/latest/) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AssetsView](https://github.com/Cryin/AssetsView) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bk-cmdb release-v3.13.10](https://github.com/Tencent/bk-cmdb) 蓝鲸智云配置平台(BlueKing CMDB)
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [bk-cmdb release-v3.14.1](https://github.com/Tencent/bk-cmdb) 蓝鲸智云配置平台(BlueKing CMDB)
 - <img src="https://favicon.qqsuu.cn/www.ansible.com" alt="" style="height: 20px;"> [Homepage | Ansible Collaborative](https://www.ansible.com/) 
 ### 钓鱼网站系统
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HFish](https://github.com/hacklcx/HFish) 安全、可靠、简单、免费的企业级蜜罐
@@ -2838,7 +2838,7 @@
 - <img src="https://favicon.qqsuu.cn/www.phishingfrenzy.com" alt="" style="height: 20px;"> [www.phishingfrenzy.com](https://www.phishingfrenzy.com/) 
 ### 靶场
 #### IOT漏洞
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [IoT-vulhub](https://github.com/firmianay/IoT-vulhub) IoT固件漏洞复现环境
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [IoT-vulhub gdb-v10.1](https://github.com/firmianay/IoT-vulhub) IoT固件漏洞复现环境
 #### web基础
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WebGoat v2023.8](https://github.com/WebGoat/WebGoat) WebGoat is a deliberately insecure application
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [DVWA 2.3](https://github.com/digininja/DVWA) Damn Vulnerable Web Application (DVWA)
