@@ -7963,7 +7963,8 @@
         "release_tag": "2.2.6",
         "release_date": "2024-04-13 04:59:36",
         "release_message": "- Fixed arjun getting stuck infinitely on some URLs",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/fjserna/CVE-2015-7547": {
         "created_at": "2016-02-10 21:13:54",
@@ -19891,6 +19892,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2024-11-22 02:12:26",
         "release_message": "单图盲水印(频域隐写)工具 ",
-        "release_tag": "WaterMarkH"
+        "release_tag": "WaterMarkH",
+        "bucket": true
     }
 }
