@@ -16959,12 +16959,12 @@
         "created_at": "2024-09-15 11:51:17"
     },
     "https://github.com/Tencent/bk-cmdb": {
-        "created_at": "2024-09-12 03:48:29",
+        "created_at": "2024-12-03 11:34:18",
         "description": "蓝鲸智云配置平台(BlueKing CMDB)",
-        "updated_at": "2024-09-16 14:44:13",
-        "release_date": "2024-09-12 04:05:22",
-        "release_message": "**新增功能**\n- 支持通过平台管理配置ID生成器的步长和起始ID\n- 支持CMDB数据同步时带ID创建数据\n- 新增CMDB数据库表结构文档\n\n**功能优化**\n- add_host_to_resource、add_host_to_resource_pool接口支持添加单ipv6主机\n- 修改资源目录中业务条目显示的数量为“未归档的业务数”\n- 去掉servicemonitor.yaml中的namespaceSelector字段\n- apigw接口添加100的单接口QPS限制\n- 优化容器数据纳管container相关接口\n- 去除容器数据事件watch和审计功能，清理容器审计数据\n- 对del archive表增加TTL索引，并且将容器的del archive表单独拆分出来\n- 将pod上的业务ID、cluster ID、ns ID和wl ID冗余到container表中\n- 优化报错信息，添加app code和user。调整创建容器资源接口的报错信息区分重复创建的场景\n- footer和title规范优化\n- 页面文档链接优化\n- 优化了一些前端显示问题\n\n**缺陷修复**\n- 修复list_hosts_without_biz接口的排序功能失效问题\n- 修复操作审计—>其他Tab，操作对象=模型分组、模型，动作有误问题\n- 搜索相关问题修复与优化\n- 修复了一些国际化问题\n- 实例列表页，点击实例ID链接无跳转\n- 修复模型实例关联拓扑图箭头指向问题\n- 表单校验出现红框\n- 模型默认分组不可删除，需要添加提示\n- 修复导出实例和主机时勾选导出关联模型实例但未成功导出的问题\n- 业务集兼容业务类型范围值为非数组情况\n- 集群模板实例-同步历史点击“清空筛选条件“没有反应\n- 业务拓扑模块节点信息下，\"集群模板\",“服务模板”和\"主机属性自动应用”均应打开新页面\n- 主机自动应用后，去除“返回”按钮\n- 产品logo没有自适应大小\n- 创建主机目录时，输入目录名称点击enter键，鼠标马上点击空白页面失焦后，创建出来的目录没有显示名称\n- 平台管理可建层级范围3-10\n- 业务集/云账户操作列定宽\n- 校验分页参数的start和limit均不可以小于0\n- 修复apigw文档问题\n- 修复容器拓扑显示的主机数量与实际不符问题\n- 容器纳管下的模型字段hover去除字段展示功能\n- 业务归档后再点击业务会显示空白\n- 修复主机转移未记录审计的问题\n- 修复删除集群和模块时前端提示删除成功，但没有实时刷新，只有刷新页面后删除的集群和模块才会更新的问题\n- 导航栏规范问题\n- 语言切换次序以及cookie有效期时长优化\n",
-        "release_tag": "release-v3.13.10"
+        "updated_at": "2024-12-16 09:16:10",
+        "release_date": "2024-12-03 11:46:56",
+        "release_message": "**新增功能**\n- 新增一种全量数据缓存的方式\n- 新增资产编码自动生成功能\n- 新增CMDB数据库表结构文档\n \n**架构调整**\n- 产品架构分层，SaaS和后台建设分离\n- 版本依赖：PaaS 3.0 >= 1.5.0-beta.14\n\n**功能优化**\n- 优化显示主机详情标题\n- footer和title规范优化\n- 文档链接规范优化\n- 导航栏规范优化\n- 优化了一些前端的显示问题\n\n**缺陷修复**\n- 搜索框点击搜索图标后触发搜索\n- 修复业务归档后再点击业务会显示空白的问题\n- 首页主机搜索框下，输入法选择中文后输入标点符号会出现两个\n- 修复主机身份下发报错的问题\n- 集群模板同步历史点击enter触发不了搜索\n- 修复当streamTo不存在时，gse接口查询报错的问题\n",
+        "release_tag": "release-v3.14.1"
     },
     "https://www.phishingfrenzy.com/": {
         "created_at": "2024-09-15 11:51:17"
@@ -19518,9 +19518,12 @@
         "bucket": true
     },
     "https://github.com/0x584A/Plumb": {
-        "created_at": "2024-09-26 16:17:42",
+        "created_at": "2024-09-28 13:45:13",
         "description": "一个轮子，用于渗透测试优化的 DNS/HTTP 日志工具，简洁、轻便、更易于使用。",
-        "updated_at": "2024-12-03 11:08:16"
+        "updated_at": "2024-12-16 09:16:10",
+        "release_date": "2024-09-29 02:28:11",
+        "release_message": "v1.0.2 更新\r\n\r\n- 调整 DNS 监听依赖组件\r\n- 追加 DNS 监听 TCP 协议，追加协议接收范围：TypeA、TypeAAAA、TypeNS、TypeSOA、TypeTXT",
+        "release_tag": "v1.0.2"
     },
     "https://github.com/massgravel/Microsoft-Activation-Scripts": {
         "created_at": "2024-11-09 16:20:23",
@@ -19855,9 +19858,12 @@
         "release_tag": "v1.17.4"
     },
     "https://github.com/firmianay/IoT-vulhub": {
-        "created_at": "2020-08-27 03:11:03",
+        "created_at": "2021-05-19 11:50:58",
         "description": "IoT固件漏洞复现环境",
-        "updated_at": "2024-12-03 06:17:22"
+        "updated_at": "2024-12-16 09:16:10",
+        "release_date": "2021-05-19 12:04:10",
+        "release_message": "",
+        "release_tag": "gdb-v10.1"
     },
     "https://github.com/lokerxx/JavaVul": {
         "created_at": "2024-01-31 13:28:49",
