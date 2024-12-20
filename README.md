@@ -1620,7 +1620,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [apkleaks](https://github.com/Anof-cyber/apkleaks) An python script that use apkleaks to scan the android application over web
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ApkAnalyser](https://github.com/TheKingOfDuck/ApkAnalyser) 一键提取安卓应用中可能存在的敏感信息。
 ### 企业信息收集
-- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ENScan_GO v1.0.2](https://github.com/wgpsec/ENScan_GO) 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等...
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ENScan_GO v1.1.0](https://github.com/wgpsec/ENScan_GO) 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [IEyes v0.1.3](https://github.com/SiJiDo/IEyes) icp备案查询
 ### 信息提取
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [MoreFind v1.5.7](https://github.com/mstxq17/MoreFind) 一款用于快速导出URL、Domain和IP的小工具
