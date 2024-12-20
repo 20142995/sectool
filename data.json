@@ -19898,6 +19898,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2024-11-22 02:12:26",
         "release_message": "单图盲水印(频域隐写)工具 ",
-        "release_tag": "WaterMarkH"
+        "release_tag": "WaterMarkH",
+        "bucket": true
     }
 }
