@@ -837,7 +837,7 @@
         "release_tag": "v2.0.8-push",
         "release_date": "2024-02-20 07:23:05",
         "release_message": "",
-        "updated_at": "2024-12-23 12:20:58",
+        "updated_at": "2024-12-23 15:11:08",
         "bucket": true
     },
     "https://github.com/murphysecurity/murphysec": {
@@ -19400,7 +19400,7 @@
         "release_date": "2022-04-18 10:22:07",
         "release_message": "* Fix login flow from returning 404 errors\r\n* Fix broken media messages",
         "release_tag": "v3.0.4",
-        "updated_at": "2024-12-23 12:20:58",
+        "updated_at": "2024-12-23 15:11:08",
         "bucket": true,
         "description": "Desktop application for Instagram DMs",
         "commit_message": "Delete CNAME",
@@ -19409,7 +19409,7 @@
     "https://github.com/Lymphatus/caesium-image-compressor": {
         "created_at": "2024-10-27 15:15:26",
         "description": "Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG, WebP and TIFF formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.",
-        "updated_at": "2024-12-23 12:20:58",
+        "updated_at": "2024-12-23 15:11:08",
         "commit_message": "Merge pull request #325 from Rukoto/main\n\nUpdate caesium_ja_JP.ts",
         "commit_date": "2024-12-16 13:20:59",
         "release_date": "2024-10-27 15:38:07",
@@ -19894,7 +19894,7 @@
     "https://github.com/20142995/file": {
         "created_at": "2023-05-12 10:48:26",
         "description": null,
-        "updated_at": "2024-12-23 12:20:58",
+        "updated_at": "2024-12-23 15:11:08",
         "commit_message": "commit message",
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2024-11-22 02:12:26",
