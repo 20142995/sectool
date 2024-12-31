@@ -238,14 +238,14 @@
         "updated_at": "2024-09-15 14:32:22"
     },
     "https://github.com/gh0stkey/HaE": {
-        "created_at": "2024-12-21 07:34:45",
+        "created_at": "2024-12-31 07:40:05",
         "description": "HaE - Highlighter and Extractor, Empower ethical hacker for efficient operations.",
         "commit_date": "2024-08-28 08:19:24",
         "commit_message": "Update README.md",
-        "release_tag": "4.0",
-        "release_date": "2024-12-21 07:37:49",
-        "release_message": "## 更新内容\r\n\r\nHaE 4.0更新内容如下。\r\n\r\n### 功能更新\r\n\r\n1. 删除`AI+`实验性功能。\r\n2. 删除`在线规则库`功能，未来以内置规则库的方式持续运营。\r\n3. 优化`数据管理`功能，可与BurpSuite项目一并存储管理。\r\n4. 新增、优化若干规则，如手机号、用户名、密码等字段规则。\r\n5. 新增`Reinit`功能，用于重新初始化内置规则库。\r\n\r\n### 功能演示\r\n\r\n新版数据管理功能演示如下：\r\n\r\nhttps://github.com/user-attachments/assets/f703a7ca-1827-4559-a563-82ce4f1e758d",
-        "updated_at": "2024-12-21 09:11:59",
+        "release_tag": "4.0.1",
+        "release_date": "2024-12-31 07:42:17",
+        "release_message": "## 更新内容\r\n\r\nHaE 4.0.1更新内容如下。\r\n\r\n### 功能更新\r\n\r\n1. 优化`Linkfinder`规则，支持非`/`开头的路径匹配。\r\n\r\n### 问题修复\r\n\r\n1. 修复项目管理功能中多线程数据冲突问题。\r\n",
+        "updated_at": "2024-12-31 09:13:23",
         "bucket": true
     },
     "https://github.com/kelvinBen/AppInfoScanner": {
