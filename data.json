@@ -879,14 +879,14 @@
         "updated_at": "2024-12-03 15:15:15"
     },
     "https://github.com/vaycore/OneScan": {
-        "created_at": "2024-11-26 05:29:41",
+        "created_at": "2024-12-31 16:00:01",
         "description": "OneScan是递归目录扫描的BurpSuite插件",
         "commit_date": "2024-09-03 09:38:18",
         "commit_message": "修复：扫描过程中 SwingWorker 无法加载请求响应数据包的问题（使用线程池代替）",
-        "release_tag": "v1.6.20",
-        "release_date": "2024-11-26 05:33:31",
-        "release_message": "1.6.20 版本发布，版本更新内容如下\r\n\r\n### 修复\r\n\r\n- 修复：主动扫描因任务处理过程耗时导致 UI 卡死的问题\r\n- 修复：因处理 `IHttpService` 实例不当，导致的 `java.lang.IllegalArgumentException: Invalid service` 异常",
-        "updated_at": "2024-12-03 03:32:55"
+        "release_tag": "v1.7.0",
+        "release_date": "2024-12-31 16:00:26",
+        "release_message": "1.7.0 版本发布，版本更新内容如下\r\n\r\n### 新增\r\n\r\n- 新增中文（zh_CN）、英文（en_US）语言资源包，根据系统语言加载对应的语言包\r\n- 新增确认删除对话框，防止误删除 `Payload Processing` 规则\r\n\r\n### 优化\r\n\r\n- 兼容 HaE 4.0 版本\r\n- 修改部分配置项的字段名\r\n- 修改部分存放字典的目录名\r\n- 更新默认字典配置\r\n- 取消对 `Payload Processing` 规则参数值的空值检测\r\n",
+        "updated_at": "2024-12-31 21:11:56"
     },
     "https://github.com/ianxtianxt/SharpDecryptPwd": {
         "created_at": "2019-10-12 11:43:26",
