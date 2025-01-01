@@ -1907,14 +1907,14 @@
         "updated_at": "2024-09-16 14:44:13"
     },
     "https://github.com/yuyan-sec/RedisEXP": {
-        "created_at": "2024-08-14 01:21:17",
+        "created_at": "2024-12-07 13:32:30",
         "description": "Redis 漏洞利用工具",
         "commit_date": "2024-08-14 01:21:17",
         "commit_message": "update",
-        "release_tag": "0.0.9",
-        "release_date": "2024-08-14 01:23:22",
-        "release_message": "`stop-writes-on-bgsave-error` 默认为 `yes`, 如果 Redis 开启了 RDB 持久化并且最后一次失败了，Redis 默认会停止写入，让用户意识到数据的持久化没有正常工作。临时的解决方案是 `conf set stop-writes-on-bgsave-error` 设置为 no，只是让程序暂时忽略了这个问题，但是数据的持久化的问题并没有。（工具会默认设置为 `no` ，等工具退出的时候再重新设置回原来的值`yes`，不要使用 -m cli 来执行 bgsave 因为cli没设置 `stop-writes-on-bgsave-error` ，直接使用 -m bgsave）\r\n\r\n```\r\nconfig set stop-writes-on-bgsave-error no\r\n```\r\n\r\n",
-        "updated_at": "2024-09-16 14:44:13",
+        "release_tag": "0.1.1",
+        "release_date": "2024-12-07 13:34:11",
+        "release_message": "windows中文路径需要设置：-g ",
+        "updated_at": "2025-01-01 15:13:15",
         "bucket": true
     },
     "https://github.com/hiroi-sora/Umi-OCR": {
@@ -1956,15 +1956,15 @@
         "release_message": ""
     },
     "https://github.com/cseroad/Exp-Tools": {
-        "created_at": "2024-02-20 09:21:44",
+        "created_at": "2024-06-07 07:46:45",
         "description": "一款集成高危漏洞exp的实用性工具",
         "commit_date": "2024-06-07 07:46:45",
         "commit_message": "Update README.md",
-        "release_tag": "v1.2.7",
-        "release_date": "2024-06-07 07:46:02",
-        "release_message": "- 新增广联达oa漏洞\r\n- 修复部分漏洞误报\r\n- 新增帆软报表漏洞导致jar包体积变大\r\n- 优化部分代码",
+        "release_tag": "v1.3.1",
+        "release_date": "2024-11-06 05:44:35",
+        "release_message": "- 新增内存马接口\r\n- 新增浪潮、契约锁、锐捷、华三、海康威视、jeecg-boot等漏洞\r\n- 简单优化UI\r\n- 删除struts系列漏洞\r\n- 新增更新提示\r\n- 优化多个漏洞的误报、错报",
         "bucket": true,
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2025-01-01 15:13:15"
     },
     "https://github.com/Acmesec/Sylas": {
         "created_at": "2022-10-09 11:06:28",
@@ -2392,14 +2392,14 @@
         "bucket": true
     },
     "https://github.com/FunnyWolf/Viper": {
-        "created_at": "2024-09-05 03:42:30",
+        "created_at": "2024-12-09 07:55:46",
         "description": "Attack Surface Management & Red Team Simulation Platform 互联网攻击面管理&红队模拟平台",
         "commit_message": "update readme",
         "commit_date": "2024-09-06 05:11:39",
-        "release_date": "2024-09-06 02:12:16",
-        "release_message": "## v2.3.4 2024-09-04-16-59-30\r\n### 新功能\r\n- 新增`多用户`功能,支持多人协作\r\n\r\n### 优化\r\n- `智能助手`支持Markdown格式输出及展示",
-        "release_tag": "v2.3.4-2024-09-04-16-59-30",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2024-12-10 07:44:26",
+        "release_message": "### 新功能\r\n- screen_share功能支持web端直接预览\r\n- 攻击面管理新增`备案` `Favicon`等功能\r\n- viper被暴力破解时自动阻止登陆\r\n\r\n## 优化\r\n- 更新AI模块提示词\r\n- 攻击面管理数据存储由sqlite切换为elasticsearch\r\n- 更新后台服务启动顺序,添加启动失败原因日志\r\n- 合并metasploit-framework 6.4.40版本",
+        "release_tag": "v3.0.0-2024-12-09-10-50-06",
+        "updated_at": "2025-01-01 15:13:15"
     },
     "https://github.com/kost/dvcs-ripper": {
         "created_at": "2012-10-23 04:55:18",
