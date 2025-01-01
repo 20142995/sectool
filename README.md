@@ -1215,7 +1215,7 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JNDI-Injection-Exploit-Plus 2.5](https://github.com/cckuailong/JNDI-Injection-Exploit-Plus) 80+ Gadgets(30 More than ysoserial). JNDI-Injection...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ysomap v0.1.5](https://github.com/wh1t3p1g/ysomap) A helpful Java Deserialization exploit framework.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ysoserial.net v1.36](https://github.com/pwntester/ysoserial.net) Deserialization payload generator for a variety of .NET formatters
-- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Exp-Tools v1.2.7](https://github.com/cseroad/Exp-Tools) 一款集成高危漏洞exp的实用性工具
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Exp-Tools v1.3.1](https://github.com/cseroad/Exp-Tools) 一款集成高危漏洞exp的实用性工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jndi_tool](https://github.com/wyzxxz/jndi_tool) JNDI服务利用工具 RMI/LDAP，支持部分场景回显、内存shell，高版本JDK场景下利用等，fastjson rce命令执行，log4j ...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ysoserial v0.0.6](https://github.com/frohoff/ysoserial) A proof-of-concept tool for generating payloads that exploit unsaf...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ysoserial latest](https://github.com/Y4er/ysoserial) ysoserial修改版，着重修改ysoserial.payloads.util.Gadgets.createTemplatesIm...
@@ -2070,7 +2070,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gcat](https://github.com/byt3bl33d3r/gcat) A PoC backdoor that uses Gmail as a C&C server
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BlackHole](https://github.com/hussein-aitlahcen/BlackHole) C# RAT (Remote Administration Tool)
 ### 综合
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Viper v2.3.4-2024-09-04-16-59-30](https://github.com/FunnyWolf/Viper) Attack Surface Management & Red Team Simulation Pl...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Viper v3.0.0-2024-12-09-10-50-06](https://github.com/FunnyWolf/Viper) Attack Surface Management & Red Team Simulation Pl...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Ladon v12.2](https://github.com/k8gege/Ladon) Ladon大型内网渗透工具，可PowerShell模块化、可CS插件化、可内存加载，无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、...
 ## 客户端漏洞
 ### 向日葵
@@ -2427,7 +2427,7 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [postgreUtil v1.0](https://github.com/20142995/postgreUtil) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [postgresql_udf_help](https://github.com/No-Github/postgresql_udf_help) PostgreSQL 提权辅助脚本
 #### redis
-- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedisEXP 0.0.9](https://github.com/yuyan-sec/RedisEXP) Redis 漏洞利用工具
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedisEXP 0.1.1](https://github.com/yuyan-sec/RedisEXP) Redis 漏洞利用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedisModules-ExecuteCommand-for-Windows](https://github.com/0671/RedisModules-ExecuteCommand-for-Windows) 可在Windows下执行系统命令的Redis模块，可用于Redis主从复制攻击。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RabR 0.6.2](https://github.com/0671/RabR) Redis-Attack By Replication (通过主从复制攻击Redis)   
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [redis-rogue-server](https://github.com/n0b0dyCN/redis-rogue-server) Redis(<=5.0.5) RCE
