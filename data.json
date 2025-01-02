@@ -1004,14 +1004,14 @@
         "updated_at": "2024-09-16 14:44:13"
     },
     "https://github.com/sqlmapproject/sqlmap": {
-        "created_at": "2024-01-03 22:18:35",
+        "created_at": "2025-01-02 00:00:58",
         "description": "Automatic SQL injection and database takeover tool",
         "commit_message": "Dummy commit",
         "commit_date": "2024-09-10 12:05:14",
-        "release_date": "2024-01-03 22:20:06",
-        "release_message": "Stable version 1.8 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.7...1.8))",
-        "release_tag": "1.8",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_date": "2025-01-02 00:10:45",
+        "release_message": "Stable version 1.9 ([changeset](https://github.com/sqlmapproject/sqlmap/compare/1.8...1.9))",
+        "release_tag": "1.9",
+        "updated_at": "2025-01-02 01:02:21"
     },
     "https://github.com/loecho-sec/ARL-Finger-ADD": {
         "created_at": "2021-07-25 09:11:41",
