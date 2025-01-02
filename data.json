@@ -595,14 +595,14 @@
         "bucket": true
     },
     "https://github.com/shadow1ng/fscan": {
-        "created_at": "2024-12-19 15:09:26",
+        "created_at": "2024-05-11 08:09:14",
         "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
         "commit_message": "update",
         "commit_date": "2024-08-29 07:12:30",
-        "release_date": "2024-12-19 15:11:24",
-        "release_message": "全面代码重构，项目结构重构，插件逻辑优化，项目文档添加，规范化输出、新增本地敏感信息搜集插件等。",
-        "release_tag": "2.0.0-build1",
-        "updated_at": "2024-12-19 18:18:12",
+        "release_date": "2024-05-11 08:51:48",
+        "release_message": "小更新，优化报错处理。避免部分扫描模块报错后导致的程序退出\r\nlinux(amd64)默认使用fscan\r\nwindows(x64)默认使用fscan.exe即可",
+        "release_tag": "1.8.4",
+        "updated_at": "2025-01-02 18:18:05",
         "bucket": true
     },
     "https://github.com/yzddmr6/WebCrack": {
