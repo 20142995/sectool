@@ -1729,7 +1729,8 @@
         "commit_message": "Update README.md",
         "release_tag": "0.1",
         "release_date": "2023-02-14 09:00:35",
-        "release_message": "提供了三个`jar`文件：\r\n- `agent.jar`是核心文件，请保持与`gui.jar`或`remote.jar`同目录\r\n- `gui.jar`是GUI客户端，本地和远程分析都需要\r\n- `remote.jar`用于远程分析，本地分析无需下载"
+        "release_message": "提供了三个`jar`文件：\r\n- `agent.jar`是核心文件，请保持与`gui.jar`或`remote.jar`同目录\r\n- `gui.jar`是GUI客户端，本地和远程分析都需要\r\n- `remote.jar`用于远程分析，本地分析无需下载",
+        "bucket": true
     },
     "https://github.com/chaitin/veinmind-tools": {
         "created_at": "2023-07-23 09:26:45",
@@ -19899,6 +19900,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2025-01-04 07:33:07",
         "release_message": "",
-        "release_tag": "rolan"
+        "release_tag": "rolan",
+        "bucket": true
     }
 }
