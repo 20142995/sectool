@@ -879,14 +879,14 @@
         "updated_at": "2024-12-03 15:15:15"
     },
     "https://github.com/vaycore/OneScan": {
-        "created_at": "2024-12-31 16:00:01",
+        "created_at": "2025-01-07 13:58:11",
         "description": "OneScan是递归目录扫描的BurpSuite插件",
         "commit_date": "2024-09-03 09:38:18",
         "commit_message": "修复：扫描过程中 SwingWorker 无法加载请求响应数据包的问题（使用线程池代替）",
-        "release_tag": "v1.7.0",
-        "release_date": "2024-12-31 16:00:26",
-        "release_message": "1.7.0 版本发布，版本更新内容如下\r\n\r\n### 新增\r\n\r\n- 新增中文（zh_CN）、英文（en_US）语言资源包，根据系统语言加载对应的语言包\r\n- 新增确认删除对话框，防止误删除 `Payload Processing` 规则\r\n\r\n### 优化\r\n\r\n- 兼容 HaE 4.0 版本\r\n- 修改部分配置项的字段名\r\n- 修改部分存放字典的目录名\r\n- 更新默认字典配置\r\n- 取消对 `Payload Processing` 规则参数值的空值检测\r\n",
-        "updated_at": "2024-12-31 21:11:56"
+        "release_tag": "v1.7.9",
+        "release_date": "2025-01-07 13:59:15",
+        "release_message": "1.7.9 版本发布，版本更新内容如下\r\n\r\n### 新增\r\n\r\n- 数据收集模块新增去重过滤机制，避免重复运行收集数据代码，造成性能损失\r\n- 注册插件卸载监听器，插件卸载时主动释放占用的内存\r\n\r\n### 优化\r\n\r\n- 提升与 `HaE` 插件的兼容性（兼容 `HaE` 插件的卸载事件）\r\n- 优化请求去重过滤机制，提升查重效率\r\n- 优化列表过滤器的检测机制，提升过滤的性能\r\n- 优化指纹识别的缓存机制\r\n- 优化停止扫描任务功能\r\n\r\n### 修复\r\n\r\n- 修复：当前地区找不到对应的语言资源包时，导致初始化报错、插件无法安装的问题\r\n- 修复：临时过滤器过滤多条记录时，出现重复添加多个过滤规则的问题\r\n",
+        "updated_at": "2025-01-07 15:57:37"
     },
     "https://github.com/ianxtianxt/SharpDecryptPwd": {
         "created_at": "2019-10-12 11:43:26",
