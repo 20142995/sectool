@@ -615,6 +615,7 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [natpass v0.13.0](https://github.com/lwch/natpass) 🔥居家办公，远程开发神器
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [meterpeter v2.10.14](https://github.com/r00t-3xp10it/meterpeter) C2 Powershell Command & Control Framework with BuiltIn Commands
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [curl-impersonate-win 20240211](https://github.com/depler/curl-impersonate-win) A special build of curl for Windows that can imperson...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PidKeyTool 3.6.0](https://github.com/laomms/PidKeyTool) 密钥检测工具. Tool for check Microsoft Product Key
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WinMemoryCleaner 2.8](https://github.com/IgorMundstein/WinMemoryCleaner) This free RAM cleaner uses native Windows features to optimize...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [godoh 1.6](https://github.com/sensepost/godoh) 🕳 godoh - A DNS-over-HTTPS C2
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SimpleDnsCrypt 0.8.2](https://github.com/instantsc/SimpleDnsCrypt) A simple management tool for dnscrypt-proxy
@@ -656,7 +657,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PrintNotifyPotatog](https://github.com/BeichenDream/PrintNotifyPotatog) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [caesium-image-compressor/](https://github.com/Lymphatus/caesium-image-compressor/) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [igdm/](https://github.com/igdmapps/igdm/) 
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PidKeyTool](https://github.com/laomms/PidKeyTool) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Stowaways](https://github.com/ph4ntonn/Stowaways) 
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/gobysec.net" alt="" style="height: 20px;"> [Goby— 资产绘测及实战化漏洞扫描工具](https://gobysec.net/) 
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/hetty.xyz" alt="" style="height: 20px;"> [hetty.xyz](https://hetty.xyz) 
