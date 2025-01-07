@@ -19900,6 +19900,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2025-01-06 11:19:35",
         "release_message": "APK Messenger 是一款电脑端APK信息文件提取工具，由果核剥壳网站开发，致力于做PC端最强大的APK信息查看工具，经过几个版本的迭代，现在软件已经基本完善，一般功能适合普通用户，其中高级功能针对开发者以及网站编辑等人群使用。",
-        "release_tag": "APKMessenger"
+        "release_tag": "APKMessenger",
+        "bucket": true
     }
 }
