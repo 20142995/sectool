@@ -2178,7 +2178,7 @@
 ##### 插件仓库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpSuite-collections](https://github.com/Mr-xn/BurpSuite-collections) 有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客m...
 ##### 未分类
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OneScan v1.7.9](https://github.com/vaycore/OneScan) OneScan是递归目录扫描的BurpSuite插件
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OneScan v1.7.9](https://github.com/vaycore/OneScan) OneScan是递归目录扫描的BurpSuite插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blackboxprotobuf](https://github.com/nccgroup/blackboxprotobuf) Blackbox Protobuf is a set of tools for working with encoded Proto...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CaA 1.0.1](https://github.com/gh0stkey/CaA) CaA - Collector and Analyzer, Insight into information, exploring with in...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [passive-scan-client-plus v0.4.22](https://github.com/winezer0/passive-scan-client-plus) burpsuite passive-scan-client 插件持续维护分支 v2024
@@ -2191,7 +2191,7 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpCrypto](https://github.com/whwlsfb/BurpCrypto) BurpCrypto is a collection of burpsuite encryption plug-ins, support AES...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [inql v5.0.2](https://github.com/doyensec/inql) InQL is a robust, open-source Burp Suite extension for advanced GraphQL...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HackTools 1.5](https://github.com/Vicl1fe/HackTools) 提高渗透测试效率。#Burp插件##渗透测试##小工具#
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xia_sql 3.3](https://github.com/smxiazi/xia_sql) xia SQL (瞎注)  burp 插件 ，在每个参数后面填加一个单引号，两个单引号，一个简单的判断注入小插件。
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xia_sql 3.3](https://github.com/smxiazi/xia_sql) xia SQL (瞎注)  burp 插件 ，在每个参数后面填加一个单引号，两个单引号，一个简单的判断注入小插件。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sweetPotato version1.6](https://github.com/z2p/sweetPotato) 基于burpsuite的资产分析工具
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HostHeaderAttack 0.1.1](https://github.com/weujieytt/HostHeaderAttack) 检测host头攻击的Burpsuite被动扫描插件，Burpsuite passive scanning plugin ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Burp2Malleable](https://github.com/CodeXTF2/Burp2Malleable) Quick python utility I wrote to turn HTTP requests from burp suite i...
@@ -2236,7 +2236,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [shiro-check shirochek3.0](https://github.com/bigsizeme/shiro-check) Shiro反序列化回显利用、内存shell、检查 Burp插件
 ##### 漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gatherBurp V1.2.0](https://github.com/kN6jq/gatherBurp) 一款强大的 burp 安全测试插件，集成多种安全测试功能，支持自动化扫描和手动测试。
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BypassPro v3.0](https://github.com/0x727/BypassPro) 对权限绕过自动化bypass的burpsuite插件
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BypassPro v3.0](https://github.com/0x727/BypassPro) 对权限绕过自动化bypass的burpsuite插件
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RouteVulScan RouteVulScan1.5.4](https://github.com/F6JO/RouteVulScan) Burpsuite - Route Vulnerable Scanning 递归式被动检测脆弱路径的bu...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HostScan](https://github.com/hy0jer/HostScan) 一款支持检测host头攻击的burp suite插件
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SpringScan V1.8.2](https://github.com/metaStor/SpringScan) SpringScan 漏洞检测 Burp插件
