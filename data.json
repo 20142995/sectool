@@ -886,7 +886,8 @@
         "release_tag": "v1.7.9",
         "release_date": "2025-01-07 13:59:15",
         "release_message": "1.7.9 版本发布，版本更新内容如下\r\n\r\n### 新增\r\n\r\n- 数据收集模块新增去重过滤机制，避免重复运行收集数据代码，造成性能损失\r\n- 注册插件卸载监听器，插件卸载时主动释放占用的内存\r\n\r\n### 优化\r\n\r\n- 提升与 `HaE` 插件的兼容性（兼容 `HaE` 插件的卸载事件）\r\n- 优化请求去重过滤机制，提升查重效率\r\n- 优化列表过滤器的检测机制，提升过滤的性能\r\n- 优化指纹识别的缓存机制\r\n- 优化停止扫描任务功能\r\n\r\n### 修复\r\n\r\n- 修复：当前地区找不到对应的语言资源包时，导致初始化报错、插件无法安装的问题\r\n- 修复：临时过滤器过滤多条记录时，出现重复添加多个过滤规则的问题\r\n",
-        "updated_at": "2025-01-07 15:57:37"
+        "updated_at": "2025-01-07 15:57:37",
+        "bucket": true
     },
     "https://github.com/ianxtianxt/SharpDecryptPwd": {
         "created_at": "2019-10-12 11:43:26",
@@ -8019,7 +8020,8 @@
         "commit_message": "Update README.md",
         "release_tag": "3.3",
         "release_date": "2023-05-18 11:43:35",
-        "release_message": "* 优化响应包的内容为图片时，忽略处理。"
+        "release_message": "* 优化响应包的内容为图片时，忽略处理。",
+        "bucket": true
     },
     "https://github.com/incredibleindishell/SSRF_Vulnerable_Lab": {
         "created_at": "2019-09-22 14:09:41",
@@ -11548,7 +11550,8 @@
         "release_tag": "v3.0",
         "release_date": "2024-06-21 02:40:07",
         "release_message": "修复了passive scan 开关 部分场景失效问题\r\n把绕过规则改为了yaml读取payload，方便大家自行丰富（可使用7z等工具直接打开jar，直接修改config文件）",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/tib36/PhishingBook": {
         "created_at": "2023-04-20 11:58:15",
@@ -19910,6 +19913,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2025-01-07 11:25:54",
         "release_message": "",
-        "release_tag": "BurpSuite1.6"
+        "release_tag": "BurpSuite1.6",
+        "bucket": true
     }
 }
