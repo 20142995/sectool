@@ -3764,7 +3764,8 @@
         "commit_message": "MS VC link update",
         "release_tag": "v9.1",
         "release_date": "2020-08-02 10:36:14",
-        "release_message": "v9.1"
+        "release_message": "v9.1",
+        "bucket": true
     },
     "https://github.com/dyboy2017/TScan": {
         "created_at": "2019-08-28 09:04:08",
@@ -19913,6 +19914,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2025-01-11 10:04:18",
         "release_message": "",
-        "release_tag": "Johnny"
+        "release_tag": "Johnny",
+        "bucket": true
     }
 }
