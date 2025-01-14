@@ -19914,6 +19914,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2025-01-11 10:04:18",
         "release_message": "",
-        "release_tag": "Johnny"
+        "release_tag": "Johnny",
+        "bucket": true
     }
 }
