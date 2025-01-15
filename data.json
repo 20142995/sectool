@@ -1285,7 +1285,8 @@
         "commit_message": "1.4",
         "release_tag": "1.4",
         "release_date": "2022-12-20 08:18:26",
-        "release_message": "添加了对XML的扫描"
+        "release_message": "添加了对XML的扫描",
+        "bucket": true
     },
     "https://github.com/hunyaio/yuhScan": {
         "created_at": "2021-06-23 07:04:13",
@@ -1993,7 +1994,8 @@
         "commit_message": "Add files via upload",
         "release_tag": "npscrack-1.0",
         "release_date": "2023-02-16 15:01:33",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/Bypass007/Emergency-Response-Notes": {
         "created_at": "2019-05-18 04:47:30",
@@ -2073,7 +2075,8 @@
         "commit_message": "update",
         "release_tag": "1.0.0",
         "release_date": "2022-11-23 03:58:28",
-        "release_message": "1、修复log4j poc编码问题\r\n2、修复dnslog平台请求错误的问题\r\n3、其他bug修复"
+        "release_message": "1、修复log4j poc编码问题\r\n2、修复dnslog平台请求错误的问题\r\n3、其他bug修复",
+        "bucket": true
     },
     "https://github.com/CTF-MissFeng/bayonet": {
         "created_at": "2020-03-04 13:47:26",
@@ -19914,6 +19917,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2025-01-14 07:27:59",
         "release_message": "",
-        "release_tag": "FuzzDomain"
+        "release_tag": "FuzzDomain",
+        "bucket": true
     }
 }
