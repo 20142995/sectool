@@ -723,7 +723,7 @@
 ## 歌声转换
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) SoftVC VITS Singing Voice Conversion
 ## 渗透测试报告辅助
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [APTRS 1.0](https://github.com/Anof-cyber/APTRS) Automated Penetration Testing Reporting System
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [APTRS 1.0.1](https://github.com/Anof-cyber/APTRS) Automated Penetration Testing Reporting System
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pentest_report v1.0.0](https://github.com/dbgee/pentest_report) A pentest reporter generator
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BugRepoter_0x727](https://github.com/0x727/BugRepoter_0x727) BugRepoter_0x727(自动化编写报告平台)根据安全团队定制化协同管理项目安全，可快速查找历史漏洞，批量导出报告。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WaterExp](https://github.com/linshaoSec/WaterExp) WaterExp:面向安服仔的 水报告模板和工具
@@ -1365,7 +1365,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyt](https://github.com/python-security/pyt) A Static Analysis Tool for Detecting Security Vulnerabilities in Python Web App...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyvulhunter](https://github.com/shengqi158/pyvulhunter) python audit tool 审计 注入 inject
 ### 信息泄露监控
-- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gshark v1.5.0](https://github.com/madneal/gshark) Scan for sensitive information easily and effectively.
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gshark v1.5.2](https://github.com/madneal/gshark) Scan for sensitive information easily and effectively.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [code6 1.6.4](https://github.com/4x99/code6) 码小六 - GitHub 代码泄露监控系统
 ### 半自动漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reconftw v2.9](https://github.com/six2dez/reconftw) reconFTW is a tool designed to perform automated recon on a target do...
