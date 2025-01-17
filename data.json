@@ -1455,7 +1455,8 @@
         "commit_message": "2023/9/9更新",
         "release_tag": "2023.9.9",
         "release_date": "2023-09-09 14:03:15",
-        "release_message": "修复 -ff 重复验证问题\r\n修复 自动识别协议bug"
+        "release_message": "修复 -ff 重复验证问题\r\n修复 自动识别协议bug",
+        "bucket": true
     },
     "https://github.com/0x727/ShuiZe_0x727": {
         "created_at": "2021-08-03 09:44:07",
@@ -2876,7 +2877,8 @@
         "commit_message": "解决抖动延时，随机时间无法到达最大值问题",
         "release_tag": "0.4.0",
         "release_date": "2021-08-21 01:15:40",
-        "release_message": "本版本大更新，主要添加 **延时分块发送器** (sleep chunked sender)\r\n\r\n1. 实现socket发包分块并在界面显示进度信息\r\n2. 调整package结构删除无用HttpURLConnClient\r\n3. 调整第二排界面控件\r\n4. 解决request数据包比较大时，sleep send client界面显示比较卡的问题\r\n5. 解决多个Sleep send client共用一个发送记录\r\n6. 解决计算分块范围和耗时范围不准确问题，以及设置分块和延时控件最小值不能大于最大值\r\n7. 实现代理设置，修复https判断错误bug\r\n8. 添加sleep send client错误信息的显示\r\n9. 修复由于Transfer-Encoding: chunked大小写不敏感导致判断不严谨问题\r\n10. 让send sleep client显示连接和发送头阶段的错误信息\r\n11. 让sleep send client退出时将后台发包线程也退出\r\n12. 给sleep send client添加进度条\r\n13. 设置sleep send client的发送按钮在完成发送后恢复名称为Start\r\n14. 引入单元测试，删除调无用的IMessageEditorController接口实现\r\n15. 将最后一步读取response，作为进度条显示的一部分\r\n16. 解决延时分块传输最后一个分块长度计算错误问题\r\n17. 重新明确已经发送分块和发送时间这两个概念\r\n18. 解决socket模拟Http发包,读response不完整问题\r\n19. 实现sleep send client分块日志表格按照比例显示列宽\r\n20. 将sleep send client模块改名为sleep chunked sender"
+        "release_message": "本版本大更新，主要添加 **延时分块发送器** (sleep chunked sender)\r\n\r\n1. 实现socket发包分块并在界面显示进度信息\r\n2. 调整package结构删除无用HttpURLConnClient\r\n3. 调整第二排界面控件\r\n4. 解决request数据包比较大时，sleep send client界面显示比较卡的问题\r\n5. 解决多个Sleep send client共用一个发送记录\r\n6. 解决计算分块范围和耗时范围不准确问题，以及设置分块和延时控件最小值不能大于最大值\r\n7. 实现代理设置，修复https判断错误bug\r\n8. 添加sleep send client错误信息的显示\r\n9. 修复由于Transfer-Encoding: chunked大小写不敏感导致判断不严谨问题\r\n10. 让send sleep client显示连接和发送头阶段的错误信息\r\n11. 让sleep send client退出时将后台发包线程也退出\r\n12. 给sleep send client添加进度条\r\n13. 设置sleep send client的发送按钮在完成发送后恢复名称为Start\r\n14. 引入单元测试，删除调无用的IMessageEditorController接口实现\r\n15. 将最后一步读取response，作为进度条显示的一部分\r\n16. 解决延时分块传输最后一个分块长度计算错误问题\r\n17. 重新明确已经发送分块和发送时间这两个概念\r\n18. 解决socket模拟Http发包,读response不完整问题\r\n19. 实现sleep send client分块日志表格按照比例显示列宽\r\n20. 将sleep send client模块改名为sleep chunked sender",
+        "bucket": true
     },
     "https://github.com/tpt11fb/AttackTomcat": {
         "created_at": "2022-11-13 11:38:03",
@@ -8622,7 +8624,8 @@
         "release_tag": "v2.6.2",
         "release_date": "2024-05-17 12:27:21",
         "release_message": "## What's Changed\r\n* :bug: Fix can't work in kali using relative path by @pad0van in https://github.com/dwisiswant0/apkleaks/pull/57\r\n* support python3.12 by @branchvincent in https://github.com/dwisiswant0/apkleaks/pull/81\r\n\r\n## New Contributors\r\n* @pad0van made their first contribution in https://github.com/dwisiswant0/apkleaks/pull/57\r\n* @branchvincent made their first contribution in https://github.com/dwisiswant0/apkleaks/pull/81\r\n\r\n**Full Changelog**: https://github.com/dwisiswant0/apkleaks/compare/v2.6.1...v2.6.2",
-        "updated_at": "2024-09-16 14:44:13"
+        "updated_at": "2024-09-16 14:44:13",
+        "bucket": true
     },
     "https://github.com/Hackl0us/GeoIP2-CN": {
         "created_at": "2020-12-09 07:55:16",
@@ -19917,6 +19920,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2025-01-14 07:27:59",
         "release_message": "",
-        "release_tag": "FuzzDomain"
+        "release_tag": "FuzzDomain",
+        "bucket": true
     }
 }
