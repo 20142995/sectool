@@ -1616,7 +1616,7 @@
 ### apk
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AppMessenger v0.5.3](https://github.com/sulab999/AppMessenger) 一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、鸿...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Mobile-Security-Framework-MobSF v3.9.7](https://github.com/MobSF/Mobile-Security-Framework-MobSF) Mobile Security Framework (MobSF) is an auto...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [apkleaks v2.6.2](https://github.com/dwisiswant0/apkleaks) Scanning APK file for URIs, endpoints & secrets.
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [apkleaks v2.6.2](https://github.com/dwisiswant0/apkleaks) Scanning APK file for URIs, endpoints & secrets.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [apkleaks](https://github.com/Anof-cyber/apkleaks) An python script that use apkleaks to scan the android application over web
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ApkAnalyser](https://github.com/TheKingOfDuck/ApkAnalyser) 一键提取安卓应用中可能存在的敏感信息。
 ### 企业信息收集
@@ -1715,7 +1715,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ihoneyBakFileScan_Modify](https://github.com/VMsec/ihoneyBakFileScan_Modify) 批量网站备份文件扫描器，增加文件规则，优化内存占用
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dontgo403 1.0.1](https://github.com/devploit/dontgo403) Tool to bypass 40X response codes.
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ffuf v2.1.0](https://github.com/ffuf/ffuf) Fast web fuzzer written in Go
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [URLFinder 2023.9.9](https://github.com/pingc0y/URLFinder) 一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中的JS、URL和敏感信息。
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [URLFinder 2023.9.9](https://github.com/pingc0y/URLFinder) 一款快速、全面、易用的页面信息提取工具，可快速发现和提取页面中的JS、URL和敏感信息。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dirsearch_bypass403 v0.2](https://github.com/lemonlove7/dirsearch_bypass403) 目录扫描+JS文件中提取URL和子域+403状态绕过+指纹识别
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dirhunt v0.9.0](https://github.com/Nekmo/dirhunt) Find web directories without bruteforce
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [crawlergo v0.4.4](https://github.com/Qianlitp/crawlergo) A powerful browser crawler for web vulnerability scanners
@@ -2164,7 +2164,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AutoRepeater V1.1](https://github.com/Lotus6/AutoRepeater) Burp插件，自动化挖掘SSRF，Redirect，Sqli漏洞，自定义匹配参数
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [passive-scan-client 0.3.1](https://github.com/c0ny1/passive-scan-client) Burp被动扫描流量转发插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpHttpHelper 1.3.1](https://github.com/MaskCyberSecurityTeam/BurpHttpHelper) BurpHttpHelper是一款Burpsuite插件，主要用于简化和解决Burpsuite对Http的一些操作.
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [chunked-coding-converter 0.4.0](https://github.com/c0ny1/chunked-coding-converter) Burp suite 分块传输辅助插件
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [chunked-coding-converter 0.4.0](https://github.com/c0ny1/chunked-coding-converter) Burp suite 分块传输辅助插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpSuite_403Bypasser](https://github.com/sting8k/BurpSuite_403Bypasser) Burpsuite Extension to bypass 403 restricted directory
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [base64encode 1.0](https://github.com/handbye/base64encode) burpsuite POST数据包base64编码插件
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [HackBar 2.0](https://github.com/d3vilbug/HackBar) HackBar plugin for Burpsuite
@@ -2178,7 +2178,7 @@
 ##### 插件仓库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpSuite-collections](https://github.com/Mr-xn/BurpSuite-collections) 有关burpsuite的插件(非商店),文章以及使用技巧的收集(此项目不再提供burpsuite破解文件,如需要请在博客m...
 ##### 未分类
-- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OneScan v1.7.9](https://github.com/vaycore/OneScan) OneScan是递归目录扫描的BurpSuite插件
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [OneScan v1.7.13](https://github.com/vaycore/OneScan) OneScan是递归目录扫描的BurpSuite插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blackboxprotobuf](https://github.com/nccgroup/blackboxprotobuf) Blackbox Protobuf is a set of tools for working with encoded Proto...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CaA 1.0.1](https://github.com/gh0stkey/CaA) CaA - Collector and Analyzer, Insight into information, exploring with in...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [passive-scan-client-plus v0.4.22](https://github.com/winezer0/passive-scan-client-plus) burpsuite passive-scan-client 插件持续维护分支 v2024
