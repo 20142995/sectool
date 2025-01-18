@@ -7122,7 +7122,8 @@
         "commit_message": "是README符合最新版本",
         "release_tag": "0.3.2",
         "release_date": "2019-11-22 14:10:33",
-        "release_message": "#### Bug修复\r\n* [-] 解决测试加密时，自定义输入的payload加密结果不换行问题"
+        "release_message": "#### Bug修复\r\n* [-] 解决测试加密时，自定义输入的payload加密结果不换行问题",
+        "bucket": true
     },
     "https://github.com/yunxu1/jboss-_CVE-2017-12149": {
         "created_at": "2017-11-28 02:52:47",
@@ -19920,6 +19921,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2025-01-14 07:27:59",
         "release_message": "",
-        "release_tag": "FuzzDomain"
+        "release_tag": "FuzzDomain",
+        "bucket": true
     }
 }
