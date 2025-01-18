@@ -2222,7 +2222,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [JSONP-Hunter](https://github.com/p1g3/JSONP-Hunter) JSONP Hunter in burpsuite.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fastjson-Scanner](https://github.com/p1g3/Fastjson-Scanner) a burp extension to find where use fastjson
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpSuite-Extender-fastjson](https://github.com/uknowsec/BurpSuite-Extender-fastjson) Reference：https://www.w2n1ck.com/article/44/
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jsEncrypter 0.3.2](https://github.com/c0ny1/jsEncrypter) 一个用于前端加密Fuzz的Burp Suite插件
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jsEncrypter 0.3.2](https://github.com/c0ny1/jsEncrypter) 一个用于前端加密Fuzz的Burp Suite插件
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [awesome-burp-suite](https://github.com/alphaSeclab/awesome-burp-suite) Awesome Burp Suite Resources. 400+ open source Burp plugins, 400...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SQL-Injection-Payloads](https://github.com/trietptm/SQL-Injection-Payloads) SQL Injection Payloads for Burp Suite, OWASP Zed Attack Prox...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [BurpCollaboratorDNSTunnel](https://github.com/NetSPI/BurpCollaboratorDNSTunnel) A DNS tunnel utilizing the Burp Collaborator
