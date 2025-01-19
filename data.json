@@ -19921,6 +19921,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2025-01-14 07:27:59",
         "release_message": "",
-        "release_tag": "FuzzDomain"
+        "release_tag": "FuzzDomain",
+        "bucket": true
     }
 }
