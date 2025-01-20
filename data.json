@@ -209,7 +209,8 @@
         "commit_message": "Fix JNDIEXPLOIT_URL, fixes #1\n\nFix JNDIEXPLOIT_URL, fixes #1",
         "release_tag": "v1.2",
         "release_date": "2021-12-13 14:50:52",
-        "release_message": "JNDIExploit.v1.2 backup"
+        "release_message": "JNDIExploit.v1.2 backup",
+        "bucket": true
     },
     "https://github.com/ycdxsb/PocOrExp_in_Github": {
         "created_at": "2021-04-13 05:46:16",
@@ -2907,7 +2908,8 @@
         "commit_message": "Update README.md",
         "release_tag": "1.1",
         "release_date": "2021-10-22 03:32:27",
-        "release_message": "添加内容是为了支持SpringBootExploit工具，是定制版的服务端。\r\n\r\n1. 启动方式：java -jar  JNDIExploit-1.2-SNAPSHOT.jar 默认绑定127.0.0.1 LDAP 绑定 1389 HTTP Server 绑定3456\r\n2. 根目录下BehinderFilter.class是内存马 /ateam 密码是ateamnb \r\n3. 根目录下Calc.class是但计算器\r\n4. data/behinder3.jar 是为了支持SnakYaml RCE\r\n5. 添加HTTPServer处理更多的请求，为了更好支持SpringBootExploit工具\r\n6. 将文件放在data目录下，通过HTTPServer可以访问文件内容如同python的HTTPServer"
+        "release_message": "添加内容是为了支持SpringBootExploit工具，是定制版的服务端。\r\n\r\n1. 启动方式：java -jar  JNDIExploit-1.2-SNAPSHOT.jar 默认绑定127.0.0.1 LDAP 绑定 1389 HTTP Server 绑定3456\r\n2. 根目录下BehinderFilter.class是内存马 /ateam 密码是ateamnb \r\n3. 根目录下Calc.class是但计算器\r\n4. data/behinder3.jar 是为了支持SnakYaml RCE\r\n5. 添加HTTPServer处理更多的请求，为了更好支持SpringBootExploit工具\r\n6. 将文件放在data目录下，通过HTTPServer可以访问文件内容如同python的HTTPServer",
+        "bucket": true
     },
     "https://github.com/AbelChe/cola_dnslog": {
         "created_at": "2022-07-30 09:30:31",
@@ -19921,6 +19923,7 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2025-01-19 03:25:01",
         "release_message": "",
-        "release_tag": "FastjsonExploit"
+        "release_tag": "FastjsonExploit",
+        "bucket": true
     }
 }
