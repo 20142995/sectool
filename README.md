@@ -708,7 +708,7 @@
 ## 按键精灵
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [KeymouseGo v5.1.1](https://github.com/taojy123/KeymouseGo) 类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入 | automate mouse clicks and keyboard ...
 ## 数据库管理软件
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dbeaver 24.2.1](https://github.com/dbeaver/dbeaver) Free universal database tool and SQL client
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dbeaver 24.3.3](https://github.com/dbeaver/dbeaver) Free universal database tool and SQL client
 ## 文件监控
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WindowsFileMonitor 1.0](https://github.com/shack2/WindowsFileMonitor) Window文件变化监控工具
 ## 文字识别
@@ -735,7 +735,7 @@
 ## 激活工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Microsoft-Activation-Scripts 2.8](https://github.com/massgravel/Microsoft-Activation-Scripts) Open-source Windows and Office activator featuring...
 ## 生成虚假数据
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [faker v29.0.0](https://github.com/joke2k/faker) Faker is a Python package that generates fake data for you.
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [faker v33.3.1](https://github.com/joke2k/faker) Faker is a Python package that generates fake data for you.
 ## 短信转发器
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SmsForwarder v3.3.2](https://github.com/pppscn/SmsForwarder) 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人...
 ## 短信轰炸
@@ -1020,7 +1020,7 @@
 #### .DS_Store泄露
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ds_store_exp](https://github.com/lijiejie/ds_store_exp) A .DS_Store file disclosure exploit.   It parses .DS_Store file and do...
 #### .git泄露
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [git-dumper](https://github.com/arthaud/git-dumper) A tool to dump a git repository from a website
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [git-dumper 1.0.8](https://github.com/arthaud/git-dumper) A tool to dump a git repository from a website
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GitHacker](https://github.com/WangYihang/GitHacker) 🕷️ A `.git` folder exploiting tool that is able to restore the entire Git...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GitHack](https://github.com/lijiejie/GitHack) A `.git` folder disclosure exploit
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [GitDorker](https://github.com/obheda12/GitDorker) A Python program to scrape secrets from GitHub through usage of a large r...
@@ -1070,7 +1070,7 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [I-Wanna-Get-All I-Wanna-Get-All-v1.3](https://github.com/R4gd0ll/I-Wanna-Get-All) OA漏洞利用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Goby Beta2.2.0](https://github.com/gobysec/Goby) Attack surface mapping
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [zpscan v1.8.39](https://github.com/niudaii/zpscan) 一个有点好用的信息收集工具。A somewhat useful information gathering tool.
-- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [railgun v1.5.5](https://github.com/lz520520/railgun) 
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [railgun v2.0.3-sp2](https://github.com/lz520520/railgun) 
 ### 在线辅助
 #### DNSLOG平台
 - <img src="https://favicon.qqsuu.cn/ceye.io" alt="" style="height: 20px;"> [CEYE - Monitor service for security testing](http://ceye.io) 
@@ -1369,9 +1369,9 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [code6 1.6.4](https://github.com/4x99/code6) 码小六 - GitHub 代码泄露监控系统
 ### 半自动漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reconftw v2.9](https://github.com/six2dez/reconftw) reconFTW is a tool designed to perform automated recon on a target do...
-- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [afrog v3.1.1](https://github.com/zan8in/afrog) A Security Tool for Bug Bounty, Pentest and Red Teaming.
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [afrog v3.1.5](https://github.com/zan8in/afrog) A Security Tool for Bug Bounty, Pentest and Red Teaming.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tsunami-security-scanner v0.0.24](https://github.com/google/tsunami-security-scanner) Tsunami is a general purpose network security scan...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nuclei v3.3.2](https://github.com/projectdiscovery/nuclei) Fast and customizable vulnerability scanner based on simple YAML base...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nuclei v3.3.8](https://github.com/projectdiscovery/nuclei) Fast and customizable vulnerability scanner based on simple YAML base...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [faraday v5.7.0](https://github.com/infobyte/faraday) Open Source Vulnerability Management Platform
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [prismx latest](https://github.com/yqcs/prismx) :: Prism X · Automated Enterprise Network Security Risk Detection and...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xray xpoc-0.1.0](https://github.com/chaitin/xray) 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档
@@ -2369,7 +2369,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [TranSec transecos1.0](https://github.com/TianWen-Lab/TranSec) Internet of Vehicles Penetration testing OS.车联网渗透测试系统，开箱即用的测试环...
 ### 知识库
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Network-security-study-notes](https://github.com/djytmdj/Network-security-study-notes) 主要记录网络安全学习笔记，包含WEB安全、提权、APP渗透、内网渗透、横向移动、红队、工具学习等
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Awesome-Redteam v1.0](https://github.com/Threekiii/Awesome-Redteam) 一个攻防知识仓库 Red Teaming and Offensive Security
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Awesome-Redteam v2.0](https://github.com/Threekiii/Awesome-Redteam) 一个攻防知识仓库 Red Teaming and Offensive Security
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Security-operation-book](https://github.com/0x783kb/Security-operation-book) 常见的攻击行为监测特征及方法，涵盖端点和流量，未包含PowerShell和Sysmon。预祝运营生活愉快！
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [1earn](https://github.com/ffffffff0x/1earn) ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Vuln-List](https://github.com/wwl012345/Vuln-List) (持续更新)对网上出现的各种OA、中间件、CMS等漏洞进行整理，主要包括漏洞介绍、漏洞影响版本以及漏洞POC/EXP等，并且会持续更新。
@@ -2724,7 +2724,7 @@
 - <img src="https://favicon.qqsuu.cn/hackmyvm.eu" alt="" style="height: 20px;"> [HackMyVM | Anonymous](https://hackmyvm.eu/anon/) 
 - <img src="https://favicon.qqsuu.cn/www.pentesterlab.com" alt="" style="height: 20px;"> [PentesterLab: Free Web for Pentester Exercise !](https://www.pentesterlab.com/exercises/web_for_pentester/course) 
 ### 主机入侵检测
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Elkeid rasp-v2.2.4.7-test](https://github.com/bytedance/Elkeid) Elkeid is an open source solution that can meet the secur...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Elkeid scanner-v2.2.0.2-20241226_1_test_only](https://github.com/bytedance/Elkeid) Elkeid is an open source solution that...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Hades](https://github.com/theSecHunter/Hades) Hades is an cross-platform HIDS with kernel-space data collection.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [cobaltstrike-suricata-rules](https://github.com/ainrm/cobaltstrike-suricata-rules) 17条检测cobaltstrike的suricata-ids规则
 ### 主机入侵防御
