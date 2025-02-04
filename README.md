@@ -708,7 +708,7 @@
 ## 按键精灵
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [KeymouseGo v5.1.1](https://github.com/taojy123/KeymouseGo) 类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入 | automate mouse clicks and keyboard ...
 ## 数据库管理软件
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dbeaver 24.3.3](https://github.com/dbeaver/dbeaver) Free universal database tool and SQL client
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dbeaver 24.3.4](https://github.com/dbeaver/dbeaver) Free universal database tool and SQL client
 ## 文件监控
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WindowsFileMonitor 1.0](https://github.com/shack2/WindowsFileMonitor) Window文件变化监控工具
 ## 文字识别
@@ -2427,7 +2427,7 @@
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [postgreUtil v1.0](https://github.com/20142995/postgreUtil) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [postgresql_udf_help](https://github.com/No-Github/postgresql_udf_help) PostgreSQL 提权辅助脚本
 #### redis
-- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedisEXP 0.1.1](https://github.com/yuyan-sec/RedisEXP) Redis 漏洞利用工具
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedisEXP 0.1.2](https://github.com/yuyan-sec/RedisEXP) Redis 漏洞利用工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RedisModules-ExecuteCommand-for-Windows](https://github.com/0671/RedisModules-ExecuteCommand-for-Windows) 可在Windows下执行系统命令的Redis模块，可用于Redis主从复制攻击。
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [RabR 0.6.2](https://github.com/0671/RabR) Redis-Attack By Replication (通过主从复制攻击Redis)   
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [redis-rogue-server](https://github.com/n0b0dyCN/redis-rogue-server) Redis(<=5.0.5) RCE
