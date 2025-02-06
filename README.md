@@ -2266,7 +2266,7 @@
 ##### 代码审计辅助
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SecurityInspector](https://github.com/SpringKill-team/SecurityInspector) 一款代码审计辅助插件
 #### ZoomEye
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ZoomEye-python v2.2.0](https://github.com/knownsec/ZoomEye-python) ZoomEye-python: The official Python library and CLI by Knowns...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ZoomEye-python v3.0.0](https://github.com/knownsec/ZoomEye-python) ZoomEye-python: The official Python library and CLI by Knowns...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Kunyu v1.7.2](https://github.com/knownsec/Kunyu) Kunyu, more efficient corporate asset collection
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ZoomEye-go v1.5](https://github.com/gyyyy/ZoomEye-go) The Golang SDK and CLI of ZoomEye@Knownsec by gyyyy.
 #### arl
