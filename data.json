@@ -1395,13 +1395,14 @@
         "release_message": ""
     },
     "https://github.com/knownsec/ZoomEye-python": {
-        "created_at": "2023-04-12 07:44:49",
+        "created_at": "2025-02-06 09:36:05",
         "description": "ZoomEye-python: The official Python library and CLI by Knownsec 404 Team.",
         "commit_date": "2023-09-25 02:51:15",
         "commit_message": "Merge pull request #99 from WuZhaominn/master\n\nupdate config.py",
-        "release_tag": "v2.2.0",
-        "release_date": "2023-04-12 08:22:22",
-        "release_message": "### update\r\n - remove username and password authenticate method, only support API-KEY authenticate.\r\n\r\n### 更新\r\n - 移除用户名和密码的认证方式，仅支持 API- KEY 认证。"
+        "release_tag": "v3.0.0",
+        "release_date": "2025-02-06 09:38:07",
+        "release_message": "### update\r\n - use zoomeye api v2\r\n\r\n### 更新\r\n - 使用 zoomeye v2 api",
+        "updated_at": "2025-02-06 12:26:16"
     },
     "https://github.com/cckuailong/vulbase": {
         "created_at": "2021-08-28 03:42:39",
