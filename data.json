@@ -1091,14 +1091,14 @@
         "updated_at": "2024-12-03 03:32:55"
     },
     "https://github.com/v2rayA/v2rayA": {
-        "created_at": "2025-02-09 02:49:54",
+        "created_at": "2025-02-09 09:41:35",
         "description": "A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀",
         "commit_message": "Add Support for QUIC Protocol in VLESS (#1473)",
         "commit_date": "2024-08-18 13:57:40",
-        "release_date": "2025-02-09 03:11:10",
-        "release_message": "## What's Changed\n* chore(deps): bump golang.org/x/crypto from 0.21.0 to 0.31.0 in /service by @dependabot in https://github.com/v2rayA/v2rayA/pull/1582\n* feat: optimize gfwlist update and support domain sniffing settings by @unknown-o in https://github.com/v2rayA/v2rayA/pull/1615\n* chore(deps): bump express from 4.18.2 to 4.21.0 in /gui by @dependabot in https://github.com/v2rayA/v2rayA/pull/1507\n* chore(deps): bump webpack from 5.88.2 to 5.94.0 in /gui by @dependabot in https://github.com/v2rayA/v2rayA/pull/1490\n* chore(deps): bump ws from 7.5.9 to 7.5.10 in /gui by @dependabot in https://github.com/v2rayA/v2rayA/pull/1428\n* chore(deps): bump golang.org/x/net from 0.25.0 to 0.33.0 in /service by @dependabot in https://github.com/v2rayA/v2rayA/pull/1616\n* chore(deps): bump follow-redirects from 1.15.2 to 1.15.6 in /gui by @dependabot in https://github.com/v2rayA/v2rayA/pull/1335\n\n## New Contributors\n* @unknown-o made their first contribution in https://github.com/v2rayA/v2rayA/pull/1615\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.6.3...v2.2.6.4",
-        "release_tag": "v2.2.6.4",
-        "updated_at": "2025-02-09 03:17:18"
+        "release_date": "2025-02-09 09:47:54",
+        "release_message": "## What's Changed\n* docker: fix path of iptables by @MarksonHon in https://github.com/v2rayA/v2rayA/pull/1620\n\n\n**Full Changelog**: https://github.com/v2rayA/v2rayA/compare/v2.2.6.5...v2.2.6.6",
+        "release_tag": "v2.2.6.6",
+        "updated_at": "2025-02-09 12:22:16"
     },
     "https://github.com/silentsignal/burp-text4shell": {
         "created_at": "2022-10-18 15:08:41",
