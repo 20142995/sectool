@@ -542,7 +542,7 @@
 ## Windows快捷启动工具
 - <img src="https://favicon.qqsuu.cn/dawnlauncher.com" alt="" style="height: 20px;"> [Dawn Launcher - Windows快捷启动工具](https://dawnlauncher.com/) 
 ## chatgpt
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ChatGPT-Shortcut v3.2.6](https://github.com/rockbenben/ChatGPT-Shortcut) 🚀💪Maximize your efficiency and productivity, support for En...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ChatGPT-Shortcut v3.3.2](https://github.com/rockbenben/ChatGPT-Shortcut) 🚀💪Maximize your efficiency and productivity, support for En...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [awesome-chatgpt-zh](https://github.com/yzfly/awesome-chatgpt-zh) ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Awesome-ChatGPT](https://github.com/dalinvip/Awesome-ChatGPT) ChatGPT资料汇总学习，持续更新......
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [chatgpt-mac v0.0.5](https://github.com/vincelwt/chatgpt-mac) ChatGPT for Mac, living in your menubar.
@@ -749,7 +749,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [faker3](https://github.com/shufflewzc/faker3) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dailycheckin 24.5.15](https://github.com/Sitoi/dailycheckin) 基于「Docker」/「青龙面板」/「群晖」的每日签到脚本（支持多账号）签到列表: ｜爱奇艺｜全民K歌｜有道云笔记｜百度贴吧...
 ## 网站压测工具
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dperf v1.7.0](https://github.com/baidu/dperf) dperf is a 100Gbps network load tester.
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dperf v1.8.0](https://github.com/baidu/dperf) dperf is a 100Gbps network load tester.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tcpburn 1.0.0](https://github.com/session-replay-tools/tcpburn) The most powerful tool for stress testing of Internet server applicat...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WebBench](https://github.com/EZLippi/WebBench) Webbench是Radim Kolar在1997年写的一个在linux下使用的非常简单的网站压测工具。它使用fork()模拟多个客户端同时访问我们...
 ## 语音合成
@@ -1128,7 +1128,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jwt-fuzzer](https://github.com/andresriancho/jwt-fuzzer) JWT fuzzer
 #### SQL注入
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap 1.9](https://github.com/sqlmapproject/sqlmap) Automatic SQL injection and database takeover tool
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ghauri 1.3.7](https://github.com/r0oth3x49/ghauri) An advanced cross-platform tool that automates the process of detectin...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ghauri 1.4.1](https://github.com/r0oth3x49/ghauri) An advanced cross-platform tool that automates the process of detectin...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap-gui sqlmap-gui-v1.7](https://github.com/honmashironeko/sqlmap-gui) 基于官版本 SQLMAP 进行人工汉化，并提供GUI界面及多个自动化脚本
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [PowerUpSQL](https://github.com/NetSPI/PowerUpSQL) PowerUpSQL: A PowerShell Toolkit for Attacking SQL Server
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CN_Sqlmap V1.7.1.1](https://github.com/BugFor-Pings/CN_Sqlmap) 汉化版sqlmap，对于英语不好的朋友们很友好。本项目由sqlmap汉化而来，支持Python3及全系统，v2细节也已汉化，全开...
@@ -1549,7 +1549,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pocsuite3/](https://github.com/knownsec/pocsuite3/) 
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/nuclei.projectdiscovery.io" alt="" style="height: 20px;"> [Introduction - ProjectDiscovery Documentation](https://nuclei.projectdiscovery.io) 
 ## 云K8S基线核查
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kube-bench v0.10.0](https://github.com/aquasecurity/kube-bench) Checks whether Kubernetes is deployed according to security best...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kube-bench v0.10.1](https://github.com/aquasecurity/kube-bench) Checks whether Kubernetes is deployed according to security best...
 ## 云K8S漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kube-hunter v0.6.8](https://github.com/aquasecurity/kube-hunter) Hunt for security weaknesses in Kubernetes clusters
 ## 云云原生安全平台
@@ -1557,20 +1557,20 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [neuvector v5.4.2](https://github.com/neuvector/neuvector) 
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ThunderCloud](https://github.com/Rnalter/ThunderCloud) Cloud Exploit Framework
 ## 云云原生攻防靶场
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [metarget v0.9.1](https://github.com/Metarget/metarget) Metarget is a framework providing automatic constructions of vulner...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [metarget v1.0](https://github.com/Metarget/metarget) Metarget is a framework providing automatic constructions of vulnerab...
 ## 云容器安全扫描
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [trivy v0.55.2](https://github.com/aquasecurity/trivy) Find vulnerabilities, misconfigurations, secrets, SBOM in containers,...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [trivy v0.59.1](https://github.com/aquasecurity/trivy) Find vulnerabilities, misconfigurations, secrets, SBOM in containers,...
 ## 云容器安全检测工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [veinmind-tools v2.1.5](https://github.com/chaitin/veinmind-tools) veinmind-tools 是由长亭科技自研，基于 veinmind-sdk 打造的容器安全工具集
 ## 云容器漏洞分析工具
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [clair v4.7.4](https://github.com/quay/clair) Vulnerability Static Analysis for Containers
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [clair v4.8.0](https://github.com/quay/clair) Vulnerability Static Analysis for Containers
 ## 云容器漏洞利用工具
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [CDK v1.5.4](https://github.com/cdk-team/CDK) 📦  Make security testing of K8s, Docker, and Containerd easier.
 ## 云容器逃逸检测工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [container-escape-check v0.3](https://github.com/teamssix/container-escape-check) docker container escape check || Docker 容器逃逸检测
 ## 云容器镜像扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [syft v1.19.0](https://github.com/anchore/syft) CLI tool and library for generating a Software Bill of Materials from ...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [grype v0.80.2](https://github.com/anchore/grype) A vulnerability scanner for container images and filesystems
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [grype v0.87.0](https://github.com/anchore/grype) A vulnerability scanner for container images and filesystems
 ## 云相关资源
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Awesome-CloudSec-Labs](https://github.com/iknowjason/Awesome-CloudSec-Labs) Awesome free cloud native security learning labs.  Includes C...
 ## 信息收集
@@ -1615,7 +1615,7 @@
 - <img src="https://favicon.qqsuu.cn/x.threatbook.cn" alt="" style="height: 20px;"> [微步在线X情报社区-威胁情报查询_威胁分析平台_开放社区](https://x.threatbook.cn/) 
 ### apk
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [AppMessenger v0.5.3](https://github.com/sulab999/AppMessenger) 一款适用于以APP病毒分析、APP漏洞挖掘、APP开发、HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、鸿...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Mobile-Security-Framework-MobSF v3.9.7](https://github.com/MobSF/Mobile-Security-Framework-MobSF) Mobile Security Framework (MobSF) is an auto...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Mobile-Security-Framework-MobSF v4.3.0](https://github.com/MobSF/Mobile-Security-Framework-MobSF) Mobile Security Framework (MobSF) is an auto...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [apkleaks v2.6.2](https://github.com/dwisiswant0/apkleaks) Scanning APK file for URIs, endpoints & secrets.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [apkleaks](https://github.com/Anof-cyber/apkleaks) An python script that use apkleaks to scan the android application over web
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ApkAnalyser](https://github.com/TheKingOfDuck/ApkAnalyser) 一键提取安卓应用中可能存在的敏感信息。
