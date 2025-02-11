@@ -239,14 +239,14 @@
         "updated_at": "2024-09-15 14:32:22"
     },
     "https://github.com/gh0stkey/HaE": {
-        "created_at": "2025-01-17 09:56:35",
+        "created_at": "2025-02-11 10:29:55",
         "description": "HaE - Highlighter and Extractor, Empower ethical hacker for efficient operations.",
         "commit_date": "2024-08-28 08:19:24",
         "commit_message": "Update README.md",
-        "release_tag": "4.0.4",
-        "release_date": "2025-01-17 09:59:12",
-        "release_message": "## 更新内容\r\n\r\nHaE 4.0.4更新内容如下。\r\n\r\n### 功能更新\r\n\r\n1. 新增数据表格`Regex mode`模式，用于区分正则和纯文本搜索。\r\n\r\n### 问题修复\r\n\r\n1. 修复数据表格搜索失效问题。\r\n\r\n### 致谢信息\r\n\r\n1. 感谢 @G0mini 及时反馈相关问题并协助解决。\r\n",
-        "updated_at": "2025-01-17 12:24:24",
+        "release_tag": "4.0.5",
+        "release_date": "2025-02-11 10:38:55",
+        "release_message": "## 更新内容\r\n\r\nHaE 4.0.5更新内容如下。\r\n\r\n### 问题修复\r\n\r\n1. 优化项目存储时的逻辑，解决并发导致的出错。",
+        "updated_at": "2025-02-11 12:26:16",
         "bucket": true
     },
     "https://github.com/kelvinBen/AppInfoScanner": {
