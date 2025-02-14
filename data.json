@@ -64,14 +64,14 @@
         "release_message": ""
     },
     "https://github.com/pppscn/SmsForwarder": {
-        "created_at": "2024-08-15 12:47:44",
+        "created_at": "2025-02-14 06:19:59",
         "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
         "commit_message": "修复：`转发规则`测试模拟的`通话类型`显示错误 #IAG059",
         "commit_date": "2024-08-26 06:28:38",
-        "release_date": "2024-08-15 12:54:47",
-        "release_message": "**1945年8月15日，这是值得每个中国人永远铭记的一天！**\r\n\r\n**勿忘历史，珍爱和平！振兴中华，吾辈自强！**\r\n\r\n---\r\n\r\n【强烈建议】`v3.3.0` 用户升级\r\n\r\n【重点推荐】`自动任务·快捷指令`，轻松自动化，助您事半功倍，更多时间享受亲情陪伴！（v3.3+）\r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，如果从低于 `v3.2.0`  升级后请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置（客户端>一键换新机>离线模式>导出），完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n修复：`蓝牙服务未开启`时提示语 (#483)\r\n修复：免打扰时段跨天不成功BUG #493\r\n修复：未筛选时无法直接清空日志BUG #463\r\n优化：`BluetoothReceiver`偶尔崩溃（增加异常捕获） #499\r\n优化：`webhook`发送通道允许在`消息模板`中直接使用`自定义模板可用变量` #516\r\n优化：`webhook`通道`webParam`分割键值对方式 #472\r\n优化：`自动任务` 触发条件 `充电状态` 的提示语 (#480)\r\n优化：多重匹配语法增加对`UID`的支持 #510\r\n优化：放宽`Bark-Server`正则表达式限制 #457\r\n优化：通过`Content-Type=applicaton/json`指定请求体为`json`格式 #491\r\n优化：下载`FrpcLib`时忽略https证书（避免老设备证书验证失败）\r\n优化：在输入框失去焦点时校验输入值 #479\r\n优化：在线更新时忽略https证书（避免老设备证书验证失败）\r\n优化：转发规则`匹配的值`允许传入`逻辑运算符`：`与(&&)`、`或(||)`（用于支持多个关键词） #470\r\n优化：自动任务监控电量——使用`hashcode`保证`WorkManager`唯一  #458\r\n整理：APP通知转发规则描述去掉`任意卡` #516\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备",
-        "release_tag": "v3.3.2",
-        "updated_at": "2024-09-15 14:32:22"
+        "release_date": "2025-02-14 06:26:26",
+        "release_message": "蛟龙去，灵蛇来！巳巳（事事）如意，生生不息！\r\n\r\n感谢大家4年来的陪伴与支持，顺祝情人节快乐！\r\n\r\n---\r\n\r\n### 更新日志\r\n\r\n* 新增： `{{CONTACT_NAME}}` 标签用于反查`{{FROM}}`对应的通讯录姓名 #582\r\n* 新增： `{{PHONE_AREA}}` 标签用于反查`{{FROM}}`对应的归属地 #564\r\n* 新增：`bark`发送通道允许自定义自动复制`copy`字段 #538\r\n* 新增：`bark`通道的`持续提醒`功能 #528\r\n* 新增：`webhook` 发送通道通过`Content-Type=text/plain、text/html、text/css、text/javascript、text/xml`指定请求体为`文本`格式\r\n* 新增：`自动任务-快捷指令-警报提醒`动作添加`振动提醒`的功能 #554 #482\r\n* 新增：免打扰支持指定星期\r\n* 新增：添加iCloud邮箱支持 #541\r\n* 修复：`转发规则`测试模拟的`通话类型`显示错误 #IAG059\r\n* 修复：未授权访问应用列表时进入应用列表异常提示 #577\r\n* 优化：兼容Server酱³Sendkey\r\n* 优化：单 sim 卡槽手机不显示 sim2 设置。\r\n* 优化：红米手机品牌问题\r\n* 优化：手机号匹配通讯录联系人算法改进 #580\r\n* 优化：首页弹窗tips多语言适配 #544\r\n* 优化：添加周一到周日的繁体翻译 (#568)\r\n* 优化：统一管理自定义模板可用变量标签插入按钮 #559\r\n* 升级：`android-mail`升级为`jakarta.mail`\r\n* 整理：Gradle依赖库 #576\r\n\r\n还有一些细微调整参见`github`提交记录\r\n\r\n---\r\n\r\nPS. 不得不提一嘴，2024年我确实变懒了，都以 issue 驱动更新了（也不是很及时处理），上面更新记录也没几条，可能将来也会越来越少吧 \r\n\r\n---\r\n\r\n### 【注意】\r\n\r\n* `v3.2.0` 去除了 `mmkv` 依赖，采用 `SharedPreferences` 来保存配置，如果从低于 `v3.2.0`  升级后请重新配置，具体原因参见 [Issue #245](https://github.com/pppscn/SmsForwarder/issues/245)\r\n\r\n* 升级完毕后，建议离线导出配置（客户端>一键换新机>离线模式>导出），完全卸载干净全新安装后再导入配置（可以避免一些莫名其妙的玄学问题，例如：耗电异常）\r\n\r\n---\r\n\r\n### APK版本说明：\r\n* universal（10XXXX）: 通用版（不在乎安装包大小/懒得选就用这个版本，包含以下4种CPU架构so）\r\n* armeabi-v7a（20XXXX）: 32位ARM设备（备用机首选）\r\n* arm64-v8a（30XXXX）: 64位ARM设备（主流旗舰机）\r\n* x86（40XXXX）: 32位Intel设备\r\n* x86_64（50XXXX）: 64/32位Intel设备\r\n",
+        "release_tag": "v3.3.3",
+        "updated_at": "2025-02-14 09:13:44"
     },
     "https://github.com/We5ter/Scanners-Box": {
         "created_at": "2016-12-24 16:07:50",
