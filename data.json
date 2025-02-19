@@ -1081,14 +1081,14 @@
         "release_message": "- 增加`list-network`参数用于查看网卡ID\r\n- 增加`-csv`参数 用于保存文件到excel\r\n- 增加`-api`参数用于从网络api获取目标\r\n- 增加`-full`参数，用(api+内置字典)进行完整的一次扫描\r\n![WX20210112-175029](https://user-images.githubusercontent.com/18695984/104303212-c5b2ed80-5504-11eb-9d4a-fe8c7a2a1fe9.png)\r\n"
     },
     "https://github.com/ninoseki/mitaka": {
-        "created_at": "2024-11-23 02:01:10",
+        "created_at": "2025-02-19 09:15:33",
         "description": "A browser extension for OSINT search",
         "commit_message": "docs: update README",
         "commit_date": "2024-09-12 22:18:36",
-        "release_date": "2024-11-23 02:02:08",
-        "release_message": "## What's Changed\r\n* fix: set vitest/globals as a type by @ninoseki in https://github.com/ninoseki/mitaka/pull/850\r\n* v2.3.2 by @ninoseki in https://github.com/ninoseki/mitaka/pull/851\r\n\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.3.1...v2.3.2",
-        "release_tag": "v2.3.2",
-        "updated_at": "2024-12-03 03:32:55"
+        "release_date": "2025-02-19 09:16:32",
+        "release_message": "## What's Changed\r\n* refactor: renew ESLint config by @ninoseki in https://github.com/ninoseki/mitaka/pull/852\r\n* chore: update ESLint by @ninoseki in https://github.com/ninoseki/mitaka/pull/853\r\n* chore(deps): update dependency wxt to v0.19.23 by @renovate in https://github.com/ninoseki/mitaka/pull/861\r\n* chore(deps): update dependency axios to v1.7.9 by @renovate in https://github.com/ninoseki/mitaka/pull/860\r\n* chore(deps): update dependency @vitest/eslint-plugin to v1.1.24 by @renovate in https://github.com/ninoseki/mitaka/pull/859\r\n* chore(deps): update dependency @vitest/eslint-plugin to v1.1.25 by @renovate in https://github.com/ninoseki/mitaka/pull/863\r\n* chore(deps): update dependency @ianvs/prettier-plugin-sort-imports to v4.4.1 by @renovate in https://github.com/ninoseki/mitaka/pull/862\r\n* refactor: split storage to use by @ninoseki in https://github.com/ninoseki/mitaka/pull/864\r\n* v2.4.0 by @ninoseki in https://github.com/ninoseki/mitaka/pull/865\r\n\r\n\r\n**Full Changelog**: https://github.com/ninoseki/mitaka/compare/v2.3.2...v2.4.0",
+        "release_tag": "v2.4.0",
+        "updated_at": "2025-02-19 12:23:23"
     },
     "https://github.com/v2rayA/v2rayA": {
         "created_at": "2025-02-09 09:41:35",
