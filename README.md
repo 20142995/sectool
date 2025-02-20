@@ -708,7 +708,7 @@
 ## 按键精灵
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [KeymouseGo v5.1.1](https://github.com/taojy123/KeymouseGo) 类似按键精灵的鼠标键盘录制和自动化操作 模拟点击和键入 | automate mouse clicks and keyboard ...
 ## 数据库管理软件
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dbeaver 24.3.4](https://github.com/dbeaver/dbeaver) Free universal database tool and SQL client
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [dbeaver 24.3.5](https://github.com/dbeaver/dbeaver) Free universal database tool and SQL client
 ## 文件监控
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [WindowsFileMonitor 1.0](https://github.com/shack2/WindowsFileMonitor) Window文件变化监控工具
 ## 文字识别
@@ -735,7 +735,7 @@
 ## 激活工具
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Microsoft-Activation-Scripts 2.8](https://github.com/massgravel/Microsoft-Activation-Scripts) Open-source Windows and Office activator featuring...
 ## 生成虚假数据
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [faker v35.2.0](https://github.com/joke2k/faker) Faker is a Python package that generates fake data for you.
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [faker v36.1.1](https://github.com/joke2k/faker) Faker is a Python package that generates fake data for you.
 ## 短信转发器
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SmsForwarder v3.3.3](https://github.com/pppscn/SmsForwarder) 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人...
 ## 短信轰炸
@@ -1365,13 +1365,13 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyt](https://github.com/python-security/pyt) A Static Analysis Tool for Detecting Security Vulnerabilities in Python Web App...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyvulhunter](https://github.com/shengqi158/pyvulhunter) python audit tool 审计 注入 inject
 ### 信息泄露监控
-- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gshark v1.5.2](https://github.com/madneal/gshark) Scan for sensitive information easily and effectively.
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gshark v1.6.0](https://github.com/madneal/gshark) Scan for sensitive information easily and effectively.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [code6 1.6.4](https://github.com/4x99/code6) 码小六 - GitHub 代码泄露监控系统
 ### 半自动漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reconftw v2.9](https://github.com/six2dez/reconftw) reconFTW is a tool designed to perform automated recon on a target do...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [afrog v3.1.5](https://github.com/zan8in/afrog) A Security Tool for Bug Bounty, Pentest and Red Teaming.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [tsunami-security-scanner v0.0.24](https://github.com/google/tsunami-security-scanner) Tsunami is a general purpose network security scan...
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nuclei v3.3.8](https://github.com/projectdiscovery/nuclei) Fast and customizable vulnerability scanner based on simple YAML base...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [nuclei v3.3.9](https://github.com/projectdiscovery/nuclei) Fast and customizable vulnerability scanner based on simple YAML base...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [faraday v5.7.0](https://github.com/infobyte/faraday) Open Source Vulnerability Management Platform
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [prismx latest](https://github.com/yqcs/prismx) :: Prism X · Automated Enterprise Network Security Risk Detection and...
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [xray xpoc-0.1.0](https://github.com/chaitin/xray) 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档
@@ -1549,7 +1549,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pocsuite3/](https://github.com/knownsec/pocsuite3/) 
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/nuclei.projectdiscovery.io" alt="" style="height: 20px;"> [Introduction - ProjectDiscovery Documentation](https://nuclei.projectdiscovery.io) 
 ## 云K8S基线核查
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kube-bench v0.10.1](https://github.com/aquasecurity/kube-bench) Checks whether Kubernetes is deployed according to security best...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kube-bench v0.10.2](https://github.com/aquasecurity/kube-bench) Checks whether Kubernetes is deployed according to security best...
 ## 云K8S漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [kube-hunter v0.6.8](https://github.com/aquasecurity/kube-hunter) Hunt for security weaknesses in Kubernetes clusters
 ## 云云原生安全平台
@@ -1827,7 +1827,7 @@
 - <img src="https://favicon.qqsuu.cn/www.zoomeye.org" alt="" style="height: 20px;"> [ZoomEye - Cyberspace Search Engine](https://www.zoomeye.org/) 
 ### 资产测绘采集
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [FlashSearch 2.0](https://github.com/testzboy/FlashSearch) 闪电搜索是一个用户友好的多平台资产测绘客户端，支持Fofa、hunter、360quake、Zoomeye、零零信安等多平台界面化搜索
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Search_Viewer v4.1](https://github.com/G3et/Search_Viewer) 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censys 为一体的空间测绘gui图...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Search_Viewer v4.2](https://github.com/G3et/Search_Viewer) 集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censys 为一体的空间测绘gui图...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [0_zone v1.1](https://github.com/lemonlove7/0_zone) 0_zone_zpi脚本
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ThunderSearch v2.5.1](https://github.com/xzajyjs/ThunderSearch) 小而美【支持Fofa、Shodan、Hunter、Zoomeye、Quake网络空间搜索引擎】闪电搜索器；GUI图形化(Ma...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [NoMoney](https://github.com/H-Limbus/NoMoney) NoMoney 是一款集成了fofa，zoomeye(钟馗之眼)，censys，奇安信的鹰图平台，360quake，且完全免费的信息收集工具。fofa...
@@ -2707,7 +2707,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ngx_lua_waf](https://github.com/loveshell/ngx_lua_waf) ngx_lua_waf是一个基于lua-nginx-module(openresty)的web应用防火墙
 - <img src="https://favicon.qqsuu.cn/rasp.baidu.com" alt="" style="height: 20px;"> [开源应用运行时自我保护解决方案 - OpenRASP - 百度安全](https://rasp.baidu.com) 
 ### Web应用防火墙
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [safeline v7.5.0](https://github.com/chaitin/safeline) serve as a reverse proxy to protect your web services from attacks ...
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [safeline v7.6.2](https://github.com/chaitin/safeline) serve as a reverse proxy to protect your web services from attacks ...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [openstar](https://github.com/starjun/openstar) lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx
 ### web靶场
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ElectricRat v1.3.1](https://github.com/en0th/ElectricRat) 电气鼠靶场系统是一种带有漏洞的Web应用程序，旨在为Web安全渗透测试学习者提供学习和实践的机会。The Electrical ...
