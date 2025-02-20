@@ -2705,14 +2705,14 @@
         "release_message": ""
     },
     "https://github.com/madneal/gshark": {
-        "created_at": "2025-01-02 13:51:20",
+        "created_at": "2025-02-15 06:20:06",
         "description": "Scan for sensitive information easily and effectively.",
         "commit_message": "Merge pull request #217 from madneal/dependabot/npm_and_yarn/web/webpack-5.94.0\n\nBump webpack from 5.76.0 to 5.94.0 in /web",
         "commit_date": "2024-08-30 11:14:45",
-        "release_date": "2025-01-02 13:52:55",
-        "release_message": "## Fixed\r\n\r\n* 修复没有 Matches 的情况下无法展示结果的问题",
-        "release_tag": "v1.5.2",
-        "updated_at": "2025-01-16 21:12:05",
+        "release_date": "2025-02-15 06:21:12",
+        "release_message": "## Added\r\n\r\n* 支持 OPENAI 兼容模式进行 AI 分析\r\n* 更新 config 模板文件",
+        "release_tag": "v1.6.0",
+        "updated_at": "2025-02-20 18:18:22",
         "bucket": true
     },
     "https://github.com/kozmer/log4j-shell-poc": {
@@ -2835,14 +2835,14 @@
         "release_message": "Please note that previous CPH configuration files are incompatible with this release."
     },
     "https://github.com/G3et/Search_Viewer": {
-        "created_at": "2024-03-07 08:39:05",
+        "created_at": "2025-02-06 11:00:08",
         "description": "集Fofa、Hunter鹰图、Shodan、360 quake、Zoomeye 钟馗之眼、censys 为一体的空间测绘gui图形界面化工具，支持一键采集爬取和导出fofa、shodan等数据，方便快捷查看",
         "commit_date": "2024-06-15 08:19:03",
         "commit_message": "Update README.MD",
-        "release_tag": "v4.1",
-        "release_date": "2024-06-15 08:12:37",
-        "release_message": "版本：v4.1 2024/6/15\r\n\r\n·fofa界面搜索不再覆盖,每次查询有新窗口,双击可关闭\r\n\r\n·修复查询时页码问题\r\n\r\n·fofa新增排序,新增多个字段\r\n\r\n·新增自定义域名",
-        "updated_at": "2024-09-16 14:44:13"
+        "release_tag": "v4.2",
+        "release_date": "2025-02-06 11:04:19",
+        "release_message": "版本：v4.2 2025/2/6\r\n\r\n·fofa新增CTRL+W关闭页面\r\n\r\n·fofa新增历史查询记录\r\n\r\n·去除自定义域名\r\n\r\n·查询内容靠前\r\n\r\nMD5：80adacf23bd7cabe2a8f72d75749dad1",
+        "updated_at": "2025-02-20 18:18:22"
     },
     "https://github.com/Lotus6/ThinkphpGUI": {
         "created_at": "2021-11-30 14:41:47",
@@ -2968,14 +2968,14 @@
         "release_message": ""
     },
     "https://github.com/dbeaver/dbeaver": {
-        "created_at": "2025-02-02 08:20:11",
+        "created_at": "2025-02-14 08:58:53",
         "description": "Free universal database tool and SQL client",
         "commit_message": "#35145 Add sanity check (#35556)",
         "commit_date": "2024-09-11 15:48:15",
-        "release_date": "2025-02-02 15:38:58",
-        "release_message": "\n                - SQL Editor:\n                    - Added the ability to use multi-line variables in SQL scripts\n                    - New autocompletion engine was improved and enabled by default:\n                        - Autocomplete performance was significantly improved\n                        - Fixed an issue with autocomplete failure after the dot\n                        - Fixed autocomplete for JOIN conditions\n                        - Fixed an issue with not executed included scripts\n                        - Fixed alias case sensitivity in autocomplete\n                        - Changed an icon for derived column in autocompletion proposals\n                - ER Diagram: added the ability to generate SQL with INNER JOIN and SIMPLE JOIN from a diagram\n                - Query Manager: query duration formatting was fixed\n                - Data Editor:\n                    - Fixed an issue where unchanged cells were incorrectly marked as updated after pasting data\n                    - Fixed row coloring when querying multiple tables\n                - Data transfer: removed the ability to change data type for existing columns in Data Export\n                - Database Navigator: database object filter was improved. Connection filter is enabled by default\n                - Miscellaneous:\n                    - We migrated to the Java 21\n                    - Added the ability to associate different file types with DBeaver on Windows and macOS\n                    - Bookmark vew is now working again\n                    - Font in error messages was changed to monospace\n                    - Commit/Rollback monitor was fixed\n                    - Fixed bold font display for theming on macOS\n                - Databases:\n                    - Azure Databricks: information_schema was added to Database Navigator\n                    - Databend: icons were updated\n                    - CUBRID:\n                        - Fixed index creation preview\n                        - Fixed column creation with STRING and similar data types\n                        - Procedure, function, and view names are now displayed in lowercase\n                        - Added the ability to change comment for foreign key columns\n                    - LibSQL: UI for token-based authentication was added\n                    - Machbase: driver was updated to version 8.0.2\n                    - MySQL/MariaDB: explain plan now works for all types of SQL queries\n                    - Oracle:\n                        - Fixed DDL generation for table spaces\n                        - Fixed user password changing\n                    - PostgreSQL: fixed an issue with disappearing ENUM definition after the refresh in Metadata editor\n                    - Salesforce Data Cloud:\n                        - Removed the ability of edit database metadata\n                        - The latest driver version is now downloaded by default\n                    - SAP HANA: partition view was added\n                    - SQLite: STRICT mode support was added\n                    - SQL Server:\n                        - Index creation was fixed\n                        - Fixed an issue where the index type couldn't be changed to unique\n                    - Teradata:\n                        - XML column value save was fixed\n                        - Removed incorrect warning message after executing SHOW and similar queries\n            ",
-        "release_tag": "24.3.4",
-        "updated_at": "2025-02-04 12:25:56"
+        "release_date": "2025-02-16 20:28:57",
+        "release_message": "\n                - SQL Editor:\n                    - Client-side commands color highlighted was improved\n                    - Added menu options for refresh current schema and all schemas\n                    - Code completions options were renamed to \"Semantic\" (the default) and Legacy\n                    - Semantic autocompletion:\n                        - Added support for the function names\n                        - Fixed incorrect proposals for trees with missing nodes\n                        - Improved support for DESC, ORDER, LIMIT and other keywords\n                        - Alphabetic proposals ordering was disabled by default\n                        - Fixed duplicates in Combined autocompletion mode\n                    - Script execute statistics rendering was improved (most valuable fields got first)\n                - Data Editor:\n                    - Fixed the context menu for column names copy\n                    - Saving data in JSON format was fixed\n                    - Find/Replace dialog was fixed\n                - Data Transfer:\n                    - Added the ability to format arrays during the Data Export (thanks to @dheeru12)\n                    - Using ${scriptFilename} during the export in file was fixed\n                - Miscellaneous:\n                    - Editor breadcrumbs were redesigned and moved to the bottom toolbar\n                    - Database Navigator filters were fixed\n                    - Several icons were updated\n                    - Opening of the Git panel in Git extension was fixed\n                    - Sample database create popup was fixed\n                    - Fixed the search of SQL files thru editors menu\n                - Databases:\n                    - Azure Databricks:\n                        - Driver version was updated 2.7.1.1004 due to the update to Java 21\n                        - Schemas are now displayed in Database Navigator\n                    - Cloudberry: site URL was updated\n                    - CUBRID: Fixed deletion of comments and default values from columns via UI (thanks to @longhaseng52)\n                    - Kognito and Data Virtuality drivers were removed as these databases are no longer available\n                    - PostgreSQL:\n                        - Added an option to hide idle sessions (thanks to @f-m-t-t-m)\n                        - Fixed deleting comment in Metadata editor (thanks to @eusebe-cda)\n                        - Exception appeared when using F5 was fixed\n                        - PostgreSQL: fixed keywords formatting\n                    - Snowflake driver was updated to the latest version to address issues related to the migration to Java 21\n                    - SQLite driver was updated to version 3.48.0.0\n            ",
+        "release_tag": "24.3.5",
+        "updated_at": "2025-02-20 18:18:22"
     },
     "https://github.com/zema1/yarx": {
         "created_at": "2021-11-30 08:37:42",
@@ -3113,14 +3113,14 @@
         "release_message": "#### 0x01 功能增加\r\n* 添加验证码识别接口json和xml格式的匹配方式\r\n* 将Intruder模块调用验证码识别过程改为后台线程执行，防止burp卡住\r\n\r\n#### 0x02 Bug修复\r\n* 添加显示和隐藏Intruder模块识别结果,以便在极端情况下节省内存资源,防止burp卡住"
     },
     "https://github.com/projectdiscovery/nuclei": {
-        "created_at": "2025-01-07 13:35:50",
+        "created_at": "2025-02-13 13:27:24",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
         "commit_message": "chore: fix some function names in comment (#5586)\n\nSigned-off-by: linchizhen <jiayanbing@yeah.net>",
         "commit_date": "2024-09-01 08:41:01",
-        "release_date": "2025-01-07 14:06:38",
-        "release_message": "## What's Changed\r\n\r\n### 🐞 Bug Fixes\r\n* Fixed missing browser initilization by @Mzack9999 in https://github.com/projectdiscovery/nuclei/pull/5896\r\n* Fixed proxy configuration for concurrent requests, enabling isolated and parallel handling by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/5903\r\n* Fixed recursive struct validation during JSON marshaling by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5883\r\n* Fixed unresolved `interactsh-url` with `self-contained` for raw http templates by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5938\r\n* Fixed a nil error associated with a previous internal event (#5949) by @iuliu8899 in https://github.com/projectdiscovery/nuclei/pull/5950\r\n\r\n### Other Changes\r\n* Updated function names in comments by @lvyaoting in https://github.com/projectdiscovery/nuclei/pull/5886\r\n* Made markdown filename shorter by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5899\r\n* Added support grouped dependency updates in dependabot by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5923\r\n* Added encoding support for malformed URLs by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5902\r\n* Made sure the input URL is trimmed when the `-scan-all-ips` option is enabled by @p-l- in https://github.com/projectdiscovery/nuclei/pull/5897\r\n* Made sure NoHostErrors is set by @iuliu8899 in https://github.com/projectdiscovery/nuclei/pull/5783\r\n\r\n\r\n## New Contributors\r\n* @p-l- made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5897\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.3.7...v3.3.8",
-        "release_tag": "v3.3.8",
-        "updated_at": "2025-01-22 15:13:32"
+        "release_date": "2025-02-13 13:30:49",
+        "release_message": "<!-- Release notes generated using configuration in .github/release.yml at main -->\r\n\r\n## What's Changed\r\n\r\n## 🎉 New Features\r\n\r\n* Added `-ai` option to generate and run nuclei templates on the fly in natural langauge by @parthmalhotra in https://github.com/projectdiscovery/nuclei/pull/6041\r\n```sh\r\n$ nuclei -list h1.txt -ai \"extract page titles\"\r\n\r\n[extract-page-titles] [http] [info] https://api.hackerone.com [\"HackerOne API\"]\r\n```\r\nMore in docs at https://docs.projectdiscovery.io/tools/nuclei/running#ai-powered-template-generation\r\n\r\n* Added initial Live DAST Server API implementation (**experimental**) by @Ice3man543 in https://github.com/projectdiscovery/nuclei/pull/5772\r\n```sh\r\n$ nuclei -dts\r\n\r\n                     __     _\r\n   ____  __  _______/ /__  (_)\r\n  / __ \\/ / / / ___/ / _ \\/ /\r\n / / / / /_/ / /__/ /  __/ /\r\n/_/ /_/\\__,_/\\___/_/\\___/_/   v3.3.9\r\n\r\n\t\tprojectdiscovery.io\r\n\r\n[INF] DAST Server API: http://localhost:9055/fuzz\r\n[INF] DAST Server Stats URL: http://localhost:9055/stats\r\n⇨ http server started on 127.0.0.1:9055\r\n```\r\n\r\n* Added support for DSL expression evaluation in headless args by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/6017\r\n\r\n\r\n## 🐞 Bug Fixes\r\n\r\n* Fixed issue with hosterrorscache by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5984\r\n* Fixed issue in multiproto for missing previous event by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5967\r\n* Fixed issue with variable dump by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/5921\r\n* Fixed missing event for multi protocol by @ShubhamRasal in https://github.com/projectdiscovery/nuclei/pull/5995\r\n* Fixed issue to handle removal of deleted templates during update by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5998\r\n* Fixed issue with filename length with `-sr` / `-srd` option by @Lercas in https://github.com/projectdiscovery/nuclei/pull/5931\r\n* Fixed issue with tcp dialer for MySQL by @doug-threatmate in https://github.com/projectdiscovery/nuclei/pull/5681\r\n* Fixed issue in headless protocol with flow variable access by @dogancanbakir in https://github.com/projectdiscovery/nuclei/pull/6003\r\n\r\n### Other Changes\r\n* Replaced `encoding/json` with `sonic` or `go-json` (fallback) by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/6019\r\n* Removed the use of deprecated mholt/archiver by @AdallomRoy in https://github.com/projectdiscovery/nuclei/pull/5951\r\n* Added new `govulncheck` (CI) workflow by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5964\r\n* Add flamegraph job (CI) by @dwisiswant0 in https://github.com/projectdiscovery/nuclei/pull/5966\r\n* Added `WithResponseReadSize` function for SDK usages by @meme-lord in https://github.com/projectdiscovery/nuclei/pull/5961\r\n* Added Portuguese translation of README by @Jarro01X in https://github.com/projectdiscovery/nuclei/pull/6033\r\n\r\nIssues closed in this release - https://github.com/projectdiscovery/nuclei/milestone/68?closed=1\r\n\r\n\r\n## New Contributors\r\n* @1hehaq made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5974\r\n* @piguagua made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5986\r\n* @kilavvy made their first contribution in https://github.com/projectdiscovery/nuclei/pull/6027\r\n* @Jarro01X made their first contribution in https://github.com/projectdiscovery/nuclei/pull/6033\r\n* @Lercas made their first contribution in https://github.com/projectdiscovery/nuclei/pull/5931\r\n\r\n**Full Changelog**: https://github.com/projectdiscovery/nuclei/compare/v3.3.8...v3.3.9",
+        "release_tag": "v3.3.9",
+        "updated_at": "2025-02-20 18:18:22"
     },
     "https://github.com/sleeyax/burp-awesome-tls": {
         "created_at": "2024-05-01 22:28:19",
@@ -3210,14 +3210,14 @@
         "updated_at": "2025-01-22 15:13:32"
     },
     "https://github.com/joke2k/faker": {
-        "created_at": "2025-01-30 22:45:23",
+        "created_at": "2025-02-13 20:25:11",
         "description": "Faker is a Python package that generates fake data for you.",
         "commit_message": "Bump version: 28.4.0 → 28.4.1",
         "commit_date": "2024-09-04 14:38:18",
-        "release_date": "2025-01-30 22:45:56",
-        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v35.2.0/CHANGELOG.md).",
-        "release_tag": "v35.2.0",
-        "updated_at": "2025-02-01 12:22:11"
+        "release_date": "2025-02-13 20:25:47",
+        "release_message": "See [CHANGELOG.md](https://github.com/joke2k/faker/blob/refs/tags/v36.1.1/CHANGELOG.md).",
+        "release_tag": "v36.1.1",
+        "updated_at": "2025-02-20 18:18:22"
     },
     "https://github.com/NHPT/Xray_Cracked": {
         "created_at": "2023-04-24 06:48:58",
@@ -3902,14 +3902,14 @@
         "release_message": ""
     },
     "https://github.com/aquasecurity/kube-bench": {
-        "created_at": "2025-02-04 16:08:07",
+        "created_at": "2025-02-12 14:41:39",
         "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark",
         "commit_message": "build(deps): bump golang from 1.22.2 to 1.22.4 (#1629)\n\nBumps golang from 1.22.2 to 1.22.4.\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: golang\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
         "commit_date": "2024-07-04 05:46:34",
-        "release_date": "2025-02-04 16:22:24",
-        "release_message": "## Changelog\n* c9985a6 Bump golang from 1.23.4 to 1.23.5 to fix vulnerabilities. (#1793)\n* 5557601 DEVOPS-788: in order to pass RedHat operator certification, labels mu… (#1781)\n* 62a5442 build(deps): bump github.com/aws/aws-sdk-go-v2 from 1.32.8 to 1.36.0 (#1796)\n* 4d82ee7 build(deps): bump github.com/aws/aws-sdk-go-v2/config (#1795)\n* c04b700 build(deps): bump github.com/aws/aws-sdk-go-v2/service/securityhub (#1794)\n* b1547c0 build(deps): bump golang from 1.23.4 to 1.23.5 (#1787)\n* 368a8b5 build(deps): bump k8s.io/apimachinery from 0.32.0 to 0.32.1 (#1782)\n* a7bd33c build(deps): bump k8s.io/client-go from 0.32.0 to 0.32.1 (#1785)\n* fcfb537 fix(ci): add missed args for building docker images (#1788)\n* 26aaeec fix: required fixes for rke-cis 1.7 / 1.28 / 1.29 (#1792)\n\n",
-        "release_tag": "v0.10.1",
-        "updated_at": "2025-02-10 15:14:11"
+        "release_date": "2025-02-12 14:54:58",
+        "release_message": "## Changelog\n* fcb6517 Bump golang from 1.23.5 to 1.23.6 to fix CVE-2025-22866 (#1800)\n* 2de22f8 Updated version in documentation and using a version var (#1799)\n* f9e2c77 ci: bump up Go version to 1.23.6 in Github workflows (#1801)\n* 18e7e35 fix: suppress vulnerabilities in kubectl (#1802)\n\n",
+        "release_tag": "v0.10.2",
+        "updated_at": "2025-02-20 18:18:22"
     },
     "https://github.com/neuvector/neuvector": {
         "created_at": "2025-01-15 19:37:15",
@@ -3942,14 +3942,14 @@
         "updated_at": "2025-02-01 12:22:11"
     },
     "https://github.com/chaitin/safeline": {
-        "created_at": "2025-01-02 08:41:23",
+        "created_at": "2025-02-14 06:49:31",
         "description": "serve as a reverse proxy to protect your web services from attacks and exploits.",
         "commit_message": "Update README.md",
         "commit_date": "2024-08-26 13:06:46",
-        "release_date": "2025-01-02 10:14:18",
-        "release_message": "### Feature\r\n- Added `GitHub` authentication in Auth\r\n  - Auth supports multiple types of IdP\r\n  - GitHub authentication supports granular user audit management\r\n- Added the feature of obtaining real IP through `PROXY Protocol`\r\n- Added `Opt in to User Experience Program` in `System`. Users can opt out to stop us from getting your usage habits.\r\n### Fixed\r\n- Custom interception pages no longer affect error codes returned by upstream\r\n- Refactored FVM memory management, significantly reducing memory usage of FVM containers\r\n- Fixed an issue where the default administrator account password would occasionally reset during upgrades\r\n- Fixed an issue where rate limiting would count approved attack requests in high-frequency attack calculations\r\n- Optimized master-slave configuration synchronization by adding error retry mechanism and improving sync performance\r\n- Fixed inconsistency between browser favicon and title display in Pro versions",
-        "release_tag": "v7.5.0",
-        "updated_at": "2025-02-01 12:22:11"
+        "release_date": "2025-02-14 06:58:32",
+        "release_message": "### Feature\r\n* Free now supports viewing up to 20 latest Auth Logs\r\n* Free enables access to application logs including access log and error log\r\n* Pro increased maximum concurrent users allowed in waiting room to 5,000\r\n\r\n### Fixed\r\n* Enhanced query performance for statistics dashboard\r\n* Improved detection engine stability with optimized memory allocation",
+        "release_tag": "v7.6.2",
+        "updated_at": "2025-02-20 18:18:22"
     },
     "https://github.com/stamparm/identYwaf": {
         "created_at": "2019-01-10 11:27:58",
