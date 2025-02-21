@@ -372,6 +372,7 @@ CTF:
             - https://github.com/20142995/bo_ctfcode
             - https://github.com/Raka-loah/SRK-Toolbox
             - https://github.com/guyoung/CaptfEncoder
+            - https://github.com/zhangqi-ulua/ConvertTools
         编解码综合网站:
             - http://fbcs.bplaced.net/multi_encoder_decoder.html
             - http://tools.sbbbb.cn/CyberChef/
@@ -417,8 +418,11 @@ CTF:
                 - https://map.variflight.com
                 - https://zh.flightaware.com/live/flight/B7631/history/320
         文件分析:
+            - https://github.com/jaquadro/NBTExplorer
             - https://github.com/jin-stuff/foremost
             - https://learn.microsoft.com/zh-cn/sysinternals/downloads/strings
+        条形码识别:
+            - https://xiazai.zol.com.cn/detail/35/345364.shtml
         综合:
             - http://www.1o1o.xyz/bo_ctfcode.html
             - https://github.com/Arinue/CTF-NetA
@@ -436,6 +440,7 @@ CTF:
             - https://github.com/JamesHoi/PuzzleSolver
         隐写:
             - https://achorein.github.io/silenteye/
+            - https://www.bertnase.de/npiet
             - https://www.petitcolas.net/steganography/mp3stego/
     Reverse:
         IDA插件:
@@ -497,32 +502,54 @@ CTF:
         - https://github.com/kitezzzGrim/CTF-Note
         - https://github.com/sajjadium/ctf-archives
         - https://hello-ctf.com/
+其他:
+    - https://issues.apache.org
 常用软件:
     即时通讯:
         - https://github.com/igdmapps/igdm
     图形图像:
         - https://github.com/Lymphatus/caesium-image-compressor
+        - https://pixpinapp.com/
     效率办公:
+        - https://github.com/20142995/scoop-search
         - https://github.com/25H/Maya
+        - https://irolan.duapp.com/
+        - https://www.ghxi.com/beyondcompare.html
+        - https://www.ghxi.com/filelocator.html
+        - https://www.yuque.com/lucy/lucy/record
+    文本编辑:
+        - https://github.com/cxasm/notepad--
+    浏览器:
+        - https://www.google.com/chrome
+        - https://www.mozilla.org/firefox/
     磁盘工具:
         - https://www.disktool.cn
     系统优化:
         - https://github.com/Chuyu-Team/Dism-Multi-language
         - https://mofang.ruanmei.com
+    系统工具:
+        - https://www.sordum.org/downloads/?st-windows-update-blocker
     编程环境:
         - https://www.oracle.com/java/
     远程管理:
         - https://github.com/cinience/RedisStudio
+        - https://github.com/qishibo/AnotherRedisDesktopManager
+        - https://redis.io
+        - https://www.ghxi.com/navicat17.html
 开发:
     Go:
         其他:
             - https://github.com/mozillazg/go-pinyin
+    Java:
+        其他:
+            - https://www.java.com/
     Python:
         GUI框架:
             - https://github.com/Akascape/py-window-styles
             - https://github.com/rdbende/Forest-ttk-theme
         其他:
             - https://github.com/TomSchimansky/CustomTkinter
+            - https://github.com/curlconverter/curlconverter.github.io
             - https://github.com/jackfrued/Python-100-Days
             - https://github.com/jackzhenguo/python-small-examples
             - https://github.com/mozillazg/python-pinyin
@@ -608,10 +635,8 @@ CTF:
         - https://github.com/StudioEtrange/socat-windows
         - https://github.com/WithSecureLabs/C3
         - https://github.com/arch3rPro/Govenom
-        - https://github.com/chaitin/xray-plugins
         - https://github.com/chat2db/Chat2DB
         - https://github.com/cobbr/Covenant
-        - https://github.com/cxasm/notepad--
         - https://github.com/depler/curl-impersonate-win
         - https://github.com/docmirror/dev-sidecar
         - https://github.com/elddy/NimScan
@@ -637,7 +662,6 @@ CTF:
         - https://github.com/openrport/openrport
         - https://github.com/opsdisk/pagodo
         - https://github.com/ph4ntonn/Stowaways
-        - https://github.com/qishibo/AnotherRedisDesktopManager
         - https://github.com/r00t-3xp10it/meterpeter
         - https://github.com/rhaidiz/broxy
         - https://github.com/rootkiter/Termite
@@ -645,7 +669,6 @@ CTF:
         - https://github.com/sairson/MateuszEx
         - https://github.com/sameera-madushan/Print-My-Shell
         - https://github.com/sensepost/godoh
-        - https://github.com/siyuan-note/siyuan
         - https://github.com/stefankueng/BowPad
         - https://github.com/t1m0thyj/WinDynamicDesktop
         - https://github.com/t3l3machus/psudohash
@@ -662,7 +685,6 @@ CTF:
         - https://laragon.org/
         - https://mkaring.github.io/ConfuserEx/
         - https://npcap.com/
-        - https://pixpinapp.com/
         - https://pot-app.com
         - https://rubickcenter.github.io
         - https://sourceforge.net/projects/cudatext
@@ -672,12 +694,10 @@ CTF:
         - https://www.cpuid.com/softwares/cpu-z.html
         - https://www.ed-x.cc/index.html
         - https://www.emeditor.com/
-        - https://www.google.com/chrome
         - https://www.hostbuf.com/t/988.html
         - https://www.invicti.com/
         - https://www.isc.org/bind/
         - https://www.jam-software.com/treesize
-        - https://www.mozilla.org/firefox/
         - https://www.phpenv.cn/
         - https://www.postcat.com
         - https://www.screentogif.com/
@@ -691,7 +711,6 @@ CTF:
         - https://www.sordum.org/downloads/?power-run
         - https://www.sordum.org/downloads/?reg-converter
         - https://www.sordum.org/downloads/?st-sordum-monitor-off
-        - https://www.sordum.org/downloads/?st-windows-update-blocker
         - https://www.terminal.icu/
         - https://www.win.tue.nl/hashclash/
     微信机器人:
@@ -774,6 +793,7 @@ CTF:
             OA综合:
                 - https://github.com/LittleBear4/OA-EXPTOOL
                 - https://github.com/achuna33/MYExploit
+                - https://github.com/wy876/WExploit
             泛微OA:
                 - https://github.com/AdministratorGithub/e-cology-OA-SQL
                 - https://github.com/NS-Sp4ce/Weaver-OA-E-cology-Database-Leak
@@ -801,15 +821,18 @@ CTF:
                 - https://github.com/Fu5r0dah/TongdaScan_go
                 - https://github.com/NS-Sp4ce/TongDaOA-Fake-User
                 - https://github.com/OA-HUNTER/TongDa-OA
+                - https://github.com/superneilcn/GUIEXPTools
                 - https://github.com/xiaokp7/TongdaOATool
                 - https://github.com/xinyu2428/TDOA_RCE
         产品or组件or框架漏洞:
             ActiveMQ:
+                - https://github.com/Arlenhiack/ActiveMQ-RCE-Exploit
                 - https://github.com/Hutt0n0/ActiveMqRCE
                 - https://github.com/JaneMandy/ActiveMQ_RCE_Pro_Max
             Apache Airflow:
                 - https://github.com/Mr-xn/CVE-2022-40127
             Apache Dubbo:
+                - https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp
                 - https://github.com/YYHYlh/Dubbo-Scan
                 - https://github.com/threedr3am/dubbo-exp
             Apache Log4j:
@@ -822,10 +845,13 @@ CTF:
                 - https://github.com/k3rwin/log4j2-intranet-scan
                 - https://github.com/kozmer/log4j-shell-poc
                 - https://github.com/lijiejie/log4j2_vul_local_scanner
+            Apache OFBiz:
+                - https://github.com/JaneMandy/CVE-2023-51467-Exploit
             Apache Shiro:
                 - https://github.com/Ares-X/shiro-exploit
                 - https://github.com/Ggasdfg321/shiro_check
                 - https://github.com/SummerSec/ShiroAttack2
+                - https://github.com/Y5neKO/ShiroEXP
                 - https://github.com/dr0op/shiro-550-with-NoCC
                 - https://github.com/feihong-cs/ShiroExploit-Deprecated
                 - https://github.com/j1anFen/shiro_attack
@@ -867,6 +893,7 @@ CTF:
                 - https://github.com/breaktoprotect/CVE-2017-12615
                 - https://github.com/cyberheartmi9/CVE-2017-12617
                 - https://github.com/errors11/TomcatVuln
+                - https://github.com/guguyu1/tomcat_password
                 - https://github.com/jas502n/CVE-2019-0232
                 - https://github.com/lizhianyuguangming/TomcatScanPro
                 - https://github.com/pyn3rd/CVE-2019-0232
@@ -896,6 +923,11 @@ CTF:
                 - https://github.com/mrknow001/fastjson_rec_exploit
                 - https://github.com/safe6Sec/Fastjson
                 - https://github.com/smallfox233/JsonExp
+            Frchannel:
+                - https://github.com/yuxianzi/FrchannelPlus
+            GeoServer:
+                - https://github.com/netuseradministrator/CVE-2024-36401
+                - https://github.com/whitebear-ch/GeoServerExploit
             Grafana:
                 - https://github.com/A-D-Team/grafanaExp
             Hikvision:
@@ -915,7 +947,9 @@ CTF:
             Jeecg:
                 - https://github.com/K-7H7l/Jeecg_Tools
             JeecgBoot:
+                - https://github.com/7wkajk/jeecgBootAttack
                 - https://github.com/MInggongK/jeecg-
+                - https://github.com/ssrsec/JeecgBoot-offline-brute
             Jenkins:
                 - https://github.com/TheBeastofwar/JenkinsExploit-GUI
                 - https://github.com/blackye/Jenkins
@@ -934,14 +968,17 @@ CTF:
                 - https://github.com/yggo/SmartBIAttackTool
             Spring Boot:
                 - https://github.com/0x727/SpringBootExploit
+                - https://github.com/1150037361/SpringScan
                 - https://github.com/13exp/SpringBoot-Scan-GUI
                 - https://github.com/AabyssZG/SpringBoot-Scan
                 - https://github.com/CllmsyK/YYBaby-Spring_Scan
                 - https://github.com/Muhansrc/springboot_scan
                 - https://github.com/SummerSec/SpringExploit
                 - https://github.com/charonlight/SpringExploitGUI
+                - https://github.com/light-Life/CVE-2022-22965-GUItools
                 - https://github.com/savior-only/Spring_All_Reachable
                 - https://github.com/wh1t3zer/SpringBootVul-GUI
+                - https://github.com/whwlsfb/SpringSpider
             ThinkCMF:
                 - https://github.com/jas502n/ThinkCMF_getshell
             Thinkphp:
@@ -953,6 +990,7 @@ CTF:
                 - https://github.com/XiLitter/Tp_Attack_GUI
                 - https://github.com/bewhale/thinkphp_gui_tools
                 - https://github.com/bingtangbanli/VulnerabilityTools
+                - https://github.com/guguyu1/thinkphp-rce-gui
                 - https://github.com/karsonzhang/fastadmin
                 - https://github.com/sukabuliet/ThinkphpRCE
                 - https://github.com/theLSA/tp5-getshell
@@ -986,13 +1024,16 @@ CTF:
                 - https://github.com/shack2/javaserializetools
                 - https://github.com/sp4zcmd/WeblogicExploit-GUI
             XXL-JOB:
+                - https://github.com/Anthony558238/xxl-job-exp
                 - https://github.com/charonlight/xxl-jobExploitGUI
+                - https://github.com/pureqh/xxl-job-attack
             YApi:
                 - https://github.com/Tas9er/YApiRCE
             django:
                 - https://github.com/jimywork/djangohunter
             docker:
                 - https://github.com/0xchang/DockerApiRCE
+                - https://github.com/Janhsu/DockerAPITool
             joom:
                 - https://github.com/OWASP/joomscan
             vmware:
@@ -1001,6 +1042,8 @@ CTF:
             wordpress:
                 - https://github.com/Jamalc0m/wphunter
                 - https://github.com/swisskyrepo/Wordpresscan
+            亿赛通:
+                - https://github.com/CRlife/YisaiExploitGUI
             大华:
                 - https://github.com/MInggongK/dahuaExploitGUI
                 - https://github.com/mcw0/DahuaConsole
@@ -1015,6 +1058,8 @@ CTF:
                 - https://github.com/passer-W/Ruoyi-All
             赛蓝企业管理系统:
                 - https://github.com/Seven1an/CailsoftVulCheck
+            飞企互联平台:
+                - https://github.com/M0untainShley/FEExploit
         信息泄露漏洞:
             .DS_Store泄露:
                 - https://github.com/lijiejie/ds_store_exp
@@ -1029,6 +1074,8 @@ CTF:
             .svn泄露:
                 - https://github.com/admintony/svnExploit
                 - https://github.com/shengqi158/svnhack
+            ViewState:
+                - https://github.com/raise-isayan/ViewStateDecoder
             Webpack接口:
                 - https://github.com/Lz1y/SourceDetector-dist
                 - https://github.com/rtcatc/Packer-Fuzzer
@@ -1126,6 +1173,7 @@ CTF:
                 - https://github.com/ozzi-/JWT4B
                 - https://github.com/ticarpi/jwt_tool
             SQL注入:
+                - hhttps://github.com/co01cat/SqlmapXPlus
                 - https://github.com/0xbug/SQLiScanner
                 - https://github.com/BugFor-Pings/CN_Sqlmap
                 - https://github.com/CiscoCXSecurity/bbqsql
@@ -1190,6 +1238,8 @@ CTF:
                 - https://github.com/D35m0nd142/LFISuite
                 - https://github.com/OsandaMalith/LFiFreak
                 - https://github.com/hansmach1ne/lfimap
+            rce:
+                - https://github.com/W0r1d-Pr1nt/RCEmap
             upload:
                 - https://github.com/3xp10it/xupload
                 - https://github.com/almandin/fuxploider
@@ -1209,8 +1259,10 @@ CTF:
             - https://github.com/AbelChe/cola_dnslog
             - https://github.com/AlphabugX/Alphalog
             - https://github.com/Ar3h/putter
+            - https://github.com/B0T1eR/ysoSimple
             - https://github.com/BugScanTeam/DNSLog
             - https://github.com/Li4n0/revsuit
+            - https://github.com/Lotus6/ysoserial
             - https://github.com/Mr-xn/JNDIExploit-1
             - https://github.com/X1r0z/JNDIMap
             - https://github.com/Y4er/ysoserial
@@ -1224,6 +1276,7 @@ CTF:
             - https://github.com/frohoff/ysoserial
             - https://github.com/lanyi1998/DNSlog-GO
             - https://github.com/mbechler/marshalsec
+            - https://github.com/pap1rman/JNDIExploit-modify
             - https://github.com/pimps/JNDI-Exploit-Kit
             - https://github.com/pwntester/ysoserial.net
             - https://github.com/qi4L/JYso
@@ -1284,6 +1337,7 @@ CTF:
             - https://github.com/Liqunkit/LiqunKit_
             - https://github.com/MKID1412/MoonLight
             - https://github.com/P1nganD/Rookie
+            - https://github.com/doki-byte/EasyTools
             - https://github.com/fupinglee/JavaTools
             - https://github.com/nicolas-carolo/houndsploit
             - https://github.com/pureqh/Hyacinth
@@ -1347,6 +1401,7 @@ CTF:
                 - https://github.com/LoRexxar/Kunlun-M
                 - https://github.com/liweibin123/fortify
                 - https://github.com/murphysecurity/murphysec
+                - https://github.com/vsdwef/StarCodeSecurity
                 - https://sourceforge.net/projects/visualcodegrepp/
                 - https://www.sonarqube.org
             php:
@@ -1398,6 +1453,7 @@ CTF:
             - https://github.com/netxfly/passive_scan
             - https://github.com/olacabs/jackhammer
             - https://github.com/projectdiscovery/nuclei
+            - https://github.com/qiuluo-oss/Tiger
             - https://github.com/r3curs1v3-pr0xy/vajra
             - https://github.com/s0md3v/Striker
             - https://github.com/six2dez/reconftw
@@ -1415,6 +1471,7 @@ CTF:
             - https://scan4all.51pwn.com
         口令爆破:
             - https://github.com/0-sec/zero-crack
+            - https://github.com/20142995/dpdd
             - https://github.com/22XploiterCrew-Team/WpCrack
             - https://github.com/7kbstorm/7kbscan-RDP-Sniper
             - https://github.com/BBD-YZZ/week-passwd
@@ -1434,6 +1491,7 @@ CTF:
             - https://github.com/nodauf/GoMapEnum
             - https://github.com/opabravo/mass-bruter
             - https://github.com/openwall/john
+            - https://github.com/openwall/johnny
             - https://github.com/pwnesia/ssb
             - https://github.com/rm1984/IMAPLoginTester
             - https://github.com/shack2/SNETCracker
@@ -1618,6 +1676,7 @@ CTF:
             - https://github.com/TheKingOfDuck/ApkAnalyser
             - https://github.com/dwisiswant0/apkleaks
             - https://github.com/sulab999/AppMessenger
+            - https://www.ghxi.com/apkinfo.html
         企业信息收集:
             - https://github.com/SiJiDo/IEyes
             - https://github.com/wgpsec/ENScan_GO
@@ -1629,6 +1688,7 @@ CTF:
             - https://github.com/z-bool/QueryTools
         子域名收集:
             - https://github.com/3nock/OTE
+            - https://github.com/Chora10/FuzzDomain
             - https://github.com/FeeiCN/ESD
             - https://github.com/LangziFun/LangSrcCurise
             - https://github.com/Q2h1Cg/dnsbrute
@@ -1663,6 +1723,7 @@ CTF:
             - https://github.com/BlackTrace/pc_wxapkg_decrypt
             - https://github.com/ezshine/wxapkg-convertor
             - https://github.com/jdr2021/wxapkgUnpack
+            - https://github.com/kristyzhy/wxapkg_infosearch
             - https://github.com/moyuwa/wechat_appinfo_wxapkg
         指纹识别:
             - http://finger.tidesec.net/
@@ -1679,6 +1740,7 @@ CTF:
             - https://github.com/LittleBear4/Find-SomeThing
             - https://github.com/P001water/P1finger
             - https://github.com/P1-Team/AlliN
+            - https://github.com/ScriptKid-Beta/WebBatchRequest
             - https://github.com/TideSec/TideFinger
             - https://github.com/b1ackc4t/14Finger
             - https://github.com/chaitin/xapp
@@ -1700,6 +1762,7 @@ CTF:
             - https://github.com/BishopFox/jsluice
             - https://github.com/H4ckForJob/dirmap
             - https://github.com/M4DM0e/DirDar
+            - https://github.com/N-Next/URLFinder-x
             - https://github.com/Nekmo/dirhunt
             - https://github.com/OJ/gobuster
             - https://github.com/Qianlitp/crawlergo
@@ -1733,6 +1796,7 @@ CTF:
             - https://github.com/s0md3v/Arjun
             - https://github.com/sensepost/gowitness
             - https://github.com/shack2/SWebScan
+            - https://github.com/ttstormxx/jjjjjjjjjjjjjs
             - https://github.com/zer0h/httpscan
             - https://sourceforge.net/projects/dirbuster/
             - https://www.fujieace.com/hacker/tools/yujian.html
@@ -1766,6 +1830,7 @@ CTF:
             - https://github.com/qiwentaidi/Slack
             - https://github.com/rabbitmask/AssetsHunter
             - https://github.com/veo/vscan
+            - https://github.com/vsdwef/James_synthesis_tooL
             - https://github.com/zhensuibianwan/pppscan
             - https://github.com/zhzyker/dismap
         网盘搜索:
@@ -1878,6 +1943,7 @@ CTF:
             - https://github.com/zema1/suo5
             - https://www.proxifier.com/
         内网信息收集:
+            - https://github.com/Offensive-Panda/ShadowDumper
             - https://github.com/TheD1rkMtr/TakeMyRDP
             - https://github.com/Y0-kan/HostInfoScan
             - https://github.com/alexxy/netdiscover
@@ -1897,6 +1963,7 @@ CTF:
             - https://github.com/QAX-A-Team/sharpwmi
             - https://github.com/Suq3rm4n/java-impacket-gui
             - https://github.com/TheBeastofwar/linuxhacker
+            - https://github.com/TheRealAdamBurford/Create-KeyTab
             - https://github.com/XiaoLi996/Impacket_For_Web
             - https://github.com/XiaoTouMingyo/PentesterTools
             - https://github.com/XiaoliChan/wmiexec-Pro
@@ -1937,6 +2004,7 @@ CTF:
             - https://github.com/BloodHoundAD/BloodHound
         权限提升:
             linux提权:
+                - https://github.com/GTFOBins/GTFOBins.github.io
                 - https://github.com/SecWiki/linux-kernel-exploits
                 - https://github.com/carlospolop/PEASS-ng
                 - https://github.com/firefart/dirtycow
@@ -1949,8 +2017,10 @@ CTF:
                 - https://github.com/SecWiki/macos-kernel-exploits
             windows提权:
                 - http://tools.sbbbb.cn/tiquan/
+                - https://github.com/BC-SECURITY/Moriarty
                 - https://github.com/BeichenDream/BadPotato
                 - https://github.com/BeichenDream/PrintNotifyPotato
+                - https://github.com/LOLBAS-Project/LOLBAS
                 - https://github.com/Prepouce/CoercedPotato
                 - https://github.com/SecWiki/windows-kernel-exploits
                 - https://github.com/StarfireLab/AutoZerologon
@@ -2022,6 +2092,7 @@ CTF:
                 - https://github.com/jthuraisamy/SysWhispers2
                 - https://github.com/knownsec/shellcodeloader
                 - https://github.com/lengjibo/FourEye
+                - https://github.com/lv183037/MaLoader
                 - https://github.com/midisec/BypassAnti-Virus
                 - https://github.com/pureqh/bypassAV
                 - https://github.com/wikiZ/RedGuard
@@ -2074,6 +2145,8 @@ CTF:
     客户端漏洞:
         向日葵:
             - https://github.com/Mr-xn/sunlogin_rce
+            - https://github.com/savior-only/Sunlogin_RCE-GUI-
+            - https://github.com/theLSA/sunlogin-exp-gui
     相关资源:
         代理池:
             - https://github.com/Anyyy111/ProxyPoolxSocks
@@ -2135,8 +2208,11 @@ CTF:
             Burpsuite:
                 信息收集:
                     - https://github.com/Acmesec/Sylas
+                    - https://github.com/F6JO/JsRouteScan
                     - https://github.com/InitRoot/BurpJSLinkFinder
                     - https://github.com/NetSPI/BurpExtractor
+                    - https://github.com/ScriptKid-Beta/Unexpected_information
+                    - https://github.com/XF-FS/APIKit
                     - https://github.com/bit4woo/domain_hunter
                     - https://github.com/bit4woo/domain_hunter_pro
                     - https://github.com/goddemondemongod/god_param
@@ -2167,10 +2243,12 @@ CTF:
                     - https://github.com/nccgroup/BurpSuiteHTTPSmuggler
                     - https://github.com/nccgroup/LoggerPlusPlus
                     - https://github.com/outlaws-bai/Galaxy
+                    - https://github.com/outlaws-bai/GalaxyHttpHooker
                     - https://github.com/portswigger/http-request-smuggler
                     - https://github.com/shuanx/BurpAPIFinder
                     - https://github.com/silentsignal/burp-requests
                     - https://github.com/smxiazi/NEW_xp_CAPTCHA
+                    - https://github.com/smxiazi/xia_Jie
                     - https://github.com/smxiazi/xia_Liao
                     - https://github.com/sting8k/BurpSuite_403Bypasser
                     - https://github.com/xnl-h4ck3r/GAP-Burp-Extension
@@ -2238,6 +2316,7 @@ CTF:
                     - https://github.com/A0WaQ4/BurpCRLFScan
                     - https://github.com/API-Security/APIKit
                     - https://github.com/BishopFox/GadgetProbe
+                    - https://github.com/Conan924/Bypass-Suite
                     - https://github.com/EASY233/BpScan
                     - https://github.com/F6JO/RouteVulScan
                     - https://github.com/Maskhe/FastjsonScan
@@ -2254,6 +2333,7 @@ CTF:
                     - https://github.com/pmiaowu/BurpShiroPassiveScan
                     - https://github.com/silentsignal/burp-log4shell
                     - https://github.com/silentsignal/burp-text4shell
+                    - https://github.com/smxiazi/xia_Yue
                 绕过指纹检测:
                     - https://github.com/sleeyax/burp-awesome-tls
             IDA:
@@ -2329,6 +2409,7 @@ CTF:
             xray:
                 - https://github.com/4ra1n/super-xray
                 - https://github.com/NHPT/Xray_Cracked
+                - https://github.com/chaitin/xray-plugins
                 - https://github.com/phith0n/xray-poc-generation
                 - https://github.com/zema1/yarx
             浏览器扩展:
@@ -2477,6 +2558,8 @@ CTF:
             - https://github.com/volatilityfoundation/volatility
             - https://github.com/volatilityfoundation/volatility3
         应用程序取证:
+            Linux面板:
+                - https://github.com/WXjzcccc/PanelForensics
             QQ取证:
                 - https://github.com/saucer-man/qq_msg_decode
             Wifi:
@@ -2489,6 +2572,7 @@ CTF:
             vmware vcenter:
                 - https://github.com/W01fh4cker/VcenterKit
                 - https://github.com/shmilylty/vhost_password_decrypt
+                - https://github.com/zidanfanshao/vcenter_tools
             vmx加密破解:
                 - https://github.com/axcheron/pyvmx-cracker
             主机账号:
@@ -2508,6 +2592,7 @@ CTF:
                 - https://github.com/milu001/sundeskQ
                 - https://github.com/wafinfo/Sunflower_get_Password
             微信取证:
+                - https://github.com/0xlane/wechat-dump-rs
                 - https://github.com/AdminTest0/SharpWxDump
                 - https://github.com/LC044/WeChatMsg
                 - https://github.com/Ormicron/Sharp-dumpkey
@@ -2550,6 +2635,7 @@ CTF:
                 - https://github.com/Zhuoyuan1/navicat_password_decrypt
                 - https://github.com/anoopengineer/winscppasswd
                 - https://github.com/dzxs/Xdecrypt
+                - https://github.com/h0ny/MobaXtermDecryptor
                 - https://github.com/ianxtianxt/SharpDecryptPwd
                 - https://github.com/jas502n/FinalShellDecodePass
                 - https://github.com/lele8/SharpDBeaver
@@ -2613,6 +2699,8 @@ CTF:
                     - https://github.com/h3xx/jphs
                     - https://github.com/jackfengji/f5-steganography
                     - https://github.com/lukechampine/jsteg
+                    - https://github.com/oakes/PixelJihad
+                    - https://github.com/resurrecting-open-source-projects/outguess
                     - https://pilotfiber.dl.sourceforge.net/project/steghideui
                 盲水印:
                     - https://github.com/chishaxie/BlindWaterMark
@@ -2620,6 +2708,7 @@ CTF:
                     - https://github.com/guofei9987/blind_watermark
                     - https://github.com/linyacool/blind-watermark
                     - https://github.com/ww23/BlindWatermark
+                    - https://www.52pojie.cn/thread-709668-1-1.html
                 综合:
                     - https://c5r.app/tools/bin-extractor
                     - https://github.com/Giotino/stegsolve
@@ -2641,11 +2730,18 @@ CTF:
         相关资源:
             - https://github.com/XDforensics-wiki/XDforensics-wiki
         磁盘分析:
+            文件转换:
+                - https://cloudbase.it/qemu-img-windows/
             磁盘加解密:
                 - https://github.com/veracrypt/VeraCrypt
         网络取证:
+            NTML:
+                - https://github.com/mlgualtieri/NTLMRawUnHide
             Shiro流量取证:
+                - https://github.com/Ormicron/ShiroDecrypter
                 - https://github.com/r00tuser111/SerializationDumper-Shiro
+            WiFi流量:
+                - https://github.com/peass-ng/PEASS-ng
             cs:
                 - https://github.com/5ime/CS_Decrypt
             tshark辅助:
@@ -2657,6 +2753,8 @@ CTF:
             哥斯拉(Godzilla)流量取证:
                 - https://github.com/webraybtl/webshell_detect
                 - https://github.com/nocultrue/Deco_Godzilla
+            包流量修复:
+                - https://github.com/Rup0rt/pcapfix
     威胁情报中心:
         - https://ti.360.cn/
         - https://ti.sangfor.com.cn/analysis-platform
@@ -2712,6 +2810,7 @@ CTF:
             - https://github.com/2740908911/Pilot-Web
             - https://github.com/API-Security/APISandbox
             - https://github.com/HXSecurity/TerraformGoat
+            - https://github.com/ProbiusOfficial/RCE-labs
             - https://github.com/SpiderLabs/MCIR
             - https://github.com/ax1sX/MemShell
             - https://github.com/en0th/ElectricRat
@@ -2832,6 +2931,7 @@ CTF:
             - https://github.com/gophish/gophish
             - https://github.com/hacklcx/HFish
             - https://github.com/p1r06u3/phishing
+            - https://github.com/pow1e/pfish
             - https://github.com/rsmusllp/king-phisher
             - https://github.com/thelinuxchoice/blackeye
             - https://www.phishingfrenzy.com/
@@ -2876,6 +2976,9 @@ CTF:
             - https://github.com/youseries/urule
             - https://github.com/ysrc/Liudao
             - https://www.drools.org
+    安全服务:
+        渗透测试报告辅助:
+            - https://github.com/20142995/PentestReport
     安全检查:
         基线:
             - https://github.com/Amulab/CAudit
@@ -2891,6 +2994,7 @@ CTF:
                 - https://github.com/chiruom/Webshell_finder
                 - https://github.com/cys3c/BackdoorMan
                 - https://github.com/he1m4n6a/findWebshell
+                - https://github.com/intbjw/webshell-decryptor
                 - https://github.com/kunwu2023/kunwu
                 - https://github.com/mornone/webshell-find-tools
                 - https://github.com/virink/as_scanwebshell
@@ -2947,6 +3051,7 @@ CTF:
                 - https://rkhunter.sourceforge.net/
             Windows应急工具:
                 windows日志分析:
+                    - https://github.com/BoyChai/FuckEventvwr
                     - https://github.com/Fheidt12/Windows_Log
                     - https://github.com/Qihoo360/WatchAD2.0
                     - https://github.com/Yamato-Security/WELA
@@ -3116,6 +3221,8 @@ CTF:
         - https://github.com/Mr-xn/RedTeam_BlueTeam_HW
         - https://github.com/Purp1eW0lf/Blue-Team-Notes
         - https://github.com/vvmdx/Sec-Interview-4-2023
+    综合:
+        - https://github.com/achiove/BlueTeamTool
 逆向:
     cookie加密:
         瑞数:
@@ -3132,6 +3239,7 @@ CTF:
         webpack:
             - https://gitcode.net/zjq592767809/webpack_ast
         靶场:
+            - https://github.com/0ctDay/encrypt-decrypt-vuls
             - https://github.com/SwagXz/encrypt-labs
         验证码:
             极验:
@@ -3147,4 +3255,6 @@ CTF:
             - https://github.com/CYRUS-STUDIO/ApkToolPlus
     微信小程序逆向:
         反编译:
+            - https://github.com/Ackites/KillWxapkg
             - https://github.com/Cherrison/CrackMinApp
+            - https://github.com/threecha/wxappUnpacker
