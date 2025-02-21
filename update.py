@@ -190,7 +190,7 @@ def update_readme():
                         if repo == '':
                             repo = urlparse(url).netloc
                             description = ''
-
+                    description = re.sub('\s+', ' ', description)
                     if len(repo) < 85:
                         if len(description) > (85-len(repo)):
                             m = f'[{repo}]({url}) {description[:85-len(repo)-3]}...'
