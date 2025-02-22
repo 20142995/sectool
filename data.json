@@ -18077,17 +18077,6 @@
         "release_tag": "1.6",
         "bucket": true
     },
-    "https://github.com/siyuan-note/siyuan": {
-        "created_at": "2024-09-24 01:46:43",
-        "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
-        "updated_at": "2024-09-25 21:04:24",
-        "commit_message": ":bookmark: Release v3.1.6",
-        "commit_date": "2024-09-10 02:24:51",
-        "release_date": "2024-09-24 06:10:56",
-        "release_message": "## Overview\r\n\r\nThis version improves many details and enhances performance and stability.\r\n\r\n## Changelogs\r\n\r\nBelow are the detailed changes in this version.\r\n\r\n### Enhancement\r\n\r\n* [Persistent document tree expansion state](https://github.com/siyuan-note/siyuan/issues/10652)\r\n* [Improve visual flickering in database drag & drop](https://github.com/siyuan-note/siyuan/issues/10730)\r\n* [Browser clipping extension supports configuring document tags](https://github.com/siyuan-note/siyuan/issues/10797)\r\n* [Parsing YAML Front Matter as document custom attributes when importing Markdown files](https://github.com/siyuan-note/siyuan/issues/10878)\r\n* [Highlight regular expression search results](https://github.com/siyuan-note/siyuan/issues/11112)\r\n* [Supports disabling Markdown `*` and `_` syntax input](https://github.com/siyuan-note/siyuan/issues/11206)\r\n* [Browser clipping extension supports path selection](https://github.com/siyuan-note/siyuan/issues/11467)\r\n* [Add a template function `getHPathByID`](https://github.com/siyuan-note/siyuan/issues/11734)\r\n* [Improve the interactive effect of dragging blocks](https://github.com/siyuan-note/siyuan/issues/11751)\r\n* [Improve code block chart paste-rendering](https://github.com/siyuan-note/siyuan/issues/11972)\r\n* [Improve database date field pasting](https://github.com/siyuan-note/siyuan/issues/11973)\r\n* [Improve database relation and rollup field exporting](https://github.com/siyuan-note/siyuan/issues/12003)\r\n* [Automatically refresh the outline after redoing the heading](https://github.com/siyuan-note/siyuan/issues/12030)\r\n* [Support converting single heading and list into blockquote](https://github.com/siyuan-note/siyuan/issues/12073)\r\n* [Improve export of heading levels in embedded blocks](https://github.com/siyuan-note/siyuan/issues/12233)\r\n* [Improve inline element editing](https://github.com/siyuan-note/siyuan/issues/12234)\r\n* [Support setting height for images](https://github.com/siyuan-note/siyuan/issues/12423)\r\n* [Refresh result list after find-replace](https://github.com/siyuan-note/siyuan/issues/12437)\r\n* [After rolling back doc refresh other associated blocks](https://github.com/siyuan-note/siyuan/issues/12438)\r\n* [After find-replacing block refresh other associated blocks](https://github.com/siyuan-note/siyuan/issues/12439)\r\n* [Authorization is no longer required when exporting compressed packages in formats such as markdown](https://github.com/siyuan-note/siyuan/issues/12442)\r\n* [Improve database block/text/asset/template/relation/rollup field sorting](https://github.com/siyuan-note/siyuan/issues/12454)\r\n* [When rolling back a snapshot, a snapshot is created for the current data by default](https://github.com/siyuan-note/siyuan/issues/12470)\r\n* [Loading screen popup messages no longer block UI loading](https://github.com/siyuan-note/siyuan/issues/12476)\r\n* [Automatically refresh reference counts after adding or removing embed blocks](https://github.com/siyuan-note/siyuan/issues/12480)\r\n* [Improve database url and asset field exporting](https://github.com/siyuan-note/siyuan/issues/12484)\r\n* [Improve cloud data synchronization stability](https://github.com/siyuan-note/siyuan/issues/12543)\r\n* [Data snapshot support pagination navigation](https://github.com/siyuan-note/siyuan/pull/12548)\r\n* [Internationalization supports Italian language](https://github.com/siyuan-note/siyuan/pull/12562)\r\n* [File history support pagination navigation](https://github.com/siyuan-note/siyuan/pull/12563)\r\n\r\n### Bugfix\r\n\r\n* [Replace fails when search results contain mixed case in text elements](https://github.com/siyuan-note/siyuan/issues/9171)\r\n* [Split-screen content blocks are out of sync after focusing](https://github.com/siyuan-note/siyuan/issues/12132)\r\n* [After the image is set to center, the width cannot be adjusted through the menu](https://github.com/siyuan-note/siyuan/issues/12217)\r\n* [An exception occurs after changing the text element in the table cell](https://github.com/siyuan-note/siyuan/issues/12300)\r\n* [Unable to set Flashcard FSRS Weights](https://github.com/siyuan-note/siyuan/issues/12453)\r\n* [Subdocument path not updated after moving parent document](https://github.com/siyuan-note/siyuan/issues/12493)\r\n* [Some PDF assets are not content searchable](https://github.com/siyuan-note/siyuan/issues/12536)\r\n* [Clicking the document tag in the graph reports an error](https://github.com/siyuan-note/siyuan/issues/12556)\r\n\r\n### Refactor\r\n\r\n* [Upgrade to Electron v30.5.1](https://github.com/siyuan-note/siyuan/issues/12457)\r\n\r\n### Development\r\n\r\n* [Add plugin event `opened-notebook` & `closed-notebook`](https://github.com/siyuan-note/siyuan/issues/11974)\r\n* [Add `data-id` attribute to the button of the block menu](https://github.com/siyuan-note/siyuan/pull/12525)\r\n* [Improve /menu](https://github.com/siyuan-note/siyuan/pull/12547)\r\n\r\n## Download\r\n\r\n* [B3log](https://b3log.org/siyuan/en/download.html)\r\n* [GitHub](https://github.com/siyuan-note/siyuan/releases)\r\n",
-        "release_tag": "v3.1.7",
-        "bucket": true
-    },
     "https://github.com/stefankueng/BowPad": {
         "created_at": "2024-08-03 10:09:22",
         "description": "A simple and fast text editor with a ribbon UI",
@@ -19419,7 +19408,7 @@
         "release_date": "2022-04-18 10:22:07",
         "release_message": "* Fix login flow from returning 404 errors\r\n* Fix broken media messages",
         "release_tag": "v3.0.4",
-        "updated_at": "2025-02-16 03:17:53",
+        "updated_at": "2025-02-22 21:36:48",
         "bucket": true,
         "description": "Desktop application for Instagram DMs",
         "commit_message": "Delete CNAME",
@@ -19428,9 +19417,9 @@
     "https://github.com/Lymphatus/caesium-image-compressor": {
         "created_at": "2024-10-27 15:15:26",
         "description": "Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG, WebP and TIFF formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.",
-        "updated_at": "2025-02-16 03:17:53",
-        "commit_message": "Merge remote-tracking branch 'origin/main'",
-        "commit_date": "2025-02-07 17:50:48",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update workflow to Qt 6.8.2",
+        "commit_date": "2025-02-22 11:37:40",
         "release_date": "2024-10-27 15:38:07",
         "release_message": "## Bugfixes\r\n- Hotfix on dialog prompts #314\r\n\r\n**Full Changelog**: https://github.com/Lymphatus/caesium-image-compressor/compare/v2.8.1...v2.8.2",
         "release_tag": "v2.8.2",
@@ -19920,15 +19909,341 @@
         "release_message": "",
         "release_tag": "3.6.0"
     },
+    "https://xiazai.zol.com.cn/detail/35/345364.shtml": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 200,
+        "title": "PtBarcodeDecPtBarcodeDec 3.0-ZOL"
+    },
+    "https://www.bertnase.de/npiet": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 200,
+        "title": ""
+    },
+    "https://issues.apache.org": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 200,
+        "title": "issues.apache.org"
+    },
+    "https://www.ghxi.com/beyondcompare.html": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 200,
+        "title": "Beyond Compare v5.0.5.30614 修改版 - 果核剥壳"
+    },
+    "https://www.ghxi.com/filelocator.html": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 200,
+        "title": "FileLocator Pro(文件搜索) v9.0.3389.0 修改版 - 果核剥壳"
+    },
+    "https://www.yuque.com/lucy/lucy/record": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 200,
+        "title": "语雀"
+    },
+    "https://redis.io": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 200,
+        "title": "Redis - The Real-time Data Platform"
+    },
+    "https://www.ghxi.com/navicat17.html": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 200,
+        "title": "Navicat Premium(数据库管理) v17.1.12 绿色版 - 果核剥壳"
+    },
+    "https://www.java.com/": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 403,
+        "title": "Access Denied"
+    },
+    "https://www.ghxi.com/apkinfo.html": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 200,
+        "title": "APK Messenger v4.3-专业APK管理工具 - 果核剥壳"
+    },
+    "https://www.52pojie.cn/thread-709668-1-1.html": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 200,
+        "title": "Ѹ£Ʋءäˮӡ&amp;ˮӡ - ᰮƽ - 52pojie.cn "
+    },
+    "https://cloudbase.it/qemu-img-windows/": {
+        "created_at": "2025-02-22 21:36:46",
+        "updated_at": "2025-02-22 21:36:46",
+        "status_code": 200,
+        "title": "qemu-img for WIndows - Cloudbase Solutions"
+    },
+    "https://github.com/zhangqi-ulua/ConvertTools": {
+        "created_at": "2022-04-23 04:11:13",
+        "description": "编码转换工具集合，含Json、URL编解码、Unicode编解码、Base64编解码、常用散列算法（MD5、SHA-1）、时间戳转换、时间差计算",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "增加字符数统计，Hash算法支持自选Encoding",
+        "commit_date": "2022-07-20 06:54:26",
+        "release_date": "2022-04-23 04:11:37",
+        "release_message": "1.0.0 正式版",
+        "release_tag": "1.0.0"
+    },
+    "https://github.com/jaquadro/NBTExplorer": {
+        "created_at": "2017-11-24 07:42:34",
+        "description": "A graphical NBT editor for all Minecraft NBT data sources",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Missing a check in nbtutil",
+        "commit_date": "2017-11-24 08:05:29",
+        "release_date": "2017-11-24 07:48:27",
+        "release_message": "- New: Support for NBT long array tags",
+        "release_tag": "v2.8.0-win"
+    },
+    "https://github.com/20142995/scoop-search": {
+        "created_at": "2025-01-16 06:12:57",
+        "description": null,
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update requirements.txt",
+        "commit_date": "2025-01-16 12:58:22"
+    },
+    "https://github.com/curlconverter/curlconverter.github.io": {
+        "created_at": "2014-12-24 18:54:52",
+        "description": "Website for converting curl commands to code",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Fix --libcurl link (#106)",
+        "commit_date": "2024-11-10 17:11:50"
+    },
+    "https://github.com/wy876/WExploit": {
+        "created_at": "2024-12-28 05:44:33",
+        "description": "一款基于java开发的漏洞检测工具，集合了泛微，用友，大华漏洞等",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "上传源码",
+        "commit_date": "2024-12-28 05:44:33",
+        "release_date": "2024-12-31 08:39:00",
+        "release_message": "欢迎各位师傅使用工具，poc如果有误报请提issues\r\n## 新增漏洞\r\n    用友畅捷通TPlus download.aspx 存在任意文件读取漏洞 \r\n\t用友畅捷通TPlus InitServerInfo 存在SQL注入漏洞\r\n\t金和JC6协同管理平台oaplusrangedownloadfile存在文件下载漏洞 \r\n\t金和OA C6-GetSqlData.aspx命令执行漏洞 \r\n\t金和OA-C6-download.jsp任意文件读取漏洞\r\n\t金和OA-C6-CheckAppraiseState存在SQL注入漏洞 \r\n\t金和OA-C6-IncentivePlanFulfill.aspx存在SQL注入漏洞 \r\n\t金和OA-C6协同管理平台DBModules.aspx存在SQL注入漏洞 \r\n\t金和OA-C6接口DownLoadBgImage存在任意文件读取漏洞\r\n\t金和OAC6-FileDownLoad.aspx任意文件读取漏洞 \r\n\t金和OA-HomeService.asmx存在SQL注入 \r\n\t金和OA-MailTemplates.aspx存在SQL注入漏洞 \r\n\t金和OA uploadfileeditorsave接口存在任意文件上传漏洞",
+        "release_tag": "v1.8.5"
+    },
+    "https://github.com/superneilcn/GUIEXPTools": {
+        "created_at": "2023-06-05 05:42:10",
+        "description": "漏洞GUI利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-06-04 17:00:08"
+    },
+    "https://github.com/Arlenhiack/ActiveMQ-RCE-Exploit": {
+        "created_at": "2024-09-13 05:24:02",
+        "description": "ActiveMQ RCE (CVE-2023-46604) 回显利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Add files via upload",
+        "commit_date": "2024-09-13 05:35:24",
+        "release_date": "2024-09-13 05:29:28",
+        "release_message": "- 新增加不出网利用\r\n- 支持自定义template 字节码直接加载\r\n- 修复版本判断bug",
+        "release_tag": "V2.0"
+    },
+    "https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp": {
+        "created_at": "2023-06-14 10:01:22",
+        "description": "Apache Dubbo (CVE-2023-23638)漏洞利用的工程化实践",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-08-08 02:30:25",
+        "release_date": "2023-06-14 10:10:48",
+        "release_message": "1. 新增命令行运行模式。\r\n2. 命令行模式下，支持Dubbo3.x环境下，该漏洞的无损扫描。\r\n3. 命令行模式下，支持Dubbo3.x环境下，从文件导入URL列表，进行多线程批量无损扫描。\r\n\r\n:partying_face: 此版本为该项目的最后一个版本。对于Apache Dubbo的更多扫描和利用即将在之后另一个项目中开源，敬请期待！:partying_face:",
+        "release_tag": "v1.0.2"
+    },
+    "https://github.com/JaneMandy/CVE-2023-51467-Exploit": {
+        "created_at": "2024-01-06 04:09:10",
+        "description": "Apache Ofbiz CVE-2023-51467  图形化漏洞利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "fix:http bug and add README.md",
+        "commit_date": "2024-01-06 10:33:07",
+        "release_date": "2024-01-06 04:11:03",
+        "release_message": "Apache-Ofbiz v1.0.1\r\n修复部分bug",
+        "release_tag": "Apache-Ofbiz"
+    },
+    "https://github.com/Y5neKO/ShiroEXP": {
+        "created_at": "2024-11-26 02:30:58",
+        "description": "Shiro漏洞利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "fix.",
+        "commit_date": "2024-11-27 02:02:27",
+        "release_date": "2024-11-26 06:45:09",
+        "release_message": "### v0.2版本发布\r\n修复dnslog平台失效，新增全局代理。\r\n\r\n功能新增：\r\n\r\n- 全局代理",
+        "release_tag": "v0.2"
+    },
+    "https://github.com/guguyu1/tomcat_password": {
+        "created_at": "2021-03-05 16:44:59",
+        "description": "tomcat 图形化弱口令爆破 也可以作为401认证爆破",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update README.md",
+        "commit_date": "2021-03-05 18:03:09",
+        "release_date": "2021-03-05 16:46:00",
+        "release_message": "tomcat图形化爆破工具",
+        "release_tag": "1"
+    },
     "https://github.com/20142995/file": {
         "created_at": "2023-05-12 10:48:26",
         "description": null,
-        "updated_at": "2025-02-16 03:17:53",
+        "updated_at": "2025-02-22 21:36:48",
         "commit_message": "commit message",
         "commit_date": "2023-05-12 10:48:26",
-        "release_date": "2025-01-19 03:25:01",
+        "release_date": "2025-02-20 06:04:59",
         "release_message": "",
-        "release_tag": "FastjsonExploit",
-        "bucket": true
+        "release_tag": "filelocator"
+    },
+    "https://github.com/yuxianzi/FrchannelPlus": {
+        "created_at": "2024-06-04 09:18:05",
+        "description": "帆软bi反序列化漏洞利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "fix",
+        "commit_date": "2024-06-04 09:18:05",
+        "release_date": "2024-06-04 09:30:40",
+        "release_message": "fix ssl",
+        "release_tag": "1.0"
+    },
+    "https://github.com/netuseradministrator/CVE-2024-36401": {
+        "created_at": "2024-10-05 10:15:13",
+        "description": "geoserver图形化漏洞利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-10-08 03:16:26",
+        "release_date": "2024-10-05 10:20:27",
+        "release_message": "CVE-2024-36401图形化利用工具",
+        "release_tag": "CVE-2024-36401"
+    },
+    "https://github.com/whitebear-ch/GeoServerExploit": {
+        "created_at": "2025-01-08 13:14:43",
+        "description": "GeoServer（CVE-2024-36401/CVE-2024-36404）漏洞利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "add readme",
+        "commit_date": "2025-01-08 13:14:43",
+        "release_date": "2025-01-17 08:36:48",
+        "release_message": "- 修复代理功能\r\n- 优化小部分代码\r\n- 修改为 JDK 8 可运行的 Jar 包",
+        "release_tag": "v1.0.1"
+    },
+    "https://github.com/7wkajk/jeecgBootAttack": {
+        "created_at": "2025-02-01 02:56:07",
+        "description": "jeecgBoot漏洞利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update README.md",
+        "commit_date": "2025-02-01 03:13:49",
+        "release_date": "2025-02-01 02:58:50",
+        "release_message": "jeecgBoot漏洞利用工具\r\n支持queryFieldBySql Freemarker模板注入、testConnection JDBC 远程代码执行漏洞",
+        "release_tag": "v1.0"
+    },
+    "https://github.com/ssrsec/JeecgBoot-offline-brute": {
+        "created_at": "2024-11-22 16:37:56",
+        "description": "jeecg-boot密码离线爆破",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "fix https://github.com/ssrsec/JeecgBoot-offline-brute/issues/1",
+        "commit_date": "2024-11-22 16:37:56",
+        "release_date": "2024-11-22 16:39:32",
+        "release_message": "1、fix https://github.com/ssrsec/JeecgBoot-offline-brute/issues/1\r\n2、增加一点提示",
+        "release_tag": "1.1"
+    },
+    "https://github.com/1150037361/SpringScan": {
+        "created_at": "2023-02-17 11:20:44",
+        "description": "一个扫描Spring的常见敏感目录的burp suite插件",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update README.md\n\n2.0版本",
+        "commit_date": "2023-06-09 09:18:20",
+        "release_date": "2023-06-09 09:02:30",
+        "release_message": "最新版本支持扫描开关，能够控制扫描是否打开，同时支持慢速模式，避免被封IP（慢速模式扫描结果出的很慢，可能要等一两分钟才能出结果），同时更新了主动扫描以及api接口分析页面便于进行API接口测试",
+        "release_tag": "v2.0"
+    },
+    "https://github.com/light-Life/CVE-2022-22965-GUItools": {
+        "created_at": "2022-03-31 14:24:19",
+        "description": "spring-core单个图形化利用工具，CVE-2022-22965及修复方案已出",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Add files via upload",
+        "commit_date": "2022-04-02 15:29:31",
+        "release_date": "2022-03-31 14:28:36",
+        "release_message": "",
+        "release_tag": "CVE-2022-22965-GUItools"
+    },
+    "https://github.com/whwlsfb/SpringSpider": {
+        "created_at": "2022-10-21 04:11:34",
+        "description": "Spring Actuator端点的BurpSuite被动扫描插件。",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Merge branch 'master' of https://github.com/whwlsfb/SpringSpider",
+        "commit_date": "2022-11-02 04:03:39",
+        "release_date": "2022-10-21 08:36:17",
+        "release_message": "",
+        "release_tag": "V1.0"
+    },
+    "https://github.com/guguyu1/thinkphp-rce-gui": {
+        "created_at": "2021-02-27 15:39:48",
+        "description": "thinkphp rce利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update README.md",
+        "commit_date": "2021-02-27 15:43:14"
+    },
+    "https://github.com/Anthony558238/xxl-job-exp": {
+        "created_at": "2024-11-05 03:39:13",
+        "description": "xxl-job 漏洞利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-11-05 12:58:43",
+        "release_date": "2024-11-05 03:41:56",
+        "release_message": "首次发布",
+        "release_tag": "v1.0"
+    },
+    "https://github.com/pureqh/xxl-job-attack": {
+        "created_at": "2025-02-10 09:46:59",
+        "description": "xxl-job漏洞综合利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update README.md",
+        "commit_date": "2025-02-14 07:33:26",
+        "release_date": "2025-02-10 09:49:43",
+        "release_message": "为了提高可用性提供了冰蝎Filter和Vagent两种内存马",
+        "release_tag": "xxl-job-attack-1.1"
+    },
+    "https://github.com/Janhsu/DockerAPITool": {
+        "created_at": "2024-12-29 15:32:07",
+        "description": "DockerRemoteAPI未授权访问(2375端口)利用工具，支持容器逃逸",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-12-29 15:32:07",
+        "release_date": "2024-12-29 15:35:56",
+        "release_message": "欢迎提bug",
+        "release_tag": "v0.1"
+    },
+    "https://github.com/CRlife/YisaiExploitGUI": {
+        "created_at": "2025-01-16 03:04:26",
+        "description": "亿赛通综合漏洞利用工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Update README.md",
+        "commit_date": "2025-01-16 14:48:25",
+        "release_date": "2025-01-16 03:26:09",
+        "release_message": "YisaiExploitGUI v1.0",
+        "release_tag": "v1.0"
+    },
+    "https://github.com/M0untainShley/FEExploit": {
+        "created_at": "2024-11-11 03:30:32",
+        "description": "某 FE 平台一键漏洞探测工具，支持单 url 以及批量探测",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "first commit",
+        "commit_date": "2024-11-11 03:36:53"
+    },
+    "https://github.com/raise-isayan/ViewStateDecoder": {
+        "created_at": "2023-08-19 03:12:20",
+        "description": "Burpsuite extension. Supports  ASP.NET ViewStateDecoder",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "Upgrade Montoya",
+        "commit_date": "2024-05-19 15:32:37",
+        "release_date": "2023-08-19 03:13:56",
+        "release_message": "",
+        "release_tag": "v3.0.0.0"
+    },
+    "https://github.com/W0r1d-Pr1nt/RCEmap": {
+        "created_at": "2025-01-27 14:57:27",
+        "description": "一个类似sqlmap的RCE自动化工具",
+        "updated_at": "2025-02-22 21:36:48",
+        "commit_message": "README.md(update)",
+        "commit_date": "2025-01-27 14:57:27",
+        "release_date": "2025-01-27 15:01:13",
+        "release_message": "修复了环境变量情况下https好像会卡住的bug\r\n(别的没看,具体不知道,)\r\n\r\n新增win和linux双版本字体库\r\n(这玩意怎么描述呢,大抵就是linux也能有中文了?具体我也没试其实,谁试完不好使发issue或者联系我都行)\r\n\r\n新增复制按钮,能一键复制poc和回显之类的",
+        "release_tag": "v0.6.5"
     }
 }

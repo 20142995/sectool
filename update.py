@@ -24,7 +24,7 @@ async def get_other_url_status(session, url):
             title = re.search('<title>(.*?)</title>', html, re.I).group(
                 1) if re.search('<title>(.*?)</title>', html, re.I) else ''
             return {'url': url, 'status_code': status_code, 'title': title}
-    except aiohttp.ClientError as e:
+    except Exception as e:
         return {}
 
 
@@ -208,7 +208,6 @@ def update_readme():
     total_md += "\n".join(msg)  # 将项目信息拼接为Markdown格式字符串
     with open("README.md", "w", encoding="utf8") as fd:
         fd.write(total_md)  # 将Markdown格式字符串写入README.md文件
-
 
 def update_change():
     '''检查链接新增和删除'''
