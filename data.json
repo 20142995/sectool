@@ -839,7 +839,7 @@
         "release_tag": "v2.0.8-push",
         "release_date": "2024-02-20 07:23:05",
         "release_message": "",
-        "updated_at": "2025-02-23 01:14:26",
+        "updated_at": "2025-02-23 12:01:15",
         "bucket": true
     },
     "https://github.com/murphysecurity/murphysec": {
@@ -19412,7 +19412,7 @@
         "release_date": "2022-04-18 10:22:07",
         "release_message": "* Fix login flow from returning 404 errors\r\n* Fix broken media messages",
         "release_tag": "v3.0.4",
-        "updated_at": "2025-02-23 01:14:26",
+        "updated_at": "2025-02-23 12:01:15",
         "bucket": true,
         "description": "Desktop application for Instagram DMs",
         "commit_message": "Delete CNAME",
@@ -19421,7 +19421,7 @@
     "https://github.com/Lymphatus/caesium-image-compressor": {
         "created_at": "2024-10-27 15:15:26",
         "description": "Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG, WebP and TIFF formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.",
-        "updated_at": "2025-02-23 01:14:26",
+        "updated_at": "2025-02-23 12:01:15",
         "commit_message": "Update workflow to Qt 6.8.2",
         "commit_date": "2025-02-22 11:37:40",
         "release_date": "2024-10-27 15:38:07",
@@ -20279,17 +20279,6 @@
         "release_tag": "v0.6.5",
         "bucket": true
     },
-    "https://github.com/20142995/file": {
-        "created_at": "2023-05-12 10:48:26",
-        "description": null,
-        "updated_at": "2025-02-23 01:14:26",
-        "commit_message": "commit message",
-        "commit_date": "2023-05-12 10:48:26",
-        "release_date": "2025-02-20 06:04:59",
-        "release_message": "",
-        "release_tag": "filelocator",
-        "bucket": true
-    },
     "https://github.com/B0T1eR/ysoSimple": {
         "created_at": "2025-01-21 04:27:48",
         "description": "ysoSimple：简易的Java漏洞利用工具，集成Java反序列化，Hessian反序列化，XStream反序列化，SnakeYaml反序列化，Shiro550，JSF反序列化，SSTI模板注入，JdbcAttackPayload，JNDIAttack，字节码生成。",
@@ -20563,5 +20552,194 @@
         "description": "xia Jie (瞎解) burp 插件 数据包 加解密 ，对burp的请求包和响应包用python完全自定义修改流量",
         "updated_at": "2025-02-23 01:14:26",
         "bucket": true
+    },
+    "https://github.com/Conan924/Bypass-Suite": {
+        "created_at": "2024-07-19 06:07:17",
+        "description": "BurpSuite extensions -Bypass Suite",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-07-19 06:19:38",
+        "release_date": "2024-07-19 06:17:19",
+        "release_message": "",
+        "release_tag": "V1.0"
+    },
+    "https://github.com/smxiazi/xia_Yue": {
+        "created_at": "2023-03-04 07:26:33",
+        "description": "burp 插件 xia_Yue（瞎越） 主要用于测试越权、未授权",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-27 13:39:40",
+        "release_date": "2024-08-27 00:05:20",
+        "release_message": "* 修复bug，越权未授权部份情况，未删除认证信息",
+        "release_tag": "1.4"
+    },
+    "https://github.com/WXjzcccc/PanelForensics": {
+        "created_at": "2025-01-14 01:52:28",
+        "description": "Linux面板取证一把梭",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "bug dix",
+        "commit_date": "2025-01-14 01:52:28",
+        "release_date": "2025-01-14 01:59:35",
+        "release_message": "1.修复一些小问题",
+        "release_tag": "v1.0R1"
+    },
+    "https://github.com/zidanfanshao/vcenter_tools": {
+        "created_at": "2024-11-13 16:26:44",
+        "description": "vcenter图形化漏洞利用工具",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-11-17 15:04:19",
+        "release_date": "2024-11-17 14:58:36",
+        "release_message": "## 更新\r\n\r\n* 添加了cve-2022-22005的文件上传（利用时如果有问题，注意看console的返回状态码）\r\n![1451731855473_ pic](https://github.com/user-attachments/assets/8ac4afcc-df0c-415d-b4c4-f9fe27fa8049)\r\n",
+        "release_tag": "v0.4"
+    },
+    "https://github.com/0xlane/wechat-dump-rs": {
+        "created_at": "2025-02-19 02:40:54",
+        "description": "该工具用于导出正在运行中的微信进程的 key 并自动解密所有微信数据库文件以及导出 key 后数据库文件离线解密。",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "fix #61",
+        "commit_date": "2025-02-19 02:40:54",
+        "release_date": "2025-02-19 02:42:17",
+        "release_message": null,
+        "release_tag": "v1.0.29"
+    },
+    "https://github.com/h0ny/MobaXtermDecryptor": {
+        "created_at": "2024-08-08 11:18:22",
+        "description": "A simple MobaXterm password extraction tool.",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Update artifact.yml",
+        "commit_date": "2024-08-08 11:18:12",
+        "release_date": "2024-08-08 11:20:14",
+        "release_message": "",
+        "release_tag": "v1.0.1"
+    },
+    "https://github.com/oakes/PixelJihad": {
+        "created_at": "2012-06-25 04:23:19",
+        "description": "A JavaScript steganography tool",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Add gitattributes",
+        "commit_date": "2015-03-29 22:43:41"
+    },
+    "https://github.com/resurrecting-open-source-projects/outguess": {
+        "created_at": "2021-09-03 01:09:10",
+        "description": "Universal steganographic tool",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Prepare to release version 0.4",
+        "commit_date": "2021-09-03 01:09:10",
+        "release_date": "2021-09-03 01:14:32",
+        "release_message": "* Clarified licensing for src/golay.c.\r\n* Fixed 'Unknown data type' for .pnm files.\r\n\r\nSpecial thanks to Daniel T. Borelli and Robert Morelos-Zaragoza.",
+        "release_tag": "0.4"
+    },
+    "https://github.com/mlgualtieri/NTLMRawUnHide": {
+        "created_at": "2020-06-10 15:58:42",
+        "description": "NTLMRawUnhide.py is a Python3 script designed to parse network packet capture files and extract NTLMv2 hashes in a crackable format. The following binary network packet capture formats are supported: *.pcap *.pcapng *.cap *.etl",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Merge pull request #4 from varcella-ctf/master\n\nChanged typo in variable name on line 240, which caused -o flag to fail",
+        "commit_date": "2023-11-13 16:10:39"
+    },
+    "https://github.com/Ormicron/ShiroDecrypter": {
+        "created_at": "2021-07-30 06:20:37",
+        "description": "一个解密 Shiro-rememberMe的图形化小工具，支持cbc和gcm。",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Update README.md",
+        "commit_date": "2021-07-30 06:20:37",
+        "release_date": "2021-08-11 08:21:27",
+        "release_message": "修复错误",
+        "release_tag": "2"
+    },
+    "https://github.com/peass-ng/PEASS-ng": {
+        "created_at": "2025-02-16 16:36:01",
+        "description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "fix wget",
+        "commit_date": "2025-02-16 16:36:01",
+        "release_date": "2025-02-16 16:51:46",
+        "release_message": "",
+        "release_tag": "20250216-fd69e735"
+    },
+    "https://github.com/Rup0rt/pcapfix": {
+        "created_at": "2021-07-03 10:45:09",
+        "description": "repair corrupted pcap files",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Updated kuznetzov link; fixes issue #34",
+        "commit_date": "2024-05-27 11:45:18",
+        "release_date": "2021-07-03 11:19:14",
+        "release_message": "* fixed security issues\n\n[![Download pcapfix](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/pcapfix/files/v1.1.7/pcapfix-1.1.7-win32.zip/download)",
+        "release_tag": "v1.1.7"
+    },
+    "https://github.com/ProbiusOfficial/RCE-labs": {
+        "created_at": "2024-08-05 13:35:27",
+        "description": "【Hello-CTF labs】一个想帮你收集所有RCE技巧的靶场。",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Merge pull request #4 from miaotony/patch-1\n\nDocs: Fix some bugs and display issues.",
+        "commit_date": "2024-11-02 22:31:04"
+    },
+    "https://github.com/pow1e/pfish": {
+        "created_at": "2024-11-24 13:57:46",
+        "description": "轻量级的无害化钓鱼~",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Merge remote-tracking branch 'origin/master'",
+        "commit_date": "2024-11-28 07:50:53"
+    },
+    "https://github.com/20142995/PentestReport": {
+        "created_at": "2024-04-06 12:04:29",
+        "description": "渗透测试报告",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Update README.md",
+        "commit_date": "2025-01-22 08:41:11",
+        "release_date": "2025-01-22 08:35:14",
+        "release_message": "",
+        "release_tag": "v1.0"
+    },
+    "https://github.com/intbjw/webshell-decryptor": {
+        "created_at": "2024-12-18 13:38:41",
+        "description": "通过获取到的webshell流量、url、key来还原攻击者使用webshell所做的操作。",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Merge remote-tracking branch 'origin/main'",
+        "commit_date": "2024-12-27 10:16:48"
+    },
+    "https://github.com/BoyChai/FuckEventvwr": {
+        "created_at": "2025-01-21 05:38:24",
+        "description": "Windows日志解析",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "feat: add ES index existence check and creation",
+        "commit_date": "2025-01-21 05:53:40",
+        "release_date": "2025-01-21 05:58:30",
+        "release_message": "修复ES导出数据减少问题",
+        "release_tag": "v0.2.1"
+    },
+    "https://github.com/achiove/BlueTeamTool": {
+        "created_at": "2023-06-27 10:41:11",
+        "description": null,
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-07-05 08:47:07",
+        "release_date": "2023-06-27 11:07:51",
+        "release_message": "",
+        "release_tag": "v1.0"
+    },
+    "https://github.com/0ctDay/encrypt-decrypt-vuls": {
+        "created_at": "2024-05-15 07:37:47",
+        "description": "加解密逻辑漏洞靶场",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-05-16 06:37:48"
+    },
+    "https://github.com/Ackites/KillWxapkg": {
+        "created_at": "2024-09-20 04:12:44",
+        "description": "自动化反编译微信小程序，小程序安全评估工具，发现小程序安全问题，自动解密，解包，可还原工程目录，支持Hook，小程序修改",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "style: v2.4.1",
+        "commit_date": "2024-09-20 04:12:44",
+        "release_date": "2024-09-20 04:14:58",
+        "release_message": "## Changelog\n* faf339e60404f14e31953ecf89936ea5c19462da feat: Hook 新版本支持, 修复\n* ddc388d8238fe2d70241bcbe3f95cb145364c32a feat: 敏感信息规则更新\n\n",
+        "release_tag": "v2.4.1"
+    },
+    "https://github.com/threecha/wxappUnpacker": {
+        "created_at": "2023-07-13 05:37:09",
+        "description": "基于node的微信小程序反编译工具，在前人的基础上修复了几个程序报错问题。",
+        "updated_at": "2025-02-23 12:01:15",
+        "commit_message": "增加解密工具 应该只有PC端拿到的包需要用",
+        "commit_date": "2023-07-13 05:50:35"
     }
 }
