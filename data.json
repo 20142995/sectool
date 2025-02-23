@@ -833,12 +833,12 @@
     "https://github.com/knownsec/pocsuite3": {
         "created_at": "2024-02-20 07:11:01",
         "description": "pocsuite3 is an open-sourced remote vulnerability testing framework developed by the Knownsec 404 Team.",
-        "commit_date": "2024-11-26 09:08:15",
-        "commit_message": "fix: no moudel telnetlib in py3.13",
+        "commit_date": "2025-02-19 10:26:47",
+        "commit_message": "fix: zoomeye dork not base64 query",
         "release_tag": "v2.0.8-push",
         "release_date": "2024-02-20 07:23:05",
         "release_message": "",
-        "updated_at": "2025-02-16 03:17:53",
+        "updated_at": "2025-02-23 01:14:26",
         "bucket": true
     },
     "https://github.com/murphysecurity/murphysec": {
@@ -19408,7 +19408,7 @@
         "release_date": "2022-04-18 10:22:07",
         "release_message": "* Fix login flow from returning 404 errors\r\n* Fix broken media messages",
         "release_tag": "v3.0.4",
-        "updated_at": "2025-02-22 21:36:48",
+        "updated_at": "2025-02-23 01:14:26",
         "bucket": true,
         "description": "Desktop application for Instagram DMs",
         "commit_message": "Delete CNAME",
@@ -19417,7 +19417,7 @@
     "https://github.com/Lymphatus/caesium-image-compressor": {
         "created_at": "2024-10-27 15:15:26",
         "description": "Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG, WebP and TIFF formats.   You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.",
-        "updated_at": "2025-02-22 21:36:48",
+        "updated_at": "2025-02-23 01:14:26",
         "commit_message": "Update workflow to Qt 6.8.2",
         "commit_date": "2025-02-22 11:37:40",
         "release_date": "2024-10-27 15:38:07",
@@ -20082,16 +20082,6 @@
         "release_message": "tomcat图形化爆破工具",
         "release_tag": "1"
     },
-    "https://github.com/20142995/file": {
-        "created_at": "2023-05-12 10:48:26",
-        "description": null,
-        "updated_at": "2025-02-22 21:36:48",
-        "commit_message": "commit message",
-        "commit_date": "2023-05-12 10:48:26",
-        "release_date": "2025-02-20 06:04:59",
-        "release_message": "",
-        "release_tag": "filelocator"
-    },
     "https://github.com/yuxianzi/FrchannelPlus": {
         "created_at": "2024-06-04 09:18:05",
         "description": "帆软bi反序列化漏洞利用工具",
@@ -20245,5 +20235,262 @@
         "release_date": "2025-01-27 15:01:13",
         "release_message": "修复了环境变量情况下https好像会卡住的bug\r\n(别的没看,具体不知道,)\r\n\r\n新增win和linux双版本字体库\r\n(这玩意怎么描述呢,大抵就是linux也能有中文了?具体我也没试其实,谁试完不好使发issue或者联系我都行)\r\n\r\n新增复制按钮,能一键复制poc和回显之类的",
         "release_tag": "v0.6.5"
+    },
+    "https://github.com/20142995/file": {
+        "created_at": "2023-05-12 10:48:26",
+        "description": null,
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "commit message",
+        "commit_date": "2023-05-12 10:48:26",
+        "release_date": "2025-02-20 06:04:59",
+        "release_message": "",
+        "release_tag": "filelocator"
+    },
+    "https://github.com/B0T1eR/ysoSimple": {
+        "created_at": "2025-01-21 04:27:48",
+        "description": "ysoSimple：简易的Java漏洞利用工具，集成Java反序列化，Hessian反序列化，XStream反序列化，SnakeYaml反序列化，Shiro550，JSF反序列化，SSTI模板注入，JdbcAttackPayload，JNDIAttack，字节码生成。",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "fix:ysoSimple-Wiki文档修改",
+        "commit_date": "2025-01-23 03:20:07",
+        "release_date": "2025-01-21 04:52:24",
+        "release_message": "ysoSimple：简易的Java漏洞利用工具，代码简单易懂，易于学习和修改使用\r\n\r\n**集成模块：**\r\n\r\n1. Java反序列化\r\n2. Hessian反序列化\r\n3. XStream反序列化\r\n4. SnakeYaml反序列化\r\n5. Shiro550\r\n6. JSF反序列化\r\n7. SSTI模板注入\r\n8. JdbcAttackPayload\r\n9. JNDIAttack\r\n10. 字节码生成\r\n\r\n**使用手册：**\r\n\r\n[ysoSimple-Wiki](https://github.com/B0T1eR/ysoSimple/blob/master/ysoSimple-Wiki.md)",
+        "release_tag": "v1.0.1"
+    },
+    "https://github.com/Lotus6/ysoserial": {
+        "created_at": "2024-10-13 09:05:44",
+        "description": "ysoserial 图形化，探测 Gadget，探测 Class，命令执行，注入哥斯拉冰蝎内存马，加载字节码等",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md\n\nv1.2",
+        "commit_date": "2024-11-27 15:50:34",
+        "release_date": "2024-11-27 15:47:21",
+        "release_message": "新增 fastjson c3p0 时 POC 的 Hex 编码生成\r\n新增 Grovvy2 链",
+        "release_tag": "v1.2"
+    },
+    "https://github.com/pap1rman/JNDIExploit-modify": {
+        "created_at": "2023-01-14 18:21:50",
+        "description": "对原版JNDIExploit进行修改增加线程和JMX注入内存马",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-01-16 17:59:22",
+        "release_date": "2023-01-15 06:23:06",
+        "release_message": "JNDIExploit-1.5-SNAPSHOT",
+        "release_tag": "1.5"
+    },
+    "https://github.com/doki-byte/EasyTools": {
+        "created_at": "2025-02-15 17:39:18",
+        "description": "EasyTools 一个简单方便使用的渗透测试工具箱",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md\n\nv1.3更新",
+        "commit_date": "2025-02-15 17:42:56",
+        "release_date": "2025-02-15 17:41:14",
+        "release_message": "1. 集成ShellCode在线免杀处理平台\r\n2. 新增文件体积修改功能\r\n3. 新增免杀：5种运行模式、2种加密方式、2种编译方式\r\n4. 修复已知bug，新增未知bug\r\n5. ……",
+        "release_tag": "v1.3"
+    },
+    "https://github.com/vsdwef/StarCodeSecurity": {
+        "created_at": "2024-12-30 03:06:41",
+        "description": "这是一款图形化的代码审计工具，支持对规则进行增删改查。可协助代码审计人员在日常代审中对于规则的积累。其中配置页面可配置：审计文件后缀、审计路径关键字、禁止审计路径关键字。支持 java php net项目审计。",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md",
+        "commit_date": "2025-01-16 08:19:40",
+        "release_date": "2025-01-03 05:18:02",
+        "release_message": "新增点击跳转至漏洞具体行的跳转指示标志 ☞\r\n新增漏洞导出功能\r\n\r\n",
+        "release_tag": "V1.2"
+    },
+    "https://github.com/qiuluo-oss/Tiger": {
+        "created_at": "2024-08-28 02:44:07",
+        "description": "Tiger是一款在攻防演练中对目标资产重点系统指纹识别、精准漏扫的工具。是一款打点神器。",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-08-29 01:27:43",
+        "release_date": "2024-09-10 07:42:20",
+        "release_message": "新增中国移动 禹路由指纹，优化碧海威指纹、BSPHP网络验证系统指纹，新增12个POC，截至目前POC数量已达200+，解压密码：luosige",
+        "release_tag": "v1.1.0"
+    },
+    "https://github.com/20142995/dpdd": {
+        "created_at": "2025-02-11 06:49:02",
+        "description": null,
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "clear",
+        "commit_date": "2025-02-11 07:27:03",
+        "release_date": "2025-02-11 06:54:45",
+        "release_message": "初版",
+        "release_tag": "v1.0"
+    },
+    "https://github.com/openwall/johnny": {
+        "created_at": "2015-08-24 17:29:45",
+        "description": "GUI frontend to John the Ripper password cracker",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Fixed 7z2john.py to 7z2john.pl",
+        "commit_date": "2022-05-29 17:39:52",
+        "release_date": "2015-08-24 17:35:37",
+        "release_message": "This release adds three major features, import hashes from many file types via *2john conversion, support for Jumbo specific attack modes and Passwords table export to CSV and PASSWD format.\n\nThe UI has seen further improvements in usability and consistency terms. Smaller fixes and adjustments are included, for a complete list of changes see the CHANGELOG entry for v2.2:\n\nhttps://github.com/shinnok/johnny/blob/v2.2/CHANGELOG\n\nNB: This release is the last one as part of GSoC 2015 iteration and thus marks the successful end of the fruitful collaboration and efforts of Mathieu Laprise. Thanks again Mathieu for taking Johnny further and contributing to the Open Source and security community!\n\nFor binary redistributables and more info regarding Johnny see this wiki page:\nhttp://openwall.info/wiki/john/johnny\n",
+        "release_tag": "v2.2"
+    },
+    "https://github.com/Chora10/FuzzDomain": {
+        "created_at": "2017-02-20 05:18:59",
+        "description": "FuzzDomain",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "fix count",
+        "commit_date": "2017-02-27 08:04:01"
+    },
+    "https://github.com/kristyzhy/wxapkg_infosearch": {
+        "created_at": "2025-01-16 01:14:51",
+        "description": null,
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Add files via upload",
+        "commit_date": "2025-01-15 01:16:25"
+    },
+    "https://github.com/ScriptKid-Beta/WebBatchRequest": {
+        "created_at": "2021-10-09 06:10:36",
+        "description": "WEB批量请求器（WebBatchRequest）是对目标地址批量进行快速的存活探测、Title获取，简单的banner识别，支持HTTP代理以及可自定义HTTP请求用于批量的漏洞验证等的一款基于JAVA编写的轻量工具。",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md",
+        "commit_date": "2021-11-10 08:22:26",
+        "release_date": "2021-11-10 07:51:50",
+        "release_message": "[ - ] 优化重定向跳转\r\n[ - ] 优化Title识别\r\n[ - ] 允许手动设置Host头(https://github.com/ScriptKid-Beta/WebBatchRequest/issues/8)\r\n[ - ] 优化GUI界面\r\n[ - ] 默认线程调整为5",
+        "release_tag": "v1.4"
+    },
+    "https://github.com/N-Next/URLFinder-x": {
+        "created_at": "2025-01-17 06:36:35",
+        "description": "优化后的URLFinder，可以通过自定义的正则表达式，对页面中的各类敏感信息提取",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md",
+        "commit_date": "2025-01-20 08:44:26",
+        "release_date": "2025-01-17 07:18:34",
+        "release_message": "2024/1/17",
+        "release_tag": "2025/1/17"
+    },
+    "https://github.com/ttstormxx/jjjjjjjjjjjjjs": {
+        "created_at": "2023-07-20 05:44:19",
+        "description": "爬网站JS文件，自动fuzz api接口，指定api接口（针对前后端分离项目，可指定后端接口地址），回显api响应",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "调整依赖",
+        "commit_date": "2023-07-20 05:44:19",
+        "release_date": "2023-07-20 05:54:45",
+        "release_message": "获得爬取进度指示器\r\nURL/JS正则修正，大幅提升匹配率\r\n爬取深度修正，普通深度上限2层，增加deep模式，URL上限2层，JS上限3层，同源URL深度3层，JS深度5层",
+        "release_tag": "v2.4.0"
+    },
+    "https://github.com/vsdwef/James_synthesis_tooL": {
+        "created_at": "2024-12-02 07:06:44",
+        "description": "旨在帮助技术人员在日常渗透测试或攻防演练中对于漏洞及指纹的积累，形成自己强大的漏洞库及指纹库。相比于nuclei脚本可能会相对无脑简化！且采用GUI设置，使用起来也更加方便！",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md",
+        "commit_date": "2025-01-16 08:20:02",
+        "release_date": "2024-12-27 03:58:49",
+        "release_message": "修复文件上传漏洞对于文件名携带 \\ 字符 出现无法上传得问题",
+        "release_tag": "V2.2.1"
+    },
+    "https://github.com/Offensive-Panda/ShadowDumper": {
+        "created_at": "2024-11-10 16:35:17",
+        "description": "Shadow Dumper is a powerful tool used to dump LSASS memory, often needed in penetration testing and red teaming. It uses multiple advanced techniques to dump memory, allowing to access sensitive data in LSASS memory. ",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-11-19 06:48:29",
+        "release_date": "2024-11-10 17:44:14",
+        "release_message": "Version: v1.0\r\nCompatibility: Windows (x64) [tested with x64 build] on Windows 10 Version 22H2 (OS build 19045.5073) with major 10.0\r\n(Note: You may face issues on latest releases in some methods, this can be due to version of mimikatz)\r\n\r\nWhat's Inside:\r\nShadowDumper.exe: The main executable for dumping lsass memory. (x64 build)\r\n\r\nKey Features:\r\nUnhooked Injection (Modified Mimikatz Binary)\r\nUnhooked Injection (Direct Syscalls with MDWD)\r\nSimple MiniDumpWriteDump API\r\nMINIDUMP_CALLBACK_INFORMATION Callbacks\r\nProcess Forking Technique\r\nDirect Syscalls with MiniDumpWriteDump\r\nNative Dump with Direct syscalls (Offline Parsing)",
+        "release_tag": "LsassDumping"
+    },
+    "https://github.com/TheRealAdamBurford/Create-KeyTab": {
+        "created_at": "2019-11-22 19:41:30",
+        "description": "Create KeyTab PowerShell Script",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Merge pull request #3 from matherm-aboehm/master\n\nAdd KRB5_NT_SRV_HST to possible PType values",
+        "commit_date": "2020-11-03 17:08:18"
+    },
+    "https://github.com/GTFOBins/GTFOBins.github.io": {
+        "created_at": "2018-05-21 19:14:11",
+        "description": "GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Bump rexml from 3.3.6 to 3.3.9\n\nBumps [rexml](https://github.com/ruby/rexml) from 3.3.6 to 3.3.9.\n- [Release notes](https://github.com/ruby/rexml/releases)\n- [Changelog](https://github.com/ruby/rexml/blob/master/NEWS.md)\n- [Commits](https://github.com/ruby/rexml/compare/v3.3.6...v3.3.9)\n\n---\nupdated-dependencies:\n- dependency-name: rexml\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "commit_date": "2024-10-28 18:53:25"
+    },
+    "https://github.com/BC-SECURITY/Moriarty": {
+        "created_at": "2024-04-24 12:35:58",
+        "description": "Moriarty is designed to enumerate missing KBs, detect various vulnerabilities, and suggest potential exploits for Privilege Escalation in Windows environments. ",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update CHANGELOG.md",
+        "commit_date": "2024-04-24 12:35:58",
+        "release_date": "2024-04-24 12:36:36",
+        "release_message": "## 1.2 - 2024-04-24\r\n### Added\r\n-   Added GitHub action to compile executable on release\r\n-   Added 2023-23397\r\n-   Added 2022-34718\r\n\r\n### Removed\r\n-   Removed unused imports\r\n\r\n### Changed\r\n-   Updated min .NET version to 4.5\r\n-   Updated CVE-2021-44228 to have a max depth for scanning files\r\n-   Updated Task calls so it works with Empire",
+        "release_tag": "1.2"
+    },
+    "https://github.com/LOLBAS-Project/LOLBAS": {
+        "created_at": "2018-06-08 22:11:05",
+        "description": "Living Off The Land Binaries And Scripts - (LOLBins and LOLScripts)",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Create WFMFormat.yml (#413)\n\nCo-authored-by: Wietze <wietze@users.noreply.github.com>",
+        "commit_date": "2025-02-15 14:33:23"
+    },
+    "https://github.com/lv183037/MaLoader": {
+        "created_at": "2024-12-12 04:10:07",
+        "description": null,
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Add files via upload",
+        "commit_date": "2024-12-13 03:44:31",
+        "release_date": "2024-12-13 03:46:12",
+        "release_message": "",
+        "release_tag": "V1.0"
+    },
+    "https://github.com/savior-only/Sunlogin_RCE-GUI-": {
+        "created_at": "2022-07-10 17:36:41",
+        "description": "向日葵漏洞图形化利用工具",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md",
+        "commit_date": "2023-06-05 15:38:17",
+        "release_date": "2022-07-11 05:43:03",
+        "release_message": "1、一键获取向日葵配置信息（集成了遇到的几个路径及注册表）\r\n2、执行系统命令（目前主要通过cmd及powershell执行命令\r\n\r\n",
+        "release_tag": "v1.0"
+    },
+    "https://github.com/theLSA/sunlogin-exp-gui": {
+        "created_at": "2022-03-26 09:23:33",
+        "description": "GUI版向日葵RCE漏洞利用工具 / GUI version of sunlogin exploit tool",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "update readme",
+        "commit_date": "2022-03-26 16:54:45",
+        "release_date": "2022-03-26 09:32:41",
+        "release_message": "First release: sunlogin-exp-gui-v1-0.jar.",
+        "release_tag": "v1.0"
+    },
+    "https://github.com/F6JO/JsRouteScan": {
+        "created_at": "2024-06-07 08:51:34",
+        "description": "Burpsuite - Js Route Scan 正则匹配获取响应中的路由进行被动探测与递归目录探测的burp插件",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md",
+        "commit_date": "2024-06-07 08:56:12",
+        "release_date": "2024-06-07 08:54:57",
+        "release_message": "2024-06-07 path的路由界面添加粘贴功能，可右键Paste粘贴剪切板的路由",
+        "release_tag": "JsRouteScan1.2.1"
+    },
+    "https://github.com/ScriptKid-Beta/Unexpected_information": {
+        "created_at": "2020-11-11 09:21:41",
+        "description": "Unexpected information 是用于标记请求包中的一些敏感信息、JS接口和一些特殊字段的BurpSuite 插件。",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md",
+        "commit_date": "2021-01-04 11:07:53",
+        "release_date": "2021-01-04 11:04:56",
+        "release_message": "[ x] 新增一个用户需求接口匹配URL(#3)\r\n[ x] 优化URL匹配",
+        "release_tag": "v2.3.1"
+    },
+    "https://github.com/XF-FS/APIKit": {
+        "created_at": "2025-01-23 08:38:27",
+        "description": "APIKit 是Burp Suite 的一个API接口扫描插件，该版本APIKit是对API-Security项目的APIKit1.0进行的二开，增加了扫描开关，避免直接打开burp乱扫被抓起来",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Update README.md",
+        "commit_date": "2025-01-23 10:03:43",
+        "release_date": "2025-01-23 09:49:20",
+        "release_message": "对actuator、Swagger新增bypass扫描，需要右键选择Do Target API Scan选项，对其添加bypss方法\r\n<img width=\"1273\" alt=\"image\" src=\"https://github.com/user-attachments/assets/190f91a3-6333-4de1-9a9a-0fe5ad384b7d\" />\r\n\r\n该bypss方法，主要是通过在访问路径后添加绕过字符如;.js、;.json绕过接口鉴权\r\n<img width=\"1821\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5c0eb9e0-88cf-4362-9151-3943f50af019\" />\r\n\r\n欢迎试用，也欢迎提出功能建议。",
+        "release_tag": "APIKit1.6.2"
+    },
+    "https://github.com/outlaws-bai/GalaxyHttpHooker": {
+        "created_at": "2023-12-06 12:36:02",
+        "description": "GalaxyHttpHooker",
+        "updated_at": "2025-02-23 01:14:26",
+        "commit_message": "Create aes_cbc.js",
+        "commit_date": "2024-12-17 01:52:29"
+    },
+    "https://github.com/smxiazi/xia_Jie": {
+        "created_at": "2024-09-10 10:30:03",
+        "description": "xia Jie (瞎解) burp 插件 数据包 加解密 ，对burp的请求包和响应包用python完全自定义修改流量",
+        "updated_at": "2025-02-23 01:14:26"
     }
 }
