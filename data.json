@@ -325,7 +325,8 @@
         "commit_message": "更新版本v1.1",
         "release_tag": "v1.1",
         "release_date": "2021-08-06 16:08:16",
-        "release_message": "接口增加fofa,shodan"
+        "release_message": "接口增加fofa,shodan",
+        "bucket": true
     },
     "https://github.com/WangYihang/UsbKeyboardDataHacker": {
         "created_at": "2017-04-04 19:13:45",
@@ -3959,7 +3960,8 @@
         "commit_message": "Adding entry for Vercel WAF",
         "release_tag": "",
         "release_date": "",
-        "release_message": ""
+        "release_message": "",
+        "bucket": true
     },
     "https://github.com/KimJun1010/WeblogicTool": {
         "created_at": "2023-07-06 16:05:15",
@@ -9460,7 +9462,8 @@
         "release_date": "2022-07-17 05:15:47",
         "release_message": "This release brings the following features to the repository:\r\n- New features like docker support and output format fixes.\r\n- Several new bug fixes and stability to the existing code.\r\n- Few new WAF detections.",
         "commit_date": "2024-07-12 09:31:25",
-        "commit_message": "Fix Azion Edge Firewall detection and product name (#205)\n\n* Update azion.py\r\n\r\nAzion has new headers to identify their firewall.\r\n\r\n* Update README.md\r\n\r\nFix the Azion Firewall product name.\r\n\r\n* Update wafprio.py\r\n\r\nfix the Azion Firewall product name."
+        "commit_message": "Fix Azion Edge Firewall detection and product name (#205)\n\n* Update azion.py\r\n\r\nAzion has new headers to identify their firewall.\r\n\r\n* Update README.md\r\n\r\nFix the Azion Firewall product name.\r\n\r\n* Update wafprio.py\r\n\r\nfix the Azion Firewall product name.",
+        "bucket": true
     },
     "https://github.com/its-arun/CVE-2022-39197": {
         "created_at": "2022-10-14 11:46:01",
@@ -13983,7 +13986,8 @@
         "commit_message": "Fixed cannot pickle '_thread.lock' error in python 3.8+\n\nFixed #236: cannot pickle '_thread.lock' object in python 3.8",
         "commit_date": "2020-07-29 06:08:31",
         "release_date": "2020-04-06 18:37:52",
-        "release_message": "# Changelog\r\n* Fixed bug #210 in CrtSearch engine that caused an HTML line break `<BR>`  to appear in the output.\r\n* Fixed #22 broken Netcraft engine due to changes in the HTML structure of the website.\r\n* Fixed the broken DNSdumpster engine due to changes in the HTML structure 5d33d9f25a92cc3f91eb351cff2d7007c198fb44.\r\n* Merged pull request #185 to fix Virustotal engine due to new changes in their website.\r\n* Updated the subbrute resolvers list to fix the Brute-force issues.\r\n* Fixed the PassiveDNS API.\r\n* Fixed few typos in README.\r\n"
+        "release_message": "# Changelog\r\n* Fixed bug #210 in CrtSearch engine that caused an HTML line break `<BR>`  to appear in the output.\r\n* Fixed #22 broken Netcraft engine due to changes in the HTML structure of the website.\r\n* Fixed the broken DNSdumpster engine due to changes in the HTML structure 5d33d9f25a92cc3f91eb351cff2d7007c198fb44.\r\n* Merged pull request #185 to fix Virustotal engine due to new changes in their website.\r\n* Updated the subbrute resolvers list to fix the Brute-force issues.\r\n* Fixed the PassiveDNS API.\r\n* Fixed few typos in README.\r\n",
+        "bucket": true
     },
     "https://github.com/We5ter/GSDF": {
         "created_at": "2017-09-16 14:48:20",
@@ -19913,73 +19917,85 @@
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 200,
-        "title": "PtBarcodeDecPtBarcodeDec 3.0-ZOL"
+        "title": "PtBarcodeDecPtBarcodeDec 3.0-ZOL",
+        "bucket": true
     },
     "https://www.bertnase.de/npiet": {
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 200,
-        "title": ""
+        "title": "",
+        "bucket": true
     },
     "https://issues.apache.org": {
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 200,
-        "title": "issues.apache.org"
+        "title": "issues.apache.org",
+        "bucket": true
     },
     "https://www.ghxi.com/beyondcompare.html": {
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 200,
-        "title": "Beyond Compare v5.0.5.30614 修改版 - 果核剥壳"
+        "title": "Beyond Compare v5.0.5.30614 修改版 - 果核剥壳",
+        "bucket": true
     },
     "https://www.ghxi.com/filelocator.html": {
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 200,
-        "title": "FileLocator Pro(文件搜索) v9.0.3389.0 修改版 - 果核剥壳"
+        "title": "FileLocator Pro(文件搜索) v9.0.3389.0 修改版 - 果核剥壳",
+        "bucket": true
     },
     "https://www.yuque.com/lucy/lucy/record": {
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 200,
-        "title": "语雀"
+        "title": "语雀",
+        "bucket": true
     },
     "https://redis.io": {
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 200,
-        "title": "Redis - The Real-time Data Platform"
+        "title": "Redis - The Real-time Data Platform",
+        "bucket": true
     },
     "https://www.ghxi.com/navicat17.html": {
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 200,
-        "title": "Navicat Premium(数据库管理) v17.1.12 绿色版 - 果核剥壳"
+        "title": "Navicat Premium(数据库管理) v17.1.12 绿色版 - 果核剥壳",
+        "bucket": true
     },
     "https://www.java.com/": {
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 403,
-        "title": "Access Denied"
+        "title": "Access Denied",
+        "bucket": true
     },
     "https://www.ghxi.com/apkinfo.html": {
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 200,
-        "title": "APK Messenger v4.3-专业APK管理工具 - 果核剥壳"
+        "title": "APK Messenger v4.3-专业APK管理工具 - 果核剥壳",
+        "bucket": true
     },
     "https://www.52pojie.cn/thread-709668-1-1.html": {
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 200,
-        "title": "Ѹ£Ʋءäˮӡ&amp;ˮӡ - ᰮƽ - 52pojie.cn "
+        "title": "Ѹ£Ʋءäˮӡ&amp;ˮӡ - ᰮƽ - 52pojie.cn ",
+        "bucket": true
     },
     "https://cloudbase.it/qemu-img-windows/": {
         "created_at": "2025-02-22 21:36:46",
         "updated_at": "2025-02-22 21:36:46",
         "status_code": 200,
-        "title": "qemu-img for WIndows - Cloudbase Solutions"
+        "title": "qemu-img for WIndows - Cloudbase Solutions",
+        "bucket": true
     },
     "https://github.com/zhangqi-ulua/ConvertTools": {
         "created_at": "2022-04-23 04:11:13",
@@ -19989,7 +20005,8 @@
         "commit_date": "2022-07-20 06:54:26",
         "release_date": "2022-04-23 04:11:37",
         "release_message": "1.0.0 正式版",
-        "release_tag": "1.0.0"
+        "release_tag": "1.0.0",
+        "bucket": true
     },
     "https://github.com/jaquadro/NBTExplorer": {
         "created_at": "2017-11-24 07:42:34",
@@ -19999,21 +20016,24 @@
         "commit_date": "2017-11-24 08:05:29",
         "release_date": "2017-11-24 07:48:27",
         "release_message": "- New: Support for NBT long array tags",
-        "release_tag": "v2.8.0-win"
+        "release_tag": "v2.8.0-win",
+        "bucket": true
     },
     "https://github.com/20142995/scoop-search": {
         "created_at": "2025-01-16 06:12:57",
         "description": null,
         "updated_at": "2025-02-22 21:36:48",
         "commit_message": "Update requirements.txt",
-        "commit_date": "2025-01-16 12:58:22"
+        "commit_date": "2025-01-16 12:58:22",
+        "bucket": true
     },
     "https://github.com/curlconverter/curlconverter.github.io": {
         "created_at": "2014-12-24 18:54:52",
         "description": "Website for converting curl commands to code",
         "updated_at": "2025-02-22 21:36:48",
         "commit_message": "Fix --libcurl link (#106)",
-        "commit_date": "2024-11-10 17:11:50"
+        "commit_date": "2024-11-10 17:11:50",
+        "bucket": true
     },
     "https://github.com/wy876/WExploit": {
         "created_at": "2024-12-28 05:44:33",
@@ -20023,14 +20043,16 @@
         "commit_date": "2024-12-28 05:44:33",
         "release_date": "2024-12-31 08:39:00",
         "release_message": "欢迎各位师傅使用工具，poc如果有误报请提issues\r\n## 新增漏洞\r\n    用友畅捷通TPlus download.aspx 存在任意文件读取漏洞 \r\n\t用友畅捷通TPlus InitServerInfo 存在SQL注入漏洞\r\n\t金和JC6协同管理平台oaplusrangedownloadfile存在文件下载漏洞 \r\n\t金和OA C6-GetSqlData.aspx命令执行漏洞 \r\n\t金和OA-C6-download.jsp任意文件读取漏洞\r\n\t金和OA-C6-CheckAppraiseState存在SQL注入漏洞 \r\n\t金和OA-C6-IncentivePlanFulfill.aspx存在SQL注入漏洞 \r\n\t金和OA-C6协同管理平台DBModules.aspx存在SQL注入漏洞 \r\n\t金和OA-C6接口DownLoadBgImage存在任意文件读取漏洞\r\n\t金和OAC6-FileDownLoad.aspx任意文件读取漏洞 \r\n\t金和OA-HomeService.asmx存在SQL注入 \r\n\t金和OA-MailTemplates.aspx存在SQL注入漏洞 \r\n\t金和OA uploadfileeditorsave接口存在任意文件上传漏洞",
-        "release_tag": "v1.8.5"
+        "release_tag": "v1.8.5",
+        "bucket": true
     },
     "https://github.com/superneilcn/GUIEXPTools": {
         "created_at": "2023-06-05 05:42:10",
         "description": "漏洞GUI利用工具",
         "updated_at": "2025-02-22 21:36:48",
         "commit_message": "Update README.md",
-        "commit_date": "2023-06-04 17:00:08"
+        "commit_date": "2023-06-04 17:00:08",
+        "bucket": true
     },
     "https://github.com/Arlenhiack/ActiveMQ-RCE-Exploit": {
         "created_at": "2024-09-13 05:24:02",
@@ -20040,7 +20062,8 @@
         "commit_date": "2024-09-13 05:35:24",
         "release_date": "2024-09-13 05:29:28",
         "release_message": "- 新增加不出网利用\r\n- 支持自定义template 字节码直接加载\r\n- 修复版本判断bug",
-        "release_tag": "V2.0"
+        "release_tag": "V2.0",
+        "bucket": true
     },
     "https://github.com/YYHYlh/Apache-Dubbo-CVE-2023-23638-exp": {
         "created_at": "2023-06-14 10:01:22",
@@ -20050,7 +20073,8 @@
         "commit_date": "2023-08-08 02:30:25",
         "release_date": "2023-06-14 10:10:48",
         "release_message": "1. 新增命令行运行模式。\r\n2. 命令行模式下，支持Dubbo3.x环境下，该漏洞的无损扫描。\r\n3. 命令行模式下，支持Dubbo3.x环境下，从文件导入URL列表，进行多线程批量无损扫描。\r\n\r\n:partying_face: 此版本为该项目的最后一个版本。对于Apache Dubbo的更多扫描和利用即将在之后另一个项目中开源，敬请期待！:partying_face:",
-        "release_tag": "v1.0.2"
+        "release_tag": "v1.0.2",
+        "bucket": true
     },
     "https://github.com/JaneMandy/CVE-2023-51467-Exploit": {
         "created_at": "2024-01-06 04:09:10",
@@ -20060,7 +20084,8 @@
         "commit_date": "2024-01-06 10:33:07",
         "release_date": "2024-01-06 04:11:03",
         "release_message": "Apache-Ofbiz v1.0.1\r\n修复部分bug",
-        "release_tag": "Apache-Ofbiz"
+        "release_tag": "Apache-Ofbiz",
+        "bucket": true
     },
     "https://github.com/Y5neKO/ShiroEXP": {
         "created_at": "2024-11-26 02:30:58",
@@ -20070,7 +20095,8 @@
         "commit_date": "2024-11-27 02:02:27",
         "release_date": "2024-11-26 06:45:09",
         "release_message": "### v0.2版本发布\r\n修复dnslog平台失效，新增全局代理。\r\n\r\n功能新增：\r\n\r\n- 全局代理",
-        "release_tag": "v0.2"
+        "release_tag": "v0.2",
+        "bucket": true
     },
     "https://github.com/guguyu1/tomcat_password": {
         "created_at": "2021-03-05 16:44:59",
@@ -20080,7 +20106,8 @@
         "commit_date": "2021-03-05 18:03:09",
         "release_date": "2021-03-05 16:46:00",
         "release_message": "tomcat图形化爆破工具",
-        "release_tag": "1"
+        "release_tag": "1",
+        "bucket": true
     },
     "https://github.com/yuxianzi/FrchannelPlus": {
         "created_at": "2024-06-04 09:18:05",
@@ -20090,7 +20117,8 @@
         "commit_date": "2024-06-04 09:18:05",
         "release_date": "2024-06-04 09:30:40",
         "release_message": "fix ssl",
-        "release_tag": "1.0"
+        "release_tag": "1.0",
+        "bucket": true
     },
     "https://github.com/netuseradministrator/CVE-2024-36401": {
         "created_at": "2024-10-05 10:15:13",
@@ -20100,7 +20128,8 @@
         "commit_date": "2024-10-08 03:16:26",
         "release_date": "2024-10-05 10:20:27",
         "release_message": "CVE-2024-36401图形化利用工具",
-        "release_tag": "CVE-2024-36401"
+        "release_tag": "CVE-2024-36401",
+        "bucket": true
     },
     "https://github.com/whitebear-ch/GeoServerExploit": {
         "created_at": "2025-01-08 13:14:43",
@@ -20110,7 +20139,8 @@
         "commit_date": "2025-01-08 13:14:43",
         "release_date": "2025-01-17 08:36:48",
         "release_message": "- 修复代理功能\r\n- 优化小部分代码\r\n- 修改为 JDK 8 可运行的 Jar 包",
-        "release_tag": "v1.0.1"
+        "release_tag": "v1.0.1",
+        "bucket": true
     },
     "https://github.com/7wkajk/jeecgBootAttack": {
         "created_at": "2025-02-01 02:56:07",
@@ -20120,7 +20150,8 @@
         "commit_date": "2025-02-01 03:13:49",
         "release_date": "2025-02-01 02:58:50",
         "release_message": "jeecgBoot漏洞利用工具\r\n支持queryFieldBySql Freemarker模板注入、testConnection JDBC 远程代码执行漏洞",
-        "release_tag": "v1.0"
+        "release_tag": "v1.0",
+        "bucket": true
     },
     "https://github.com/ssrsec/JeecgBoot-offline-brute": {
         "created_at": "2024-11-22 16:37:56",
@@ -20130,7 +20161,8 @@
         "commit_date": "2024-11-22 16:37:56",
         "release_date": "2024-11-22 16:39:32",
         "release_message": "1、fix https://github.com/ssrsec/JeecgBoot-offline-brute/issues/1\r\n2、增加一点提示",
-        "release_tag": "1.1"
+        "release_tag": "1.1",
+        "bucket": true
     },
     "https://github.com/1150037361/SpringScan": {
         "created_at": "2023-02-17 11:20:44",
@@ -20140,7 +20172,8 @@
         "commit_date": "2023-06-09 09:18:20",
         "release_date": "2023-06-09 09:02:30",
         "release_message": "最新版本支持扫描开关，能够控制扫描是否打开，同时支持慢速模式，避免被封IP（慢速模式扫描结果出的很慢，可能要等一两分钟才能出结果），同时更新了主动扫描以及api接口分析页面便于进行API接口测试",
-        "release_tag": "v2.0"
+        "release_tag": "v2.0",
+        "bucket": true
     },
     "https://github.com/light-Life/CVE-2022-22965-GUItools": {
         "created_at": "2022-03-31 14:24:19",
@@ -20150,7 +20183,8 @@
         "commit_date": "2022-04-02 15:29:31",
         "release_date": "2022-03-31 14:28:36",
         "release_message": "",
-        "release_tag": "CVE-2022-22965-GUItools"
+        "release_tag": "CVE-2022-22965-GUItools",
+        "bucket": true
     },
     "https://github.com/whwlsfb/SpringSpider": {
         "created_at": "2022-10-21 04:11:34",
@@ -20160,14 +20194,16 @@
         "commit_date": "2022-11-02 04:03:39",
         "release_date": "2022-10-21 08:36:17",
         "release_message": "",
-        "release_tag": "V1.0"
+        "release_tag": "V1.0",
+        "bucket": true
     },
     "https://github.com/guguyu1/thinkphp-rce-gui": {
         "created_at": "2021-02-27 15:39:48",
         "description": "thinkphp rce利用工具",
         "updated_at": "2025-02-22 21:36:48",
         "commit_message": "Update README.md",
-        "commit_date": "2021-02-27 15:43:14"
+        "commit_date": "2021-02-27 15:43:14",
+        "bucket": true
     },
     "https://github.com/Anthony558238/xxl-job-exp": {
         "created_at": "2024-11-05 03:39:13",
@@ -20177,7 +20213,8 @@
         "commit_date": "2024-11-05 12:58:43",
         "release_date": "2024-11-05 03:41:56",
         "release_message": "首次发布",
-        "release_tag": "v1.0"
+        "release_tag": "v1.0",
+        "bucket": true
     },
     "https://github.com/pureqh/xxl-job-attack": {
         "created_at": "2025-02-10 09:46:59",
@@ -20187,7 +20224,8 @@
         "commit_date": "2025-02-14 07:33:26",
         "release_date": "2025-02-10 09:49:43",
         "release_message": "为了提高可用性提供了冰蝎Filter和Vagent两种内存马",
-        "release_tag": "xxl-job-attack-1.1"
+        "release_tag": "xxl-job-attack-1.1",
+        "bucket": true
     },
     "https://github.com/Janhsu/DockerAPITool": {
         "created_at": "2024-12-29 15:32:07",
@@ -20197,7 +20235,8 @@
         "commit_date": "2024-12-29 15:32:07",
         "release_date": "2024-12-29 15:35:56",
         "release_message": "欢迎提bug",
-        "release_tag": "v0.1"
+        "release_tag": "v0.1",
+        "bucket": true
     },
     "https://github.com/CRlife/YisaiExploitGUI": {
         "created_at": "2025-01-16 03:04:26",
@@ -20207,14 +20246,16 @@
         "commit_date": "2025-01-16 14:48:25",
         "release_date": "2025-01-16 03:26:09",
         "release_message": "YisaiExploitGUI v1.0",
-        "release_tag": "v1.0"
+        "release_tag": "v1.0",
+        "bucket": true
     },
     "https://github.com/M0untainShley/FEExploit": {
         "created_at": "2024-11-11 03:30:32",
         "description": "某 FE 平台一键漏洞探测工具，支持单 url 以及批量探测",
         "updated_at": "2025-02-22 21:36:48",
         "commit_message": "first commit",
-        "commit_date": "2024-11-11 03:36:53"
+        "commit_date": "2024-11-11 03:36:53",
+        "bucket": true
     },
     "https://github.com/raise-isayan/ViewStateDecoder": {
         "created_at": "2023-08-19 03:12:20",
@@ -20224,7 +20265,8 @@
         "commit_date": "2024-05-19 15:32:37",
         "release_date": "2023-08-19 03:13:56",
         "release_message": "",
-        "release_tag": "v3.0.0.0"
+        "release_tag": "v3.0.0.0",
+        "bucket": true
     },
     "https://github.com/W0r1d-Pr1nt/RCEmap": {
         "created_at": "2025-01-27 14:57:27",
@@ -20234,7 +20276,8 @@
         "commit_date": "2025-01-27 14:57:27",
         "release_date": "2025-01-27 15:01:13",
         "release_message": "修复了环境变量情况下https好像会卡住的bug\r\n(别的没看,具体不知道,)\r\n\r\n新增win和linux双版本字体库\r\n(这玩意怎么描述呢,大抵就是linux也能有中文了?具体我也没试其实,谁试完不好使发issue或者联系我都行)\r\n\r\n新增复制按钮,能一键复制poc和回显之类的",
-        "release_tag": "v0.6.5"
+        "release_tag": "v0.6.5",
+        "bucket": true
     },
     "https://github.com/20142995/file": {
         "created_at": "2023-05-12 10:48:26",
@@ -20244,7 +20287,8 @@
         "commit_date": "2023-05-12 10:48:26",
         "release_date": "2025-02-20 06:04:59",
         "release_message": "",
-        "release_tag": "filelocator"
+        "release_tag": "filelocator",
+        "bucket": true
     },
     "https://github.com/B0T1eR/ysoSimple": {
         "created_at": "2025-01-21 04:27:48",
@@ -20254,7 +20298,8 @@
         "commit_date": "2025-01-23 03:20:07",
         "release_date": "2025-01-21 04:52:24",
         "release_message": "ysoSimple：简易的Java漏洞利用工具，代码简单易懂，易于学习和修改使用\r\n\r\n**集成模块：**\r\n\r\n1. Java反序列化\r\n2. Hessian反序列化\r\n3. XStream反序列化\r\n4. SnakeYaml反序列化\r\n5. Shiro550\r\n6. JSF反序列化\r\n7. SSTI模板注入\r\n8. JdbcAttackPayload\r\n9. JNDIAttack\r\n10. 字节码生成\r\n\r\n**使用手册：**\r\n\r\n[ysoSimple-Wiki](https://github.com/B0T1eR/ysoSimple/blob/master/ysoSimple-Wiki.md)",
-        "release_tag": "v1.0.1"
+        "release_tag": "v1.0.1",
+        "bucket": true
     },
     "https://github.com/Lotus6/ysoserial": {
         "created_at": "2024-10-13 09:05:44",
@@ -20264,7 +20309,8 @@
         "commit_date": "2024-11-27 15:50:34",
         "release_date": "2024-11-27 15:47:21",
         "release_message": "新增 fastjson c3p0 时 POC 的 Hex 编码生成\r\n新增 Grovvy2 链",
-        "release_tag": "v1.2"
+        "release_tag": "v1.2",
+        "bucket": true
     },
     "https://github.com/pap1rman/JNDIExploit-modify": {
         "created_at": "2023-01-14 18:21:50",
@@ -20274,7 +20320,8 @@
         "commit_date": "2023-01-16 17:59:22",
         "release_date": "2023-01-15 06:23:06",
         "release_message": "JNDIExploit-1.5-SNAPSHOT",
-        "release_tag": "1.5"
+        "release_tag": "1.5",
+        "bucket": true
     },
     "https://github.com/doki-byte/EasyTools": {
         "created_at": "2025-02-15 17:39:18",
@@ -20284,7 +20331,8 @@
         "commit_date": "2025-02-15 17:42:56",
         "release_date": "2025-02-15 17:41:14",
         "release_message": "1. 集成ShellCode在线免杀处理平台\r\n2. 新增文件体积修改功能\r\n3. 新增免杀：5种运行模式、2种加密方式、2种编译方式\r\n4. 修复已知bug，新增未知bug\r\n5. ……",
-        "release_tag": "v1.3"
+        "release_tag": "v1.3",
+        "bucket": true
     },
     "https://github.com/vsdwef/StarCodeSecurity": {
         "created_at": "2024-12-30 03:06:41",
@@ -20294,7 +20342,8 @@
         "commit_date": "2025-01-16 08:19:40",
         "release_date": "2025-01-03 05:18:02",
         "release_message": "新增点击跳转至漏洞具体行的跳转指示标志 ☞\r\n新增漏洞导出功能\r\n\r\n",
-        "release_tag": "V1.2"
+        "release_tag": "V1.2",
+        "bucket": true
     },
     "https://github.com/qiuluo-oss/Tiger": {
         "created_at": "2024-08-28 02:44:07",
@@ -20304,7 +20353,8 @@
         "commit_date": "2024-08-29 01:27:43",
         "release_date": "2024-09-10 07:42:20",
         "release_message": "新增中国移动 禹路由指纹，优化碧海威指纹、BSPHP网络验证系统指纹，新增12个POC，截至目前POC数量已达200+，解压密码：luosige",
-        "release_tag": "v1.1.0"
+        "release_tag": "v1.1.0",
+        "bucket": true
     },
     "https://github.com/20142995/dpdd": {
         "created_at": "2025-02-11 06:49:02",
@@ -20314,7 +20364,8 @@
         "commit_date": "2025-02-11 07:27:03",
         "release_date": "2025-02-11 06:54:45",
         "release_message": "初版",
-        "release_tag": "v1.0"
+        "release_tag": "v1.0",
+        "bucket": true
     },
     "https://github.com/openwall/johnny": {
         "created_at": "2015-08-24 17:29:45",
@@ -20324,21 +20375,24 @@
         "commit_date": "2022-05-29 17:39:52",
         "release_date": "2015-08-24 17:35:37",
         "release_message": "This release adds three major features, import hashes from many file types via *2john conversion, support for Jumbo specific attack modes and Passwords table export to CSV and PASSWD format.\n\nThe UI has seen further improvements in usability and consistency terms. Smaller fixes and adjustments are included, for a complete list of changes see the CHANGELOG entry for v2.2:\n\nhttps://github.com/shinnok/johnny/blob/v2.2/CHANGELOG\n\nNB: This release is the last one as part of GSoC 2015 iteration and thus marks the successful end of the fruitful collaboration and efforts of Mathieu Laprise. Thanks again Mathieu for taking Johnny further and contributing to the Open Source and security community!\n\nFor binary redistributables and more info regarding Johnny see this wiki page:\nhttp://openwall.info/wiki/john/johnny\n",
-        "release_tag": "v2.2"
+        "release_tag": "v2.2",
+        "bucket": true
     },
     "https://github.com/Chora10/FuzzDomain": {
         "created_at": "2017-02-20 05:18:59",
         "description": "FuzzDomain",
         "updated_at": "2025-02-23 01:14:26",
         "commit_message": "fix count",
-        "commit_date": "2017-02-27 08:04:01"
+        "commit_date": "2017-02-27 08:04:01",
+        "bucket": true
     },
     "https://github.com/kristyzhy/wxapkg_infosearch": {
         "created_at": "2025-01-16 01:14:51",
         "description": null,
         "updated_at": "2025-02-23 01:14:26",
         "commit_message": "Add files via upload",
-        "commit_date": "2025-01-15 01:16:25"
+        "commit_date": "2025-01-15 01:16:25",
+        "bucket": true
     },
     "https://github.com/ScriptKid-Beta/WebBatchRequest": {
         "created_at": "2021-10-09 06:10:36",
@@ -20348,7 +20402,8 @@
         "commit_date": "2021-11-10 08:22:26",
         "release_date": "2021-11-10 07:51:50",
         "release_message": "[ - ] 优化重定向跳转\r\n[ - ] 优化Title识别\r\n[ - ] 允许手动设置Host头(https://github.com/ScriptKid-Beta/WebBatchRequest/issues/8)\r\n[ - ] 优化GUI界面\r\n[ - ] 默认线程调整为5",
-        "release_tag": "v1.4"
+        "release_tag": "v1.4",
+        "bucket": true
     },
     "https://github.com/N-Next/URLFinder-x": {
         "created_at": "2025-01-17 06:36:35",
@@ -20358,7 +20413,8 @@
         "commit_date": "2025-01-20 08:44:26",
         "release_date": "2025-01-17 07:18:34",
         "release_message": "2024/1/17",
-        "release_tag": "2025/1/17"
+        "release_tag": "2025/1/17",
+        "bucket": true
     },
     "https://github.com/ttstormxx/jjjjjjjjjjjjjs": {
         "created_at": "2023-07-20 05:44:19",
@@ -20368,7 +20424,8 @@
         "commit_date": "2023-07-20 05:44:19",
         "release_date": "2023-07-20 05:54:45",
         "release_message": "获得爬取进度指示器\r\nURL/JS正则修正，大幅提升匹配率\r\n爬取深度修正，普通深度上限2层，增加deep模式，URL上限2层，JS上限3层，同源URL深度3层，JS深度5层",
-        "release_tag": "v2.4.0"
+        "release_tag": "v2.4.0",
+        "bucket": true
     },
     "https://github.com/vsdwef/James_synthesis_tooL": {
         "created_at": "2024-12-02 07:06:44",
@@ -20378,7 +20435,8 @@
         "commit_date": "2025-01-16 08:20:02",
         "release_date": "2024-12-27 03:58:49",
         "release_message": "修复文件上传漏洞对于文件名携带 \\ 字符 出现无法上传得问题",
-        "release_tag": "V2.2.1"
+        "release_tag": "V2.2.1",
+        "bucket": true
     },
     "https://github.com/Offensive-Panda/ShadowDumper": {
         "created_at": "2024-11-10 16:35:17",
@@ -20388,21 +20446,24 @@
         "commit_date": "2024-11-19 06:48:29",
         "release_date": "2024-11-10 17:44:14",
         "release_message": "Version: v1.0\r\nCompatibility: Windows (x64) [tested with x64 build] on Windows 10 Version 22H2 (OS build 19045.5073) with major 10.0\r\n(Note: You may face issues on latest releases in some methods, this can be due to version of mimikatz)\r\n\r\nWhat's Inside:\r\nShadowDumper.exe: The main executable for dumping lsass memory. (x64 build)\r\n\r\nKey Features:\r\nUnhooked Injection (Modified Mimikatz Binary)\r\nUnhooked Injection (Direct Syscalls with MDWD)\r\nSimple MiniDumpWriteDump API\r\nMINIDUMP_CALLBACK_INFORMATION Callbacks\r\nProcess Forking Technique\r\nDirect Syscalls with MiniDumpWriteDump\r\nNative Dump with Direct syscalls (Offline Parsing)",
-        "release_tag": "LsassDumping"
+        "release_tag": "LsassDumping",
+        "bucket": true
     },
     "https://github.com/TheRealAdamBurford/Create-KeyTab": {
         "created_at": "2019-11-22 19:41:30",
         "description": "Create KeyTab PowerShell Script",
         "updated_at": "2025-02-23 01:14:26",
         "commit_message": "Merge pull request #3 from matherm-aboehm/master\n\nAdd KRB5_NT_SRV_HST to possible PType values",
-        "commit_date": "2020-11-03 17:08:18"
+        "commit_date": "2020-11-03 17:08:18",
+        "bucket": true
     },
     "https://github.com/GTFOBins/GTFOBins.github.io": {
         "created_at": "2018-05-21 19:14:11",
         "description": "GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems",
         "updated_at": "2025-02-23 01:14:26",
         "commit_message": "Bump rexml from 3.3.6 to 3.3.9\n\nBumps [rexml](https://github.com/ruby/rexml) from 3.3.6 to 3.3.9.\n- [Release notes](https://github.com/ruby/rexml/releases)\n- [Changelog](https://github.com/ruby/rexml/blob/master/NEWS.md)\n- [Commits](https://github.com/ruby/rexml/compare/v3.3.6...v3.3.9)\n\n---\nupdated-dependencies:\n- dependency-name: rexml\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "commit_date": "2024-10-28 18:53:25"
+        "commit_date": "2024-10-28 18:53:25",
+        "bucket": true
     },
     "https://github.com/BC-SECURITY/Moriarty": {
         "created_at": "2024-04-24 12:35:58",
@@ -20412,14 +20473,16 @@
         "commit_date": "2024-04-24 12:35:58",
         "release_date": "2024-04-24 12:36:36",
         "release_message": "## 1.2 - 2024-04-24\r\n### Added\r\n-   Added GitHub action to compile executable on release\r\n-   Added 2023-23397\r\n-   Added 2022-34718\r\n\r\n### Removed\r\n-   Removed unused imports\r\n\r\n### Changed\r\n-   Updated min .NET version to 4.5\r\n-   Updated CVE-2021-44228 to have a max depth for scanning files\r\n-   Updated Task calls so it works with Empire",
-        "release_tag": "1.2"
+        "release_tag": "1.2",
+        "bucket": true
     },
     "https://github.com/LOLBAS-Project/LOLBAS": {
         "created_at": "2018-06-08 22:11:05",
         "description": "Living Off The Land Binaries And Scripts - (LOLBins and LOLScripts)",
         "updated_at": "2025-02-23 01:14:26",
         "commit_message": "Create WFMFormat.yml (#413)\n\nCo-authored-by: Wietze <wietze@users.noreply.github.com>",
-        "commit_date": "2025-02-15 14:33:23"
+        "commit_date": "2025-02-15 14:33:23",
+        "bucket": true
     },
     "https://github.com/lv183037/MaLoader": {
         "created_at": "2024-12-12 04:10:07",
@@ -20429,7 +20492,8 @@
         "commit_date": "2024-12-13 03:44:31",
         "release_date": "2024-12-13 03:46:12",
         "release_message": "",
-        "release_tag": "V1.0"
+        "release_tag": "V1.0",
+        "bucket": true
     },
     "https://github.com/savior-only/Sunlogin_RCE-GUI-": {
         "created_at": "2022-07-10 17:36:41",
@@ -20439,7 +20503,8 @@
         "commit_date": "2023-06-05 15:38:17",
         "release_date": "2022-07-11 05:43:03",
         "release_message": "1、一键获取向日葵配置信息（集成了遇到的几个路径及注册表）\r\n2、执行系统命令（目前主要通过cmd及powershell执行命令\r\n\r\n",
-        "release_tag": "v1.0"
+        "release_tag": "v1.0",
+        "bucket": true
     },
     "https://github.com/theLSA/sunlogin-exp-gui": {
         "created_at": "2022-03-26 09:23:33",
@@ -20449,7 +20514,8 @@
         "commit_date": "2022-03-26 16:54:45",
         "release_date": "2022-03-26 09:32:41",
         "release_message": "First release: sunlogin-exp-gui-v1-0.jar.",
-        "release_tag": "v1.0"
+        "release_tag": "v1.0",
+        "bucket": true
     },
     "https://github.com/F6JO/JsRouteScan": {
         "created_at": "2024-06-07 08:51:34",
@@ -20459,7 +20525,8 @@
         "commit_date": "2024-06-07 08:56:12",
         "release_date": "2024-06-07 08:54:57",
         "release_message": "2024-06-07 path的路由界面添加粘贴功能，可右键Paste粘贴剪切板的路由",
-        "release_tag": "JsRouteScan1.2.1"
+        "release_tag": "JsRouteScan1.2.1",
+        "bucket": true
     },
     "https://github.com/ScriptKid-Beta/Unexpected_information": {
         "created_at": "2020-11-11 09:21:41",
@@ -20469,7 +20536,8 @@
         "commit_date": "2021-01-04 11:07:53",
         "release_date": "2021-01-04 11:04:56",
         "release_message": "[ x] 新增一个用户需求接口匹配URL(#3)\r\n[ x] 优化URL匹配",
-        "release_tag": "v2.3.1"
+        "release_tag": "v2.3.1",
+        "bucket": true
     },
     "https://github.com/XF-FS/APIKit": {
         "created_at": "2025-01-23 08:38:27",
@@ -20479,18 +20547,21 @@
         "commit_date": "2025-01-23 10:03:43",
         "release_date": "2025-01-23 09:49:20",
         "release_message": "对actuator、Swagger新增bypass扫描，需要右键选择Do Target API Scan选项，对其添加bypss方法\r\n<img width=\"1273\" alt=\"image\" src=\"https://github.com/user-attachments/assets/190f91a3-6333-4de1-9a9a-0fe5ad384b7d\" />\r\n\r\n该bypss方法，主要是通过在访问路径后添加绕过字符如;.js、;.json绕过接口鉴权\r\n<img width=\"1821\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5c0eb9e0-88cf-4362-9151-3943f50af019\" />\r\n\r\n欢迎试用，也欢迎提出功能建议。",
-        "release_tag": "APIKit1.6.2"
+        "release_tag": "APIKit1.6.2",
+        "bucket": true
     },
     "https://github.com/outlaws-bai/GalaxyHttpHooker": {
         "created_at": "2023-12-06 12:36:02",
         "description": "GalaxyHttpHooker",
         "updated_at": "2025-02-23 01:14:26",
         "commit_message": "Create aes_cbc.js",
-        "commit_date": "2024-12-17 01:52:29"
+        "commit_date": "2024-12-17 01:52:29",
+        "bucket": true
     },
     "https://github.com/smxiazi/xia_Jie": {
         "created_at": "2024-09-10 10:30:03",
         "description": "xia Jie (瞎解) burp 插件 数据包 加解密 ，对burp的请求包和响应包用python完全自定义修改流量",
-        "updated_at": "2025-02-23 01:14:26"
+        "updated_at": "2025-02-23 01:14:26",
+        "bucket": true
     }
 }
