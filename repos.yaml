@@ -513,7 +513,6 @@ CTF:
     效率办公:
         - https://github.com/20142995/scoop-search
         - https://github.com/25H/Maya
-        - https://irolan.duapp.com/
         - https://www.ghxi.com/beyondcompare.html
         - https://www.ghxi.com/filelocator.html
         - https://www.yuque.com/lucy/lucy/record
@@ -622,12 +621,10 @@ CTF:
         - https://github.com/7wkajk/Frchannel
         - https://github.com/864381832/xJavaFxTool
         - https://github.com/AlessandroZ/BeRoot
-        - https://github.com/BeichenDream/PrintNotifyPotatog
         - https://github.com/Cuerz/CVE-2021-36260
         - https://github.com/Dliv3/Venom
         - https://github.com/Guardsquare/proguard
         - https://github.com/IgorMundstein/WinMemoryCleaner
-        - https://github.com/Lymphatus/caesium-image-compressor/
         - https://github.com/Mikubill/transfer
         - https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp
         - https://github.com/Nriver/trilium-translation
@@ -646,7 +643,6 @@ CTF:
         - https://github.com/go-gost/gost
         - https://github.com/hrpzcf/HashCalculator
         - https://github.com/huiyadanli/RevokeMsgPatcher
-        - https://github.com/igdmapps/igdm/
         - https://github.com/instantsc/SimpleDnsCrypt
         - https://github.com/iomoath/SharpStrike
         - https://github.com/jattach/jattach
@@ -661,7 +657,6 @@ CTF:
         - https://github.com/nodauf/Girsh
         - https://github.com/openrport/openrport
         - https://github.com/opsdisk/pagodo
-        - https://github.com/ph4ntonn/Stowaways
         - https://github.com/r00t-3xp10it/meterpeter
         - https://github.com/rhaidiz/broxy
         - https://github.com/rootkiter/Termite
@@ -911,7 +906,6 @@ CTF:
             FastAdmin:
                 - https://github.com/3xsh0re/FastAdmin-exp
             Fastjson:
-                - https://github.com/20142995/file/releases/download/FastJson_JackSon.zip
                 - https://github.com/Lonely-night/fastjsonVul
                 - https://github.com/W1one/FastJsonAttack
                 - https://github.com/a1phaboy/FastjsonScan
@@ -1055,7 +1049,6 @@ CTF:
             若依:
                 - https://github.com/20142995/ruoyiVuln
                 - https://github.com/charonlight/RuoYiExploitGUI
-                - https://github.com/passer-W/Ruoyi-All
             赛蓝企业管理系统:
                 - https://github.com/Seven1an/CailsoftVulCheck
             飞企互联平台:
@@ -1173,7 +1166,6 @@ CTF:
                 - https://github.com/ozzi-/JWT4B
                 - https://github.com/ticarpi/jwt_tool
             SQL注入:
-                - hhttps://github.com/co01cat/SqlmapXPlus
                 - https://github.com/0xbug/SQLiScanner
                 - https://github.com/BugFor-Pings/CN_Sqlmap
                 - https://github.com/CiscoCXSecurity/bbqsql
@@ -1183,6 +1175,7 @@ CTF:
                 - https://github.com/agienka/blindy
                 - https://github.com/aleenzz/MSSQL_SQL_BYPASS_WIKI
                 - https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI
+                - https://github.com/co01cat/SqlmapXPlus
                 - https://github.com/codingo/NoSQLMap
                 - https://github.com/fengxuangit/Fox-scan
                 - https://github.com/honmashironeko/sqlmap-gui
@@ -1406,7 +1399,6 @@ CTF:
                 - https://www.sonarqube.org
             php:
                 - http://rips-scanner.sourceforge.net
-                - http://www.cnseay.com
                 - https://github.com/OneSourceCat/phpvulhunter
                 - https://github.com/Qihoo360/phptrace
                 - https://github.com/emanuil/php-reaper
@@ -1589,7 +1581,6 @@ CTF:
             - https://github.com/jweny/pocassist
             - https://github.com/knownsec/Pocsuite
             - https://github.com/knownsec/pocsuite3
-            - https://github.com/knownsec/pocsuite3/
             - https://github.com/leonteale/pentestpackage
             - https://github.com/lijiaxing1997/Gr33k
             - https://github.com/m4n3dw0lf/PytheM
@@ -1931,7 +1922,6 @@ CTF:
             - https://github.com/inconshreveable/ngrok
             - https://github.com/knownsec/PortForward
             - https://github.com/p1d3er/port_reuse
-            - https://github.com/ph4ntonn/Stowaway
             - https://github.com/phith0n/tls_proxy
             - https://github.com/robiot/rustcat
             - https://github.com/rofl0r/proxychains-ng
@@ -2692,7 +2682,6 @@ CTF:
                     - https://github.com/souno-io/Stegsolve
                 图片隐写:
                     - http://www.uzzf.com/soft/68820.html
-                    - http://www.zasi.org/DeEgger-Embedder.php
                     - https://github.com/Cliffordwr/cloacked-pixel-python3
                     - https://github.com/RobinDavid/LSB-Steganography
                     - https://github.com/abeluck/stegdetect
@@ -2747,7 +2736,6 @@ CTF:
             tshark辅助:
                 - https://github.com/20142995/tshark_extraction
             冰蝎(Behinder)流量取证:
-                - https://github.com/20142995/file/releases/download/DecodertoWebshell_1.2.jar
                 - https://github.com/minhangxiaohui/DecodeSomeJSPWebshell
                 - https://github.com/webraybtl/webshell_detect
             哥斯拉(Godzilla)流量取证:
