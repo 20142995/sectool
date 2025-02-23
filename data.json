@@ -2706,14 +2706,14 @@
         "release_message": ""
     },
     "https://github.com/madneal/gshark": {
-        "created_at": "2025-02-15 06:20:06",
+        "created_at": "2025-02-22 07:06:04",
         "description": "Scan for sensitive information easily and effectively.",
         "commit_message": "Merge pull request #217 from madneal/dependabot/npm_and_yarn/web/webpack-5.94.0\n\nBump webpack from 5.76.0 to 5.94.0 in /web",
         "commit_date": "2024-08-30 11:14:45",
-        "release_date": "2025-02-15 06:21:12",
-        "release_message": "## Added\r\n\r\n* 支持 OPENAI 兼容模式进行 AI 分析\r\n* 更新 config 模板文件",
-        "release_tag": "v1.6.0",
-        "updated_at": "2025-02-20 18:18:22",
+        "release_date": "2025-02-22 07:09:12",
+        "release_message": "## Fixed\r\n\r\n* 修复邮件发送功能\r\n* 搜索结果按照 id 降序排序\r\n* 更新 config 模板\r\n* 修复 Postman 搜索功能",
+        "release_tag": "v1.6.1",
+        "updated_at": "2025-02-23 21:11:30",
         "bucket": true
     },
     "https://github.com/kozmer/log4j-shell-poc": {
