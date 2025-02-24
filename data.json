@@ -45,14 +45,14 @@
         "bucket": true
     },
     "https://github.com/wpscanteam/wpscan": {
-        "created_at": "2024-09-05 15:05:56",
+        "created_at": "2025-02-24 14:58:12",
         "description": "WPScan WordPress security scanner. Written for security professionals and blog maintainers to test the security of their WordPress websites. Contact us via contact@wpscan.com",
         "commit_date": "2023-12-01 17:44:24",
         "commit_message": "Merge pull request #1820 from wpscanteam/dfs\n\nUpdates DFs",
-        "release_tag": "v3.8.27",
-        "release_date": "2024-09-05 15:06:32",
-        "release_message": "## What's Changed\r\n* Fixed various warnings with Ruby 3.3 by @erwanlr in https://github.com/wpscanteam/wpscan/pull/1858\r\n\r\n**Full Changelog**: https://github.com/wpscanteam/wpscan/compare/v3.8.26...v3.8.27",
-        "updated_at": "2024-09-15 14:32:22"
+        "release_tag": "v3.8.28",
+        "release_date": "2025-02-24 16:05:40",
+        "release_message": "- Minor:\r\n  - Updated deps\r\n  - Support for Ruby 3.4\r\n  - Fixed parsing error when using ruby 3.4 - Ref #1881\r\n  - Updated Docker Image to use Ruby 3.4.2\r\n  - Fixed a typo in the Readme - Ref #1884 ",
+        "updated_at": "2025-02-24 18:18:49"
     },
     "https://github.com/zzzskd/CORSScanner": {
         "created_at": "2021-11-24 09:04:08",
