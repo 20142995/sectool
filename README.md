@@ -1412,7 +1412,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyt](https://github.com/python-security/pyt) A Static Analysis Tool for Detecting Security Vulnerabilities in Python Web App...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [pyvulhunter](https://github.com/shengqi158/pyvulhunter) python audit tool 审计 注入 inject
 ### 信息泄露监控
-- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gshark v1.6.0](https://github.com/madneal/gshark) Scan for sensitive information easily and effectively.
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gshark v1.6.1](https://github.com/madneal/gshark) Scan for sensitive information easily and effectively.
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [code6 1.6.4](https://github.com/4x99/code6) 码小六 - GitHub 代码泄露监控系统
 ### 半自动漏洞扫描
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [reconftw v2.9](https://github.com/six2dez/reconftw) reconFTW is a tool designed to perform automated recon on a target do...
