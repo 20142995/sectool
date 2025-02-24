@@ -20550,7 +20550,8 @@
         "commit_date": "2024-07-19 06:19:38",
         "release_date": "2024-07-19 06:17:19",
         "release_message": "",
-        "release_tag": "V1.0"
+        "release_tag": "V1.0",
+        "bucket": true
     },
     "https://github.com/smxiazi/xia_Yue": {
         "created_at": "2023-03-04 07:26:33",
@@ -20560,7 +20561,8 @@
         "commit_date": "2024-08-27 13:39:40",
         "release_date": "2024-08-27 00:05:20",
         "release_message": "* 修复bug，越权未授权部份情况，未删除认证信息",
-        "release_tag": "1.4"
+        "release_tag": "1.4",
+        "bucket": true
     },
     "https://github.com/WXjzcccc/PanelForensics": {
         "created_at": "2025-01-14 01:52:28",
@@ -20570,7 +20572,8 @@
         "commit_date": "2025-01-14 01:52:28",
         "release_date": "2025-01-14 01:59:35",
         "release_message": "1.修复一些小问题",
-        "release_tag": "v1.0R1"
+        "release_tag": "v1.0R1",
+        "bucket": true
     },
     "https://github.com/zidanfanshao/vcenter_tools": {
         "created_at": "2024-11-13 16:26:44",
@@ -20580,7 +20583,8 @@
         "commit_date": "2024-11-17 15:04:19",
         "release_date": "2024-11-17 14:58:36",
         "release_message": "## 更新\r\n\r\n* 添加了cve-2022-22005的文件上传（利用时如果有问题，注意看console的返回状态码）\r\n![1451731855473_ pic](https://github.com/user-attachments/assets/8ac4afcc-df0c-415d-b4c4-f9fe27fa8049)\r\n",
-        "release_tag": "v0.4"
+        "release_tag": "v0.4",
+        "bucket": true
     },
     "https://github.com/0xlane/wechat-dump-rs": {
         "created_at": "2025-02-19 02:40:54",
@@ -20590,7 +20594,8 @@
         "commit_date": "2025-02-19 02:40:54",
         "release_date": "2025-02-19 02:42:17",
         "release_message": null,
-        "release_tag": "v1.0.29"
+        "release_tag": "v1.0.29",
+        "bucket": true
     },
     "https://github.com/h0ny/MobaXtermDecryptor": {
         "created_at": "2024-08-08 11:18:22",
@@ -20600,14 +20605,16 @@
         "commit_date": "2024-08-08 11:18:12",
         "release_date": "2024-08-08 11:20:14",
         "release_message": "",
-        "release_tag": "v1.0.1"
+        "release_tag": "v1.0.1",
+        "bucket": true
     },
     "https://github.com/oakes/PixelJihad": {
         "created_at": "2012-06-25 04:23:19",
         "description": "A JavaScript steganography tool",
         "updated_at": "2025-02-23 12:01:15",
         "commit_message": "Add gitattributes",
-        "commit_date": "2015-03-29 22:43:41"
+        "commit_date": "2015-03-29 22:43:41",
+        "bucket": true
     },
     "https://github.com/resurrecting-open-source-projects/outguess": {
         "created_at": "2021-09-03 01:09:10",
@@ -20617,14 +20624,16 @@
         "commit_date": "2021-09-03 01:09:10",
         "release_date": "2021-09-03 01:14:32",
         "release_message": "* Clarified licensing for src/golay.c.\r\n* Fixed 'Unknown data type' for .pnm files.\r\n\r\nSpecial thanks to Daniel T. Borelli and Robert Morelos-Zaragoza.",
-        "release_tag": "0.4"
+        "release_tag": "0.4",
+        "bucket": true
     },
     "https://github.com/mlgualtieri/NTLMRawUnHide": {
         "created_at": "2020-06-10 15:58:42",
         "description": "NTLMRawUnhide.py is a Python3 script designed to parse network packet capture files and extract NTLMv2 hashes in a crackable format. The following binary network packet capture formats are supported: *.pcap *.pcapng *.cap *.etl",
         "updated_at": "2025-02-23 12:01:15",
         "commit_message": "Merge pull request #4 from varcella-ctf/master\n\nChanged typo in variable name on line 240, which caused -o flag to fail",
-        "commit_date": "2023-11-13 16:10:39"
+        "commit_date": "2023-11-13 16:10:39",
+        "bucket": true
     },
     "https://github.com/Ormicron/ShiroDecrypter": {
         "created_at": "2021-07-30 06:20:37",
@@ -20634,7 +20643,8 @@
         "commit_date": "2021-07-30 06:20:37",
         "release_date": "2021-08-11 08:21:27",
         "release_message": "修复错误",
-        "release_tag": "2"
+        "release_tag": "2",
+        "bucket": true
     },
     "https://github.com/peass-ng/PEASS-ng": {
         "created_at": "2025-02-16 16:36:01",
@@ -20644,7 +20654,8 @@
         "commit_date": "2025-02-16 16:36:01",
         "release_date": "2025-02-16 16:51:46",
         "release_message": "",
-        "release_tag": "20250216-fd69e735"
+        "release_tag": "20250216-fd69e735",
+        "bucket": true
     },
     "https://github.com/Rup0rt/pcapfix": {
         "created_at": "2021-07-03 10:45:09",
@@ -20654,7 +20665,8 @@
         "commit_date": "2024-05-27 11:45:18",
         "release_date": "2021-07-03 11:19:14",
         "release_message": "* fixed security issues\n\n[![Download pcapfix](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/pcapfix/files/v1.1.7/pcapfix-1.1.7-win32.zip/download)",
-        "release_tag": "v1.1.7"
+        "release_tag": "v1.1.7",
+        "bucket": true
     },
     "https://github.com/ProbiusOfficial/RCE-labs": {
         "created_at": "2024-08-05 13:35:27",
@@ -20678,7 +20690,8 @@
         "commit_date": "2025-01-22 08:41:11",
         "release_date": "2025-01-22 08:35:14",
         "release_message": "",
-        "release_tag": "v1.0"
+        "release_tag": "v1.0",
+        "bucket": true
     },
     "https://github.com/intbjw/webshell-decryptor": {
         "created_at": "2024-12-18 13:38:41",
@@ -20695,7 +20708,8 @@
         "commit_date": "2025-01-21 05:53:40",
         "release_date": "2025-01-21 05:58:30",
         "release_message": "修复ES导出数据减少问题",
-        "release_tag": "v0.2.1"
+        "release_tag": "v0.2.1",
+        "bucket": true
     },
     "https://github.com/achiove/BlueTeamTool": {
         "created_at": "2023-06-27 10:41:11",
@@ -20705,7 +20719,8 @@
         "commit_date": "2023-07-05 08:47:07",
         "release_date": "2023-06-27 11:07:51",
         "release_message": "",
-        "release_tag": "v1.0"
+        "release_tag": "v1.0",
+        "bucket": true
     },
     "https://github.com/0ctDay/encrypt-decrypt-vuls": {
         "created_at": "2024-05-15 07:37:47",
@@ -20722,14 +20737,16 @@
         "commit_date": "2024-09-20 04:12:44",
         "release_date": "2024-09-20 04:14:58",
         "release_message": "## Changelog\n* faf339e60404f14e31953ecf89936ea5c19462da feat: Hook 新版本支持, 修复\n* ddc388d8238fe2d70241bcbe3f95cb145364c32a feat: 敏感信息规则更新\n\n",
-        "release_tag": "v2.4.1"
+        "release_tag": "v2.4.1",
+        "bucket": true
     },
     "https://github.com/threecha/wxappUnpacker": {
         "created_at": "2023-07-13 05:37:09",
         "description": "基于node的微信小程序反编译工具，在前人的基础上修复了几个程序报错问题。",
         "updated_at": "2025-02-23 12:01:15",
         "commit_message": "增加解密工具 应该只有PC端拿到的包需要用",
-        "commit_date": "2023-07-13 05:50:35"
+        "commit_date": "2023-07-13 05:50:35",
+        "bucket": true
     },
     "https://github.com/co01cat/SqlmapXPlus": {
         "created_at": "2025-01-21 08:42:36",
