@@ -1167,6 +1167,7 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker) JWT brute force cracker written in C
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [jwt-fuzzer](https://github.com/andresriancho/jwt-fuzzer) JWT fuzzer
 #### SQL注入
+- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SqlmapXPlus v1.6-sqlmapxplus](https://github.com/co01cat/SqlmapXPlus) sqlmap Xplus 基于 sqlmap，对经典的数据库注入漏洞利用工具进行二开！
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap 1.9](https://github.com/sqlmapproject/sqlmap) Automatic SQL injection and database takeover tool
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [ghauri 1.4.1](https://github.com/r0oth3x49/ghauri) An advanced cross-platform tool that automates the process of detectin...
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [sqlmap-gui sqlmap-gui-v1.7](https://github.com/honmashironeko/sqlmap-gui) 基于官版本 SQLMAP 进行人工汉化，并提供GUI界面及多个自动化脚本
@@ -1192,7 +1193,6 @@
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SQLiScanner](https://github.com/0xbug/SQLiScanner) Automatic SQL injection with Charles and sqlmap api
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [blindy](https://github.com/agienka/blindy) Simple script to automate brutforcing blind sql injection vulnerabilities
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [Fox-scan](https://github.com/fengxuangit/Fox-scan) Fox-scan is a initiative and passive SQL Injection vulnerable Test tools.
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SqlmapXPlus](https://github.com/co01cat/SqlmapXPlus) 
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/sqlmap.org" alt="" style="height: 20px;"> [sqlmap: automatic SQL injection and database takeover tool](https://sqlmap.org/) 
 #### SSRF
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [SSRFmap](https://github.com/swisskyrepo/SSRFmap) Automatic SSRF fuzzer and exploitation tool
