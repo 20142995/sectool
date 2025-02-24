@@ -665,17 +665,6 @@
         "release_date": "",
         "release_message": ""
     },
-    "https://github.com/ph4ntonn/Stowaway": {
-        "created_at": "2024-03-29 07:21:43",
-        "description": "👻Stowaway -- Multi-hop Proxy Tool for pentesters",
-        "commit_date": "2024-08-28 14:23:10",
-        "commit_message": "Update README",
-        "release_tag": "v2.2",
-        "release_date": "2024-03-29 07:36:22",
-        "release_message": "👻 v2.2 is released~ Fix bugs & Add new features\r\n\r\n## BE AWARE\r\n-  If you are trying to use admin on windows,plz make sure you have installed [ansicon](https://github.com/adoxa/ansicon/releases)\r\n- And if you have any problems when using command ```shell```,plz check the [shell.go](https://github.com/ph4ntonn/Stowaway/blob/master/agent/handler/shell.go) and read the annotation first!!! Maybe it can solve ur problems.\r\n\r\n## Update\r\n- 2021.10.1 \r\n    - Switch AES-CBC to AES-GCM.Thanks to @SignorMercurio \r\n    - Fix bugs. Thanks to @SignorMercurio \r\n- 2022.1.23\r\n    - Fix shell&topo bugs.Thanks to @lz520520\r\n- 2022.4.8 \r\n    - Fix data loss bug when closing a short connection.Thanks to @lz520520\r\n    - Add gzip function.Thanks to @lz520520 \r\n    - Optimize the key code\r\n    - Fix some bugs\r\n- 2022.7.19\r\n    - Fix nil pointer bug #41.Thanks to @zyylhn\r\n- 2023.7.20\r\n    - Add http proxy support\r\n- 2023.10.31\r\n    - Replace compressed macos executable file with uncompressed one, since the system version newer than macOS Ventura(13.5) will make upx crash. Users can compress Stowaway themselves if necessary(Target MacOS system version must below 13.0). If you want to learn more, check the details https://github.com/upx/upx/issues/612\r\n- 2024.3.28\r\n    - Allow admin to exit when nothing connected https://github.com/ph4ntonn/Stowaway/commit/2ed667d41eacc5a60e5c0a841f3e16246760fcce\r\n- 2024.3.29\r\n   - Enable TLS feature for the connection between nodes https://github.com/ph4ntonn/Stowaway/commit/af059a7e5987decbc6b426b3ec7f7de326bd82c6. Thanks to @lz520520\r\n   - Socks can listen on specific interface  https://github.com/ph4ntonn/Stowaway/commit/b183e10838b147ed4126448ad44e42b9c5363cb6\r\n- 2024.3.31\r\n   - Update TLS https://github.com/ph4ntonn/Stowaway/commit/de126dbdb3d76111be06daaef2963708bce633e3\r\n- 2024.4.1\r\n   - Enable WS for inter-node traffic https://github.com/ph4ntonn/Stowaway/commit/e4b324dd442eecd61360989c6c73949c06c55407 https://github.com/ph4ntonn/Stowaway/commit/e48c50ba0a0e1a2581608e23fb2601adc5ea5b2d This functionality is still lacking and requires further improvement. For now, it works well within the NGINX environment.\r\n- 2024.4.11\r\n   - Fix nil pointer bug #61\r\n- 2024.8.7\r\n   - Add force quit option under shell/ssh mode https://github.com/ph4ntonn/Stowaway/commit/14a6bd375fcb97f1af41633185b2d4d56bc17620\r\n- 2024.8.19\r\n   - Fix websocket https://github.com/ph4ntonn/Stowaway/commit/507a2283058222b0b3f648e625510c706cadb428",
-        "updated_at": "2024-09-15 14:32:22",
-        "bucket": true
-    },
     "https://github.com/uknowsec/BurpSuite-Extender-fastjson": {
         "created_at": "2020-03-07 13:17:08",
         "description": "Reference：https://www.w2n1ck.com/article/44/",
@@ -20741,5 +20730,15 @@
         "updated_at": "2025-02-23 12:01:15",
         "commit_message": "增加解密工具 应该只有PC端拿到的包需要用",
         "commit_date": "2023-07-13 05:50:35"
+    },
+    "https://github.com/co01cat/SqlmapXPlus": {
+        "created_at": "2025-01-21 08:42:36",
+        "description": "sqlmap Xplus 基于 sqlmap，对经典的数据库注入漏洞利用工具进行二开！",
+        "updated_at": "2025-02-24 01:11:48",
+        "commit_message": "Update README.md",
+        "commit_date": "2025-01-21 08:42:36",
+        "release_date": "2025-01-21 08:44:22",
+        "release_message": "更新工具的交互方式\r\n更新CLR注入利用方式",
+        "release_tag": "v1.6-sqlmapxplus"
     }
 }
