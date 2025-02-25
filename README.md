@@ -580,7 +580,7 @@
 ## 代理抓包
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [network_proxy_flutter v1.1.6](https://github.com/wanghongenpin/network_proxy_flutter) 
 ## 代理订阅管理
-- <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [clashN 2.22](https://github.com/2dust/clashN) A clash client for Windows, support Mihomo
+- <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [clashN 2.22](https://github.com/2dust/clashN) A clash client for Windows, support Mihomo
 - <img src="https://favicon.qqsuu.cn/github.com" alt="" style="height: 20px;"> [gg v0.2.19](https://github.com/mzz2017/gg) 一个支持节点与订阅链接的 Linux 命令行代理工具 | A command-line tool for one-click proxy in ...
 ## 修改MAC
 - <img alt="" src="https://avatars.githubusercontent.com/u/16618068?s=20" width="20" height="20">|<img src="https://favicon.qqsuu.cn/tech.wandersick.com" alt="" style="height: 20px;"> [ChMac &#8211; Windows Command to Change MAC Addresses of Network Adapters](https://tech.wandersick.com/2019/06/chmac-windows-command-to-change-mac.html) 
